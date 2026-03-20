@@ -1,4 +1,4 @@
-﻿const fs=require("fs");
+const fs=require("fs");
 const path=require("path");
 
 const rootDir=path.resolve(__dirname,"..");
@@ -14,10 +14,10 @@ const PAGE_DEFS=[
   {key:"concepts",label:"핵심 개념",filename:"concepts.html",type:"article",description:"핵심 개념과 용어를 빠르게 복습하는 페이지입니다."},
   {key:"pitfalls",label:"헷갈리는 포인트",filename:"pitfalls.html",type:"article",description:"헷갈리기 쉬운 구분과 자주 틀리는 포인트를 정리하는 페이지입니다."},
   {key:"quiz-ox",label:"OX 퀴즈",filename:"quiz-ox.html",type:"quiz",description:"맞다/틀리다 형식으로 핵심 내용을 점검하는 퀴즈입니다."},
-  {key:"quiz-short",label:"단답형 퀴즈",filename:"quiz-short.html",type:"quiz",description:"짧게 써 보며 내용을 회상하는 단답형 퀴즈입니다."},
+  {key:"quiz-short",label:"단답형 퀴즈",filename:"quiz-short.html",type:"quiz",description:"한 용어, 이름, 숫자, 짧은 구로만 답하는 진짜 단답형 퀴즈입니다."},
   {key:"quiz-mcq",label:"객관식 퀴즈",filename:"quiz-mcq.html",type:"quiz",description:"선지를 비교하며 이해를 점검하는 객관식 퀴즈입니다."},
   {key:"review-sheet",label:"시험 직전 정리",filename:"review-sheet.html",type:"article",description:"시험 직전에 빠르게 훑을 수 있도록 압축한 정리 페이지입니다."},
-  {key:"professor-prep",label:"수업 대비",filename:"professor-prep.html",type:"article",description:"수업 발언, 비판 포인트, 토론 질문을 준비하는 페이지입니다."}
+  {key:"professor-prep",label:"교수님 구술 대비",filename:"professor-prep.html",type:"professor-prep",description:"질문에 바로 답하고 꼬리질문까지 대비하는 구술형 수업 대비 페이지입니다."}
 ];
 
 const FLOW_STEPS=[
@@ -28,7 +28,7 @@ const FLOW_STEPS=[
   {step:5,mode:"page",key:"pitfalls",title:"헷갈리는 포인트",blurb:"비슷해 보여 헷갈리기 쉬운 구분을 다시 점검합니다."},
   {step:6,mode:"quiz-group",title:"퀴즈",blurb:"OX, 단답형, 객관식으로 기억과 이해를 확인합니다.",keys:["quiz-ox","quiz-short","quiz-mcq"]},
   {step:7,mode:"page",key:"review-sheet",title:"시험 직전 정리",blurb:"시험 직전에 마지막으로 훑을 압축 정리를 확인합니다."},
-  {step:8,mode:"page",key:"professor-prep",title:"수업 대비",blurb:"발언 포인트, 질문, 비판적 시각을 준비합니다."}
+  {step:8,mode:"page",key:"professor-prep",title:"교수님 구술 대비",blurb:"질문에 바로 답하고, 왜 중요한지와 한계까지 말하는 구술 답변을 준비합니다."}
 ];
 
 const COMMON_TEXT_MAP={
@@ -43,6 +43,14 @@ const COMMON_TEXT_MAP={
   "Chapter PDF":"교재 PDF",
   "Article PDF":"기사 PDF",
   "Paper PDF":"논문 PDF"
+};
+
+const SHORT_ANSWER_TYPES=new Set(["term","person","number","short_phrase"]);
+const SHORT_ANSWER_TYPE_LABELS={term:"용어",person:"인물",number:"숫자",short_phrase:"짧은 구"};
+const PROFESSOR_FOLLOWUP_BANK=["그게 뭐야?","왜 그렇게 보는데?","뭐가 새로웠는데?","다시 말해봐.","그게 왜 중요한데?","연구에서는 뭐라고 하는데?","한국에서는 어떻게 보이는데?","그 설명의 한계는 뭐야?"];
+const PROFESSOR_STYLE={
+  prefers:["질문에서 묻는 핵심을 먼저 한 문장으로 바로 답하기","핵심 개념을 자기 말로 분명하게 정의하기","왜 중요한지, 무엇이 새로운지까지 설명하기","추상어 대신 읽기 속 사례나 문장을 근거로 들기","한국 사회나 학생 경험과 연결할 때는 구체적으로 연결하기","반론이나 한계를 짧게 인정하고 다시 핵심으로 돌아오기"],
+  avoids:["흥미롭다, 복잡하다, 다양하다처럼 내용 없는 형용사만 반복하기","질문과 다른 이야기로 새어나가기","읽기 근거 없이 교과서식 정의만 길게 말하기","무조건 '상황에 따라 다르다'고 끝내기","AI 문장처럼 균일하고 밋밋한 표현만 늘어놓기"]
 };
 
 function readText(filePath){return fs.readFileSync(filePath,"utf8").replace(/^\uFEFF/,"");}
@@ -79,7 +87,14 @@ function markdownToHtml(text){
 }
 
 function loadMarkdown(filePath){if(!fs.existsSync(filePath))return null;const text=readText(filePath).trim();return text||null;}
-function loadQuiz(filePath){if(!fs.existsSync(filePath))return null;const payload=JSON.parse(readText(filePath));const items=payload.items||[];return items.length?payload:null;}
+function loadJson(filePath){if(!fs.existsSync(filePath))return null;return JSON.parse(readText(filePath));}
+function fileLabel(filePath){return path.relative(rootDir,filePath).split(path.sep).join("/");}
+function toText(value){return typeof value==="string"?value.trim():"";}
+function textArray(value){return(Array.isArray(value)?value:[value]).map((item)=>toText(item)).filter(Boolean);}
+function wordCount(value){return toText(value).split(/\s+/).filter(Boolean).length;}
+function requireText(value,label,filePath){const text=toText(value);if(!text)throw new Error(`[invalid] ${fileLabel(filePath)}: ${label} is required`);return text;}
+function loadQuiz(page,filePath){const payload=loadJson(filePath);if(!payload)return null;const items=Array.isArray(payload.items)?payload.items:[];if(!items.length)return null;if(page.key==="quiz-short"){if(items.length!==15)throw new Error(`[invalid] ${fileLabel(filePath)}: quiz_short.json must contain exactly 15 items`);const normalizedItems=items.map((item,index)=>{const question=requireText(item.question,`items[${index}].question`,filePath);const accepted_answers=textArray(item.accepted_answers);const answer_type=requireText(item.answer_type,`items[${index}].answer_type`,filePath);const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);const source=toText(item.source);if(!accepted_answers.length)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers must be a non-empty array`);if(!SHORT_ANSWER_TYPES.has(answer_type))throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].answer_type must be one of ${Array.from(SHORT_ANSWER_TYPES).join(", ")}`);accepted_answers.forEach((answer,answerIndex)=>{if(wordCount(answer)>7)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers[${answerIndex}] must stay under 8 words`);});return{question,accepted_answers,answer_type,explanation,source};});return{...payload,items:normalizedItems};}const normalizedItems=items.map((item,index)=>{const prompt=requireText(item.prompt,`items[${index}].prompt`,filePath);const answer=requireText(item.answer,`items[${index}].answer`,filePath);const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);const options=Array.isArray(item.options)?item.options.map((option)=>toText(option)).filter(Boolean):[];const source=toText(item.source);return{prompt,answer,explanation,options,source};});return{...payload,items:normalizedItems};}
+function loadProfessorPrep(filePath){const payload=loadJson(filePath);if(!payload)return null;const cards=Array.isArray(payload.cards)?payload.cards:[];if(!cards.length)return null;if(cards.length<8||cards.length>12)throw new Error(`[invalid] ${fileLabel(filePath)}: professor_prep.json must contain 8 to 12 cards`);const normalizedCards=cards.map((card,index)=>{const question=requireText(card.question,`cards[${index}].question`,filePath);const answer_10s=requireText(card.answer_10s,`cards[${index}].answer_10s`,filePath);const answer_30s=requireText(card.answer_30s,`cards[${index}].answer_30s`,filePath);const answer_60s=requireText(card.answer_60s,`cards[${index}].answer_60s`,filePath);const must_include_keywords=textArray(card.must_include_keywords);const evidence_from_reading=textArray(card.evidence_from_reading);const likely_followups=textArray(card.likely_followups);const followup_answers=(Array.isArray(card.followup_answers)?card.followup_answers:[]).map((entry,entryIndex)=>{if(!entry||typeof entry!=="object")throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].followup_answers[${entryIndex}] must be an object`);return{question:requireText(entry.question,`cards[${index}].followup_answers[${entryIndex}].question`,filePath),answer:requireText(entry.answer,`cards[${index}].followup_answers[${entryIndex}].answer`,filePath)};});const korean_context_link=requireText(card.korean_context_link,`cards[${index}].korean_context_link`,filePath);const personal_connection_hint=requireText(card.personal_connection_hint,`cards[${index}].personal_connection_hint`,filePath);const avoid_bad_answers=textArray(card.avoid_bad_answers);if(!must_include_keywords.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].must_include_keywords must be non-empty`);if(!evidence_from_reading.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].evidence_from_reading must be non-empty`);if(!likely_followups.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].likely_followups must be non-empty`);if(!followup_answers.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].followup_answers must be non-empty`);if(!avoid_bad_answers.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].avoid_bad_answers must be non-empty`);return{question,answer_10s,answer_30s,answer_60s,must_include_keywords,evidence_from_reading,likely_followups,followup_answers,korean_context_link,personal_connection_hint,avoid_bad_answers};});const followup_bank=textArray(payload.followup_bank);return{title:toText(payload.title)||"교수님 구술 대비",instructions:toText(payload.instructions)||"질문을 먼저 입으로 답한 뒤, 10초·30초·60초 모범답안과 꼬리질문을 비교하세요.",followup_bank:followup_bank.length?followup_bank:PROFESSOR_FOLLOWUP_BANK,cards:normalizedCards};}
 function translateCommonText(text){return COMMON_TEXT_MAP[text]||text;}
 function detectType(reading){if(reading.type)return reading.type;const kind=String(reading.kind||"").toLowerCase();if(kind.includes("chapter"))return"chapter";if(kind.includes("paper"))return"paper";if(kind.includes("article"))return"article";return"reading";}
 function typeLabel(type){return({article:"기사",paper:"논문",chapter:"교재 장",reading:"읽기 자료"})[type]||"읽기 자료";}
@@ -92,8 +107,8 @@ function firstValue(...values){for(const value of values){if(value===null||value
 function effectiveSortDate(reading){return firstValue(reading.sort_date,reading.reading_date,reading.class_date);}
 function displayDateLabel(reading){return firstValue(reading.display_date_label,reading.reading_date,reading.class_date,reading.sort_date)||"날짜 미정";}
 function statusKeyForPage(pageKey){return pageKey.replace(/-/g,"_");}
-function contentPath(reading,page){const contentDir=path.join(rootDir,reading.content_dir);if(page.key==="full"){const preferred=path.join(contentDir,"full.md");const fallback=path.join(contentDir,"cleaned.md");return fs.existsSync(preferred)?preferred:(fs.existsSync(fallback)?fallback:preferred);}if(page.type==="article")return path.join(contentDir,`${page.key}.md`);return path.join(contentDir,`${page.key}.json`);}
-function pageState(reading,page){const sourcePath=contentPath(reading,page);if(page.type==="article")return{sourcePath,available:Boolean(loadMarkdown(sourcePath)),count:null};const quiz=loadQuiz(sourcePath);return{sourcePath,available:Boolean(quiz),count:quiz?quiz.items.length:0};}
+function contentPath(reading,page){const contentDir=path.join(rootDir,reading.content_dir);if(page.key==="full"){const preferred=path.join(contentDir,"full.md");const fallback=path.join(contentDir,"cleaned.md");return fs.existsSync(preferred)?preferred:(fs.existsSync(fallback)?fallback:preferred);}if(page.key==="quiz-short")return path.join(contentDir,"quiz_short.json");if(page.key==="professor-prep")return path.join(contentDir,"professor_prep.json");if(page.type==="article")return path.join(contentDir,`${page.key}.md`);return path.join(contentDir,`${page.key}.json`);}
+function pageState(reading,page){const sourcePath=contentPath(reading,page);if(page.type==="article")return{sourcePath,available:Boolean(loadMarkdown(sourcePath)),count:null};if(page.type==="professor-prep"){const prep=loadProfessorPrep(sourcePath);return{sourcePath,available:Boolean(prep),count:prep?prep.cards.length:0};}const quiz=loadQuiz(page,sourcePath);return{sourcePath,available:Boolean(quiz),count:quiz?quiz.items.length:0};}
 function metadataStatusHtml(status){return status==="complete"?'<span class="status ready">메타데이터 확인됨</span>':'<span class="status placeholder">메타데이터 확인 필요</span>';}
 function normalizeReading(reading,sequence){const language=reading.language||"unknown";const type=detectType(reading);const rawTags=Array.isArray(reading.tags)&&reading.tags.length?reading.tags:["Metadata incomplete"];const sortDate=effectiveSortDate(reading);return{...reading,sequence,subtitle:translateCommonText(reading.subtitle||"Filename-derived placeholder metadata."),authors:reading.authors||[],authors_label:authorsLabel(reading.authors||[]),year_label:yearLabel(reading.year),language,language_label:languageLabel(language),kind:reading.kind||`${type} pdf`,kind_label:kindLabel(reading.kind||`${type} pdf`,type),type,type_label:typeLabel(type),source_filename:reading.source_filename||path.basename(reading.source_pdf),tags:rawTags.map(translateTag),description:translateCommonText(reading.description||"Placeholder record created from the source filename only."),metadata_status:reading.metadata_status||"incomplete",metadata_notes:(reading.metadata_notes||[]).map(translateCommonText),class_date:reading.class_date??null,reading_date:reading.reading_date??null,sort_date:reading.sort_date??null,display_date_label:reading.display_date_label??null,effective_sort_date:sortDate,display_date:displayDateLabel(reading),translation_required:language==="en"};}
 function buildContentStatus(reading){const contentStatus={};for(const page of PAGE_DEFS){const key=statusKeyForPage(page.key);if(page.englishOnly&&reading.language!=="en"){contentStatus[key]="not_applicable";continue;}const state=pageState(reading,page);contentStatus[key]=state.available?"ready":"missing";}return contentStatus;}
@@ -104,7 +119,7 @@ function searchBlob(reading){return[reading.slug,reading.title,reading.subtitle,
 function buildTagOptions(readings){return Array.from(new Set(readings.flatMap((reading)=>reading.tags||[]).filter(Boolean))).sort((a,b)=>a.localeCompare(b,"ko"));}
 function statusHtml(available){return `<span class="status ${available?"ready":"placeholder"}">${available?"준비됨":"임시 안내"}</span>`;}
 function readingSequenceLabel(sequence){return `읽기 ${String(sequence).padStart(2,"0")}`;}
-function studyOrderText(reading){const steps=["핵심 요약","전체 글"];if(reading.translation_required)steps.push("한국어 번역");steps.push("핵심 개념","헷갈리는 포인트","퀴즈","시험 직전 정리","수업 대비");return steps.join(" -> ");}
+function studyOrderText(reading){const steps=["핵심 요약","전체 글"];if(reading.translation_required)steps.push("한국어 번역");steps.push("핵심 개념","헷갈리는 포인트","퀴즈","시험 직전 정리","교수님 구술 대비");return steps.join(" -> ");}
 function siteHeader(siteMeta,outputPath){const homeHref=relHref(outputPath,path.join(siteDir,"index.html"));return `
 <header class="topbar">
   <div class="brand">
@@ -145,7 +160,7 @@ ${body}
 </html>
 `;}
 function pageTabs(outputPath,reading,activeKey){const base=path.join(siteDir,"readings",reading.slug);const tabs=[{key:"index",label:"개요",target:path.join(base,"index.html")}].concat(reading.pages.map((page)=>({key:page.key,label:page.label,target:path.join(base,page.filename)})));return `<nav class="tab-row">${tabs.map((tab)=>`<a class="tab${tab.key===activeKey?" active":""}" href="${escapeHtml(relHref(outputPath,tab.target))}">${escapeHtml(tab.label)}</a>`).join("")}</nav>`;}
-function placeholderArticleHtml(reading,page,sourcePath){const relSource=path.relative(rootDir,sourcePath).split(path.sep).join("/");return `
+function placeholderArticleHtml(reading,page,sourcePath){const relSource=fileLabel(sourcePath);return `
 <section class="placeholder article-placeholder">
   <h2>임시 안내 페이지</h2>
   <p>${escapeHtml(relSource)}에 아직 작성된 콘텐츠가 없습니다. 읽기 흐름이 끊기지 않도록 링크는 유지한 상태로 안내 페이지를 보여 줍니다.</p>
@@ -157,7 +172,7 @@ function placeholderArticleHtml(reading,page,sourcePath){const relSource=path.re
   <p>${escapeHtml(reading.display_date)} | ${escapeHtml(reading.type_label)} | ${escapeHtml(reading.language_label)}</p>
 </section>
 `;}
-function placeholderQuizHtml(page,sourcePath){const relSource=path.relative(rootDir,sourcePath).split(path.sep).join("/");return `
+function placeholderQuizHtml(page,sourcePath){const relSource=fileLabel(sourcePath);return `
 <section class="placeholder">
   <h2>임시 안내 페이지</h2>
   <p>${escapeHtml(relSource)}에 아직 퀴즈 데이터가 없습니다. 전체 학습 흐름이 끊기지 않도록 링크는 그대로 유지합니다.</p>
@@ -167,8 +182,18 @@ function placeholderQuizHtml(page,sourcePath){const relSource=path.relative(root
   <p>${escapeHtml(page.description)}</p>
 </section>
 `;}
+function placeholderProfessorPrepHtml(page,sourcePath){const relSource=fileLabel(sourcePath);return `
+<section class="placeholder">
+  <h2>임시 안내 페이지</h2>
+  <p>${escapeHtml(relSource)}에 아직 교수님 구술 대비 카드가 없습니다. 링크는 유지하고, 페이지 역할만 먼저 안내합니다.</p>
+  <h3>예상 소스 파일</h3>
+  <p><code>${escapeHtml(relSource)}</code></p>
+  <h3>이 페이지의 역할</h3>
+  <p>${escapeHtml(page.description)}</p>
+</section>
+`;}
 function metadataNotesHtml(reading){if(!reading.metadata_notes||!reading.metadata_notes.length)return"";return `<div class="meta-notes"><h3>메타데이터 메모</h3><ul>${reading.metadata_notes.map((note)=>`<li>${escapeHtml(note)}</li>`).join("")}</ul></div>`;}
-function pageDetailText(page){if(page.type==="quiz")return page.available?`${page.count}문항`:"임시 안내";return page.available?"바로 열기":"임시 안내";}
+function pageDetailText(page){if(page.type==="quiz")return page.available?`${page.count}문항`:"임시 안내";if(page.type==="professor-prep")return page.available?`${page.count}카드`:"임시 안내";return page.available?"바로 열기":"임시 안내";}
 function pageMap(pages){return Object.fromEntries(pages.map((page)=>[page.key,page]));}
 function pageLink(outputPath,reading,page,labelOverride){const target=relHref(outputPath,path.join(siteDir,"readings",reading.slug,page.filename));return `<a class="ghost-btn link-btn" href="${escapeHtml(target)}">${escapeHtml(labelOverride||page.label)}</a>`;}
 function readerToolbar(){return `
@@ -225,6 +250,8 @@ function renderFlowStep(outputPath,reading,pagesByKey,step){
   </div>
 </article>
 `;}
+function renderList(items){return `<ul>${items.map((item)=>`<li>${renderInline(item)}</li>`).join("")}</ul>`;}
+function renderChipRow(items,className="chip-row"){return `<div class="${escapeHtml(className)}">${items.map((item)=>`<span class="chip">${escapeHtml(item)}</span>`).join("")}</div>`;}
 function writePlaceholderSvg(reading,svgPath){const slug=escapeHtml(reading.slug);const title=escapeHtml(reading.title||reading.slug);const subtitle=escapeHtml(reading.subtitle||"파일명 기준으로 만든 임시 메타데이터입니다.");const dateLabel=escapeHtml(displayDateLabel(reading));const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -393,7 +420,7 @@ ${siteHeader(siteMeta,outputPath)}
   </aside>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,'data-page-kind="article"',page.key==="full"&&reading.language==="en"?"en":"ko"));}
-function buildQuiz(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const quiz=loadQuiz(page.sourcePath);let content="";if(!quiz){content=placeholderQuizHtml(page,page.sourcePath);}else{const cards=quiz.items.map((item,index)=>{const optionsHtml=item.options&&item.options.length?`<ol class="choices">${item.options.map((option)=>`<li>${renderInline(option)}</li>`).join("")}</ol>`:"";const sourceHtml=item.source?`<p><strong>출처:</strong> ${renderInline(item.source)}</p>`:"";return `
+function renderStandardQuizCard(item,index){const optionsHtml=item.options&&item.options.length?`<ol class="choices">${item.options.map((option)=>`<li>${renderInline(option)}</li>`).join("")}</ol>`:"";const sourceHtml=item.source?`<p><strong>출처:</strong> ${renderInline(item.source)}</p>`:"";return `
 <article class="quiz-card">
   <h3>${index+1}. ${renderInline(item.prompt)}</h3>
   ${optionsHtml}
@@ -404,7 +431,24 @@ function buildQuiz(siteMeta,reading,page){const outputPath=path.join(siteDir,"re
     ${sourceHtml}
   </details>
 </article>
-`;}).join("");content=`<section class="panel quiz-intro"><h2>${escapeHtml(quiz.title||page.label)}</h2><p class="meta">${escapeHtml(quiz.instructions||"")}</p><p class="meta">${quiz.items.length}문항</p></section><section class="quiz-list">${cards}</section>`;}const body=`
+`;}
+function renderShortAnswerQuizCard(item,index){const answers=item.accepted_answers.map((answer)=>renderInline(answer)).join(" / ");const sourceHtml=item.source?`<p><strong>출처:</strong> ${renderInline(item.source)}</p>`:"";return `
+<article class="quiz-card short-answer-card">
+  <div class="quiz-card-head">
+    <h3>${index+1}. ${renderInline(item.question)}</h3>
+    <span class="chip">${escapeHtml(SHORT_ANSWER_TYPE_LABELS[item.answer_type]||item.answer_type)}</span>
+  </div>
+  <p class="meta">한 단어, 이름, 숫자, 또는 8단어 미만의 짧은 구로 답하세요.</p>
+  <details class="answer">
+    <summary>정답 보기</summary>
+    <p><strong>허용 정답:</strong> ${answers}</p>
+    <p><strong>답 유형:</strong> ${escapeHtml(SHORT_ANSWER_TYPE_LABELS[item.answer_type]||item.answer_type)}</p>
+    <p><strong>해설:</strong> ${renderInline(item.explanation)}</p>
+    ${sourceHtml}
+  </details>
+</article>
+`;}
+function buildQuiz(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const quiz=loadQuiz(page,page.sourcePath);let content="";if(!quiz){content=placeholderQuizHtml(page,page.sourcePath);}else{const cards=quiz.items.map((item,index)=>page.key==="quiz-short"?renderShortAnswerQuizCard(item,index):renderStandardQuizCard(item,index)).join("");content=`<section class="panel quiz-intro"><h2>${escapeHtml(quiz.title||page.label)}</h2><p class="meta">${escapeHtml(quiz.instructions||"")}</p><p class="meta">${quiz.items.length}문항</p></section><section class="quiz-list">${cards}</section>`;}const body=`
 ${siteHeader(siteMeta,outputPath)}
 <main class="quiz-shell">
   <article class="article panel">
@@ -423,11 +467,134 @@ ${siteHeader(siteMeta,outputPath)}
   </article>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,'data-page-kind="quiz"',"ko"));}
+function renderProfessorPrepCard(card,index){const cardId=`prep-card-${index+1}`;const answerPanels=["10s","30s","60s"].map((level)=>`<div class="prep-answer-copy" data-prep-answer="${level}" ${level==="30s"?"":"hidden"}><p>${renderInline(card[`answer_${level}`])}</p></div>`).join("");const followupStore=card.followup_answers.map((entry)=>`<div data-followup-item data-question="${escapeHtml(entry.question)}" data-answer="${escapeHtml(entry.answer)}"></div>`).join("");return `
+<article class="panel prep-card" id="${escapeHtml(cardId)}" data-prep-card data-card-id="${escapeHtml(cardId)}">
+  <div class="prep-card-head">
+    <div>
+      <p class="section-kicker">구술 카드 ${String(index+1).padStart(2,"0")}</p>
+      <h2>Q. ${renderInline(card.question)}</h2>
+    </div>
+    <button class="ghost-btn link-btn prep-difficult-btn" type="button" data-prep-difficult>어려움 표시</button>
+  </div>
+  <section class="prep-answer-shell" data-prep-answer-shell hidden>
+    <p class="prep-answer-label">모범답안</p>
+    ${answerPanels}
+  </section>
+  <div class="prep-detail-grid">
+    <section class="prep-block">
+      <h3>반드시 넣을 키워드</h3>
+      ${renderChipRow(card.must_include_keywords,"chip-row prep-keywords")}
+    </section>
+    <section class="prep-block">
+      <h3>읽기 근거</h3>
+      ${renderList(card.evidence_from_reading)}
+    </section>
+    <section class="prep-block prep-followup-block">
+      <div class="prep-block-head">
+        <h3>예상 꼬리질문</h3>
+        <button class="reader-btn prep-mini-btn" type="button" data-prep-reroll hidden>다른 질문</button>
+      </div>
+      <ul class="prep-followup-list" data-prep-followup-list>${card.likely_followups.map((item)=>`<li>${renderInline(item)}</li>`).join("")}</ul>
+      <div class="prep-random-box" data-prep-random-box hidden>
+        <p class="prep-random-label">랜덤 꼬리질문</p>
+        <p class="prep-random-question" data-prep-random-question></p>
+        <p class="prep-random-answer" data-prep-random-answer></p>
+      </div>
+      <div hidden>${followupStore}</div>
+    </section>
+    <section class="prep-block">
+      <h3>한국 맥락 연결</h3>
+      <p>${renderInline(card.korean_context_link)}</p>
+    </section>
+    <section class="prep-block">
+      <h3>내 경험 연결 힌트</h3>
+      <p>${renderInline(card.personal_connection_hint)}</p>
+    </section>
+    <section class="prep-block">
+      <h3>피해야 할 답</h3>
+      ${renderList(card.avoid_bad_answers)}
+    </section>
+  </div>
+</article>
+`;}
+function buildProfessorPrep(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const prep=loadProfessorPrep(page.sourcePath);const pagePath=path.posix.join("readings",reading.slug,page.filename);const content=prep?`
+<section class="panel prep-intro">
+  <h2>${escapeHtml(prep.title||page.label)}</h2>
+  <p class="meta">${escapeHtml(prep.instructions)}</p>
+  <p class="meta">${prep.cards.length}개 카드 | 공통 꼬리질문 ${prep.followup_bank.length}개</p>
+  <div class="prep-toolbar" role="toolbar" aria-label="구술 대비 조절">
+    <div class="toolbar-group">
+      <button class="reader-btn" type="button" data-prep-level="10s">10초</button>
+      <button class="reader-btn is-active" type="button" data-prep-level="30s">30초</button>
+      <button class="reader-btn" type="button" data-prep-level="60s">60초</button>
+    </div>
+    <div class="toolbar-group">
+      <button class="reader-btn" type="button" data-prep-answer-toggle>모범답안 보기</button>
+      <button class="reader-btn" type="button" data-prep-random-toggle>랜덤 꼬리질문 켜기</button>
+    </div>
+    <p class="reader-note" data-prep-status>먼저 질문에 직접 답한 뒤 모범답안을 확인하세요.</p>
+  </div>
+  <div class="prep-style-grid">
+    <section class="prep-style-card">
+      <h3>교수님이 좋아하는 답</h3>
+      ${renderList(PROFESSOR_STYLE.prefers)}
+    </section>
+    <section class="prep-style-card">
+      <h3>피해야 할 답</h3>
+      ${renderList(PROFESSOR_STYLE.avoids)}
+    </section>
+    <section class="prep-style-card">
+      <h3>공통 꼬리질문</h3>
+      ${renderList(prep.followup_bank)}
+    </section>
+  </div>
+</section>
+<section class="prep-card-list">
+  ${prep.cards.map((card,index)=>renderProfessorPrepCard(card,index)).join("")}
+</section>
+`:placeholderProfessorPrepHtml(page,page.sourcePath);const body=`
+${siteHeader(siteMeta,outputPath)}
+<main class="reader-shell" data-reader-root data-reading-slug="${escapeHtml(reading.slug)}" data-page-key="${escapeHtml(page.key)}" data-page-path="${escapeHtml(pagePath)}">
+  <article class="article panel">
+    <header class="article-header">
+      <div class="article-header-top">
+        <div>
+          <p class="section-kicker">${escapeHtml(readingSequenceLabel(reading.sequence))}</p>
+          <h1>${escapeHtml(reading.title)}</h1>
+          <p>${escapeHtml(page.label)} | ${escapeHtml(reading.display_date)} | ${escapeHtml(reading.authors_label)}</p>
+        </div>
+        <span class="chip">${escapeHtml(page.label)}</span>
+      </div>
+      ${pageTabs(outputPath,reading,page.key)}
+      ${readerToolbar()}
+    </header>
+    <section class="article-body prep-body" data-article-body data-prep-root>${content}</section>
+  </article>
+  <aside class="reader-aside">
+    <section class="panel side-panel"><h2>목차</h2><nav class="toc-list" data-generated-toc></nav></section>
+    <section class="panel side-panel"><h2>어려운 카드</h2><div class="important-list" data-prep-difficult-list></div></section>
+    <section class="panel side-panel"><h2>중요 표시</h2><div class="important-list" data-important-list></div></section>
+    <section class="panel side-panel"><h2>학습 흐름</h2><p class="meta">전체 순서를 다시 확인하려면 개요 페이지로 돌아가세요.</p><p><a class="ghost-btn link-btn" href="${escapeHtml(relHref(outputPath,path.join(siteDir,"readings",reading.slug,"index.html")))}">개요로 돌아가기</a></p></section>
+  </aside>
+</main>
+`;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,'data-page-kind="prep"',"ko"));}
 function writeAssets(){writeText(path.join(siteDir,"assets","styles.css"),readText(styleSource));writeText(path.join(siteDir,"assets","app.js"),readText(appSource));}
 function parseArgs(){const slugIndex=process.argv.indexOf("--slug");return{slug:slugIndex!==-1?process.argv[slugIndex+1]:null};}
-function buildSite(options={}){const manifest=loadManifest();ensureContentPlaceholders(manifest);const siteMeta=manifest.site;const readings=prepareReadings(manifest);if(options.slug){const target=readings.find((reading)=>reading.slug===options.slug);if(!target)throw new Error(`Unknown slug: ${options.slug}`);fs.mkdirSync(siteDir,{recursive:true});const thumbnails=buildThumbnails(manifest);writeAssets();buildIndex(siteMeta,readings,thumbnails);const readingDir=path.join(siteDir,"readings",target.slug);if(fs.existsSync(readingDir))fs.rmSync(readingDir,{recursive:true,force:true});buildLanding(siteMeta,target);for(const page of target.pages){if(page.type==="article")buildArticle(siteMeta,target,page);else buildQuiz(siteMeta,target,page);}return;}if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){buildLanding(siteMeta,reading);for(const page of reading.pages){if(page.type==="article")buildArticle(siteMeta,reading,page);else buildQuiz(siteMeta,reading,page);}}}
+function buildPage(siteMeta,reading,page){if(page.type==="article"){buildArticle(siteMeta,reading,page);return;}if(page.type==="professor-prep"){buildProfessorPrep(siteMeta,reading,page);return;}buildQuiz(siteMeta,reading,page);}
+function buildSite(options={}){const manifest=loadManifest();ensureContentPlaceholders(manifest);const siteMeta=manifest.site;const readings=prepareReadings(manifest);if(options.slug){const target=readings.find((reading)=>reading.slug===options.slug);if(!target)throw new Error(`Unknown slug: ${options.slug}`);fs.mkdirSync(siteDir,{recursive:true});const thumbnails=buildThumbnails(manifest);writeAssets();buildIndex(siteMeta,readings,thumbnails);const readingDir=path.join(siteDir,"readings",target.slug);if(fs.existsSync(readingDir))fs.rmSync(readingDir,{recursive:true,force:true});buildLanding(siteMeta,target);for(const page of target.pages){buildPage(siteMeta,target,page);}return;}if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){buildLanding(siteMeta,reading);for(const page of reading.pages){buildPage(siteMeta,reading,page);}}}
 const options=parseArgs();
 buildSite(options);
 console.log(options.slug?`[built] reading ${options.slug} + home`:"[built] docs" );
+
+
+
+
+
+
+
+
+
+
+
 
 
