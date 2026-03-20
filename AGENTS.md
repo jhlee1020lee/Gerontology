@@ -69,7 +69,7 @@ Build a local-only static study website for course readings.
 
 ## Build rules
 - Scripts go into `/scripts`
-- Final built site goes into `/site`
+- Final built site goes into `/docs`
 - Use `manifest/readings.json` as source of truth
 - Keep organization date-based, not week-based
 - Manifest entries may include optional fields such as:
@@ -78,3 +78,4 @@ Build a local-only static study website for course readings.
   - `sort_date`
   - `display_date_label`
 - Do not invent unknown dates. Use `null`, empty values, or TODO placeholders.
+

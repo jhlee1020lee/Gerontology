@@ -3,17 +3,17 @@
   "source_filename": "[CH8]Gerontology.pdf",
   "source_pdf": "source_pdfs/[CH8]Gerontology.pdf",
   "title": "[CH8]Gerontology",
-  "subtitle": "Filename-derived placeholder metadata.",
+  "subtitle": "파일명 기준으로 만든 임시 메타데이터입니다.",
   "authors": [],
   "year": null,
   "language": "unknown",
   "kind": "chapter pdf",
-  "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+  "description": "현재 로컬 파일명만 기준으로 만든 임시 기록입니다. 장 제목, 저자, 언어는 추가 확인이 필요합니다.",
   "metadata_status": "incomplete",
   "metadata_notes": [
-    "Title is copied from the filename.",
-    "Author metadata is not available from the filename.",
-    "Language is not confirmed from the filename alone."
+    "제목은 현재 파일명 기준으로만 입력되어 있습니다.",
+    "파일명만으로는 저자 정보를 확인할 수 없습니다.",
+    "파일명만으로는 언어를 확정할 수 없습니다."
   ],
   "content_status": {
     "summary": "missing",

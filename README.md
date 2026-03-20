@@ -1,6 +1,6 @@
 ﻿# Adult Aging Reading Site
 
-Local-only static study website scaffold for gerontology readings. The project is manifest-driven, stores source content under `content/readings/<slug>/`, and builds an offline site into `site/` from the current real local reading inventory.
+Local-only static study website scaffold for gerontology readings. The project is manifest-driven, stores source content under `content/readings/<slug>/`, and builds an offline site into `docs/` from the current real local reading inventory.
 
 ## Structure
 
@@ -9,7 +9,7 @@ Local-only static study website scaffold for gerontology readings. The project i
 - `manifest/readings.json`: source of truth for reading metadata and date-based organization
 - `content/readings/<slug>/`: authored content files for each reading
 - `scripts/`: local utilities for extraction, cleaning, thumbnails, and site generation
-- `site/`: generated static HTML/CSS/JS output
+- `docs/`: generated static HTML/CSS/JS output
 
 ## Content Model
 
@@ -48,10 +48,10 @@ Unknown dates should stay `null`, empty, or explicit TODO placeholders. The home
 node scripts/build_site.js
 ```
 
-3. Open the generated home page locally:
+3. Open the generated home page locally. For GitHub Pages, `docs/index.html` is the publish entry file:
 
 ```powershell
-start site\index.html
+start docs\\index.html
 ```
 
 ## Optional Preprocessing Workflow
@@ -86,4 +86,6 @@ node scripts/build_site.js
 - All generated links are relative and work offline.
 - Reading landing pages are study-flow pages, not flat link lists.
 - Article pages include client-side table of contents, font controls, dark mode, saved reading position, and bookmark / important-mark UI in `localStorage`.
-- `site/` is treated as build output and can be regenerated at any time.
+- `docs/` is treated as build output and can be regenerated at any time.
+
+
