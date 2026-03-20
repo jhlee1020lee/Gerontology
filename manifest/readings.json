@@ -594,7 +594,7 @@
                      },
                      {
                          "slug":  "hulur-et-al-2019",
-                         "title":  "H체l체r et al., 2019",
+                         "title":  "Hülür et al., 2019",
                          "subtitle":  "Filename-derived placeholder metadata.",
                          "authors":  [
                                          "H체l체r et al."
@@ -602,8 +602,8 @@
                          "year":  2019,
                          "language":  "en",
                          "kind":  "article pdf",
-                         "source_filename":  "H체l체r et al., 2019.pdf",
-                         "source_pdf":  "source_pdfs/H체l체r et al., 2019.pdf",
+                         "source_filename":  "Hülür et al., 2019.pdf",
+                         "source_pdf":  "source_pdfs/Hülür et al., 2019.pdf",
                          "content_dir":  "content/readings/hulur-et-al-2019",
                          "tags":  [
                                       "Filename only",
@@ -859,3 +859,4 @@
                                     ]
                }
 }
+

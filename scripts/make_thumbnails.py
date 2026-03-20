@@ -7,8 +7,8 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = ROOT_DIR / "manifest" / "readings.json"
-SITE_DIR = ROOT_DIR / "site"
-THUMBNAIL_DIR = SITE_DIR / "assets" / "thumbnails"
+OUTPUT_DIR = ROOT_DIR / "docs"
+THUMBNAIL_DIR = OUTPUT_DIR / "assets" / "thumbnails"
 
 
 def load_manifest():
@@ -119,3 +119,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
