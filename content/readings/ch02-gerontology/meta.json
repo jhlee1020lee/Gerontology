@@ -1,0 +1,36 @@
+{
+  "slug": "ch02-gerontology",
+  "source_filename": "[CH2]Gerontology.pdf",
+  "source_pdf": "source_pdfs/[CH2]Gerontology.pdf",
+  "title": "[CH2]Gerontology",
+  "subtitle": "Filename-derived placeholder metadata.",
+  "authors": [],
+  "year": null,
+  "language": "unknown",
+  "kind": "chapter pdf",
+  "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+  "metadata_status": "incomplete",
+  "metadata_notes": [
+    "Title is copied from the filename.",
+    "Author metadata is not available from the filename.",
+    "Language is not confirmed from the filename alone."
+  ],
+  "content_status": {
+    "summary": "missing",
+    "full": "missing",
+    "translation": "not_applicable",
+    "concepts": "missing",
+    "pitfalls": "missing",
+    "quiz_ox": "missing",
+    "quiz_short": "missing",
+    "quiz_mcq": "missing",
+    "review_sheet": "missing",
+    "professor_prep": "missing"
+  },
+  "content_dir": "content/readings/ch02-gerontology",
+  "type": "chapter",
+  "class_date": null,
+  "reading_date": null,
+  "sort_date": null,
+  "display_date_label": null
+}

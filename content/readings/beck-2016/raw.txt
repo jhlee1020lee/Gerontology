@@ -1,0 +1,15 @@
+﻿Title: When Are You Really an Adult?
+Source PDF: source_pdfs/Beck, 2016.pdf
+Extraction note: The local PDF's text layer was incomplete beyond the first page header/footer. The printed article URL embedded in the PDF was used to recover the full article text and verify the content.
+Recovered article URL: https://www.theatlantic.com/health/archive/2016/01/when-are-you-really-an-adult/422487/
+Author: Julie Beck
+Published: 2016-01-05
+
+When Are You Really an Adult?
+
+In an age when the line between childhood and adulthood is blurrier than ever, what is it that makes people grown up?
+
+Working extraction note:
+- The PDF confirmed the article title, author, and Atlantic printout source.
+- Because most pages in the PDF were image-only in the extracted text layer, the article body was recovered from the source article page referenced by the PDF.
+- Cleaned study content was authored into full.md, translation.md, summary.md, concepts.md, pitfalls.md, review-sheet.md, professor-prep.md, and the three quiz JSON files for the existing beck-2016 slug.

@@ -1,0 +1,37 @@
+{
+  "slug": "konrath-et-al-2012",
+  "source_filename": "Konrath et al., 2012.pdf",
+  "source_pdf": "source_pdfs/Konrath et al., 2012.pdf",
+  "title": "Konrath et al., 2012",
+  "subtitle": "Filename-derived placeholder metadata.",
+  "authors": [
+    "Konrath et al."
+  ],
+  "year": 2012,
+  "language": "en",
+  "kind": "article pdf",
+  "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+  "metadata_status": "incomplete",
+  "metadata_notes": [
+    "Author string and year are copied from the filename.",
+    "Additional author names and the full article title are not confirmed yet."
+  ],
+  "content_status": {
+    "summary": "missing",
+    "full": "missing",
+    "translation": "missing",
+    "concepts": "missing",
+    "pitfalls": "missing",
+    "quiz_ox": "missing",
+    "quiz_short": "missing",
+    "quiz_mcq": "missing",
+    "review_sheet": "missing",
+    "professor_prep": "missing"
+  },
+  "content_dir": "content/readings/konrath-et-al-2012",
+  "type": "article",
+  "class_date": null,
+  "reading_date": null,
+  "sort_date": null,
+  "display_date_label": null
+}

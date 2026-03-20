@@ -1,0 +1,37 @@
+{
+  "slug": "beck-2016",
+  "source_filename": "Beck, 2016.pdf",
+  "source_pdf": "source_pdfs/Beck, 2016.pdf",
+  "title": "When Are You Really an Adult?",
+  "subtitle": "In an age when the line between childhood and adulthood is blurrier than ever, what is it that makes people grown up?",
+  "authors": [
+    "Julie Beck"
+  ],
+  "year": 2016,
+  "language": "en",
+  "kind": "article pdf",
+  "description": "Julie Beck examines how adulthood is defined across law, biology, culture, work, family roles, and personal responsibility, arguing that there is no single universal moment of arrival.",
+  "metadata_status": "complete",
+  "metadata_notes": [
+    "The PDF is a local printout of Julie Beck's The Atlantic article published on January 5, 2016.",
+    "Article title, author, source, and publication year were confirmed from the source article."
+  ],
+  "content_status": {
+    "summary": "ready",
+    "full": "ready",
+    "translation": "ready",
+    "concepts": "ready",
+    "pitfalls": "ready",
+    "quiz_ox": "ready",
+    "quiz_short": "ready",
+    "quiz_mcq": "ready",
+    "review_sheet": "ready",
+    "professor_prep": "ready"
+  },
+  "content_dir": "content/readings/beck-2016",
+  "type": "article",
+  "class_date": null,
+  "reading_date": null,
+  "sort_date": null,
+  "display_date_label": null
+}

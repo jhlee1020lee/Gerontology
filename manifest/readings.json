@@ -1,0 +1,831 @@
+{
+  "site": {
+    "title": "Adult Aging Reading Site",
+    "tagline": "Offline study flow for full text, quick overview, translation, concepts, pitfalls, quizzes, and exam review.",
+    "description": "Local static study website for the full gerontology reading inventory. Placeholder metadata is derived conservatively from the current local source files only."
+  },
+  "readings": [
+    {
+      "slug": "ch01-gerontology",
+      "title": "[CH1]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH1]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH1]Gerontology.pdf",
+      "content_dir": "content/readings/ch01-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch02-gerontology",
+      "title": "[CH2]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH2]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH2]Gerontology.pdf",
+      "content_dir": "content/readings/ch02-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch03-gerontology",
+      "title": "[CH3]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH3]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH3]Gerontology.pdf",
+      "content_dir": "content/readings/ch03-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch04-gerontology",
+      "title": "[CH4]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH4]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH4]Gerontology.pdf",
+      "content_dir": "content/readings/ch04-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch05-gerontology",
+      "title": "[CH5]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH5]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH5]Gerontology.pdf",
+      "content_dir": "content/readings/ch05-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch06-gerontology",
+      "title": "[CH6]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH6]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH6]Gerontology.pdf",
+      "content_dir": "content/readings/ch06-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch07-gerontology",
+      "title": "[CH7]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH7]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH7]Gerontology.pdf",
+      "content_dir": "content/readings/ch07-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch08-gerontology",
+      "title": "[CH8]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH8]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH8]Gerontology.pdf",
+      "content_dir": "content/readings/ch08-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch09-gerontology",
+      "title": "[CH9]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH9]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH9]Gerontology.pdf",
+      "content_dir": "content/readings/ch09-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch10-gerontology",
+      "title": "[CH10]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH10]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH10]Gerontology.pdf",
+      "content_dir": "content/readings/ch10-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch11-gerontology",
+      "title": "[CH11]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH11]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH11]Gerontology.pdf",
+      "content_dir": "content/readings/ch11-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch12-gerontology",
+      "title": "[CH12]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH12]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH12]Gerontology.pdf",
+      "content_dir": "content/readings/ch12-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch13-gerontology",
+      "title": "[CH13]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH13]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH13]Gerontology.pdf",
+      "content_dir": "content/readings/ch13-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch14-gerontology",
+      "title": "[CH14]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH14]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH14]Gerontology.pdf",
+      "content_dir": "content/readings/ch14-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "ch15-gerontology",
+      "title": "[CH15]Gerontology",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [],
+      "year": null,
+      "language": "unknown",
+      "kind": "chapter pdf",
+      "source_filename": "[CH15]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH15]Gerontology.pdf",
+      "content_dir": "content/readings/ch15-gerontology",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Chapter PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Title is copied from the filename.",
+        "Author metadata is not available from the filename.",
+        "Language is not confirmed from the filename alone."
+      ],
+      "type": "chapter",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "beck-2016",
+      "title": "When Are You Really an Adult?",
+      "subtitle": "In an age when the line between childhood and adulthood is blurrier than ever, what is it that makes people grown up?",
+      "authors": [
+        "Julie Beck"
+      ],
+      "year": 2016,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Beck, 2016.pdf",
+      "source_pdf": "source_pdfs/Beck, 2016.pdf",
+      "content_dir": "content/readings/beck-2016",
+      "tags": [
+        "Adulthood",
+        "Emerging adulthood",
+        "Life course",
+        "Article PDF"
+      ],
+      "description": "Julie Beck examines how adulthood is defined across law, biology, culture, work, family roles, and personal responsibility, arguing that there is no single universal moment of arrival.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "The PDF is a local printout of Julie Beck's The Atlantic article published on January 5, 2016.",
+        "Article title, author, source, and publication year were confirmed from the source article."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "blieszner-2014",
+      "title": "Blieszner, 2014",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Blieszner"
+      ],
+      "year": 2014,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Blieszner, 2014.pdf",
+      "source_pdf": "source_pdfs/Blieszner, 2014.pdf",
+      "content_dir": "content/readings/blieszner-2014",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author and year are copied from the filename.",
+        "The full article title is not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "calvo-et-al-2018",
+      "title": "Calvo et al., 2018",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Calvo et al."
+      ],
+      "year": 2018,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Calvo et al., 2018.pdf",
+      "source_pdf": "source_pdfs/Calvo et al., 2018.pdf",
+      "content_dir": "content/readings/calvo-et-al-2018",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author string and year are copied from the filename.",
+        "Additional author names and the full article title are not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "carr-fang-2021",
+      "title": "Carr & Fang, 2021",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Carr",
+        "Fang"
+      ],
+      "year": 2021,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Carr & Fang, 2021.pdf",
+      "source_pdf": "source_pdfs/Carr & Fang, 2021.pdf",
+      "content_dir": "content/readings/carr-fang-2021",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author names and year are copied from the filename.",
+        "The full article title is not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "hulur-et-al-2019",
+      "title": "Hülür et al., 2019",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Hülür et al."
+      ],
+      "year": 2019,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Hülür et al., 2019.pdf",
+      "source_pdf": "source_pdfs/Hülür et al., 2019.pdf",
+      "content_dir": "content/readings/hulur-et-al-2019",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author string and year are copied from the filename.",
+        "Additional author names and the full article title are not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "kerrigan-2018",
+      "title": "Kerrigan, 2018",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Kerrigan"
+      ],
+      "year": 2018,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Kerrigan, 2018.pdf",
+      "source_pdf": "source_pdfs/Kerrigan, 2018.pdf",
+      "content_dir": "content/readings/kerrigan-2018",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author and year are copied from the filename.",
+        "The full article title is not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "konrath-et-al-2012",
+      "title": "Konrath et al., 2012",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Konrath et al."
+      ],
+      "year": 2012,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Konrath et al., 2012.pdf",
+      "source_pdf": "source_pdfs/Konrath et al., 2012.pdf",
+      "content_dir": "content/readings/konrath-et-al-2012",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author string and year are copied from the filename.",
+        "Additional author names and the full article title are not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "leggett-et-al-2020",
+      "title": "Leggett et al., 2020",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Leggett et al."
+      ],
+      "year": 2020,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Leggett et al., 2020.pdf",
+      "source_pdf": "source_pdfs/Leggett et al., 2020.pdf",
+      "content_dir": "content/readings/leggett-et-al-2020",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author string and year are copied from the filename.",
+        "Additional author names and the full article title are not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "olshansky-carnes-2019",
+      "title": "Olshansky & Carnes, 2019",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Olshansky",
+        "Carnes"
+      ],
+      "year": 2019,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Olshansky & Carnes, 2019.pdf",
+      "source_pdf": "source_pdfs/Olshansky & Carnes, 2019.pdf",
+      "content_dir": "content/readings/olshansky-carnes-2019",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author names and year are copied from the filename.",
+        "The full article title is not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "park-mcdonough-2013",
+      "title": "Park & McDonough, 2013",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Park",
+        "McDonough"
+      ],
+      "year": 2013,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Park & McDonough, 2013.pdf",
+      "source_pdf": "source_pdfs/Park & McDonough, 2013.pdf",
+      "content_dir": "content/readings/park-mcdonough-2013",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author names and year are copied from the filename.",
+        "The full article title is not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "suitor-et-al-2014",
+      "title": "Suitor et al., 2014",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Suitor et al."
+      ],
+      "year": 2014,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Suitor et al., 2014.pdf",
+      "source_pdf": "source_pdfs/Suitor et al., 2014.pdf",
+      "content_dir": "content/readings/suitor-et-al-2014",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author string and year are copied from the filename.",
+        "Additional author names and the full article title are not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    },
+    {
+      "slug": "wagner-et-al-2016",
+      "title": "Wagner et al., 2016",
+      "subtitle": "Filename-derived placeholder metadata.",
+      "authors": [
+        "Wagner et al."
+      ],
+      "year": 2016,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Wagner et al., 2016.pdf",
+      "source_pdf": "source_pdfs/Wagner et al., 2016.pdf",
+      "content_dir": "content/readings/wagner-et-al-2016",
+      "tags": [
+        "Filename only",
+        "Metadata incomplete",
+        "Article PDF"
+      ],
+      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+      "metadata_status": "incomplete",
+      "metadata_notes": [
+        "Author string and year are copied from the filename.",
+        "Additional author names and the full article title are not confirmed yet."
+      ],
+      "type": "article",
+      "class_date": null,
+      "reading_date": null,
+      "sort_date": null,
+      "display_date_label": null
+    }
+  ],
+  "schema": {
+    "version": 2,
+    "organization": "date-based",
+    "source_of_truth": "manifest/readings.json",
+    "optional_reading_fields": [
+      "class_date",
+      "reading_date",
+      "sort_date",
+      "display_date_label"
+    ],
+    "page_outputs": [
+      "full.html",
+      "summary.html",
+      "translation.html",
+      "concepts.html",
+      "pitfalls.html",
+      "quiz-ox.html",
+      "quiz-short.html",
+      "quiz-mcq.html",
+      "review-sheet.html",
+      "professor-prep.html"
+    ]
+  }
+}

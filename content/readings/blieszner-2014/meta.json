@@ -1,0 +1,37 @@
+{
+  "slug": "blieszner-2014",
+  "source_filename": "Blieszner, 2014.pdf",
+  "source_pdf": "source_pdfs/Blieszner, 2014.pdf",
+  "title": "Blieszner, 2014",
+  "subtitle": "Filename-derived placeholder metadata.",
+  "authors": [
+    "Blieszner"
+  ],
+  "year": 2014,
+  "language": "en",
+  "kind": "article pdf",
+  "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
+  "metadata_status": "incomplete",
+  "metadata_notes": [
+    "Author and year are copied from the filename.",
+    "The full article title is not confirmed yet."
+  ],
+  "content_status": {
+    "summary": "missing",
+    "full": "missing",
+    "translation": "missing",
+    "concepts": "missing",
+    "pitfalls": "missing",
+    "quiz_ox": "missing",
+    "quiz_short": "missing",
+    "quiz_mcq": "missing",
+    "review_sheet": "missing",
+    "professor_prep": "missing"
+  },
+  "content_dir": "content/readings/blieszner-2014",
+  "type": "article",
+  "class_date": null,
+  "reading_date": null,
+  "sort_date": null,
+  "display_date_label": null
+}

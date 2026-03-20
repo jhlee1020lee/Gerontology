@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14334c" />
+      <stop offset="100%" stop-color="#b06a34" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)" rx="36" />
+  <rect x="56" y="56" width="1168" height="608" fill="rgba(255,255,255,0.08)" rx="28" />
+  <text x="84" y="138" fill="#f7f1e8" font-size="36" font-family="'Segoe UI', 'Noto Sans KR', sans-serif">ch09-gerontology</text>
+  <text x="84" y="248" fill="#ffffff" font-size="74" font-weight="700" font-family="'Segoe UI', 'Noto Sans KR', sans-serif">[CH9]Gerontology</text>
+  <text x="84" y="330" fill="#e9d9c9" font-size="34" font-family="'Segoe UI', 'Noto Sans KR', sans-serif">Filename-derived placeholder metadata.</text>
+  <text x="84" y="604" fill="#ffffff" font-size="28" font-family="'Segoe UI', 'Noto Sans KR', sans-serif">Date TBD · PDF thumbnail placeholder</text>
+</svg>

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adult Aging Reading Site | Adult Aging Reading Site</title>
+  <meta name="description" content="Local static study website for the full gerontology reading inventory. Placeholder metadata is derived conservatively from the current local source files only." />
+  <script>
+    (() => {
+      try {
+        const theme=localStorage.getItem("aa-theme");
+        if(theme) document.documentElement.dataset.theme=theme;
+        const fontScale=localStorage.getItem("aa-font-scale");
+        if(fontScale) document.documentElement.style.setProperty("--reader-font-scale",fontScale);
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page-kind="home">
+
+
+<header class="topbar">
+  <div class="brand">
+    <a class="brand-mark" href="index.html">AA</a>
+    <div>
+      <p class="brand-title">Adult Aging Reading Site</p>
+      <p class="brand-sub">Offline study flow for full text, quick overview, translation, concepts, pitfalls, quizzes, and exam review.</p>
+    </div>
+  </div>
+  <div class="topbar-actions">
+    <button class="ghost-btn" type="button" data-theme-toggle>Dark mode</button>
+  </div>
+</header>
+
+<main class="home-shell" data-page-kind="home">
+  <section class="panel hero home-hero">
+    <div>
+      <span class="chip">Date-based reading inventory</span>
+      <h1>Adult Aging Reading Site</h1>
+      <p>Local static study website for the full gerontology reading inventory. Placeholder metadata is derived conservatively from the current local source files only.</p>
+    </div>
+    <div class="metric-row">
+      <div class="metric"><p class="metric-label">Source</p><p class="metric-value">manifest/readings.json</p></div>
+      <div class="metric"><p class="metric-label">Inventory</p><p class="metric-value">27 readings</p></div>
+      <div class="metric"><p class="metric-label">Pages</p><p class="metric-value">10/255</p></div>
+      <div class="metric"><p class="metric-label">Mode</p><p class="metric-value">Offline only</p></div>
+    </div>
+  </section>
+  <section class="panel filter-panel" data-home-controls>
+    <div class="filter-grid">
+      <label class="field wide"><span>Search</span><input class="search-input" type="search" placeholder="Search title, subtitle, author, or tags" data-reading-search /></label>
+      <label class="field"><span>Type</span><select class="filter-select" data-reading-type><option value="">All types</option><option value="article">Article</option><option value="chapter">Chapter</option></select></label>
+      <label class="field"><span>Tag</span><select class="filter-select" data-reading-tag><option value="">All tags</option><option value="adulthood">Adulthood</option><option value="article pdf">Article PDF</option><option value="chapter pdf">Chapter PDF</option><option value="emerging adulthood">Emerging adulthood</option><option value="filename only">Filename only</option><option value="life course">Life course</option><option value="metadata incomplete">Metadata incomplete</option></select></label>
+      <label class="field"><span>Sort</span><select class="filter-select" data-reading-sort><option value="chronological">Chronological</option><option value="manifest">Manifest order</option></select></label>
+    </div>
+    <p class="meta">Search covers title, subtitle, author, and tags. Chronological sorting uses <code>sort_date</code>, then <code>reading_date</code>, then <code>class_date</code> when those fields exist.</p>
+  </section>
+  <section class="home-content">
+    <aside class="panel home-side">
+      <h2>Study Queue</h2>
+      <p class="meta">The current local manifest is the source of truth. Unknown dates stay null in the manifest and render as placeholders in the UI.</p>
+      <div class="metric-stack">
+        <div class="metric slim"><p class="metric-label">Visible</p><p class="metric-value" data-reading-counter>27 of 27</p></div>
+        <div class="metric slim"><p class="metric-label">Chapters</p><p class="metric-value">15</p></div>
+        <div class="metric slim"><p class="metric-label">Articles</p><p class="metric-value">12</p></div>
+      </div>
+      <p class="meta">Tags come from the manifest and remain filterable offline.</p>
+    </aside>
+    <div>
+      <div class="section-head"><div><h2>Reading Library</h2><p class="meta">Responsive card grid with local-only filtering and sorting.</p></div></div>
+      <div class="video-grid" data-reading-grid>
+<article class="video-card" data-reading-card data-search="ch01-gerontology [CH1]Gerontology Filename-derived placeholder metadata. [CH1]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="1">
+  <a class="card-link" href="readings/ch01-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch01-gerontology.svg" alt="[CH1]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 01</span>
+      </div>
+      <h2 class="title">[CH1]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch02-gerontology [CH2]Gerontology Filename-derived placeholder metadata. [CH2]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="2">
+  <a class="card-link" href="readings/ch02-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch02-gerontology.svg" alt="[CH2]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 02</span>
+      </div>
+      <h2 class="title">[CH2]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch03-gerontology [CH3]Gerontology Filename-derived placeholder metadata. [CH3]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="3">
+  <a class="card-link" href="readings/ch03-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch03-gerontology.svg" alt="[CH3]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 03</span>
+      </div>
+      <h2 class="title">[CH3]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch04-gerontology [CH4]Gerontology Filename-derived placeholder metadata. [CH4]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="4">
+  <a class="card-link" href="readings/ch04-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch04-gerontology.svg" alt="[CH4]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 04</span>
+      </div>
+      <h2 class="title">[CH4]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch05-gerontology [CH5]Gerontology Filename-derived placeholder metadata. [CH5]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="5">
+  <a class="card-link" href="readings/ch05-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch05-gerontology.svg" alt="[CH5]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 05</span>
+      </div>
+      <h2 class="title">[CH5]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch06-gerontology [CH6]Gerontology Filename-derived placeholder metadata. [CH6]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="6">
+  <a class="card-link" href="readings/ch06-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch06-gerontology.svg" alt="[CH6]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 06</span>
+      </div>
+      <h2 class="title">[CH6]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch07-gerontology [CH7]Gerontology Filename-derived placeholder metadata. [CH7]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="7">
+  <a class="card-link" href="readings/ch07-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch07-gerontology.svg" alt="[CH7]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 07</span>
+      </div>
+      <h2 class="title">[CH7]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch08-gerontology [CH8]Gerontology Filename-derived placeholder metadata. [CH8]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="8">
+  <a class="card-link" href="readings/ch08-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch08-gerontology.svg" alt="[CH8]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 08</span>
+      </div>
+      <h2 class="title">[CH8]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch09-gerontology [CH9]Gerontology Filename-derived placeholder metadata. [CH9]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="9">
+  <a class="card-link" href="readings/ch09-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch09-gerontology.svg" alt="[CH9]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 09</span>
+      </div>
+      <h2 class="title">[CH9]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch10-gerontology [CH10]Gerontology Filename-derived placeholder metadata. [CH10]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="10">
+  <a class="card-link" href="readings/ch10-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch10-gerontology.svg" alt="[CH10]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 10</span>
+      </div>
+      <h2 class="title">[CH10]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch11-gerontology [CH11]Gerontology Filename-derived placeholder metadata. [CH11]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="11">
+  <a class="card-link" href="readings/ch11-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch11-gerontology.svg" alt="[CH11]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 11</span>
+      </div>
+      <h2 class="title">[CH11]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch12-gerontology [CH12]Gerontology Filename-derived placeholder metadata. [CH12]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="12">
+  <a class="card-link" href="readings/ch12-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch12-gerontology.svg" alt="[CH12]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 12</span>
+      </div>
+      <h2 class="title">[CH12]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch13-gerontology [CH13]Gerontology Filename-derived placeholder metadata. [CH13]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="13">
+  <a class="card-link" href="readings/ch13-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch13-gerontology.svg" alt="[CH13]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 13</span>
+      </div>
+      <h2 class="title">[CH13]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch14-gerontology [CH14]Gerontology Filename-derived placeholder metadata. [CH14]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="14">
+  <a class="card-link" href="readings/ch14-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch14-gerontology.svg" alt="[CH14]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 14</span>
+      </div>
+      <h2 class="title">[CH14]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="ch15-gerontology [CH15]Gerontology Filename-derived placeholder metadata. [CH15]Gerontology.pdf unknown chapter chapter pdf Year unconfirmed Date TBD Filename only Metadata incomplete Chapter PDF Title is copied from the filename. Author metadata is not available from the filename. Language is not confirmed from the filename alone." data-type="chapter" data-tags="filename only||metadata incomplete||chapter pdf" data-sort-date="" data-sequence="15">
+  <a class="card-link" href="readings/ch15-gerontology/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/ch15-gerontology.svg" alt="[CH15]Gerontology thumbnail" />
+      <span class="badge">Chapter</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/9 ready</span>
+        <span class="chip">Reading 15</span>
+      </div>
+      <h2 class="title">[CH15]Gerontology</h2>
+      <p class="meta">Author metadata incomplete</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">chapter pdf | Unconfirmed | Year unconfirmed</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Chapter PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="beck-2016 When Are You Really an Adult? In an age when the line between childhood and adulthood is blurrier than ever, what is it that makes people grown up? Beck, 2016.pdf en article article pdf 2016 Date TBD Julie Beck Adulthood Emerging adulthood Life course Article PDF The PDF is a local printout of Julie Beck&#39;s The Atlantic article published on January 5, 2016. Article title, author, source, and publication year were confirmed from the source article." data-type="article" data-tags="adulthood||emerging adulthood||life course||article pdf" data-sort-date="" data-sequence="16">
+  <a class="card-link" href="readings/beck-2016/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/beck-2016.svg" alt="When Are You Really an Adult? thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status ready">10/10 ready</span>
+        <span class="chip">Reading 16</span>
+      </div>
+      <h2 class="title">When Are You Really an Adult?</h2>
+      <p class="meta">Julie Beck</p>
+      <p class="meta">In an age when the line between childhood and adulthood is blurrier than ever, what is it that makes people grown up?</p>
+      <p class="meta">article pdf | English | 2016</p>
+      <div class="chip-row"><span class="chip">Adulthood</span><span class="chip">Emerging adulthood</span><span class="chip">Life course</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="blieszner-2014 Blieszner, 2014 Filename-derived placeholder metadata. Blieszner, 2014.pdf en article article pdf 2014 Date TBD Blieszner Filename only Metadata incomplete Article PDF Author and year are copied from the filename. The full article title is not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="17">
+  <a class="card-link" href="readings/blieszner-2014/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/blieszner-2014.svg" alt="Blieszner, 2014 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 17</span>
+      </div>
+      <h2 class="title">Blieszner, 2014</h2>
+      <p class="meta">Blieszner</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2014</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="calvo-et-al-2018 Calvo et al., 2018 Filename-derived placeholder metadata. Calvo et al., 2018.pdf en article article pdf 2018 Date TBD Calvo et al. Filename only Metadata incomplete Article PDF Author string and year are copied from the filename. Additional author names and the full article title are not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="18">
+  <a class="card-link" href="readings/calvo-et-al-2018/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/calvo-et-al-2018.svg" alt="Calvo et al., 2018 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 18</span>
+      </div>
+      <h2 class="title">Calvo et al., 2018</h2>
+      <p class="meta">Calvo et al.</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2018</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="carr-fang-2021 Carr &amp; Fang, 2021 Filename-derived placeholder metadata. Carr &amp; Fang, 2021.pdf en article article pdf 2021 Date TBD Carr Fang Filename only Metadata incomplete Article PDF Author names and year are copied from the filename. The full article title is not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="19">
+  <a class="card-link" href="readings/carr-fang-2021/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/carr-fang-2021.svg" alt="Carr &amp; Fang, 2021 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 19</span>
+      </div>
+      <h2 class="title">Carr &amp; Fang, 2021</h2>
+      <p class="meta">Carr, Fang</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2021</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="hulur-et-al-2019 Hülür et al., 2019 Filename-derived placeholder metadata. Hülür et al., 2019.pdf en article article pdf 2019 Date TBD Hülür et al. Filename only Metadata incomplete Article PDF Author string and year are copied from the filename. Additional author names and the full article title are not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="20">
+  <a class="card-link" href="readings/hulur-et-al-2019/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/hulur-et-al-2019.svg" alt="Hülür et al., 2019 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 20</span>
+      </div>
+      <h2 class="title">Hülür et al., 2019</h2>
+      <p class="meta">Hülür et al.</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2019</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="kerrigan-2018 Kerrigan, 2018 Filename-derived placeholder metadata. Kerrigan, 2018.pdf en article article pdf 2018 Date TBD Kerrigan Filename only Metadata incomplete Article PDF Author and year are copied from the filename. The full article title is not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="21">
+  <a class="card-link" href="readings/kerrigan-2018/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/kerrigan-2018.svg" alt="Kerrigan, 2018 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 21</span>
+      </div>
+      <h2 class="title">Kerrigan, 2018</h2>
+      <p class="meta">Kerrigan</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2018</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="konrath-et-al-2012 Konrath et al., 2012 Filename-derived placeholder metadata. Konrath et al., 2012.pdf en article article pdf 2012 Date TBD Konrath et al. Filename only Metadata incomplete Article PDF Author string and year are copied from the filename. Additional author names and the full article title are not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="22">
+  <a class="card-link" href="readings/konrath-et-al-2012/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/konrath-et-al-2012.svg" alt="Konrath et al., 2012 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 22</span>
+      </div>
+      <h2 class="title">Konrath et al., 2012</h2>
+      <p class="meta">Konrath et al.</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2012</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="leggett-et-al-2020 Leggett et al., 2020 Filename-derived placeholder metadata. Leggett et al., 2020.pdf en article article pdf 2020 Date TBD Leggett et al. Filename only Metadata incomplete Article PDF Author string and year are copied from the filename. Additional author names and the full article title are not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="23">
+  <a class="card-link" href="readings/leggett-et-al-2020/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/leggett-et-al-2020.svg" alt="Leggett et al., 2020 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 23</span>
+      </div>
+      <h2 class="title">Leggett et al., 2020</h2>
+      <p class="meta">Leggett et al.</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2020</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="olshansky-carnes-2019 Olshansky &amp; Carnes, 2019 Filename-derived placeholder metadata. Olshansky &amp; Carnes, 2019.pdf en article article pdf 2019 Date TBD Olshansky Carnes Filename only Metadata incomplete Article PDF Author names and year are copied from the filename. The full article title is not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="24">
+  <a class="card-link" href="readings/olshansky-carnes-2019/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/olshansky-carnes-2019.svg" alt="Olshansky &amp; Carnes, 2019 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 24</span>
+      </div>
+      <h2 class="title">Olshansky &amp; Carnes, 2019</h2>
+      <p class="meta">Olshansky, Carnes</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2019</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="park-mcdonough-2013 Park &amp; McDonough, 2013 Filename-derived placeholder metadata. Park &amp; McDonough, 2013.pdf en article article pdf 2013 Date TBD Park McDonough Filename only Metadata incomplete Article PDF Author names and year are copied from the filename. The full article title is not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="25">
+  <a class="card-link" href="readings/park-mcdonough-2013/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/park-mcdonough-2013.svg" alt="Park &amp; McDonough, 2013 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 25</span>
+      </div>
+      <h2 class="title">Park &amp; McDonough, 2013</h2>
+      <p class="meta">Park, McDonough</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2013</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="suitor-et-al-2014 Suitor et al., 2014 Filename-derived placeholder metadata. Suitor et al., 2014.pdf en article article pdf 2014 Date TBD Suitor et al. Filename only Metadata incomplete Article PDF Author string and year are copied from the filename. Additional author names and the full article title are not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="26">
+  <a class="card-link" href="readings/suitor-et-al-2014/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/suitor-et-al-2014.svg" alt="Suitor et al., 2014 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 26</span>
+      </div>
+      <h2 class="title">Suitor et al., 2014</h2>
+      <p class="meta">Suitor et al.</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2014</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+
+<article class="video-card" data-reading-card data-search="wagner-et-al-2016 Wagner et al., 2016 Filename-derived placeholder metadata. Wagner et al., 2016.pdf en article article pdf 2016 Date TBD Wagner et al. Filename only Metadata incomplete Article PDF Author string and year are copied from the filename. Additional author names and the full article title are not confirmed yet." data-type="article" data-tags="filename only||metadata incomplete||article pdf" data-sort-date="" data-sequence="27">
+  <a class="card-link" href="readings/wagner-et-al-2016/index.html">
+    <div class="thumb">
+      <img src="assets/thumbnails/wagner-et-al-2016.svg" alt="Wagner et al., 2016 thumbnail" />
+      <span class="badge">Article</span>
+      <span class="thumb-date">Date TBD</span>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="status placeholder">0/10 ready</span>
+        <span class="chip">Reading 27</span>
+      </div>
+      <h2 class="title">Wagner et al., 2016</h2>
+      <p class="meta">Wagner et al.</p>
+      <p class="meta">Filename-derived placeholder metadata.</p>
+      <p class="meta">article pdf | English | 2016</p>
+      <div class="chip-row"><span class="chip">Filename only</span><span class="chip">Metadata incomplete</span><span class="chip">Article PDF</span></div>
+    </div>
+  </a>
+</article>
+</div>
+      <section class="panel empty-state" data-empty-state hidden><h2>No readings matched</h2><p>Adjust the search, type, or tag filters to restore cards.</p></section>
+    </div>
+  </section>
+  <p class="footer-note">Generated from <code>manifest/readings.json</code> and <code>content/readings/&lt;slug&gt;/</code>.</p>
+</main>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
