@@ -49,6 +49,37 @@ function initTheme(){
   });
 }
 
+function ensureGateToast(){
+  let toast=document.querySelector("[data-gate-toast]");
+  if(toast)return toast;
+  toast=document.createElement("div");
+  toast.className="gate-toast";
+  toast.hidden=true;
+  toast.setAttribute("data-gate-toast","");
+  document.body.appendChild(toast);
+  return toast;
+}
+
+function showGateToast(message){
+  const toast=ensureGateToast();
+  const text=(message||"업로드 예정입니다.").trim();
+  toast.textContent=text;
+  toast.hidden=false;
+  if(showGateToast.timer)window.clearTimeout(showGateToast.timer);
+  showGateToast.timer=window.setTimeout(()=>{
+    toast.hidden=true;
+  },1800);
+}
+
+function initGatedLinks(){
+  document.querySelectorAll("[data-gated-link]").forEach((element)=>{
+    element.addEventListener("click",(event)=>{
+      event.preventDefault();
+      showGateToast(element.dataset.gatedMessage||"업로드 예정입니다.");
+    });
+  });
+}
+
 function initHomeFilters(){
   const controls=document.querySelector("[data-home-controls]");
   if(!controls)return;
@@ -78,6 +109,50 @@ function initHomeFilters(){
   [input,typeSelect,tagSelect].forEach((element)=>element&&element.addEventListener("input",apply));
   [typeSelect,tagSelect].forEach((element)=>element&&element.addEventListener("change",apply));
   apply();
+}
+
+function initTabMenus(){
+  const menus=Array.from(document.querySelectorAll("[data-tab-more]"));
+  if(!menus.length)return;
+
+  const closeMenu=(menu)=>{
+    if(menu?.open)menu.open=false;
+  };
+
+  const closeAll=(except=null)=>{
+    menus.forEach((menu)=>{
+      if(menu!==except)closeMenu(menu);
+    });
+  };
+
+  menus.forEach((menu)=>{
+    const links=Array.from(menu.querySelectorAll("[data-tab-more-link]"));
+    menu.addEventListener("toggle",()=>{
+      if(menu.open)closeAll(menu);
+    });
+    links.forEach((link)=>{
+      link.addEventListener("click",()=>{
+        closeMenu(menu);
+      });
+    });
+  });
+
+  document.querySelectorAll("[data-tab-link]").forEach((link)=>{
+    link.addEventListener("click",()=>{
+      closeAll();
+    });
+  });
+
+  document.addEventListener("click",(event)=>{
+    menus.forEach((menu)=>{
+      if(menu.open&&!menu.contains(event.target))closeMenu(menu);
+    });
+  });
+
+  document.addEventListener("keydown",(event)=>{
+    if(event.key!=="Escape")return;
+    closeAll();
+  });
 }
 
 function slugify(value){
@@ -275,7 +350,9 @@ function initProfessorPrep(){
 
 document.addEventListener("DOMContentLoaded",()=>{
   initTheme();
+  initGatedLinks();
   initHomeFilters();
+  initTabMenus();
   initReader();
   initProfessorPrep();
 });

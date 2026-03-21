@@ -4,6 +4,12 @@ const { pathToFileURL } = require("url");
 
 const { TARGET_ORDER, SPECS } = require("./post_midterm_specs");
 const { buildSite: buildStaticSite } = require("./build_site");
+const {
+  READING_STATUS,
+  buildValidationSnapshot,
+  mergeValidationFields,
+  validateBuildArtifacts,
+} = require("./validate_content");
 
 const ROOT_DIR = path.resolve(__dirname, "..");
 const MANIFEST_PATH = path.join(ROOT_DIR, "manifest", "readings.json");
@@ -85,7 +91,133 @@ function cyclingPool(pool, startIndex, count, exclude) {
   return picked;
 }
 
+function toText(value) {
+  return typeof value === "string" ? value.replace(/\s+/g, " ").trim() : "";
+}
+
+function firstNonEmpty(...values) {
+  for (const value of values) {
+    const text = toText(value);
+    if (text) {
+      return text;
+    }
+  }
+  return "";
+}
+
+function ensureSentence(value) {
+  const text = toText(value);
+  if (!text) {
+    return "";
+  }
+  return /[.!?]$/.test(text) ? text : `${text}.`;
+}
+
+function isEnglishLike(value) {
+  return /^[A-Za-z][A-Za-z0-9+ /().,:&'-]*$/.test(toText(value));
+}
+
+function englishTermForConcept(concept) {
+  if (isEnglishLike(concept.term)) {
+    return toText(concept.term);
+  }
+  const answers = Array.isArray(concept.answers) ? concept.answers : [];
+  const englishAnswer = answers.find((answer) => isEnglishLike(answer));
+  return firstNonEmpty(englishAnswer, concept.term);
+}
+
+function koreanLabelForConcept(concept) {
+  return firstNonEmpty(concept.korean_label, concept.korean_term, concept.label_ko, concept.term);
+}
+
+function studentExplanationForConcept(concept) {
+  const definition = toText(concept.definition);
+  const significance = toText(concept.significance);
+  if (!definition && !significance) {
+    return "정의와 사례를 같이 붙여서 자기 말로 다시 설명할 필요가 있다.";
+  }
+  if (!significance) {
+    return `쉽게 말해 ${definition}라는 뜻이다.`;
+  }
+  return `쉽게 말해 ${definition}라는 뜻이고, 이 읽기에서는 ${ensureSentence(significance).replace(/[.!?]$/, "")}는 점까지 같이 잡아야 한다.`;
+}
+
+function confusionPointForConcept(concept) {
+  const source = toText(concept.source);
+  const englishTerm = englishTermForConcept(concept);
+  if (source) {
+    return `${englishTerm}을(를) 일반 상식 수준으로 넓게 외우지 말고, 이 읽기에서는 ${source} 맥락의 개념으로 붙여서 이해해야 한다.`;
+  }
+  return `${englishTerm}과(와) 비슷한 표현을 섞지 말고 정의와 쓰인 맥락을 함께 외워야 한다.`;
+}
+
+function summaryImportanceLine(spec, section, index) {
+  return firstNonEmpty(
+    section.bullets[1],
+    spec.summary.conclusion[index],
+    spec.summary.conclusion[0],
+    spec.summary.one_line
+  );
+}
+
+function summaryClassroomLine(spec, section, index) {
+  return firstNonEmpty(
+    section.bullets[2],
+    spec.summary.conclusion[index + 1],
+    spec.summary.conclusion[index],
+    spec.summary.conclusion[0],
+    spec.summary.one_line
+  );
+}
+
+function dedupeProfessorPrepCards(cards) {
+  const seen = new Set();
+  return cards.filter((card) => {
+    const title = toText(card.title);
+    const answer_30s = toText(card.answer_30s);
+    if (!title || !answer_30s) {
+      return false;
+    }
+    const key = `${title}::${answer_30s}`;
+    if (seen.has(key)) {
+      return false;
+    }
+    seen.add(key);
+    return true;
+  });
+}
+
 function buildSummaryMarkdown(spec) {
+  {
+    const sections = spec.summary.sections
+      .map((section, index) => {
+        const claim = firstNonEmpty(section.bullets[0], spec.summary.one_line);
+        const importance = summaryImportanceLine(spec, section, index);
+        const classroomPoint = summaryClassroomLine(spec, section, index);
+        return [
+          `## ${index + 1}. ${section.title}`,
+          "",
+          `- 핵심 주장: ${claim}`,
+          `- 왜 중요한지: ${importance}`,
+          `- 수업에서 붙일 포인트: ${classroomPoint}`,
+        ].join("\n");
+      })
+      .join("\n\n");
+    return [
+      "# 핵심 요약",
+      "",
+      "## 핵심 주장",
+      "",
+      `- ${spec.summary.one_line}`,
+      "",
+      sections,
+      "",
+      "## 결론 정리",
+      "",
+      markdownList(spec.summary.conclusion),
+      "",
+    ].join("\n");
+  }
   const sections = spec.summary.sections
     .map((section) => `### ${section.title}\n\n${markdownList(section.bullets)}`)
     .join("\n\n");
@@ -124,6 +256,28 @@ function buildTranslationMarkdown(spec) {
 }
 
 function buildConceptsMarkdown(spec) {
+  {
+    const sections = spec.concepts
+      .map((concept, index) => [
+        `## ${index + 1}. ${koreanLabelForConcept(concept)}`,
+        "",
+        `- 한국어 개념명: ${koreanLabelForConcept(concept)}`,
+        `- Original English term: ${englishTermForConcept(concept)}`,
+        `- 정확한 한 줄 정의: ${ensureSentence(concept.definition)}`,
+        `- 학생 말투로 풀어쓴 설명: ${studentExplanationForConcept(concept)}`,
+        `- 왜 이 글에서 중요한지: ${ensureSentence(concept.significance)}`,
+        `- 자주 헷갈리는 포인트: ${confusionPointForConcept(concept)}`,
+        "",
+      ].join("\n"))
+      .join("\n");
+    return [
+      "# 핵심 개념",
+      "",
+      "영어 용어, 정확한 정의, 학생 말투 설명, 중요 포인트를 한 번에 다시 확인할 수 있게 정리한다.",
+      "",
+      sections,
+    ].join("\n");
+  }
   const sections = spec.concepts
     .map((concept, index) => [
       `## ${index + 1}. ${concept.term}`,
@@ -247,6 +401,61 @@ function buildMcqQuiz(spec) {
 }
 
 function buildProfessorPrep(spec) {
+  {
+    const generatedCards = [];
+    spec.oral_cards.forEach((card, index) => {
+      const keyword = firstNonEmpty(card.keywords?.[0], `핵심 포인트 ${index + 1}`);
+      const baseAnswer = [card.core, card.expansion].map(toText).filter(Boolean).join(" ");
+      const implicationAnswer = [card.implication, card.core].map(toText).filter(Boolean).join(" ");
+      const koreaAnswer = [card.korea, card.core].map(toText).filter(Boolean).join(" ");
+      const limitAnswer = [card.limit, card.core].map(toText).filter(Boolean).join(" ");
+      const evidenceAnswer = [card.evidence?.[0], card.core].map(toText).filter(Boolean).join(" ");
+
+      generatedCards.push({
+        title: toText(card.question),
+        answer_30s: baseAnswer,
+      });
+      if (implicationAnswer) {
+        generatedCards.push({
+          title: `${keyword}가 왜 중요한가?`,
+          answer_30s: implicationAnswer,
+        });
+      }
+      if (koreaAnswer) {
+        generatedCards.push({
+          title: `${keyword}를 한국 맥락에 붙이면?`,
+          answer_30s: koreaAnswer,
+        });
+      }
+      if (limitAnswer) {
+        generatedCards.push({
+          title: `${keyword}를 읽을 때 한계는?`,
+          answer_30s: limitAnswer,
+        });
+      }
+      if (evidenceAnswer) {
+        generatedCards.push({
+          title: `${keyword}를 뒷받침하는 근거는?`,
+          answer_30s: evidenceAnswer,
+        });
+      }
+    });
+
+    spec.concepts.forEach((concept) => {
+      generatedCards.push({
+        title: `${koreanLabelForConcept(concept)}를 한 문장으로 설명해보면?`,
+        answer_30s: `${ensureSentence(concept.definition)} ${ensureSentence(concept.significance)}`.trim(),
+      });
+    });
+
+    const cards = dedupeProfessorPrepCards(generatedCards).slice(0, 20);
+    assert(cards.length >= 15, `${spec.slug}: professor prep cards must be at least 15`);
+    return {
+      title: `${spec.title} 교수님 구술 대비`,
+      instructions: "각 항목은 '이 글을 어떻게 읽었는지'를 30초 안에 바로 말할 수 있도록 만든 모델 답변이다.",
+      cards,
+    };
+  }
   const cards = spec.oral_cards.map((card) => ({
     question: card.question,
     answer_10s: card.core,
@@ -388,6 +597,17 @@ function writeContentFiles(spec) {
   }
 }
 
+function loadJsonIfExists(filePath) {
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+  return JSON.parse(readText(filePath));
+}
+
+function findManifestEntry(manifest, slug) {
+  return manifest.readings.find((reading) => reading.slug === slug);
+}
+
 function upsertManifestEntry(manifest, spec) {
   const existingIndex = manifest.readings.findIndex((reading) => reading.source_filename === spec.source_filename);
   const nextEntry = {
@@ -424,28 +644,35 @@ function upsertManifestEntry(manifest, spec) {
   }
 }
 
-function buildSite() {
-  buildStaticSite();
+function syncValidationState(manifest, slug, options = {}) {
+  const reading = findManifestEntry(manifest, slug);
+  assert(reading, `Missing manifest entry for ${slug}`);
+  const metaPath = path.join(ROOT_DIR, reading.content_dir, "meta.json");
+  const existingMeta = loadJsonIfExists(metaPath) || {};
+  const snapshot = buildValidationSnapshot(ROOT_DIR, reading, existingMeta, options);
+  const nextMeta = mergeValidationFields(existingMeta, snapshot);
+  writeText(metaPath, `${JSON.stringify(nextMeta, null, 2)}\n`);
+  Object.assign(reading, {
+    content_status: snapshot.content_status,
+    workflow_status: snapshot.workflow_status,
+    workflow_notes: snapshot.workflow_notes,
+    validation_stage1_status: snapshot.validation_status.stage1.status,
+    validation_stage2_status: snapshot.validation_status.stage2.status,
+    manual_review: snapshot.manual_review,
+  });
+  return snapshot;
 }
 
-function expectedPageFiles(language) {
-  const files = BASE_PAGE_FILES.slice();
-  if (language === "en") {
-    files.splice(3, 0, "translation.html");
-  }
-  return files;
+function buildSite(options = {}) {
+  return buildStaticSite(options);
 }
 
-function verifyReadingBuild(spec) {
-  const readingDir = path.join(ROOT_DIR, "docs", "readings", spec.slug);
-  const files = expectedPageFiles(spec.language);
-  for (const file of files) {
-    const fullPath = path.join(readingDir, file);
-    if (!fs.existsSync(fullPath)) {
-      throw new Error(`missing built page: ${path.relative(ROOT_DIR, fullPath)}`);
-    }
+function verifyReadingBuild(reading) {
+  const result = validateBuildArtifacts(ROOT_DIR, reading);
+  if (result.errors.length) {
+    throw new Error(result.errors.join("; "));
   }
-  return files.length;
+  return result.page_count;
 }
 
 function renderPrompt() {
@@ -487,7 +714,7 @@ function renderPrompt() {
     "",
     "Stop condition:",
     "",
-    "Process every processable target reading in the list above, or log blockers clearly and continue until the list is exhausted.",
+    "Process one reading, run schema validation plus build-artifact validation, and stop immediately unless the reading reaches `approved`.",
     ""
   );
   return lines.join("\n");
@@ -510,14 +737,15 @@ function renderPlan() {
     "1. Ensure durable memory files reflect the fixed post-midterm scope.",
     "2. Extract `raw.txt` and `full.md` for target readings only.",
     "3. Update manifest metadata conservatively from the current local PDFs.",
-    "4. Generate or update reading content in the order above.",
+    "4. Generate or update reading content in the order above with strengthened `summary`, `concepts`, and professor-prep schema.",
     "5. After each reading:",
-    "   - rebuild `docs`",
-    "   - verify required page files exist",
-    "   - update `Status.md`",
-    "6. If a source PDF is missing or extraction quality is too poor:",
-    "   - log the exact blocker to `FailureLog.md`",
-    "   - continue with the next target reading",
+    "   - rebuild `docs` for the reading and home page",
+    "   - verify built HTML/PDF artifacts",
+    "   - run schema validation and write `content_status` / `workflow_status`",
+    "   - stop unless the reading reaches `approved`",
+    "6. If validation returns `manual_review_required`, `partial`, or `blocked`:",
+    "   - write the exact reason to `Status.md` and `FailureLog.md` when needed",
+    "   - hand off to manual review or source-data fixes before moving on",
     "7. Finish with a full rebuild and concise batch summary.",
     ""
   );
@@ -546,7 +774,8 @@ function renderStatus(statusMap, blockers, summary) {
     "Current phase:",
     "",
     "- Post-midterm target batch in progress or complete",
-    "- Site rebuild and page verification are performed after each processed reading",
+    "- Site rebuild, artifact verification, and schema validation are performed after each processed reading",
+    "- The batch stops at the first reading that is not `approved`",
     "",
     "Per-reading status:",
     "",
@@ -557,14 +786,24 @@ function renderStatus(statusMap, blockers, summary) {
   lines.push("", "Batch summary:", "");
   if (summary) {
     lines.push(`- completed readings: ${summary.completed.join(", ") || "none"}`);
+    lines.push(`- manual review queue: ${summary.manual_review_slugs.join(", ") || "none"}`);
+    lines.push(`- partial readings: ${summary.partial.join(", ") || "none"}`);
     lines.push(`- blocked readings: ${summary.blocked.join(", ") || "none"}`);
+    lines.push(`- stopped at: ${summary.stopped_at || "none"}`);
     lines.push(`- files changed: ${summary.files_changed.join(", ")}`);
     lines.push(`- pages generated: ${summary.pages_generated}`);
     lines.push("- top items needing manual review:");
-    summary.manual_review.forEach((item) => lines.push(`- ${item}`));
+    if (summary.manual_review.length) {
+      summary.manual_review.forEach((item) => lines.push(`- ${item}`));
+    } else {
+      lines.push("- none");
+    }
   } else {
     lines.push("- completed readings: in progress");
+    lines.push("- manual review queue: in progress");
+    lines.push("- partial readings: in progress");
     lines.push(`- blocked readings: ${blockers.length ? blockers.length : "none"}`);
+    lines.push("- stopped at: in progress");
     lines.push("- files changed: in progress");
     lines.push("- pages generated: in progress");
     lines.push("- top items needing manual review:");
@@ -582,6 +821,91 @@ function writeMemoryFiles(statusMap, blockers, summary = null) {
 }
 
 async function main() {
+  {
+    const manifest = loadManifest();
+    const statusMap = Object.fromEntries(TARGET_ORDER.map((item) => [item.slug, "pending"]));
+    const blockers = [];
+    let pagesGenerated = 0;
+    let stoppedAt = null;
+
+    writeMemoryFiles(statusMap, blockers, null);
+
+    for (const item of TARGET_ORDER) {
+      const spec = SPECS[item.slug];
+      assert(spec, `Missing content spec for ${item.slug}`);
+      try {
+        upsertManifestEntry(manifest, spec);
+        saveManifest(manifest);
+        await writeRawAndFull(spec);
+        writeContentFiles(spec);
+        buildSite({ slug: spec.slug });
+        const reading = findManifestEntry(manifest, spec.slug);
+        pagesGenerated += verifyReadingBuild(reading);
+        const snapshot = syncValidationState(manifest, spec.slug, { requireBuiltArtifacts: true });
+        saveManifest(manifest);
+        statusMap[item.slug] = snapshot.workflow_status;
+        writeMemoryFiles(statusMap, blockers, null);
+        if (snapshot.workflow_status !== READING_STATUS.APPROVED) {
+          stoppedAt = spec.slug;
+          if (
+            snapshot.workflow_status === READING_STATUS.PARTIAL ||
+            snapshot.workflow_status === READING_STATUS.BLOCKED
+          ) {
+            snapshot.workflow_notes.forEach((note) => blockers.push(`- \`${spec.slug}\`: ${note}`));
+          }
+          writeMemoryFiles(statusMap, blockers, null);
+          break;
+        }
+      } catch (error) {
+        statusMap[item.slug] = READING_STATUS.BLOCKED;
+        blockers.push(`- \`${item.slug}\`: ${error.message}`);
+        stoppedAt = item.slug;
+        writeMemoryFiles(statusMap, blockers, null);
+        break;
+      }
+    }
+
+    buildSite();
+    assert(fs.existsSync(SITE_INDEX_PATH), "missing docs/index.html after final build");
+
+    const completed = TARGET_ORDER.filter((item) => statusMap[item.slug] === READING_STATUS.APPROVED).map((item) => item.slug);
+    const manualReviewSlugs = TARGET_ORDER
+      .filter((item) => statusMap[item.slug] === READING_STATUS.MANUAL_REVIEW_REQUIRED)
+      .map((item) => item.slug);
+    const partial = TARGET_ORDER.filter((item) => statusMap[item.slug] === READING_STATUS.PARTIAL).map((item) => item.slug);
+    const blocked = TARGET_ORDER.filter((item) => statusMap[item.slug] === READING_STATUS.BLOCKED).map((item) => item.slug);
+    const summary = {
+      completed,
+      manual_review_slugs: manualReviewSlugs,
+      partial,
+      blocked,
+      stopped_at: stoppedAt,
+      files_changed: [
+        "Prompt.md",
+        "Plan.md",
+        "Status.md",
+        "FailureLog.md",
+        "manifest/readings.json",
+        "scripts/post_midterm_batch.js",
+        "scripts/post_midterm_specs.js",
+        "content/readings/<target-slug>/*",
+        "docs/index.html",
+        "docs/readings/<target-slug>/*",
+      ],
+      pages_generated: `${pagesGenerated} reading pages validated during the batch`,
+      manual_review: manualReviewSlugs.flatMap((slug) => {
+        const reading = findManifestEntry(manifest, slug);
+        const notes = Array.isArray(reading?.workflow_notes) ? reading.workflow_notes : [];
+        if (!notes.length) {
+          return [`\`${slug}\`: schema passed but manual review is still required`];
+        }
+        return notes.map((note) => `\`${slug}\`: ${note}`);
+      }),
+    };
+    writeMemoryFiles(statusMap, blockers, summary);
+    console.log("[done] post-midterm batch complete");
+    return;
+  }
   const manifest = loadManifest();
   const statusMap = Object.fromEntries(TARGET_ORDER.map((item) => [item.slug, "pending"]));
   const blockers = [];

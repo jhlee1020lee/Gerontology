@@ -36,11 +36,13 @@
 
 ### 4.1 Stage 1 = content completeness
 - `개요`
+- `설명 영상`
 - `전체 글`
 - `한국어 번역` for English readings only
 - deployable online PDF access when public PDF access is supported
 
 Stage 1 content meaning:
+- `설명 영상` must have a public notebookLM video or equivalent deployable video asset on the landing page.
 - `전체 글` must contain the full original text only.
 - `전체 글` must not use summary-style rewriting, compression, or a clean-overview substitute.
 - `전체 글` must preserve section order and the readable full body.
@@ -80,8 +82,8 @@ Failure handling:
 ### 5.2 Stage 2 validation
 Stage 2 is valid only if all of the following are true:
 
-- `summary` exists
-- `concepts` exists
+- `summary` exists and passes schema validation
+- `concepts` exists and passes schema validation
 - `pitfalls` exists
 - `review-sheet` exists
 - `professor-prep` exists
@@ -90,9 +92,39 @@ Stage 2 is valid only if all of the following are true:
 - MCQ count = `15`
 - all Stage 2 pages are linked from the reading hub
 
+Schema validation expectations:
+
+- `summary` must include a clear lead section and enough structured bullet content to show the major claims and why they matter.
+- `concepts` must include, for each concept:
+  - Korean label
+  - original English term
+  - one-sentence exact definition
+  - plain-language explanation
+  - why it matters in this reading
+  - one common confusion point
+- `professor-prep` must publish at least `15` cards using the minimal shape:
+  - `title`
+  - `answer_30s`
+
 ### 5.3 Incomplete readings
 - If any required part is incomplete, mark the reading `partial` or `blocked`.
 - Do not present incomplete work as complete.
+
+### 5.4 Status model
+- Page status values:
+  - `missing`
+  - `schema_fail`
+  - `schema_pass`
+  - `approved`
+  - `not_applicable`
+- Reading/workflow status values:
+  - `blocked`
+  - `partial`
+  - `manual_review_required`
+  - `approved`
+- `schema_pass` means the generated page cleared the structural validator but still needs manual review.
+- Automation should stop after the first reading that is not `approved`.
+- Use `node scripts/validate_content.js` as the local validation gate before moving on to the next reading.
 
 ## 6. Date / order rules
 - Homepage reading order and displayed dates must follow syllabus class-date order.
@@ -294,6 +326,7 @@ Bad expansions inside the template:
 - Must be cleaned into readable article-style HTML.
 - Do not silently skip major sections.
 - Stage 1 validation requires the readable full body, not a shortened substitute.
+- Stage 1 validation also requires the landing-page explanation video to exist and be approved for public release.
 - If extraction quality is poor, fix extraction first instead of publishing obviously broken text.
 - Never substitute summary content into `full.html`.
 

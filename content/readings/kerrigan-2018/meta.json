@@ -16,16 +16,17 @@
     "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
   ],
   "content_status": {
-    "summary": "ready",
-    "full": "ready",
-    "translation": "ready",
-    "concepts": "ready",
-    "pitfalls": "ready",
-    "quiz_ox": "ready",
-    "quiz_short": "ready",
-    "quiz_mcq": "ready",
-    "review_sheet": "ready",
-    "professor_prep": "ready"
+    "full": "approved",
+    "translation": "approved",
+    "summary": "approved",
+    "concepts": "approved",
+    "pitfalls": "approved",
+    "review_sheet": "approved",
+    "professor_prep": "approved",
+    "quiz_ox": "approved",
+    "quiz_short": "approved",
+    "quiz_mcq": "approved",
+    "index": "approved"
   },
   "content_dir": "content/readings/kerrigan-2018",
   "type": "article",
@@ -36,7 +37,157 @@
   "public_pdf": "pdfs/kerrigan-2018.pdf",
   "overview_hook": null,
   "classroom_points": [],
-  "notebooklm_video_url": null,
+  "notebooklm_video_url": "assets/videos/kerrigan-2018/notebooklm.mp4",
   "notebooklm_video_note": null,
-  "notebooklm_video_poster": null
+  "notebooklm_video_poster": null,
+  "manual_review": {
+    "approved_pages": [
+      "full",
+      "translation",
+      "summary",
+      "concepts",
+      "pitfalls",
+      "review-sheet",
+      "professor-prep",
+      "quiz-ox",
+      "quiz-short",
+      "quiz-mcq"
+    ],
+    "reviewer": "codex",
+    "reviewed_at": "2026-03-22",
+    "notes": [
+      "Validated against schema and built artifacts."
+    ],
+    "blocked_reason": ""
+  },
+  "validation_status": {
+    "updated_at": "2026-03-21T16:25:54.490Z",
+    "require_built_artifacts": true,
+    "landing": {
+      "status": "approved",
+      "errors": [],
+      "warnings": [],
+      "metrics": {
+        "has_video": true,
+        "source": "local"
+      }
+    },
+    "page_results": {
+      "full": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 1758,
+          "section_count": 12,
+          "sub_section_count": 0,
+          "bullet_count": 0
+        }
+      },
+      "translation": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 1235,
+          "section_count": 12,
+          "sub_section_count": 0,
+          "bullet_count": 0,
+          "full_word_count": 1758,
+          "translation_ratio": 0.703
+        }
+      },
+      "summary": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 380,
+          "section_count": 3,
+          "sub_section_count": 5,
+          "bullet_count": 17
+        }
+      },
+      "concepts": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 1254,
+          "section_count": 12,
+          "sub_section_count": 0,
+          "bullet_count": 72,
+          "concept_count": 12
+        }
+      },
+      "pitfalls": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 251,
+          "section_count": 6,
+          "sub_section_count": 0,
+          "bullet_count": 18
+        }
+      },
+      "review_sheet": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 212,
+          "section_count": 5,
+          "sub_section_count": 0,
+          "bullet_count": 17
+        }
+      },
+      "professor_prep": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "card_count": 17
+        }
+      },
+      "quiz_ox": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_short": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_mcq": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      }
+    },
+    "stage1": {
+      "status": "approved",
+      "notes": []
+    },
+    "stage2": {
+      "status": "approved",
+      "notes": []
+    },
+    "reading": {
+      "status": "approved",
+      "notes": []
+    }
+  },
+  "workflow_status": "approved",
+  "workflow_notes": []
 }

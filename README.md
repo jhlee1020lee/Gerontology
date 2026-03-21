@@ -74,6 +74,7 @@ Common authored source files in a reading folder include:
 
 ### Stage 1 = content completeness
 - `개요`
+- `설명 영상`
 - `전체 글`
 - `한국어 번역` for English readings only
 - deployable online PDF access when public PDF access is supported
@@ -91,6 +92,7 @@ Common authored source files in a reading folder include:
 ### Validation gates
 - Finish and validate Stage 1 before starting Stage 2 for a reading.
 - Stage 1 validation:
+  - `설명 영상` exists and is approved for public release
   - `전체 글` contains the full original text, preserving section order and the readable full body
   - `한국어 번역` is a complete full Korean translation for English readings, preserving section order and heading structure
   - deployable PDF path exists when public PDF access is supported
@@ -99,9 +101,24 @@ Common authored source files in a reading folder include:
 - If `한국어 번역` is not a complete full translation, the reading is not complete.
 - Such readings must be marked `partial` or `blocked`, not done.
 - Stage 2 validation:
-  - `summary`, `concepts`, `pitfalls`, `review-sheet`, and `professor-prep` exist
+  - `summary`, `concepts`, `pitfalls`, `review-sheet`, and `professor-prep` exist and pass schema validation
   - `quiz-ox`, `quiz-short`, and `quiz-mcq` each have `15` items
   - all study pages are linked from the reading hub
+
+### Status model
+- Page status uses:
+  - `missing`
+  - `schema_fail`
+  - `schema_pass`
+  - `approved`
+  - `not_applicable`
+- Reading/workflow status uses:
+  - `blocked`
+  - `partial`
+  - `manual_review_required`
+  - `approved`
+- Automation should stop after the first reading that is not `approved`.
+- `schema_pass` means the generated page cleared structural validation, but it still needs manual review before the reading is treated as complete.
 
 ## Hulur benchmark
 - `hulur-et-al-2019` is the current workflow and quality benchmark reading.
@@ -137,6 +154,24 @@ Common authored source files in a reading folder include:
 ## Build locally
 ```powershell
 node scripts/build_site.js
+```
+
+Validate content quality/status for one reading:
+
+```powershell
+node scripts/validate_content.js --slug hulur-et-al-2019
+```
+
+Validate with built HTML/PDF artifacts too:
+
+```powershell
+node scripts/validate_content.js --slug hulur-et-al-2019 --require-built-artifacts
+```
+
+Approval summary is written to:
+
+```powershell
+APPROVAL_STATUS.md
 ```
 
 Then open:
