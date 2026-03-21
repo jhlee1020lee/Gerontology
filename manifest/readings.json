@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "성인노년학 읽기 사이트",
-    "tagline": "전체 글, 핵심 요약, 번역, 개념, 헷갈리는 포인트, 퀴즈, 시험 정리를 오프라인으로 이어 보는 학습 흐름.",
-    "description": "현재 로컬 읽기 자료 목록 전체를 기준으로 만드는 정적 학습 사이트입니다. 로컬 파일에서 확인되지 않은 메타데이터는 보수적으로 임시 표시로 남깁니다."
+    "tagline": "수업 날짜 순서대로 읽고, 정리와 퀴즈까지 한 흐름으로 이어 보는 성인노년학 학습 사이트.",
+    "description": "수업 날짜 순서대로 읽기 자료를 모아 두고, 개요부터 본문·개념·퀴즈·교수님 질문 대비까지 이어서 볼 수 있게 정리했습니다."
   },
   "readings": [
     {
@@ -27,10 +27,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-03-03",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-03-03",
+      "display_date_label": "3/03"
     },
     {
       "slug": "ch02-gerontology",
@@ -54,10 +54,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-03-10",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-03-10",
+      "display_date_label": "3/10"
     },
     {
       "slug": "ch03-gerontology",
@@ -81,10 +81,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-03-17",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-03-17",
+      "display_date_label": "3/17"
     },
     {
       "slug": "ch04-gerontology",
@@ -108,10 +108,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-03-24",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-03-24",
+      "display_date_label": "3/24"
     },
     {
       "slug": "ch05-gerontology",
@@ -135,10 +135,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-03-31",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-03-31",
+      "display_date_label": "3/31"
     },
     {
       "slug": "ch06-gerontology",
@@ -162,10 +162,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-04-07",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-04-07",
+      "display_date_label": "4/07"
     },
     {
       "slug": "ch07-gerontology",
@@ -189,10 +189,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-04-14",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-04-14",
+      "display_date_label": "4/14"
     },
     {
       "slug": "ch08-gerontology",
@@ -217,10 +217,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-04-28",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-04-28",
+      "display_date_label": "4/28"
     },
     {
       "slug": "ch09-gerontology",
@@ -245,10 +245,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-05-12",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-05-12",
+      "display_date_label": "5/12"
     },
     {
       "slug": "ch10-gerontology",
@@ -273,10 +273,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-05-12",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-05-12",
+      "display_date_label": "5/12"
     },
     {
       "slug": "ch11-gerontology",
@@ -301,10 +301,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-05-19",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-05-19",
+      "display_date_label": "5/19"
     },
     {
       "slug": "ch12-gerontology",
@@ -329,10 +329,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-05-26",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-05-26",
+      "display_date_label": "5/26"
     },
     {
       "slug": "ch13-gerontology",
@@ -357,10 +357,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-06-02",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-06-02",
+      "display_date_label": "6/02"
     },
     {
       "slug": "ch14-gerontology",
@@ -385,10 +385,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-06-09",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-06-09",
+      "display_date_label": "6/09"
     },
     {
       "slug": "ch15-gerontology",
@@ -413,10 +413,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": null,
+      "class_date": "2026-06-16",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-06-16",
+      "display_date_label": "6/16"
     },
     {
       "slug": "beck-2016",
@@ -442,10 +442,10 @@
         "기존 완료 콘텐츠를 유지하고 메타데이터만 정리했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-03-10",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-03-10",
+      "display_date_label": "3/10"
     },
     {
       "slug": "blieszner-2014",
@@ -472,10 +472,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-05-12",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-05-12",
+      "display_date_label": "5/12"
     },
     {
       "slug": "calvo-et-al-2018",
@@ -504,10 +504,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-05-19",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-05-19",
+      "display_date_label": "5/19"
     },
     {
       "slug": "carr-fang-2021",
@@ -535,10 +535,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-06-16",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-06-16",
+      "display_date_label": "6/16"
     },
     {
       "slug": "hulur-et-al-2019",
@@ -568,10 +568,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-03-24",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-03-24",
+      "display_date_label": "3/24"
     },
     {
       "slug": "kerrigan-2018",
@@ -597,10 +597,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-03-31",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-03-31",
+      "display_date_label": "3/31"
     },
     {
       "slug": "konrath-et-al-2012",
@@ -630,10 +630,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-06-02",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-06-02",
+      "display_date_label": "6/02"
     },
     {
       "slug": "leggett-et-al-2020",
@@ -662,10 +662,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-05-26",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-05-26",
+      "display_date_label": "5/26"
     },
     {
       "slug": "olshansky-carnes-2019",
@@ -692,10 +692,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-03-31",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-03-31",
+      "display_date_label": "3/31"
     },
     {
       "slug": "park-mcdonough-2013",
@@ -722,10 +722,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-04-07",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-04-07",
+      "display_date_label": "4/07"
     },
     {
       "slug": "suitor-et-al-2014",
@@ -755,10 +755,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-04-28",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-04-28",
+      "display_date_label": "4/28"
     },
     {
       "slug": "wagner-et-al-2016",
@@ -787,10 +787,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "article",
-      "class_date": null,
+      "class_date": "2026-04-14",
       "reading_date": null,
-      "sort_date": null,
-      "display_date_label": null
+      "sort_date": "2026-04-14",
+      "display_date_label": "4/14"
     }
   ],
   "schema": {

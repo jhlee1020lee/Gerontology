@@ -1,119 +1,74 @@
 # Project: Adult Aging Reading Site
 
 ## Goal
-Build a local-only static study website for course readings.
+Maintain a local-only static study website for gerontology course readings.
 
-## Non-negotiable rules
+## Core rules
 - Use only static HTML, CSS, and vanilla JavaScript.
 - No React, no database, no server framework.
 - Keep everything offline and relative-path only.
-- Home page must look like a YouTube-style responsive card grid.
-- One card = one reading.
-- Keep the current real local reading inventory as the source of truth. Do not collapse the project back to any sample subset.
-- Use `manifest/readings.json` as the source of truth for the reading inventory and build organization.
-- Do not hardcode content directly into HTML when avoidable.
-- Store authored reading content in `/content/readings/<slug>/` and generate pages from it.
-- Missing content must show a graceful placeholder page, not a broken link.
+- Home page must remain a YouTube-style responsive card grid.
+- One card equals one reading.
+- `manifest/readings.json` is the source of truth for reading inventory and build organization.
+- Keep the real local reading inventory; do not collapse the project to a sample subset.
+- Store authored reading content in `content/readings/<slug>/`.
+- Generate final site output into `docs/` only.
+- Do not create or maintain a parallel `site/` build target.
+- Missing content must render a graceful placeholder page, not a broken link.
 
-## Build and output rules
-- Scripts go into `/scripts`.
-- Final built site goes into `/docs`.
-- `/docs` is the only final generated static-site output folder.
-- Do not generate or maintain a parallel `/site` output tree.
+## Repository and local-file rules
+- `docs/` is the only final generated site folder.
+- `source_pdfs/` is local-only input. It may exist locally but be absent from git uploads.
+- Do not assume source PDFs are version-controlled.
+- Keep all generated links relative so the site works fully offline.
 - Local preview must open `docs/index.html`.
-- Keep organization date-based, not week-based.
-- Manifest entries may include optional fields such as:
-  - `class_date`
-  - `reading_date`
-  - `sort_date`
-  - `display_date_label`
-- Do not invent unknown dates. Use `null`, empty values, or TODO placeholders.
 
-## Page architecture
-Each reading must support separate pages for:
+## Workflow rules
+- Do not treat the project as one giant all-at-once generation task.
+- Prefer small staged passes:
+  - one reading at a time, or
+  - one section type at a time when quality requires it.
+- Translation for English readings must be handled as its own dedicated per-reading pass.
+- Do not combine translation, quizzes, professor-prep, and UI/site polish in one low-quality batch.
+- Prefer staged completion over one huge weak batch.
+
+## Homepage / ordering rules
+- Homepage cards must follow syllabus class-date order, not arbitrary manifest order and not filename order.
+- Use weekly class schedule as the primary date source.
+- If a reading-list appendix conflicts with the weekly schedule, prefer the weekly schedule.
+- Homepage copy must read like a clean reading dashboard only, not build/admin documentation.
+- Do not add helper/admin noise such as build counters, generator notes, or manifest references to the homepage UI.
+
+## Page family
+Each reading supports the following generated pages:
+
 - `index.html`
-- `full.html`
 - `summary.html`
+- `full.html`
 - `translation.html` for English readings only
 - `concepts.html`
 - `pitfalls.html`
-- `review-sheet.html`
-- `professor-prep.html`
 - `quiz-ox.html`
 - `quiz-short.html`
 - `quiz-mcq.html`
+- `review-sheet.html`
+- `professor-prep.html`
 
-Reading landing pages should use a study-flow layout that guides this order:
-- quick overview
-- full text
-- translation if applicable
-- concepts
-- pitfalls
-- quizzes
-- review sheet
-- professor prep
+## Content and QA rules
+- `quiz-short` is true short-answer only. Never use mini-essay prompts there.
+- If a page is incomplete, mark the reading partial/blocked instead of pretending it is complete.
+- For English readings, translation completeness is more important than batch speed.
+- Validate per-reading completeness for full text, translation when required, concepts, pitfalls, all three quiz types, review sheet, and professor-prep.
 
-Overview and `index.html` pages should visually match the cleaner article-style reading pages, not feel like a separate rough landing screen.
+## Professor-prep direction
+- Future professor-prep content must follow the real class style, not a generic oral-exam template.
+- Optimize for exact answers to what was interesting, new, important, and how the student read the text.
+- Prefer natural spoken Korean, precise concepts, follow-up resistance, and concrete explanation over generic summary language.
+- The detailed professor-style and page-specific rules live in [CONTENT_RULES.md](CONTENT_RULES.md).
 
-## Reading/page behavior
-- Render text in a readable article layout:
-  - max width around 820px
-  - line-height at least 1.8
-  - readable heading hierarchy
-- Article pages should support offline reading-comfort features with static HTML/CSS/vanilla JS only:
-  - auto-generated table of contents from headings
-  - font size controls
-  - dark mode toggle
-  - save last reading position in `localStorage`
-  - bookmark / mark-important UI in `localStorage`
-- For thumbnails, render the first page of the source PDF to PNG if possible.
-
-## Content rules
-- Korean textbook PDFs:
-  - create cleaned Korean full text
-  - create key points / quick overview
-  - create concepts
-  - create pitfalls
-  - create review sheet
-  - create professor prep notes
-  - create 15 OX, 15 short-answer, 15 multiple-choice questions
-- English papers/articles:
-  - create cleaned English full text
-  - create Korean translation
-  - create key points in Korean
-  - create concepts
-  - create pitfalls
-  - create review sheet
-  - create professor prep notes
-  - create 15 OX, 15 short-answer, 15 multiple-choice questions
-- Each quiz item must include answer and explanation.
-- Keep source section/page metadata when possible.
-
-## Short-answer quiz rule
-- Short-answer means true short-answer only.
-- Never use mini-essay or descriptive prompts in `quiz-short`.
-- Answers must be one term, one short phrase, one number, one name, or otherwise under 8 words.
-
-## Professor-prep rule
-- `professor-prep` is a serious oral-answer training system, not a light reflection page.
-- Optimize it for a professor who asks how the student read the text, what was interesting or new, pushes with aggressive follow-ups, dislikes vague/generic/AI-sounding answers, and prefers direct concept-based answers in the student's own words.
-- `professor-prep` entries should support:
-  - `question`
-  - `answer_10s`
-  - `answer_30s`
-  - `answer_60s`
-  - `must_include_keywords`
-  - `evidence_from_reading`
-  - `likely_followups`
-  - `followup_answers`
-  - `korean_context_link`
-  - `personal_connection_hint`
-  - `avoid_bad_answers`
-
-## UI and language rules
-- Homepage and shared UI should be Korean-first.
-- Preserve English only where original English reading titles, authors, or content are intentionally shown.
-- Keep shared navigation, labels, and helper UI aligned with the Korean-first interface unless the original source content specifically requires English.
+## Detailed spec
+- Exact syllabus date order, conflict resolution, homepage-noise rules, page-by-page content rules, translation workflow rules, and professor-style guidance are defined in [CONTENT_RULES.md](CONTENT_RULES.md).
+- README entry-point documentation is in [README.md](README.md).
 
 ## Privacy rule
 - Keep everything local/private. Do not add deployment config.
