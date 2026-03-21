@@ -1,111 +1,111 @@
 {
   "title": "Hülür et al., 2019 단답형 퀴즈",
-  "instructions": "한 용어, 이름, 숫자, 또는 아주 짧은 구로만 답하세요.",
+  "instructions": "한 용어, 한 이름, 한 숫자, 또는 짧은 구로만 답하세요.",
   "items": [
     {
-      "question": "이 연구가 사용한 종단 자료의 이름은 무엇인가?",
+      "question": "이 연구가 사용한 종단 자료의 이름은?",
       "accepted_answers": ["Seattle Longitudinal Study", "SLS"],
       "answer_type": "short_phrase",
-      "explanation": "이 논문의 표본과 인지 자료는 Seattle Longitudinal Study에서 나왔다.",
+      "explanation": "논문 전체가 Seattle Longitudinal Study 자료를 바탕으로 진행되었다.",
       "source": "Method - The Present Study"
     },
     {
-      "question": "코호트 구분의 역사적 기준이 된 사건은 무엇인가?",
+      "question": "코호트 구분의 역사적 기준 사건은?",
       "accepted_answers": ["World War II", "WWII", "제2차 세계대전"],
       "answer_type": "short_phrase",
-      "explanation": "1938년 이전과 1939년 이후를 나눈 기준은 제2차 세계대전의 시작이었다.",
+      "explanation": "1938년 이전과 1939년 이후를 가르는 기준은 제2차 세계대전 전후 구분이다.",
       "source": "Method - Measures"
     },
     {
-      "question": "earlier-born cohort의 마지막 출생연도는 몇 년인가?",
-      "accepted_answers": ["1938", "1938년"],
+      "question": "earlier-born cohort의 마지막 출생연도는?",
+      "accepted_answers": ["1938"],
       "answer_type": "number",
-      "explanation": "초기 코호트는 1938년 이전 혹은 그 해 출생자로 정의되었다.",
+      "explanation": "초기 코호트는 1938년 이전 또는 그 해 출생자로 정의되었다.",
       "source": "Method - Measures"
     },
     {
-      "question": "later-born cohort가 시작되는 첫 출생연도는 몇 년인가?",
-      "accepted_answers": ["1939", "1939년"],
+      "question": "later-born cohort가 시작되는 첫 출생연도는?",
+      "accepted_answers": ["1939"],
       "answer_type": "number",
       "explanation": "후기 코호트는 1939년 이후 출생자다.",
       "source": "Method - Measures"
     },
     {
-      "question": "성장모형에서 intercept를 해석한 기준 연령은 몇 세인가?",
-      "accepted_answers": ["55", "55세"],
+      "question": "성장모형에서 age를 중심화한 기준 연령은?",
+      "accepted_answers": ["55"],
       "answer_type": "number",
-      "explanation": "age는 55세를 기준으로 centered 되었기 때문에 intercept는 55세 시점 수준을 뜻한다.",
+      "explanation": "그래서 intercept는 55세 시점의 인지수준을 뜻한다.",
       "source": "Method - Data Preparation"
     },
     {
-      "question": "매칭 후 각 코호트에 남은 관측치 수는 몇 개인가?",
+      "question": "매칭 후 각 코호트에 남은 관측치 수는?",
       "accepted_answers": ["1711", "1,711"],
       "answer_type": "number",
-      "explanation": "later-born cohort 1,711개와 earlier-born cohort 1,711개가 비교에 사용되었다.",
+      "explanation": "각 코호트에서 1,711개 관측치가 유지되었다.",
       "source": "Method - Data Preparation"
     },
     {
-      "question": "노동환경을 측정한 척도 이름은 무엇인가?",
+      "question": "노동환경 측정 척도의 이름은?",
       "accepted_answers": ["Work Environment Scale", "WES"],
       "answer_type": "short_phrase",
-      "explanation": "지각된 노동환경은 축약형 Work Environment Scale로 측정되었다.",
+      "explanation": "축약형 Work Environment Scale 15문항을 사용했다.",
       "source": "Method - Perceived Work Environment"
     },
     {
-      "question": "코호트 차이가 없었던 노동환경 변수는 무엇인가?",
+      "question": "코호트 차이가 없었던 노동환경 변수는?",
       "accepted_answers": ["work autonomy", "노동 자율성"],
       "answer_type": "term",
-      "explanation": "후기 코호트는 work control과 work innovation은 더 높았지만 work autonomy는 다르지 않았다.",
+      "explanation": "후기 코호트는 work control과 work innovation은 더 높았지만 work autonomy는 그렇지 않았다.",
       "source": "Method - Data Preparation"
     },
     {
-      "question": "다섯 인지과제 모두의 더 높은 수준과 연결된 노동환경 변수는 무엇인가?",
+      "question": "다섯 인지영역 모두의 더 높은 수행과 연결된 노동환경 변수는?",
       "accepted_answers": ["work control", "노동 통제감"],
       "answer_type": "term",
-      "explanation": "work control은 모든 인지과제의 level과 양의 관련을 보였다.",
+      "explanation": "work control이 가장 넓은 수행 관련성을 보였다.",
       "source": "Results - The Role of Perceived Work Environment"
     },
     {
-      "question": "후기 코호트가 초기 코호트보다 낮았던 인지 영역은 무엇인가?",
+      "question": "후기 코호트가 더 낮았던 인지영역은?",
       "accepted_answers": ["number ability", "수 능력"],
       "answer_type": "term",
-      "explanation": "later-born cohort의 핵심 예외가 number ability였다.",
+      "explanation": "이 논문에서 later-born advantage의 예외가 되는 영역이다.",
       "source": "Results - Cohort Differences in Cognitive Functioning"
     },
     {
-      "question": "후기 코호트의 감소가 더 완만했던 언어 산출 과제는 무엇인가?",
+      "question": "후기 코호트가 더 완만한 감소를 보인 영역 중 하나는?",
       "accepted_answers": ["word fluency", "단어 유창성"],
       "answer_type": "term",
-      "explanation": "word fluency는 later-born cohort가 level도 더 높고 decline도 더 완만한 영역 중 하나였다.",
+      "explanation": "inductive reasoning, word fluency, verbal meaning에서 감소율 차이가 나타났다.",
       "source": "Results - Cohort Differences in Cognitive Functioning"
     },
     {
-      "question": "이 논문의 제1저자 성은 무엇인가?",
+      "question": "유일한 코호트 조절효과가 나타난 인지영역은?",
+      "accepted_answers": ["number ability", "수 능력"],
+      "answer_type": "term",
+      "explanation": "55세 시점 number ability에서 work autonomy의 긍정적 관련성이 후기 코호트에서 더 약했다.",
+      "source": "Results - The Role of Perceived Work Environment"
+    },
+    {
+      "question": "follow-up 분석에서 추가한 경제 변수는?",
+      "accepted_answers": ["household income", "가구소득"],
+      "answer_type": "short_phrase",
+      "explanation": "가구소득을 넣어도 perceived work environment의 효과는 사라지지 않았다.",
+      "source": "Results - Follow-up Analyses"
+    },
+    {
+      "question": "매칭에서 직접 맞춘 두 조건은?",
+      "accepted_answers": ["age and retest", "나이와 재검사"],
+      "answer_type": "short_phrase",
+      "explanation": "이 논문의 핵심 방법론이다.",
+      "source": "Method - Data Preparation"
+    },
+    {
+      "question": "이 논문의 제1저자 성은?",
       "accepted_answers": ["Hülür", "Hulur"],
       "answer_type": "person",
       "explanation": "제1저자는 Gizem Hülür이다.",
       "source": "Metadata"
-    },
-    {
-      "question": "매칭에서 직접 맞춘 두 변수는 무엇인가?",
-      "accepted_answers": ["age and retest", "나이와 재검사"],
-      "answer_type": "short_phrase",
-      "explanation": "이 논문의 매칭 핵심은 age와 retest를 observation-by-observation basis로 맞춘 것이다.",
-      "source": "Method - Data Preparation"
-    },
-    {
-      "question": "spatial orientation과 verbal meaning의 높은 수준과 연결된 노동환경 변수는 무엇인가?",
-      "accepted_answers": ["work innovation", "노동 혁신성"],
-      "answer_type": "term",
-      "explanation": "innovation은 선택적으로 spatial orientation과 verbal meaning에만 유의했다.",
-      "source": "Results - The Role of Perceived Work Environment"
-    },
-    {
-      "question": "추가했을 때 노동환경 효과를 없애지는 못한 소득 변수는 무엇인가?",
-      "accepted_answers": ["household income", "가구소득"],
-      "answer_type": "short_phrase",
-      "explanation": "household income을 추가해도 work environment 효과는 남았다.",
-      "source": "Results - Follow-up Analyses"
     }
   ]
 }

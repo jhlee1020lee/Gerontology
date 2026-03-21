@@ -1,21 +1,21 @@
 {
   "title": "Hülür et al., 2019 객관식 퀴즈",
-  "instructions": "각 문항에서 가장 적절한 하나의 답을 고르세요. 오답 선지는 실제 수업에서 자주 나오는 혼동을 반영했습니다.",
+  "instructions": "각 문항에서 가장 적절한 답을 하나 고르세요. 오답 선지는 수업에서 실제로 많이 나오는 혼동을 반영했습니다.",
   "items": [
     {
-      "prompt": "이 논문이 가장 직접적으로 묻는 질문은 무엇인가?",
+      "prompt": "이 논문의 핵심 연구질문으로 가장 적절한 것은?",
       "options": [
         "후기 코호트의 더 높은 인지수행을 교육만으로 설명할 수 있는지, 아니면 성인기 노동환경도 같이 봐야 하는지",
-        "노년기 치매 위험을 낮추는 가장 좋은 직업이 무엇인지",
-        "노동시장 진입 연령이 늦을수록 무조건 인지감소가 줄어드는지",
-        "미국과 유럽의 직업구조 차이가 인지검사 점수를 얼마나 바꾸는지"
+        "어떤 직업이 노년기 치매를 가장 잘 예방하는지",
+        "산업별 임금 차이가 인지검사 점수를 얼마나 바꾸는지",
+        "은퇴 이후 여가활동이 직무 복잡성을 대체할 수 있는지"
       ],
       "answer": "후기 코호트의 더 높은 인지수행을 교육만으로 설명할 수 있는지, 아니면 성인기 노동환경도 같이 봐야 하는지",
-      "explanation": "정답은 교육 바깥의 성인기 work environment를 코호트 차이 설명에 넣어 보려는 문제의식이다. 2번과 4번은 논문 범위를 너무 좁히거나 바깥 비교로 끌고 가는 오답이다.",
+      "explanation": "정답은 교육 중심 설명을 넘어 adult work environment를 함께 묻는 이 논문의 문제의식이다. 나머지 선지는 이 논문이 직접 다루지 않는 다른 질문이다.",
       "source": "Introduction / The Present Study"
     },
     {
-      "prompt": "저자들이 observation-by-observation matching에서 직접 맞춘 변수 조합은 무엇인가?",
+      "prompt": "관측치 단위 매칭에서 직접 맞춘 조건 조합은 무엇인가?",
       "options": [
         "gender와 education",
         "age와 retest",
@@ -23,163 +23,163 @@
         "birth year와 gender"
       ],
       "answer": "age와 retest",
-      "explanation": "정답은 age와 retest다. gender와 education은 이후 공변량으로 넣었지 매칭 변수로 직접 맞춘 것은 아니다.",
+      "explanation": "정답은 age와 retest다. gender와 education은 이후 공변량으로 통제했지, 관측치 매칭의 직접 기준은 아니었다.",
       "source": "Method - Data Preparation"
     },
     {
-      "prompt": "후기 코호트의 인지수행 패턴을 가장 정확하게 요약한 것은 무엇인가?",
+      "prompt": "후기 코호트의 인지수행 패턴을 가장 정확하게 요약한 것은?",
       "options": [
-        "다섯 과제 모두에서 더 높고 감소도 모두 더 완만했다.",
-        "대부분의 과제에서 더 높았지만 number ability는 더 낮았고, 감소율 차이는 일부 능력에서만 나타났다.",
+        "다섯 영역 모두에서 더 높고 감소도 모두 더 완만했다.",
+        "대부분의 영역에서는 더 높았지만 number ability는 더 낮았고, 감소율 차이는 일부 영역에서만 나타났다.",
         "수준 차이는 없었고 감소율 차이만 있었다.",
-        "word fluency에서만 더 높았고 나머지는 비슷했다."
+        "word fluency에서만 후기 코호트 이점이 나타났다."
       ],
-      "answer": "대부분의 과제에서 더 높았지만 number ability는 더 낮았고, 감소율 차이는 일부 능력에서만 나타났다.",
-      "explanation": "정답은 논문의 핵심 디테일을 모두 담고 있다. 1번은 과장이고, 3번과 4번은 실제 결과를 지나치게 축소한 오답이다.",
+      "answer": "대부분의 영역에서는 더 높았지만 number ability는 더 낮았고, 감소율 차이는 일부 영역에서만 나타났다.",
+      "explanation": "정답은 level과 decline의 차이를 함께 담고 있다. 1번과 4번은 지나치게 단순화한 오답이고, 3번은 수준 차이를 지워 버린다.",
       "source": "Results - Cohort Differences in Cognitive Functioning"
     },
     {
-      "prompt": "코호트 차이가 유의하지 않았던 노동환경 변수는 무엇인가?",
+      "prompt": "코호트 차이가 나타나지 않았던 노동환경 변수는 무엇인가?",
       "options": [
         "work control",
         "work autonomy",
         "work innovation",
-        "all three"
+        "세 변수 모두"
       ],
       "answer": "work autonomy",
-      "explanation": "정답은 work autonomy다. later-born cohort가 더 높았던 것은 work control과 work innovation이었다.",
+      "explanation": "후기 코호트는 work control과 work innovation에서는 더 높았지만 work autonomy에서는 유의한 차이가 없었다.",
       "source": "Method - Data Preparation"
     },
     {
-      "prompt": "다음 중 work innovation의 결과를 가장 정확히 말한 것은 무엇인가?",
+      "prompt": "work control 결과를 가장 정확하게 설명한 것은?",
       "options": [
-        "모든 인지과제의 높은 수준과 관련됐다.",
-        "어떤 인지과제와도 관련되지 않았다.",
-        "spatial orientation과 verbal meaning의 높은 수준과 관련됐다.",
-        "number ability의 더 완만한 감소와만 관련됐다."
+        "공간지각과 언어 의미에만 관련됐다.",
+        "다섯 인지영역 모두의 더 높은 수행과 관련됐고, 귀납추론 감소 완화와도 연결됐다.",
+        "후기 코호트에서만 효과가 있었다.",
+        "교육을 넣으면 효과가 완전히 사라졌다."
       ],
-      "answer": "spatial orientation과 verbal meaning의 높은 수준과 관련됐다.",
-      "explanation": "정답은 innovation의 선택적 관련을 정확히 짚는다. 1번은 work control 쪽에 더 가까운 오해이고, 4번은 논문 결과가 아니다.",
+      "answer": "다섯 인지영역 모두의 더 높은 수행과 관련됐고, 귀납추론 감소 완화와도 연결됐다.",
+      "explanation": "정답은 work control의 가장 넓은 관련성을 정확히 요약한다. 1번은 work innovation 쪽에 더 가깝고, 3번과 4번은 논문 결과와 다르다.",
       "source": "Results - The Role of Perceived Work Environment"
     },
     {
-      "prompt": "이 논문이 수업에서 중요한 이유로 가장 적절한 것은 무엇인가?",
+      "prompt": "work innovation에 대한 설명으로 맞는 것은?",
       "options": [
-        "교육을 완전히 부정하고 노동만이 인지를 결정한다고 보여 주기 때문",
-        "코호트 차이를 초기 생애 교육뿐 아니라 성인기 노동환경까지 포함해 읽게 만들기 때문",
-        "인지노화를 오직 생물학적 노화로만 설명하기 때문",
-        "직업 데이터베이스만으로 노년기 인지를 예측했기 때문"
+        "모든 인지영역의 더 높은 수행과 연결됐다.",
+        "어떤 인지영역과도 관련되지 않았다.",
+        "spatial orientation과 verbal meaning의 더 높은 수행과 연결됐다.",
+        "number ability의 더 완만한 감소와만 연결됐다."
       ],
-      "answer": "코호트 차이를 초기 생애 교육뿐 아니라 성인기 노동환경까지 포함해 읽게 만들기 때문",
-      "explanation": "정답은 논문의 실제 기여다. 1번은 과장이고, 3번과 4번은 논문의 방향 자체를 잘못 읽은 선지다.",
+      "answer": "spatial orientation과 verbal meaning의 더 높은 수행과 연결됐다.",
+      "explanation": "work innovation은 선택적 관련성을 보였다. 다섯 영역 전체가 아니라 공간지각과 언어 의미에서 주로 나타났다.",
+      "source": "Results - The Role of Perceived Work Environment"
+    },
+    {
+      "prompt": "이 논문이 수업에서 중요한 이유로 가장 적절한 것은?",
+      "options": [
+        "교육 효과를 부정하고 노동만이 인지를 결정한다고 보여 주기 때문에",
+        "코호트 차이를 초기 생애 교육만이 아니라 성인기 노동환경까지 연결해서 읽게 만들기 때문에",
+        "직업 데이터베이스만으로 인지노화를 정확히 예측하기 때문에",
+        "모든 코호트 차이를 하나의 단순한 진보 서사로 정리해 주기 때문에"
+      ],
+      "answer": "코호트 차이를 초기 생애 교육만이 아니라 성인기 노동환경까지 연결해서 읽게 만들기 때문에",
+      "explanation": "정답이 이 논문의 실제 기여다. 1번은 과장이고, 3번은 이 논문이 한 일이 아니며, 4번은 오히려 이 논문이 경계하는 읽기다.",
       "source": "Discussion"
     },
     {
-      "prompt": "저자들이 인과를 조심스럽게 말하는 가장 직접적인 이유는 무엇인가?",
+      "prompt": "저자들이 인과 해석에 조심스러운 가장 직접적인 이유는 무엇인가?",
       "options": [
-        "표본 수가 너무 작아서",
-        "인지검사 신뢰도가 낮아서",
-        "관찰연구라서 self-selection과 reverse direction 가능성이 남기 때문에",
-        "코호트 구분 연도가 임의적이라서"
+        "표본 수가 너무 작기 때문에",
+        "인지검사의 신뢰도가 낮기 때문에",
+        "관찰연구라서 selection effect와 역방향 가능성을 배제할 수 없기 때문에",
+        "코호트 구분 기준이 임의적이기 때문에"
       ],
-      "answer": "관찰연구라서 self-selection과 reverse direction 가능성이 남기 때문에",
-      "explanation": "정답은 discussion에서 저자들이 직접 인정한 한계다. 1번과 2번은 논문이 내세운 주된 한계가 아니고, 4번은 보조적 논점일 뿐 핵심 이유가 아니다.",
+      "answer": "관찰연구라서 selection effect와 역방향 가능성을 배제할 수 없기 때문에",
+      "explanation": "discussion에서 저자들이 직접 말하는 핵심 한계다. 1번과 2번은 이 논문의 주된 문제제기가 아니고, 4번도 직접적인 핵심 이유가 아니다.",
       "source": "Discussion - The Role of History-Graded Differences in Perceived Work Environment"
     },
     {
-      "prompt": "전업주부 응답자를 제외한 후속 분석 결과를 가장 잘 설명한 것은 무엇인가?",
+      "prompt": "전업주부만 보고한 참여자를 제외한 follow-up 분석은 무엇을 보여 주었는가?",
       "options": [
         "핵심 결과가 대부분 사라졌다.",
         "work autonomy만 남고 나머지는 사라졌다.",
-        "전반적인 결과 패턴은 유지됐다.",
-        "later-born cohort가 모든 능력에서 더 높게 바뀌었다."
+        "전반적 결과 패턴이 유지됐다.",
+        "후기 코호트가 모든 영역에서 더 낮아졌다."
       ],
-      "answer": "전반적인 결과 패턴은 유지됐다.",
-      "explanation": "정답은 robustness check의 결론이다. 여성의 노동시장 참여 증가만으로 결과를 설명하기 어렵다는 뜻이기도 하다.",
+      "answer": "전반적 결과 패턴이 유지됐다.",
+      "explanation": "robustness check의 목적은 특정 응답 집단 때문에 결과가 나온 것이 아님을 확인하는 데 있었다.",
       "source": "Results - Follow-up Analyses"
     },
     {
-      "prompt": "이 논문에서 work control을 가장 정확하게 설명한 것은 무엇인가?",
+      "prompt": "work control과 work autonomy를 구분하는 설명으로 가장 적절한 것은?",
       "options": [
-        "임금이 높은 전문직에 종사하는 정도",
-        "관리자의 규칙과 압박보다 노동자 자신이 작업을 통제한다고 느끼는 정도",
-        "직장에서 혼자 일하는 빈도",
-        "직무가 기술집약적인 정도"
+        "work control은 직업의 사회적 위신이고, work autonomy는 임금 수준이다.",
+        "work control은 외부 규칙과 압박에서의 통제감이고, work autonomy는 스스로 결정하는 권한이다.",
+        "둘은 같은 개념이며 번역만 다를 뿐이다.",
+        "work control은 기술집약성이고, work autonomy는 혁신성이다."
       ],
-      "answer": "관리자의 규칙과 압박보다 노동자 자신이 작업을 통제한다고 느끼는 정도",
-      "explanation": "정답은 Work Environment Scale의 control 하위척도 설명에 맞는다. 1번과 4번은 직업 수준이나 산업 특성과 혼동한 오답이다.",
+      "answer": "work control은 외부 규칙과 압박에서의 통제감이고, work autonomy는 스스로 결정하는 권한이다.",
+      "explanation": "비슷해 보이지만 논문은 둘을 분리한다. 바로 이 차이를 지워 버리면 코호트 차이와 인지 관련성의 패턴도 흐려진다.",
       "source": "Method - Perceived Work Environment"
     },
     {
-      "prompt": "work autonomy의 결과를 옳게 고른 것은 무엇인가?",
+      "prompt": "age를 55세에 중심화한 이유를 가장 잘 설명하는 것은?",
       "options": [
-        "spatial orientation을 포함한 모든 level과 관련됐다.",
-        "어떤 decline과도 관련되지 않았다.",
-        "spatial orientation을 제외한 대부분의 level과 관련됐고, spatial orientation과 inductive reasoning decline은 완화했다.",
-        "later-born cohort에서만 효과가 있었다."
+        "표본의 최저 연령이 55세였기 때문에",
+        "55세 이후 자료만 사용했기 때문에",
+        "intercept를 55세 시점의 인지수준으로 해석하기 위해서",
+        "55세가 법적 은퇴연령이기 때문에"
       ],
-      "answer": "spatial orientation을 제외한 대부분의 level과 관련됐고, spatial orientation과 inductive reasoning decline은 완화했다.",
-      "explanation": "정답은 autonomy 결과를 가장 정확히 요약한다. 1번은 spatial orientation 예외를 놓쳤고, 4번은 cohort moderation을 과장한 오답이다.",
-      "source": "Results - The Role of Perceived Work Environment"
-    },
-    {
-      "prompt": "성장모형에서 55세가 중요한 이유는 무엇인가?",
-      "options": [
-        "표본의 최저연령이라서",
-        "그 나이에서만 노동환경을 측정했기 때문에",
-        "age를 55세에 중심화했기 때문에 intercept가 55세 시점 수준을 뜻해서",
-        "55세 이후 자료만 사용했기 때문에"
-      ],
-      "answer": "age를 55세에 중심화했기 때문에 intercept가 55세 시점 수준을 뜻해서",
-      "explanation": "정답은 모형 해석의 핵심이다. 2번과 4번은 사실이 아니고, 1번은 55세를 중심값으로 잡은 이유와 다르다.",
+      "answer": "intercept를 55세 시점의 인지수준으로 해석하기 위해서",
+      "explanation": "성장모형에서 중심화 기준 연령을 정하면 intercept의 해석이 명확해진다. 이 논문에서는 그 기준이 55세다.",
       "source": "Method - Data Preparation / Data Analysis"
     },
     {
-      "prompt": "work environment와 공변량을 넣은 뒤 word fluency와 verbal meaning의 코호트 차이는 어떻게 되었는가?",
+      "prompt": "노동환경을 교육과 함께 넣은 뒤 코호트 수준 차이가 더 이상 유의하지 않게 된 영역은 무엇인가?",
       "options": [
-        "더 커졌다.",
-        "여전히 모든 모형에서 강하게 남았다.",
-        "더 이상 신뢰롭게 유의하지 않았다.",
-        "감소율 차이만 남고 수준 차이는 반전됐다."
+        "spatial orientation과 inductive reasoning",
+        "word fluency와 verbal meaning",
+        "number ability와 spatial orientation",
+        "다섯 영역 모두"
       ],
-      "answer": "더 이상 신뢰롭게 유의하지 않았다.",
-      "explanation": "정답은 이 두 영역에서 work environment가 코호트 수준 차이 설명에 더 많이 기여했음을 보여 준다. 2번은 spatial orientation과 inductive reasoning 결과와 섞은 오답이다.",
+      "answer": "word fluency와 verbal meaning",
+      "explanation": "공간지각, 귀납추론, 수 능력은 남았고, word fluency와 verbal meaning은 더 이상 유의하지 않았다.",
       "source": "Results - The Role of Perceived Work Environment"
     },
     {
-      "prompt": "이 논문의 한계로 가장 적절한 것은 무엇인가?",
+      "prompt": "이 논문에서 perceived work environment의 한계로 가장 적절한 것은?",
       "options": [
-        "노동환경이 매년 촘촘히 측정되어 변화 분석이 완벽했다.",
-        "노동환경이 주관적이고 부분적으로 회고적이며 time-invariant처럼 다뤄졌다는 점",
-        "교육 변수를 아예 넣지 않았다는 점",
-        "later-born cohort에 여성만 포함됐다는 점"
+        "매년 반복 측정되어 변화 분석이 매우 정밀했다.",
+        "직업코드만 사용해서 개인 경험이 전혀 반영되지 않았다.",
+        "측정 빈도가 적고 일부는 회고적 자기보고여서 time-invariant predictor처럼 다뤄졌다.",
+        "교육 변수와 완전히 독립적이라 상관이 전혀 없었다."
       ],
-      "answer": "노동환경이 주관적이고 부분적으로 회고적이며 time-invariant처럼 다뤄졌다는 점",
-      "explanation": "정답은 discussion의 limitation을 직접 반영한다. 1번은 반대 내용이고, 3번과 4번은 사실과 다르다.",
+      "answer": "측정 빈도가 적고 일부는 회고적 자기보고여서 time-invariant predictor처럼 다뤄졌다.",
+      "explanation": "이 문항은 limitation을 정확히 읽었는지 묻는다. 정답 외 선지는 논문 내용과 반대되거나 틀린 설명이다.",
       "source": "Discussion - Limitations and Outlook"
     },
     {
-      "prompt": "이 연구에서 propensity score matching의 역할을 가장 정확히 설명한 것은 무엇인가?",
+      "prompt": "propensity score matching의 역할을 가장 잘 설명한 것은?",
       "options": [
-        "코호트 간 인과를 완전히 증명하는 장치",
-        "코호트 차이를 없애기 위한 통계적 보정",
-        "age와 retest가 섞인 비교를 줄이기 위해 비슷한 관측치를 짝짓는 절차",
-        "결측치를 자동으로 대체하는 방법"
+        "코호트 간 인과효과를 실험처럼 증명한다.",
+        "age와 retest 조건이 비슷한 관측치를 짝지어 비교 왜곡을 줄인다.",
+        "결측치를 자동으로 보정한다.",
+        "인지검사 점수를 표준화한다."
       ],
-      "answer": "age와 retest가 섞인 비교를 줄이기 위해 비슷한 관측치를 짝짓는 절차",
-      "explanation": "정답은 이 논문에서 matching이 맡은 역할이다. 1번은 과장이고, 4번은 missing data treatment와 혼동한 오답이다.",
+      "answer": "age와 retest 조건이 비슷한 관측치를 짝지어 비교 왜곡을 줄인다.",
+      "explanation": "matching은 비교 가능성을 높이는 장치이지 인과증명 장치가 아니다. 이 차이를 구분하는 것이 중요하다.",
       "source": "Method - Data Preparation"
     },
     {
-      "prompt": "number ability 결과를 가장 정확히 말한 것은 무엇인가?",
+      "prompt": "number ability 결과를 가장 정확하게 말한 것은?",
       "options": [
-        "later-born cohort가 더 높았고 decline도 더 완만했다.",
-        "later-born cohort가 더 낮았고, decline 차이는 뚜렷하지 않았다.",
-        "코호트 차이는 없었고 work autonomy만 관련됐다.",
-        "초기 코호트가 더 낮았지만 income을 넣으면 역전됐다."
+        "후기 코호트가 더 높았고 감소도 더 완만했다.",
+        "후기 코호트가 더 낮았고, 변화율 차이는 뚜렷하지 않았다.",
+        "코호트 차이는 없었고 work innovation만 관련됐다.",
+        "초기 코호트가 더 낮았지만 소득을 넣으면 역전됐다."
       ],
-      "answer": "later-born cohort가 더 낮았고, decline 차이는 뚜렷하지 않았다.",
-      "explanation": "정답은 number ability가 이 논문의 대표적인 예외라는 점을 살린다. 1번은 later-born advantage를 기계적으로 일반화한 흔한 오답이다.",
+      "answer": "후기 코호트가 더 낮았고, 변화율 차이는 뚜렷하지 않았다.",
+      "explanation": "number ability는 후기 코호트 이점의 예외다. 바로 이 예외 때문에 논문을 능력별로 읽어야 한다.",
       "source": "Results - Cohort Differences in Cognitive Functioning"
     }
   ]

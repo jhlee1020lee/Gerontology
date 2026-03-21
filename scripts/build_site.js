@@ -128,7 +128,7 @@ function sentenceList(value){return toText(value).replace(/\s+/g," ").split(/(?<
 function cleanQuestionLabel(value){return toText(value).replace(/[?？]\s*$/,"");}
 function requireText(value,label,filePath){const text=toText(value);if(!text)throw new Error(`[invalid] ${fileLabel(filePath)}: ${label} is required`);return text;}
 function loadQuiz(page,filePath){const payload=loadJson(filePath);if(!payload)return null;const items=Array.isArray(payload.items)?payload.items:[];if(!items.length)return null;if(page.key==="quiz-short"){if(items.length!==15)throw new Error(`[invalid] ${fileLabel(filePath)}: quiz_short.json must contain exactly 15 items`);const normalizedItems=items.map((item,index)=>{const question=requireText(item.question,`items[${index}].question`,filePath);const accepted_answers=textArray(item.accepted_answers);const answer_type=requireText(item.answer_type,`items[${index}].answer_type`,filePath);const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);const source=toText(item.source);if(!accepted_answers.length)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers must be a non-empty array`);if(!SHORT_ANSWER_TYPES.has(answer_type))throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].answer_type must be one of ${Array.from(SHORT_ANSWER_TYPES).join(", ")}`);accepted_answers.forEach((answer,answerIndex)=>{if(wordCount(answer)>7)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers[${answerIndex}] must stay under 8 words`);});return{question,accepted_answers,answer_type,explanation,source};});return{...payload,items:normalizedItems};}const normalizedItems=items.map((item,index)=>{const prompt=requireText(item.prompt,`items[${index}].prompt`,filePath);const answer=requireText(item.answer,`items[${index}].answer`,filePath);const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);const options=Array.isArray(item.options)?item.options.map((option)=>toText(option)).filter(Boolean):[];const source=toText(item.source);return{prompt,answer,explanation,options,source};});return{...payload,items:normalizedItems};}
-function loadProfessorPrep(filePath){const payload=loadJson(filePath);if(!payload)return null;const cards=Array.isArray(payload.cards)?payload.cards:[];if(!cards.length)return null;if(cards.length<8||cards.length>12)throw new Error(`[invalid] ${fileLabel(filePath)}: professor_prep.json must contain 8 to 12 cards`);const normalizedCards=cards.map((card,index)=>{const question=requireText(card.question,`cards[${index}].question`,filePath);const answer_10s=requireText(card.answer_10s,`cards[${index}].answer_10s`,filePath);const answer_30s=requireText(card.answer_30s,`cards[${index}].answer_30s`,filePath);const answer_60s=requireText(card.answer_60s,`cards[${index}].answer_60s`,filePath);const must_include_keywords=textArray(card.must_include_keywords);const evidence_from_reading=textArray(card.evidence_from_reading);const likely_followups=textArray(card.likely_followups);const followup_answers=(Array.isArray(card.followup_answers)?card.followup_answers:[]).map((entry,entryIndex)=>{if(!entry||typeof entry!=="object")throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].followup_answers[${entryIndex}] must be an object`);return{question:requireText(entry.question,`cards[${index}].followup_answers[${entryIndex}].question`,filePath),answer:requireText(entry.answer,`cards[${index}].followup_answers[${entryIndex}].answer`,filePath)};});const korean_context_link=requireText(card.korean_context_link,`cards[${index}].korean_context_link`,filePath);const personal_connection_hint=requireText(card.personal_connection_hint,`cards[${index}].personal_connection_hint`,filePath);const avoid_bad_answers=textArray(card.avoid_bad_answers);if(!must_include_keywords.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].must_include_keywords must be non-empty`);if(!evidence_from_reading.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].evidence_from_reading must be non-empty`);if(!likely_followups.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].likely_followups must be non-empty`);if(!followup_answers.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].followup_answers must be non-empty`);if(!avoid_bad_answers.length)throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}].avoid_bad_answers must be non-empty`);return{question,answer_10s,answer_30s,answer_60s,must_include_keywords,evidence_from_reading,likely_followups,followup_answers,korean_context_link,personal_connection_hint,avoid_bad_answers};});const followup_bank=textArray(payload.followup_bank);return{title:toText(payload.title)||"교수님 구술 대비",instructions:toText(payload.instructions)||"질문을 먼저 입으로 답한 뒤, 10초·30초·60초 모범답안과 꼬리질문을 비교하세요.",followup_bank:followup_bank.length?followup_bank:PROFESSOR_FOLLOWUP_BANK,cards:normalizedCards};}
+function loadProfessorPrep(filePath){const payload=loadJson(filePath);if(!payload)return null;const cards=Array.isArray(payload.cards)?payload.cards:[];if(!cards.length)return null;const normalizedCards=cards.map((card,index)=>{if(!card||typeof card!=="object")throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}] must be an object`);const fallbackTitle=cleanQuestionLabel(card.question);const title=requireText(card.title||fallbackTitle,`cards[${index}].title`,filePath);const answer_30s=requireText(card.answer_30s||card.answer||card.model_answer,`cards[${index}].answer_30s`,filePath);return{title,answer_30s};});return{title:toText(payload.title)||"교수님 구술 대비",instructions:toText(payload.instructions)||"모든 답변은 '이 글을 어떻게 읽었는지'에 초점을 맞춘 30초 모델 답변입니다.",cards:normalizedCards};}
 function translateCommonText(text){return COMMON_TEXT_MAP[text]||text;}
 function detectType(reading){if(reading.type)return reading.type;const kind=String(reading.kind||"").toLowerCase();if(kind.includes("chapter"))return"chapter";if(kind.includes("paper"))return"paper";if(kind.includes("article"))return"article";return"reading";}
 function typeLabel(type){return({article:"기사",paper:"논문",chapter:"교재 장",reading:"읽기 자료"})[type]||"읽기 자료";}
@@ -143,7 +143,7 @@ function displayDateLabel(reading){return firstValue(reading.display_date_label,
 function syllabusOrderIndex(reading){const index=SYLLABUS_HOME_ORDER.indexOf(reading.source_filename||"");return index===-1?Number.MAX_SAFE_INTEGER:index;}
 function statusKeyForPage(pageKey){return pageKey.replace(/-/g,"_");}
 function contentPath(reading,page){const contentDir=path.join(rootDir,reading.content_dir);if(page.key==="full"){const preferred=path.join(contentDir,"full.md");const fallback=path.join(contentDir,"cleaned.md");return fs.existsSync(preferred)?preferred:(fs.existsSync(fallback)?fallback:preferred);}if(page.key==="quiz-short")return path.join(contentDir,"quiz_short.json");if(page.key==="professor-prep")return path.join(contentDir,"professor_prep.json");if(page.type==="article")return path.join(contentDir,`${page.key}.md`);return path.join(contentDir,`${page.key}.json`);}
-function pageState(reading,page){const sourcePath=contentPath(reading,page);if(page.type==="article")return{sourcePath,available:Boolean(loadMarkdown(sourcePath)),count:null};if(page.type==="professor-prep"){const prep=loadProfessorPrep(sourcePath);return{sourcePath,available:Boolean(prep),count:prep?buildProfessorPrepDeck(prep).length:0};}const quiz=loadQuiz(page,sourcePath);return{sourcePath,available:Boolean(quiz),count:quiz?quiz.items.length:0};}
+function pageState(reading,page){const sourcePath=contentPath(reading,page);if(page.type==="article")return{sourcePath,available:Boolean(loadMarkdown(sourcePath)),count:null};if(page.type==="professor-prep"){const prep=loadProfessorPrep(sourcePath);return{sourcePath,available:Boolean(prep),count:prep?prep.cards.length:0};}const quiz=loadQuiz(page,sourcePath);return{sourcePath,available:Boolean(quiz),count:quiz?quiz.items.length:0};}
 function metadataStatusHtml(status){return status==="complete"?'<span class="status ready">메타데이터 확인됨</span>':'<span class="status placeholder">메타데이터 확인 필요</span>';}
 function normalizeReading(reading,sequence){const language=reading.language||"unknown";const type=detectType(reading);const rawTags=Array.isArray(reading.tags)&&reading.tags.length?reading.tags:["Metadata incomplete"];const source_filename=reading.source_filename||path.basename(reading.source_pdf);const sortDate=effectiveSortDate(reading);const classroom_points=(Array.isArray(reading.classroom_points)?reading.classroom_points:[]).map((item)=>translateCommonText(item)).filter(Boolean);return{...reading,sequence,subtitle:translateCommonText(reading.subtitle||"Filename-derived placeholder metadata."),authors:reading.authors||[],authors_label:authorsLabel(reading.authors||[]),year_label:yearLabel(reading.year),language,language_label:languageLabel(language),kind:reading.kind||`${type} pdf`,kind_label:kindLabel(reading.kind||`${type} pdf`,type),type,type_label:typeLabel(type),source_filename,tags:rawTags.map(translateTag),description:translateCommonText(reading.description||"Placeholder record created from the source filename only."),metadata_status:reading.metadata_status||"incomplete",metadata_notes:(reading.metadata_notes||[]).map(translateCommonText),class_date:reading.class_date??null,reading_date:reading.reading_date??null,sort_date:reading.sort_date??null,display_date_label:reading.display_date_label??null,effective_sort_date:sortDate,display_date:displayDateLabel(reading),translation_required:language==="en",home_order_index:syllabusOrderIndex({source_filename}),public_pdf:toText(reading.public_pdf)||"",overview_hook:translateCommonText(reading.overview_hook||""),classroom_points};}
 function buildContentStatus(reading){const contentStatus={};for(const page of PAGE_DEFS){const key=statusKeyForPage(page.key);if(page.englishOnly&&reading.language!=="en"){contentStatus[key]="not_applicable";continue;}const state=pageState(reading,page);contentStatus[key]=state.available?"ready":"missing";}return contentStatus;}
@@ -295,19 +295,7 @@ function prepKeyword(card){return card.must_include_keywords[0]||"핵심 포인�
 function prepKeywordText(card){return card.must_include_keywords.slice(0,2).join(", ")||prepKeyword(card);}
 function prepEvidenceText(card){return truncateWords(firstValue(sentenceList(card.evidence_from_reading[0])[0],card.evidence_from_reading[0],card.answer_10s),18);}
 function prepFollowupAnswer(card,tokens){return card.followup_answers.find((entry)=>tokens.some((token)=>entry.question.includes(token)||entry.answer.includes(token)))||null;}
-function buildPrepCoreAnswer(card){return truncateWords(firstValue(card.answer_30s,card.answer_10s),34);}
-function buildPrepImportanceAnswer(card){const match=prepFollowupAnswer(card,["중요"]);return truncateWords(match?match.answer:card.answer_10s,30);}
-function buildPrepKoreaAnswer(card){return truncateWords(card.korean_context_link,32);}
-function buildPrepLimitAnswer(card){const match=prepFollowupAnswer(card,["한계"]);if(match)return truncateWords(match.answer,30);const fallback=sentenceList(card.answer_60s).find((sentence)=>/한계|다만|그렇지만/.test(sentence))||card.avoid_bad_answers[0];return truncateWords(fallback,30);}
-function buildPrepEvidenceAnswer(card){return truncateWords(`${card.answer_10s} 특히 ${prepEvidenceText(card)}라는 대목이 그 포인트를 분명하게 보여 줍니다.`,34);}
-function buildPrepTitle(card,variant){const keyword=prepKeyword(card);if(variant==="importance")return `${keyword}가 왜 중요한지 짚기`;if(variant==="korea")return `${keyword}를 한국 현실에 붙여 보기`;if(variant==="limit")return `${keyword}의 한계까지 같이 말하기`;if(variant==="evidence")return `${keyword}를 읽은 근거와 함께 말하기`;return cleanQuestionLabel(card.question)||`${keyword} 포인트`;}
-function buildPrepPrompt(card,variant){if(variant==="importance")return"그 포인트가 왜 중요하다고 봤어?";if(variant==="korea")return"그걸 한국 상황에 붙이면 뭐가 인상 깊어?";if(variant==="limit")return"좋은 점 말고 한계까지 보면 뭐가 흥미로웠어?";if(variant==="evidence")return"읽었다는 티가 나게 어디가 인상적이었다고 말할 거야?";return cleanQuestionLabel(card.question)||"이 글에서 뭐가 흥미로웠어?";}
-function buildPrepAnswer(card,variant){if(variant==="importance")return buildPrepImportanceAnswer(card);if(variant==="korea")return buildPrepKoreaAnswer(card);if(variant==="limit")return buildPrepLimitAnswer(card);if(variant==="evidence")return buildPrepEvidenceAnswer(card);return buildPrepCoreAnswer(card);}
-function buildPrepWhyItWorks(card,variant){const keywords=prepKeywordText(card);const evidence=prepEvidenceText(card);if(variant==="importance")return `${keywords}를 왜 중요한가까지 밀어 붙여서 한 줄짜리 감상으로 끝나지 않습니다. "${evidence}" 같은 근거를 바로 붙이면 꼬리질문에도 버티기 쉽습니다.`;if(variant==="korea")return `본문의 논점을 한국 맥락으로 옮기되 ${keywords}를 유지해서 개인적 수다처럼 들리지 않습니다. 읽기 내용을 현실 문제로 연결하는 학생 답변처럼 들립니다.`;if(variant==="limit")return `좋다고만 말하지 않고 한계도 인정해서 실제로 읽고 판단한 학생처럼 들립니다. 과장된 찬양 대신 균형 잡힌 답변으로 들리는 점이 강점입니다.`;if(variant==="evidence")return `"${evidence}" 같은 대목을 바로 붙여 읽기 근거를 남길 수 있습니다. 교수님이 어디서 봤느냐고 물어도 곧바로 이어서 답하기 좋습니다.`;return `${keywords}를 먼저 찍고 "${evidence}" 같은 읽기 근거를 붙일 수 있어서 "그냥 흥미로웠다"는 식의 모호한 답이 되지 않습니다.`;}
-function buildPrepBadAnswer(card){return truncateWords(card.avoid_bad_answers[0],24);}
-function buildPrepFollowup(card,variant){if(variant==="korea")return{question:"그럼 한국에서는 어디서 제일 선명하게 보이는데?",answer:truncateWords(card.korean_context_link,24)};if(variant==="limit")return{question:"그래도 이 읽기에서 남는 핵심은 뭐야?",answer:truncateWords(card.answer_10s,24)};if(variant==="evidence")return{question:"그 근거가 본문 어디에서 나왔어?",answer:truncateWords(prepEvidenceText(card),22)};const match=variant==="importance"?prepFollowupAnswer(card,["연구","뭐야","다시"]):card.followup_answers[0];return match?{question:match.question,answer:truncateWords(match.answer,24)}:{question:card.likely_followups[0]||"그게 뭐야?",answer:truncateWords(card.answer_10s,24)};}
-function buildProfessorPrepCardModel(card,variant,index){const followup=buildPrepFollowup(card,variant);return{card_id:`prep-card-${String(index+1).padStart(2,"0")}`,title:buildPrepTitle(card,variant),prompt:buildPrepPrompt(card,variant),answer_15s:buildPrepAnswer(card,variant),why_it_works:buildPrepWhyItWorks(card,variant),bad_vague_answer:buildPrepBadAnswer(card),followup_question:followup.question,recovery_answer:followup.answer};}
-function buildProfessorPrepDeck(prep){const targetCount=Math.max(PREP_TARGET_CARD_COUNT,prep.cards.length);const deck=prep.cards.map((card,index)=>buildProfessorPrepCardModel(card,"core",index));let extraIndex=0;while(deck.length<targetCount&&extraIndex<prep.cards.length*PREP_EXTRA_VARIANTS.length){const card=prep.cards[extraIndex%prep.cards.length];const variant=PREP_EXTRA_VARIANTS[Math.floor(extraIndex/prep.cards.length)%PREP_EXTRA_VARIANTS.length];deck.push(buildProfessorPrepCardModel(card,variant,deck.length));extraIndex+=1;}return deck.slice(0,targetCount);}
+function buildProfessorPrepDeck(prep){return prep.cards.map((card,index)=>({...card,card_id:`prep-card-${String(index+1).padStart(2,"0")}`}));}
 function writePlaceholderSvg(reading,svgPath){const slug=escapeHtml(reading.slug);const title=escapeHtml(reading.title||reading.slug);const subtitle=escapeHtml(reading.subtitle||"파일명 기준으로 만든 임시 메타데이터입니다.");const dateLabel=escapeHtml(displayDateLabel(reading));const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
   <rect width="1280" height="720" fill="#e9e2d8" />
   <rect x="44" y="44" width="1192" height="632" fill="#f8f5f0" stroke="#cbbcab" stroke-width="4" rx="18" />
@@ -504,61 +492,25 @@ function renderProfessorPrepCard(card,index){return `
       <p class="section-kicker">모델 답변 ${String(index+1).padStart(2,"0")}</p>
       <h3 data-prep-title>${renderInline(card.title)}</h3>
     </div>
-    <button class="ghost-btn link-btn prep-difficult-btn" type="button" data-prep-difficult>표시</button>
   </div>
-  <div class="prep-core-grid">
-    <section class="prep-block prep-prompt-block">
-      <h4>교수님 질문</h4>
-      <p>${renderInline(card.prompt)}</p>
-    </section>
-    <section class="prep-block prep-answer-block">
-      <h4>15초 모델 답변</h4>
-      <p class="prep-answer-copy">${renderInline(card.answer_15s)}</p>
-    </section>
-  </div>
-  <div class="prep-detail-grid">
-    <section class="prep-block">
-      <h4>왜 이 답이 먹히는가</h4>
-      <p>${renderInline(card.why_it_works)}</p>
-    </section>
-    <section class="prep-block">
-      <h4>피해야 할 모호한 답</h4>
-      <p>${renderInline(card.bad_vague_answer)}</p>
-    </section>
-    <section class="prep-block">
-      <h4>예상 후속 질문</h4>
-      <p>${renderInline(card.followup_question)}</p>
-    </section>
-    <section class="prep-block">
-      <h4>짧게 복구하기</h4>
-      <p>${renderInline(card.recovery_answer)}</p>
-    </section>
-  </div>
+  <section class="prep-block prep-answer-block">
+    <h4>30초 모델 답변</h4>
+    <p class="prep-answer-copy">${renderInline(card.answer_30s)}</p>
+  </section>
 </article>
 `;}
 function buildProfessorPrep(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const prep=loadProfessorPrep(page.sourcePath);const pagePath=path.posix.join("readings",reading.slug,page.filename);const deck=prep?buildProfessorPrepDeck(prep):null;const content=prep?`
 <section class="panel prep-intro">
-  <p class="section-kicker">수업에서 가장 자주 받는 질문</p>
-  <h2>“뭐가 흥미로웠어?”에 바로 답하기</h2>
-  <p class="meta">이 페이지는 긴 구술 구조보다 짧고 직접적인 모델 답변에 집중합니다. 아래 답변은 15초 안에 한 포인트를 정확히 말하고, 바로 한 번의 후속 질문까지 버티도록 정리했습니다.</p>
-  <p class="meta">${deck.length}개 모델 답변</p>
-  <div class="prep-style-grid">
-    <section class="prep-style-card">
-      <h3>교수님이 좋아하는 답</h3>
-      ${renderList(PROFESSOR_STYLE.prefers)}
-    </section>
-    <section class="prep-style-card">
-      <h3>피해야 할 답</h3>
-      ${renderList(PROFESSOR_STYLE.avoids)}
-    </section>
-  </div>
+  <p class="section-kicker">이 글을 어떻게 읽었는지</p>
+  <h2>${deck.length}개 모델 답변</h2>
+  <p class="meta">${escapeHtml(prep.instructions||"")}</p>
 </section>
 <section class="prep-card-list">
   ${deck.map((card,index)=>renderProfessorPrepCard(card,index)).join("")}
 </section>
 `:placeholderProfessorPrepHtml(page,page.sourcePath);const body=`
 ${siteHeader(siteMeta,outputPath)}
-<main class="reader-shell" data-reader-root data-reading-slug="${escapeHtml(reading.slug)}" data-page-key="${escapeHtml(page.key)}" data-page-path="${escapeHtml(pagePath)}">
+<main class="quiz-shell" data-reader-root data-reading-slug="${escapeHtml(reading.slug)}" data-page-key="${escapeHtml(page.key)}" data-page-path="${escapeHtml(pagePath)}">
   <article class="article panel">
     <header class="article-header">
       <div class="article-header-top">
@@ -574,12 +526,6 @@ ${siteHeader(siteMeta,outputPath)}
     </header>
     <section class="article-body prep-body" data-article-body data-prep-root>${content}</section>
   </article>
-  <aside class="reader-aside">
-    <section class="panel side-panel"><h2>목차</h2><nav class="toc-list" data-generated-toc></nav></section>
-    <section class="panel side-panel"><h2>표시한 답변</h2><div class="important-list" data-prep-difficult-list></div></section>
-    <section class="panel side-panel"><h2>중요 표시</h2><div class="important-list" data-important-list></div></section>
-    <section class="panel side-panel"><h2>학습 흐름</h2><p class="meta">전체 순서를 다시 확인하려면 개요 페이지로 돌아가세요.</p><p><a class="ghost-btn link-btn" href="${escapeHtml(relHref(outputPath,path.join(siteDir,"readings",reading.slug,"index.html")))}">개요로 돌아가기</a></p></section>
-  </aside>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,'data-page-kind="prep"',"ko"));}
 function writeAssets(){writeText(path.join(siteDir,"assets","styles.css"),readText(styleSource));writeText(path.join(siteDir,"assets","app.js"),readText(appSource));}
