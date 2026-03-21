@@ -1,23 +1,87 @@
 # Content Rule Appendix
 
-## 1. Repository / build / local file rules
+## 1. Repository / build / PDF rules
 - `docs/` is the only final generated site output folder.
 - `site/` must not exist as a parallel build target.
-- `source_pdfs/` is local-only input and may be absent from git uploads.
-- Do not assume source PDFs are version-controlled.
-- Keep everything offline and relative-path only.
+- Keep all generated links relative so the site works from local files and from static hosting.
+- `source_pdfs/` is source/input material. It may exist locally and may or may not be version-controlled.
+- Do not assume source PDFs are unavailable for version control.
+- Do not confuse source/input PDFs with deployable public PDFs.
+- When a reading supports public PDF access, the deployable PDF should live under a stable `docs/` path such as `docs/pdfs/<slug>.pdf`.
+- In metadata terms:
+  - `source_pdf` points to source/input material
+  - `public_pdf` points to deployable public output under `docs/`
 
-## 2. Workflow rules
+## 2. Workflow model
 - Stop treating the project as one giant all-at-once generation task.
-- Future content generation should be done in small batches.
-- Preferred batch shapes:
-  - one reading at a time
-  - one section type at a time when quality requires it
-- Translation must be a dedicated per-reading pass for each English reading.
-- Do not interleave translation, quizzes, professor-prep, and site-polish in the same generation step if that hurts quality.
+- Preferred workflow is one reading at a time.
+- Future automation should finish one reading before moving to the next reading.
+- Use stage-based completion with explicit validation gates.
+- Translation for English readings must be a dedicated per-reading completeness pass.
+- Do not interleave translation, quizzes, professor-prep, and site-polish in one low-quality generation step.
 - Prefer staged completion over one huge low-quality batch.
 
-## 3. Date / order rules
+## 3. Hulur benchmark rule
+- `hulur-et-al-2019` is the current workflow and quality benchmark reading.
+- Use Hulur as the model for:
+  - Stage 1 before Stage 2 sequencing
+  - complete contiguous translation for English readings
+  - deployable public PDF exposure
+  - reading-hub completeness
+  - validation discipline
+  - minimal professor-prep published schema
+- Do not generalize Hulur-specific subject matter into global rules.
+
+## 4. Stage model
+
+### 4.1 Stage 1 = content completeness
+- `개요`
+- `전체 글`
+- `한국어 번역` for English readings only
+- deployable online PDF access when public PDF access is supported
+
+### 4.2 Stage 2 = study package
+- `핵심 요약`
+- `핵심 개념`
+- `헷갈리는 포인트`
+- `OX 퀴즈`
+- `단답형 퀴즈`
+- `객관식 퀴즈`
+- `시험 직전 정리`
+- `교수님 구술 대비`
+
+### 4.3 Stage ordering rule
+- Finish and validate Stage 1 before starting Stage 2 for a reading.
+- Do not leave Stage 1 incomplete and then move to later readings.
+
+## 5. Validation gates
+
+### 5.1 Stage 1 validation
+Stage 1 is valid only if all of the following are true:
+
+- full text covers the readable main body
+- translation is complete and contiguous for English readings
+- deployable PDF path exists when public PDF access is supported
+- reading-hub links work
+
+### 5.2 Stage 2 validation
+Stage 2 is valid only if all of the following are true:
+
+- `summary` exists
+- `concepts` exists
+- `pitfalls` exists
+- `review-sheet` exists
+- `professor-prep` exists
+- OX count = `15`
+- short-answer count = `15`
+- MCQ count = `15`
+- all Stage 2 pages are linked from the reading hub
+
+### 5.3 Incomplete readings
+- If any required part is incomplete, mark the reading `partial` or `blocked`.
+- Do not present incomplete work as complete.
+
+## 6. Date / order rules
 - Homepage reading order and displayed dates must follow syllabus class-date order.
 - Weekly class schedule is the primary truth source for dates.
 - If the reading appendix conflicts with the weekly schedule, prefer the weekly schedule.
@@ -58,7 +122,7 @@ Exact homepage order:
 26. `6/09` `[CH15]Gerontology.pdf`
 27. `6/09` `Carr & Fang, 2021.pdf`
 
-## 4. Homepage rules
+## 7. Homepage rules
 - Homepage must not read like build documentation or admin output.
 - Remove or forbid helper/admin copy such as:
   - build counters
@@ -69,7 +133,14 @@ Exact homepage order:
   - offline/build/admin helper notes
 - The homepage should feel like a clean reading dashboard only.
 
-## 5. Professor style analysis rules
+## 8. Global content style rules
+- Korean-first UI and content framing by default.
+- Preserve English only where the original English title, author name, or source text itself must be shown.
+- Do not write only in stiff lecture-note style.
+- Do not write in flashy AI-dashboard style.
+- Keep the site calm, plain, academic, and readable.
+
+## 9. Professor style analysis rules
 The professor strongly prefers:
 
 1. directly answering the exact question
@@ -109,16 +180,9 @@ Therefore future content should optimize for:
 - natural spoken answers
 - exact rather than vague wording
 
-## 6. Global content style rules
-- Korean-first UI and content framing by default.
-- Preserve English only where the original English title, author name, or source text itself must be shown.
-- Do not write only in stiff lecture-note style.
-- Do not write in flashy AI-dashboard style.
-- Keep the site calm, plain, academic, and readable.
+## 10. Page-specific content rules
 
-## 7. Page-specific content rules
-
-### 7.1 개요
+### 10.1 개요
 - This is not a decorative landing page.
 - It should immediately tell the student:
   - what the reading is about
@@ -131,8 +195,9 @@ Therefore future content should optimize for:
   - one-sentence reading hook
   - 3 to 5 `수업에서 바로 잡힐 포인트`
 - It must not include build/admin noise.
+- Stage 1 reading-hub links must work from this page.
 
-### 7.2 핵심 요약
+### 10.2 핵심 요약
 - Not a generic abstract.
 - Focus on:
   - what exactly is interesting
@@ -143,22 +208,23 @@ Therefore future content should optimize for:
   - why it is interesting, new, or important
 - Avoid vague summary lines such as `다양한 측면을 보여준다.`
 
-### 7.3 전체 글
+### 10.3 전체 글
 - Must be complete, not partial.
 - Must preserve section order.
 - Must be cleaned into readable article-style HTML.
 - Do not silently skip major sections.
+- Stage 1 validation requires coverage of the readable main body.
 - If extraction quality is poor, fix extraction first instead of publishing obviously broken text.
 
-### 7.4 한국어 번역
+### 10.4 한국어 번역
 - English readings must be translated in a dedicated per-reading translation pass.
 - Translation must be complete and contiguous, not patchy.
 - The translation pass must cover the whole readable main body before moving on.
 - Preserve section order and headings.
-- If translation cannot be completed cleanly, mark it blocked rather than pretending the page is finished.
+- If translation cannot be completed cleanly, mark the reading blocked rather than pretending the page is finished.
 - Translation quality matters more than raw batch speed.
 
-### 7.5 핵심 개념
+### 10.5 핵심 개념
 For each major concept, include:
 
 - Korean label
@@ -170,7 +236,7 @@ For each major concept, include:
 
 This page should especially support the professor's habit of asking for English terms and exact concept definitions.
 
-### 7.6 헷갈리는 포인트
+### 10.6 헷갈리는 포인트
 This page must explicitly contrast commonly confused pairs.
 
 Each item should include:
@@ -192,26 +258,26 @@ Typical pairs include:
 
 This page should be built for follow-up defense.
 
-### 7.7 OX 퀴즈
+### 10.7 OX 퀴즈
 - Keep `15` items.
 - Test meaningful conceptual distinctions, not trivia only.
 - Many items should target common classroom misconceptions.
 - Every item must include answer and explanation.
 
-### 7.8 단답형 퀴즈
+### 10.8 단답형 퀴즈
 - This must be true short-answer only.
-- Never use mini-essay prompts.
 - Allowed answer types only:
   - one term
   - one short phrase
   - one name
   - one number
   - under 8 words
+- Never use mini-essay prompts.
+- Never use range answers.
 - Prefer exact concepts, scholars, English terms, ages, years, theories, methods, and key labels.
 - Every item must include `accepted_answers` and explanation.
-- No range answers.
 
-### 7.9 객관식 퀴즈
+### 10.9 객관식 퀴즈
 - Keep `15` items.
 - Always use `4` options.
 - Use distractors based on actual classroom confusions.
@@ -219,7 +285,7 @@ This page should be built for follow-up defense.
   - why the correct option is correct
   - why the tempting wrong idea is wrong
 
-### 7.10 시험 직전 정리
+### 10.10 시험 직전 정리
 - Must be compact, not bloated.
 - Build it like a last-minute recovery page.
 - Include:
@@ -229,73 +295,48 @@ This page should be built for follow-up defense.
   - 팝업퀴즈용 핵심 OX / 객관식 포인트
   - 영어 용어 암기 포인트
 
-### 7.11 교수님 구술 대비
-- This page must be designed around the professor's real class style.
-- Do not treat it as a broad oral-exam essay page.
-- The primary unit is a `30-second model answer`.
-- Each reading should eventually have at least `10` model answers.
-- Prefer `12` to `20` when quality allows.
+### 10.11 교수님 구술 대비
+- This page is only for model answers to `이 글을 어떻게 읽었는지`.
+- Do not treat it as a broad oral-exam framework.
+- Do not require `likely professor prompt`, `why this works`, `bad answer`, `follow-up`, or `recovery` as the default published schema.
+- Default published item shape should be only:
+  - `title`
+  - `30-second model answer`
+- Each reading should have at least `15` model answers by default.
+- Prefer `15` to `20` when quality allows.
+- Each answer should be around `30` seconds when spoken.
 
-Prompts should be built around questions such as:
+Intended spoken logic:
 
-- `뭐가 흥미로웠어?`
-- `뭐가 새로웠어?`
-- `왜 그게 인상 깊었어?`
-- `그게 왜 중요해?`
-- `너는 이 글을 어떻게 읽었어?`
-
-Each professor-prep card must include:
-
-- title
-- likely professor prompt
-- 30-second model answer
-- why this answer works
-- bad vague answer to avoid
-- one likely follow-up question
-- one short recovery answer for that follow-up
-
-Angle variety should cover:
-
-- conceptually interesting
-- methodologically interesting
-- socially important
-- surprising finding
-- Korean-context relevance
-- student-life relevance
-- theory vs reality tension
-- limitation that was interesting
-- what changed how the student reads the topic
+- `나는 이 글을 무엇 중심으로 읽었다`
+- `왜 그 포인트가 중요하거나 새로웠다`
+- `그래서 이 글의 핵심을 어떻게 이해했다`
 
 Tone rules:
 
 - natural spoken student tone
-- direct and specific
-- not stiff
-- not textbook-summary tone
+- direct
+- specific
+- not vague
+- not textbook-summary style
 - not AI-sounding
 - must sound like someone who actually read the text
 
-Repository note:
+Angle variety within the single frame of `어떻게 읽었는지` can include:
 
-- The current repo may keep structured professor-prep source fields such as `answer_10s`, `answer_30s`, and `answer_60s`.
-- If that source schema is retained, `answer_30s` should be treated as the primary published model answer, while other durations are drafting/support material rather than the page's main unit.
+- concept-centered
+- research-question-centered
+- method-centered
+- finding-centered
+- limitation-aware
+- Korean-context-centered
+- changed-my-view-centered
+- theory-vs-reality-centered
 
-## 8. Translation / completeness QA rules
-Future generation should validate per-reading completeness explicitly.
+Repository compatibility note:
 
-For each reading, especially English readings, check:
-
-- full text coverage
-- translation coverage when required
-- concepts present
-- pitfalls present
-- OX 15 present
-- short-answer 15 present
-- MCQ 15 present
-- review sheet present
-- professor-prep present
-
-If incomplete:
-
-- mark the reading `partial` or `blocked`
-- do not present it as complete
+- Existing source schemas may retain extra historical fields in some readings.
+- Future default generation should target the minimal published schema of:
+  - `title`
+  - `answer_30s`
+- If extra fields still exist in older readings, treat them as legacy support material rather than the default published contract.

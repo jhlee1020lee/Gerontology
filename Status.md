@@ -1,3 +1,24 @@
+# Documentation / Spec Alignment Pass
+
+Date: 2026-03-21
+
+Completed:
+
+- Updated `AGENTS.md`, `README.md`, and `CONTENT_RULES.md` to match the current repository state.
+- Replaced outdated local-only wording with the current `docs/` deployable-output model.
+- Clarified the distinction between source/input PDFs and deployable public PDFs under `docs/`.
+- Documented the preferred one-reading-at-a-time, Stage 1 then Stage 2 workflow.
+- Added explicit Stage 1 and Stage 2 validation gates.
+- Updated professor-prep guidance to the current default model: `이 글을 어떻게 읽었는지`, `15` to `20` answers preferred, and minimal published schema of `title` plus `answer_30s`.
+- Strengthened the true short-answer rule and translation completeness rule.
+- Recorded Hulur as the workflow/quality benchmark only, not a subject-matter template.
+
+Not done in this pass:
+
+- No reading content regeneration.
+- No whole-site rebuild.
+- No rewrite of already-good Hulur study content.
+
 # Final Polish Status
 
 Run date: 2026-03-21
