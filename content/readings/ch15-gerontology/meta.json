@@ -4,8 +4,13 @@
   "source_pdf": "source_pdfs/[CH15]Gerontology.pdf",
   "title": "노인과 지역사회",
   "subtitle": "환경노년학과 지역사회 환경, aging in place를 중심으로 노인과 장소의 관계를 다루는 장이다.",
-  "authors": [],
-  "year": null,
+  "authors": [
+    "한경혜",
+    "최혜경",
+    "안정신",
+    "김주현"
+  ],
+  "year": 2019,
   "language": "ko",
   "kind": "chapter pdf",
   "description": "노인의 삶의 질이 개인특성뿐 아니라 물리적·사회적·심리적 지역사회 환경과 어떻게 연결되는지 설명한다.",
@@ -47,7 +52,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T16:18:07.432Z",
+    "updated_at": "2026-03-21T17:46:56.365Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",

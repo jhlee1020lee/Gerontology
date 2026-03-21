@@ -4,8 +4,13 @@
   "source_pdf": "source_pdfs/[CH8]Gerontology.pdf",
   "title": "사회적 노화 I: 중노년기 세대관계 및 친족관계",
   "subtitle": "노부모-성인자녀, 조부모-손자녀, 노년기 형제관계를 다세대 맥락에서 읽는 장이다.",
-  "authors": [],
-  "year": null,
+  "authors": [
+    "한경혜",
+    "최혜경",
+    "안정신",
+    "김주현"
+  ],
+  "year": 2019,
   "language": "ko",
   "kind": "chapter pdf",
   "description": "수명 연장과 저출산이 결합할 때 세대 간 지원과 긴장이 어떻게 재구성되는지 정리한다.",
@@ -47,7 +52,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T16:18:07.355Z",
+    "updated_at": "2026-03-21T17:46:56.311Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",

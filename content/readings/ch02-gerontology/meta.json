@@ -4,8 +4,13 @@
   "source_pdf": "source_pdfs/[CH2]Gerontology.pdf",
   "title": "인구고령화와 노년기 발달",
   "subtitle": "인구변천, 한국의 고령화 속도, 고령화의 사회적 결과를 연결하는 장.",
-  "authors": [],
-  "year": null,
+  "authors": [
+    "한경혜",
+    "최혜경",
+    "안정신",
+    "김주현"
+  ],
+  "year": 2019,
   "language": "ko",
   "kind": "chapter pdf",
   "description": "인구변천, 한국의 고령화 속도, 고령화의 사회적 결과를 연결하는 장.",
@@ -46,7 +51,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T16:18:07.302Z",
+    "updated_at": "2026-03-21T17:46:56.263Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",

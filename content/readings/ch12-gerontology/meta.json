@@ -4,8 +4,13 @@
   "source_pdf": "source_pdfs/[CH12]Gerontology.pdf",
   "title": "노년기 건강",
   "subtitle": "신체건강, 정신건강, 치매를 중심으로 노년기 건강을 다차원적으로 읽는 장이다.",
-  "authors": [],
-  "year": null,
+  "authors": [
+    "한경혜",
+    "최혜경",
+    "안정신",
+    "김주현"
+  ],
+  "year": 2019,
   "language": "ko",
   "kind": "chapter pdf",
   "description": "건강을 질병 부재 이상으로 보고, 노년기 건강문제를 기능, 진단, 치매의 맥락에서 정리한다.",
@@ -47,7 +52,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T16:18:07.400Z",
+    "updated_at": "2026-03-21T17:46:56.344Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",

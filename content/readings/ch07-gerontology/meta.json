@@ -4,8 +4,13 @@
   "source_pdf": "source_pdfs/[CH7]Gerontology.pdf",
   "title": "심리적 노화 II : 성격 및 정서",
   "subtitle": "성격의 안정성과 변화, 자아발달, 정서 변화와 적응을 다루는 장.",
-  "authors": [],
-  "year": null,
+  "authors": [
+    "한경혜",
+    "최혜경",
+    "안정신",
+    "김주현"
+  ],
+  "year": 2019,
   "language": "ko",
   "kind": "chapter pdf",
   "description": "성격의 안정성과 변화, 자아발달, 정서 변화와 적응을 다루는 장.",
@@ -46,7 +51,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T16:18:07.343Z",
+    "updated_at": "2026-03-21T17:46:56.303Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",

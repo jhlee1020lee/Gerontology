@@ -4,8 +4,13 @@
   "source_pdf": "source_pdfs/[CH11]Gerontology.pdf",
   "title": "노년기 일과 은퇴",
   "subtitle": "노년기 노동의 의미, 은퇴 적응, 은퇴준비교육을 함께 다루는 장이다.",
-  "authors": [],
-  "year": null,
+  "authors": [
+    "한경혜",
+    "최혜경",
+    "안정신",
+    "김주현"
+  ],
+  "year": 2019,
   "language": "ko",
   "kind": "chapter pdf",
   "description": "일이 가진 소득, 정체성, 관계의 의미와 은퇴 적응, 준비교육의 필요성을 정리한다.",
@@ -47,7 +52,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T16:18:07.390Z",
+    "updated_at": "2026-03-21T17:46:56.337Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",

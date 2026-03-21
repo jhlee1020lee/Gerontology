@@ -118,8 +118,9 @@ function publicNotebooklmVideoPath(reading, sourcePath) {
 
 function resolveNotebooklmVideo(rootDir, reading, existingMeta = {}) {
   const localPath = detectLocalNotebooklmVideo(rootDir, reading);
-  const explicitUrl = toText(reading.notebooklm_video_url || existingMeta.notebooklm_video_url);
-  const videoUrl = explicitUrl || publicNotebooklmVideoPath(reading, localPath);
+  const explicitUrl = toText(reading.notebooklm_video_url);
+  const fallbackUrl = toText(existingMeta.notebooklm_video_url);
+  const videoUrl = explicitUrl || publicNotebooklmVideoPath(reading, localPath) || fallbackUrl;
   return {
     localPath,
     videoUrl,

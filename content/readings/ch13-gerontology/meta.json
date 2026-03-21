@@ -4,8 +4,13 @@
   "source_pdf": "source_pdfs/[CH13]Gerontology.pdf",
   "title": "노년기 사회참여",
   "subtitle": "활동적 노화와 성공적 노화 논의를 바탕으로 노년기 참여의 의미를 다루는 장이다.",
-  "authors": [],
-  "year": null,
+  "authors": [
+    "한경혜",
+    "최혜경",
+    "안정신",
+    "김주현"
+  ],
+  "year": 2019,
   "language": "ko",
   "kind": "chapter pdf",
   "description": "노년기 사회참여가 삶의 질과 어떻게 연결되는지, 그리고 활동적·성공적 노화 담론이 무엇을 요구하는지 정리한다.",
@@ -47,7 +52,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T16:18:07.411Z",
+    "updated_at": "2026-03-21T17:46:56.352Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",

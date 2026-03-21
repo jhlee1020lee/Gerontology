@@ -4,8 +4,13 @@
   "source_pdf": "source_pdfs/[CH9]Gerontology.pdf",
   "title": "사회적 노화 II: 중노년기 부부관계",
   "subtitle": "결혼의 의미, 길어진 부부기간, 노년기 이혼과 사별을 함께 다루는 장이다.",
-  "authors": [],
-  "year": null,
+  "authors": [
+    "한경혜",
+    "최혜경",
+    "안정신",
+    "김주현"
+  ],
+  "year": 2019,
   "language": "ko",
   "kind": "chapter pdf",
   "description": "중·노년기 부부관계를 건강, 복지, 가족생활주기, 결혼 해체의 맥락에서 정리한다.",
@@ -47,7 +52,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T16:18:07.371Z",
+    "updated_at": "2026-03-21T17:46:56.320Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",

@@ -62,7 +62,7 @@ function ensureGateToast(){
 
 function showGateToast(message){
   const toast=ensureGateToast();
-  const text=(message||"업로드 예정입니다.").trim();
+  const text=(message||"준비중입니다.").trim();
   toast.textContent=text;
   toast.hidden=false;
   if(showGateToast.timer)window.clearTimeout(showGateToast.timer);
@@ -75,7 +75,7 @@ function initGatedLinks(){
   document.querySelectorAll("[data-gated-link]").forEach((element)=>{
     element.addEventListener("click",(event)=>{
       event.preventDefault();
-      showGateToast(element.dataset.gatedMessage||"업로드 예정입니다.");
+      showGateToast(element.dataset.gatedMessage||"준비중입니다.");
     });
   });
 }
