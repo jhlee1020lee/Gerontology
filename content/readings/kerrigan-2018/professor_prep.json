@@ -1,392 +1,74 @@
 {
   "title": "12 Innovations That Could Make Reverse Aging a Reality 교수님 구술 대비",
-  "instructions": "질문에 먼저 직접 답한 뒤 10초, 30초, 60초 답변을 비교하고 꼬리질문까지 대비한다.",
-  "followup_bank": [
-    "그게 뭐야?",
-    "왜 그렇게 보는데?",
-    "뭐가 새로웠는데?",
-    "다시 말해봐.",
-    "그게 왜 중요한데?",
-    "연구에서는 뭐라고 하는데?",
-    "한국에서는 어떻게 보이는데?",
-    "그 설명의 한계는 뭐야?"
-  ],
+  "instructions": "질문에 먼저 바로 답하고, 기술 이름은 영어 용어까지 붙여서 근거와 한계를 함께 말해 보세요.",
   "cards": [
     {
-      "question": "이 글의 핵심 주장을 한 문장으로 말해봐.",
-      "answer_10s": "이 읽기는 12 Innovations That Could Make Reverse Aging a Reality를 중심으로 reverse aging, stem cells, senolytics를 연결해 설명합니다.",
-      "answer_30s": "이 읽기는 12 Innovations That Could Make Reverse Aging a Reality를 중심으로 reverse aging, stem cells, senolytics를 연결해 설명합니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "이 읽기는 12 Innovations That Could Make Reverse Aging a Reality를 중심으로 reverse aging, stem cells, senolytics를 연결해 설명합니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "must_include_keywords": [
-        "reverse aging",
-        "stem cells",
-        "senolytics"
-      ],
-      "evidence_from_reading": [
-        "제목: 12 Innovations That Could Make Reverse Aging a Reality",
-        "전개 축: 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점",
-        "핵심 용어: reverse aging, stem cells, senolytics, young blood"
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "이 읽기는 12 Innovations That Could Make Reverse Aging a Reality를 중심으로 reverse aging, stem cells, senolytics를 연결해 설명합니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 기사 형식, 기술 목록에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다."
-        }
-      ],
-      "korean_context_link": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 reverse aging이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
-      "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
-      ]
+      "title": "이 글을 한 문장으로 요약하면",
+      "answer_30s": "이 글은 reverse aging을 이미 달성한 이야기로 쓰지 않고, stem cell reprogramming부터 senolytics, rapamycin, young blood까지 서로 다른 후보 기술을 한데 모아 현재 연구 지형을 보여 주는 대중 과학 기사로 읽었습니다. 그래서 핵심은 기적의 한 방이 아니라 어떤 생물학적 표적들이 노화 개입 대상으로 떠오르고 있는지를 보는 데 있다고 생각했습니다."
     },
     {
-      "question": "이 글을 어떻게 읽었는지 말해봐.",
-      "answer_10s": "저는 기사 형식, 기술 목록, 근거 수준 순서로 구조를 잡으면서 읽었습니다.",
-      "answer_30s": "저는 기사 형식, 기술 목록, 근거 수준 순서로 구조를 잡으면서 읽었습니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "저는 기사 형식, 기술 목록, 근거 수준 순서로 구조를 잡으면서 읽었습니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "must_include_keywords": [
-        "stem cells",
-        "senolytics",
-        "young blood"
-      ],
-      "evidence_from_reading": [
-        "제목: 12 Innovations That Could Make Reverse Aging a Reality",
-        "전개 축: 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점",
-        "핵심 용어: reverse aging, stem cells, senolytics, young blood"
-      ],
-      "likely_followups": [
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐.",
-        "그게 왜 중요한데?"
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "저는 기사 형식, 기술 목록, 근거 수준 순서로 구조를 잡으면서 읽었습니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 기사 형식, 기술 목록에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다."
-        }
-      ],
-      "korean_context_link": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 reverse aging이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
-      "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
-      ]
+      "title": "왜 이 글이 흥미로웠는지",
+      "answer_30s": "저는 역노화라는 말이 하나의 기술을 뜻하는 줄 알았는데, 이 글을 보니 줄기세포, mtDNA, senescent cells, NAD+, rapamycin처럼 표적이 완전히 다르다는 점이 흥미로웠습니다. 즉 모두가 같은 방식으로 젊어지게 만드는 게 아니라, 세포 손상, 대사, 염증, 인지 기능 같은 서로 다른 층위를 건드리고 있었습니다."
     },
     {
-      "question": "뭐가 새로웠는데?",
-      "answer_10s": "실제 과학 못지않게 어떤 기술 이름들이 대중의 희망을 조직하는지 보여 주는 자료라는 점이 흥미롭다.",
-      "answer_30s": "실제 과학 못지않게 어떤 기술 이름들이 대중의 희망을 조직하는지 보여 주는 자료라는 점이 흥미롭다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "실제 과학 못지않게 어떤 기술 이름들이 대중의 희망을 조직하는지 보여 주는 자료라는 점이 흥미롭다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "must_include_keywords": [
-        "senolytics",
-        "young blood",
-        "synthetic peptides"
-      ],
-      "evidence_from_reading": [
-        "제목: 12 Innovations That Could Make Reverse Aging a Reality",
-        "전개 축: 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점",
-        "핵심 용어: reverse aging, stem cells, senolytics, young blood"
-      ],
-      "likely_followups": [
-        "뭐가 새로웠는데?",
-        "다시 말해봐.",
-        "그게 왜 중요한데?",
-        "연구에서는 뭐라고 하는데?"
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "실제 과학 못지않게 어떤 기술 이름들이 대중의 희망을 조직하는지 보여 주는 자료라는 점이 흥미롭다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 기사 형식, 기술 목록에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다."
-        }
-      ],
-      "korean_context_link": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 reverse aging이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
-      "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
-      ]
+      "title": "왜 이 글을 논문이 아니라 기사로 읽어야 하는지",
+      "answer_30s": "이 글은 엄밀한 비교 연구라기보다 12개 사례를 빠르게 소개하는 기사라서, 각 기술의 evidence level이 균등하지 않다는 점을 먼저 봐야 합니다. 어떤 것은 mouse data이고, 어떤 것은 fly나 yeast 수준이며, 어떤 것은 start-up의 상업적 주장도 섞여 있어서 저는 이 글을 검증된 결론보다 연구 아이디어 지도처럼 읽었습니다."
     },
     {
-      "question": "reverse aging이 뭐야?",
-      "answer_10s": "reverse aging은(는) 이 읽기에서 핵심 축을 이루는 개념입니다.",
-      "answer_30s": "reverse aging은(는) 이 읽기에서 핵심 축을 이루는 개념입니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "reverse aging은(는) 이 읽기에서 핵심 축을 이루는 개념입니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "must_include_keywords": [
-        "young blood",
-        "synthetic peptides",
-        "THC"
-      ],
-      "evidence_from_reading": [
-        "제목: 12 Innovations That Could Make Reverse Aging a Reality",
-        "전개 축: 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점",
-        "핵심 용어: reverse aging, stem cells, senolytics, young blood"
-      ],
-      "likely_followups": [
-        "다시 말해봐.",
-        "그게 왜 중요한데?",
-        "연구에서는 뭐라고 하는데?",
-        "한국에서는 어떻게 보이는데?"
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "reverse aging은(는) 이 읽기에서 핵심 축을 이루는 개념입니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 기사 형식, 기술 목록에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다."
-        }
-      ],
-      "korean_context_link": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 reverse aging이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
-      "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
-      ]
+      "title": "12개 기술을 하나의 답처럼 보면 안 되는 이유",
+      "answer_30s": "12개 항목은 모두 reverse aging이라는 큰 말 아래 묶여 있지만 실제로는 작동 기전도, 실험 단계도, 목표 결과도 다릅니다. 그래서 저는 이 글을 읽을 때 '정말 노화를 되돌리는가'보다 '어떤 기전을 건드렸고 사람에게까지 얼마나 남았는가'를 구분하는 게 더 중요하다고 봤습니다."
     },
     {
-      "question": "stem cells과(와) senolytics를 어떻게 구분했어?",
-      "answer_10s": "둘은 비슷해 보여도 같은 층위의 말이 아니라 서로 다른 설명 축입니다.",
-      "answer_30s": "둘은 비슷해 보여도 같은 층위의 말이 아니라 서로 다른 설명 축입니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "둘은 비슷해 보여도 같은 층위의 말이 아니라 서로 다른 설명 축입니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "must_include_keywords": [
-        "reverse aging",
-        "stem cells",
-        "senolytics"
-      ],
-      "evidence_from_reading": [
-        "제목: 12 Innovations That Could Make Reverse Aging a Reality",
-        "전개 축: 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점",
-        "핵심 용어: reverse aging, stem cells, senolytics, young blood"
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "둘은 비슷해 보여도 같은 층위의 말이 아니라 서로 다른 설명 축입니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 기사 형식, 기술 목록에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다."
-        }
-      ],
-      "korean_context_link": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 reverse aging이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
-      "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
-      ]
+      "title": "stem cell reprogramming을 어떻게 이해했는지",
+      "answer_30s": "첫 사례인 induced pluripotent stem cells는 늙은 세포를 더 젊은 상태로 reprogramming할 수 있다는 점에서 상징성이 컸습니다. 마우스에서 30% 더 오래 살았다는 결과가 눈에 띄지만, 동시에 embryonic state로 되돌리는 과정 자체가 위험할 수 있어서 저는 가능성과 위험이 같이 큰 기술로 정리했습니다."
     },
     {
-      "question": "근거는 뭐였어?",
-      "answer_10s": "이 읽기의 구조는 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점처럼 제목과 전개 축이 비교적 분명합니다.",
-      "answer_30s": "이 읽기의 구조는 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점처럼 제목과 전개 축이 비교적 분명합니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "이 읽기의 구조는 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점처럼 제목과 전개 축이 비교적 분명합니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "must_include_keywords": [
-        "stem cells",
-        "senolytics",
-        "young blood"
-      ],
-      "evidence_from_reading": [
-        "제목: 12 Innovations That Could Make Reverse Aging a Reality",
-        "전개 축: 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점",
-        "핵심 용어: reverse aging, stem cells, senolytics, young blood"
-      ],
-      "likely_followups": [
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐.",
-        "그게 왜 중요한데?"
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "이 읽기의 구조는 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점처럼 제목과 전개 축이 비교적 분명합니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 기사 형식, 기술 목록에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다."
-        }
-      ],
-      "korean_context_link": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 reverse aging이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
-      "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
-      ]
+      "title": "mutant mtDNA와 mitophagy가 왜 중요하다고 봤는지",
+      "answer_30s": "이 사례는 노화를 막연히 젊음의 상실로 보지 않고, mitochondria 안에 쌓이는 mutant mtDNA와 그것을 치우는 mitophagy 문제로 아주 구체화했다는 점이 중요했습니다. 아직 fruit fly 수준이지만, 손상 축적과 제거 시스템의 균형이 노화 핵심이라는 걸 잘 보여 준다고 생각했습니다."
     },
     {
-      "question": "한국에서는 어떻게 보이는데?",
-      "answer_10s": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "answer_30s": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "must_include_keywords": [
-        "senolytics",
-        "young blood",
-        "synthetic peptides"
-      ],
-      "evidence_from_reading": [
-        "제목: 12 Innovations That Could Make Reverse Aging a Reality",
-        "전개 축: 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점",
-        "핵심 용어: reverse aging, stem cells, senolytics, young blood"
-      ],
-      "likely_followups": [
-        "뭐가 새로웠는데?",
-        "다시 말해봐.",
-        "그게 왜 중요한데?",
-        "연구에서는 뭐라고 하는데?"
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 기사 형식, 기술 목록에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다."
-        }
-      ],
-      "korean_context_link": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 reverse aging이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
-      "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
-      ]
+      "title": "senolytic drugs를 왜 눈여겨봤는지",
+      "answer_30s": "저는 12개 중 senolytic drugs가 가장 실감 나는 후보 중 하나라고 봤습니다. 이유는 dasatinib과 quercetin처럼 이미 존재하는 물질 조합으로 senescent cells를 선택적으로 줄였고, 자연노화 마우스의 이동성과 수명에서 변화가 제시됐기 때문입니다. 다만 이것도 아직 mouse data라서 바로 사람의 역노화 치료라고 말하면 과장이라고 봤습니다."
     },
     {
-      "question": "이 설명의 한계는 뭐야?",
-      "answer_10s": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다.",
-      "answer_30s": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "must_include_keywords": [
-        "young blood",
-        "synthetic peptides",
-        "THC"
-      ],
-      "evidence_from_reading": [
-        "제목: 12 Innovations That Could Make Reverse Aging a Reality",
-        "전개 축: 기사 형식, 기술 목록, 근거 수준, 대중 담론, 읽기 주의점",
-        "핵심 용어: reverse aging, stem cells, senolytics, young blood"
-      ],
-      "likely_followups": [
-        "다시 말해봐.",
-        "그게 왜 중요한데?",
-        "연구에서는 뭐라고 하는데?",
-        "한국에서는 어떻게 보이는데?"
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 기사 형식, 기술 목록에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "웹기사 인쇄형 PDF라 링크와 장식 요소가 섞여 있고 근거 수준 비교가 충분하지 않다."
-        }
-      ],
-      "korean_context_link": "한국의 항노화 산업 홍보나 영양제 담론을 읽을 때 hype와 evidence를 구분하는 훈련 자료로 쓸 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 reverse aging이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
-      "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
-      ]
+      "title": "synthetic peptides와 pNaKtide를 어떻게 설명할지",
+      "answer_30s": "이 부분은 NAKL이라는 산화 증폭 경로를 조절해서 노화 과정을 늦출 수 있다는 주장으로 읽었습니다. pNaKtide가 Western diet로 악화된 노화 신호를 완화했고 human dermal fibroblasts에서도 비슷한 방향을 보였다는 점이 흥미롭지만, 실제 임상 개입으로 이어지기까지는 아직 거리가 멀다고 말할 것 같습니다."
+    },
+    {
+      "title": "young blood를 왜 조심해서 읽었는지",
+      "answer_30s": "young blood는 제일 자극적인 사례지만 그래서 더 조심해서 읽었습니다. 젊은 쥐의 혈액이 늙은 쥐의 뇌에서 neuron과 stem cell production을 자극해 cognition을 개선했다는 점은 인상적이지만, 기사 자체도 human plasma trial은 아직 초기라고 말하고 있어서 저는 흥미로운 신호이지 확정된 치료는 아니라고 정리했습니다."
+    },
+    {
+      "title": "NAD+ anti-aging pill을 어떻게 봤는지",
+      "answer_30s": "NAD+는 대중적으로 가장 상품화되기 쉬운 이야기라서 더 비판적으로 읽었습니다. 마우스에서 세포 기능과 조직 수준의 회복 신호가 보였고 초기 human trial도 언급되지만, 기사 문체가 '곧 선반에 올라올 약'처럼 밀어붙이는 부분이 있어서 저는 가능성과 hype를 분리해서 말해야 한다고 봤습니다."
+    },
+    {
+      "title": "THC 사례를 어떻게 설명할지",
+      "answer_30s": "THC 사례의 핵심은 저용량, non-intoxicating dose에서 aged mice의 인지 기능이 더 젊은 수준에 가까워졌다는 점입니다. 저는 이걸 '대마가 노화를 고친다'가 아니라, 특정 신경생물학적 경로를 자극하면 aging brain의 일부 기능을 조절할 수 있다는 예로 설명하는 게 맞다고 생각했습니다."
+    },
+    {
+      "title": "rapamycin이 왜 중요한 기술처럼 보였는지",
+      "answer_30s": "rapamycin은 기사 속에서 가장 화려하진 않지만, 이미 알려진 약물이 여러 종에서 수명 지연 효과를 보였다는 점 때문에 오히려 더 중요해 보였습니다. 즉 완전히 새로운 상상력보다 기존 약물의 repurposing이 aging intervention에서 현실적인 길일 수 있다는 점을 보여 준다고 생각했습니다."
+    },
+    {
+      "title": "gene deletion 사례를 어떻게 읽었는지",
+      "answer_30s": "gene deletion 사례는 특정 유전자를 제거했을 때 lifespan이 크게 늘 수 있다는 점을 보여 주지만, 동시에 인간 적용이 얼마나 먼지도 같이 보여 줍니다. yeast에서 10년 걸려 찾은 표적을 인간에게 바로 옮길 수는 없기 때문에, 저는 이 사례를 장기적 가능성의 증거로는 보되 당장 임상으로 연결된다고 보지는 않았습니다."
+    },
+    {
+      "title": "이 글의 공통 한계를 한 문장으로 말하면",
+      "answer_30s": "공통 한계는 대부분의 증거가 mouse, fly, yeast, dog 같은 전임상 단계에 있고, 사람에게서 reproducible한 건강수명 연장으로 이어졌다고 말하기 어렵다는 점입니다. 그래서 reverse aging이라는 큰 표현은 기사 제목으로는 강하지만, 수업 답변에서는 preclinical evidence가 많다고 분명히 말해야 안전합니다."
+    },
+    {
+      "title": "reverse aging과 건강수명 연장을 어떻게 구분했는지",
+      "answer_30s": "저는 reverse aging을 말 그대로 시간을 되돌리는 표현으로, health span extension은 기능 저하를 늦추고 건강한 기간을 늘리는 표현으로 구분했습니다. 이 글은 제목은 과감하게 reverse aging이지만 실제 내용은 상당수가 노화를 완전히 되돌린다기보다 손상을 늦추거나 기능 저하를 완화하는 사례에 더 가깝다고 봤습니다."
+    },
+    {
+      "title": "한국 사회와 연결해서 말한다면",
+      "answer_30s": "한국에서는 항노화 산업, 영양제 마케팅, 줄기세포 시술 홍보가 이미 강해서 이런 글을 더 비판적으로 읽을 필요가 있다고 생각합니다. 저는 이 글을 보면서 기술 이름이 많을수록 더 믿을 만한 게 아니라, 사람 대상 근거가 있는지와 실제로 health span을 늘렸는지를 따져 봐야 한다는 점을 강조하고 싶었습니다."
+    },
+    {
+      "title": "결국 교수님께 이 글을 어떻게 읽었다고 말할지",
+      "answer_30s": "저는 이 글을 역노화가 현실이 됐다는 선언으로 읽지 않고, 현재 과학이 노화를 어디서 어떻게 건드리려 하는지 보여 주는 스냅샷으로 읽었다고 말할 것 같습니다. 그래서 재미있는 글이지만, 기술 목록을 외우는 것보다 각 사례의 기전, 근거 수준, 과장 가능성을 같이 보는 게 더 중요하다고 정리했습니다."
     }
   ]
 }

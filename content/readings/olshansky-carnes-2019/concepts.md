@@ -2,32 +2,60 @@
 
 ## 1. life expectancy
 
-life expectancy은(는) Inconvenient Truths About Human Longevity에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- `life expectancy`는 한 인구집단이 평균적으로 얼마나 오래 사는지를 보여 주는 지표다.
+- 이 논문에서 저자들은 life expectancy가 계속 직선적으로 상승할 것이라는 가정을 비판한다.
+- 발표에서는 `평균 수명 지표`라는 점을 먼저 말하고, `maximum life span`과 구분해 설명하는 것이 중요하다.
 
 ## 2. maximum life span
 
-maximum life span은(는) Inconvenient Truths About Human Longevity에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- `maximum life span`은 가장 오래 사는 쪽의 생물학적 상한을 가리킨다.
+- 저자들은 기대수명과 최장수명을 섞어 말하면 수명 논쟁이 혼란스러워진다고 본다.
+- `사람이 100세를 넘길 수 있다`는 사실과 `국가 평균 기대수명이 85세를 넘기기 어렵다`는 주장은 동시에 성립할 수 있다.
 
-## 3. health extension
+## 3. period life expectancy
 
-health extension은(는) Inconvenient Truths About Human Longevity에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- `period life expectancy`는 특정 한 해의 연령별 사망률이 평생 유지된다고 가정해서 계산한 기대수명이다.
+- 그래서 현재 사망률이 앞으로 계속 더 좋아질 경우 실제 코호트 수명을 과소추정할 수 있다.
+- 논문은 이 개념을 제대로 구분하지 않으면 "지금 태어난 아이들 대부분이 100세를 산다" 같은 예측이 얼마나 강한 가정을 요구하는지 놓치게 된다고 말한다.
 
-## 4. life extension
+## 4. cohort life expectancy
 
-life extension은(는) Inconvenient Truths About Human Longevity에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- `cohort life expectancy`는 실제 출생 코호트가 평생 동안 경험한 사망률을 반영한 수명이다.
+- period life expectancy보다 현실에 더 가깝지만, 코호트가 모두 사망해야 정확히 알 수 있다.
+- 논문은 미래 코호트 수명을 급진적으로 높게 예측하려면, 모든 연령에서 장기간 매우 빠른 사망률 감소가 필요하다고 본다.
 
-## 5. compression of morbidity
+## 5. entropy in the life table
 
-compression of morbidity은(는) Inconvenient Truths About Human Longevity에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- `entropy in the life table`는 기대수명이 높아질수록 그것을 더 올리기가 수학적으로 더 어려워진다는 뜻이다.
+- 기대수명이 이미 높은 사회에서는 사망이 고령층에 집중되어 있어서, 그 구간의 사망률을 더 낮춰도 평균 기대수명이 크게 뛰지 않는다.
+- 이 개념은 왜 현대 의학이 개별 질환을 계속 치료해도 기대수명 증가폭이 예전만큼 크지 않은지를 설명해 준다.
 
-## 6. aging biology
+## 6. longevity ceiling
 
-aging biology은(는) Inconvenient Truths About Human Longevity에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- `longevity ceiling`은 인간 수명에 생물학적으로 형성된 상한이 있다는 관점이다.
+- 저자들은 국가 단위 population life expectancy의 상한을 `85세 전후`로 본다.
+- 이때 중요한 것은 `개인 한 명의 절대 나이 한계`가 아니라 `인구집단 평균의 상한`이라는 점이다.
 
-## 7. public health
+## 7. actuarial escape velocity
 
-public health은(는) Inconvenient Truths About Human Longevity에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- `actuarial escape velocity`는 사망률이 너무 빠르게 떨어져서, 시간이 갈수록 남은 기대수명이 오히려 계속 늘어나는 상태를 말한다.
+- 논문은 de Grey의 이 개념이 흥미로운 가설일 수는 있지만, 현재로서는 경험적 근거가 부족하다고 비판한다.
+- 발표에서는 `아이디어 자체`와 `그 아이디어를 뒷받침하는 증거 수준`을 분리해 말하는 것이 중요하다.
 
-## 8. longevity ceiling
+## 8. compression of morbidity
 
-longevity ceiling은(는) Inconvenient Truths About Human Longevity에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- `compression of morbidity`는 병과 장애를 길게 끌지 않고 삶의 끝부분으로 압축하는 것을 뜻한다.
+- 논문에서 health extension이 중요한 이유도 여기에 있다.
+- 기대수명이 조금만 늘더라도 질병과 쇠약의 기간이 짧아지면 개인과 사회 모두에게 더 큰 이득이 될 수 있다.
+
+## 9. red zone
+
+- `red zone`은 생애 후반부에서 frailty와 disability가 급증하는 구간을 가리키는 표현이다.
+- 저자들은 죽음을 조금 늦추는 방식만 계속되면 많은 사람이 이 red zone에서 더 오래 머무를 수 있다고 우려한다.
+- 그래서 핵심 목표는 단순한 생존 연장이 아니라 `red zone 진입을 늦추는 것`이 된다.
+
+## 10. Longevity Dividend / Geroscience
+
+- `Longevity Dividend`와 `Geroscience`는 질환 하나씩을 따로 상대하기보다, 질환들을 낳는 공통 기반인 노화 과정을 조절하자는 접근이다.
+- 논문은 이것을 고령사회에서의 새로운 형태의 `Primary Prevention`으로 본다.
+- 저자들은 이 방향을 지지하지만, 그 효과를 곧바로 급진적 수명 연장으로 과장하지는 않는다.

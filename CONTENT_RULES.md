@@ -154,6 +154,8 @@ Exact homepage order:
 - Keep the site calm, plain, academic, and readable.
 
 ## 9. Professor style analysis rules
+Derived from lecture-transcript review dated `2026-03-05`, `2026-03-10`, `2026-03-12`, `2026-03-17`, and `2026-03-19`.
+
 The professor strongly prefers:
 
 1. directly answering the exact question
@@ -180,11 +182,15 @@ The professor frequently asks:
 - `왜 그렇게 보는데?`
 - `뭐가 새로웠는데?`
 - `다시 말해봐.`
+- `다시 한번 다르게 말해봐.`
+- `구체적으로 말해봐.`
 - `그게 왜 중요한데?`
 - `연구에서는 뭐라고 하는데?`
 - `한국에서는 어떻게 보이는데?`
 - `그 설명의 한계는 뭐야?`
 - `영어로 뭐지?`
+- `질문을 똑바로 듣고 답해봐.`
+- `본인은 어떻게 생각하는데?`
 
 Therefore future content should optimize for:
 
@@ -192,6 +198,62 @@ Therefore future content should optimize for:
 - follow-up resistance
 - natural spoken answers
 - exact rather than vague wording
+
+### 9.1 Answer contract derived from the recordings
+- If the prompt asks `무엇이 인상적이었나`, answer with:
+  - one exact point
+  - why it was new, surprising, or assumption-breaking
+  - what that changed in your reading of the text
+- If the prompt asks `왜`, give mechanism or reasoning, not a synonym for the first sentence.
+- If the prompt asks `그게 뭐야`, define the concept in one exact sentence first, then explain it in plain Korean.
+- If the prompt asks `영어로 뭐지`, give the exact English term, not a rough paraphrase.
+- If the prompt asks for a reaction or opinion, distinguish:
+  - what the reading argues
+  - what research evidence supports
+  - what you personally took from it
+- Do not answer with only a label such as `흥미로웠다`, `복합적이다`, `다양하다`, `중요하다`.
+- Do not give broad categories without content such as `장점도 있고 단점도 있다`.
+- Do not drift into a different question because the asked one is harder.
+- Do not stall with filler while searching for the point. Answer first, then elaborate.
+- Prefer exact anchors:
+  - age
+  - year
+  - scholar
+  - variable
+  - method
+  - comparison pair
+  - Korean or class context when relevant
+- The professor repeatedly pushes students to move from:
+  - vague reaction
+  - to exact concept
+  - to why it matters
+  - to what follows from it
+
+### 9.2 Strong default spoken template
+Use this default shape for oral-style answers unless the prompt clearly needs a different order:
+
+1. `저는 이 글을 X 중심으로 읽었습니다.`
+2. `가장 인상적이었던 건 Y였습니다.`
+3. `왜냐하면 Z라는 통념/예상과 달랐기 때문입니다.`
+4. `이게 중요한 이유는 A이기 때문입니다.`
+5. `그래서 저는 이 글을 B라고 이해했습니다.`
+
+Good expansions inside the template:
+
+- exact concept definition
+- exact English term when useful
+- one concrete example
+- one contrast pair
+- one limitation or boundary condition
+- one Korean-context or student-context implication when genuinely relevant
+
+Bad expansions inside the template:
+
+- generic praise
+- dictionary-style abstraction with no claim
+- personal anecdote unrelated to the reading
+- AI-sounding balanced-but-empty wording
+- textbook recap that never reaches a position
 
 ## 10. Page-specific content rules
 
@@ -335,6 +397,35 @@ Intended spoken logic:
 - `나는 이 글을 무엇 중심으로 읽었다`
 - `왜 그 포인트가 중요하거나 새로웠다`
 - `그래서 이 글의 핵심을 어떻게 이해했다`
+
+Required answer features derived from the recordings:
+
+- open with the answer, not with throat-clearing
+- mention one exact concept, finding, distinction, or question
+- explain `왜` in a causal or interpretive way
+- include at least one concrete anchor such as:
+  - age
+  - year
+  - variable
+  - method
+  - theory contrast
+  - Korean-context implication
+- be defensible against likely follow-up questions:
+  - `그게 뭐야?`
+  - `왜 중요한데?`
+  - `연구에서는 뭐라고 하는데?`
+  - `영어로 뭐지?`
+- if the answer contains a personal reaction, tie it back to the text immediately
+- avoid broad praise without content
+- avoid empty `장단점` listing unless each side is specified
+- avoid `요약체` narration that sounds like a book report rather than a class answer
+
+Default micro-structure for each `answer_30s`:
+
+- 1 sentence: what you focused on
+- 1 sentence: what exactly was new / surprising / important
+- 1 sentence: why it matters for this reading or course
+- 1 sentence: one concrete distinction, example, or implication
 
 Tone rules:
 

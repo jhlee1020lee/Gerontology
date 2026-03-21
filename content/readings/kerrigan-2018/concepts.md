@@ -2,32 +2,48 @@
 
 ## 1. reverse aging
 
-reverse aging은(는) 12 Innovations That Could Make Reverse Aging a Reality에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+이 글에서 `reverse aging`은 하나의 단일 기술이 아니라, 노화를 되돌리거나 늦출 수 있다고 소개되는 여러 개입 아이디어를 묶는 상위 표현이다. 그래서 이 용어를 그대로 믿기보다, 각 사례가 실제로는 세포 재프로그래밍인지, 손상 제거인지, 기능 완화인지 구분해서 말해야 한다.
 
-## 2. stem cells
+## 2. induced pluripotent stem cells
 
-stem cells은(는) 12 Innovations That Could Make Reverse Aging a Reality에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+유도만능줄기세포는 성체 세포를 다시 초기 상태에 가깝게 되돌릴 수 있는 세포로, 첫 번째 사례의 핵심이다. 기사에서는 이 기술이 늙은 쥐 세포를 재프로그래밍하고 수명을 늘린 사례로 소개되지만, 동시에 인간 적용은 아직 멀고 위험도 있다고 말한다.
 
-## 3. senolytics
+## 3. mtDNA와 mitophagy
 
-senolytics은(는) 12 Innovations That Could Make Reverse Aging a Reality에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+두 번째 사례는 돌연변이 mtDNA가 축적되면 세포가 늙는다는 점에 주목한다. 여기서 `mitophagy`는 손상된 미토콘드리아를 처리하는 과정으로 제시되며, 노화를 젊음의 상실이 아니라 세포 손상 축적 문제로 읽게 만든다.
 
-## 4. young blood
+## 4. splicing factors와 reversalogues
 
-young blood은(는) 12 Innovations That Could Make Reverse Aging a Reality에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+세 번째 사례에서 핵심은 나이가 들며 비활성화되는 스플라이싱 인자를 다시 작동시키는 것이다. `reversalogues`는 이 인자를 다시 활성화해 세포가 더 젊은 방식으로 분열하도록 돕는 후보 물질로 소개된다.
 
-## 5. synthetic peptides
+## 5. senolytics와 senescent cells
 
-synthetic peptides은(는) 12 Innovations That Could Make Reverse Aging a Reality에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+`senolytics`는 노쇠세포를 선택적으로 제거하려는 접근이다. 기사에서 가장 주목되는 약물 조합 중 하나인 다사티닙과 케르세틴은 바로 이 노쇠세포를 표적으로 삼는 예로 제시된다.
 
-## 6. THC
+## 6. NAKL과 pNaKtide
 
-THC은(는) 12 Innovations That Could Make Reverse Aging a Reality에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+합성 펩타이드 사례는 `Na/K-ATPase oxidant amplification loop`, 즉 `NAKL`이라는 산화 관련 경로를 표적으로 삼는다. `pNaKtide`는 이 경로를 조절해 노화 효과를 줄일 수 있는 후보 물질로 소개된다.
 
-## 7. gene deletion
+## 7. young blood
 
-gene deletion은(는) 12 Innovations That Could Make Reverse Aging a Reality에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+`young blood`는 젊은 개체의 혈액 또는 혈장이 늙은 개체의 인지 기능과 세포 생성에 긍정적 영향을 줄 수 있다는 아이디어다. 기사에서는 매우 자극적으로 제시되지만, 수업에서는 아직 초기 단계 신호라는 점을 같이 말해야 한다.
 
-## 8. hype
+## 8. NAD+
 
-hype은(는) 12 Innovations That Could Make Reverse Aging a Reality에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+`NAD+`는 세포 기능 유지와 세포 노화 조절에 중요하다고 설명되는 분자다. 기사에서는 쥐의 물에 NAD+를 넣었을 때 조직이 젊은 수준으로 되돌아간 사례를 근거로 항노화 알약 가능성을 제시한다.
+
+## 9. THC
+
+THC 사례는 노화한 뇌 상태와 인지 기능을 조절할 수 있다는 신경생물학적 가능성을 보여 준다. 핵심은 저용량, 비중독성 수준의 투여에서도 늙은 쥐의 인지 수행이 개선됐다고 제시된다는 점이다.
+
+## 10. rapamycin
+
+라파마이신은 이미 이식 의학과 면역억제제로 알려진 약물이며, 기사에서는 항노화 알약의 현실적 후보처럼 소개된다. 완전히 새로운 약이 아니라 기존 약물의 재활용이라는 점에서 다른 사례와 구별된다.
+
+## 11. gene deletion
+
+유전자 삭제 사례는 특정 유전자를 제거했을 때 수명이 늘 수 있다는 아이디어를 보여 준다. 다만 기사 자체도 효모 수준의 오랜 시행착오 연구를 인간에게 바로 옮기기는 어렵다고 인정한다.
+
+## 12. evidence level
+
+이 글을 읽을 때 가장 중요한 숨은 개념은 `evidence level`이다. 어떤 사례는 mouse data, 어떤 사례는 fruit fly나 yeast, 어떤 사례는 start-up 주장, 어떤 사례는 초기 human trial이므로, 기술 이름보다 먼저 근거 수준을 분류하는 습관이 필요하다.
