@@ -44,6 +44,16 @@ Each reading supports:
 - `review-sheet.html`
 - `professor-prep.html`
 
+Content contract for the main reading pages:
+- `full.html` / `전체 글` must contain the full original text only.
+- `full.html` must not contain summary-style rewriting, compression, or a clean-overview substitute.
+- `full.html` must preserve section order and the readable full body.
+- `translation.html` / `한국어 번역` for English readings must contain the full Korean translation of the original reading.
+- `translation.html` must not contain summary-style translation, abridged translation, selective excerpts, or patchy translation.
+- `translation.html` must preserve section order and heading structure.
+- `summary.html` / `핵심 요약` is the only page where summarization is allowed.
+- Never substitute summary content into `full.html` or `translation.html`.
+
 Common authored source files in a reading folder include:
 
 - `meta.json`
@@ -81,10 +91,13 @@ Common authored source files in a reading folder include:
 ### Validation gates
 - Finish and validate Stage 1 before starting Stage 2 for a reading.
 - Stage 1 validation:
-  - full text covers the readable main body
-  - translation is complete and contiguous for English readings
+  - `전체 글` contains the full original text, preserving section order and the readable full body
+  - `한국어 번역` is a complete full Korean translation for English readings, preserving section order and heading structure
   - deployable PDF path exists when public PDF access is supported
   - reading-hub links work
+- If `전체 글` is not full text, the reading is not complete.
+- If `한국어 번역` is not a complete full translation, the reading is not complete.
+- Such readings must be marked `partial` or `blocked`, not done.
 - Stage 2 validation:
   - `summary`, `concepts`, `pitfalls`, `review-sheet`, and `professor-prep` exist
   - `quiz-ox`, `quiz-short`, and `quiz-mcq` each have `15` items
@@ -97,8 +110,11 @@ Common authored source files in a reading folder include:
 
 ## Key content rules
 - Translation for English readings should be a dedicated completeness pass.
-- Translation must be complete and contiguous, not patchy.
+- `full.html` / `전체 글` must contain the full original text only.
+- `한국어 번역` must be complete full translation, contiguous and unabridged.
 - If translation is partial, mark the reading partial/blocked rather than pretending it is complete.
+- Never substitute summary content into `full.html` or `translation.html`.
+- `summary.html` / `핵심 요약` is the only page where summarization is allowed.
 - `quiz-short` must be true short-answer only:
   - one term
   - one short phrase

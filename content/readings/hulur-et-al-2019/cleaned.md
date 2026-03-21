@@ -1,6 +1,6 @@
 # Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment
 
-> Cleaned page-by-page study text.
+> Extracted full-text reading view from the source PDF.
 >
 > Source PDF: `source_pdfs/Hülür et al., 2019.pdf`
 

@@ -41,6 +41,14 @@ Maintain a static study website for gerontology course readings that can be prev
 - `한국어 번역` for English readings only
 - deployable online PDF access when public PDF access is supported
 
+Stage 1 content meaning:
+- `전체 글` must contain the full original text only.
+- `전체 글` must not use summary-style rewriting, compression, or a clean-overview substitute.
+- `전체 글` must preserve section order and the readable full body.
+- `한국어 번역` must contain the full Korean translation of the original reading for English readings.
+- `한국어 번역` must not use summary-style translation, abridged translation, selective excerpts, or patchy translation.
+- `한국어 번역` must preserve section order and heading structure.
+
 ### Stage 2 = study package
 - `핵심 요약`
 - `핵심 개념`
@@ -54,10 +62,13 @@ Maintain a static study website for gerontology course readings that can be prev
 ### Validation gates
 - Stage 1 must be complete and validated before Stage 2 starts for a reading.
 - Stage 1 validation requires:
-  - full text covers the readable main body
-  - translation is complete and contiguous for English readings
+  - `전체 글` contains the full original text, preserving section order and the readable full body
+  - `한국어 번역` is a complete full Korean translation for English readings, preserving section order and heading structure
   - deployable PDF path exists when public PDF access is supported
   - reading-hub links work
+- If `전체 글` is not full text, the reading is not complete.
+- If `한국어 번역` is not a complete full translation, the reading is not complete.
+- Such readings must be marked `partial` or `blocked`, not done.
 - Stage 2 validation requires:
   - `summary`, `concepts`, `pitfalls`, `review-sheet`, and `professor-prep` exist
   - `quiz-ox`, `quiz-short`, and `quiz-mcq` each contain `15` items
@@ -91,6 +102,9 @@ Each reading supports the following generated pages:
 - `professor-prep.html`
 
 ## Content and QA rules
+- `summary.html` / `핵심 요약` is the only page where summarization is allowed.
+- Never substitute summary content into `full.html`.
+- Never substitute summary content into `translation.html`.
 - `quiz-short` is true short-answer only.
 - Allowed short-answer outputs are:
   - one term

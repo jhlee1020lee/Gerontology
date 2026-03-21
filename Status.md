@@ -151,3 +151,26 @@ Weak sections needing possible second pass:
 
 - Professor-prep answers are strong and specific, but several are still slightly text-like rather than fully oral-performance tuned.
 - The review sheet is intentionally compact; if the course shifts toward denser written exams, a higher-density cram version may still be useful later.
+
+## Hulur Stage 1 Correction Pass
+
+Date: 2026-03-21
+
+Processed:
+
+- Processed only `hulur-et-al-2019` in this pass.
+- Removed the old abridged `full.md` so the reading now builds `full.html` from the extracted source text in `cleaned.md`.
+- Replaced `translation.md` with a fuller Korean translation that restores method, matching, robustness-check, and limitation details that had been compressed away.
+- Left `summary.md` untouched so the summary page remains separate from the full-text and translation pages.
+
+Stage 1 status:
+
+- Full original text: complete in `docs/readings/hulur-et-al-2019/full.html` as extracted source-text view.
+- Full Korean translation: complete for the readable main-body section flow in `docs/readings/hulur-et-al-2019/translation.html`.
+- Summary separation: maintained. `summary.html` remains a distinct page from `full.html` and `translation.html`.
+
+Manual review still needed:
+
+- Compare `full.html` against the PDF once more for page-break noise, table carryover, and figure-caption placement in the extracted source text.
+- Spot-check `translation.html` against the PDF for sentence-level fidelity in dense methods/results passages.
+- Reference formatting is preserved through the PDF; citation layout in the HTML translation view is intentionally lighter and should be treated as a reading aid, not the canonical citation layout.

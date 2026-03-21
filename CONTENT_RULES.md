@@ -40,6 +40,14 @@
 - `한국어 번역` for English readings only
 - deployable online PDF access when public PDF access is supported
 
+Stage 1 content meaning:
+- `전체 글` must contain the full original text only.
+- `전체 글` must not use summary-style rewriting, compression, or a clean-overview substitute.
+- `전체 글` must preserve section order and the readable full body.
+- `한국어 번역` must contain the full Korean translation of the original reading.
+- `한국어 번역` must not use summary-style translation, abridged translation, selective excerpts, or patchy translation.
+- `한국어 번역` must preserve section order and heading structure.
+
 ### 4.2 Stage 2 = study package
 - `핵심 요약`
 - `핵심 개념`
@@ -59,10 +67,15 @@
 ### 5.1 Stage 1 validation
 Stage 1 is valid only if all of the following are true:
 
-- full text covers the readable main body
-- translation is complete and contiguous for English readings
+- `전체 글` contains the full original text, preserving section order and the readable full body
+- `한국어 번역` is a complete full Korean translation for English readings, preserving section order and heading structure
 - deployable PDF path exists when public PDF access is supported
 - reading-hub links work
+
+Failure handling:
+- If `전체 글` is not full text, the reading is not complete.
+- If `한국어 번역` is not a complete full translation, the reading is not complete.
+- Such readings must be marked `partial` or `blocked`, not done.
 
 ### 5.2 Stage 2 validation
 Stage 2 is valid only if all of the following are true:
@@ -198,6 +211,7 @@ Therefore future content should optimize for:
 - Stage 1 reading-hub links must work from this page.
 
 ### 10.2 핵심 요약
+- This is the only page where summarization is allowed.
 - Not a generic abstract.
 - Focus on:
   - what exactly is interesting
@@ -209,20 +223,30 @@ Therefore future content should optimize for:
 - Avoid vague summary lines such as `다양한 측면을 보여준다.`
 
 ### 10.3 전체 글
+- Must contain the full original text only.
 - Must be complete, not partial.
+- Do not use summary-style rewriting.
+- Do not compress the reading.
+- Do not substitute a clean overview for the original text.
 - Must preserve section order.
 - Must be cleaned into readable article-style HTML.
 - Do not silently skip major sections.
-- Stage 1 validation requires coverage of the readable main body.
+- Stage 1 validation requires the readable full body, not a shortened substitute.
 - If extraction quality is poor, fix extraction first instead of publishing obviously broken text.
+- Never substitute summary content into `full.html`.
 
 ### 10.4 한국어 번역
 - English readings must be translated in a dedicated per-reading translation pass.
+- Translation must contain the full Korean translation of the original reading.
 - Translation must be complete and contiguous, not patchy.
+- Do not use summary-style translation.
+- Do not publish abridged translation.
+- Do not publish selective excerpt translation.
 - The translation pass must cover the whole readable main body before moving on.
 - Preserve section order and headings.
 - If translation cannot be completed cleanly, mark the reading blocked rather than pretending the page is finished.
 - Translation quality matters more than raw batch speed.
+- Never substitute summary content into `translation.html`.
 
 ### 10.5 핵심 개념
 For each major concept, include:
