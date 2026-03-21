@@ -13,7 +13,7 @@
   ],
   "year": 2019,
   "language": "en",
-  "kind": "article pdf",
+  "kind": "paper pdf",
   "description": "교육만이 아니라 성인기 노동환경이 코호트별 인지노화 차이에 어떻게 연결되는지 다루는 논문.",
   "metadata_status": "complete",
   "metadata_notes": [
@@ -32,9 +32,18 @@
     "professor_prep": "ready"
   },
   "content_dir": "content/readings/hulur-et-al-2019",
-  "type": "article",
+  "type": "paper",
   "class_date": "2026-03-24",
   "reading_date": null,
   "sort_date": "2026-03-24",
-  "display_date_label": "3/24"
+  "display_date_label": "3/24",
+  "public_pdf": "pdfs/hulur-et-al-2019.pdf",
+  "overview_hook": "이 논문은 교육 수준만으로 설명해 온 코호트별 인지 차이가 실제로는 성인기 노동환경의 변화와도 연결되는지 묻는다.",
+  "classroom_points": [
+    "후기 코호트가 더 높은 인지 수행을 보였다고 해서 모든 능력에서 더 나았던 것은 아니며, number ability는 오히려 낮았다.",
+    "저자들은 교육 효과를 통제한 뒤에도 work control과 work innovation이 인지 수행과 연결된다고 본다.",
+    "코호트 비교는 출생연도 자체보다 age와 retest를 맞춘 관측치 단위 매칭으로 설계되었다.",
+    "노동환경 변수는 직업 복잡도 일반척도가 아니라 work control, work autonomy, work innovation으로 나누어 다뤄진다.",
+    "이 연구는 관찰연구이기 때문에 더 좋은 노동환경이 인지를 높였는지, 원래 인지가 높은 사람이 그런 일을 택했는지는 분리하지 못한다."
+  ]
 }

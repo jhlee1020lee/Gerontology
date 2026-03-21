@@ -402,6 +402,21 @@ code{font-family:"Cascadia Mono","Consolas",monospace;}
   gap:1rem;
 }
 
+.pdf-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.7rem;
+}
+
+.header-pdf-actions{margin-top:.95rem;}
+.inline-pdf-actions{display:inline-flex;}
+.side-pdf-actions{margin-top:.75rem;}
+
+.pdf-btn{
+  background:rgba(39,70,95,.06);
+  border-color:rgba(39,70,95,.18);
+}
+
 .reader-toolbar{
   display:grid;
   grid-template-columns:auto auto minmax(0,1fr);
@@ -709,6 +724,8 @@ code{font-family:"Cascadia Mono","Consolas",monospace;}
   .prep-card-head{
     flex-direction:column;
   }
+
+  .pdf-actions{width:100%;}
 
   .video-grid,
   .study-flow-grid,

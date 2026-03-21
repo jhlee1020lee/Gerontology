@@ -1,6 +1,6 @@
 {
-  "title": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment 교수님 구술 대비",
-  "instructions": "질문에 먼저 직접 답한 뒤 10초, 30초, 60초 답변을 비교하고 꼬리질문까지 대비한다.",
+  "title": "Hülür et al., 2019 교수님 구술 대비",
+  "instructions": "질문을 먼저 짧게 답한 뒤, 30초 답변이 왜 괜찮은지와 꼬리질문 복구 문장까지 같이 보세요. 길게 요약하기보다 한 포인트를 정확하게 말하는 데 초점을 둡니다.",
   "followup_bank": [
     "그게 뭐야?",
     "왜 그렇게 보는데?",
@@ -13,379 +13,293 @@
   ],
   "cards": [
     {
-      "question": "이 글의 핵심 주장을 한 문장으로 말해봐.",
-      "answer_10s": "이 읽기는 Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment를 중심으로 코호트 차이, 인지노화, 노동환경를 연결해 설명합니다.",
-      "answer_30s": "이 읽기는 Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment를 중심으로 코호트 차이, 인지노화, 노동환경를 연결해 설명합니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "이 읽기는 Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment를 중심으로 코호트 차이, 인지노화, 노동환경를 연결해 설명합니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "must_include_keywords": [
-        "코호트 차이",
-        "인지노화",
-        "노동환경"
-      ],
+      "question": "이 논문이 진짜 묻는 질문이 뭐야?",
+      "answer_10s": "후기 코호트의 더 좋은 인지수행을 교육만으로 설명할 수 있는지, 아니면 성인기 노동환경도 같이 봐야 하는지를 묻는 논문입니다.",
+      "answer_30s": "이 논문은 코호트별 인지 차이를 학교교육 하나로 밀어붙이지 않고, 성인기 노동환경도 같이 봐야 하는지 묻습니다. 특히 later-born cohort가 왜 더 높게 보이는지를 work control, work autonomy, work innovation으로 풀어보려는 점이 핵심입니다.",
+      "answer_60s": "제가 이 논문을 흥미롭게 본 이유도 그 지점입니다. 보통 코호트 차이를 말하면 교육 향상만 떠올리기 쉬운데, 저자들은 성인기 일 경험도 역사적으로 달라졌고 그게 인지와 연결될 수 있다고 봅니다. 다만 이 논문은 관찰연구라서 노동환경이 원인이라고 확정하지는 않고, 관련성을 조심스럽게 말합니다.",
+      "must_include_keywords": ["education", "work environment", "cohort difference"],
       "evidence_from_reading": [
-        "제목: Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
-        "전개 축: 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계",
-        "핵심 용어: 코호트 차이, 인지노화, 노동환경, worker control"
+        "The Present Study에서 work environment and education을 함께 다룬다고 밝힌다.",
+        "Discussion에서 work environment가 education과 독립적으로 관련된다고 정리한다."
       ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
+      "likely_followups": ["왜 그게 중요해?", "교육이랑 뭐가 다른데?"],
       "followup_answers": [
         {
-          "question": "그게 뭐야?",
-          "answer": "이 읽기는 Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment를 중심으로 코호트 차이, 인지노화, 노동환경를 연결해 설명합니다."
+          "question": "왜 그게 중요해?",
+          "answer": "코호트 차이를 초기 생애 자원만이 아니라 성인기 사회환경까지 연결해서 읽게 만들기 때문입니다."
         },
         {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 연구문제, 자료와 설계에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다."
+          "question": "교육이랑 뭐가 다른데?",
+          "answer": "교육은 초기 생애 변수이고, 이 논문은 성인기 일 경험이 그 이후에도 따로 남는지 보려는 겁니다."
         }
       ],
-      "korean_context_link": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 코호트 차이이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
+      "korean_context_link": "한국에서도 세대마다 일의 자율성, 관리 방식, 기술 변화 경험이 달라서 코호트 차이를 교육만으로 설명하기 어려운 경우가 많다고 붙여 말할 수 있습니다.",
+      "personal_connection_hint": "발표할 때는 '교육 말고도 성인기 일 경험이 쌓이는 환경'이라는 말을 먼저 꺼내면 내 식으로 읽었다는 느낌이 납니다.",
       "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
+        "교육이 중요하다는 논문이라고만 말하기",
+        "노동환경이 좋으면 무조건 인지가 좋아진다고 단정하기",
+        "코호트 차이와 나이 차이를 섞어서 말하기"
       ]
     },
     {
-      "question": "이 글을 어떻게 읽었는지 말해봐.",
-      "answer_10s": "저는 연구문제, 자료와 설계, 핵심 결과 순서로 구조를 잡으면서 읽었습니다.",
-      "answer_30s": "저는 연구문제, 자료와 설계, 핵심 결과 순서로 구조를 잡으면서 읽었습니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "저는 연구문제, 자료와 설계, 핵심 결과 순서로 구조를 잡으면서 읽었습니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "must_include_keywords": [
-        "인지노화",
-        "노동환경",
-        "worker control"
-      ],
+      "question": "뭐가 새로웠어?",
+      "answer_10s": "교육 이후의 성인기 노동환경을 코호트별 인지 차이 설명에 본격적으로 넣는다는 점이 새로웠습니다.",
+      "answer_30s": "저는 later-born cohort의 인지 우위를 설명할 때 보통 교육만 떠올렸는데, 이 논문은 work control과 work innovation 같은 성인기 일 경험도 같이 본다는 점이 새로웠습니다. 학교를 마친 뒤에도 사회구조가 인지에 계속 흔적을 남긴다는 식으로 읽혔습니다.",
+      "answer_60s": "특히 이 논문은 '좋은 직업'이라는 뭉뚱그린 말 대신 work control, work autonomy, work innovation으로 나눠 보는 게 좋았습니다. 그래서 무엇이 실제로 코호트 차이와 연결되고, 무엇은 연결되지 않는지 더 또렷하게 보입니다. autonomy는 중요하지만 코호트 차이가 없었다는 결과도 그래서 더 인상적이었습니다.",
+      "must_include_keywords": ["work control", "work innovation", "adulthood"],
       "evidence_from_reading": [
-        "제목: Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
-        "전개 축: 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계",
-        "핵심 용어: 코호트 차이, 인지노화, 노동환경, worker control"
+        "later-born cohort가 work control과 work innovation에서 더 높게 나타났다.",
+        "work autonomy는 중요하지만 cohort difference는 없었다."
       ],
-      "likely_followups": [
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐.",
-        "그게 왜 중요한데?"
-      ],
+      "likely_followups": ["왜 autonomy 얘기까지 같이 해?", "그게 그냥 교육의 다른 이름 아냐?"],
       "followup_answers": [
         {
-          "question": "그게 뭐야?",
-          "answer": "저는 연구문제, 자료와 설계, 핵심 결과 순서로 구조를 잡으면서 읽었습니다."
+          "question": "왜 autonomy 얘기까지 같이 해?",
+          "answer": "세 변수를 분리해야 later-born cohort의 차이가 어디서 나오고 어디서는 안 나오는지 보이기 때문입니다."
         },
         {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 연구문제, 자료와 설계에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다."
+          "question": "그게 그냥 교육의 다른 이름 아냐?",
+          "answer": "저자들이 education을 통제하고도 노동환경 효과가 남는지 따로 확인했다는 점이 중요합니다."
         }
       ],
-      "korean_context_link": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 코호트 차이이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
+      "korean_context_link": "한국에서도 세대마다 '시키는 일' 중심 직무와 '스스로 판단하는 일' 중심 직무 경험이 크게 달라졌다는 식으로 연결할 수 있습니다.",
+      "personal_connection_hint": "학생 입장에서는 알바, 인턴, 팀프로젝트 경험을 떠올리면 control과 autonomy 차이가 더 바로 와닿습니다.",
       "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
+        "새롭다는 말만 하고 뭐가 새로웠는지 안 밝히기",
+        "education과 work environment를 같은 변수처럼 말하기",
+        "세 노동환경 변수를 한 묶음으로 퉁치기"
       ]
     },
     {
-      "question": "뭐가 새로웠는데?",
-      "answer_10s": "학교 교육뿐 아니라 성인기의 일터가 인지 노화 격차와 연결된다는 시야 확장이 새롭다.",
-      "answer_30s": "학교 교육뿐 아니라 성인기의 일터가 인지 노화 격차와 연결된다는 시야 확장이 새롭다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "학교 교육뿐 아니라 성인기의 일터가 인지 노화 격차와 연결된다는 시야 확장이 새롭다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "must_include_keywords": [
-        "노동환경",
-        "worker control",
-        "innovation"
-      ],
+      "question": "어떤 결과가 제일 인상 깊었어?",
+      "answer_10s": "later-born cohort가 대부분의 인지영역에서는 더 높았는데 number ability는 오히려 낮았다는 점이 제일 인상 깊었습니다.",
+      "answer_30s": "저는 later-born cohort가 전반적으로 유리한데도 number ability에서는 더 낮았다는 결과가 제일 기억에 남았습니다. '후기 코호트가 무조건 다 낫다'가 아니라 어떤 능력은 예외가 있다는 걸 보여 주기 때문입니다.",
+      "answer_60s": "이 예외가 중요한 이유는 코호트 차이를 하나의 상승 곡선처럼 단순화하지 못하게 만들기 때문입니다. 저자들은 계산기 같은 기술 의존과 암기식 교육 비중 감소 같은 역사적 변화를 암시합니다. 그래서 later-born advantage를 말할 때도 능력별로 나눠 말해야 한다는 점을 이 결과가 잡아 줍니다.",
+      "must_include_keywords": ["number ability", "later-born cohort", "exception"],
       "evidence_from_reading": [
-        "제목: Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
-        "전개 축: 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계",
-        "핵심 용어: 코호트 차이, 인지노화, 노동환경, worker control"
+        "Results에서 later-born cohort는 number ability에서 더 낮은 level을 보였다.",
+        "Discussion에서 rote memorization과 calculator reliance를 언급한다."
       ],
-      "likely_followups": [
-        "뭐가 새로웠는데?",
-        "다시 말해봐.",
-        "그게 왜 중요한데?",
-        "연구에서는 뭐라고 하는데?"
-      ],
+      "likely_followups": ["왜 그게 중요해?", "그럼 나머지는 다 더 좋았다는 거야?"],
       "followup_answers": [
         {
-          "question": "그게 뭐야?",
-          "answer": "학교 교육뿐 아니라 성인기의 일터가 인지 노화 격차와 연결된다는 시야 확장이 새롭다."
+          "question": "왜 그게 중요해?",
+          "answer": "코호트 차이를 기계적으로 일반화하면 틀리고, 능력별 패턴을 따로 봐야 한다는 경고가 되기 때문입니다."
         },
         {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 연구문제, 자료와 설계에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다."
+          "question": "그럼 나머지는 다 더 좋았다는 거야?",
+          "answer": "level은 대부분 더 높았지만 decline 차이는 일부 영역에서만 나왔다는 점까지 같이 말해야 정확합니다."
         }
       ],
-      "korean_context_link": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 코호트 차이이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
+      "korean_context_link": "한국에서도 세대가 바뀌면서 암산보다 기기 의존이 커졌다는 이야기를 붙이면 왜 number ability가 예외일 수 있는지 설명하기 쉽습니다.",
+      "personal_connection_hint": "발표 때 '예외 하나가 논문을 덜 평면적으로 만들었다'고 말하면 실제로 읽은 티가 납니다.",
       "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
+        "later-born cohort가 다 더 좋았다고만 말하기",
+        "number ability 예외를 빼먹기",
+        "수준 차이와 감소율 차이를 한 문장에 섞어버리기"
       ]
     },
     {
-      "question": "코호트 차이이 뭐야?",
-      "answer_10s": "코호트 차이은(는) 이 읽기에서 핵심 축을 이루는 개념입니다.",
-      "answer_30s": "코호트 차이은(는) 이 읽기에서 핵심 축을 이루는 개념입니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "코호트 차이은(는) 이 읽기에서 핵심 축을 이루는 개념입니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "must_include_keywords": [
-        "worker control",
-        "innovation",
-        "work autonomy"
-      ],
+      "question": "work control, work autonomy, work innovation을 어떻게 구분했어?",
+      "answer_10s": "control은 외부 규칙에서 얼마나 벗어나 있느냐, autonomy는 내가 스스로 결정하느냐, innovation은 일이 얼마나 새롭고 변화가 많으냐로 읽었습니다.",
+      "answer_30s": "저는 세 변수를 비슷한 자율성 말로 보지 않고 역할을 나눠 읽었습니다. work control은 관리자의 압박에서 벗어난 정도, work autonomy는 내 판단 권한, work innovation은 일의 새로움과 변화성에 더 가깝습니다.",
+      "answer_60s": "이 구분이 중요한 이유는 결과가 세 변수에서 똑같이 나오지 않기 때문입니다. later-born cohort는 control과 innovation에서만 더 높았고 autonomy는 그렇지 않았습니다. 또 인지와의 관련도 완전히 같지 않아서, 세 변수를 묶어 버리면 논문의 재미가 사라집니다.",
+      "must_include_keywords": ["work control", "work autonomy", "work innovation"],
       "evidence_from_reading": [
-        "제목: Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
-        "전개 축: 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계",
-        "핵심 용어: 코호트 차이, 인지노화, 노동환경, worker control"
+        "Method에서 세 하위척도를 각각 따로 정의한다.",
+        "Results에서 cohort difference와 cognitive link가 세 변수별로 다르게 나온다."
       ],
-      "likely_followups": [
-        "다시 말해봐.",
-        "그게 왜 중요한데?",
-        "연구에서는 뭐라고 하는데?",
-        "한국에서는 어떻게 보이는데?"
-      ],
+      "likely_followups": ["왜 autonomy는 차이가 없는데 중요해?", "control이랑 autonomy를 왜 따로 봐?"],
       "followup_answers": [
         {
-          "question": "그게 뭐야?",
-          "answer": "코호트 차이은(는) 이 읽기에서 핵심 축을 이루는 개념입니다."
+          "question": "왜 autonomy는 차이가 없는데 중요해?",
+          "answer": "코호트 차이는 없어도 cognitive performance와는 관련이 있어서, 역사적 차이와 개인차 효과를 분리해서 볼 수 있기 때문입니다."
         },
         {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 연구문제, 자료와 설계에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다."
+          "question": "control이랑 autonomy를 왜 따로 봐?",
+          "answer": "둘 다 자율성처럼 들리지만 하나는 외부 통제의 약화, 다른 하나는 자기 결정 권한이라 논문도 분리해서 측정했습니다."
         }
       ],
-      "korean_context_link": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 코호트 차이이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
+      "korean_context_link": "한국 직장에서도 '간섭은 적지만 결정권은 없는 일'과 '결정권은 있지만 규정은 빡센 일'이 구분된다고 말하면 이해가 빠릅니다.",
+      "personal_connection_hint": "학생이 체감한 팀플이나 아르바이트 경험을 떠올리면 control과 autonomy를 구분하기 쉽습니다.",
       "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
+        "세 변수를 전부 자율성으로 뭉개기",
+        "control과 autonomy를 완전히 같은 뜻으로 말하기",
+        "innovation을 단순히 IT 직무라고 오해하기"
       ]
     },
     {
-      "question": "인지노화과(와) 노동환경를 어떻게 구분했어?",
-      "answer_10s": "둘은 비슷해 보여도 같은 층위의 말이 아니라 서로 다른 설명 축입니다.",
-      "answer_30s": "둘은 비슷해 보여도 같은 층위의 말이 아니라 서로 다른 설명 축입니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "둘은 비슷해 보여도 같은 층위의 말이 아니라 서로 다른 설명 축입니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "must_include_keywords": [
-        "코호트 차이",
-        "인지노화",
-        "노동환경"
-      ],
+      "question": "이 논문을 어떻게 읽었어?",
+      "answer_10s": "저는 연구질문, 매칭 설계, 능력별 결과, 한계 순서로 읽었습니다.",
+      "answer_30s": "이 논문은 결과만 외우면 금방 섞일 것 같아서, 먼저 연구질문을 잡고 그다음 why age와 retest를 맞췄는지 본 뒤에 능력별 결과를 읽었습니다. 마지막에는 인과를 왜 조심하는지 한계를 같이 봤습니다.",
+      "answer_60s": "특히 이 논문은 표와 결과값이 많아서 처음부터 세세한 수치를 따라가기보다 '무엇을 비교했는가, 무엇이 남았는가, 어디서 멈추는가' 순서로 읽는 게 좋았습니다. 그래서 저는 1) education을 넘어 work environment를 넣는 문제의식, 2) observation-level matching, 3) number ability 예외와 autonomy 무차이, 4) causation을 조심하는 limitation 이렇게 네 줄로 정리했습니다.",
+      "must_include_keywords": ["research question", "matching", "limitation"],
       "evidence_from_reading": [
-        "제목: Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
-        "전개 축: 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계",
-        "핵심 용어: 코호트 차이, 인지노화, 노동환경, worker control"
+        "The Present Study와 Data Preparation이 구조 이해의 핵심이다.",
+        "Discussion에서 limitation과 causal caution을 분명히 적는다."
       ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
+      "likely_followups": ["왜 그렇게 읽었어?", "결과부터 보면 안 돼?"],
       "followup_answers": [
         {
-          "question": "그게 뭐야?",
-          "answer": "둘은 비슷해 보여도 같은 층위의 말이 아니라 서로 다른 설명 축입니다."
+          "question": "왜 그렇게 읽었어?",
+          "answer": "표가 많은 논문이라 결과만 보면 포인트가 흩어져서, 비교 틀을 먼저 잡아야 덜 헷갈리기 때문입니다."
         },
         {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 연구문제, 자료와 설계에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다."
+          "question": "결과부터 보면 안 돼?",
+          "answer": "볼 수는 있지만 매칭 설계를 모르고 보면 cohort difference를 age difference처럼 읽기 쉬워집니다."
         }
       ],
-      "korean_context_link": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 코호트 차이이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
+      "korean_context_link": "수업에서 질문받을 때도 '저는 질문-설계-결과-한계 순으로 읽었습니다'라고 말하면 읽는 방식 자체가 보여서 좋습니다.",
+      "personal_connection_hint": "이 카드는 실제 발표 시작 멘트로 바로 써도 자연스럽습니다.",
       "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
+        "그냥 결과만 읽었다고 말하기",
+        "어디가 어려웠는지 없이 막연히 복잡했다고 말하기",
+        "한계를 아예 안 본 것처럼 말하기"
       ]
     },
     {
-      "question": "근거는 뭐였어?",
-      "answer_10s": "이 읽기의 구조는 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계처럼 제목과 전개 축이 비교적 분명합니다.",
-      "answer_30s": "이 읽기의 구조는 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계처럼 제목과 전개 축이 비교적 분명합니다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "이 읽기의 구조는 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계처럼 제목과 전개 축이 비교적 분명합니다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "must_include_keywords": [
-        "인지노화",
-        "노동환경",
-        "worker control"
-      ],
+      "question": "왜 age와 retest matching이 중요해?",
+      "answer_10s": "초기 코호트가 더 오래 연구에 있었기 때문에 그냥 비교하면 age와 retest가 섞여 버려서 중요합니다.",
+      "answer_30s": "이 연구는 earlier-born cohort가 더 이른 파동부터 들어와 관측치가 많기 때문에, 그냥 비교하면 코호트 차이인지 age와 test familiarity 차이인지 섞일 수 있습니다. 그래서 observation-by-observation matching이 논리적으로 중요합니다.",
+      "answer_60s": "저는 이 부분이 method에서 가장 중요하다고 봤습니다. later-born observation 하나마다 age와 retest가 비슷한 earlier-born observation을 붙여 주어야 cohort difference를 더 깨끗하게 읽을 수 있기 때문입니다. 물론 이것만으로 인과가 생기는 건 아니지만, 최소한 비교 프레임을 덜 지저분하게 만드는 장치입니다.",
+      "must_include_keywords": ["age", "retest", "matching"],
       "evidence_from_reading": [
-        "제목: Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
-        "전개 축: 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계",
-        "핵심 용어: 코호트 차이, 인지노화, 노동환경, worker control"
+        "Data Preparation에서 1:1 matching과 caliper 0.06 SD를 설명한다.",
+        "later-born 2,942 observations, earlier-born 4,714 observations이 출발점이었다."
       ],
-      "likely_followups": [
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐.",
-        "그게 왜 중요한데?"
-      ],
+      "likely_followups": ["matching했으니까 이제 실험처럼 봐도 돼?", "retest를 왜 그렇게 신경 써?"],
       "followup_answers": [
         {
-          "question": "그게 뭐야?",
-          "answer": "이 읽기의 구조는 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계처럼 제목과 전개 축이 비교적 분명합니다."
+          "question": "matching했으니까 이제 실험처럼 봐도 돼?",
+          "answer": "아니요. 비교는 깔끔해졌지만 여전히 관찰연구라 selection과 미측정 변수 문제는 남습니다."
         },
         {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 연구문제, 자료와 설계에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다."
+          "question": "retest를 왜 그렇게 신경 써?",
+          "answer": "같은 검사를 여러 번 보면 익숙해져서 점수가 오를 수 있기 때문에 age effect와 분리해야 합니다."
         }
       ],
-      "korean_context_link": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 코호트 차이이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
+      "korean_context_link": "수업에서는 '비슷한 나이끼리만 본다'보다 '검사 익숙함까지 맞췄다'고 말해야 methodological point가 살아납니다.",
+      "personal_connection_hint": "방법론 질문이 나오면 수치 하나만 덧붙여도 읽은 티가 난다. 예를 들어 caliper 0.06 SD.",
       "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
+        "matching을 무작위배정처럼 말하기",
+        "age만 맞췄다고 말하고 retest를 빼먹기",
+        "왜 필요한지 설명 없이 기법 이름만 말하기"
       ]
     },
     {
-      "question": "한국에서는 어떻게 보이는데?",
-      "answer_10s": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "answer_30s": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "must_include_keywords": [
-        "노동환경",
-        "worker control",
-        "innovation"
-      ],
+      "question": "이 논문은 education을 어떻게 다뤘어?",
+      "answer_10s": "education을 빼는 게 아니라 같이 넣고도 노동환경 효과가 남는지를 봤습니다.",
+      "answer_30s": "이 논문은 education을 경쟁 설명으로 놓고 work environment와 동시에 본다는 점이 좋았습니다. 그래서 '노동환경 효과가 사실 교육이 높은 사람들의 효과 아니냐'는 의문에 직접 답하려고 합니다.",
+      "answer_60s": "제가 중요하게 본 건 저자들이 education을 대충 통제변수로만 넣은 게 아니라, 노동환경이 education과 independent하다고 주장할 근거로 쓴다는 점입니다. 실제 결과에서도 work control과 autonomy의 효과가 education을 넣고도 남습니다. 그래서 이 논문은 education을 부정하는 게 아니라, 설명을 성인기까지 넓히는 논문으로 읽어야 합니다.",
+      "must_include_keywords": ["education", "independent", "work environment"],
       "evidence_from_reading": [
-        "제목: Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
-        "전개 축: 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계",
-        "핵심 용어: 코호트 차이, 인지노화, 노동환경, worker control"
+        "Abstract에서 work environment effects were independent of education이라고 직접 말한다.",
+        "Results에서 education을 넣은 모형에서도 work variables가 남는다."
       ],
-      "likely_followups": [
-        "뭐가 새로웠는데?",
-        "다시 말해봐.",
-        "그게 왜 중요한데?",
-        "연구에서는 뭐라고 하는데?"
-      ],
+      "likely_followups": ["그럼 education은 안 중요하다는 거야?", "왜 그게 인상 깊었어?"],
       "followup_answers": [
         {
-          "question": "그게 뭐야?",
-          "answer": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다."
+          "question": "그럼 education은 안 중요하다는 거야?",
+          "answer": "아니요. education도 중요하지만, 그걸 넣고도 성인기 노동환경이 따로 남는지가 이 논문의 포인트입니다."
         },
         {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 연구문제, 자료와 설계에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다."
+          "question": "왜 그게 인상 깊었어?",
+          "answer": "교육 효과로 다 설명해 버리는 익숙한 해석을 한 단계 넘어서기 때문입니다."
         }
       ],
-      "korean_context_link": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 코호트 차이이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
+      "korean_context_link": "한국에서도 학력 얘기만으로 세대 차이를 설명하는 경향이 강해서, 노동경험 변수까지 본다는 점이 특히 흥미롭다고 연결할 수 있습니다.",
+      "personal_connection_hint": "이 카드는 '교육을 부정한 게 아니라 설명을 넓혔다'는 문장을 꼭 넣으면 훨씬 안정적입니다.",
       "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
+        "교육은 별로 안 중요하다고 과장하기",
+        "통제했다는 말만 하고 왜 통제했는지 설명 안 하기",
+        "education과 work environment를 대체관계로만 말하기"
       ]
     },
     {
-      "question": "이 설명의 한계는 뭐야?",
-      "answer_10s": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다.",
-      "answer_30s": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다. 그래서 저는 이 읽기를 개념 하나가 아니라 구조와 맥락으로 같이 봐야 한다고 정리했습니다.",
-      "answer_60s": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다. 구술에서는 정의만 말하지 않고, 왜 중요한지와 어떤 한계가 있는지까지 붙이는 편이 더 설득력 있습니다. 한국 맥락에서는 한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "must_include_keywords": [
-        "worker control",
-        "innovation",
-        "work autonomy"
-      ],
+      "question": "왜 이 논문을 인과라고 못 말해?",
+      "answer_10s": "관찰연구라서 좋은 노동환경이 인지를 높였는지, 인지가 높은 사람이 그런 일을 택했는지 분리하지 못하기 때문입니다.",
+      "answer_30s": "저자들도 이 점을 분명히 적습니다. work environment와 cognition이 같이 움직인다는 건 보이지만, causal direction은 열어 둬야 한다는 겁니다. self-selection 가능성이 남습니다.",
+      "answer_60s": "저는 이 한계 인정이 오히려 좋았습니다. 노동환경이 cognitively enriching할 수 있다는 해석은 가능하지만, 원래 인지가 높은 사람이 더 많은 control과 autonomy가 있는 일을 선택했을 수도 있습니다. 게다가 노동환경 자체도 subjective report이기 때문에, 이 논문은 인과 선언보다 설득력 있는 관련성 제시에 더 가깝습니다.",
+      "must_include_keywords": ["association", "causation", "selection effect"],
       "evidence_from_reading": [
-        "제목: Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
-        "전개 축: 연구문제, 자료와 설계, 핵심 결과, 교육 밖 효과, 해석의 한계",
-        "핵심 용어: 코호트 차이, 인지노화, 노동환경, worker control"
+        "Discussion에서 causal direction is not clear라고 직접 적는다.",
+        "Perceived work environment가 subjective measure라는 limitation을 함께 제시한다."
       ],
-      "likely_followups": [
-        "다시 말해봐.",
-        "그게 왜 중요한데?",
-        "연구에서는 뭐라고 하는데?",
-        "한국에서는 어떻게 보이는데?"
-      ],
+      "likely_followups": ["그래도 왜 의미가 있어?", "그럼 믿을 수 없는 결과야?"],
       "followup_answers": [
         {
-          "question": "그게 뭐야?",
-          "answer": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다."
+          "question": "그래도 왜 의미가 있어?",
+          "answer": "인과를 확정하지 못해도 코호트 차이를 설명하는 사회적 환경 후보를 구체적으로 좁혀 준다는 의미가 있습니다."
         },
         {
-          "question": "왜 그렇게 보는데?",
-          "answer": "이 읽기는 연구문제, 자료와 설계에서 근거를 정리하게 만든다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "관찰자료와 자기보고 노동환경 변수라서 인과를 단정하기는 어렵다."
+          "question": "그럼 믿을 수 없는 결과야?",
+          "answer": "아니요. 해석 범위를 과장하지 말아야 한다는 뜻이지, 관련성 자체가 무의미하다는 뜻은 아닙니다."
         }
       ],
-      "korean_context_link": "한국에서도 세대별 직무 자율성과 산업구조 차이가 인지 노화 격차와 연결될 수 있다는 식으로 읽어 볼 수 있다.",
-      "personal_connection_hint": "내 경험이나 주변 사례와 연결할 때는 코호트 차이이(가) 실제 생활에서 어떻게 드러나는지 한 장면을 떠올리면 된다.",
+      "korean_context_link": "수업에서는 '좋은 직장이 머리를 좋게 만든다'가 아니라 '그런 관련이 보이지만 선택효과도 열려 있다'고 말하는 쪽이 훨씬 안전합니다.",
+      "personal_connection_hint": "한계를 먼저 인정하고 다시 논문의 의미로 돌아오면 교수님 질문에 더 안정적으로 버틸 수 있습니다.",
       "avoid_bad_answers": [
-        "정의 없이 중요하다고만 말하지 않기",
-        "근거 없이 느낌만 말하지 않기",
-        "한계를 전혀 언급하지 않기"
+        "이 논문이 인과를 증명했다고 말하기",
+        "한계 때문에 아무 의미 없다고 극단적으로 말하기",
+        "selection effect를 아예 언급하지 않기"
+      ]
+    },
+    {
+      "question": "이 논문 한계 중 뭐가 제일 크다고 봤어?",
+      "answer_10s": "저는 노동환경을 subjective하고 partly retrospective한 time-invariant 변수처럼 다룬 점이 가장 큰 한계라고 봤습니다.",
+      "answer_30s": "인지는 긴 시간에 걸쳐 자세히 보는데 노동환경은 네 파동에서만 측정했고, 일부는 은퇴 후 회고 보고입니다. 그래서 실제로 일 경험이 시간에 따라 어떻게 바뀌는지는 이 논문에서 충분히 못 봤다고 생각합니다.",
+      "answer_60s": "저는 이 한계가 결과를 부정한다기보다 해석 범위를 줄인다고 봅니다. 만약 노동환경이 더 자주 측정됐고 within-person change까지 볼 수 있었다면, 어떤 종류의 일 경험이 언제 인지와 연결되는지 더 세밀하게 말할 수 있었을 겁니다. 지금 논문은 그보다 한 단계 앞에서, 역사적 차이와 개인차의 연결을 보여 주는 수준에 머뭅니다.",
+      "must_include_keywords": ["subjective measure", "retrospective", "time-invariant"],
+      "evidence_from_reading": [
+        "Discussion - Limitations and Outlook에서 work environment가 less frequently assessed되었다고 적는다.",
+        "retired participants의 retrospective report 가능성을 직접 언급한다."
+      ],
+      "likely_followups": ["그래도 이 변수를 쓴 이유는 뭐야?", "객관적 직업코드가 더 낫지 않아?"],
+      "followup_answers": [
+        {
+          "question": "그래도 이 변수를 쓴 이유는 뭐야?",
+          "answer": "같은 직업명이라도 시대에 따라 실제 요구가 달라질 수 있어서, 당사자 인식이 가진 정보도 중요하다고 본 겁니다."
+        },
+        {
+          "question": "객관적 직업코드가 더 낫지 않아?",
+          "answer": "객관성은 높일 수 있지만, 이 논문은 역사적 시기마다 같은 직무명도 체감 조건이 달라진다는 점을 같이 보려 합니다."
+        }
+      ],
+      "korean_context_link": "한국에서도 직업명은 같아도 세대마다 실제 업무 압박과 자율성이 다를 수 있다는 말로 연결하면 설득력이 있습니다.",
+      "personal_connection_hint": "한계를 말할 때도 '그래서 가치가 없다'가 아니라 '그래서 여기까지만 말할 수 있다'고 정리하면 훨씬 좋습니다.",
+      "avoid_bad_answers": [
+        "한계를 말하다가 논문 전체를 무너뜨리기",
+        "주관적 측정이라는 말만 하고 왜 문제인지 안 풀기",
+        "time-invariant 처리의 의미를 빼먹기"
+      ]
+    },
+    {
+      "question": "뭐가 사회적으로 중요하다고 느꼈어?",
+      "answer_10s": "노년기 인지를 노년기 개인관리 문제가 아니라, 성인기 노동구조가 남긴 결과로도 보게 만든 점이 사회적으로 중요했습니다.",
+      "answer_30s": "이 논문은 인지노화를 개인 습관이나 교육 수준만의 문제로 두지 않고, 평생 어떤 일을 하며 어떤 통제와 새로움을 경험했는지까지 연결합니다. 그래서 노화를 사회구조와 연결해 보게 만든다는 점이 중요했습니다.",
+      "answer_60s": "특히 later-born cohort가 더 높은 work control과 innovation을 경험했다는 결과는, 세대별 노동구조 차이가 단지 임금이나 고용안정만의 문제가 아니라 인지 노화와도 연결될 수 있음을 시사합니다. 물론 이 논문 하나로 정책 결론을 바로 내릴 수는 없지만, 적어도 '어떤 일터를 만드는가'가 노년기 삶의 질과 무관하지 않다는 생각을 하게 만듭니다.",
+      "must_include_keywords": ["social structure", "work environment", "cognitive aging"],
+      "evidence_from_reading": [
+        "Discussion에서 history-graded changes in work가 cognition과 연결된다고 정리한다.",
+        "later-born cohort가 work control과 innovation에서 더 높은 점수를 보였다."
+      ],
+      "likely_followups": ["그걸 너무 크게 읽는 거 아니야?", "한국에서는 어떻게 붙일 건데?"],
+      "followup_answers": [
+        {
+          "question": "그걸 너무 크게 읽는 거 아니야?",
+          "answer": "정책 결론까지 바로 가자는 건 아니고, 적어도 노화를 사회구조와 연결해 볼 근거를 준다는 수준으로 말하는 게 안전합니다."
+        },
+        {
+          "question": "한국에서는 어떻게 붙일 건데?",
+          "answer": "세대별 직무 통제감과 기술 변화 경험이 다르다는 점을 떠올리면 노동구조와 인지노화 연결이 충분히 토론거리가 됩니다."
+        }
+      ],
+      "korean_context_link": "정규직-비정규직, 플랫폼노동, 기술 전환 같은 한국 노동환경 차이를 붙이면 이 논문의 사회적 함의를 더 구체적으로 말할 수 있습니다.",
+      "personal_connection_hint": "이 카드는 '노화를 개인 책임으로만 보지 않게 했다'는 한 문장을 넣으면 힘이 생깁니다.",
+      "avoid_bad_answers": [
+        "사회적으로 중요하다고만 하고 왜인지 안 말하기",
+        "논문 하나로 정책 결론을 단정하기",
+        "개인 습관 얘기로만 다시 좁혀 버리기"
       ]
     }
   ]

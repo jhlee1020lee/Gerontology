@@ -1,96 +1,96 @@
 {
-  "title": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment OX 퀴즈",
-  "instructions": "문장을 맞으면 O, 틀리면 X로 판단한 뒤 설명을 확인한다.",
+  "title": "Hülür et al., 2019 OX 퀴즈",
+  "instructions": "문장을 읽고 맞으면 O, 틀리면 X를 고르세요. 설명까지 같이 확인해야 헷갈리는 포인트를 잡을 수 있습니다.",
   "items": [
     {
-      "prompt": "연구문제은(는) 이 읽기에서 코호트 차이와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "answer": "O",
-      "explanation": "연구문제은(는) 이 읽기에서 코호트 차이와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "읽을 때는 코호트 차이와 인지노화가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "answer": "O",
-      "explanation": "읽을 때는 코호트 차이와 인지노화가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "발표에서는 연구문제을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "answer": "O",
-      "explanation": "발표에서는 연구문제을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "자료와 설계은(는) 이 읽기에서 인지노화와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "answer": "O",
-      "explanation": "자료와 설계은(는) 이 읽기에서 인지노화와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "읽을 때는 인지노화와 노동환경가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "answer": "O",
-      "explanation": "읽을 때는 인지노화와 노동환경가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "발표에서는 자료와 설계을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "answer": "O",
-      "explanation": "발표에서는 자료와 설계을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "핵심 결과은(는) 이 읽기에서 노동환경와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "answer": "O",
-      "explanation": "핵심 결과은(는) 이 읽기에서 노동환경와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "읽을 때는 노동환경와 worker control가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "answer": "O",
-      "explanation": "읽을 때는 노동환경와 worker control가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "발표에서는 핵심 결과을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "answer": "O",
-      "explanation": "발표에서는 핵심 결과을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "교육 밖 효과은(는) 이 읽기에서 worker control와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "answer": "O",
-      "explanation": "교육 밖 효과은(는) 이 읽기에서 worker control와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment은(는) 코호트 차이 하나로만 설명된다.",
+      "prompt": "후기 코호트는 다섯 가지 인지과제 전부에서 초기 코호트보다 더 높은 수행을 보였다.",
       "answer": "X",
-      "explanation": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment은(는) 코호트 차이, 인지노화, 노동환경처럼 여러 축을 함께 보라고 요구한다.",
-      "source": "헷갈리는 포인트"
+      "explanation": "대부분의 과제에서는 후기 코호트가 더 높았지만, number ability에서는 오히려 더 낮았다. 이 예외를 같이 기억해야 한다.",
+      "source": "Results - Cohort Differences in Cognitive Functioning"
     },
     {
-      "prompt": "이 읽기의 논점은 한국 맥락과 연결할 필요가 없다.",
-      "answer": "X",
-      "explanation": "이 읽기는 한국 제도, 노동, 돌봄, 건강, 세대 경험과 연결해 다시 말할수록 수업 답변이 강해진다.",
-      "source": "헷갈리는 포인트"
+      "prompt": "이 논문은 코호트를 사람 단위가 아니라 관측치 단위로 age와 retest에 맞춰 매칭했다.",
+      "answer": "O",
+      "explanation": "저자들은 later-born observation 하나마다 age와 retest가 같거나 비슷한 earlier-born observation을 붙이는 방식으로 비교 가능성을 높였다.",
+      "source": "Method - Data Preparation"
     },
     {
-      "prompt": "핵심 개념 이름만 말하면 충분하다.",
+      "prompt": "지각된 노동환경은 1956년부터 2012년까지 모든 인지 파동에서 동일하게 측정되었다.",
       "answer": "X",
-      "explanation": "개념을 말할 때는 정의와 근거, 왜 중요한지까지 붙여야 한다.",
-      "source": "헷갈리는 포인트"
+      "explanation": "노동환경은 1991, 1998, 2005, 2012의 네 파동에서만 측정되었다. 그래서 분석에서는 사실상 time-invariant predictor처럼 다뤄진다.",
+      "source": "Method - Perceived Work Environment"
     },
     {
-      "prompt": "이 읽기는 한계보다 결론만 외우면 된다.",
-      "answer": "X",
-      "explanation": "한계를 한 문장으로 인정한 뒤 핵심 함의를 다시 붙이는 방식이 더 설득력 있다.",
-      "source": "헷갈리는 포인트"
+      "prompt": "후기 코호트는 work control과 work innovation에서는 더 높았지만 work autonomy에서는 차이가 없었다.",
+      "answer": "O",
+      "explanation": "이게 이 논문의 중요한 디테일이다. 세 노동환경 변수를 한 덩어리로 보면 안 되고, autonomy는 코호트 차이가 없었다.",
+      "source": "Method - Data Preparation"
     },
     {
-      "prompt": "영문 읽기는 번역만 보면 원문 구조를 볼 필요가 없다.",
+      "prompt": "work control이 높을수록 다섯 가지 인지검사 모두에서 55세 시점 수행이 더 높게 나타났다.",
+      "answer": "O",
+      "explanation": "work control은 가장 넓게 연결된 변수였다. 모든 인지과제의 level과 양의 관련을 보였다.",
+      "source": "Results - The Role of Perceived Work Environment"
+    },
+    {
+      "prompt": "work autonomy는 어떤 인지지표와도 유의한 관련이 없었다.",
       "answer": "X",
-      "explanation": "영문 읽기는 원문 제목과 핵심 용어, 구조를 함께 봐야 수업 질문에 대응할 수 있다.",
-      "source": "헷갈리는 포인트"
+      "explanation": "오히려 work autonomy는 spatial orientation을 제외한 대부분의 level과 관련됐고, spatial orientation과 inductive reasoning의 decline도 완화했다.",
+      "source": "Results - The Role of Perceived Work Environment"
+    },
+    {
+      "prompt": "work innovation은 spatial orientation과 verbal meaning의 더 높은 수행과 연결되었다.",
+      "answer": "O",
+      "explanation": "innovation은 모든 능력에 다 연결된 것이 아니라 선택적으로 spatial orientation과 verbal meaning에만 유의하게 연결됐다.",
+      "source": "Results - The Role of Perceived Work Environment"
+    },
+    {
+      "prompt": "education을 통제하고 나면 코호트 차이는 모든 인지과제에서 완전히 사라졌다.",
+      "answer": "X",
+      "explanation": "work environment와 공변량을 넣은 뒤에도 spatial orientation, inductive reasoning, number ability에서는 코호트 차이가 남았다.",
+      "source": "Results - The Role of Perceived Work Environment"
+    },
+    {
+      "prompt": "55세 시점에서 후기 코호트가 낮았던 유일한 인지 영역은 number ability였다.",
+      "answer": "O",
+      "explanation": "이 예외 때문에 later-born cohort를 단순히 '다 더 좋았다'고 말하면 틀린다.",
+      "source": "Results - Cohort Differences in Cognitive Functioning"
+    },
+    {
+      "prompt": "이 연구는 더 좋은 노동환경이 더 좋은 인지를 만든다는 인과를 확정적으로 증명했다.",
+      "answer": "X",
+      "explanation": "저자들 스스로 관찰연구이기 때문에 인과 방향은 불분명하다고 적는다. self-selection 가능성도 남겨 둔다.",
+      "source": "Discussion - The Role of History-Graded Differences in Perceived Work Environment"
+    },
+    {
+      "prompt": "전업주부 응답자를 제외하면 노동환경과 인지의 관련 패턴이 크게 무너졌다.",
+      "answer": "X",
+      "explanation": "후속 분석에서 homemaker-only 응답자를 빼도 결과 패턴은 유지됐다. 그래서 여성의 노동시장 참여 증가만으로 설명되지는 않는다고 본다.",
+      "source": "Results - Follow-up Analyses"
+    },
+    {
+      "prompt": "household income을 추가하면 perceived work environment의 효과는 사라졌다.",
+      "answer": "X",
+      "explanation": "가구소득은 일부 인지지표와 관련됐지만, 노동환경 변수의 효과를 없애지는 못했다.",
+      "source": "Results - Follow-up Analyses"
+    },
+    {
+      "prompt": "후기 코호트는 inductive reasoning, word fluency, verbal meaning에서 더 완만한 감소를 보였다.",
+      "answer": "O",
+      "explanation": "rate of decline 차이는 모든 능력에서 나온 것이 아니라 이 세 영역에서만 뚜렷했다.",
+      "source": "Results - Cohort Differences in Cognitive Functioning"
+    },
+    {
+      "prompt": "이 논문은 노동환경을 직업 데이터베이스에서 뽑은 객관적 직무코드로만 측정했다.",
+      "answer": "X",
+      "explanation": "저자들은 Work Environment Scale에 기반한 subjective report를 사용했다. 이 점이 강점이면서 동시에 한계다.",
+      "source": "Method - Perceived Work Environment"
+    },
+    {
+      "prompt": "성장모형에서 age는 55세를 기준으로 중심화되었다.",
+      "answer": "O",
+      "explanation": "그래서 intercept는 55세 시점의 평균 수준을 뜻한다. 시험에서 자주 묻기 좋은 디테일이다.",
+      "source": "Method - Data Preparation"
     }
   ]
 }

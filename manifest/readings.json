@@ -27,10 +27,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": "2026-03-03",
+      "class_date": "2026-03-05",
       "reading_date": null,
-      "sort_date": "2026-03-03",
-      "display_date_label": "3/03"
+      "sort_date": "2026-03-05",
+      "display_date_label": "3/05"
     },
     {
       "slug": "ch02-gerontology",
@@ -108,10 +108,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": "2026-03-24",
+      "class_date": "2026-03-19",
       "reading_date": null,
-      "sort_date": "2026-03-24",
-      "display_date_label": "3/24"
+      "sort_date": "2026-03-19",
+      "display_date_label": "3/19"
     },
     {
       "slug": "ch05-gerontology",
@@ -135,10 +135,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": "2026-03-31",
+      "class_date": "2026-03-26",
       "reading_date": null,
-      "sort_date": "2026-03-31",
-      "display_date_label": "3/31"
+      "sort_date": "2026-03-26",
+      "display_date_label": "3/26"
     },
     {
       "slug": "ch06-gerontology",
@@ -162,10 +162,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": "2026-04-07",
+      "class_date": "2026-04-02",
       "reading_date": null,
-      "sort_date": "2026-04-07",
-      "display_date_label": "4/07"
+      "sort_date": "2026-04-02",
+      "display_date_label": "4/02"
     },
     {
       "slug": "ch07-gerontology",
@@ -189,10 +189,10 @@
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
       "type": "chapter",
-      "class_date": "2026-04-14",
+      "class_date": "2026-04-09",
       "reading_date": null,
-      "sort_date": "2026-04-14",
-      "display_date_label": "4/14"
+      "sort_date": "2026-04-09",
+      "display_date_label": "4/09"
     },
     {
       "slug": "ch08-gerontology",
@@ -217,10 +217,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": "2026-04-28",
+      "class_date": "2026-04-21",
       "reading_date": null,
-      "sort_date": "2026-04-28",
-      "display_date_label": "4/28"
+      "sort_date": "2026-04-21",
+      "display_date_label": "4/21"
     },
     {
       "slug": "ch09-gerontology",
@@ -245,10 +245,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": "2026-05-12",
+      "class_date": "2026-04-28",
       "reading_date": null,
-      "sort_date": "2026-05-12",
-      "display_date_label": "5/12"
+      "sort_date": "2026-04-28",
+      "display_date_label": "4/28"
     },
     {
       "slug": "ch10-gerontology",
@@ -273,10 +273,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": "2026-05-12",
+      "class_date": "2026-04-30",
       "reading_date": null,
-      "sort_date": "2026-05-12",
-      "display_date_label": "5/12"
+      "sort_date": "2026-04-30",
+      "display_date_label": "4/30"
     },
     {
       "slug": "ch11-gerontology",
@@ -301,10 +301,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": "2026-05-19",
+      "class_date": "2026-05-12",
       "reading_date": null,
-      "sort_date": "2026-05-19",
-      "display_date_label": "5/19"
+      "sort_date": "2026-05-12",
+      "display_date_label": "5/12"
     },
     {
       "slug": "ch12-gerontology",
@@ -329,10 +329,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": "2026-05-26",
+      "class_date": "2026-05-19",
       "reading_date": null,
-      "sort_date": "2026-05-26",
-      "display_date_label": "5/26"
+      "sort_date": "2026-05-19",
+      "display_date_label": "5/19"
     },
     {
       "slug": "ch13-gerontology",
@@ -357,10 +357,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": "2026-06-02",
+      "class_date": "2026-05-26",
       "reading_date": null,
-      "sort_date": "2026-06-02",
-      "display_date_label": "6/02"
+      "sort_date": "2026-05-26",
+      "display_date_label": "5/26"
     },
     {
       "slug": "ch14-gerontology",
@@ -385,10 +385,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": "2026-06-09",
+      "class_date": "2026-06-02",
       "reading_date": null,
-      "sort_date": "2026-06-09",
-      "display_date_label": "6/09"
+      "sort_date": "2026-06-02",
+      "display_date_label": "6/02"
     },
     {
       "slug": "ch15-gerontology",
@@ -413,10 +413,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
-      "class_date": "2026-06-16",
+      "class_date": "2026-06-09",
       "reading_date": null,
-      "sort_date": "2026-06-16",
-      "display_date_label": "6/16"
+      "sort_date": "2026-06-09",
+      "display_date_label": "6/09"
     },
     {
       "slug": "beck-2016",
@@ -442,10 +442,10 @@
         "기존 완료 콘텐츠를 유지하고 메타데이터만 정리했다."
       ],
       "type": "article",
-      "class_date": "2026-03-10",
+      "class_date": "2026-03-12",
       "reading_date": null,
-      "sort_date": "2026-03-10",
-      "display_date_label": "3/10"
+      "sort_date": "2026-03-12",
+      "display_date_label": "3/12"
     },
     {
       "slug": "blieszner-2014",
@@ -472,10 +472,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": "2026-05-12",
+      "class_date": "2026-05-07",
       "reading_date": null,
-      "sort_date": "2026-05-12",
-      "display_date_label": "5/12"
+      "sort_date": "2026-05-07",
+      "display_date_label": "5/07"
     },
     {
       "slug": "calvo-et-al-2018",
@@ -504,10 +504,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": "2026-05-19",
+      "class_date": "2026-05-14",
       "reading_date": null,
-      "sort_date": "2026-05-19",
-      "display_date_label": "5/19"
+      "sort_date": "2026-05-14",
+      "display_date_label": "5/14"
     },
     {
       "slug": "carr-fang-2021",
@@ -535,10 +535,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": "2026-06-16",
+      "class_date": "2026-06-09",
       "reading_date": null,
-      "sort_date": "2026-06-16",
-      "display_date_label": "6/16"
+      "sort_date": "2026-06-09",
+      "display_date_label": "6/09"
     },
     {
       "slug": "hulur-et-al-2019",
@@ -553,9 +553,10 @@
       ],
       "year": 2019,
       "language": "en",
-      "kind": "article pdf",
+      "kind": "paper pdf",
       "source_filename": "Hülür et al., 2019.pdf",
       "source_pdf": "source_pdfs/Hülür et al., 2019.pdf",
+      "public_pdf": "pdfs/hulur-et-al-2019.pdf",
       "content_dir": "content/readings/hulur-et-al-2019",
       "tags": [
         "인지노화",
@@ -563,11 +564,19 @@
         "노동환경"
       ],
       "description": "교육만이 아니라 성인기 노동환경이 코호트별 인지노화 차이에 어떻게 연결되는지 다루는 논문.",
+      "overview_hook": "이 논문은 교육 수준만으로 설명해 온 코호트별 인지 차이가 실제로는 성인기 노동환경의 변화와도 연결되는지 묻는다.",
+      "classroom_points": [
+        "후기 코호트가 더 높은 인지 수행을 보였다고 해서 모든 능력에서 더 나았던 것은 아니며, number ability는 오히려 낮았다.",
+        "저자들은 교육 효과를 통제한 뒤에도 work control과 work innovation이 인지 수행과 연결된다고 본다.",
+        "코호트 비교는 출생연도 자체보다 age와 retest를 맞춘 관측치 단위 매칭으로 설계되었다.",
+        "노동환경 변수는 직업 복잡도 일반척도가 아니라 work control, work autonomy, work innovation으로 나누어 다뤄진다.",
+        "이 연구는 관찰연구이기 때문에 더 좋은 노동환경이 인지를 높였는지, 원래 인지가 높은 사람이 그런 일을 택했는지는 분리하지 못한다."
+      ],
       "metadata_status": "complete",
       "metadata_notes": [
         "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
       ],
-      "type": "article",
+      "type": "paper",
       "class_date": "2026-03-24",
       "reading_date": null,
       "sort_date": "2026-03-24",
@@ -630,10 +639,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": "2026-06-02",
+      "class_date": "2026-05-28",
       "reading_date": null,
-      "sort_date": "2026-06-02",
-      "display_date_label": "6/02"
+      "sort_date": "2026-05-28",
+      "display_date_label": "5/28"
     },
     {
       "slug": "leggett-et-al-2020",
@@ -662,10 +671,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": "2026-05-26",
+      "class_date": "2026-05-21",
       "reading_date": null,
-      "sort_date": "2026-05-26",
-      "display_date_label": "5/26"
+      "sort_date": "2026-05-21",
+      "display_date_label": "5/21"
     },
     {
       "slug": "olshansky-carnes-2019",
@@ -755,10 +764,10 @@
         "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
-      "class_date": "2026-04-28",
+      "class_date": "2026-04-23",
       "reading_date": null,
-      "sort_date": "2026-04-28",
-      "display_date_label": "4/28"
+      "sort_date": "2026-04-23",
+      "display_date_label": "4/23"
     },
     {
       "slug": "wagner-et-al-2016",

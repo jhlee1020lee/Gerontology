@@ -1,33 +1,73 @@
-# 핵심 개념 / 용어
+# 핵심 개념
 
 ## 1. 코호트 차이
 
-코호트 차이은(는) Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- 한국어 개념명: 코호트 차이
+- Original English term: cohort difference
+- 정확한 한 줄 정의: 같은 연령대에서 태어난 역사적 집단이 다를 때 나타나는 평균적 차이이다.
+- 학생 말투로 풀어쓴 설명: 쉽게 말하면 "나이가 같아도 어느 시대에 태어났느냐에 따라 평균적으로 다를 수 있다"는 뜻이다.
+- 왜 이 논문에서 중요한지: 이 논문은 후기 코호트가 초기 코호트보다 왜 더 높은 인지수행을 보이는지를 설명하려고 시작한다.
+- 자주 헷갈리는 포인트: 코호트 차이는 곧바로 age difference가 아니다. 이 논문은 age를 맞춰 놓고 코호트를 비교한다.
 
 ## 2. 인지노화
 
-인지노화은(는) Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- 한국어 개념명: 인지노화
+- Original English term: cognitive aging
+- 정확한 한 줄 정의: 성인기 이후 연령 증가에 따라 인지기능 수준과 변화율이 달라지는 과정이다.
+- 학생 말투로 풀어쓴 설명: 그냥 "나이 들면 머리가 나빠진다"가 아니라, 어떤 능력은 얼마나 빨리 떨어지고 어떤 능력은 덜 떨어지는지를 보는 개념이다.
+- 왜 이 논문에서 중요한지: 저자들은 코호트별 수준 차이뿐 아니라 실제 감소 속도도 비교한다.
+- 자주 헷갈리는 포인트: 인지노화는 level 차이와 같은 말이 아니다. 55세 시점 수준이 다를 수 있고, 그 이후 decline 속도도 따로 다를 수 있다.
 
-## 3. 노동환경
+## 3. 지각된 노동환경
 
-노동환경은(는) Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- 한국어 개념명: 지각된 노동환경
+- Original English term: perceived work environment
+- 정확한 한 줄 정의: 개인이 자신의 일터를 통제, 자율성, 혁신성 측면에서 어떻게 경험하고 인식하는지를 측정한 것이다.
+- 학생 말투로 풀어쓴 설명: "내 일이 얼마나 내 손에 있고, 얼마나 새롭고, 얼마나 스스로 판단하게 하느냐"를 당사자 보고로 잡은 변수다.
+- 왜 이 논문에서 중요한지: 이 논문의 새 포인트는 교육만이 아니라 성인기 노동환경도 코호트별 인지 차이와 연결된다고 보는 데 있다.
+- 자주 헷갈리는 포인트: 객관적 직업 등급과 동일한 개념이 아니다. 이 논문은 직무 코드가 아니라 참가자가 느낀 work environment를 쓴다.
 
-## 4. worker control
+## 4. 노동 통제감
 
-worker control은(는) Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- 한국어 개념명: 노동 통제감
+- Original English term: work control
+- 정확한 한 줄 정의: 관리자의 규칙과 압력보다 노동자 자신이 작업 과정을 통제한다고 느끼는 정도이다.
+- 학생 말투로 풀어쓴 설명: "시키는 대로만 하는 일인지, 내가 일하는 방식을 어느 정도 내가 쥐고 있는지"를 묻는 느낌이다.
+- 왜 이 논문에서 중요한지: 후기 코호트가 초기 코호트보다 높았던 노동환경 변수 중 하나이고, 인지수행과도 가장 넓게 연결됐다.
+- 자주 헷갈리는 포인트: autonomy와 비슷해 보이지만 같은 개념은 아니다. control은 외부 규칙의 압박이 얼마나 약한가 쪽에 더 가깝다.
 
-## 5. innovation
+## 5. 노동 자율성
 
-innovation은(는) Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- 한국어 개념명: 노동 자율성
+- Original English term: work autonomy
+- 정확한 한 줄 정의: 노동자가 스스로 판단하고 독립적으로 일할 수 있다고 느끼는 정도이다.
+- 학생 말투로 풀어쓴 설명: "내가 알아서 결정하고 처리할 수 있느냐"에 가까운 감각이다.
+- 왜 이 논문에서 중요한지: cognitive performance와는 꽤 강하게 연결됐지만, 코호트 차이 자체는 유의하지 않았다.
+- 자주 헷갈리는 포인트: "autonomy가 중요했으니 후기 코호트가 autonomy도 더 높았겠지"라고 생각하면 틀린다. 이 논문에서는 autonomy의 코호트 차이가 없다.
 
-## 6. work autonomy
+## 6. 노동 혁신성
 
-work autonomy은(는) Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- 한국어 개념명: 노동 혁신성
+- Original English term: work innovation
+- 정확한 한 줄 정의: 일이 얼마나 다양하고 새롭고, 다른 방식의 접근을 요구하는지를 뜻한다.
+- 학생 말투로 풀어쓴 설명: 맨날 같은 루틴만 반복하는 일이 아니라, 새로운 방식과 변화에 적응해야 하는 일의 정도라고 보면 된다.
+- 왜 이 논문에서 중요한지: 후기 코호트가 더 높게 보고한 또 하나의 노동환경 변수이며, spatial orientation과 verbal meaning의 높은 수준과 연결됐다.
+- 자주 헷갈리는 포인트: "innovation"은 기술산업에서 일한다는 뜻이 아니다. 직무가 얼마나 변화와 새 접근을 요구하느냐의 문제다.
 
-## 7. word fluency
+## 7. 인지적 풍부화
 
-word fluency은(는) Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- 한국어 개념명: 인지적 풍부화
+- Original English term: cognitive enrichment
+- 정확한 한 줄 정의: 인지적으로 도전적이고 자극적인 경험이 인지기능 유지에 도움이 된다는 관점이다.
+- 학생 말투로 풀어쓴 설명: 머리를 계속 쓰게 만드는 환경에 오래 있으면 인지가 덜 무너질 수 있다는 생각이다.
+- 왜 이 논문에서 중요한지: 저자들은 "use it or lose it" 가설을 노동환경에 연결해 work control, autonomy, innovation의 의미를 설명한다.
+- 자주 헷갈리는 포인트: 풍부화는 곧바로 인과적 개입 효과를 뜻하지 않는다. 이 논문은 그런 환경이 인지와 관련된다고 말할 뿐, 확정적 처치를 증명하지는 않는다.
 
-## 8. cognitive enrichment
+## 8. 성향점수 매칭
 
-cognitive enrichment은(는) Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다. 이 용어를 정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다.
+- 한국어 개념명: 성향점수 매칭
+- Original English term: propensity score matching
+- 정확한 한 줄 정의: 비교 집단의 관측치를 비슷한 조건으로 맞춰 분석 가능성을 높이는 통계적 절차이다.
+- 학생 말투로 풀어쓴 설명: 그냥 두 코호트를 바로 비교하면 나이와 재검사 횟수가 섞이니까, 최대한 비슷한 관측치끼리 짝을 맞춘 것이다.
+- 왜 이 논문에서 중요한지: 이 논문은 사람 단위가 아니라 관측치 단위로 age와 retest를 맞춰 코호트 비교의 왜곡을 줄였다.
+- 자주 헷갈리는 포인트: 매칭을 했다고 무작위실험이 되는 것은 아니다. 관찰연구의 한계는 여전히 남는다.
