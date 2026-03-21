@@ -1,0 +1,150 @@
+{
+  "title": "노인과 지역사회 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 노화과정을 물리적·공간적 환경과의 관계 속에서 연구하는 분야다.",
+      "accepted_answers": [
+        "환경노년학"
+      ],
+      "answer_type": "term",
+      "explanation": "환경노년학은(는) 장의 이론적 출발점이다.",
+      "source": "환경노년학"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 인간의 행동을 개인과 환경의 함수로 보는 Lewin의 관점이다.",
+      "accepted_answers": [
+        "장이론"
+      ],
+      "answer_type": "term",
+      "explanation": "장이론은(는) 환경의 중요성을 설명하는 기본 틀이다.",
+      "source": "장이론"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 환경이 요구하는 압박과 개인의 적응 역량 간 관계를 설명하는 모델이다.",
+      "accepted_answers": [
+        "환경압박-역량 모델",
+        "press-competence model"
+      ],
+      "answer_type": "term",
+      "explanation": "환경압박-역량 모델은(는) 노인과 환경 상호작용을 구체적으로 읽게 한다.",
+      "source": "환경압박이론"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 물리적, 사회적, 심리적 특성을 함께 포함하는 생활환경을 뜻한다.",
+      "accepted_answers": [
+        "지역사회 환경"
+      ],
+      "answer_type": "term",
+      "explanation": "지역사회 환경은(는) 장 전체에서 다루는 핵심 대상이다.",
+      "source": "지역사회 환경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 자신이 사는 장소에 대해 느끼는 정서적 유대와 의미를 뜻한다.",
+      "accepted_answers": [
+        "장소애착"
+      ],
+      "answer_type": "term",
+      "explanation": "장소애착은(는) 왜 익숙한 지역에 계속 살고 싶어 하는지 설명한다.",
+      "source": "지역사회 환경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 주거, 거리, 교통, 보행환경 같은 공간적 조건을 뜻한다.",
+      "accepted_answers": [
+        "물리적 환경"
+      ],
+      "answer_type": "term",
+      "explanation": "물리적 환경은(는) 건강과 이동 가능성을 직접 좌우한다.",
+      "source": "지역사회 환경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 이웃관계, 지역 유대, 상호작용 기회 같은 사회적 조건을 뜻한다.",
+      "accepted_answers": [
+        "사회적 환경"
+      ],
+      "answer_type": "term",
+      "explanation": "사회적 환경은(는) 고립과 참여, 안전감에 영향을 준다.",
+      "source": "지역사회 환경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 나이 들어도 익숙한 집과 지역사회에서 계속 살아가는 것을 뜻한다.",
+      "accepted_answers": [
+        "aging in place"
+      ],
+      "answer_type": "term",
+      "explanation": "aging in place은(는) 정책과 실천에서 가장 중요한 목표 개념 중 하나다.",
+      "source": "Aging in Place"
+    },
+    {
+      "question": "노화과정을 환경과의 관계 속에서 연구하는 분야는 무엇인가?",
+      "accepted_answers": [
+        "환경노년학"
+      ],
+      "answer_type": "term",
+      "explanation": "장의 핵심 이론틀이다.",
+      "source": "환경노년학",
+      "mcq_prompt": "노화와 환경의 관계를 연구하는 분야는?"
+    },
+    {
+      "question": "인간 행동을 인간과 환경의 함수로 보는 이론은 무엇인가?",
+      "accepted_answers": [
+        "장이론"
+      ],
+      "answer_type": "term",
+      "explanation": "Lewin의 관점이다.",
+      "source": "장이론",
+      "mcq_prompt": "행동을 인간과 환경의 함수로 보는 이론은?"
+    },
+    {
+      "question": "환경 요구와 개인 역량의 관계를 설명하는 모델은 무엇인가?",
+      "accepted_answers": [
+        "환경압박-역량 모델",
+        "press-competence model"
+      ],
+      "answer_type": "term",
+      "explanation": "Lawton의 대표 이론이다.",
+      "source": "환경압박이론",
+      "mcq_prompt": "환경 요구와 개인 적응역량 관계를 설명하는 모델은?"
+    },
+    {
+      "question": "익숙한 집과 동네에 계속 머무르는 노년기 거주 원칙은 무엇이라 하는가?",
+      "accepted_answers": [
+        "aging in place"
+      ],
+      "answer_type": "term",
+      "explanation": "노인과 지역사회 논의의 핵심 목표다.",
+      "source": "Aging in Place",
+      "mcq_prompt": "익숙한 지역에서 계속 살아가려는 원칙을 가리키는 말은?"
+    },
+    {
+      "question": "살고 있는 장소에 대해 느끼는 정서적 유대를 무엇이라 하는가?",
+      "accepted_answers": [
+        "장소애착"
+      ],
+      "answer_type": "term",
+      "explanation": "지역사회 환경의 심리적 차원이다.",
+      "source": "지역사회 환경",
+      "mcq_prompt": "장소에 대한 정서적 유대를 뜻하는 말은?"
+    },
+    {
+      "question": "주거, 교통, 보행환경 같은 조건을 묶어 부르는 환경 차원은 무엇인가?",
+      "accepted_answers": [
+        "물리적 환경"
+      ],
+      "answer_type": "term",
+      "explanation": "공간적 접근성과 직접 연결된다.",
+      "source": "지역사회 환경",
+      "mcq_prompt": "주거와 보행, 교통 조건을 뜻하는 환경 차원은?"
+    },
+    {
+      "question": "이웃관계와 지역 유대를 포함하는 환경 차원은 무엇인가?",
+      "accepted_answers": [
+        "사회적 환경"
+      ],
+      "answer_type": "term",
+      "explanation": "고립과 참여를 설명하는 차원이다.",
+      "source": "지역사회 환경",
+      "mcq_prompt": "이웃관계와 지역 유대를 뜻하는 환경 차원은?"
+    }
+  ]
+}

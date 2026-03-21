@@ -196,26 +196,25 @@
     },
     {
       "slug": "ch08-gerontology",
-      "title": "[CH8]Gerontology",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "사회적 노화 I: 중노년기 세대관계 및 친족관계",
+      "subtitle": "노부모-성인자녀, 조부모-손자녀, 노년기 형제관계를 다세대 맥락에서 읽는 장이다.",
       "authors": [],
       "year": null,
-      "language": "unknown",
+      "language": "ko",
       "kind": "chapter pdf",
       "source_filename": "[CH8]Gerontology.pdf",
       "source_pdf": "source_pdfs/[CH8]Gerontology.pdf",
       "content_dir": "content/readings/ch08-gerontology",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Chapter PDF"
+        "세대관계",
+        "친족관계",
+        "중노년기"
       ],
-      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
-      "metadata_status": "incomplete",
+      "description": "수명 연장과 저출산이 결합할 때 세대 간 지원과 긴장이 어떻게 재구성되는지 정리한다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Title is copied from the filename.",
-        "Author metadata is not available from the filename.",
-        "Language is not confirmed from the filename alone."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
       "class_date": null,
@@ -225,26 +224,25 @@
     },
     {
       "slug": "ch09-gerontology",
-      "title": "[CH9]Gerontology",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "사회적 노화 II: 중노년기 부부관계",
+      "subtitle": "결혼의 의미, 길어진 부부기간, 노년기 이혼과 사별을 함께 다루는 장이다.",
       "authors": [],
       "year": null,
-      "language": "unknown",
+      "language": "ko",
       "kind": "chapter pdf",
       "source_filename": "[CH9]Gerontology.pdf",
       "source_pdf": "source_pdfs/[CH9]Gerontology.pdf",
       "content_dir": "content/readings/ch09-gerontology",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Chapter PDF"
+        "부부관계",
+        "결혼",
+        "사별"
       ],
-      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
-      "metadata_status": "incomplete",
+      "description": "중·노년기 부부관계를 건강, 복지, 가족생활주기, 결혼 해체의 맥락에서 정리한다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Title is copied from the filename.",
-        "Author metadata is not available from the filename.",
-        "Language is not confirmed from the filename alone."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
       "class_date": null,
@@ -254,26 +252,25 @@
     },
     {
       "slug": "ch10-gerontology",
-      "title": "[CH10]Gerontology",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "사회적 노화 III: 친구 및 이웃관계, 사회 관계망",
+      "subtitle": "가족 밖 비공식 관계와 사회 관계망이 노년기 건강·복지와 어떻게 연결되는지 다룬다.",
       "authors": [],
       "year": null,
-      "language": "unknown",
+      "language": "ko",
       "kind": "chapter pdf",
       "source_filename": "[CH10]Gerontology.pdf",
       "source_pdf": "source_pdfs/[CH10]Gerontology.pdf",
       "content_dir": "content/readings/ch10-gerontology",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Chapter PDF"
+        "친구",
+        "이웃",
+        "사회관계망"
       ],
-      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
-      "metadata_status": "incomplete",
+      "description": "친구와 이웃이라는 비공식 관계, 사회관계망의 구조와 기능, 건강 연계를 함께 정리한다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Title is copied from the filename.",
-        "Author metadata is not available from the filename.",
-        "Language is not confirmed from the filename alone."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
       "class_date": null,
@@ -283,26 +280,25 @@
     },
     {
       "slug": "ch11-gerontology",
-      "title": "[CH11]Gerontology",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "노년기 일과 은퇴",
+      "subtitle": "노년기 노동의 의미, 은퇴 적응, 은퇴준비교육을 함께 다루는 장이다.",
       "authors": [],
       "year": null,
-      "language": "unknown",
+      "language": "ko",
       "kind": "chapter pdf",
       "source_filename": "[CH11]Gerontology.pdf",
       "source_pdf": "source_pdfs/[CH11]Gerontology.pdf",
       "content_dir": "content/readings/ch11-gerontology",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Chapter PDF"
+        "일",
+        "은퇴",
+        "노년기 노동"
       ],
-      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
-      "metadata_status": "incomplete",
+      "description": "일이 가진 소득, 정체성, 관계의 의미와 은퇴 적응, 준비교육의 필요성을 정리한다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Title is copied from the filename.",
-        "Author metadata is not available from the filename.",
-        "Language is not confirmed from the filename alone."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
       "class_date": null,
@@ -312,26 +308,25 @@
     },
     {
       "slug": "ch12-gerontology",
-      "title": "[CH12]Gerontology",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "노년기 건강",
+      "subtitle": "신체건강, 정신건강, 치매를 중심으로 노년기 건강을 다차원적으로 읽는 장이다.",
       "authors": [],
       "year": null,
-      "language": "unknown",
+      "language": "ko",
       "kind": "chapter pdf",
       "source_filename": "[CH12]Gerontology.pdf",
       "source_pdf": "source_pdfs/[CH12]Gerontology.pdf",
       "content_dir": "content/readings/ch12-gerontology",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Chapter PDF"
+        "건강",
+        "정신건강",
+        "치매"
       ],
-      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
-      "metadata_status": "incomplete",
+      "description": "건강을 질병 부재 이상으로 보고, 노년기 건강문제를 기능, 진단, 치매의 맥락에서 정리한다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Title is copied from the filename.",
-        "Author metadata is not available from the filename.",
-        "Language is not confirmed from the filename alone."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
       "class_date": null,
@@ -341,26 +336,25 @@
     },
     {
       "slug": "ch13-gerontology",
-      "title": "[CH13]Gerontology",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "노년기 사회참여",
+      "subtitle": "활동적 노화와 성공적 노화 논의를 바탕으로 노년기 참여의 의미를 다루는 장이다.",
       "authors": [],
       "year": null,
-      "language": "unknown",
+      "language": "ko",
       "kind": "chapter pdf",
       "source_filename": "[CH13]Gerontology.pdf",
       "source_pdf": "source_pdfs/[CH13]Gerontology.pdf",
       "content_dir": "content/readings/ch13-gerontology",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Chapter PDF"
+        "사회참여",
+        "활동적 노화",
+        "성공적 노화"
       ],
-      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
-      "metadata_status": "incomplete",
+      "description": "노년기 사회참여가 삶의 질과 어떻게 연결되는지, 그리고 활동적·성공적 노화 담론이 무엇을 요구하는지 정리한다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Title is copied from the filename.",
-        "Author metadata is not available from the filename.",
-        "Language is not confirmed from the filename alone."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
       "class_date": null,
@@ -370,26 +364,25 @@
     },
     {
       "slug": "ch14-gerontology",
-      "title": "[CH14]Gerontology",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "노인정책",
+      "subtitle": "노인정책의 필요성과 소득·건강·주거 보장이라는 세 축을 정리하는 장이다.",
       "authors": [],
       "year": null,
-      "language": "unknown",
+      "language": "ko",
       "kind": "chapter pdf",
       "source_filename": "[CH14]Gerontology.pdf",
       "source_pdf": "source_pdfs/[CH14]Gerontology.pdf",
       "content_dir": "content/readings/ch14-gerontology",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Chapter PDF"
+        "노인정책",
+        "소득보장",
+        "주거보장"
       ],
-      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
-      "metadata_status": "incomplete",
+      "description": "노년기 삶이 왜 정책의 영향을 크게 받는지, 그리고 소득·건강·주거 보장 정책이 어떻게 연결되는지 설명한다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Title is copied from the filename.",
-        "Author metadata is not available from the filename.",
-        "Language is not confirmed from the filename alone."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
       "class_date": null,
@@ -399,26 +392,25 @@
     },
     {
       "slug": "ch15-gerontology",
-      "title": "[CH15]Gerontology",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "노인과 지역사회",
+      "subtitle": "환경노년학과 지역사회 환경, aging in place를 중심으로 노인과 장소의 관계를 다루는 장이다.",
       "authors": [],
       "year": null,
-      "language": "unknown",
+      "language": "ko",
       "kind": "chapter pdf",
       "source_filename": "[CH15]Gerontology.pdf",
       "source_pdf": "source_pdfs/[CH15]Gerontology.pdf",
       "content_dir": "content/readings/ch15-gerontology",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Chapter PDF"
+        "지역사회",
+        "환경노년학",
+        "aging in place"
       ],
-      "description": "Placeholder record created from the source filename only. Chapter title, author, and language need confirmation.",
-      "metadata_status": "incomplete",
+      "description": "노인의 삶의 질이 개인특성뿐 아니라 물리적·사회적·심리적 지역사회 환경과 어떻게 연결되는지 설명한다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Title is copied from the filename.",
-        "Author metadata is not available from the filename.",
-        "Language is not confirmed from the filename alone."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "chapter",
       "class_date": null,
@@ -457,10 +449,10 @@
     },
     {
       "slug": "blieszner-2014",
-      "title": "Blieszner, 2014",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "The Worth of Friendship: Can Friends Keep Us Happy and Healthy?",
+      "subtitle": "노년기 친구관계의 정의, 기능, 건강효과, 실천적 활용을 정리한 리뷰 성격의 글이다.",
       "authors": [
-        "Blieszner"
+        "Rosemary Blieszner"
       ],
       "year": 2014,
       "language": "en",
@@ -469,15 +461,15 @@
       "source_pdf": "source_pdfs/Blieszner, 2014.pdf",
       "content_dir": "content/readings/blieszner-2014",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Article PDF"
+        "friendship",
+        "well-being",
+        "later life"
       ],
-      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
-      "metadata_status": "incomplete",
+      "description": "우정이 행복과 건강, 외로움 완화, 실천 개입에 어떤 의미를 갖는지 노년기 관점에서 정리한다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Author and year are copied from the filename.",
-        "The full article title is not confirmed yet."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
       "class_date": null,
@@ -487,10 +479,12 @@
     },
     {
       "slug": "calvo-et-al-2018",
-      "title": "Calvo et al., 2018",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
+      "subtitle": "은퇴를 단일 사건이 아니라 시퀀스로 보고 탈표준화와 층화를 동시에 분석한 논문이다.",
       "authors": [
-        "Calvo et al."
+        "Esteban Calvo",
+        "Ignacio Madero-Cabib",
+        "Ursula M. Staudinger"
       ],
       "year": 2018,
       "language": "en",
@@ -499,15 +493,15 @@
       "source_pdf": "source_pdfs/Calvo et al., 2018.pdf",
       "content_dir": "content/readings/calvo-et-al-2018",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Article PDF"
+        "retirement",
+        "sequence analysis",
+        "stratification"
       ],
-      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
-      "metadata_status": "incomplete",
+      "description": "미국 노년층의 은퇴 경로가 얼마나 탈표준화되었는지, 그리고 그 차이가 젠더·계급·인종에 따라 어떻게 층화되는지 보여 준다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Author string and year are copied from the filename.",
-        "Additional author names and the full article title are not confirmed yet."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
       "class_date": null,
@@ -517,11 +511,11 @@
     },
     {
       "slug": "carr-fang-2021",
-      "title": "Carr & Fang, 2021",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
+      "subtitle": "은퇴촌에서 독립과 의존의 욕구가 충돌하며 '우리'와 '그들'을 만드는 과정을 질적으로 탐색한 연구다.",
       "authors": [
-        "Carr",
-        "Fang"
+        "Sam Carr",
+        "Chao Fang"
       ],
       "year": 2021,
       "language": "en",
@@ -530,15 +524,15 @@
       "source_pdf": "source_pdfs/Carr & Fang, 2021.pdf",
       "content_dir": "content/readings/carr-fang-2021",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Article PDF"
+        "retirement village",
+        "independence",
+        "qualitative"
       ],
-      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
-      "metadata_status": "incomplete",
+      "description": "독립생활 공동체라는 이상이 왜 취약한 거주자를 배제하는 긴장을 낳는지 보여 주는 질적 연구다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Author names and year are copied from the filename.",
-        "The full article title is not confirmed yet."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
       "class_date": null,
@@ -610,10 +604,13 @@
     },
     {
       "slug": "konrath-et-al-2012",
-      "title": "Konrath et al., 2012",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
+      "subtitle": "자원봉사의 효과보다 왜 봉사하는지가 더 중요할 수 있음을 보여 주는 논문이다.",
       "authors": [
-        "Konrath et al."
+        "Sara Konrath",
+        "Andrea Fuhrel-Forbis",
+        "Alina Lou",
+        "Stephanie Brown"
       ],
       "year": 2012,
       "language": "en",
@@ -622,15 +619,15 @@
       "source_pdf": "source_pdfs/Konrath et al., 2012.pdf",
       "content_dir": "content/readings/konrath-et-al-2012",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Article PDF"
+        "volunteering",
+        "motives",
+        "mortality"
       ],
-      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
-      "metadata_status": "incomplete",
+      "description": "자원봉사 자체보다 타인 지향적 동기가 있을 때 사망위험 감소효과가 나타난다는 점을 보여 준다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Author string and year are copied from the filename.",
-        "Additional author names and the full article title are not confirmed yet."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
       "class_date": null,
@@ -640,10 +637,12 @@
     },
     {
       "slug": "leggett-et-al-2020",
-      "title": "Leggett et al., 2020",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
+      "subtitle": "배우자 치매돌봄과 자기건강 상태가 사망위험과 어떻게 교차하는지 분석한 논문이다.",
       "authors": [
-        "Leggett et al."
+        "Amanda N. Leggett",
+        "Amanda J. Sonnega",
+        "Matthew C. Lohman"
       ],
       "year": 2020,
       "language": "en",
@@ -652,15 +651,15 @@
       "source_pdf": "source_pdfs/Leggett et al., 2020.pdf",
       "content_dir": "content/readings/leggett-et-al-2020",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Article PDF"
+        "dementia caregiving",
+        "mortality",
+        "self-rated health"
       ],
-      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
-      "metadata_status": "incomplete",
+      "description": "치매 배우자 돌봄이 반드시 사망위험을 높이는 것은 아니며, 자기평가 건강과의 상호작용이 중요하다는 점을 보여 준다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Author string and year are copied from the filename.",
-        "Additional author names and the full article title are not confirmed yet."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
       "class_date": null,
@@ -730,10 +729,13 @@
     },
     {
       "slug": "suitor-et-al-2014",
-      "title": "Suitor et al., 2014",
-      "subtitle": "Filename-derived placeholder metadata.",
+      "title": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "subtitle": "어머니 돌봄 상황에서 돌봄 수행과 편애 인식이 형제 긴장을 어떻게 높이는지 분석한 논문이다.",
       "authors": [
-        "Suitor et al."
+        "J. Jill Suitor",
+        "Megan Gilligan",
+        "Kaitlin Johnson",
+        "Karl Pillemer"
       ],
       "year": 2014,
       "language": "en",
@@ -742,15 +744,15 @@
       "source_pdf": "source_pdfs/Suitor et al., 2014.pdf",
       "content_dir": "content/readings/suitor-et-al-2014",
       "tags": [
-        "Filename only",
-        "Metadata incomplete",
-        "Article PDF"
+        "caregiving",
+        "sibling tension",
+        "favoritism"
       ],
-      "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
-      "metadata_status": "incomplete",
+      "description": "노부모 돌봄이 형제 갈등을 낳는 메커니즘을 편애 인식과 결합해 보여 주는 later-life family 연구다.",
+      "metadata_status": "complete",
       "metadata_notes": [
-        "Author string and year are copied from the filename.",
-        "Additional author names and the full article title are not confirmed yet."
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
       ],
       "type": "article",
       "class_date": null,

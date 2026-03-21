@@ -1,0 +1,186 @@
+{
+  "title": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia 객관식 퀴즈",
+  "instructions": "보기 4개 중 가장 맞는 답을 고르고, 설명으로 왜 맞는지 확인하세요.",
+  "items": [
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 고령자를 위해 설계된 독립생활 중심 주거공동체를 뜻한다.",
+      "options": [
+        "retirement village",
+        "independence",
+        "dependence",
+        "othering"
+      ],
+      "answer": "retirement village",
+      "explanation": "retirement village: 연구의 현장이다.",
+      "source": "연구 질문"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 타인에게 크게 의존하지 않고 스스로 생활을 유지하려는 상태와 가치다.",
+      "options": [
+        "independence",
+        "dependence",
+        "othering",
+        "prolonged midlife"
+      ],
+      "answer": "independence",
+      "explanation": "independence: 연구의 핵심 주제 중 하나다.",
+      "source": "문제의식"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 도움과 돌봄을 더 많이 필요로 하는 상태를 뜻한다.",
+      "options": [
+        "dependence",
+        "othering",
+        "prolonged midlife",
+        "independent living community"
+      ],
+      "answer": "dependence",
+      "explanation": "dependence: independence와 충돌하는 두 번째 축이다.",
+      "source": "문제의식"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 특정 집단을 '우리'와 다른 타자로 구분하고 거리 두는 과정이다.",
+      "options": [
+        "othering",
+        "prolonged midlife",
+        "independent living community",
+        "qualitative interview"
+      ],
+      "answer": "othering",
+      "explanation": "othering: 논문의 핵심 결과를 설명하는 개념이다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 보다 젊고 독립적인 중년성을 오래 유지하려는 지향을 뜻한다.",
+      "options": [
+        "prolonged midlife",
+        "independent living community",
+        "qualitative interview",
+        "heterogeneity"
+      ],
+      "answer": "prolonged midlife",
+      "explanation": "prolonged midlife: 왜 일부 주민이 취약한 이웃을 부담으로 보는지 설명한다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 돌봄시설이 아니라 독립적 생활을 전제로 운영되는 공동체를 뜻한다.",
+      "options": [
+        "independent living community",
+        "qualitative interview",
+        "heterogeneity",
+        "retirement village"
+      ],
+      "answer": "independent living community",
+      "explanation": "independent living community: 공동체 규범이 어떻게 배제를 낳는지 보여 준다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 참여자의 경험과 의미를 깊게 탐색하는 질적 면담 방법이다.",
+      "options": [
+        "qualitative interview",
+        "heterogeneity",
+        "retirement village",
+        "independence"
+      ],
+      "answer": "qualitative interview",
+      "explanation": "qualitative interview: 논문의 연구방법을 설명한다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 집단 내부가 동질적이지 않고 다양하다는 특성을 뜻한다.",
+      "options": [
+        "heterogeneity",
+        "retirement village",
+        "independence",
+        "dependence"
+      ],
+      "answer": "heterogeneity",
+      "explanation": "heterogeneity: 노년 공동체를 하나의 유형으로 보는 시각을 깨뜨린다.",
+      "source": "의미"
+    },
+    {
+      "prompt": "이 연구가 자료를 수집한 retirement village 수는?",
+      "options": [
+        "8",
+        "80",
+        "othering",
+        "prolonged midlife"
+      ],
+      "answer": "8",
+      "explanation": "영국과 호주 8개 마을을 포함했다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "총 인터뷰 참여자 수는?",
+      "options": [
+        "80",
+        "othering",
+        "prolonged midlife",
+        "qualitative interview"
+      ],
+      "answer": "80",
+      "explanation": "총 80명의 주민을 인터뷰했다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "공동체 내부의 타자화 과정을 가리키는 말은?",
+      "options": [
+        "othering",
+        "prolonged midlife",
+        "qualitative interview",
+        "independent living community"
+      ],
+      "answer": "othering",
+      "explanation": "배제와 타자화 과정을 설명한다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "독립적 중년성을 오래 유지하려는 지향을 부르는 말은?",
+      "options": [
+        "prolonged midlife",
+        "qualitative interview",
+        "independent living community",
+        "heterogeneity"
+      ],
+      "answer": "prolonged midlife",
+      "explanation": "취약한 주민을 거리 두게 만드는 한 맥락이다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "이 연구의 핵심 연구방법은?",
+      "options": [
+        "qualitative interview",
+        "independent living community",
+        "heterogeneity",
+        "8"
+      ],
+      "answer": "qualitative interview",
+      "explanation": "반구조화 면담을 사용했다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "독립생활을 전제로 운영되는 공동체를 가리키는 표현은?",
+      "options": [
+        "independent living community",
+        "heterogeneity",
+        "8",
+        "80"
+      ],
+      "answer": "independent living community",
+      "explanation": "공동체 규범의 핵심 표현이다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "이 논문이 강조하는 주민 집단의 특성은?",
+      "options": [
+        "heterogeneity",
+        "8",
+        "80",
+        "othering"
+      ],
+      "answer": "heterogeneity",
+      "explanation": "주민은 동질적 집단이 아니다.",
+      "source": "의미"
+    }
+  ]
+}

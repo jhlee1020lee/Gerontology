@@ -1,0 +1,153 @@
+{
+  "title": "노년기 사회참여 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 나이 들면서 참여, 건강, 안전의 기회를 최적화하는 과정이다.",
+      "accepted_answers": [
+        "활동적 노화"
+      ],
+      "answer_type": "term",
+      "explanation": "활동적 노화은(는) 장의 출발점이 되는 개념이다.",
+      "source": "활동적 노화"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 질병 회피, 높은 기능 유지, 적극적 인생참여를 이루는 노화 양상을 뜻한다.",
+      "accepted_answers": [
+        "성공적 노화"
+      ],
+      "answer_type": "term",
+      "explanation": "성공적 노화은(는) 사회참여가 왜 중요하게 취급되는지 설명한다.",
+      "source": "성공적 노화"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 의미와 목적, 사회적 기여를 만들어 내는 활동을 뜻한다.",
+      "accepted_answers": [
+        "생산적 활동"
+      ],
+      "answer_type": "term",
+      "explanation": "생산적 활동은(는) 참여를 단순 여가 이상으로 보게 한다.",
+      "source": "성공적 노화"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 타인과의 관계와 생산적 활동에 적극적으로 관여하는 상태를 뜻한다.",
+      "accepted_answers": [
+        "인생참여"
+      ],
+      "answer_type": "term",
+      "explanation": "인생참여은(는) Rowe와 Kahn 모형의 핵심 요소다.",
+      "source": "성공적 노화"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 사회적, 경제적, 문화적, 영적, 시민적 활동에 계속 관여하는 것을 뜻한다.",
+      "accepted_answers": [
+        "참여"
+      ],
+      "answer_type": "term",
+      "explanation": "참여은(는) 활동적 노화에서 활동의 범위를 넓게 이해하게 한다.",
+      "source": "활동적 노화"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 노화를 dementia, dependence, disease와 연결해 보는 부정적 시각을 뜻한다.",
+      "accepted_answers": [
+        "3D 관점",
+        "3D"
+      ],
+      "answer_type": "term",
+      "explanation": "3D 관점은(는) 사회참여 담론이 극복하려는 배경이다.",
+      "source": "사회참여와 삶의 질"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 성공적 노화의 첫 요소로 질병과 장애의 위험을 줄이는 것을 뜻한다.",
+      "accepted_answers": [
+        "질병과 장애 회피"
+      ],
+      "answer_type": "term",
+      "explanation": "질병과 장애 회피은(는) 기능 유지와 참여의 기초 조건을 이룬다.",
+      "source": "성공적 노화"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 신체적·인지적 기능을 높은 수준으로 유지하는 것을 뜻한다.",
+      "accepted_answers": [
+        "높은 기능 유지"
+      ],
+      "answer_type": "term",
+      "explanation": "높은 기능 유지은(는) 참여를 가능하게 하는 두 번째 축이다.",
+      "source": "성공적 노화"
+    },
+    {
+      "question": "WHO가 활동적 노화에서 최적화하려는 세 가지는 무엇인가?",
+      "accepted_answers": [
+        "참여, 건강, 안전",
+        "참여 건강 안전"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "활동적 노화 정의의 핵심 구성요소다.",
+      "source": "활동적 노화",
+      "mcq_prompt": "활동적 노화가 최적화하려는 세 가지는?"
+    },
+    {
+      "question": "성공적 노화 모형을 제시한 두 연구자는 누구인가?",
+      "accepted_answers": [
+        "Rowe와 Kahn",
+        "Rowe & Kahn"
+      ],
+      "answer_type": "person",
+      "explanation": "성공적 노화 논의의 대표 이름이다.",
+      "source": "성공적 노화",
+      "mcq_prompt": "성공적 노화 모형과 가장 관련된 이름은?"
+    },
+    {
+      "question": "노화를 dementia, dependence, disease와 연결해 보는 부정적 시각을 무엇이라 요약할 수 있는가?",
+      "accepted_answers": [
+        "3D 관점",
+        "3D"
+      ],
+      "answer_type": "term",
+      "explanation": "사회참여 담론이 비판하는 대표 시각이다.",
+      "source": "사회참여와 삶의 질",
+      "mcq_prompt": "노화를 치매, 의존, 질병으로 환원하는 시각은?"
+    },
+    {
+      "question": "성공적 노화의 세 요소 중 관계와 생산적 활동 참여를 포함하는 것은 무엇인가?",
+      "accepted_answers": [
+        "인생참여"
+      ],
+      "answer_type": "term",
+      "explanation": "세 요소 중 상위 수준을 이룬다.",
+      "source": "성공적 노화",
+      "mcq_prompt": "관계와 생산적 활동 참여를 포함하는 성공적 노화 요소는?"
+    },
+    {
+      "question": "활동적 노화에서 활동은 신체활동만이 아니라 무엇까지 포함하는가?",
+      "accepted_answers": [
+        "시민활동",
+        "사회적·경제적·문화적 참여"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "참여 범위를 넓게 본다.",
+      "source": "활동적 노화",
+      "mcq_prompt": "활동적 노화의 활동 범위에 대한 설명으로 맞는 것은?"
+    },
+    {
+      "question": "성공적 노화의 첫 요소는 무엇인가?",
+      "accepted_answers": [
+        "질병과 장애 회피"
+      ],
+      "answer_type": "term",
+      "explanation": "기능 유지와 참여의 기초다.",
+      "source": "성공적 노화",
+      "mcq_prompt": "성공적 노화의 첫 번째 요소는?"
+    },
+    {
+      "question": "성공적 노화의 두 번째 요소는 무엇인가?",
+      "accepted_answers": [
+        "높은 기능 유지"
+      ],
+      "answer_type": "term",
+      "explanation": "인지적·신체적 기능 유지가 중요하다.",
+      "source": "성공적 노화",
+      "mcq_prompt": "성공적 노화의 두 번째 요소는?"
+    }
+  ]
+}

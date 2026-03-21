@@ -2,31 +2,33 @@
   "slug": "calvo-et-al-2018",
   "source_filename": "Calvo et al., 2018.pdf",
   "source_pdf": "source_pdfs/Calvo et al., 2018.pdf",
-  "title": "Calvo et al., 2018",
-  "subtitle": "파일명 기준으로 만든 임시 메타데이터입니다.",
+  "title": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
+  "subtitle": "은퇴를 단일 사건이 아니라 시퀀스로 보고 탈표준화와 층화를 동시에 분석한 논문이다.",
   "authors": [
-    "Calvo et al."
+    "Esteban Calvo",
+    "Ignacio Madero-Cabib",
+    "Ursula M. Staudinger"
   ],
   "year": 2018,
   "language": "en",
   "kind": "article pdf",
-  "description": "Placeholder record created from the source filename only. The article title needs confirmation from the PDF.",
-  "metadata_status": "incomplete",
+  "description": "미국 노년층의 은퇴 경로가 얼마나 탈표준화되었는지, 그리고 그 차이가 젠더·계급·인종에 따라 어떻게 층화되는지 보여 준다.",
+  "metadata_status": "complete",
   "metadata_notes": [
-    "Author string and year are copied from the filename.",
-    "Additional author names and the full article title are not confirmed yet."
+    "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+    "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
   ],
   "content_status": {
-    "summary": "missing",
-    "full": "missing",
-    "translation": "missing",
-    "concepts": "missing",
-    "pitfalls": "missing",
-    "quiz_ox": "missing",
-    "quiz_short": "missing",
-    "quiz_mcq": "missing",
-    "review_sheet": "missing",
-    "professor_prep": "missing"
+    "summary": "ready",
+    "full": "ready",
+    "translation": "ready",
+    "concepts": "ready",
+    "pitfalls": "ready",
+    "quiz_ox": "ready",
+    "quiz_short": "ready",
+    "quiz_mcq": "ready",
+    "review_sheet": "ready",
+    "professor_prep": "ready"
   },
   "content_dir": "content/readings/calvo-et-al-2018",
   "type": "article",

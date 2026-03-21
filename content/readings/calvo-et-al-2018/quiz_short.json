@@ -1,0 +1,152 @@
+{
+  "title": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 시간에 따라 배열된 노동상태와 전환의 연속을 뜻한다.",
+      "accepted_answers": [
+        "retirement sequence"
+      ],
+      "answer_type": "term",
+      "explanation": "retirement sequence은(는) 은퇴를 단일 사건이 아니라 과정으로 읽게 한다.",
+      "source": "연구방법"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 상태와 전환의 순서 전체를 분석하는 방법이다.",
+      "accepted_answers": [
+        "sequence analysis"
+      ],
+      "answer_type": "term",
+      "explanation": "sequence analysis은(는) 논문의 핵심 방법론이다.",
+      "source": "연구방법"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 전통적이고 규범적인 생애 경로가 약해지고 경로 다양성이 커지는 현상을 뜻한다.",
+      "accepted_answers": [
+        "destandardization"
+      ],
+      "answer_type": "term",
+      "explanation": "destandardization은(는) 은퇴 변화의 핵심 논쟁점이다.",
+      "source": "문제의식"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 은퇴 이후 다시 일로 복귀하거나 상태가 역전되는 경로를 뜻한다.",
+      "accepted_answers": [
+        "reversible order"
+      ],
+      "answer_type": "term",
+      "explanation": "reversible order은(는) 탈표준화의 한 기준이다.",
+      "source": "이론적 배경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 특정 전환이 특정 연령대에 규범적으로 배치되는 현상을 뜻한다.",
+      "accepted_answers": [
+        "age-grading"
+      ],
+      "answer_type": "term",
+      "explanation": "age-grading은(는) 완전한 탈표준화가 아니라는 증거로 사용된다.",
+      "source": "결과"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 한 번 은퇴한 뒤 다시 노동시장으로 복귀하는 현상이다.",
+      "accepted_answers": [
+        "unretirement"
+      ],
+      "answer_type": "term",
+      "explanation": "unretirement은(는) 역전 가능한 경로의 대표 사례다.",
+      "source": "이론적 배경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 경로 차이가 사회집단별로 불평등하게 분배되는 현상을 뜻한다.",
+      "accepted_answers": [
+        "stratification"
+      ],
+      "answer_type": "term",
+      "explanation": "stratification은(는) 이 논문의 두 번째 핵심 축이다.",
+      "source": "층화 결과"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? Health and Retirement Study의 약자로 미국 중·노년층 종단자료다.",
+      "accepted_answers": [
+        "HRS",
+        "Health and Retirement Study"
+      ],
+      "answer_type": "term",
+      "explanation": "HRS은(는) 논문이 사용하는 대표 데이터셋이다.",
+      "source": "연구방법"
+    },
+    {
+      "question": "이 논문은 몇 명을 분석했는가?",
+      "accepted_answers": [
+        "7,881",
+        "7881"
+      ],
+      "answer_type": "number",
+      "explanation": "HRS 7,881명을 분석했다.",
+      "source": "연구방법",
+      "mcq_prompt": "이 논문이 분석한 표본 수는?"
+    },
+    {
+      "question": "참가자들은 몇 회 연속 관찰되었는가?",
+      "accepted_answers": [
+        "6",
+        "6 times"
+      ],
+      "answer_type": "number",
+      "explanation": "60-61세부터 70-71세까지 6회 연속 관찰했다.",
+      "source": "연구방법",
+      "mcq_prompt": "표본은 몇 차례 연속 관찰되었는가?"
+    },
+    {
+      "question": "은퇴 후 다시 노동시장으로 돌아가는 현상을 무엇이라 하는가?",
+      "accepted_answers": [
+        "unretirement"
+      ],
+      "answer_type": "term",
+      "explanation": "역전 가능한 경로의 대표 사례다.",
+      "source": "이론적 배경",
+      "mcq_prompt": "은퇴 후 재취업을 가리키는 말은?"
+    },
+    {
+      "question": "완전한 탈표준화가 아니라고 판단한 근거 중 하나인 연령 규범성은 무엇이라 부르는가?",
+      "accepted_answers": [
+        "age-grading"
+      ],
+      "answer_type": "term",
+      "explanation": "전환 시점의 연령 규범이 남아 있었다.",
+      "source": "결과",
+      "mcq_prompt": "특정 전환이 특정 연령대에 몰리는 현상을 뜻하는 용어는?"
+    },
+    {
+      "question": "논문은 은퇴가 fully destandardized가 아니라 어느 정도라고 표현하는가?",
+      "accepted_answers": [
+        "moderately destandardized"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "완전한 탈표준화가 아니라 중간 수준의 탈표준화라고 본다.",
+      "source": "결론",
+      "mcq_prompt": "논문이 은퇴 경로를 요약하는 표현으로 맞는 것은?"
+    },
+    {
+      "question": "실업과 파트타임이 더 많고 덜 연령등급화된 경로를 보인 집단 중 하나는 누구인가?",
+      "accepted_answers": [
+        "women",
+        "여성"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "여성과 저학력층에서 이런 경향이 강했다.",
+      "source": "층화 결과",
+      "mcq_prompt": "비전형 은퇴 경로가 더 많이 나타난 집단으로 맞는 것은?"
+    },
+    {
+      "question": "은퇴 경로 차이가 사회집단별로 불평등하게 분배되는 현상을 무엇이라 하는가?",
+      "accepted_answers": [
+        "stratification"
+      ],
+      "answer_type": "term",
+      "explanation": "이 논문의 두 번째 핵심 개념이다.",
+      "source": "층화 결과",
+      "mcq_prompt": "은퇴 경로의 집단별 불평등 분배를 가리키는 말은?"
+    }
+  ]
+}

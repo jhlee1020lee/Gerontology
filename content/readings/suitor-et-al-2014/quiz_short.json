@@ -1,0 +1,155 @@
+{
+  "title": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 같은 가족 안에서도 자녀별 경험과 관계가 다를 수 있다는 관점이다.",
+      "accepted_answers": [
+        "within-family differences"
+      ],
+      "answer_type": "term",
+      "explanation": "within-family differences은(는) 형제 중 누가 돌봄을 맡고 누가 선호된다고 느끼는지 구분하게 한다.",
+      "source": "이론적 배경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 형제 사이의 갈등, 비난, 요구, 불편한 감정이 높아진 상태를 뜻한다.",
+      "accepted_answers": [
+        "sibling tension"
+      ],
+      "answer_type": "term",
+      "explanation": "sibling tension은(는) 이 연구의 핵심 종속변수다.",
+      "source": "문제의식"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 어머니가 특정 자녀를 더 선호한다고 인식되는 상태를 뜻한다.",
+      "accepted_answers": [
+        "maternal favoritism",
+        "favoritism"
+      ],
+      "answer_type": "term",
+      "explanation": "maternal favoritism은(는) 객관적 사실 여부보다 인식된 편애가 관계를 해친다는 점이 중요하다.",
+      "source": "이론적 배경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 부모의 건강 저하 이후 실제 돌봄을 제공하는 역할 수행을 말한다.",
+      "accepted_answers": [
+        "caregiving"
+      ],
+      "answer_type": "term",
+      "explanation": "caregiving은(는) 역할 부담과 형제 갈등의 연결을 보여 주는 직접 변수다.",
+      "source": "연구설계"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 어머니가 앞으로 누가 주돌봄자가 되기를 바란다고 느끼는 편애 인식이다.",
+      "accepted_answers": [
+        "future caregiver favoritism"
+      ],
+      "answer_type": "term",
+      "explanation": "future caregiver favoritism은(는) 현재 역할뿐 아니라 미래 기대도 갈등을 만든다는 점을 드러낸다.",
+      "source": "이론적 배경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 사람들은 관계에서 자신이 공정하게 대우받는지에 민감하다는 관점이다.",
+      "accepted_answers": [
+        "relational equity"
+      ],
+      "answer_type": "term",
+      "explanation": "relational equity은(는) 선호받는 자녀도, 소외된 자녀도 모두 긴장을 느낄 수 있다는 해석을 지지한다.",
+      "source": "이론적 배경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 개인이 가족에 속한 중첩 구조를 고려해 분석하는 방법이다.",
+      "accepted_answers": [
+        "multilevel analysis"
+      ],
+      "answer_type": "term",
+      "explanation": "multilevel analysis은(는) 같은 가족 안 개인 차이와 가족 간 차이를 동시에 보기 위해 필요했다.",
+      "source": "연구방법"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 노년기 부모와 성인자녀가 포함된 가족 맥락을 가리킨다.",
+      "accepted_answers": [
+        "later-life family"
+      ],
+      "answer_type": "term",
+      "explanation": "later-life family은(는) 노년기 가족이 돌봄과 긴장이 겹치는 중요한 장임을 드러낸다.",
+      "source": "문제의식"
+    },
+    {
+      "question": "이 연구의 자료에는 몇 개 가족이 포함되었는가?",
+      "accepted_answers": [
+        "214 families",
+        "214"
+      ],
+      "answer_type": "number",
+      "explanation": "214개 later-life family를 분석했다.",
+      "source": "연구방법",
+      "mcq_prompt": "이 논문이 분석한 later-life family 수는?"
+    },
+    {
+      "question": "이 연구의 자료에는 몇 명의 성인자녀가 포함되었는가?",
+      "accepted_answers": [
+        "450 adult children",
+        "450"
+      ],
+      "answer_type": "number",
+      "explanation": "450명의 성인자녀 자료를 사용했다.",
+      "source": "연구방법",
+      "mcq_prompt": "분석에 포함된 성인자녀 수는?"
+    },
+    {
+      "question": "돌봄과 편애 인식이 함께 있을 때 가장 크게 높아지는 결과 변수는 무엇인가?",
+      "accepted_answers": [
+        "sibling tension"
+      ],
+      "answer_type": "term",
+      "explanation": "상호작용 효과는 형제 긴장을 가장 크게 높였다.",
+      "source": "주요 결과",
+      "mcq_prompt": "돌봄 수행과 편애 인식의 결합이 가장 강하게 예측한 것은?"
+    },
+    {
+      "question": "이 연구가 다룬 부모는 주로 아버지인가 어머니인가?",
+      "accepted_answers": [
+        "mother",
+        "어머니"
+      ],
+      "answer_type": "person",
+      "explanation": "논문은 maternal favoritism을 다루므로 어머니 중심 분석이다.",
+      "source": "문제의식",
+      "mcq_prompt": "논문의 편애 인식은 누구를 기준으로 측정되었는가?"
+    },
+    {
+      "question": "이 연구에서 중요했던 편애는 현재 돌봄보다 앞으로 누가 될지에 대한 무엇의 인식인가?",
+      "accepted_answers": [
+        "future caregiver",
+        "주돌봄자"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "미래의 주돌봄자 선호 인식이 핵심이다.",
+      "source": "이론적 배경",
+      "mcq_prompt": "편애 인식이 특히 측정한 것은 누구에 대한 선호였는가?"
+    },
+    {
+      "question": "형제 긴장을 설명하는 데 이 논문이 강조하는 것은 실제 불공평보다도 무엇인가?",
+      "accepted_answers": [
+        "perception",
+        "인식"
+      ],
+      "answer_type": "term",
+      "explanation": "편애가 실제로 존재하는지보다 인식된 편애가 관계에 큰 영향을 준다.",
+      "source": "의미",
+      "mcq_prompt": "형제 긴장을 높이는 데 특히 중요하게 작동한 것은?"
+    },
+    {
+      "question": "이 논문이 시사하는 형제 지원체계 개입의 초점은 노동 분담만이 아니라 무엇도 함께 다뤄야 한다는 점인가?",
+      "accepted_answers": [
+        "감정",
+        "감정과 인식"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "돌봄 갈등은 정서와 인식의 문제이기도 하다.",
+      "source": "의미",
+      "mcq_prompt": "이 논문이 제안하는 개입 초점으로 가장 적절한 것은?"
+    }
+  ]
+}

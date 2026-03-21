@@ -1,0 +1,186 @@
+{
+  "title": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality 객관식 퀴즈",
+  "instructions": "보기 4개 중 가장 맞는 답을 고르고, 설명으로 왜 맞는지 확인하세요.",
+  "items": [
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 치매가 있는 배우자를 돌보는 역할 수행을 뜻한다.",
+      "options": [
+        "dementia caregiving",
+        "self-rated health",
+        "mortality benefit",
+        "Healthy Caregiver Hypothesis"
+      ],
+      "answer": "dementia caregiving",
+      "explanation": "dementia caregiving: 논문의 핵심 노출 변수다.",
+      "source": "연구 질문"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 개인이 스스로 평가한 건강 수준이다.",
+      "options": [
+        "self-rated health",
+        "mortality benefit",
+        "Healthy Caregiver Hypothesis",
+        "Cox survival model"
+      ],
+      "answer": "self-rated health",
+      "explanation": "self-rated health: 논문에서 효과 수정자 역할을 하는 핵심 변수다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 특정 역할이나 상태가 더 낮은 사망위험과 연결되는 현상이다.",
+      "options": [
+        "mortality benefit",
+        "Healthy Caregiver Hypothesis",
+        "Cox survival model",
+        "all-cause mortality"
+      ],
+      "answer": "mortality benefit",
+      "explanation": "mortality benefit: caregiving survival advantage를 설명하는 표현이다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 원래 건강한 사람이 돌봄 역할에 진입하거나 돌봄이 건강 유지를 촉진할 수 있다는 가설이다.",
+      "options": [
+        "Healthy Caregiver Hypothesis",
+        "Cox survival model",
+        "all-cause mortality",
+        "cause-specific mortality"
+      ],
+      "answer": "Healthy Caregiver Hypothesis",
+      "explanation": "Healthy Caregiver Hypothesis: 논문이 직접 검토하려는 핵심 설명틀이다.",
+      "source": "문제의식"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 시간에 따른 사망위험을 분석하는 생존모형이다.",
+      "options": [
+        "Cox survival model",
+        "all-cause mortality",
+        "cause-specific mortality",
+        "interaction"
+      ],
+      "answer": "Cox survival model",
+      "explanation": "Cox survival model: 논문의 핵심 분석방법이다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 특정 원인을 구분하지 않은 전체 사망을 뜻한다.",
+      "options": [
+        "all-cause mortality",
+        "cause-specific mortality",
+        "interaction",
+        "dementia caregiving"
+      ],
+      "answer": "all-cause mortality",
+      "explanation": "all-cause mortality: 논문의 첫 번째 결과 변수다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 특정 원인별 사망을 따로 구분한 결과 변수다.",
+      "options": [
+        "cause-specific mortality",
+        "interaction",
+        "dementia caregiving",
+        "self-rated health"
+      ],
+      "answer": "cause-specific mortality",
+      "explanation": "cause-specific mortality: 심장질환, 암, 뇌혈관질환 사망을 따로 본 이유를 설명한다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 한 변수의 효과가 다른 변수 수준에 따라 달라지는 현상이다.",
+      "options": [
+        "interaction",
+        "dementia caregiving",
+        "self-rated health",
+        "mortality benefit"
+      ],
+      "answer": "interaction",
+      "explanation": "interaction: 치매돌봄과 자기평가 건강의 교차효과를 읽는 핵심 개념이다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "전체 분석 표본 수는?",
+      "options": [
+        "10,650",
+        "917",
+        "interaction",
+        "Cox survival model"
+      ],
+      "answer": "10,650",
+      "explanation": "기혼 중·노년층 10,650명을 분석했다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "치매 배우자 돌봄자로 분류된 사람 수는?",
+      "options": [
+        "917",
+        "interaction",
+        "Cox survival model",
+        "낮을수록"
+      ],
+      "answer": "917",
+      "explanation": "917명이 치매 배우자 돌봄자였다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "치매돌봄 효과를 읽기 위해 건강상태와의 무엇을 본 것인가?",
+      "options": [
+        "interaction",
+        "Cox survival model",
+        "낮을수록",
+        "heart disease"
+      ],
+      "answer": "interaction",
+      "explanation": "치매돌봄과 자기평가 건강의 interaction이 핵심이다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "시간에 따른 사망위험 분석에 사용한 방법은?",
+      "options": [
+        "Cox survival model",
+        "낮을수록",
+        "heart disease",
+        "Healthy Caregiver Hypothesis"
+      ],
+      "answer": "Cox survival model",
+      "explanation": "생존분석을 사용했다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "치매돌봄의 보호효과가 더 강하게 나타난 집단은?",
+      "options": [
+        "낮을수록",
+        "heart disease",
+        "Healthy Caregiver Hypothesis",
+        "10,650"
+      ],
+      "answer": "낮을수록",
+      "explanation": "건강이 낮다고 평가한 집단에서 보호효과가 더 강했다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "원인별 사망 분석에 포함된 항목으로 맞는 것은?",
+      "options": [
+        "heart disease",
+        "Healthy Caregiver Hypothesis",
+        "10,650",
+        "917"
+      ],
+      "answer": "heart disease",
+      "explanation": "심장질환, 암, 뇌혈관질환을 따로 봤다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "원래 건강한 사람이 돌봄에 들어간다는 설명틀은?",
+      "options": [
+        "Healthy Caregiver Hypothesis",
+        "10,650",
+        "917",
+        "interaction"
+      ],
+      "answer": "Healthy Caregiver Hypothesis",
+      "explanation": "논문의 핵심 설명틀이다.",
+      "source": "문제의식"
+    }
+  ]
+}

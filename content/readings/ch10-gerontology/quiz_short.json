@@ -1,0 +1,152 @@
+{
+  "title": "사회적 노화 III: 친구 및 이웃관계, 사회 관계망 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 선택과 자발성에 기반한 비공식적 사회관계다.",
+      "accepted_answers": [
+        "친구관계"
+      ],
+      "answer_type": "term",
+      "explanation": "친구관계은(는) 가족 밖 관계가 왜 노년기에 중요할 수 있는지 설명한다.",
+      "source": "친구관계의 특성"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 공간적 근접성과 일상적 접촉을 바탕으로 형성되는 비공식 관계다.",
+      "accepted_answers": [
+        "이웃관계"
+      ],
+      "answer_type": "term",
+      "explanation": "이웃관계은(는) 친구와 다른 사회적 자원 경로를 보여 준다.",
+      "source": "이웃관계의 특성"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 친구관계가 선택과 상호 의지 위에서 형성된다는 특징이다.",
+      "accepted_answers": [
+        "자발성"
+      ],
+      "answer_type": "term",
+      "explanation": "자발성은(는) 가족과 친구를 구분하는 핵심 기준이다.",
+      "source": "친구관계의 특성"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 친구가 비슷한 가치, 관심, 생활양식을 지닌 사람들 사이에서 형성되기 쉽다는 특징이다.",
+      "accepted_answers": [
+        "동질성"
+      ],
+      "answer_type": "term",
+      "explanation": "동질성은(는) 왜 친구가 정서적 친밀감을 주기 쉬운지 설명한다.",
+      "source": "친구관계의 특성"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 개인이 맺고 있는 다양한 관계들의 집합을 뜻한다.",
+      "accepted_answers": [
+        "사회 관계망",
+        "social networks"
+      ],
+      "answer_type": "term",
+      "explanation": "사회 관계망은(는) 개별 관계를 넘어 전체 연결 구조를 보게 한다.",
+      "source": "사회 관계망"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 관계망의 규모, 밀도, 구성처럼 관계가 어떻게 배열되어 있는지를 뜻한다.",
+      "accepted_answers": [
+        "구조적 특성"
+      ],
+      "answer_type": "term",
+      "explanation": "구조적 특성은(는) 관계망을 수량과 배치 측면에서 읽게 한다.",
+      "source": "사회 관계망"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 정보, 정서, 실질적 도움처럼 관계망이 실제로 제공하는 기능을 뜻한다.",
+      "accepted_answers": [
+        "기능적 특성"
+      ],
+      "answer_type": "term",
+      "explanation": "기능적 특성은(는) 왜 같은 수의 관계망도 효과가 다를 수 있는지 설명한다.",
+      "source": "사회 관계망"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 타인으로부터 받는 정서적, 정보적, 도구적 도움을 뜻한다.",
+      "accepted_answers": [
+        "사회적 지지"
+      ],
+      "answer_type": "term",
+      "explanation": "사회적 지지은(는) 사회 관계와 건강 연계를 설명하는 핵심 기능이다.",
+      "source": "건강 및 복지 연계"
+    },
+    {
+      "question": "가족 밖 비공식 관계 중 선택과 자발성에 가장 기반한 관계는 무엇인가?",
+      "accepted_answers": [
+        "친구관계",
+        "친구"
+      ],
+      "answer_type": "term",
+      "explanation": "친구관계의 핵심 특성은 자발성이다.",
+      "source": "친구관계의 특성",
+      "mcq_prompt": "선택과 자발성에 기반한 비공식 관계는?"
+    },
+    {
+      "question": "공간적 근접성이 특히 중요한 비공식 관계는 무엇인가?",
+      "accepted_answers": [
+        "이웃관계",
+        "이웃"
+      ],
+      "answer_type": "term",
+      "explanation": "이웃관계는 거리와 일상 접촉이 중요하다.",
+      "source": "이웃관계의 특성",
+      "mcq_prompt": "공간적 근접성이 핵심인 관계는?"
+    },
+    {
+      "question": "개인이 맺는 다양한 관계의 집합을 무엇이라 하는가?",
+      "accepted_answers": [
+        "사회 관계망",
+        "social networks"
+      ],
+      "answer_type": "term",
+      "explanation": "장 전체를 관통하는 핵심 개념이다.",
+      "source": "사회 관계망",
+      "mcq_prompt": "개인이 맺고 있는 다양한 관계의 집합은?"
+    },
+    {
+      "question": "관계망의 규모, 밀도, 구성 같은 면을 무엇이라 하는가?",
+      "accepted_answers": [
+        "구조적 특성"
+      ],
+      "answer_type": "term",
+      "explanation": "구조와 기능을 구분해야 관계망 분석이 선다.",
+      "source": "사회 관계망",
+      "mcq_prompt": "관계망의 배열과 크기를 설명하는 차원은?"
+    },
+    {
+      "question": "정서적·정보적·도구적 도움을 묶어 부르는 말은 무엇인가?",
+      "accepted_answers": [
+        "사회적 지지"
+      ],
+      "answer_type": "term",
+      "explanation": "관계망의 대표적 기능이다.",
+      "source": "건강 및 복지 연계",
+      "mcq_prompt": "관계망이 제공하는 정서·정보·실질 도움을 가리키는 말은?"
+    },
+    {
+      "question": "친구관계가 가족과 구별되는 핵심 선택 기준 중 하나는 비슷한 가치와 관심을 뜻하는 무엇인가?",
+      "accepted_answers": [
+        "동질성"
+      ],
+      "answer_type": "term",
+      "explanation": "친구관계는 동질성을 바탕으로 형성되기 쉽다.",
+      "source": "친구관계의 특성",
+      "mcq_prompt": "친구가 비슷한 사람들 사이에서 형성되기 쉬운 특성은?"
+    },
+    {
+      "question": "관계의 수만이 아니라 실제 도움 제공 여부를 보게 하는 관계망 차원은 무엇인가?",
+      "accepted_answers": [
+        "기능적 특성"
+      ],
+      "answer_type": "term",
+      "explanation": "같은 규모라도 기능이 다르면 효과가 다르다.",
+      "source": "사회 관계망",
+      "mcq_prompt": "관계망이 실제로 무엇을 제공하는지 보는 차원은?"
+    }
+  ]
+}

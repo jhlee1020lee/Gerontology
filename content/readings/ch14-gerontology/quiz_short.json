@@ -1,0 +1,149 @@
+{
+  "title": "노인정책 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 노년기 삶의 안정을 위해 국가와 사회가 마련하는 제도와 지원을 뜻한다.",
+      "accepted_answers": [
+        "노인정책"
+      ],
+      "answer_type": "term",
+      "explanation": "노인정책은(는) 장의 전체 틀이다.",
+      "source": "노인정책의 필요성"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 노년기 기본 생활을 유지하도록 소득을 보전하는 정책 영역이다.",
+      "accepted_answers": [
+        "소득보장"
+      ],
+      "answer_type": "term",
+      "explanation": "소득보장은(는) 노인정책의 첫 축이다.",
+      "source": "소득 보장"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 의료와 돌봄을 통해 노년기 건강을 유지하도록 돕는 정책 영역이다.",
+      "accepted_answers": [
+        "건강보장"
+      ],
+      "answer_type": "term",
+      "explanation": "건강보장은(는) 건강 악화가 개인 문제를 넘어설 때 중요하다.",
+      "source": "건강 보장"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 안정적이고 적절한 거주환경을 확보하도록 지원하는 정책 영역이다.",
+      "accepted_answers": [
+        "주거보장"
+      ],
+      "answer_type": "term",
+      "explanation": "주거보장은(는) 건강과 돌봄의 기반 조건을 만든다.",
+      "source": "주거 보장"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 의식주를 해결하지 못하는 수준의 절대빈곤 문제를 뜻한다.",
+      "accepted_answers": [
+        "절대적 수입문제"
+      ],
+      "answer_type": "term",
+      "explanation": "절대적 수입문제은(는) 최소한의 생존 보장을 왜 정책이 다뤄야 하는지 보여 준다.",
+      "source": "노년기 수입문제"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 생활수준 유지와 생애전이에 따른 소득저하, 불평등 누적을 포함한 수입 문제다.",
+      "accepted_answers": [
+        "상대적 수입문제"
+      ],
+      "answer_type": "term",
+      "explanation": "상대적 수입문제은(는) 노년기 빈곤을 단순 생존 문제보다 넓게 보게 한다.",
+      "source": "노년기 수입문제"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 연금, 의료, 장기요양처럼 노년기 위험을 완충하는 공적 안전망을 뜻한다.",
+      "accepted_answers": [
+        "사회안전보장"
+      ],
+      "answer_type": "term",
+      "explanation": "사회안전보장은(는) 노인의 정책 의존이 왜 커지는지 설명한다.",
+      "source": "노인정책의 필요성"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 노부모 돌봄을 가족이 담당해야 한다는 규범과 실제 부담을 뜻한다.",
+      "accepted_answers": [
+        "가족돌봄 책임"
+      ],
+      "answer_type": "term",
+      "explanation": "가족돌봄 책임은(는) 정책과 가족 책임의 경계를 묻는 핵심 개념이다.",
+      "source": "노인돌봄의 책임"
+    },
+    {
+      "question": "노년기 기본 생활을 유지하도록 소득을 보전하는 정책 영역은 무엇인가?",
+      "accepted_answers": [
+        "소득보장"
+      ],
+      "answer_type": "term",
+      "explanation": "노인정책의 첫 번째 큰 축이다.",
+      "source": "소득 보장",
+      "mcq_prompt": "노년기 기본생활을 위한 정책 영역은?"
+    },
+    {
+      "question": "의료와 돌봄을 통해 건강을 유지하도록 돕는 정책 영역은 무엇인가?",
+      "accepted_answers": [
+        "건강보장"
+      ],
+      "answer_type": "term",
+      "explanation": "의료비와 장기요양 문제를 포함한다.",
+      "source": "건강 보장",
+      "mcq_prompt": "의료와 돌봄을 다루는 정책 영역은?"
+    },
+    {
+      "question": "안정적 거주환경 확보를 위한 정책 영역은 무엇인가?",
+      "accepted_answers": [
+        "주거보장"
+      ],
+      "answer_type": "term",
+      "explanation": "노년기 삶의 기반 조건과 직결된다.",
+      "source": "주거 보장",
+      "mcq_prompt": "안정적 거주환경을 다루는 정책 영역은?"
+    },
+    {
+      "question": "의식주 해결 자체가 어려운 수준의 빈곤 문제를 무엇이라 하는가?",
+      "accepted_answers": [
+        "절대적 수입문제"
+      ],
+      "answer_type": "term",
+      "explanation": "최소 생존 수준의 문제다.",
+      "source": "노년기 수입문제",
+      "mcq_prompt": "최소 생존 수준의 빈곤 문제를 뜻하는 말은?"
+    },
+    {
+      "question": "생활수준 유지와 생애전이에 따른 소득저하까지 포함하는 빈곤 문제를 무엇이라 하는가?",
+      "accepted_answers": [
+        "상대적 수입문제"
+      ],
+      "answer_type": "term",
+      "explanation": "절대빈곤보다 넓은 수입 문제다.",
+      "source": "노년기 수입문제",
+      "mcq_prompt": "생애전이에 따른 생활수준 저하까지 포함하는 수입 문제는?"
+    },
+    {
+      "question": "연금과 의료, 장기요양 같은 공적 안전망을 묶어 부를 수 있는 말은?",
+      "accepted_answers": [
+        "사회안전보장"
+      ],
+      "answer_type": "term",
+      "explanation": "노년기 위험을 완충하는 제도다.",
+      "source": "노인정책의 필요성",
+      "mcq_prompt": "노년기 위험을 완충하는 공적 안전망은?"
+    },
+    {
+      "question": "과거 한국에서 노부모 돌봄을 당연시했던 책임 주체는 누구였는가?",
+      "accepted_answers": [
+        "가족",
+        "가족돌봄 책임"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "산업화 전에는 가족책임 규범이 강했다.",
+      "source": "노인돌봄의 책임",
+      "mcq_prompt": "전통적으로 노부모 돌봄 책임 주체로 여겨졌던 것은?"
+    }
+  ]
+}

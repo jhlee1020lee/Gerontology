@@ -1,0 +1,96 @@
+{
+  "title": "The Worth of Friendship: Can Friends Keep Us Happy and Healthy? OX 퀴즈",
+  "instructions": "문장이 맞으면 O, 틀리면 X를 고른 뒤 바로 아래 설명으로 이유를 확인하세요.",
+  "items": [
+    {
+      "prompt": "friendship은(는) 애정, 동반성, 신뢰, 호혜성을 포함하는 자발적 관계다.",
+      "answer": "O",
+      "explanation": "글 전체의 중심 개념이다.",
+      "source": "What Is Friendship?"
+    },
+    {
+      "prompt": "voluntary tie은(는) 가족처럼 주어진 것이 아니라 선택하고 유지하는 관계를 뜻한다.",
+      "answer": "O",
+      "explanation": "친구관계의 독특성을 가장 잘 보여 준다.",
+      "source": "Unique Features of Friend Ties"
+    },
+    {
+      "prompt": "reciprocity은(는) 서로 주고받는 호혜성이 유지되는 관계 특성이다.",
+      "answer": "O",
+      "explanation": "우정을 건강한 관계로 유지하는 핵심 원리다.",
+      "source": "What Is Friendship?"
+    },
+    {
+      "prompt": "companionship은(는) 함께 시간을 보내며 즐거움과 소속감을 주는 친구의 기능이다.",
+      "answer": "O",
+      "explanation": "친구가 행복에 기여하는 직접 경로다.",
+      "source": "Worth of Friendship"
+    },
+    {
+      "prompt": "emotional support은(는) 위로, 공감, 경청처럼 정서적 안정을 제공하는 도움이다.",
+      "answer": "O",
+      "explanation": "친구가 외로움과 우울을 줄이는 핵심 기능이다.",
+      "source": "Relationships, Health, and Well-being"
+    },
+    {
+      "prompt": "instrumental help은(는) 장보기, 이동 지원, 식사 나눔처럼 실질적으로 제공되는 도움이다.",
+      "answer": "O",
+      "explanation": "친구가 단순 정서 관계가 아니라 실용 자원임을 보여 준다.",
+      "source": "Relationships, Health, and Well-being"
+    },
+    {
+      "prompt": "loneliness intervention은(는) 외로움을 줄이기 위해 친구형성과 유지 기술을 강화하는 개입을 뜻한다.",
+      "answer": "O",
+      "explanation": "우정을 실천적으로 활용할 수 있다는 점을 보여 준다.",
+      "source": "Implications for Professional Practice"
+    },
+    {
+      "prompt": "friendship maintenance은(는) 친구관계를 지속하기 위한 의도적 노력과 기술을 뜻한다.",
+      "answer": "O",
+      "explanation": "우정은 자연발생적 관계가 아니라 관리되는 관계임을 드러낸다.",
+      "source": "Implications for Professional Practice"
+    },
+    {
+      "prompt": "친구는 자발성과 호혜성을 가진 관계로 정의된다.",
+      "answer": "O",
+      "explanation": "friendship의 기본 정의다.",
+      "source": "핵심 개념"
+    },
+    {
+      "prompt": "친구는 노년기에 정서적 위로뿐 아니라 실질적 도움도 제공할 수 있다.",
+      "answer": "O",
+      "explanation": "instrumental help가 대표 사례다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "친구는 있으면 좋은 정도지 노년기 건강과는 큰 관련이 없다.",
+      "answer": "X",
+      "explanation": "친구는 행복, 외로움 완화, 건강행동, 실질 도움과 연결된다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "친구는 자연스럽게 유지되므로 따로 노력이 필요 없다.",
+      "answer": "X",
+      "explanation": "친구형성과 유지에는 의도적 노력과 관계 기술이 필요하다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "친구는 정서적 위로만 주지 실질적 도움은 거의 못 준다.",
+      "answer": "X",
+      "explanation": "장보기, 이동, 식사 공유 같은 instrumental help도 제공할 수 있다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "가족은 늘 부담이고 친구는 늘 건강에 좋다.",
+      "answer": "X",
+      "explanation": "친구도 배신, 비호혜, 무리한 조언으로 스트레스 원천이 될 수 있다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "전문가 개입은 가족 중심이면 충분하고 친구는 고려할 필요가 없다.",
+      "answer": "X",
+      "explanation": "친구를 돌봄계획과 사회통합 개입에 포함할 수 있다.",
+      "source": "헷갈리는 포인트"
+    }
+  ]
+}

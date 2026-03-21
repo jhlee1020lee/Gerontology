@@ -1,0 +1,151 @@
+{
+  "title": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 고령자를 위해 설계된 독립생활 중심 주거공동체를 뜻한다.",
+      "accepted_answers": [
+        "retirement village"
+      ],
+      "answer_type": "term",
+      "explanation": "retirement village은(는) 연구의 현장이다.",
+      "source": "연구 질문"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 타인에게 크게 의존하지 않고 스스로 생활을 유지하려는 상태와 가치다.",
+      "accepted_answers": [
+        "independence"
+      ],
+      "answer_type": "term",
+      "explanation": "independence은(는) 연구의 핵심 주제 중 하나다.",
+      "source": "문제의식"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 도움과 돌봄을 더 많이 필요로 하는 상태를 뜻한다.",
+      "accepted_answers": [
+        "dependence"
+      ],
+      "answer_type": "term",
+      "explanation": "dependence은(는) independence와 충돌하는 두 번째 축이다.",
+      "source": "문제의식"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 특정 집단을 '우리'와 다른 타자로 구분하고 거리 두는 과정이다.",
+      "accepted_answers": [
+        "othering"
+      ],
+      "answer_type": "term",
+      "explanation": "othering은(는) 논문의 핵심 결과를 설명하는 개념이다.",
+      "source": "결과"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 보다 젊고 독립적인 중년성을 오래 유지하려는 지향을 뜻한다.",
+      "accepted_answers": [
+        "prolonged midlife"
+      ],
+      "answer_type": "term",
+      "explanation": "prolonged midlife은(는) 왜 일부 주민이 취약한 이웃을 부담으로 보는지 설명한다.",
+      "source": "결과"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 돌봄시설이 아니라 독립적 생활을 전제로 운영되는 공동체를 뜻한다.",
+      "accepted_answers": [
+        "independent living community"
+      ],
+      "answer_type": "term",
+      "explanation": "independent living community은(는) 공동체 규범이 어떻게 배제를 낳는지 보여 준다.",
+      "source": "방법"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 참여자의 경험과 의미를 깊게 탐색하는 질적 면담 방법이다.",
+      "accepted_answers": [
+        "qualitative interview"
+      ],
+      "answer_type": "term",
+      "explanation": "qualitative interview은(는) 논문의 연구방법을 설명한다.",
+      "source": "방법"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 집단 내부가 동질적이지 않고 다양하다는 특성을 뜻한다.",
+      "accepted_answers": [
+        "heterogeneity"
+      ],
+      "answer_type": "term",
+      "explanation": "heterogeneity은(는) 노년 공동체를 하나의 유형으로 보는 시각을 깨뜨린다.",
+      "source": "의미"
+    },
+    {
+      "question": "이 연구는 몇 개 retirement village에서 진행되었는가?",
+      "accepted_answers": [
+        "8",
+        "8 villages"
+      ],
+      "answer_type": "number",
+      "explanation": "영국과 호주 8개 마을을 포함했다.",
+      "source": "방법",
+      "mcq_prompt": "이 연구가 자료를 수집한 retirement village 수는?"
+    },
+    {
+      "question": "총 몇 명을 인터뷰했는가?",
+      "accepted_answers": [
+        "80"
+      ],
+      "answer_type": "number",
+      "explanation": "총 80명의 주민을 인터뷰했다.",
+      "source": "방법",
+      "mcq_prompt": "총 인터뷰 참여자 수는?"
+    },
+    {
+      "question": "논문이 공동체 내부의 '우리'와 '그들' 구분을 설명할 때 쓰는 핵심 개념은?",
+      "accepted_answers": [
+        "othering"
+      ],
+      "answer_type": "term",
+      "explanation": "배제와 타자화 과정을 설명한다.",
+      "source": "결과",
+      "mcq_prompt": "공동체 내부의 타자화 과정을 가리키는 말은?"
+    },
+    {
+      "question": "독립적 중년성을 오래 유지하려는 지향을 가리키는 표현은?",
+      "accepted_answers": [
+        "prolonged midlife"
+      ],
+      "answer_type": "term",
+      "explanation": "취약한 주민을 거리 두게 만드는 한 맥락이다.",
+      "source": "결과",
+      "mcq_prompt": "독립적 중년성을 오래 유지하려는 지향을 부르는 말은?"
+    },
+    {
+      "question": "이 연구의 주된 방법은 무엇인가?",
+      "accepted_answers": [
+        "qualitative interview",
+        "질적 면담"
+      ],
+      "answer_type": "term",
+      "explanation": "반구조화 면담을 사용했다.",
+      "source": "방법",
+      "mcq_prompt": "이 연구의 핵심 연구방법은?"
+    },
+    {
+      "question": "독립생활을 전제로 운영되는 공동체를 논문은 무엇이라 부르는가?",
+      "accepted_answers": [
+        "independent living community"
+      ],
+      "answer_type": "term",
+      "explanation": "공동체 규범의 핵심 표현이다.",
+      "source": "방법",
+      "mcq_prompt": "독립생활을 전제로 운영되는 공동체를 가리키는 표현은?"
+    },
+    {
+      "question": "논문이 노년 공동체 주민을 어떻게 보아야 한다고 강조하는가?",
+      "accepted_answers": [
+        "heterogeneity",
+        "다양성"
+      ],
+      "answer_type": "term",
+      "explanation": "주민은 동질적 집단이 아니다.",
+      "source": "의미",
+      "mcq_prompt": "이 논문이 강조하는 주민 집단의 특성은?"
+    }
+  ]
+}

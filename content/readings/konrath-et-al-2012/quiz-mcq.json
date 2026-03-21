@@ -1,0 +1,186 @@
+{
+  "title": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults 객관식 퀴즈",
+  "instructions": "보기 4개 중 가장 맞는 답을 고르고, 설명으로 왜 맞는지 확인하세요.",
+  "items": [
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 보수를 목적으로 하지 않고 타인을 위해 시간과 노력을 제공하는 활동이다.",
+      "options": [
+        "volunteering",
+        "other-oriented motives",
+        "self-oriented motives",
+        "mortality risk"
+      ],
+      "answer": "volunteering",
+      "explanation": "volunteering: 논문의 중심 행동이다.",
+      "source": "문제의식"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 타인을 돕고자 하는 타인지향적 봉사 동기를 뜻한다.",
+      "options": [
+        "other-oriented motives",
+        "self-oriented motives",
+        "mortality risk",
+        "eudaimonic well-being"
+      ],
+      "answer": "other-oriented motives",
+      "explanation": "other-oriented motives: 낮은 사망위험과 연결된 핵심 동기다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 자기향상이나 자기보호 같은 자기지향적 봉사 동기를 뜻한다.",
+      "options": [
+        "self-oriented motives",
+        "mortality risk",
+        "eudaimonic well-being",
+        "social resources"
+      ],
+      "answer": "self-oriented motives",
+      "explanation": "self-oriented motives: 행동은 같아도 건강효과가 다를 수 있음을 보여 준다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 일정 기간 안에 사망할 위험을 뜻한다.",
+      "options": [
+        "mortality risk",
+        "eudaimonic well-being",
+        "social resources",
+        "WLS"
+      ],
+      "answer": "mortality risk",
+      "explanation": "mortality risk: 논문의 결과 변수다.",
+      "source": "문제의식"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 깊은 의미와 목적감을 포함하는 안녕을 뜻한다.",
+      "options": [
+        "eudaimonic well-being",
+        "social resources",
+        "WLS",
+        "logistic regression"
+      ],
+      "answer": "eudaimonic well-being",
+      "explanation": "eudaimonic well-being: 왜 타인지향 동기가 건강에 좋을 수 있는지 설명하는 단서다.",
+      "source": "이론적 배경"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 사회적 관계와 상호작용이 제공하는 지원 자원을 뜻한다.",
+      "options": [
+        "social resources",
+        "WLS",
+        "logistic regression",
+        "volunteering"
+      ],
+      "answer": "social resources",
+      "explanation": "social resources: 봉사와 건강의 연결을 설명하는 한 경로다.",
+      "source": "이론적 배경"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? Wisconsin Longitudinal Study의 약자다.",
+      "options": [
+        "WLS",
+        "logistic regression",
+        "volunteering",
+        "other-oriented motives"
+      ],
+      "answer": "WLS",
+      "explanation": "WLS: 논문이 사용하는 데이터셋이다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 사망 여부 같은 이분형 결과를 분석하는 회귀 방법이다.",
+      "options": [
+        "logistic regression",
+        "volunteering",
+        "other-oriented motives",
+        "self-oriented motives"
+      ],
+      "answer": "logistic regression",
+      "explanation": "logistic regression: 논문의 핵심 분석방법이다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "이 논문이 사용한 데이터셋 약자는?",
+      "options": [
+        "WLS",
+        "4",
+        "other-oriented motives",
+        "self-oriented motives"
+      ],
+      "answer": "WLS",
+      "explanation": "Wisconsin Longitudinal Study 자료를 사용했다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "이 논문이 분석한 추적기간은?",
+      "options": [
+        "4",
+        "other-oriented motives",
+        "self-oriented motives",
+        "logistic regression"
+      ],
+      "answer": "4",
+      "explanation": "4년 후 mortality risk를 분석했다.",
+      "source": "문제의식"
+    },
+    {
+      "prompt": "타인지향적 봉사 동기를 가리키는 말은?",
+      "options": [
+        "other-oriented motives",
+        "self-oriented motives",
+        "logistic regression",
+        "eudaimonic well-being"
+      ],
+      "answer": "other-oriented motives",
+      "explanation": "낮은 사망위험과 연결된 동기다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "자기지향적 봉사 동기를 가리키는 말은?",
+      "options": [
+        "self-oriented motives",
+        "logistic regression",
+        "eudaimonic well-being",
+        "mortality risk"
+      ],
+      "answer": "self-oriented motives",
+      "explanation": "비자원봉사자와 비슷한 사망위험을 보였다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "이 논문이 사용한 분석방법은?",
+      "options": [
+        "logistic regression",
+        "eudaimonic well-being",
+        "mortality risk",
+        "WLS"
+      ],
+      "answer": "logistic regression",
+      "explanation": "논문의 핵심 방법론이다.",
+      "source": "방법"
+    },
+    {
+      "prompt": "의미와 목적 중심 안녕 개념은?",
+      "options": [
+        "eudaimonic well-being",
+        "mortality risk",
+        "WLS",
+        "4"
+      ],
+      "answer": "eudaimonic well-being",
+      "explanation": "봉사동기의 차이를 해석하는 데 쓰인다.",
+      "source": "이론적 배경"
+    },
+    {
+      "prompt": "타인지향 봉사동기가 낮춘 것으로 보고된 것은?",
+      "options": [
+        "mortality risk",
+        "WLS",
+        "4",
+        "other-oriented motives"
+      ],
+      "answer": "mortality risk",
+      "explanation": "봉사동기와 연결된 핵심 결과 변수다.",
+      "source": "결과"
+    }
+  ]
+}

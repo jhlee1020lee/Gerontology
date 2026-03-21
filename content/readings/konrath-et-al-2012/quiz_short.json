@@ -1,0 +1,150 @@
+{
+  "title": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 보수를 목적으로 하지 않고 타인을 위해 시간과 노력을 제공하는 활동이다.",
+      "accepted_answers": [
+        "volunteering"
+      ],
+      "answer_type": "term",
+      "explanation": "volunteering은(는) 논문의 중심 행동이다.",
+      "source": "문제의식"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 타인을 돕고자 하는 타인지향적 봉사 동기를 뜻한다.",
+      "accepted_answers": [
+        "other-oriented motives"
+      ],
+      "answer_type": "term",
+      "explanation": "other-oriented motives은(는) 낮은 사망위험과 연결된 핵심 동기다.",
+      "source": "결과"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 자기향상이나 자기보호 같은 자기지향적 봉사 동기를 뜻한다.",
+      "accepted_answers": [
+        "self-oriented motives"
+      ],
+      "answer_type": "term",
+      "explanation": "self-oriented motives은(는) 행동은 같아도 건강효과가 다를 수 있음을 보여 준다.",
+      "source": "결과"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 일정 기간 안에 사망할 위험을 뜻한다.",
+      "accepted_answers": [
+        "mortality risk"
+      ],
+      "answer_type": "term",
+      "explanation": "mortality risk은(는) 논문의 결과 변수다.",
+      "source": "문제의식"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 깊은 의미와 목적감을 포함하는 안녕을 뜻한다.",
+      "accepted_answers": [
+        "eudaimonic well-being"
+      ],
+      "answer_type": "term",
+      "explanation": "eudaimonic well-being은(는) 왜 타인지향 동기가 건강에 좋을 수 있는지 설명하는 단서다.",
+      "source": "이론적 배경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 사회적 관계와 상호작용이 제공하는 지원 자원을 뜻한다.",
+      "accepted_answers": [
+        "social resources"
+      ],
+      "answer_type": "term",
+      "explanation": "social resources은(는) 봉사와 건강의 연결을 설명하는 한 경로다.",
+      "source": "이론적 배경"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? Wisconsin Longitudinal Study의 약자다.",
+      "accepted_answers": [
+        "WLS",
+        "Wisconsin Longitudinal Study"
+      ],
+      "answer_type": "term",
+      "explanation": "WLS은(는) 논문이 사용하는 데이터셋이다.",
+      "source": "방법"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 사망 여부 같은 이분형 결과를 분석하는 회귀 방법이다.",
+      "accepted_answers": [
+        "logistic regression"
+      ],
+      "answer_type": "term",
+      "explanation": "logistic regression은(는) 논문의 핵심 분석방법이다.",
+      "source": "방법"
+    },
+    {
+      "question": "이 논문이 사용한 데이터셋의 약자는 무엇인가?",
+      "accepted_answers": [
+        "WLS"
+      ],
+      "answer_type": "term",
+      "explanation": "Wisconsin Longitudinal Study 자료를 사용했다.",
+      "source": "방법",
+      "mcq_prompt": "이 논문이 사용한 데이터셋 약자는?"
+    },
+    {
+      "question": "이 논문은 몇 년 뒤 사망위험을 보았는가?",
+      "accepted_answers": [
+        "4",
+        "4 years"
+      ],
+      "answer_type": "number",
+      "explanation": "4년 후 mortality risk를 분석했다.",
+      "source": "문제의식",
+      "mcq_prompt": "이 논문이 분석한 추적기간은?"
+    },
+    {
+      "question": "타인을 돕고자 하는 봉사 동기를 무엇이라 하는가?",
+      "accepted_answers": [
+        "other-oriented motives"
+      ],
+      "answer_type": "term",
+      "explanation": "낮은 사망위험과 연결된 동기다.",
+      "source": "결과",
+      "mcq_prompt": "타인지향적 봉사 동기를 가리키는 말은?"
+    },
+    {
+      "question": "자기향상이나 자기보호에 가까운 봉사 동기를 무엇이라 하는가?",
+      "accepted_answers": [
+        "self-oriented motives"
+      ],
+      "answer_type": "term",
+      "explanation": "비자원봉사자와 비슷한 사망위험을 보였다.",
+      "source": "결과",
+      "mcq_prompt": "자기지향적 봉사 동기를 가리키는 말은?"
+    },
+    {
+      "question": "사망 여부 같은 이분형 결과를 분석하는 방법은 무엇인가?",
+      "accepted_answers": [
+        "logistic regression"
+      ],
+      "answer_type": "term",
+      "explanation": "논문의 핵심 방법론이다.",
+      "source": "방법",
+      "mcq_prompt": "이 논문이 사용한 분석방법은?"
+    },
+    {
+      "question": "깊은 의미와 목적감을 강조하는 안녕 개념은 무엇인가?",
+      "accepted_answers": [
+        "eudaimonic well-being"
+      ],
+      "answer_type": "term",
+      "explanation": "봉사동기의 차이를 해석하는 데 쓰인다.",
+      "source": "이론적 배경",
+      "mcq_prompt": "의미와 목적 중심 안녕 개념은?"
+    },
+    {
+      "question": "타인지향 동기가 있을 때 낮아진 결과 변수는 무엇인가?",
+      "accepted_answers": [
+        "mortality risk"
+      ],
+      "answer_type": "term",
+      "explanation": "봉사동기와 연결된 핵심 결과 변수다.",
+      "source": "결과",
+      "mcq_prompt": "타인지향 봉사동기가 낮춘 것으로 보고된 것은?"
+    }
+  ]
+}

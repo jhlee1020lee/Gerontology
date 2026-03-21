@@ -1,0 +1,150 @@
+{
+  "title": "노년기 건강 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 건강을 신체, 정신, 사회적 차원을 함께 가진 상태로 보는 관점이다.",
+      "accepted_answers": [
+        "건강의 다차원성"
+      ],
+      "answer_type": "term",
+      "explanation": "건강의 다차원성은(는) 질병 유무만으로 건강을 정의하지 않게 해 준다.",
+      "source": "건강의 정의"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 건강을 단순한 질병 부재가 아니라 신체적·정신적·사회적 안녕 상태로 보는 정의다.",
+      "accepted_answers": [
+        "WHO 건강 정의",
+        "WHO 정의"
+      ],
+      "answer_type": "term",
+      "explanation": "WHO 건강 정의은(는) 장 전체의 출발점이 되는 건강관이다.",
+      "source": "건강의 정의"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 일상적 활동과 역할 수행에서 나타나는 제한 정도를 뜻한다.",
+      "accepted_answers": [
+        "활동제한"
+      ],
+      "answer_type": "term",
+      "explanation": "활동제한은(는) 노년기 신체건강을 기능 측면에서 평가하게 한다.",
+      "source": "신체건강"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 의학적 진단과 병적 상태를 기준으로 건강을 평가하는 지표다.",
+      "accepted_answers": [
+        "질병지표"
+      ],
+      "answer_type": "term",
+      "explanation": "질병지표은(는) 기능지표와 함께 건강평가의 두 축을 이룬다.",
+      "source": "신체건강"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 우울, 불안, 심리적 안녕과 적응 상태를 포함한 건강 차원이다.",
+      "accepted_answers": [
+        "정신건강"
+      ],
+      "answer_type": "term",
+      "explanation": "정신건강은(는) 노년기 삶의 질과 직접 연결된다.",
+      "source": "정신건강"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 인지기능 저하와 일상기능 손상을 동반하는 대표적 노년기 질환군이다.",
+      "accepted_answers": [
+        "치매"
+      ],
+      "answer_type": "term",
+      "explanation": "치매은(는) 정상노화와 구분해야 하는 핵심 주제다.",
+      "source": "치매"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 개인이 실제로 일상활동을 얼마나 수행할 수 있는지 보는 건강평가 방식이다.",
+      "accepted_answers": [
+        "기능평가"
+      ],
+      "answer_type": "term",
+      "explanation": "기능평가은(는) 노년기 건강상태를 생활세계와 연결한다.",
+      "source": "신체건강"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 노인 건강문제가 개인뿐 아니라 가족과 사회에 발생시키는 시간·에너지·경제 부담을 뜻한다.",
+      "accepted_answers": [
+        "건강비용"
+      ],
+      "answer_type": "term",
+      "explanation": "건강비용은(는) 건강을 사회문제로 보게 한다.",
+      "source": "도입"
+    },
+    {
+      "question": "건강을 단순한 질병 부재가 아니라 안녕 상태로 정의한 국제기구는 어디인가?",
+      "accepted_answers": [
+        "WHO",
+        "세계보건기구"
+      ],
+      "answer_type": "term",
+      "explanation": "장의 출발점이 되는 정의다.",
+      "source": "건강의 정의",
+      "mcq_prompt": "건강을 다차원적 안녕 상태로 정의한 기관은?"
+    },
+    {
+      "question": "일상 활동 수행에서 나타나는 제한 정도를 무엇이라 하는가?",
+      "accepted_answers": [
+        "활동제한"
+      ],
+      "answer_type": "term",
+      "explanation": "노년기 기능중심 건강평가의 핵심이다.",
+      "source": "신체건강",
+      "mcq_prompt": "일상 역할 수행의 제한 정도를 뜻하는 말은?"
+    },
+    {
+      "question": "의학적 진단과 병적 상태에 근거한 건강평가 지표는 무엇인가?",
+      "accepted_answers": [
+        "질병지표"
+      ],
+      "answer_type": "term",
+      "explanation": "기능지표와 대비되는 평가축이다.",
+      "source": "신체건강",
+      "mcq_prompt": "의학적 진단 중심 건강평가 지표는?"
+    },
+    {
+      "question": "노년기 건강문제가 개인뿐 아니라 가족과 사회에 발생시키는 부담을 무엇이라 부를 수 있는가?",
+      "accepted_answers": [
+        "건강비용"
+      ],
+      "answer_type": "term",
+      "explanation": "의료비, 돌봄, 시간 비용이 모두 포함된다.",
+      "source": "도입",
+      "mcq_prompt": "노년기 건강문제가 사회에 발생시키는 부담을 가리키는 말은?"
+    },
+    {
+      "question": "신체와 정신으로 하나만 분류하기 어려운 노년기 대표 건강문제는 무엇인가?",
+      "accepted_answers": [
+        "치매"
+      ],
+      "answer_type": "term",
+      "explanation": "이 장은 치매를 별도 절로 다룬다.",
+      "source": "치매",
+      "mcq_prompt": "신체·정신 어느 한쪽으로만 분류하기 어려운 대표 노년기 문제는?"
+    },
+    {
+      "question": "우울과 불안, 심리적 적응을 포함하는 건강 차원은 무엇인가?",
+      "accepted_answers": [
+        "정신건강"
+      ],
+      "answer_type": "term",
+      "explanation": "노년기 삶의 질과 직접 연결된다.",
+      "source": "정신건강",
+      "mcq_prompt": "우울과 심리적 적응을 포함하는 건강 차원은?"
+    },
+    {
+      "question": "실제 생활수행 능력을 기준으로 건강을 보는 평가는 무엇인가?",
+      "accepted_answers": [
+        "기능평가"
+      ],
+      "answer_type": "term",
+      "explanation": "노인의 실제 일상 수행 능력을 중시한다.",
+      "source": "신체건강",
+      "mcq_prompt": "일상 수행능력을 중심으로 건강을 보는 평가는?"
+    }
+  ]
+}

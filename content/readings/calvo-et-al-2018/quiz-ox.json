@@ -1,0 +1,96 @@
+{
+  "title": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race OX 퀴즈",
+  "instructions": "문장이 맞으면 O, 틀리면 X를 고른 뒤 바로 아래 설명으로 이유를 확인하세요.",
+  "items": [
+    {
+      "prompt": "retirement sequence은(는) 시간에 따라 배열된 노동상태와 전환의 연속을 뜻한다.",
+      "answer": "O",
+      "explanation": "은퇴를 단일 사건이 아니라 과정으로 읽게 한다.",
+      "source": "연구방법"
+    },
+    {
+      "prompt": "sequence analysis은(는) 상태와 전환의 순서 전체를 분석하는 방법이다.",
+      "answer": "O",
+      "explanation": "논문의 핵심 방법론이다.",
+      "source": "연구방법"
+    },
+    {
+      "prompt": "destandardization은(는) 전통적이고 규범적인 생애 경로가 약해지고 경로 다양성이 커지는 현상을 뜻한다.",
+      "answer": "O",
+      "explanation": "은퇴 변화의 핵심 논쟁점이다.",
+      "source": "문제의식"
+    },
+    {
+      "prompt": "reversible order은(는) 은퇴 이후 다시 일로 복귀하거나 상태가 역전되는 경로를 뜻한다.",
+      "answer": "O",
+      "explanation": "탈표준화의 한 기준이다.",
+      "source": "이론적 배경"
+    },
+    {
+      "prompt": "age-grading은(는) 특정 전환이 특정 연령대에 규범적으로 배치되는 현상을 뜻한다.",
+      "answer": "O",
+      "explanation": "완전한 탈표준화가 아니라는 증거로 사용된다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "unretirement은(는) 한 번 은퇴한 뒤 다시 노동시장으로 복귀하는 현상이다.",
+      "answer": "O",
+      "explanation": "역전 가능한 경로의 대표 사례다.",
+      "source": "이론적 배경"
+    },
+    {
+      "prompt": "stratification은(는) 경로 차이가 사회집단별로 불평등하게 분배되는 현상을 뜻한다.",
+      "answer": "O",
+      "explanation": "이 논문의 두 번째 핵심 축이다.",
+      "source": "층화 결과"
+    },
+    {
+      "prompt": "HRS은(는) Health and Retirement Study의 약자로 미국 중·노년층 종단자료다.",
+      "answer": "O",
+      "explanation": "논문이 사용하는 대표 데이터셋이다.",
+      "source": "연구방법"
+    },
+    {
+      "prompt": "이 논문은 은퇴를 상태가 아니라 시퀀스로 보는 접근을 강조한다.",
+      "answer": "O",
+      "explanation": "sequence approach가 핵심 기여다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "여성, 저학력층, 흑인 집단에서는 더 불안정한 은퇴 경로가 더 자주 나타났다.",
+      "answer": "O",
+      "explanation": "은퇴 경로는 highly stratified 되어 있었다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "은퇴는 완전히 개인화되어 이제 규범적 경로가 거의 없다.",
+      "answer": "X",
+      "explanation": "비전형 경로가 늘었지만 age-grading과 비가역성은 여전히 남아 있다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "전환 하나만 보면 은퇴를 충분히 설명할 수 있다.",
+      "answer": "X",
+      "explanation": "저자들은 상태와 전환의 배열 전체, 즉 sequence를 봐야 한다고 주장한다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "은퇴 경로 다양성은 모두 자유로운 선택의 결과다.",
+      "answer": "X",
+      "explanation": "젠더, 계급, 인종에 따른 stratification이 강하게 작동한다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "unretirement는 아주 드문 예외라 논의할 필요가 없다.",
+      "answer": "X",
+      "explanation": "역전 가능한 경로는 탈표준화 논쟁에서 중요한 지표다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "비전형 경로가 많다는 말은 은퇴 질서가 완전히 무너졌다는 뜻이다.",
+      "answer": "X",
+      "explanation": "비전형 증가와 잔존 규범성은 동시에 존재할 수 있다.",
+      "source": "헷갈리는 포인트"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "title": "사회적 노화 II: 중노년기 부부관계 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 가족이 형성, 확대, 축소, 소멸을 거치며 변하는 과정을 설명하는 개념이다.",
+      "accepted_answers": [
+        "가족생활주기"
+      ],
+      "answer_type": "term",
+      "explanation": "가족생활주기은(는) 부부만 남는 기간이 왜 길어졌는지 구조적으로 설명한다.",
+      "source": "가족생활주기의 변화"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 자녀가 독립한 뒤 부부만 남아 있는 가족생활주기 단계다.",
+      "accepted_answers": [
+        "축소완료기"
+      ],
+      "answer_type": "term",
+      "explanation": "축소완료기은(는) 노년기 부부관계가 삶의 중심이 되는 시기를 가리킨다.",
+      "source": "가족생활주기"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 은퇴, 건강, 돌봄, 자녀 독립 이후를 포함한 생애 후반기 부부 상호작용을 뜻한다.",
+      "accepted_answers": [
+        "중노년기 부부관계"
+      ],
+      "answer_type": "term",
+      "explanation": "중노년기 부부관계은(는) 청년기 결혼과 다른 노년기 특수성을 설명한다.",
+      "source": "부부관계의 변화"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 생애 후반기에 이루어지는 이혼을 뜻한다.",
+      "accepted_answers": [
+        "황혼이혼"
+      ],
+      "answer_type": "term",
+      "explanation": "황혼이혼은(는) 노년기 결혼 해체를 사별과 구분해 읽게 한다.",
+      "source": "결혼 해체"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 배우자의 죽음으로 결혼관계가 종료되는 경험이다.",
+      "accepted_answers": [
+        "사별"
+      ],
+      "answer_type": "term",
+      "explanation": "사별은(는) 이혼과 달리 상실과 애도의 문제가 중심이 된다.",
+      "source": "결혼 해체"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 법적으로 이혼하지 않은 채 서로 간섭을 줄이고 독립적으로 사는 생활 방식을 가리키는 말이다.",
+      "accepted_answers": [
+        "졸혼"
+      ],
+      "answer_type": "term",
+      "explanation": "졸혼은(는) 법적 해체와 관계 재조정을 구분하는 데 도움이 된다.",
+      "source": "도입 사례"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 친밀감, 갈등, 지지, 만족도를 포함한 부부 상호작용의 전반적 수준이다.",
+      "accepted_answers": [
+        "부부관계의 질"
+      ],
+      "answer_type": "term",
+      "explanation": "부부관계의 질은(는) 결혼 여부보다 관계의 질이 왜 중요한지 설명한다.",
+      "source": "결혼의 중요성"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 건강이 약화된 배우자를 일상적으로 돌보는 역할 수행을 뜻한다.",
+      "accepted_answers": [
+        "배우자 돌봄"
+      ],
+      "answer_type": "term",
+      "explanation": "배우자 돌봄은(는) 노년기 부부관계가 정서적 유대이자 돌봄 관계라는 점을 드러낸다.",
+      "source": "부부관계의 변화"
+    },
+    {
+      "question": "자녀가 모두 독립한 뒤 부부만 남는 가족생활주기 단계를 무엇이라 하는가?",
+      "accepted_answers": [
+        "축소완료기"
+      ],
+      "answer_type": "term",
+      "explanation": "중·노년기 부부관계의 중요성을 높이는 단계다.",
+      "source": "가족생활주기",
+      "mcq_prompt": "노년기 부부만 남는 가족생활주기 단계는?"
+    },
+    {
+      "question": "법적으로는 이혼하지 않았지만 서로 간섭을 줄이고 독립적으로 사는 방식을 무엇이라 부르는가?",
+      "accepted_answers": [
+        "졸혼"
+      ],
+      "answer_type": "term",
+      "explanation": "노년기 관계 재조정을 상징하는 신조어다.",
+      "source": "도입 사례",
+      "mcq_prompt": "법적 이혼 없이 독립적으로 지내는 방식을 부르는 말은?"
+    },
+    {
+      "question": "배우자의 죽음으로 결혼관계가 끝나는 경험은 무엇인가?",
+      "accepted_answers": [
+        "사별"
+      ],
+      "answer_type": "term",
+      "explanation": "노년기 결혼 해체에서 가장 전형적인 형태 중 하나다.",
+      "source": "결혼 해체",
+      "mcq_prompt": "배우자 사망으로 관계가 종료되는 경험은?"
+    },
+    {
+      "question": "생애 후반기의 이혼을 가리키는 표현은 무엇인가?",
+      "accepted_answers": [
+        "황혼이혼"
+      ],
+      "answer_type": "term",
+      "explanation": "사별과 구분되는 결혼 해체 유형이다.",
+      "source": "결혼 해체",
+      "mcq_prompt": "생애 후반기 이혼을 가리키는 말은?"
+    },
+    {
+      "question": "길어진 부부기간은 결혼의 무엇을 더 중요하게 만드는가?",
+      "accepted_answers": [
+        "관계의 질",
+        "부부관계의 질"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "함께 사는 시간이 길수록 관계 질의 효과가 더 커진다.",
+      "source": "결혼의 중요성",
+      "mcq_prompt": "수명 연장으로 특히 중요해진 것은 결혼의 무엇인가?"
+    },
+    {
+      "question": "은퇴 이후 노년기 적응에 큰 영향을 주는 생애사건은 무엇인가?",
+      "accepted_answers": [
+        "은퇴",
+        "일로부터의 은퇴"
+      ],
+      "answer_type": "term",
+      "explanation": "일상 구조와 자아정체성을 바꾸며 부부관계도 재조정한다.",
+      "source": "부부관계의 변화",
+      "mcq_prompt": "부부 일상과 관계 재조정을 촉진하는 주요 사건은?"
+    },
+    {
+      "question": "노년기 부부관계를 해석할 때 결혼 여부만큼 함께 봐야 하는 것은 무엇인가?",
+      "accepted_answers": [
+        "부부관계의 질",
+        "관계의 질"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "같은 결혼이라도 지지와 갈등의 수준이 결과를 바꾼다.",
+      "source": "결혼의 중요성",
+      "mcq_prompt": "노년기 결혼의 효과를 판단할 때 반드시 함께 봐야 하는 것은?"
+    }
+  ]
+}

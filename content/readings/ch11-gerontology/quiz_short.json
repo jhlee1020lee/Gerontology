@@ -1,0 +1,149 @@
+{
+  "title": "노년기 일과 은퇴 단답형 퀴즈",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
+  "items": [
+    {
+      "question": "다음 설명에 해당하는 용어는? 노년기에 지속되거나 새롭게 시작되는 경제활동을 뜻한다.",
+      "accepted_answers": [
+        "노년기 노동"
+      ],
+      "answer_type": "term",
+      "explanation": "노년기 노동은(는) 노년기 일을 주변 현상이 아니라 주요 생활영역으로 보게 한다.",
+      "source": "노년기 일에 대한 사회적 인식"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 주된 직업이나 노동시장으로부터 물러나는 생애사건을 뜻한다.",
+      "accepted_answers": [
+        "은퇴"
+      ],
+      "answer_type": "term",
+      "explanation": "은퇴은(는) 이 장의 핵심 전환점이다.",
+      "source": "일로부터의 은퇴"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 실제로 노동시장을 완전히 떠나는 연령을 뜻한다.",
+      "accepted_answers": [
+        "유효은퇴연령"
+      ],
+      "answer_type": "term",
+      "explanation": "유효은퇴연령은(는) 형식적 퇴직연령과 실제 노동시장 이탈을 구분하게 한다.",
+      "source": "노년기 노동시장 참여"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 노년기에도 활동성과 참여를 유지하는 것이 바람직하다는 관점이다.",
+      "accepted_answers": [
+        "active aging"
+      ],
+      "answer_type": "term",
+      "explanation": "active aging은(는) 노년기 일의 의미를 긍정적으로 재구성하는 담론이다.",
+      "source": "노년기 일에 대한 사회적 인식"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 개인이 스스로를 누구라고 느끼는 자기 인식의 틀이다.",
+      "accepted_answers": [
+        "자아정체감"
+      ],
+      "answer_type": "term",
+      "explanation": "자아정체감은(는) 일이 왜 노년기에도 중요하게 남는지 설명한다.",
+      "source": "일의 의미"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 은퇴 이후 변화한 생활, 역할, 관계에 맞추어 자신을 재조정하는 과정이다.",
+      "accepted_answers": [
+        "은퇴적응"
+      ],
+      "answer_type": "term",
+      "explanation": "은퇴적응은(는) 은퇴를 단순 종료가 아니라 과정으로 보게 한다.",
+      "source": "은퇴와 적응"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 은퇴 이후 삶을 준비하도록 돕는 체계적 교육과 지원을 뜻한다.",
+      "accepted_answers": [
+        "은퇴준비교육"
+      ],
+      "answer_type": "term",
+      "explanation": "은퇴준비교육은(는) 경제, 시간, 건강, 관계를 함께 준비하게 한다.",
+      "source": "은퇴준비교육"
+    },
+    {
+      "question": "다음 설명에 해당하는 용어는? 일이 하루의 시간표와 생활 패턴을 조직하는 기능을 뜻한다.",
+      "accepted_answers": [
+        "일상 구조화"
+      ],
+      "answer_type": "term",
+      "explanation": "일상 구조화은(는) 은퇴가 왜 공허감과 혼란을 만들 수 있는지 설명한다.",
+      "source": "일의 의미"
+    },
+    {
+      "question": "은퇴 이후 삶을 준비하도록 돕는 체계적 지원은 무엇이라 하는가?",
+      "accepted_answers": [
+        "은퇴준비교육"
+      ],
+      "answer_type": "term",
+      "explanation": "경제 준비만이 아니라 생활 전반 준비를 포함한다.",
+      "source": "은퇴준비교육",
+      "mcq_prompt": "은퇴 이후 삶 전반을 준비하게 돕는 지원은?"
+    },
+    {
+      "question": "실제로 노동시장을 완전히 떠나는 연령을 무엇이라 하는가?",
+      "accepted_answers": [
+        "유효은퇴연령"
+      ],
+      "answer_type": "term",
+      "explanation": "형식적 퇴직연령과 다를 수 있다.",
+      "source": "노년기 노동시장 참여",
+      "mcq_prompt": "실제 노동시장 이탈 연령을 뜻하는 말은?"
+    },
+    {
+      "question": "일이 하루의 패턴과 시간표를 만드는 기능을 무엇이라 하는가?",
+      "accepted_answers": [
+        "일상 구조화"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "은퇴 충격을 설명하는 핵심 기능이다.",
+      "source": "일의 의미",
+      "mcq_prompt": "일이 하루를 조직하는 기능을 가리키는 말은?"
+    },
+    {
+      "question": "일이 노년기에도 중요한 이유 중 하나로, 자신을 표현하고 소속감을 주는 기능은 무엇과 관련되는가?",
+      "accepted_answers": [
+        "자아정체감"
+      ],
+      "answer_type": "term",
+      "explanation": "직업은 자기 인식의 큰 부분을 차지할 수 있다.",
+      "source": "일의 의미",
+      "mcq_prompt": "직업이 제공하는 자기 인식 기능과 가장 관련된 것은?"
+    },
+    {
+      "question": "노년기에도 활동성과 참여를 유지하는 것이 바람직하다는 담론은?",
+      "accepted_answers": [
+        "active aging"
+      ],
+      "answer_type": "term",
+      "explanation": "노년기 노동을 긍정적으로 보는 배경이다.",
+      "source": "노년기 일에 대한 사회적 인식",
+      "mcq_prompt": "노년기 활동 지속을 긍정적으로 보는 담론은?"
+    },
+    {
+      "question": "은퇴 후에도 계속 일을 하려는 이유는 생활비 외에 무엇이 자주 언급되는가?",
+      "accepted_answers": [
+        "보람",
+        "즐거움"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "일은 의미와 만족의 원천이기도 하다.",
+      "source": "노년기 일에 대한 사회적 인식",
+      "mcq_prompt": "생활비 외에 노년층이 일을 계속하려는 이유로 자주 언급되는 것은?"
+    },
+    {
+      "question": "은퇴 이후 변화한 생활과 역할에 자신을 맞추는 과정을 무엇이라 하는가?",
+      "accepted_answers": [
+        "은퇴적응"
+      ],
+      "answer_type": "term",
+      "explanation": "은퇴를 사건이 아니라 과정으로 이해하는 핵심 표현이다.",
+      "source": "은퇴와 적응",
+      "mcq_prompt": "은퇴 이후 삶을 재조정하는 과정을 가리키는 말은?"
+    }
+  ]
+}

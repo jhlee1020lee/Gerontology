@@ -1,0 +1,186 @@
+{
+  "title": "The Worth of Friendship: Can Friends Keep Us Happy and Healthy? 객관식 퀴즈",
+  "instructions": "보기 4개 중 가장 맞는 답을 고르고, 설명으로 왜 맞는지 확인하세요.",
+  "items": [
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 애정, 동반성, 신뢰, 호혜성을 포함하는 자발적 관계다.",
+      "options": [
+        "friendship",
+        "voluntary tie",
+        "reciprocity",
+        "companionship"
+      ],
+      "answer": "friendship",
+      "explanation": "friendship: 글 전체의 중심 개념이다.",
+      "source": "What Is Friendship?"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 가족처럼 주어진 것이 아니라 선택하고 유지하는 관계를 뜻한다.",
+      "options": [
+        "voluntary tie",
+        "reciprocity",
+        "companionship",
+        "emotional support"
+      ],
+      "answer": "voluntary tie",
+      "explanation": "voluntary tie: 친구관계의 독특성을 가장 잘 보여 준다.",
+      "source": "Unique Features of Friend Ties"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 서로 주고받는 호혜성이 유지되는 관계 특성이다.",
+      "options": [
+        "reciprocity",
+        "companionship",
+        "emotional support",
+        "instrumental help"
+      ],
+      "answer": "reciprocity",
+      "explanation": "reciprocity: 우정을 건강한 관계로 유지하는 핵심 원리다.",
+      "source": "What Is Friendship?"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 함께 시간을 보내며 즐거움과 소속감을 주는 친구의 기능이다.",
+      "options": [
+        "companionship",
+        "emotional support",
+        "instrumental help",
+        "loneliness intervention"
+      ],
+      "answer": "companionship",
+      "explanation": "companionship: 친구가 행복에 기여하는 직접 경로다.",
+      "source": "Worth of Friendship"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 위로, 공감, 경청처럼 정서적 안정을 제공하는 도움이다.",
+      "options": [
+        "emotional support",
+        "instrumental help",
+        "loneliness intervention",
+        "friendship maintenance"
+      ],
+      "answer": "emotional support",
+      "explanation": "emotional support: 친구가 외로움과 우울을 줄이는 핵심 기능이다.",
+      "source": "Relationships, Health, and Well-being"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 장보기, 이동 지원, 식사 나눔처럼 실질적으로 제공되는 도움이다.",
+      "options": [
+        "instrumental help",
+        "loneliness intervention",
+        "friendship maintenance",
+        "friendship"
+      ],
+      "answer": "instrumental help",
+      "explanation": "instrumental help: 친구가 단순 정서 관계가 아니라 실용 자원임을 보여 준다.",
+      "source": "Relationships, Health, and Well-being"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 외로움을 줄이기 위해 친구형성과 유지 기술을 강화하는 개입을 뜻한다.",
+      "options": [
+        "loneliness intervention",
+        "friendship maintenance",
+        "friendship",
+        "voluntary tie"
+      ],
+      "answer": "loneliness intervention",
+      "explanation": "loneliness intervention: 우정을 실천적으로 활용할 수 있다는 점을 보여 준다.",
+      "source": "Implications for Professional Practice"
+    },
+    {
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 친구관계를 지속하기 위한 의도적 노력과 기술을 뜻한다.",
+      "options": [
+        "friendship maintenance",
+        "friendship",
+        "voluntary tie",
+        "reciprocity"
+      ],
+      "answer": "friendship maintenance",
+      "explanation": "friendship maintenance: 우정은 자연발생적 관계가 아니라 관리되는 관계임을 드러낸다.",
+      "source": "Implications for Professional Practice"
+    },
+    {
+      "prompt": "이 글의 저자로 맞는 사람은?",
+      "options": [
+        "Rosemary Blieszner",
+        "reciprocity",
+        "instrumental help",
+        "loneliness intervention"
+      ],
+      "answer": "Rosemary Blieszner",
+      "explanation": "노년기 우정 연구를 정리한 글이다.",
+      "source": "표지 정보"
+    },
+    {
+      "prompt": "우정의 핵심 관계 원리로 가장 적절한 것은?",
+      "options": [
+        "reciprocity",
+        "instrumental help",
+        "loneliness intervention",
+        "friendship"
+      ],
+      "answer": "reciprocity",
+      "explanation": "호혜성은 우정 정의의 핵심이다.",
+      "source": "What Is Friendship?"
+    },
+    {
+      "prompt": "친구가 제공하는 실질적 도움을 가리키는 표현은?",
+      "options": [
+        "instrumental help",
+        "loneliness intervention",
+        "friendship",
+        "friendship maintenance"
+      ],
+      "answer": "instrumental help",
+      "explanation": "친구는 실질적 도움도 제공한다.",
+      "source": "Relationships, Health, and Well-being"
+    },
+    {
+      "prompt": "외로움 완화를 위해 친구기술을 강화하는 개입은?",
+      "options": [
+        "loneliness intervention",
+        "friendship",
+        "friendship maintenance",
+        "비공식 자원"
+      ],
+      "answer": "loneliness intervention",
+      "explanation": "글은 실제 프로그램 사례를 소개한다.",
+      "source": "Implications for Professional Practice"
+    },
+    {
+      "prompt": "덜 의무적이어서 행복감에 더 크게 기여할 수 있는 관계는?",
+      "options": [
+        "friendship",
+        "friendship maintenance",
+        "비공식 자원",
+        "Rosemary Blieszner"
+      ],
+      "answer": "friendship",
+      "explanation": "우정은 덜 의무적이어서 긍정 정서와 강하게 연결될 수 있다.",
+      "source": "Relationships, Health, and Well-being"
+    },
+    {
+      "prompt": "친구관계를 지속하기 위한 노력을 가리키는 말은?",
+      "options": [
+        "friendship maintenance",
+        "비공식 자원",
+        "Rosemary Blieszner",
+        "reciprocity"
+      ],
+      "answer": "friendship maintenance",
+      "explanation": "우정은 유지 기술이 필요한 관계다.",
+      "source": "Implications for Professional Practice"
+    },
+    {
+      "prompt": "실천에서 친구를 더 활용해야 하는 이유로 가장 맞는 것은?",
+      "options": [
+        "비공식 자원",
+        "Rosemary Blieszner",
+        "reciprocity",
+        "instrumental help"
+      ],
+      "answer": "비공식 자원",
+      "explanation": "친구는 돌봄을 보완하는 비공식 자원이 될 수 있다.",
+      "source": "Implications for Professional Practice"
+    }
+  ]
+}
