@@ -1,0 +1,143 @@
+{
+  "title": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment 단답형 퀴즈",
+  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "items": [
+    {
+      "question": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 핵심적으로 붙잡아야 하는 용어는? 코호트 차이과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "코호트 차이"
+      ],
+      "answer_type": "term",
+      "explanation": "코호트 차이은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 핵심적으로 붙잡아야 하는 용어는? 인지노화과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "인지노화"
+      ],
+      "answer_type": "term",
+      "explanation": "인지노화은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 핵심적으로 붙잡아야 하는 용어는? 노동환경과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "노동환경"
+      ],
+      "answer_type": "term",
+      "explanation": "노동환경은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 핵심적으로 붙잡아야 하는 용어는? worker control과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "worker control"
+      ],
+      "answer_type": "term",
+      "explanation": "worker control은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 핵심적으로 붙잡아야 하는 용어는? innovation과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "innovation"
+      ],
+      "answer_type": "term",
+      "explanation": "innovation은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 핵심적으로 붙잡아야 하는 용어는? work autonomy과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "work autonomy"
+      ],
+      "answer_type": "term",
+      "explanation": "work autonomy은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 핵심적으로 붙잡아야 하는 용어는? word fluency과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "word fluency"
+      ],
+      "answer_type": "term",
+      "explanation": "word fluency은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 핵심적으로 붙잡아야 하는 용어는? cognitive enrichment과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "cognitive enrichment"
+      ],
+      "answer_type": "term",
+      "explanation": "cognitive enrichment은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "연구문제"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "연구문제은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "자료와 설계"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "자료와 설계은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "핵심 결과"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "핵심 결과은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "교육 밖 효과"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "교육 밖 효과은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "해석의 한계"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "해석의 한계은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 제1저자 성을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "Hülür"
+      ],
+      "answer_type": "person",
+      "explanation": "제1저자 성은 발표 기본 정보다.",
+      "source": "메타데이터"
+    },
+    {
+      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "article",
+        "논문",
+        "기사"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "영문 읽기는 article 또는 기사/논문 자료다.",
+      "source": "메타데이터"
+    }
+  ]
+}

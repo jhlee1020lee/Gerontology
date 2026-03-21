@@ -1,0 +1,142 @@
+{
+  "title": "노년학의 주요이론 및 관점 단답형 퀴즈",
+  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "items": [
+    {
+      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 메타이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "메타이론"
+      ],
+      "answer_type": "term",
+      "explanation": "메타이론은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 기계론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "기계론"
+      ],
+      "answer_type": "term",
+      "explanation": "기계론은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 맥락주의과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "맥락주의"
+      ],
+      "answer_type": "term",
+      "explanation": "맥락주의은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 전생애발달과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "전생애발달"
+      ],
+      "answer_type": "term",
+      "explanation": "전생애발달은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 생애과정 관점과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "생애과정 관점"
+      ],
+      "answer_type": "term",
+      "explanation": "생애과정 관점은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 탈관여이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "탈관여이론"
+      ],
+      "answer_type": "term",
+      "explanation": "탈관여이론은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 활동이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "활동이론"
+      ],
+      "answer_type": "term",
+      "explanation": "활동이론은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 연속성이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "연속성이론"
+      ],
+      "answer_type": "term",
+      "explanation": "연속성이론은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "이론의 시선"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "이론의 시선은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "메타이론"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "메타이론은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "전생애발달"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "전생애발달은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "사회노년학"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "사회노년학은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "이론의 한계"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "이론의 한계은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 장 번호를 짧게 답하시오.",
+      "accepted_answers": [
+        "CH3"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "교재 장 번호는 기본 구조 확인용이다.",
+      "source": "메타데이터"
+    },
+    {
+      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "교재",
+        "chapter"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "국문 장 자료는 교재 chapter다.",
+      "source": "메타데이터"
+    }
+  ]
+}

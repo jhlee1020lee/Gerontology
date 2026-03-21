@@ -1,0 +1,143 @@
+{
+  "title": "12 Innovations That Could Make Reverse Aging a Reality 단답형 퀴즈",
+  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "items": [
+    {
+      "question": "12 Innovations That Could Make Reverse Aging a Reality에서 핵심적으로 붙잡아야 하는 용어는? reverse aging과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "reverse aging"
+      ],
+      "answer_type": "term",
+      "explanation": "reverse aging은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "12 Innovations That Could Make Reverse Aging a Reality에서 핵심적으로 붙잡아야 하는 용어는? stem cells과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "stem cells"
+      ],
+      "answer_type": "term",
+      "explanation": "stem cells은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "12 Innovations That Could Make Reverse Aging a Reality에서 핵심적으로 붙잡아야 하는 용어는? senolytics과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "senolytics"
+      ],
+      "answer_type": "term",
+      "explanation": "senolytics은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "12 Innovations That Could Make Reverse Aging a Reality에서 핵심적으로 붙잡아야 하는 용어는? young blood과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "young blood"
+      ],
+      "answer_type": "term",
+      "explanation": "young blood은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "12 Innovations That Could Make Reverse Aging a Reality에서 핵심적으로 붙잡아야 하는 용어는? synthetic peptides과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "synthetic peptides"
+      ],
+      "answer_type": "term",
+      "explanation": "synthetic peptides은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "12 Innovations That Could Make Reverse Aging a Reality에서 핵심적으로 붙잡아야 하는 용어는? THC과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "THC"
+      ],
+      "answer_type": "term",
+      "explanation": "THC은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "12 Innovations That Could Make Reverse Aging a Reality에서 핵심적으로 붙잡아야 하는 용어는? gene deletion과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "gene deletion"
+      ],
+      "answer_type": "term",
+      "explanation": "gene deletion은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "12 Innovations That Could Make Reverse Aging a Reality에서 핵심적으로 붙잡아야 하는 용어는? hype과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "hype"
+      ],
+      "answer_type": "term",
+      "explanation": "hype은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "기사 형식"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "기사 형식은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "기술 목록"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "기술 목록은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "근거 수준"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "근거 수준은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "대중 담론"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "대중 담론은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "읽기 주의점"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "읽기 주의점은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 제1저자 성을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "Kerrigan"
+      ],
+      "answer_type": "person",
+      "explanation": "제1저자 성은 발표 기본 정보다.",
+      "source": "메타데이터"
+    },
+    {
+      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "article",
+        "논문",
+        "기사"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "영문 읽기는 article 또는 기사/논문 자료다.",
+      "source": "메타데이터"
+    }
+  ]
+}

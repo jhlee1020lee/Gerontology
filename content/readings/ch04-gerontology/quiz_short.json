@@ -1,0 +1,142 @@
+{
+  "title": "노년학 연구방법 단답형 퀴즈",
+  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "items": [
+    {
+      "question": "노년학 연구방법에서 핵심적으로 붙잡아야 하는 용어는? 개인내 변화과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "개인내 변화"
+      ],
+      "answer_type": "term",
+      "explanation": "개인내 변화은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학 연구방법에서 핵심적으로 붙잡아야 하는 용어는? 개인간 차이과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "개인간 차이"
+      ],
+      "answer_type": "term",
+      "explanation": "개인간 차이은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학 연구방법에서 핵심적으로 붙잡아야 하는 용어는? 연령효과과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "연령효과"
+      ],
+      "answer_type": "term",
+      "explanation": "연령효과은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학 연구방법에서 핵심적으로 붙잡아야 하는 용어는? 코호트효과과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "코호트효과"
+      ],
+      "answer_type": "term",
+      "explanation": "코호트효과은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학 연구방법에서 핵심적으로 붙잡아야 하는 용어는? 시대효과과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "시대효과"
+      ],
+      "answer_type": "term",
+      "explanation": "시대효과은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학 연구방법에서 핵심적으로 붙잡아야 하는 용어는? 횡단연구과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "횡단연구"
+      ],
+      "answer_type": "term",
+      "explanation": "횡단연구은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학 연구방법에서 핵심적으로 붙잡아야 하는 용어는? 종단연구과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "종단연구"
+      ],
+      "answer_type": "term",
+      "explanation": "종단연구은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "노년학 연구방법에서 핵심적으로 붙잡아야 하는 용어는? 질적 연구과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "질적 연구"
+      ],
+      "answer_type": "term",
+      "explanation": "질적 연구은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "과학적 질문"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "과학적 질문은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "변화와 차이"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "변화와 차이은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "해석의 함정"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "해석의 함정은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "설계 선택"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "설계 선택은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "질적 접근"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "질적 접근은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 장 번호를 짧게 답하시오.",
+      "accepted_answers": [
+        "CH4"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "교재 장 번호는 기본 구조 확인용이다.",
+      "source": "메타데이터"
+    },
+    {
+      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "교재",
+        "chapter"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "국문 장 자료는 교재 chapter다.",
+      "source": "메타데이터"
+    }
+  ]
+}

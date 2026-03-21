@@ -1,0 +1,143 @@
+{
+  "title": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research 단답형 퀴즈",
+  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "items": [
+    {
+      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? 기능적 뇌영상과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "기능적 뇌영상"
+      ],
+      "answer_type": "term",
+      "explanation": "기능적 뇌영상은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? 처리속도 이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "처리속도 이론"
+      ],
+      "answer_type": "term",
+      "explanation": "처리속도 이론은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? 제한된 자원 이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "제한된 자원 이론"
+      ],
+      "answer_type": "term",
+      "explanation": "제한된 자원 이론은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? 보상과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "보상"
+      ],
+      "answer_type": "term",
+      "explanation": "보상은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? HAROLD과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "HAROLD"
+      ],
+      "answer_type": "term",
+      "explanation": "HAROLD은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? PASA과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "PASA"
+      ],
+      "answer_type": "term",
+      "explanation": "PASA은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? CRUNCH과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "CRUNCH"
+      ],
+      "answer_type": "term",
+      "explanation": "CRUNCH은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? scaffolding과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "scaffolding"
+      ],
+      "answer_type": "term",
+      "explanation": "scaffolding은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "고전 이론"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "고전 이론은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "기능적 뇌영상"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "기능적 뇌영상은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "대표 패턴"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "대표 패턴은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "동적 적응"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "동적 적응은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "가소성"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "가소성은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 제1저자 성을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "Park"
+      ],
+      "answer_type": "person",
+      "explanation": "제1저자 성은 발표 기본 정보다.",
+      "source": "메타데이터"
+    },
+    {
+      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "article",
+        "논문",
+        "기사"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "영문 읽기는 article 또는 기사/논문 자료다.",
+      "source": "메타데이터"
+    }
+  ]
+}

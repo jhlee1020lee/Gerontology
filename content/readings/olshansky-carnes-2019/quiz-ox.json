@@ -1,0 +1,96 @@
+{
+  "title": "Inconvenient Truths About Human Longevity OX 퀴즈",
+  "instructions": "문장을 맞으면 O, 틀리면 X로 판단한 뒤 설명을 확인한다.",
+  "items": [
+    {
+      "prompt": "논쟁의 틀은(는) 이 읽기에서 life expectancy와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
+      "answer": "O",
+      "explanation": "논쟁의 틀은(는) 이 읽기에서 life expectancy와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "읽을 때는 life expectancy와 maximum life span가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
+      "answer": "O",
+      "explanation": "읽을 때는 life expectancy와 maximum life span가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "발표에서는 논쟁의 틀을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
+      "answer": "O",
+      "explanation": "발표에서는 논쟁의 틀을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "수명 한계은(는) 이 읽기에서 maximum life span와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
+      "answer": "O",
+      "explanation": "수명 한계은(는) 이 읽기에서 maximum life span와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "읽을 때는 maximum life span와 health extension가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
+      "answer": "O",
+      "explanation": "읽을 때는 maximum life span와 health extension가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "발표에서는 수명 한계을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
+      "answer": "O",
+      "explanation": "발표에서는 수명 한계을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "과장 비판은(는) 이 읽기에서 health extension와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
+      "answer": "O",
+      "explanation": "과장 비판은(는) 이 읽기에서 health extension와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "읽을 때는 health extension와 life extension가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
+      "answer": "O",
+      "explanation": "읽을 때는 health extension와 life extension가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "발표에서는 과장 비판을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
+      "answer": "O",
+      "explanation": "발표에서는 과장 비판을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "건강수명은(는) 이 읽기에서 life extension와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
+      "answer": "O",
+      "explanation": "건강수명은(는) 이 읽기에서 life extension와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "Inconvenient Truths About Human Longevity은(는) life expectancy 하나로만 설명된다.",
+      "answer": "X",
+      "explanation": "Inconvenient Truths About Human Longevity은(는) life expectancy, maximum life span, health extension처럼 여러 축을 함께 보라고 요구한다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "이 읽기의 논점은 한국 맥락과 연결할 필요가 없다.",
+      "answer": "X",
+      "explanation": "이 읽기는 한국 제도, 노동, 돌봄, 건강, 세대 경험과 연결해 다시 말할수록 수업 답변이 강해진다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "핵심 개념 이름만 말하면 충분하다.",
+      "answer": "X",
+      "explanation": "개념을 말할 때는 정의와 근거, 왜 중요한지까지 붙여야 한다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "이 읽기는 한계보다 결론만 외우면 된다.",
+      "answer": "X",
+      "explanation": "한계를 한 문장으로 인정한 뒤 핵심 함의를 다시 붙이는 방식이 더 설득력 있다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "영문 읽기는 번역만 보면 원문 구조를 볼 필요가 없다.",
+      "answer": "X",
+      "explanation": "영문 읽기는 원문 제목과 핵심 용어, 구조를 함께 봐야 수업 질문에 대응할 수 있다.",
+      "source": "헷갈리는 포인트"
+    }
+  ]
+}

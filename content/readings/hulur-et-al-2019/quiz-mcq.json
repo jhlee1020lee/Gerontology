@@ -1,0 +1,179 @@
+{
+  "title": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment 객관식 퀴즈",
+  "instructions": "보기 네 개 중 가장 알맞은 답을 고른 뒤 해설을 확인한다.",
+  "items": [
+    {
+      "prompt": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복되는 핵심 용어로 가장 알맞은 것은?",
+      "options": [
+        "코호트 차이",
+        "인지노화",
+        "노동환경",
+        "worker control"
+      ],
+      "answer": "코호트 차이",
+      "explanation": "코호트 차이은(는) 이 읽기의 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "prompt": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복되는 핵심 용어로 가장 알맞은 것은?",
+      "options": [
+        "인지노화",
+        "노동환경",
+        "worker control",
+        "innovation"
+      ],
+      "answer": "인지노화",
+      "explanation": "인지노화은(는) 이 읽기의 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "prompt": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복되는 핵심 용어로 가장 알맞은 것은?",
+      "options": [
+        "노동환경",
+        "worker control",
+        "innovation",
+        "work autonomy"
+      ],
+      "answer": "노동환경",
+      "explanation": "노동환경은(는) 이 읽기의 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "prompt": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복되는 핵심 용어로 가장 알맞은 것은?",
+      "options": [
+        "worker control",
+        "innovation",
+        "work autonomy",
+        "word fluency"
+      ],
+      "answer": "worker control",
+      "explanation": "worker control은(는) 이 읽기의 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "prompt": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복되는 핵심 용어로 가장 알맞은 것은?",
+      "options": [
+        "innovation",
+        "work autonomy",
+        "word fluency",
+        "cognitive enrichment"
+      ],
+      "answer": "innovation",
+      "explanation": "innovation은(는) 이 읽기의 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "prompt": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복되는 핵심 용어로 가장 알맞은 것은?",
+      "options": [
+        "work autonomy",
+        "word fluency",
+        "cognitive enrichment"
+      ],
+      "answer": "work autonomy",
+      "explanation": "work autonomy은(는) 이 읽기의 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "prompt": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복되는 핵심 용어로 가장 알맞은 것은?",
+      "options": [
+        "word fluency",
+        "cognitive enrichment"
+      ],
+      "answer": "word fluency",
+      "explanation": "word fluency은(는) 이 읽기의 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "prompt": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment에서 반복되는 핵심 용어로 가장 알맞은 것은?",
+      "options": [
+        "cognitive enrichment"
+      ],
+      "answer": "cognitive enrichment",
+      "explanation": "cognitive enrichment은(는) 이 읽기의 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "prompt": "다음 중 글의 주장에 더 가까운 설명은 무엇인가?",
+      "options": [
+        "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment은(는) 코호트 차이, 인지노화, 노동환경처럼 여러 축을 함께 보라고 요구한다.",
+        "이 읽기의 논점은 한국 맥락과 연결할 필요가 없다.",
+        "핵심 개념 이름만 말하면 충분하다.",
+        "이 읽기는 한계보다 결론만 외우면 된다."
+      ],
+      "answer": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment은(는) 코호트 차이, 인지노화, 노동환경처럼 여러 축을 함께 보라고 요구한다.",
+      "explanation": "한 축으로만 환원하면 읽기의 핵심 구조를 놓친다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "다음 중 글의 주장에 더 가까운 설명은 무엇인가?",
+      "options": [
+        "이 읽기는 한국 제도, 노동, 돌봄, 건강, 세대 경험과 연결해 다시 말할수록 수업 답변이 강해진다.",
+        "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment은(는) 코호트 차이 하나로만 설명된다.",
+        "핵심 개념 이름만 말하면 충분하다.",
+        "이 읽기는 한계보다 결론만 외우면 된다."
+      ],
+      "answer": "이 읽기는 한국 제도, 노동, 돌봄, 건강, 세대 경험과 연결해 다시 말할수록 수업 답변이 강해진다.",
+      "explanation": "교수님 스타일에서는 한국 맥락 연결이 중요하다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "다음 중 글의 주장에 더 가까운 설명은 무엇인가?",
+      "options": [
+        "개념을 말할 때는 정의와 근거, 왜 중요한지까지 붙여야 한다.",
+        "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment은(는) 코호트 차이 하나로만 설명된다.",
+        "이 읽기의 논점은 한국 맥락과 연결할 필요가 없다.",
+        "이 읽기는 한계보다 결론만 외우면 된다."
+      ],
+      "answer": "개념을 말할 때는 정의와 근거, 왜 중요한지까지 붙여야 한다.",
+      "explanation": "용어 나열만 하면 AI처럼 들리기 쉽다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "다음 중 글의 주장에 더 가까운 설명은 무엇인가?",
+      "options": [
+        "한계를 한 문장으로 인정한 뒤 핵심 함의를 다시 붙이는 방식이 더 설득력 있다.",
+        "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment은(는) 코호트 차이 하나로만 설명된다.",
+        "이 읽기의 논점은 한국 맥락과 연결할 필요가 없다.",
+        "핵심 개념 이름만 말하면 충분하다."
+      ],
+      "answer": "한계를 한 문장으로 인정한 뒤 핵심 함의를 다시 붙이는 방식이 더 설득력 있다.",
+      "explanation": "비판적 읽기 능력을 보여 줘야 구술 대비가 된다.",
+      "source": "헷갈리는 포인트"
+    },
+    {
+      "prompt": "다음 중 이 읽기의 전개 축으로 가장 알맞은 것은?",
+      "options": [
+        "연구문제",
+        "자료와 설계",
+        "핵심 결과",
+        "교육 밖 효과"
+      ],
+      "answer": "연구문제",
+      "explanation": "연구문제은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "다음 중 이 읽기의 전개 축으로 가장 알맞은 것은?",
+      "options": [
+        "자료와 설계",
+        "핵심 결과",
+        "교육 밖 효과",
+        "해석의 한계"
+      ],
+      "answer": "자료와 설계",
+      "explanation": "자료와 설계은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "prompt": "다음 중 이 읽기의 전개 축으로 가장 알맞은 것은?",
+      "options": [
+        "핵심 결과",
+        "교육 밖 효과",
+        "해석의 한계"
+      ],
+      "answer": "핵심 결과",
+      "explanation": "핵심 결과은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    }
+  ]
+}

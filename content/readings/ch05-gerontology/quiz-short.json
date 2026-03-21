@@ -1,0 +1,142 @@
+{
+  "title": "신체적 노화 단답형 퀴즈",
+  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "items": [
+    {
+      "question": "신체적 노화에서 핵심적으로 붙잡아야 하는 용어는? 신체적 노화과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "신체적 노화"
+      ],
+      "answer_type": "term",
+      "explanation": "신체적 노화은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "신체적 노화에서 핵심적으로 붙잡아야 하는 용어는? 최대수명과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "최대수명"
+      ],
+      "answer_type": "term",
+      "explanation": "최대수명은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "신체적 노화에서 핵심적으로 붙잡아야 하는 용어는? 평균수명과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "평균수명"
+      ],
+      "answer_type": "term",
+      "explanation": "평균수명은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "신체적 노화에서 핵심적으로 붙잡아야 하는 용어는? 프로그램 이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "프로그램 이론"
+      ],
+      "answer_type": "term",
+      "explanation": "프로그램 이론은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "신체적 노화에서 핵심적으로 붙잡아야 하는 용어는? 손상 축적과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "손상 축적"
+      ],
+      "answer_type": "term",
+      "explanation": "손상 축적은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "신체적 노화에서 핵심적으로 붙잡아야 하는 용어는? 항상성과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "항상성"
+      ],
+      "answer_type": "term",
+      "explanation": "항상성은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "신체적 노화에서 핵심적으로 붙잡아야 하는 용어는? 예비력과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "예비력"
+      ],
+      "answer_type": "term",
+      "explanation": "예비력은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "신체적 노화에서 핵심적으로 붙잡아야 하는 용어는? 정상노화과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "정상노화"
+      ],
+      "answer_type": "term",
+      "explanation": "정상노화은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "수명 논쟁"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "수명 논쟁은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "생물학 설명"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "생물학 설명은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "기관계 변화"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "기관계 변화은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "정상노화와 질병"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "정상노화와 질병은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "조절 가능한 요소"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "조절 가능한 요소은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 장 번호를 짧게 답하시오.",
+      "accepted_answers": [
+        "CH5"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "교재 장 번호는 기본 구조 확인용이다.",
+      "source": "메타데이터"
+    },
+    {
+      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "교재",
+        "chapter"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "국문 장 자료는 교재 chapter다.",
+      "source": "메타데이터"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "Inconvenient Truths About Human Longevity 단답형 퀴즈",
+  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "items": [
+    {
+      "question": "Inconvenient Truths About Human Longevity에서 핵심적으로 붙잡아야 하는 용어는? life expectancy과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "life expectancy"
+      ],
+      "answer_type": "term",
+      "explanation": "life expectancy은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Inconvenient Truths About Human Longevity에서 핵심적으로 붙잡아야 하는 용어는? maximum life span과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "maximum life span"
+      ],
+      "answer_type": "term",
+      "explanation": "maximum life span은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Inconvenient Truths About Human Longevity에서 핵심적으로 붙잡아야 하는 용어는? health extension과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "health extension"
+      ],
+      "answer_type": "term",
+      "explanation": "health extension은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Inconvenient Truths About Human Longevity에서 핵심적으로 붙잡아야 하는 용어는? life extension과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "life extension"
+      ],
+      "answer_type": "term",
+      "explanation": "life extension은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Inconvenient Truths About Human Longevity에서 핵심적으로 붙잡아야 하는 용어는? compression of morbidity과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "compression of morbidity"
+      ],
+      "answer_type": "term",
+      "explanation": "compression of morbidity은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Inconvenient Truths About Human Longevity에서 핵심적으로 붙잡아야 하는 용어는? aging biology과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "aging biology"
+      ],
+      "answer_type": "term",
+      "explanation": "aging biology은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Inconvenient Truths About Human Longevity에서 핵심적으로 붙잡아야 하는 용어는? public health과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "public health"
+      ],
+      "answer_type": "term",
+      "explanation": "public health은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "Inconvenient Truths About Human Longevity에서 핵심적으로 붙잡아야 하는 용어는? longevity ceiling과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "accepted_answers": [
+        "longevity ceiling"
+      ],
+      "answer_type": "term",
+      "explanation": "longevity ceiling은(는) 이 읽기에서 핵심 용어다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "논쟁의 틀"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "논쟁의 틀은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "수명 한계"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "수명 한계은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "과장 비판"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "과장 비판은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "건강수명"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "건강수명은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "accepted_answers": [
+        "전략적 함의"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "전략적 함의은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "source": "핵심 요약"
+    },
+    {
+      "question": "이 읽기의 제1저자 성을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "Olshansky"
+      ],
+      "answer_type": "person",
+      "explanation": "제1저자 성은 발표 기본 정보다.",
+      "source": "메타데이터"
+    },
+    {
+      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
+      "accepted_answers": [
+        "article",
+        "논문",
+        "기사"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "영문 읽기는 article 또는 기사/논문 자료다.",
+      "source": "메타데이터"
+    }
+  ]
+}
