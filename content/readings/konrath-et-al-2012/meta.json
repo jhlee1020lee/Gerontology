@@ -33,8 +33,14 @@
   },
   "content_dir": "content/readings/konrath-et-al-2012",
   "type": "article",
-  "class_date": "2026-06-02",
+  "class_date": "2026-05-28",
   "reading_date": null,
-  "sort_date": "2026-06-02",
-  "display_date_label": "6/02"
+  "sort_date": "2026-05-28",
+  "display_date_label": "5/28",
+  "public_pdf": null,
+  "overview_hook": null,
+  "classroom_points": [],
+  "notebooklm_video_url": null,
+  "notebooklm_video_note": null,
+  "notebooklm_video_poster": null
 }

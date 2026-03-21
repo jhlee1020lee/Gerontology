@@ -32,8 +32,14 @@
   },
   "content_dir": "content/readings/calvo-et-al-2018",
   "type": "article",
-  "class_date": "2026-05-19",
+  "class_date": "2026-05-14",
   "reading_date": null,
-  "sort_date": "2026-05-19",
-  "display_date_label": "5/19"
+  "sort_date": "2026-05-14",
+  "display_date_label": "5/14",
+  "public_pdf": null,
+  "overview_hook": null,
+  "classroom_points": [],
+  "notebooklm_video_url": null,
+  "notebooklm_video_note": null,
+  "notebooklm_video_poster": null
 }

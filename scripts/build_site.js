@@ -6,6 +6,9 @@ const manifestPath=path.join(rootDir,"manifest","readings.json");
 const siteDir=path.join(rootDir,"docs");
 const styleSource=path.join(__dirname,"site_styles.css");
 const appSource=path.join(__dirname,"site_app.js");
+const brandLogoSource=path.join(__dirname,"assets","branding","snu.png");
+const LANDING_TAB_LABEL="설명 영상";
+const NOTEBOOKLM_VIDEO_CANDIDATES=["notebooklm.mp4","notebooklm.webm","notebooklm.mov","notebooklm.m4v"];
 
 const PAGE_DEFS=[
   {key:"summary",label:"핵심 요약",filename:"summary.html",type:"article",description:"읽기 전 전체 흐름을 빠르게 잡는 요약 페이지입니다."},
@@ -17,7 +20,7 @@ const PAGE_DEFS=[
   {key:"quiz-short",label:"단답형 퀴즈",filename:"quiz-short.html",type:"quiz",description:"한 용어, 이름, 숫자, 짧은 구로만 답하는 진짜 단답형 퀴즈입니다."},
   {key:"quiz-mcq",label:"객관식 퀴즈",filename:"quiz-mcq.html",type:"quiz",description:"선지를 비교하며 이해를 점검하는 객관식 퀴즈입니다."},
   {key:"review-sheet",label:"시험 직전 정리",filename:"review-sheet.html",type:"article",description:"시험 직전에 빠르게 훑을 수 있도록 압축한 정리 페이지입니다."},
-  {key:"professor-prep",label:"교수님 구술 대비",filename:"professor-prep.html",type:"professor-prep",description:"질문에 바로 답하고 꼬리질문까지 대비하는 구술형 수업 대비 페이지입니다."}
+  {key:"professor-prep",label:"읽기 답변 준비",filename:"professor-prep.html",type:"professor-prep",description:"이 글을 어떻게 읽었는지 바로 말할 수 있도록 답변을 정리하는 페이지입니다."}
 ];
 
 const FLOW_STEPS=[
@@ -28,7 +31,7 @@ const FLOW_STEPS=[
   {step:5,mode:"page",key:"pitfalls",title:"헷갈리는 포인트",blurb:"비슷해 보여 헷갈리기 쉬운 구분을 다시 점검합니다."},
   {step:6,mode:"quiz-group",title:"퀴즈",blurb:"OX, 단답형, 객관식으로 기억과 이해를 확인합니다.",keys:["quiz-ox","quiz-short","quiz-mcq"]},
   {step:7,mode:"page",key:"review-sheet",title:"시험 직전 정리",blurb:"시험 직전에 마지막으로 훑을 압축 정리를 확인합니다."},
-  {step:8,mode:"page",key:"professor-prep",title:"교수님 구술 대비",blurb:"질문에 바로 답하고, 왜 중요한지와 한계까지 말하는 구술 답변을 준비합니다."}
+  {step:8,mode:"page",key:"professor-prep",title:"읽기 답변 준비",blurb:"이 글을 어떻게 읽었는지 자연스럽게 말할 수 있도록 답변을 준비합니다."}
 ];
 
 const COMMON_TEXT_MAP={
@@ -97,14 +100,24 @@ function markdownToHtml(text){
   let paragraph=[];
   let listItems=[];
   let quoteLines=[];
+  let codeLines=null;
 
   const flushParagraph=()=>{if(paragraph.length){parts.push(`<p>${renderInline(paragraph.join(" ").trim())}</p>`);paragraph=[];}};
   const flushList=()=>{if(listItems.length){parts.push(`<ul>${listItems.map((item)=>`<li>${renderInline(item)}</li>`).join("")}</ul>`);listItems=[];}};
   const flushQuote=()=>{if(quoteLines.length){parts.push(`<blockquote>${renderInline(quoteLines.join(" ").trim())}</blockquote>`);quoteLines=[];}};
+  const flushCode=()=>{if(codeLines){parts.push(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`);codeLines=null;}};
 
   for(const rawLine of lines){
+    if(codeLines){
+      if(rawLine.trim().startsWith("```")){flushCode();continue;}
+      codeLines.push(rawLine);
+      continue;
+    }
     const line=rawLine.trim();
     if(!line){flushParagraph();flushList();flushQuote();continue;}
+    if(line===">"){flushParagraph();flushList();flushQuote();continue;}
+    if(line.startsWith("```")){flushParagraph();flushList();flushQuote();codeLines=[];continue;}
+    if(line.startsWith("#### ")){flushParagraph();flushList();flushQuote();parts.push(`<h4>${renderInline(line.slice(5))}</h4>`);continue;}
     if(line.startsWith("### ")){flushParagraph();flushList();flushQuote();parts.push(`<h3>${renderInline(line.slice(4))}</h3>`);continue;}
     if(line.startsWith("## ")){flushParagraph();flushList();flushQuote();parts.push(`<h2>${renderInline(line.slice(3))}</h2>`);continue;}
     if(line.startsWith("# ")){flushParagraph();flushList();flushQuote();parts.push(`<h1>${renderInline(line.slice(2))}</h1>`);continue;}
@@ -113,7 +126,7 @@ function markdownToHtml(text){
     flushList();flushQuote();paragraph.push(line);
   }
 
-  flushParagraph();flushList();flushQuote();
+  flushParagraph();flushList();flushQuote();flushCode();
   return parts.join("\n");
 }
 
@@ -128,8 +141,11 @@ function sentenceList(value){return toText(value).replace(/\s+/g," ").split(/(?<
 function cleanQuestionLabel(value){return toText(value).replace(/[?？]\s*$/,"");}
 function requireText(value,label,filePath){const text=toText(value);if(!text)throw new Error(`[invalid] ${fileLabel(filePath)}: ${label} is required`);return text;}
 function loadQuiz(page,filePath){const payload=loadJson(filePath);if(!payload)return null;const items=Array.isArray(payload.items)?payload.items:[];if(!items.length)return null;if(page.key==="quiz-short"){if(items.length!==15)throw new Error(`[invalid] ${fileLabel(filePath)}: quiz_short.json must contain exactly 15 items`);const normalizedItems=items.map((item,index)=>{const question=requireText(item.question,`items[${index}].question`,filePath);const accepted_answers=textArray(item.accepted_answers);const answer_type=requireText(item.answer_type,`items[${index}].answer_type`,filePath);const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);const source=toText(item.source);if(!accepted_answers.length)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers must be a non-empty array`);if(!SHORT_ANSWER_TYPES.has(answer_type))throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].answer_type must be one of ${Array.from(SHORT_ANSWER_TYPES).join(", ")}`);accepted_answers.forEach((answer,answerIndex)=>{if(wordCount(answer)>7)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers[${answerIndex}] must stay under 8 words`);});return{question,accepted_answers,answer_type,explanation,source};});return{...payload,items:normalizedItems};}const normalizedItems=items.map((item,index)=>{const prompt=requireText(item.prompt,`items[${index}].prompt`,filePath);const answer=requireText(item.answer,`items[${index}].answer`,filePath);const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);const options=Array.isArray(item.options)?item.options.map((option)=>toText(option)).filter(Boolean):[];const source=toText(item.source);return{prompt,answer,explanation,options,source};});return{...payload,items:normalizedItems};}
-function loadProfessorPrep(filePath){const payload=loadJson(filePath);if(!payload)return null;const cards=Array.isArray(payload.cards)?payload.cards:[];if(!cards.length)return null;const normalizedCards=cards.map((card,index)=>{if(!card||typeof card!=="object")throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}] must be an object`);const fallbackTitle=cleanQuestionLabel(card.question);const title=requireText(card.title||fallbackTitle,`cards[${index}].title`,filePath);const answer_30s=requireText(card.answer_30s||card.answer||card.model_answer,`cards[${index}].answer_30s`,filePath);return{title,answer_30s};});return{title:toText(payload.title)||"교수님 구술 대비",instructions:toText(payload.instructions)||"모든 답변은 '이 글을 어떻게 읽었는지'에 초점을 맞춘 30초 모델 답변입니다.",cards:normalizedCards};}
+function loadProfessorPrep(filePath){const payload=loadJson(filePath);if(!payload)return null;const cards=Array.isArray(payload.cards)?payload.cards:[];if(!cards.length)return null;const normalizedCards=cards.map((card,index)=>{if(!card||typeof card!=="object")throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}] must be an object`);const fallbackTitle=cleanQuestionLabel(card.question);const title=requireText(card.title||fallbackTitle,`cards[${index}].title`,filePath);const answer_30s=requireText(card.answer_30s||card.answer||card.model_answer,`cards[${index}].answer_30s`,filePath);return{title,answer_30s};});return{title:toText(payload.title)||"읽기 답변 준비",instructions:toText(payload.instructions)||"모든 답변은 '이 글을 어떻게 읽었는지'에 초점을 맞춘 30초 모델 답변입니다.",cards:normalizedCards};}
 function translateCommonText(text){return COMMON_TEXT_MAP[text]||text;}
+function loadReadingMeta(contentDir){const metaPath=path.join(rootDir,contentDir,"meta.json");const payload=loadJson(metaPath);return payload&&typeof payload==="object"?payload:{};}
+function detectNotebooklmVideoSource(contentDir){const baseDir=path.join(rootDir,contentDir);for(const filename of NOTEBOOKLM_VIDEO_CANDIDATES){const candidate=path.join(baseDir,filename);if(fs.existsSync(candidate))return candidate;}return"";}
+function publicNotebooklmVideoPath(reading,sourcePath){if(!sourcePath)return"";return path.posix.join("assets","videos",reading.slug,path.basename(sourcePath));}
 function detectType(reading){if(reading.type)return reading.type;const kind=String(reading.kind||"").toLowerCase();if(kind.includes("chapter"))return"chapter";if(kind.includes("paper"))return"paper";if(kind.includes("article"))return"article";return"reading";}
 function typeLabel(type){return({article:"기사",paper:"논문",chapter:"교재 장",reading:"읽기 자료"})[type]||"읽기 자료";}
 function yearLabel(year){return year?`${year}년`:"연도 미확인";}
@@ -145,27 +161,52 @@ function statusKeyForPage(pageKey){return pageKey.replace(/-/g,"_");}
 function contentPath(reading,page){const contentDir=path.join(rootDir,reading.content_dir);if(page.key==="full"){const preferred=path.join(contentDir,"full.md");const fallback=path.join(contentDir,"cleaned.md");return fs.existsSync(preferred)?preferred:(fs.existsSync(fallback)?fallback:preferred);}if(page.key==="quiz-short")return path.join(contentDir,"quiz_short.json");if(page.key==="professor-prep")return path.join(contentDir,"professor_prep.json");if(page.type==="article")return path.join(contentDir,`${page.key}.md`);return path.join(contentDir,`${page.key}.json`);}
 function pageState(reading,page){const sourcePath=contentPath(reading,page);if(page.type==="article")return{sourcePath,available:Boolean(loadMarkdown(sourcePath)),count:null};if(page.type==="professor-prep"){const prep=loadProfessorPrep(sourcePath);return{sourcePath,available:Boolean(prep),count:prep?prep.cards.length:0};}const quiz=loadQuiz(page,sourcePath);return{sourcePath,available:Boolean(quiz),count:quiz?quiz.items.length:0};}
 function metadataStatusHtml(status){return status==="complete"?'<span class="status ready">메타데이터 확인됨</span>':'<span class="status placeholder">메타데이터 확인 필요</span>';}
-function normalizeReading(reading,sequence){const language=reading.language||"unknown";const type=detectType(reading);const rawTags=Array.isArray(reading.tags)&&reading.tags.length?reading.tags:["Metadata incomplete"];const source_filename=reading.source_filename||path.basename(reading.source_pdf);const sortDate=effectiveSortDate(reading);const classroom_points=(Array.isArray(reading.classroom_points)?reading.classroom_points:[]).map((item)=>translateCommonText(item)).filter(Boolean);return{...reading,sequence,subtitle:translateCommonText(reading.subtitle||"Filename-derived placeholder metadata."),authors:reading.authors||[],authors_label:authorsLabel(reading.authors||[]),year_label:yearLabel(reading.year),language,language_label:languageLabel(language),kind:reading.kind||`${type} pdf`,kind_label:kindLabel(reading.kind||`${type} pdf`,type),type,type_label:typeLabel(type),source_filename,tags:rawTags.map(translateTag),description:translateCommonText(reading.description||"Placeholder record created from the source filename only."),metadata_status:reading.metadata_status||"incomplete",metadata_notes:(reading.metadata_notes||[]).map(translateCommonText),class_date:reading.class_date??null,reading_date:reading.reading_date??null,sort_date:reading.sort_date??null,display_date_label:reading.display_date_label??null,effective_sort_date:sortDate,display_date:displayDateLabel(reading),translation_required:language==="en",home_order_index:syllabusOrderIndex({source_filename}),public_pdf:toText(reading.public_pdf)||"",overview_hook:translateCommonText(reading.overview_hook||""),classroom_points};}
+function normalizeReading(reading,sequence){const supplemental=loadReadingMeta(reading.content_dir);const localNotebooklmVideo=detectNotebooklmVideoSource(reading.content_dir);const language=reading.language||"unknown";const type=detectType(reading);const rawTags=Array.isArray(reading.tags)&&reading.tags.length?reading.tags:["Metadata incomplete"];const source_filename=reading.source_filename||path.basename(reading.source_pdf);const sortDate=effectiveSortDate(reading);const classroom_points=(Array.isArray(reading.classroom_points)?reading.classroom_points:[]).map((item)=>translateCommonText(item)).filter(Boolean);return{...reading,sequence,subtitle:translateCommonText(reading.subtitle||"Filename-derived placeholder metadata."),authors:reading.authors||[],authors_label:authorsLabel(reading.authors||[]),year_label:yearLabel(reading.year),language,language_label:languageLabel(language),kind:reading.kind||`${type} pdf`,kind_label:kindLabel(reading.kind||`${type} pdf`,type),type,type_label:typeLabel(type),source_filename,tags:rawTags.map(translateTag),description:translateCommonText(reading.description||"Placeholder record created from the source filename only."),metadata_status:reading.metadata_status||"incomplete",metadata_notes:(reading.metadata_notes||[]).map(translateCommonText),class_date:reading.class_date??null,reading_date:reading.reading_date??null,sort_date:reading.sort_date??null,display_date_label:reading.display_date_label??null,effective_sort_date:sortDate,display_date:displayDateLabel(reading),translation_required:language==="en",home_order_index:syllabusOrderIndex({source_filename}),public_pdf:toText(reading.public_pdf)||"",overview_hook:translateCommonText(reading.overview_hook||""),classroom_points,notebooklm_video_source:localNotebooklmVideo,notebooklm_video_url:toText(reading.notebooklm_video_url||supplemental.notebooklm_video_url||publicNotebooklmVideoPath(reading,localNotebooklmVideo)||""),notebooklm_video_note:toText(reading.notebooklm_video_note||supplemental.notebooklm_video_note||""),notebooklm_video_poster:toText(reading.notebooklm_video_poster||supplemental.notebooklm_video_poster||"")};}
 function buildContentStatus(reading){const contentStatus={};for(const page of PAGE_DEFS){const key=statusKeyForPage(page.key);if(page.englishOnly&&reading.language!=="en"){contentStatus[key]="not_applicable";continue;}const state=pageState(reading,page);contentStatus[key]=state.available?"ready":"missing";}return contentStatus;}
-function ensureContentPlaceholders(manifest,slugFilter=null){manifest.readings.forEach((rawReading,index)=>{const reading=normalizeReading(rawReading,index+1);if(slugFilter&&reading.slug!==slugFilter)return;const contentDir=path.join(rootDir,reading.content_dir);fs.mkdirSync(contentDir,{recursive:true});const metaPath=path.join(contentDir,"meta.json");let existing={};if(fs.existsSync(metaPath)){try{existing=JSON.parse(readText(metaPath));}catch(error){existing={};}}const payload={...existing,slug:reading.slug,source_filename:reading.source_filename,source_pdf:reading.source_pdf,content_dir:reading.content_dir,title:reading.title,subtitle:reading.subtitle,authors:reading.authors,year:reading.year??null,language:reading.language,type:reading.type,kind:reading.kind,class_date:reading.class_date,reading_date:reading.reading_date,sort_date:reading.sort_date,display_date_label:reading.display_date_label,description:reading.description,metadata_status:reading.metadata_status,metadata_notes:reading.metadata_notes,public_pdf:reading.public_pdf||null,overview_hook:reading.overview_hook||null,classroom_points:reading.classroom_points||[],content_status:buildContentStatus(reading)};writeText(metaPath,`${JSON.stringify(payload,null,2)}\n`);});}
+function ensureContentPlaceholders(manifest,slugFilter=null){manifest.readings.forEach((rawReading,index)=>{const reading=normalizeReading(rawReading,index+1);if(slugFilter&&reading.slug!==slugFilter)return;const contentDir=path.join(rootDir,reading.content_dir);fs.mkdirSync(contentDir,{recursive:true});const metaPath=path.join(contentDir,"meta.json");let existing={};if(fs.existsSync(metaPath)){try{existing=JSON.parse(readText(metaPath));}catch(error){existing={};}}const payload={...existing,slug:reading.slug,source_filename:reading.source_filename,source_pdf:reading.source_pdf,content_dir:reading.content_dir,title:reading.title,subtitle:reading.subtitle,authors:reading.authors,year:reading.year??null,language:reading.language,type:reading.type,kind:reading.kind,class_date:reading.class_date,reading_date:reading.reading_date,sort_date:reading.sort_date,display_date_label:reading.display_date_label,description:reading.description,metadata_status:reading.metadata_status,metadata_notes:reading.metadata_notes,public_pdf:reading.public_pdf||null,overview_hook:reading.overview_hook||null,classroom_points:reading.classroom_points||[],notebooklm_video_url:reading.notebooklm_video_url||null,notebooklm_video_note:reading.notebooklm_video_note||null,notebooklm_video_poster:reading.notebooklm_video_poster||null,content_status:buildContentStatus(reading)};writeText(metaPath,`${JSON.stringify(payload,null,2)}\n`);});}
 function prepareReadings(manifest){return manifest.readings.map((rawReading,index)=>{const reading=normalizeReading(rawReading,index+1);const pages=PAGE_DEFS.filter((page)=>!(page.englishOnly&&reading.language!=="en")).map((page)=>({...page,...pageState(reading,page)}));return{...reading,pages};});}
 function compareReadings(a,b,mode){if(mode==="chronological"){const aHasDate=Boolean(a.effective_sort_date);const bHasDate=Boolean(b.effective_sort_date);if(aHasDate&&bHasDate&&a.effective_sort_date!==b.effective_sort_date)return a.effective_sort_date.localeCompare(b.effective_sort_date);if(aHasDate!==bHasDate)return aHasDate?-1:1;if(a.home_order_index!==b.home_order_index)return a.home_order_index-b.home_order_index;}return a.sequence-b.sequence;}
 function searchBlob(reading){return[reading.slug,reading.title,reading.subtitle,reading.source_filename,reading.language,reading.type,reading.kind,reading.year_label,reading.display_date,...(reading.authors||[]),...(reading.tags||[]),...(reading.metadata_notes||[])].filter(Boolean).join(" ");}
 function buildTagOptions(readings){return Array.from(new Set(readings.flatMap((reading)=>reading.tags||[]).filter(Boolean))).sort((a,b)=>a.localeCompare(b,"ko"));}
 function statusHtml(available){return `<span class="status ${available?"ready":"placeholder"}">${available?"준비됨":"임시 안내"}</span>`;}
 function readingSequenceLabel(sequence){return `읽기 ${String(sequence).padStart(2,"0")}`;}
-function studyOrderText(reading){const steps=["핵심 요약","전체 글"];if(reading.translation_required)steps.push("한국어 번역");steps.push("핵심 개념","헷갈리는 포인트","퀴즈","시험 직전 정리","교수님 구술 대비");return steps.join(" -> ");}
+function studyOrderText(reading){const steps=[LANDING_TAB_LABEL,"전체 글"];if(reading.translation_required)steps.push("한국어 번역");steps.push("읽기 답변 준비");return steps.join(" -> ");}
+function actionIntroText(reading){if(reading.translation_required)return"이 글은 핵심 요약으로 큰 흐름을 먼저 잡고, 전체 글과 한국어 번역을 오가며 원문 구조와 핵심 용어를 다시 확인하면 가장 안정적으로 읽힙니다.";if(reading.type==="paper")return"이 글은 핵심 요약으로 큰 흐름을 먼저 잡고, 전체 글을 따라가며 논문의 질문, 방법, 결과를 다시 확인하면 가장 안정적으로 읽힙니다.";return"이 글은 핵심 요약으로 큰 흐름을 먼저 잡고, 전체 글을 따라가며 장의 구조와 핵심 개념을 다시 확인하면 가장 안정적으로 읽힙니다.";}
 function publicPdfTargetPath(reading){if(!reading.public_pdf)return"";return path.join(siteDir,...reading.public_pdf.split("/"));}
 function pdfHref(outputPath,reading){if(reading.public_pdf){return relHref(outputPath,publicPdfTargetPath(reading));}const sourcePath=path.join(rootDir,reading.source_pdf);return fs.existsSync(sourcePath)?relHref(outputPath,sourcePath):"";}
 function pdfStatusText(reading){if(reading.public_pdf&&fs.existsSync(path.join(rootDir,reading.source_pdf)))return"배포용 원문 PDF를 바로 열거나 내려받을 수 있습니다.";const sourcePath=path.join(rootDir,reading.source_pdf);return fs.existsSync(sourcePath)?"원문 PDF를 로컬에서 바로 열 수 있습니다.":"원문 PDF가 없어 임시 썸네일만 사용 중입니다.";}
 function renderPdfActions(outputPath,reading,className="pdf-actions"){const href=pdfHref(outputPath,reading);if(!href)return"";return`<div class="${escapeHtml(className)}"><a class="ghost-btn link-btn pdf-btn" href="${escapeHtml(href)}" target="_blank" rel="noopener">원문 PDF 보기</a><a class="ghost-btn link-btn pdf-btn" href="${escapeHtml(href)}" download>PDF 다운로드</a></div>`;}
+function isExternalUrl(value){return /^https?:\/\//i.test(toText(value));}
+function resolveSiteAssetHref(outputPath,value){const text=toText(value);if(!text)return"";if(isExternalUrl(text))return text;const normalized=text.replace(/^\.?\//,"");return relHref(outputPath,path.join(siteDir,...normalized.split("/")));}
+function toEmbedUrl(value){const text=toText(value);if(!text)return"";try{const url=new URL(text);if(url.hostname.includes("youtu.be")){const id=url.pathname.replace(/^\/+/,"").split("/")[0];return id?`https://www.youtube.com/embed/${id}`:text;}if(url.hostname.includes("youtube.com")&&url.searchParams.get("v"))return `https://www.youtube.com/embed/${url.searchParams.get("v")}`;return text;}catch(error){return text;}}
+function isDirectVideoFile(value){return /\.(mp4|webm|ogg)(\?.*)?$/i.test(toText(value));}
+function renderNotebookLmVideo(outputPath,reading){const rawUrl=reading.notebooklm_video_url;if(!rawUrl)return `<div class="video-placeholder"><div><p class="section-kicker">NotebookLM 설명영상</p><h2>영상 준비 중</h2><p class="meta"><code>content/readings/${escapeHtml(reading.slug)}/meta.json</code>에 <code>notebooklm_video_url</code>을 넣으면 이 자리에 바로 표시됩니다.</p></div></div>`;const href=resolveSiteAssetHref(outputPath,rawUrl);if(isDirectVideoFile(rawUrl)){const poster=resolveSiteAssetHref(outputPath,reading.notebooklm_video_poster);return `<video class="video-media" controls preload="metadata"${poster?` poster="${escapeHtml(poster)}"`:""}><source src="${escapeHtml(href)}" /></video>`;}return `<iframe class="video-media" src="${escapeHtml(toEmbedUrl(href))}" title="${escapeHtml(reading.title)} NotebookLM 설명영상" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;}
+function renderBrandMarkSvg(){return `
+<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+  <defs>
+    <path id="brand-ring-top" d="M 12 32 A 20 20 0 0 1 52 32" />
+    <path id="brand-ring-bottom" d="M 52 32 A 20 20 0 0 1 12 32" />
+  </defs>
+  <circle cx="32" cy="32" r="31" fill="#0f2f6b" />
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="#ffffff" stroke-width="1.8" opacity=".92" />
+  <circle cx="32" cy="32" r="16.5" fill="#ffffff" />
+  <path d="M32 18.8c3.8 4.3 5.7 8 5.7 11.4 0 3.8-2.4 6.2-5.7 8.5-3.3-2.3-5.7-4.7-5.7-8.5 0-3.4 1.9-7.1 5.7-11.4Z" fill="#0f2f6b" />
+  <path d="M26.6 40.4h10.8" stroke="#0f2f6b" stroke-width="2.2" stroke-linecap="round" />
+  <path d="M29.1 44.7h5.8" stroke="#0f2f6b" stroke-width="2.2" stroke-linecap="round" />
+  <text fill="#ffffff" font-size="5" font-weight="700" letter-spacing=".14em">
+    <textPath href="#brand-ring-top" startOffset="50%" text-anchor="middle">SEOUL NATIONAL</textPath>
+  </text>
+  <text fill="#ffffff" font-size="5.2" font-weight="700" letter-spacing=".12em">
+    <textPath href="#brand-ring-bottom" startOffset="50%" text-anchor="middle">UNIVERSITY</textPath>
+  </text>
+</svg>`;}
+function renderBrandMark(outputPath){if(fs.existsSync(brandLogoSource)){const logoHref=relHref(outputPath,path.join(siteDir,"assets","branding","snu.png"));return `<img src="${escapeHtml(logoHref)}" alt="" />`;}return renderBrandMarkSvg();}
 function siteHeader(siteMeta,outputPath){const homeHref=relHref(outputPath,path.join(siteDir,"index.html"));return `
 <header class="topbar">
   <div class="brand">
-    <a class="brand-mark" href="${escapeHtml(homeHref)}">AA</a>
+    <a class="brand-mark" href="${escapeHtml(homeHref)}" aria-label="Home">${renderBrandMark(outputPath)}</a>
     <div>
-      <p class="brand-title">${escapeHtml(siteMeta.title)}</p>
-      <p class="brand-sub">${escapeHtml(siteMeta.tagline)}</p>
+      <p class="brand-title">2026-1 성인발달과노화</p>
     </div>
   </div>
   <div class="topbar-actions">
@@ -198,7 +239,10 @@ ${body}
 </body>
 </html>
 `;}
-function pageTabs(outputPath,reading,activeKey){const base=path.join(siteDir,"readings",reading.slug);const tabs=[{key:"index",label:"개요",target:path.join(base,"index.html")}].concat(reading.pages.map((page)=>({key:page.key,label:page.label,target:path.join(base,page.filename)})));return `<nav class="tab-row">${tabs.map((tab)=>`<a class="tab${tab.key===activeKey?" active":""}" href="${escapeHtml(relHref(outputPath,tab.target))}">${escapeHtml(tab.label)}</a>`).join("")}</nav>`;}
+function pageTabs(outputPath,reading,activeKey){const base=path.join(siteDir,"readings",reading.slug);const tabs=[{key:"index",label:LANDING_TAB_LABEL,target:path.join(base,"index.html")}].concat(reading.pages.map((page)=>({key:page.key,label:page.label,target:path.join(base,page.filename)})));const primaryKeys=new Set(["index","full","translation","professor-prep"]);const primaryTabs=tabs.filter((tab)=>primaryKeys.has(tab.key));const hiddenTabs=tabs.filter((tab)=>!primaryKeys.has(tab.key));const hiddenActive=hiddenTabs.find((tab)=>tab.key===activeKey)||null;const hiddenSummary=hiddenActive?hiddenActive.label:"더보기";const hiddenMarkup=!hiddenTabs.length?"":`<details class="tab-more"${hiddenActive?" open":""}><summary class="tab-more-toggle">${escapeHtml(hiddenSummary)}</summary><div class="tab-more-list">${hiddenTabs.map((tab)=>`<a class="tab${tab.key===activeKey?" active":""}" href="${escapeHtml(relHref(outputPath,tab.target))}">${escapeHtml(tab.label)}</a>`).join("")}</div></details>`;return `<nav class="tab-row">${primaryTabs.map((tab)=>`<a class="tab${tab.key===activeKey?" active":""}" href="${escapeHtml(relHref(outputPath,tab.target))}">${escapeHtml(tab.label)}</a>`).join("")}${hiddenMarkup}</nav>`;}
+function renderBreadcrumbs(outputPath,reading,currentLabel=""){const homeHref=relHref(outputPath,path.join(siteDir,"index.html"));const overviewHref=relHref(outputPath,path.join(siteDir,"readings",reading.slug,"index.html"));const crumbs=[`<a href="${escapeHtml(homeHref)}">홈</a>`];if(currentLabel){crumbs.push(`<a href="${escapeHtml(overviewHref)}">${escapeHtml(reading.title)}</a>`);crumbs.push(`<span aria-current="page">${escapeHtml(currentLabel)}</span>`);}else{crumbs.push(`<span aria-current="page">${escapeHtml(reading.title)}</span>`);}return `<nav class="breadcrumbs" aria-label="breadcrumb">${crumbs.map((item,index)=>`${index?'<span class="crumb-sep">/</span>':""}${item}`).join("")}</nav>`;}
+function renderArticleMeta(reading,options={}){const bits=[options.pageLabel||"",reading.display_date,reading.type_label,options.includeLanguage?reading.language_label:"",reading.authors_label].filter(Boolean);return `<div class="article-meta-row">${bits.map((bit)=>`<span>${escapeHtml(bit)}</span>`).join("")}</div>`;}
+function renderArticleHeader(outputPath,reading,options){const currentLabel=options.breadcrumbLabel===undefined?(options.activeKey==="index"?"":options.label):options.breadcrumbLabel;return `<header class="article-header"><div class="article-header-top"><div class="article-header-copy">${renderBreadcrumbs(outputPath,reading,currentLabel)}<p class="section-kicker">${escapeHtml(readingSequenceLabel(reading.sequence))}</p><h1>${escapeHtml(reading.title)}</h1>${renderArticleMeta(reading,{pageLabel:options.metaPageLabel||"",includeLanguage:Boolean(options.includeLanguage)})}</div></div>${options.includePdf===false?"":renderPdfActions(outputPath,reading,"pdf-actions header-pdf-actions")}${pageTabs(outputPath,reading,options.activeKey)}</header>`;}
 function placeholderArticleHtml(reading,page,sourcePath){const relSource=fileLabel(sourcePath);return `
 <section class="placeholder article-placeholder">
   <h2>임시 안내 페이지</h2>
@@ -224,7 +268,7 @@ function placeholderQuizHtml(page,sourcePath){const relSource=fileLabel(sourcePa
 function placeholderProfessorPrepHtml(page,sourcePath){const relSource=fileLabel(sourcePath);return `
 <section class="placeholder">
   <h2>임시 안내 페이지</h2>
-  <p>${escapeHtml(relSource)}에 아직 교수님 구술 대비 카드가 없습니다. 링크는 유지하고, 페이지 역할만 먼저 안내합니다.</p>
+  <p>${escapeHtml(relSource)}에 아직 읽기 답변 준비 카드가 없습니다. 링크는 유지하고, 페이지 역할만 먼저 안내합니다.</p>
   <h3>예상 소스 파일</h3>
   <p><code>${escapeHtml(relSource)}</code></p>
   <h3>이 페이지의 역할</h3>
@@ -309,7 +353,7 @@ function writePlaceholderSvg(reading,svgPath){const slug=escapeHtml(reading.slug
 </svg>
 `;writeText(svgPath,svg);}
 function buildThumbnails(manifest,slugFilter=null){const thumbnailDir=path.join(siteDir,"assets","thumbnails");fs.mkdirSync(thumbnailDir,{recursive:true});const results={};for(const reading of manifest.readings){const svgPath=path.join(thumbnailDir,`${reading.slug}.svg`);if(!slugFilter||reading.slug===slugFilter||!fs.existsSync(svgPath))writePlaceholderSvg(reading,svgPath);results[reading.slug]=path.posix.join("assets","thumbnails",`${reading.slug}.svg`);}return results;}
-function buildIndex(siteMeta,readings,thumbnails){const outputPath=path.join(siteDir,"index.html");const tagOptions=buildTagOptions(readings);const typeOptions=Array.from(new Set(readings.map((reading)=>reading.type))).sort((a,b)=>a.localeCompare(b,"ko"));const sortedReadings=[...readings].sort((a,b)=>compareReadings(a,b,"chronological"));const cards=sortedReadings.map((reading,index)=>{const thumbHref=relHref(outputPath,path.join(siteDir,thumbnails[reading.slug]));const targetHref=relHref(outputPath,path.join(siteDir,"readings",reading.slug,"index.html"));const metaBits=[reading.type_label,reading.language_label,reading.year?reading.year_label:null].filter(Boolean).join(" · ");const authorLine=reading.authors.length?`<p class="meta card-authors">${escapeHtml(reading.authors_label)}</p>`:"";return `
+function buildIndex(siteMeta,readings,thumbnails){const outputPath=path.join(siteDir,"index.html");const sortedReadings=[...readings].sort((a,b)=>compareReadings(a,b,"chronological"));const cards=sortedReadings.map((reading,index)=>{const thumbHref=relHref(outputPath,path.join(siteDir,thumbnails[reading.slug]));const targetHref=relHref(outputPath,path.join(siteDir,"readings",reading.slug,"index.html"));const metaBits=[reading.type_label,reading.language_label,reading.year?reading.year_label:null].filter(Boolean).join(" · ");const authorLine=reading.authors.length?`<p class="meta card-authors">${escapeHtml(reading.authors_label)}</p>`:"";return `
 <article class="video-card" data-reading-card data-search="${escapeHtml(searchBlob(reading))}" data-type="${escapeHtml(reading.type)}" data-tags="${escapeHtml(reading.tags.map((tag)=>tag.toLowerCase()).join("||"))}" data-sort-date="${escapeHtml(reading.effective_sort_date||"")}" data-sequence="${index+1}">
   <a class="card-link" href="${escapeHtml(targetHref)}">
     <div class="thumb">
@@ -324,117 +368,34 @@ function buildIndex(siteMeta,readings,thumbnails){const outputPath=path.join(sit
     </div>
   </a>
 </article>
-`;}).join("");const tagSelect=[`<option value="">전체 태그</option>`].concat(tagOptions.map((tag)=>`<option value="${escapeHtml(tag.toLowerCase())}">${escapeHtml(tag)}</option>`)).join("");const typeSelect=[`<option value="">전체 유형</option>`].concat(typeOptions.map((type)=>`<option value="${escapeHtml(type)}">${escapeHtml(typeLabel(type))}</option>`)).join("");const body=`
+`;}).join("");const body=`
 ${siteHeader(siteMeta,outputPath)}
-<main class="home-shell" data-page-kind="home">
-  <section class="home-intro">
-    <p class="section-kicker">성인노년학 읽기</p>
-    <h1>${escapeHtml(siteMeta.title)}</h1>
-    <p class="meta">${escapeHtml(siteMeta.description)}</p>
-  </section>
-  <section class="panel filter-panel" data-home-controls>
-    <div class="filter-grid">
-      <label class="field wide"><span>검색</span><input class="search-input" type="search" placeholder="제목, 부제, 저자, 태그 검색" data-reading-search /></label>
-      <label class="field"><span>유형</span><select class="filter-select" data-reading-type>${typeSelect}</select></label>
-      <label class="field"><span>태그</span><select class="filter-select" data-reading-tag>${tagSelect}</select></label>
-    </div>
-    <p class="meta">홈 화면은 수업 날짜 순서로 고정되어 있습니다. 검색과 필터만 바꿔서 필요한 읽기를 바로 찾으면 됩니다.</p>
-  </section>
-  <section class="home-section">
-    <div class="section-head"><div><h2>수업 순서 읽기</h2><p class="meta">3월 5일부터 6월 9일까지의 수업일 기준으로 정리했습니다.</p></div></div>
-    <div class="video-grid" data-reading-grid>${cards}</div>
-    <section class="panel empty-state" data-empty-state hidden><h2>조건에 맞는 읽기 자료가 없습니다</h2><p>검색어, 유형, 태그 조건을 조정해 다시 확인해 주세요.</p></section>
-  </section>
+<main class="home-shell home-grid-shell" data-page-kind="home">
+  <div class="video-grid" data-reading-grid>${cards}</div>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,siteMeta.title,body,siteMeta.description,'data-page-kind="home"',"ko"));}
-function buildLanding(siteMeta,reading){const outputPath=path.join(siteDir,"readings",reading.slug,"index.html");const sourceState=pdfStatusText(reading);const tags=reading.tags.map((tag)=>`<span class="chip">${escapeHtml(tag)}</span>`).join("");const pagesByKey=pageMap(reading.pages);const flowCards=FLOW_STEPS.map((step)=>renderFlowStep(outputPath,reading,pagesByKey,step)).join("");const summaryPage=pagesByKey.summary;const fullPage=pagesByKey.full;const translationPage=pagesByKey.translation;const actionLinks=[summaryPage?pageLink(outputPath,reading,summaryPage,"핵심 요약 열기"):"",fullPage?pageLink(outputPath,reading,fullPage,"전체 글 열기"):"",translationPage?pageLink(outputPath,reading,translationPage,"한국어 번역 열기"):"",renderPdfActions(outputPath,reading,"pdf-actions inline-pdf-actions")].filter(Boolean).join("");const quickJumpPages=["summary","full","translation","concepts","pitfalls","review-sheet","professor-prep"].map((key)=>pagesByKey[key]).filter(Boolean).map((page)=>`<a class="sub-link" href="${escapeHtml(relHref(outputPath,path.join(siteDir,"readings",reading.slug,page.filename)))}"><span>${escapeHtml(page.label)}</span><span>${escapeHtml(page.available?"바로 열기":"임시 안내")}</span></a>`).join("");const pageStatusLinks=reading.pages.map((page)=>`<a class="sub-link" href="${escapeHtml(relHref(outputPath,path.join(siteDir,"readings",reading.slug,page.filename)))}"><span>${escapeHtml(page.label)}</span><span>${escapeHtml(pageDetailText(page))}</span></a>`).join("");const overviewHook=reading.overview_hook?`<section class="overview-section"><h2>이 글이 진짜 묻는 질문</h2><p>${escapeHtml(reading.overview_hook)}</p></section>`:"";const classroomPoints=reading.classroom_points.length?`<section class="overview-section"><h2>수업에서 바로 잡힐 포인트</h2><ul>${reading.classroom_points.map((item)=>`<li>${escapeHtml(item)}</li>`).join("")}</ul></section>`:"";const body=`
+function buildLanding(siteMeta,reading){const outputPath=path.join(siteDir,"readings",reading.slug,"index.html");const body=`
 ${siteHeader(siteMeta,outputPath)}
-<main class="reader-shell" data-reader-root data-reading-slug="${escapeHtml(reading.slug)}" data-page-key="index" data-page-path="${escapeHtml(path.posix.join("readings",reading.slug,"index.html"))}">
-  <article class="article panel">
-    <header class="article-header">
-      <div class="article-header-top">
-        <div>
-          <p class="section-kicker">${escapeHtml(readingSequenceLabel(reading.sequence))}</p>
-          <h1>${escapeHtml(reading.title)}</h1>
-          <p>개요 | ${escapeHtml(reading.display_date)} | ${escapeHtml(reading.authors_label)}</p>
+<main class="video-shell">
+  <article class="article panel video-article">
+    ${renderArticleHeader(outputPath,reading,{activeKey:"index",label:LANDING_TAB_LABEL,metaPageLabel:LANDING_TAB_LABEL,includeLanguage:true,breadcrumbLabel:LANDING_TAB_LABEL})}
+    <section class="article-body video-body">
+      <section class="video-stage">
+        <div class="video-frame">
+          ${renderNotebookLmVideo(outputPath,reading)}
         </div>
-        <span class="chip">개요</span>
-      </div>
-      ${renderPdfActions(outputPath,reading,"pdf-actions header-pdf-actions")}
-      ${pageTabs(outputPath,reading,"index")}
-      ${readerToolbar()}
-    </header>
-    <section class="article-body overview-body" data-article-body>
-      <section class="overview-section">
-        <h2>빠른 시작</h2>
-        <p>이 페이지는 이 읽기 자료의 학습 허브입니다. 아래 흐름대로 이동하면 핵심 요약부터 퀴즈, 시험 직전 정리, 수업 대비까지 같은 레이아웃 안에서 이어서 볼 수 있습니다.</p>
-        <div class="action-row">${actionLinks}</div>
-      </section>
-      <section class="overview-section">
-        <h2>읽기 정보</h2>
-        <div class="metric-row">
-          <div class="metric"><p class="metric-label">언어</p><p class="metric-value">${escapeHtml(reading.language_label)}</p></div>
-          <div class="metric"><p class="metric-label">유형</p><p class="metric-value">${escapeHtml(reading.type_label)}</p></div>
-          <div class="metric"><p class="metric-label">날짜</p><p class="metric-value">${escapeHtml(reading.display_date)}</p></div>
-          <div class="metric"><p class="metric-label">저자</p><p class="metric-value">${escapeHtml(reading.authors_label)}</p></div>
-        </div>
-        <p class="meta">${escapeHtml(reading.description)}</p>
-        <p class="meta">${metadataStatusHtml(reading.metadata_status)}</p>
-        <div class="chip-row">${tags}</div>
-      </section>
-      ${overviewHook}
-      ${classroomPoints}
-      <section class="overview-section">
-        <h2>학습 순서</h2>
-        <p>추천 순서: ${escapeHtml(studyOrderText(reading))}</p>
-        <div class="study-flow-grid">${flowCards}</div>
-      </section>
-      <section class="overview-section">
-        <h2>페이지 현황</h2>
-        <p class="meta">각 링크는 콘텐츠가 아직 비어 있어도 항상 열리며, 비어 있는 경우에는 임시 안내 페이지를 보여 줍니다.</p>
-        <div class="sub-link-list overview-link-list">${pageStatusLinks}</div>
-      </section>
-      <section class="overview-section">
-        <h2>읽기 맥락</h2>
-        <p class="meta">${escapeHtml(reading.source_filename)}</p>
-        ${reading.public_pdf?`<p class="meta">${escapeHtml(reading.public_pdf)}</p>`:`<p class="meta">${escapeHtml(reading.source_pdf)}</p>`}
-        <p class="meta">${escapeHtml(sourceState)}</p>
-        ${metadataNotesHtml(reading)}
       </section>
     </section>
   </article>
-  <aside class="reader-aside">
-    <section class="panel side-panel"><h2>목차</h2><nav class="toc-list" data-generated-toc></nav></section>
-    <section class="panel side-panel"><h2>중요 표시</h2><div class="important-list" data-important-list></div></section>
-    <section class="panel side-panel"><h2>바로 이동</h2><p class="meta">가장 자주 여는 페이지를 바로 이동합니다.</p><div class="sub-link-list">${quickJumpPages}</div></section>
-    <section class="panel side-panel"><h2>원문 자료</h2><p class="meta">${escapeHtml(sourceState)}</p>${renderPdfActions(outputPath,reading,"pdf-actions side-pdf-actions")}</section>
-  </aside>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,reading.title,body,reading.description,'data-page-kind="landing"',reading.language==="en"?"en":"ko"));}
-function buildArticle(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const text=loadMarkdown(page.sourcePath);const content=text?markdownToHtml(text):placeholderArticleHtml(reading,page,page.sourcePath);const pagePath=path.posix.join("readings",reading.slug,page.filename);const body=`
+function buildArticle(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const text=loadMarkdown(page.sourcePath);const content=text?markdownToHtml(text):placeholderArticleHtml(reading,page,page.sourcePath);const body=`
 ${siteHeader(siteMeta,outputPath)}
-<main class="reader-shell" data-reader-root data-reading-slug="${escapeHtml(reading.slug)}" data-page-key="${escapeHtml(page.key)}" data-page-path="${escapeHtml(pagePath)}">
+<main class="reader-shell">
   <article class="article panel">
-    <header class="article-header">
-      <div class="article-header-top">
-        <div>
-          <p class="section-kicker">${escapeHtml(readingSequenceLabel(reading.sequence))}</p>
-          <h1>${escapeHtml(reading.title)}</h1>
-          <p>${escapeHtml(page.label)} | ${escapeHtml(reading.display_date)} | ${escapeHtml(reading.authors_label)}</p>
-        </div>
-        <span class="chip">${escapeHtml(page.label)}</span>
-      </div>
-      ${renderPdfActions(outputPath,reading,"pdf-actions header-pdf-actions")}
-      ${pageTabs(outputPath,reading,page.key)}
-      ${readerToolbar()}
-    </header>
-    <section class="article-body" data-article-body>${content}</section>
+    ${renderArticleHeader(outputPath,reading,{activeKey:page.key,label:page.label})}
+    <section class="article-body">${content}</section>
   </article>
-  <aside class="reader-aside">
-    <section class="panel side-panel"><h2>목차</h2><nav class="toc-list" data-generated-toc></nav></section>
-    <section class="panel side-panel"><h2>중요 표시</h2><div class="important-list" data-important-list></div></section>
-    <section class="panel side-panel"><h2>학습 흐름</h2><p class="meta">전체 순서를 다시 확인하려면 개요 페이지로 돌아가세요.</p><p><a class="ghost-btn link-btn" href="${escapeHtml(relHref(outputPath,path.join(siteDir,"readings",reading.slug,"index.html")))}">개요로 돌아가기</a></p></section>
-  </aside>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,'data-page-kind="article"',page.key==="full"&&reading.language==="en"?"en":"ko"));}
 function writePublicPdf(reading){if(!reading.public_pdf)return false;const sourcePath=path.join(rootDir,reading.source_pdf);if(!fs.existsSync(sourcePath))return false;const targetPath=publicPdfTargetPath(reading);fs.mkdirSync(path.dirname(targetPath),{recursive:true});fs.copyFileSync(sourcePath,targetPath);return true;}
@@ -452,11 +413,7 @@ function renderStandardQuizCard(item,index){const optionsHtml=item.options&&item
 `;}
 function renderShortAnswerQuizCard(item,index){const answers=item.accepted_answers.map((answer)=>renderInline(answer)).join(" / ");const sourceHtml=item.source?`<p><strong>출처:</strong> ${renderInline(item.source)}</p>`:"";return `
 <article class="quiz-card short-answer-card">
-  <div class="quiz-card-head">
-    <h3>${index+1}. ${renderInline(item.question)}</h3>
-    <span class="chip">${escapeHtml(SHORT_ANSWER_TYPE_LABELS[item.answer_type]||item.answer_type)}</span>
-  </div>
-  <p class="meta">한 단어, 이름, 숫자, 또는 8단어 미만의 짧은 구로 답하세요.</p>
+  <h3>${index+1}. ${renderInline(item.question)}</h3>
   <details class="answer">
     <summary>정답 보기</summary>
     <p><strong>허용 정답:</strong> ${answers}</p>
@@ -466,21 +423,11 @@ function renderShortAnswerQuizCard(item,index){const answers=item.accepted_answe
   </details>
 </article>
 `;}
-function buildQuiz(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const quiz=loadQuiz(page,page.sourcePath);let content="";if(!quiz){content=placeholderQuizHtml(page,page.sourcePath);}else{const cards=quiz.items.map((item,index)=>page.key==="quiz-short"?renderShortAnswerQuizCard(item,index):renderStandardQuizCard(item,index)).join("");content=`<section class="panel quiz-intro"><h2>${escapeHtml(quiz.title||page.label)}</h2><p class="meta">${escapeHtml(quiz.instructions||"")}</p><p class="meta">${quiz.items.length}문항</p></section><section class="quiz-list">${cards}</section>`;}const body=`
+function buildQuiz(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const quiz=loadQuiz(page,page.sourcePath);let content="";if(!quiz){content=placeholderQuizHtml(page,page.sourcePath);}else{const cards=quiz.items.map((item,index)=>page.key==="quiz-short"?renderShortAnswerQuizCard(item,index):renderStandardQuizCard(item,index)).join("");content=`<section class="quiz-list">${cards}</section>`;}const body=`
 ${siteHeader(siteMeta,outputPath)}
 <main class="quiz-shell">
   <article class="article panel">
-    <header class="article-header">
-      <div class="article-header-top">
-        <div>
-          <p class="section-kicker">${escapeHtml(readingSequenceLabel(reading.sequence))}</p>
-          <h1>${escapeHtml(reading.title)}</h1>
-          <p>${escapeHtml(page.label)} | ${escapeHtml(reading.display_date)} | ${escapeHtml(reading.authors_label)}</p>
-        </div>
-        <span class="chip">퀴즈</span>
-      </div>
-      ${pageTabs(outputPath,reading,page.key)}
-    </header>
+    ${renderArticleHeader(outputPath,reading,{activeKey:page.key,label:page.label})}
     <section class="article-body">${content}</section>
   </article>
 </main>
@@ -499,7 +446,7 @@ function renderProfessorPrepCard(card,index){return `
   </section>
 </article>
 `;}
-function buildProfessorPrep(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const prep=loadProfessorPrep(page.sourcePath);const pagePath=path.posix.join("readings",reading.slug,page.filename);const deck=prep?buildProfessorPrepDeck(prep):null;const content=prep?`
+function buildProfessorPrep(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const prep=loadProfessorPrep(page.sourcePath);const deck=prep?buildProfessorPrepDeck(prep):null;const content=prep?`
 <section class="panel prep-intro">
   <p class="section-kicker">이 글을 어떻게 읽었는지</p>
   <h2>${deck.length}개 모델 답변</h2>
@@ -510,28 +457,18 @@ function buildProfessorPrep(siteMeta,reading,page){const outputPath=path.join(si
 </section>
 `:placeholderProfessorPrepHtml(page,page.sourcePath);const body=`
 ${siteHeader(siteMeta,outputPath)}
-<main class="quiz-shell" data-reader-root data-reading-slug="${escapeHtml(reading.slug)}" data-page-key="${escapeHtml(page.key)}" data-page-path="${escapeHtml(pagePath)}">
+<main class="quiz-shell">
   <article class="article panel">
-    <header class="article-header">
-      <div class="article-header-top">
-        <div>
-          <p class="section-kicker">${escapeHtml(readingSequenceLabel(reading.sequence))}</p>
-          <h1>${escapeHtml(reading.title)}</h1>
-          <p>${escapeHtml(page.label)} | ${escapeHtml(reading.display_date)} | ${escapeHtml(reading.authors_label)}</p>
-        </div>
-        <span class="chip">${escapeHtml(page.label)}</span>
-      </div>
-      ${pageTabs(outputPath,reading,page.key)}
-      ${readerToolbar()}
-    </header>
-    <section class="article-body prep-body" data-article-body data-prep-root>${content}</section>
+    ${renderArticleHeader(outputPath,reading,{activeKey:page.key,label:page.label})}
+    <section class="article-body prep-body">${content}</section>
   </article>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,'data-page-kind="prep"',"ko"));}
-function writeAssets(){writeText(path.join(siteDir,"assets","styles.css"),readText(styleSource));writeText(path.join(siteDir,"assets","app.js"),readText(appSource));}
+function copyNotebooklmVideo(reading){if(!reading.notebooklm_video_source||!reading.notebooklm_video_url)return;const target=path.join(siteDir,...reading.notebooklm_video_url.split("/"));fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(reading.notebooklm_video_source,target);}
+function writeAssets(){writeText(path.join(siteDir,"assets","styles.css"),readText(styleSource));writeText(path.join(siteDir,"assets","app.js"),readText(appSource));if(fs.existsSync(brandLogoSource)){const target=path.join(siteDir,"assets","branding","snu.png");fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(brandLogoSource,target);}}
 function parseArgs(){const slugIndex=process.argv.indexOf("--slug");return{slug:slugIndex!==-1?process.argv[slugIndex+1]:null};}
 function buildPage(siteMeta,reading,page){if(page.type==="article"){buildArticle(siteMeta,reading,page);return;}if(page.type==="professor-prep"){buildProfessorPrep(siteMeta,reading,page);return;}buildQuiz(siteMeta,reading,page);}
-function buildSite(options={}){const manifest=loadManifest();ensureContentPlaceholders(manifest,options.slug||null);const siteMeta=manifest.site;const readings=prepareReadings(manifest);if(options.slug){const target=readings.find((reading)=>reading.slug===options.slug);if(!target)throw new Error(`Unknown slug: ${options.slug}`);fs.mkdirSync(siteDir,{recursive:true});const thumbnails=buildThumbnails(manifest,target.slug);writeAssets();buildIndex(siteMeta,readings,thumbnails);writePublicPdf(target);const readingDir=path.join(siteDir,"readings",target.slug);if(fs.existsSync(readingDir))fs.rmSync(readingDir,{recursive:true,force:true});buildLanding(siteMeta,target);for(const page of target.pages){buildPage(siteMeta,target,page);}return{siteMeta,readings};}if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){writePublicPdf(reading);buildLanding(siteMeta,reading);for(const page of reading.pages){buildPage(siteMeta,reading,page);}}return{siteMeta,readings};}
+function buildSite(options={}){const manifest=loadManifest();ensureContentPlaceholders(manifest,options.slug||null);const siteMeta=manifest.site;const readings=prepareReadings(manifest);if(options.slug){const target=readings.find((reading)=>reading.slug===options.slug);if(!target)throw new Error(`Unknown slug: ${options.slug}`);fs.mkdirSync(siteDir,{recursive:true});const thumbnails=buildThumbnails(manifest,target.slug);writeAssets();buildIndex(siteMeta,readings,thumbnails);writePublicPdf(target);copyNotebooklmVideo(target);const readingDir=path.join(siteDir,"readings",target.slug);if(fs.existsSync(readingDir))fs.rmSync(readingDir,{recursive:true,force:true});buildLanding(siteMeta,target);for(const page of target.pages){buildPage(siteMeta,target,page);}return{siteMeta,readings};}if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){writePublicPdf(reading);copyNotebooklmVideo(reading);buildLanding(siteMeta,reading);for(const page of reading.pages){buildPage(siteMeta,reading,page);}}return{siteMeta,readings};}
 module.exports={buildSite};
 if(require.main===module){const options=parseArgs();buildSite(options);console.log(options.slug?`[built] reading ${options.slug} + home`:"[built] docs" );}
 

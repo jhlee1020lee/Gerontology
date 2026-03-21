@@ -30,8 +30,14 @@
   },
   "content_dir": "content/readings/blieszner-2014",
   "type": "article",
-  "class_date": "2026-05-12",
+  "class_date": "2026-05-07",
   "reading_date": null,
-  "sort_date": "2026-05-12",
-  "display_date_label": "5/12"
+  "sort_date": "2026-05-07",
+  "display_date_label": "5/07",
+  "public_pdf": null,
+  "overview_hook": null,
+  "classroom_points": [],
+  "notebooklm_video_url": null,
+  "notebooklm_video_note": null,
+  "notebooklm_video_poster": null
 }

@@ -27,8 +27,14 @@
   },
   "content_dir": "content/readings/ch04-gerontology",
   "type": "chapter",
-  "class_date": "2026-03-24",
+  "class_date": "2026-03-19",
   "reading_date": null,
-  "sort_date": "2026-03-24",
-  "display_date_label": "3/24"
+  "sort_date": "2026-03-19",
+  "display_date_label": "3/19",
+  "public_pdf": null,
+  "overview_hook": null,
+  "classroom_points": [],
+  "notebooklm_video_url": null,
+  "notebooklm_video_note": null,
+  "notebooklm_video_poster": null
 }

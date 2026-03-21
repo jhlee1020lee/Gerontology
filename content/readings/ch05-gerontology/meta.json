@@ -27,8 +27,20 @@
   },
   "content_dir": "content/readings/ch05-gerontology",
   "type": "chapter",
-  "class_date": "2026-03-31",
+  "class_date": "2026-03-26",
   "reading_date": null,
-  "sort_date": "2026-03-31",
-  "display_date_label": "3/31"
+  "sort_date": "2026-03-26",
+  "display_date_label": "3/26",
+  "public_pdf": "pdfs/ch05-gerontology.pdf",
+  "overview_hook": "이 장은 인간의 최대수명이 어디까지 갈 수 있는지라는 질문에서 출발해, 정상노화와 병리, 불가피한 변화와 개입 가능한 변화를 구분하게 만든다.",
+  "classroom_points": [
+    "평균수명이 늘어나는 것과 최대수명이 늘어나는 것은 같은 말이 아니라는 점을 먼저 구분해야 한다.",
+    "일차적 노화는 보편적이고 불가피하지만, 이차적 노화는 질병, 불용, 남용과 얽혀 있어 지연하거나 줄일 여지가 있다.",
+    "프로그램 이론과 손상·오류 이론은 서로 배타적 정답이라기보다 노화를 설명하는 서로 다른 축으로 읽는 편이 안전하다.",
+    "외형 변화만이 아니라 심혈관계, 호흡계, 신경계, 감각기관 변화까지 함께 봐야 노년기 신체 변화를 제대로 설명할 수 있다.",
+    "이 장의 실천적 메시지는 정상노화와 질병을 구분하고, 운동, 식이, 금연, 환경 관리 같은 개입 가능성을 놓치지 않는 데 있다."
+  ],
+  "notebooklm_video_url": "assets/videos/ch05-gerontology/notebooklm.mp4",
+  "notebooklm_video_note": null,
+  "notebooklm_video_poster": null
 }

@@ -28,8 +28,14 @@
   },
   "content_dir": "content/readings/ch08-gerontology",
   "type": "chapter",
-  "class_date": "2026-04-28",
+  "class_date": "2026-04-21",
   "reading_date": null,
-  "sort_date": "2026-04-28",
-  "display_date_label": "4/28"
+  "sort_date": "2026-04-21",
+  "display_date_label": "4/21",
+  "public_pdf": null,
+  "overview_hook": null,
+  "classroom_points": [],
+  "notebooklm_video_url": null,
+  "notebooklm_video_note": null,
+  "notebooklm_video_poster": null
 }

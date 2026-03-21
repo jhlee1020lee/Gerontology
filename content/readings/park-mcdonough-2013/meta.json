@@ -33,5 +33,11 @@
   "class_date": "2026-04-07",
   "reading_date": null,
   "sort_date": "2026-04-07",
-  "display_date_label": "4/07"
+  "display_date_label": "4/07",
+  "public_pdf": null,
+  "overview_hook": null,
+  "classroom_points": [],
+  "notebooklm_video_url": null,
+  "notebooklm_video_note": null,
+  "notebooklm_video_poster": null
 }
