@@ -55,12 +55,7 @@ The third inconvenient truth is that forecasts of linear increases in cohort lif
 
 ### Table 1. Annual Average Rate of Improvement in e(0), by Decade (United States, 1990-2016)
 
-| Life Expectancy at Birth | Annual Improvement |
-| --- | --- |
-| 1990: 75.40 | --- |
-| 2000: 76.84 | 0.142 |
-| 2010: 78.81 | 0.197 |
-| 2016: 78.91 | 0.017 |
+![Table 1. Annual Average Rate of Improvement in e(0), by Decade (United States, 1990-2016)](figures/table-1.png)
 
 Note: Human Mortality Database (1), data accessed January 2019.
 

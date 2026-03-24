@@ -176,12 +176,6 @@ cognitive performanceti = β0i + β1i(ageti) + β2i(ageti^2) + β3i(retestti) + 
 
 표 3. Thurstone의 1차 정신능력에서 코호트 차이를 검토한 성장모형 결과
 
-아래 블록은 원문 표의 계수와 표준오차를 원순서대로 보존한 전사본이다.
-
-```text
-Table 3 Results From Growth Models Examining Cohort Differences in Thurstone’s Primary Mental Abilities Spatial orientation Inductive reasoning Word fluency Number Verbal meaning Parameter Estimate SE Estimate SE Estimate SE Estimate SE Estimate SE Fixed effects Intercept 54.59 .26 55.97 .21 53.34 .27 51.87 .27 56.15 .20 Age -.08 .01 -.08 .01 -.08 .01 -.14 .01 -.05 .01 Age^2 -.003 <.01 -.004 <.01 -.004 <.01 -.003 <.01 -.005 <.01 Cohort 2.28 .51 3.55 .42 1.38 .54 -3.46 .53 1.61 .38 Cohort × Age .03 .02 .03 .02 .09 .02 .00 .02 .04 .02 Random effects Intercept 62.00 3.04 43.45 2.08 68.88 3.41 70.09 3.25 35.11 1.75 Age .01 <.01 .01 <.01 .02 <.01 .02 <.01 .01 <.01 Intercept × Age .04 .08 .06 .06 .27 .10 -.33 .08 .09 .05 Residual variance 20.45 .70 11.32 .39 22.83 .77 14.82 .50 12.63 .42
-```
-
 주. 절편은 55세에 중심화했다. 값이 클수록 재검사 관측치와 후발 코호트에 유리한 방향을 뜻한다. 결과변수는 Seattle Longitudinal Study 첫 조사시점을 기준으로 T점수(M = 50, SD = 10)로 표준화했다. 모든 예측변수는 표본 평균에 중심화했다. 인지 수행 수준과 변화에 대한 코호트 효과가 굵은 글씨로 강조되어 있다. *p < .05.
 
 ### 지각된 일 환경의 역할
@@ -200,12 +194,6 @@ Table 3 Results From Growth Models Examining Cohort Differences in Thurstone’s
 
 표 4. 작업 통제가 Thurstone의 1차 정신능력에 미치는 역할을 검토한 성장모형 결과
 
-아래 블록은 원문 표의 계수와 표준오차를 원순서대로 보존한 전사본이다.
-
-```text
-Table 4 Results From Growth Models Examining the Role of Work Control on Thurstone’s Primary Mental Abilities Spatial orientation Inductive reasoning Word fluency Number Verbal meaning Parameter Estimate SE Estimate SE Estimate SE Estimate SE Estimate SE Fixed effects Intercept 54.42 .25 55.80 .20 53.29 .26 51.91 .27 56.08 .18 Age -.13 .02 -.14 .02 -.09 .02 -.12 .02 -.07 .02 Age^2 -.002 <.01 -.002 <.01 -.004 <.01 -.004 <.01 -.005 <.01 Retest 1.50 .30 1.29 .23 .65 .32 -.01 .27 .51 .23 Gender -3.66 .49 2.06 .39 2.52 .51 -1.53 .53 1.52 .35 Education -.23 .26 1.90 .20 2.66 .27 .59 .28 2.42 .18 Number of observations .73 .25 .77 .20 .28 .26 .43 .27 .58 .18 Cohort 2.44 .52 2.69 .41 .11 .54 -3.66 .55 .53 .37 Work control .92 .25 1.19 .20 .78 .26 .89 .27 .94 .18 Cohort × Work Control .20 .49 .27 .39 .36 .51 .38 .52 .46 .35 Gender × Age .00 .02 .04 .02 .06 .02 .03 .02 .02 .02 Education × Age -.01 .01 -.02 .01 .01 .01 -.01 .01 .01 .01 Number of Observations × Age .01 .01 .02 .01 -.01 .01 -.02 .01 .00 .01 Cohort × Age .04 .02 .03 .02 .07 .02 .00 .02 .03 .02 Work Control × Age .01 .01 .03 .01 .00 .01 .01 .01 .00 .01 Cohort × Age × Work Control .00 .02 .01 .02 .02 .02 .01 .02 .01 .02 Random effects Intercept 56.30 2.81 35.46 1.75 59.47 3.01 67.63 3.15 27.21 1.42 Age .01 <.01 .01 <.01 .02 <.01 .02 <.01 .01 <.01 Intercept × Age .07 .08 .04 .05 .21 .09 -.30 .08 .11 .04 Residual variance 20.36 .69 11.35 .39 22.93 .77 14.80 .50 12.67 .42
-```
-
 주. 절편은 55세에 중심화했다. 값이 클수록 재검사 관측치, 후발 코호트, 여성, 높은 교육, 많은 관측치 수, 높은 작업 통제 점수에 유리한 방향을 뜻한다. 결과변수는 Seattle Longitudinal Study 첫 조사시점을 기준으로 T점수(M = 50, SD = 10)로 표준화했다. 모든 예측변수는 표본 평균에 중심화했고, 연속형 예측변수는 z점수(M = 0, SD = 1)로 표준화했다. 코호트와 작업 통제의 효과가 굵은 글씨로 강조되어 있다. *p < .05.
 
 ### 표 5
@@ -214,12 +202,6 @@ Table 4 Results From Growth Models Examining the Role of Work Control on Thursto
 
 표 5. 작업 자율성이 Thurstone의 1차 정신능력에 미치는 역할을 검토한 성장모형 결과
 
-아래 블록은 원문 표의 계수와 표준오차를 원순서대로 보존한 전사본이다.
-
-```text
-Table 5 Results From Growth Models Examining the Role of Work Autonomy on Thurstone’s Primary Mental Abilities Spatial orientation Inductive reasoning Word fluency Number Verbal meaning Parameter Estimate SE Estimate SE Estimate SE Estimate SE Estimate SE Fixed effects Intercept 54.43 .25 55.78 .20 53.26 .26 51.88 .27 56.05 .18 Age -.13 .02 -.14 .02 -.09 .02 -.12 .02 -.07 .02 Age^2 -.002 <.01 -.002 <.01 -.004 <.01 -.004 <.01 -.005 <.01 Retest 1.52 .30 1.29 .23 .65 .32 -.01 .27 .54 .23 Gender -3.56 .50 2.21 .40 2.72 .51 -1.31 .53 1.70 .35 Education -.09 .26 2.06 .20 2.71 .26 .70 .27 2.52 .18 Number of observations .75 .26 .78 .20 .27 .26 .40 .27 .58 .18 Cohort 2.59 .52 2.92 .42 .32 .54 -3.46 .55 .74 .37 Work autonomy .37 .25 .61 .20 .87 .25 .71 .26 .77 .18 Cohort × Work Autonomy .37 .49 .15 .39 .72 .51 -1.38 .52 .40 .35 Gender × Age .00 .02 .05 .02 .07 .02 .02 .02 .03 .02 Education × Age -.01 .01 -.02 .01 .01 .01 -.01 .01 -.01 .01 Number of Observations × Age .01 .01 .02 .01 -.01 .01 -.02 .01 .00 .01 Cohort × Age .05 .02 .05 .02 .08 .02 .00 .02 .04 .02 Work Autonomy × Age .02 .01 .04 .01 .02 .01 .00 .01 .01 .01 Cohort × Age × Work Autonomy .01 .02 .02 .02 .00 .02 .02 .02 .00 .02 Random effects Intercept 57.05 2.83 36.64 1.79 59.11 3.00 67.46 3.14 27.49 1.43 Age .01 <.01 .01 <.01 .02 <.01 .02 <.01 .01 <.01 Intercept × Age .08 .08 .07 .05 .19 .09 -.30 .08 .10 .04 Residual variance 20.33 .69 11.33 .39 22.92 .77 14.79 .50 12.65 .42
-```
-
 주. 절편은 55세에 중심화했다. 값이 클수록 재검사 관측치, 후발 코호트, 여성, 높은 교육, 많은 관측치 수, 높은 작업 자율성 점수에 유리한 방향을 뜻한다. 결과변수는 Seattle Longitudinal Study 첫 조사시점을 기준으로 T점수(M = 50, SD = 10)로 표준화했다. 모든 예측변수는 표본 평균에 중심화했고, 연속형 예측변수는 z점수(M = 0, SD = 1)로 표준화했다. 코호트와 작업 자율성의 효과가 굵은 글씨로 강조되어 있다. *p < .05.
 
 ### 표 6
@@ -227,12 +209,6 @@ Table 5 Results From Growth Models Examining the Role of Work Autonomy on Thurst
 ![Table 6. Results From Growth Models Examining the Role of Work Innovation on Thurstone's Primary Mental Abilities](figures/table-6.png)
 
 표 6. 작업 혁신이 Thurstone의 1차 정신능력에 미치는 역할을 검토한 성장모형 결과
-
-아래 블록은 원문 표의 계수와 표준오차를 원순서대로 보존한 전사본이다.
-
-```text
-Table 6 Results From Growth Models Examining the Role of Work Innovation on Thurstone’s Primary Mental Abilities Spatial orientation Inductive reasoning Word fluency Number Verbal meaning Parameter Estimate SE Estimate SE Estimate SE Estimate SE Estimate SE Fixed effects Intercept 54.41 .26 55.79 .20 53.28 .26 51.90 .27 56.06 .18 Age -.14 .02 -.14 .02 -.09 .02 -.13 .02 -.07 .02 Age^2 -.002 <.01 -.002 <.01 -.004 <.01 -.003 <.01 -.005 <.01 Retest 1.51 .30 1.31 .23 .68 .32 .03 .27 .54 .23 Gender -3.49 .50 2.17 .40 2.60 .51 -1.52 .53 1.66 .36 Education -.23 .26 2.08 .21 2.80 .27 .88 .28 2.49 .19 Number of observations .78 .25 .79 .20 .29 .26 .43 .27 .61 .18 Cohort 2.46 .52 2.81 .42 .20 .53 -3.51 .56 .59 .37 Work innovation .84 .26 .23 .21 .05 .27 .42 .27 .52 .18 Cohort × Work Innovation .32 .50 .17 .40 .28 .51 .22 .53 .18 .36 Gender × Age .00 .02 .05 .02 .07 .02 .03 .02 .02 .02 Education × Age -.01 .01 -.02 .01 .00 .01 -.02 .01 -.01 .01 Number of Observations × Age .01 .01 .02 .01 -.01 .01 -.02 .01 .00 .01 Cohort × Age .04 .02 .04 .02 .07 .02 .00 .02 .04 .02 Work Innovation × Age .01 .01 .01 .01 .01 .01 .01 .01 .01 .01 Cohort × Age × Work Innovation .01 .02 .02 .02 .03 .02 .02 .02 .00 .02 Random effects Intercept 56.59 2.81 36.92 1.81 60.02 3.04 68.25 3.17 27.87 1.44 Age .01 <.01 .01 <.01 .02 <.01 .02 <.01 .01 <.01 Intercept × Age .07 .08 .08 .05 .22 .09 -.31 .08 .12 .04 Residual variance 20.33 .69 11.37 .39 22.90 .77 14.80 .50 12.68 .42
-```
 
 주. 절편은 55세에 중심화했다. 값이 클수록 재검사 관측치, 후발 코호트, 여성, 높은 교육, 많은 관측치 수, 높은 작업 혁신 점수에 유리한 방향을 뜻한다. 결과변수는 Seattle Longitudinal Study 첫 조사시점을 기준으로 T점수(M = 50, SD = 10)로 표준화했다. 모든 예측변수는 표본 평균에 중심화했고, 연속형 예측변수는 z점수(M = 0, SD = 1)로 표준화했다. 코호트와 작업 혁신의 효과가 굵은 글씨로 강조되어 있다. *p < .05.
 

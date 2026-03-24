@@ -31,25 +31,39 @@ Maintain a static study website for gerontology course readings that can be prev
 - Preferred workflow is one reading at a time.
 - Preferred completion model is staged completion with a validation gate before moving on.
 - Future automation should finish one reading before moving to the next reading.
-- Translation for English readings must be handled as its own dedicated per-reading completeness pass.
-- Do not combine translation, quizzes, professor-prep, and UI/site polish in one low-quality batch.
+- For English readings, original-text extraction and Korean translation must be handled as separate stages.
+- Do not combine extraction, translation, quizzes, professor-prep, and UI/site polish in one low-quality batch.
 - Prefer staged completion over one huge weak batch.
 
-### Stage 1 = content completeness
+### Stage 1 = original extraction
 - `개요`
 - `전체 글`
-- `한국어 번역` for English readings only
 - deployable online PDF access when public PDF access is supported
 
 Stage 1 content meaning:
 - `전체 글` must contain the full original text only.
 - `전체 글` must not use summary-style rewriting, compression, or a clean-overview substitute.
 - `전체 글` must preserve section order and the readable full body.
+- Photos, tables, figures, and graphs from the source reading must be inserted directly into `전체 글` as image assets.
+- Stage 1 must be completed in three contiguous passes:
+  - Pass 1: front third of the reading
+  - Pass 2: middle third of the reading
+  - Pass 3: final third of the reading plus end-to-end extraction QA
+
+### Stage 2 = Korean translation
+- `한국어 번역` for English readings only
+
+Stage 2 content meaning:
 - `한국어 번역` must contain the full Korean translation of the original reading for English readings.
 - `한국어 번역` must not use summary-style translation, abridged translation, selective excerpts, or patchy translation.
 - `한국어 번역` must preserve section order and heading structure.
+- Photos, tables, figures, and graphs from the source reading must also be inserted directly into `한국어 번역` as image assets in the matching positions.
+- Stage 2 must be completed in three contiguous passes:
+  - Pass 1: front third translation
+  - Pass 2: middle third translation
+  - Pass 3: final third translation plus end-to-end translation QA
 
-### Stage 2 = study package
+### Stage 3 = study package
 - `핵심 요약`
 - `핵심 개념`
 - `헷갈리는 포인트`
@@ -61,22 +75,29 @@ Stage 1 content meaning:
 
 ### Validation gates
 - Stage 1 must be complete and validated before Stage 2 starts for a reading.
+- Stage 2 must be complete and validated before Stage 3 starts for a reading.
 - Stage 1 validation requires:
   - `전체 글` contains the full original text, preserving section order and the readable full body
-  - `한국어 번역` is a complete full Korean translation for English readings, preserving section order and heading structure
+  - Stage 1 Pass 1-3 are all complete, contiguous, and merged into one readable `full` body
+  - photos, tables, figures, and graphs from the source reading are directly inserted as images
   - deployable PDF path exists when public PDF access is supported
+  - reading-hub links work
+- Stage 2 validation requires:
+  - `한국어 번역` is a complete full Korean translation for English readings, preserving section order and heading structure
+  - Stage 2 Pass 1-3 are all complete, contiguous, and merged into one readable `translation` body
+  - photos, tables, figures, and graphs from the source reading are directly inserted as images
   - reading-hub links work
 - If `전체 글` is not full text, the reading is not complete.
 - If `한국어 번역` is not a complete full translation, the reading is not complete.
 - Such readings must be marked `partial` or `blocked`, not done.
-- Stage 2 validation requires:
+- Stage 3 validation requires:
   - `summary`, `concepts`, `pitfalls`, `review-sheet`, and `professor-prep` exist
   - `quiz-ox`, `quiz-short`, and `quiz-mcq` each contain `15` items
-  - all Stage 2 pages are linked from the reading hub
+  - all Stage 3 pages are linked from the reading hub
 
 ## Hulur benchmark
 - `hulur-et-al-2019` is the current workflow and quality benchmark.
-- Use Hulur as the model for workflow completeness, translation completeness, deployable PDF exposure, validation discipline, and professor-prep shape.
+- Use Hulur as the model for workflow completeness, extraction completeness, translation completeness, deployable PDF exposure, validation discipline, and professor-prep shape.
 - Do not generalize Hulur-specific subject matter into global rules.
 
 ## Homepage / ordering rules
@@ -105,6 +126,7 @@ Each reading supports the following generated pages:
 - `summary.html` / `핵심 요약` is the only page where summarization is allowed.
 - Never substitute summary content into `full.html`.
 - Never substitute summary content into `translation.html`.
+- In `full.html` and `translation.html`, do not replace photos, tables, figures, or graphs with text-only placeholders.
 - `quiz-short` is true short-answer only.
 - Allowed short-answer outputs are:
   - one term

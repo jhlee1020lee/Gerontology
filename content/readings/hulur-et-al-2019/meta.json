@@ -71,7 +71,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-24T02:23:11.605Z",
+    "updated_at": "2026-03-24T03:13:35.049Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -99,12 +99,12 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 7719,
+          "word_count": 6669,
           "section_count": 10,
           "sub_section_count": 18,
           "bullet_count": 15,
           "full_word_count": 11570,
-          "translation_ratio": 0.667
+          "translation_ratio": 0.576
         }
       },
       "summary": {

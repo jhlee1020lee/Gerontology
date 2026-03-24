@@ -48,9 +48,11 @@ Content contract for the main reading pages:
 - `full.html` / `전체 글` must contain the full original text only.
 - `full.html` must not contain summary-style rewriting, compression, or a clean-overview substitute.
 - `full.html` must preserve section order and the readable full body.
+- Photos, tables, figures, and graphs from the source reading must be inserted directly into `full.html` as image assets.
 - `translation.html` / `한국어 번역` for English readings must contain the full Korean translation of the original reading.
 - `translation.html` must not contain summary-style translation, abridged translation, selective excerpts, or patchy translation.
 - `translation.html` must preserve section order and heading structure.
+- Photos, tables, figures, and graphs from the source reading must also be inserted directly into `translation.html` as image assets in the matching locations.
 - `summary.html` / `핵심 요약` is the only page where summarization is allowed.
 - Never substitute summary content into `full.html` or `translation.html`.
 
@@ -71,15 +73,26 @@ Common authored source files in a reading folder include:
 - Preferred workflow is one reading at a time.
 - Future automation should finish one reading before moving to the next reading.
 - Use stage-based completion with validation before advancing.
+- For English readings, extraction and translation are separate stages.
 
-### Stage 1 = content completeness
+### Stage 1 = original extraction
 - `개요`
 - `설명 영상`
 - `전체 글`
-- `한국어 번역` for English readings only
 - deployable online PDF access when public PDF access is supported
+- Run Stage 1 in three contiguous passes:
+  - Pass 1: front third extraction
+  - Pass 2: middle third extraction
+  - Pass 3: final third extraction plus extraction QA
 
-### Stage 2 = study package
+### Stage 2 = Korean translation
+- `한국어 번역` for English readings only
+- Run Stage 2 in three contiguous passes:
+  - Pass 1: front third translation
+  - Pass 2: middle third translation
+  - Pass 3: final third translation plus translation QA
+
+### Stage 3 = study package
 - `핵심 요약`
 - `핵심 개념`
 - `헷갈리는 포인트`
@@ -91,16 +104,21 @@ Common authored source files in a reading folder include:
 
 ### Validation gates
 - Finish and validate Stage 1 before starting Stage 2 for a reading.
+- Finish and validate Stage 2 before starting Stage 3 for a reading.
 - Stage 1 validation:
   - `설명 영상` exists and is approved for public release
+  - Stage 1 Pass 1-3 are all complete and merged into one readable `full` body
   - `전체 글` contains the full original text, preserving section order and the readable full body
-  - `한국어 번역` is a complete full Korean translation for English readings, preserving section order and heading structure
   - deployable PDF path exists when public PDF access is supported
   - reading-hub links work
-- If `전체 글` is not full text, the reading is not complete.
-- If `한국어 번역` is not a complete full translation, the reading is not complete.
-- Such readings must be marked `partial` or `blocked`, not done.
 - Stage 2 validation:
+  - `translation` is a complete full Korean translation for English readings, preserving section order and heading structure
+  - Stage 2 Pass 1-3 are all complete and merged into one readable `translation` body
+  - reading-hub links work
+- If `전체 글` is not full text, the reading is not complete.
+- If `translation` is not a complete full translation, the reading is not complete.
+- Such readings must be marked `partial` or `blocked`, not done.
+- Stage 3 validation:
   - `summary`, `concepts`, `pitfalls`, `review-sheet`, and `professor-prep` exist and pass schema validation
   - `quiz-ox`, `quiz-short`, and `quiz-mcq` each have `15` items
   - all study pages are linked from the reading hub
@@ -122,13 +140,16 @@ Common authored source files in a reading folder include:
 
 ## Hulur benchmark
 - `hulur-et-al-2019` is the current workflow and quality benchmark reading.
-- Future automation should emulate its workflow completeness, translation completeness, public PDF exposure, reading-hub completeness, and validation discipline.
+- Future automation should emulate its workflow completeness, extraction completeness, translation completeness, public PDF exposure, reading-hub completeness, and validation discipline.
 - Hulur is a benchmark for workflow and quality, not for subject matter.
 
 ## Key content rules
-- Translation for English readings should be a dedicated completeness pass.
+- For English readings, extraction and translation are separate stages.
+- `full.html` extraction should be done in three contiguous passes before it is treated as complete.
+- `translation.html` should be done in three contiguous passes after extraction is complete.
 - `full.html` / `전체 글` must contain the full original text only.
 - `한국어 번역` must be complete full translation, contiguous and unabridged.
+- Photos, tables, figures, and graphs from the source reading must be included directly as image assets in both pages where applicable.
 - If translation is partial, mark the reading partial/blocked rather than pretending it is complete.
 - Never substitute summary content into `full.html` or `translation.html`.
 - `summary.html` / `핵심 요약` is the only page where summarization is allowed.

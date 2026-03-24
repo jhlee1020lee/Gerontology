@@ -61,7 +61,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T17:46:56.417Z",
+    "updated_at": "2026-03-24T05:45:22.755Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -78,7 +78,7 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 1758,
+          "word_count": 1823,
           "section_count": 12,
           "sub_section_count": 0,
           "bullet_count": 0
@@ -89,12 +89,12 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 1235,
+          "word_count": 1295,
           "section_count": 12,
           "sub_section_count": 0,
           "bullet_count": 0,
-          "full_word_count": 1758,
-          "translation_ratio": 0.703
+          "full_word_count": 1823,
+          "translation_ratio": 0.71
         }
       },
       "summary": {

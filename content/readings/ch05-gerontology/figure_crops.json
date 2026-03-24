@@ -1,0 +1,74 @@
+[
+  {
+    "source": "page-02.png",
+    "output": "opening-box-150-year-human.png",
+    "x": 90,
+    "y": 300,
+    "width": 620,
+    "height": 700
+  },
+  {
+    "source": "page-04.png",
+    "output": "figure-5-1.png",
+    "x": 145,
+    "y": 135,
+    "width": 460,
+    "height": 360
+  },
+  {
+    "source": "page-09.png",
+    "output": "figure-5-2.png",
+    "x": 90,
+    "y": 90,
+    "width": 625,
+    "height": 635
+  },
+  {
+    "source": "page-10.png",
+    "output": "figure-5-3.png",
+    "x": 120,
+    "y": 530,
+    "width": 520,
+    "height": 230
+  },
+  {
+    "source": "page-11.png",
+    "output": "figure-5-4.png",
+    "x": 180,
+    "y": 535,
+    "width": 460,
+    "height": 270
+  },
+  {
+    "source": "page-14.png",
+    "output": "figure-5-5.png",
+    "x": 90,
+    "y": 305,
+    "width": 620,
+    "height": 180
+  },
+  {
+    "source": "page-16.png",
+    "output": "figure-5-6.png",
+    "x": 110,
+    "y": 100,
+    "width": 520,
+    "height": 300
+  },
+  {
+    "source": "page-18.png",
+    "output": "figure-5-7.png",
+    "x": 90,
+    "y": 85,
+    "width": 640,
+    "height": 670
+  },
+  {
+    "source": "page-20.png",
+    "output": "figure-5-8.png",
+    "x": 90,
+    "y": 100,
+    "width": 640,
+    "height": 205
+  }
+]

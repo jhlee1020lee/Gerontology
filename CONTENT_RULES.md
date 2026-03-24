@@ -17,14 +17,15 @@
 - Preferred workflow is one reading at a time.
 - Future automation should finish one reading before moving to the next reading.
 - Use stage-based completion with explicit validation gates.
-- Translation for English readings must be a dedicated per-reading completeness pass.
+- For English readings, original-text extraction and Korean translation must be separate stages.
 - Do not interleave translation, quizzes, professor-prep, and site-polish in one low-quality generation step.
 - Prefer staged completion over one huge low-quality batch.
 
 ## 3. Hulur benchmark rule
 - `hulur-et-al-2019` is the current workflow and quality benchmark reading.
 - Use Hulur as the model for:
-  - Stage 1 before Stage 2 sequencing
+  - Stage 1 before Stage 2 before Stage 3 sequencing
+  - complete original-text extraction for English readings
   - complete contiguous translation for English readings
   - deployable public PDF exposure
   - reading-hub completeness
@@ -34,7 +35,7 @@
 
 ## 4. Stage model
 
-### 4.1 Stage 1 = content completeness
+### 4.1 Stage 1 = original extraction
 - `개요`
 - `설명 영상`
 - `전체 글`
@@ -42,15 +43,34 @@
 - deployable online PDF access when public PDF access is supported
 
 Stage 1 content meaning:
+- Stage 1 must be executed in three contiguous passes:
+  - Pass 1: front third extraction
+  - Pass 2: middle third extraction
+  - Pass 3: final third extraction plus end-to-end extraction QA
 - `설명 영상` must have a public notebookLM video or equivalent deployable video asset on the landing page.
 - `전체 글` must contain the full original text only.
 - `전체 글` must not use summary-style rewriting, compression, or a clean-overview substitute.
 - `전체 글` must preserve section order and the readable full body.
+- Photos, tables, figures, and graphs from the source reading must be inserted directly into `전체 글` as image assets, not omitted and not replaced with text-only placeholders.
 - `한국어 번역` must contain the full Korean translation of the original reading.
 - `한국어 번역` must not use summary-style translation, abridged translation, selective excerpts, or patchy translation.
 - `한국어 번역` must preserve section order and heading structure.
+- Photos, tables, figures, and graphs from the source reading must also be inserted directly into `한국어 번역` as image assets in the corresponding positions.
 
-### 4.2 Stage 2 = study package
+### 4.2 Stage 2 = Korean translation
+- `?쒓뎅??踰덉뿭` for English readings only
+
+Stage 2 content meaning:
+- `?쒓뎅??踰덉뿭` must contain the full Korean translation of the original reading.
+- `?쒓뎅??踰덉뿭` must not use summary-style translation, abridged translation, selective excerpts, or patchy translation.
+- `?쒓뎅??踰덉뿭` must preserve section order and heading structure.
+- Photos, tables, figures, and graphs from the source reading must also be inserted directly into `?쒓뎅??踰덉뿭` as image assets in the corresponding positions.
+- Stage 2 must be executed in three contiguous passes:
+  - Pass 1: front third translation
+  - Pass 2: middle third translation
+  - Pass 3: final third translation plus end-to-end translation QA
+
+### 4.3 Stage 3 = study package
 - `핵심 요약`
 - `핵심 개념`
 - `헷갈리는 포인트`
@@ -60,27 +80,46 @@ Stage 1 content meaning:
 - `시험 직전 정리`
 - `교수님 구술 대비`
 
-### 4.3 Stage ordering rule
+### 4.4 Stage ordering rule
 - Finish and validate Stage 1 before starting Stage 2 for a reading.
-- Do not leave Stage 1 incomplete and then move to later readings.
+- Finish and validate Stage 2 before starting Stage 3 for a reading.
+- Do not leave Stage 1 or Stage 2 incomplete and then move to later readings.
 
 ## 5. Validation gates
 
 ### 5.1 Stage 1 validation
 Stage 1 is valid only if all of the following are true:
 
+- Translation completeness is not part of Stage 1. It is validated only in Stage 2.
+- Stage 1 Pass 1-3 are all complete, contiguous, and merged into one readable `full` body
 - `전체 글` contains the full original text, preserving section order and the readable full body
 - `한국어 번역` is a complete full Korean translation for English readings, preserving section order and heading structure
+- photos, tables, figures, and graphs from the source reading are present in `전체 글` and `한국어 번역` as direct image inserts where applicable
 - deployable PDF path exists when public PDF access is supported
 - reading-hub links work
 
 Failure handling:
+- Translation gaps belong to Stage 2 failure handling, not Stage 1.
+- If any Stage 1 pass is missing or patchy, the reading is not complete.
 - If `전체 글` is not full text, the reading is not complete.
 - If `한국어 번역` is not a complete full translation, the reading is not complete.
 - Such readings must be marked `partial` or `blocked`, not done.
 
 ### 5.2 Stage 2 validation
 Stage 2 is valid only if all of the following are true:
+
+- `translation` is a complete full Korean translation for English readings, preserving section order and heading structure
+- Stage 2 Pass 1-3 are all complete, contiguous, and merged into one readable `translation` body
+- photos, tables, figures, and graphs from the source reading are present in `translation` as direct image inserts where applicable
+- reading-hub links work
+
+Failure handling:
+- If `translation` is not a complete full translation, the reading is not complete.
+- If any Stage 2 pass is missing, compressed, or patchy, the reading is not complete.
+- Such readings must be marked `partial` or `blocked`, not done.
+
+### 5.3 Stage 3 validation
+Stage 3 is valid only if all of the following are true:
 
 - `summary` exists and passes schema validation
 - `concepts` exists and passes schema validation
@@ -90,7 +129,7 @@ Stage 2 is valid only if all of the following are true:
 - OX count = `15`
 - short-answer count = `15`
 - MCQ count = `15`
-- all Stage 2 pages are linked from the reading hub
+- all Stage 3 pages are linked from the reading hub
 
 Schema validation expectations:
 
@@ -106,11 +145,11 @@ Schema validation expectations:
   - `title`
   - `answer_30s`
 
-### 5.3 Incomplete readings
+### 5.4 Incomplete readings
 - If any required part is incomplete, mark the reading `partial` or `blocked`.
 - Do not present incomplete work as complete.
 
-### 5.4 Status model
+### 5.5 Status model
 - Page status values:
   - `missing`
   - `schema_fail`
@@ -324,6 +363,12 @@ Bad expansions inside the template:
 - Do not substitute a clean overview for the original text.
 - Must preserve section order.
 - Must be cleaned into readable article-style HTML.
+- Complete extraction in three contiguous passes: front third, middle third, final third.
+- Do not skip ahead and backfill later.
+- Do not mark extraction complete until the third pass and end-to-end QA are done.
+- Photos, tables, figures, and graphs from the source reading must be inserted directly as image assets in the reading flow.
+- Do not drop visual materials that carry original content.
+- Do not convert tables, figures, or graphs into summary prose as a substitute for the original visual.
 - Do not silently skip major sections.
 - Stage 1 validation requires the readable full body, not a shortened substitute.
 - Stage 1 validation also requires the landing-page explanation video to exist and be approved for public release.
@@ -331,14 +376,18 @@ Bad expansions inside the template:
 - Never substitute summary content into `full.html`.
 
 ### 10.4 한국어 번역
-- English readings must be translated in a dedicated per-reading translation pass.
+- English readings must be translated only after Stage 1 extraction is complete.
+- Translation is its own dedicated stage, separate from extraction.
 - Translation must contain the full Korean translation of the original reading.
 - Translation must be complete and contiguous, not patchy.
 - Do not use summary-style translation.
 - Do not publish abridged translation.
 - Do not publish selective excerpt translation.
-- The translation pass must cover the whole readable main body before moving on.
+- Complete translation in three contiguous passes: front third, middle third, final third.
+- The translation stage is not complete until the third pass and end-to-end QA are done.
 - Preserve section order and headings.
+- Photos, tables, figures, and graphs from the source reading must also appear directly as image assets in the translated reading flow.
+- Do not omit original visual materials from `translation.html` just because the surrounding text is translated.
 - If translation cannot be completed cleanly, mark the reading blocked rather than pretending the page is finished.
 - Translation quality matters more than raw batch speed.
 - Never substitute summary content into `translation.html`.

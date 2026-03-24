@@ -1,0 +1,98 @@
+[
+  {
+    "source": "page-01.png",
+    "output": "cover-image.png",
+    "x": 46,
+    "y": 590,
+    "width": 1010,
+    "height": 560
+  },
+  {
+    "source": "page-02.png",
+    "output": "image-01-stem-cells.png",
+    "x": 46,
+    "y": 345,
+    "width": 1010,
+    "height": 440
+  },
+  {
+    "source": "page-03.png",
+    "output": "image-02-mtdna.png",
+    "x": 46,
+    "y": 100,
+    "width": 1010,
+    "height": 560
+  },
+  {
+    "source": "page-04.png",
+    "output": "image-03-splicing-factors.png",
+    "x": 46,
+    "y": 100,
+    "width": 1010,
+    "height": 535
+  },
+  {
+    "source": "page-05.png",
+    "output": "image-04-rejuvenate-bio.png",
+    "x": 46,
+    "y": 100,
+    "width": 1010,
+    "height": 570
+  },
+  {
+    "source": "page-06.png",
+    "output": "image-05-senolytic-drugs.png",
+    "x": 46,
+    "y": 120,
+    "width": 1010,
+    "height": 610
+  },
+  {
+    "source": "page-07.png",
+    "output": "image-06-synthetic-peptides.png",
+    "x": 46,
+    "y": 145,
+    "width": 1010,
+    "height": 590
+  },
+  {
+    "source": "page-08.png",
+    "output": "image-07-smoothing-cells.png",
+    "x": 46,
+    "y": 330,
+    "width": 1010,
+    "height": 610
+  },
+  {
+    "source": "page-09.png",
+    "output": "image-08-young-blood.png",
+    "x": 46,
+    "y": 375,
+    "width": 1010,
+    "height": 565
+  },
+  {
+    "source": "page-10.png",
+    "output": "image-09-anti-aging-pills.png",
+    "x": 46,
+    "y": 665,
+    "width": 1010,
+    "height": 635
+  },
+  {
+    "source": "page-11.png",
+    "output": "image-10-cannabis.png",
+    "x": 46,
+    "y": 345,
+    "width": 1010,
+    "height": 615
+  },
+  {
+    "source": "page-12.png",
+    "output": "image-11-anti-aging-bacteria.png",
+    "x": 46,
+    "y": 100,
+    "width": 1010,
+    "height": 585
+  }
+]
