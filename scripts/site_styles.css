@@ -927,7 +927,7 @@ code{font-family:"Cascadia Mono","Consolas",monospace;}
 
 .article-body{
   margin:1.45rem auto 0;
-  max-width:72ch;
+  max-width:none;
   font-size:calc(1.02rem * var(--reader-font-scale));
   line-height:1.92;
   color:var(--text);
@@ -942,6 +942,9 @@ code{font-family:"Cascadia Mono","Consolas",monospace;}
 .article-body h3,
 .article-body h4{
   margin:1.7em 0 .65em;
+  max-width:72ch;
+  margin-left:auto;
+  margin-right:auto;
   font-family:var(--display);
   line-height:1.22;
   text-wrap:balance;
@@ -968,7 +971,10 @@ code{font-family:"Cascadia Mono","Consolas",monospace;}
 .article-body blockquote,
 .article-body .study-flow-grid,
 .article-body .sub-link-list{
+  max-width:72ch;
   margin:1.1rem 0;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .article-body p{
@@ -997,6 +1003,28 @@ code{font-family:"Cascadia Mono","Consolas",monospace;}
   border:1px solid var(--line);
   background:var(--surface-muted);
   font-size:.92em;
+}
+
+.article-body .article-figure{
+  width:100%;
+  max-width:100%;
+  margin:1.5rem 0;
+}
+
+.article-body .article-figure img{
+  width:100%;
+  height:auto;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:#fff;
+  box-shadow:0 20px 40px rgba(15,23,42,.08);
+}
+
+.article-body .article-figure figcaption{
+  margin-top:.7rem;
+  color:var(--muted);
+  font-size:.92rem;
+  line-height:1.65;
 }
 
 .overview-body .overview-section+.overview-section{

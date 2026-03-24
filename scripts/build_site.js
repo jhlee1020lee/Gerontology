@@ -87,18 +87,43 @@ function relHref(fromPath,toPath){return path.relative(path.dirname(fromPath),to
 function escapeHtml(value){return String(value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\"/g,"&quot;").replace(/'/g,"&#39;");}
 function renderInline(text){return escapeHtml(text).replace(/`([^`]+)`/g,"<code>$1</code>").replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>").replace(/\*([^*]+)\*/g,"<em>$1</em>");}
 
-function markdownToHtml(text){
+function resolveReadingAssetHref(outputPath,reading,sourcePath,assetPath){
+  const rawPath=toText(assetPath);
+  if(!rawPath)return "";
+  if(isExternalUrl(rawPath))return rawPath;
+  const contentDir=path.join(rootDir,reading.content_dir);
+  const sourceDir=path.dirname(sourcePath);
+  const absoluteSource=path.resolve(sourceDir,rawPath);
+  const relativeWithinContent=path.relative(contentDir,absoluteSource);
+  if(relativeWithinContent.startsWith(".."))return "";
+  const targetPath=path.join(siteDir,"assets","readings",reading.slug,relativeWithinContent);
+  return relHref(outputPath,targetPath);
+}
+
+function markdownToHtml(text,options={}){
   const lines=text.replace(/\r\n/g,"\n").split("\n");
   const parts=[];
   let paragraph=[];
   let listItems=[];
   let quoteLines=[];
   let codeLines=null;
+  const outputPath=options.outputPath||"";
+  const reading=options.reading||null;
+  const sourcePath=options.sourcePath||"";
 
   const flushParagraph=()=>{if(paragraph.length){parts.push(`<p>${renderInline(paragraph.join(" ").trim())}</p>`);paragraph=[];}};
   const flushList=()=>{if(listItems.length){parts.push(`<ul>${listItems.map((item)=>`<li>${renderInline(item)}</li>`).join("")}</ul>`);listItems=[];}};
   const flushQuote=()=>{if(quoteLines.length){parts.push(`<blockquote>${renderInline(quoteLines.join(" ").trim())}</blockquote>`);quoteLines=[];}};
   const flushCode=()=>{if(codeLines){parts.push(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`);codeLines=null;}};
+  const renderFigure=(line)=>{
+    const match=line.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if(!match)return "";
+    const caption=match[1].trim();
+    const assetTarget=match[2].trim();
+    const href=reading&&outputPath&&sourcePath?resolveReadingAssetHref(outputPath,reading,sourcePath,assetTarget):assetTarget;
+    if(!href)return "";
+    return `<figure class="article-figure"><img src="${escapeHtml(href)}" alt="${escapeHtml(caption)}" loading="lazy" />${caption?`<figcaption>${renderInline(caption)}</figcaption>`:""}</figure>`;
+  };
 
   for(const rawLine of lines){
     if(codeLines){
@@ -110,6 +135,8 @@ function markdownToHtml(text){
     if(!line){flushParagraph();flushList();flushQuote();continue;}
     if(line===">"){flushParagraph();flushList();flushQuote();continue;}
     if(line.startsWith("```")){flushParagraph();flushList();flushQuote();codeLines=[];continue;}
+    const figureHtml=renderFigure(line);
+    if(figureHtml){flushParagraph();flushList();flushQuote();parts.push(figureHtml);continue;}
     if(line.startsWith("#### ")){flushParagraph();flushList();flushQuote();parts.push(`<h4>${renderInline(line.slice(5))}</h4>`);continue;}
     if(line.startsWith("### ")){flushParagraph();flushList();flushQuote();parts.push(`<h3>${renderInline(line.slice(4))}</h3>`);continue;}
     if(line.startsWith("## ")){flushParagraph();flushList();flushQuote();parts.push(`<h2>${renderInline(line.slice(3))}</h2>`);continue;}
@@ -197,6 +224,8 @@ function pdfHref(outputPath,reading){if(reading.public_pdf){return relHref(outpu
 function pdfStatusText(reading){if(reading.public_pdf&&fs.existsSync(path.join(rootDir,reading.source_pdf)))return"배포용 원문 PDF를 바로 열거나 내려받을 수 있습니다.";const sourcePath=path.join(rootDir,reading.source_pdf);return fs.existsSync(sourcePath)?"원문 PDF를 로컬에서 바로 열 수 있습니다.":"원문 PDF가 없어 임시 썸네일만 사용 중입니다.";}
 function renderPdfActions(outputPath,reading,className="pdf-actions"){const href=pdfHref(outputPath,reading);if(!href)return"";return`<div class="${escapeHtml(className)}"><a class="ghost-btn link-btn pdf-btn" href="${escapeHtml(href)}" target="_blank" rel="noopener">원문 PDF 보기</a><a class="ghost-btn link-btn pdf-btn" href="${escapeHtml(href)}" download>PDF 다운로드</a></div>`;}
 function isExternalUrl(value){return /^https?:\/\//i.test(toText(value));}
+function copyDirRecursive(sourceDir,targetDir){if(!fs.existsSync(sourceDir))return;for(const entry of fs.readdirSync(sourceDir,{withFileTypes:true})){const sourcePath=path.join(sourceDir,entry.name);const targetPath=path.join(targetDir,entry.name);if(entry.isDirectory()){copyDirRecursive(sourcePath,targetPath);continue;}fs.mkdirSync(path.dirname(targetPath),{recursive:true});fs.copyFileSync(sourcePath,targetPath);}}
+function copyReadingAssets(reading){const contentDir=path.join(rootDir,reading.content_dir);for(const assetDirName of["figures","assets"]){const sourceDir=path.join(contentDir,assetDirName);if(!fs.existsSync(sourceDir))continue;copyDirRecursive(sourceDir,path.join(siteDir,"assets","readings",reading.slug,assetDirName));}}
 function resolveSiteAssetHref(outputPath,value){const text=toText(value);if(!text)return"";if(isExternalUrl(text))return text;const normalized=text.replace(/^\.?\//,"");return relHref(outputPath,path.join(siteDir,...normalized.split("/")));}
 function toEmbedUrl(value){const text=toText(value);if(!text)return"";try{const url=new URL(text);if(url.hostname.includes("youtu.be")){const id=url.pathname.replace(/^\/+/,"").split("/")[0];return id?`https://www.youtube.com/embed/${id}`:text;}if(url.hostname.includes("youtube.com")&&url.searchParams.get("v"))return `https://www.youtube.com/embed/${url.searchParams.get("v")}`;return text;}catch(error){return text;}}
 function isDirectVideoFile(value){return /\.(mp4|webm|ogg)(\?.*)?$/i.test(toText(value));}
@@ -386,7 +415,7 @@ ${siteHeader(siteMeta,outputPath)}
   </article>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,reading.title,body,reading.description,'data-page-kind="landing"',reading.language==="en"?"en":"ko"));}
-function buildArticle(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const text=loadMarkdown(page.sourcePath);const content=!isPublishedReading(reading)?pendingReadingHtml(reading,page.label):page.review_passed?(text?markdownToHtml(text):placeholderArticleHtml(reading,page,page.sourcePath)):pendingUploadHtml(reading,page.label);const body=`
+function buildArticle(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const text=loadMarkdown(page.sourcePath);const content=!isPublishedReading(reading)?pendingReadingHtml(reading,page.label):page.review_passed?(text?markdownToHtml(text,{outputPath,reading,sourcePath:page.sourcePath}):placeholderArticleHtml(reading,page,page.sourcePath)):pendingUploadHtml(reading,page.label);const body=`
 ${siteHeader(siteMeta,outputPath)}
 <main class="reader-shell">
   <article class="article panel">
@@ -465,7 +494,7 @@ function copyNotebooklmVideo(reading){if(!reading.notebooklm_video_source||!read
 function writeAssets(){writeText(path.join(siteDir,"assets","styles.css"),readText(styleSource));writeText(path.join(siteDir,"assets","app.js"),readText(appSource));if(fs.existsSync(brandLogoSource)){const target=path.join(siteDir,"assets","branding","snu.png");fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(brandLogoSource,target);}}
 function parseArgs(){const slugIndex=process.argv.indexOf("--slug");return{slug:slugIndex!==-1?process.argv[slugIndex+1]:null};}
 function buildPage(siteMeta,reading,page){if(page.type==="article"){buildArticle(siteMeta,reading,page);return;}if(page.type==="professor-prep"){buildProfessorPrep(siteMeta,reading,page);return;}buildQuiz(siteMeta,reading,page);}
-function buildSite(options={}){const manifest=loadManifest();ensureContentPlaceholders(manifest,options.slug||null);const siteMeta=manifest.site;const readings=prepareReadings(manifest);if(options.slug){const target=readings.find((reading)=>reading.slug===options.slug);if(!target)throw new Error(`Unknown slug: ${options.slug}`);fs.mkdirSync(siteDir,{recursive:true});const thumbnails=buildThumbnails(manifest,target.slug);writeAssets();buildIndex(siteMeta,readings,thumbnails);writePublicPdf(target);copyNotebooklmVideo(target);const readingDir=path.join(siteDir,"readings",target.slug);if(fs.existsSync(readingDir))fs.rmSync(readingDir,{recursive:true,force:true});buildLanding(siteMeta,target);for(const page of target.pages){buildPage(siteMeta,target,page);}writeApprovalStatusReport(rootDir);return{siteMeta,readings};}if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){writePublicPdf(reading);copyNotebooklmVideo(reading);buildLanding(siteMeta,reading);for(const page of reading.pages){buildPage(siteMeta,reading,page);}}writeApprovalStatusReport(rootDir);return{siteMeta,readings};}
+function buildSite(options={}){const manifest=loadManifest();ensureContentPlaceholders(manifest,options.slug||null);const siteMeta=manifest.site;const readings=prepareReadings(manifest);if(options.slug){const target=readings.find((reading)=>reading.slug===options.slug);if(!target)throw new Error(`Unknown slug: ${options.slug}`);fs.mkdirSync(siteDir,{recursive:true});const thumbnails=buildThumbnails(manifest,target.slug);writeAssets();buildIndex(siteMeta,readings,thumbnails);writePublicPdf(target);copyNotebooklmVideo(target);const readingDir=path.join(siteDir,"readings",target.slug);const readingAssetDir=path.join(siteDir,"assets","readings",target.slug);if(fs.existsSync(readingDir))fs.rmSync(readingDir,{recursive:true,force:true});if(fs.existsSync(readingAssetDir))fs.rmSync(readingAssetDir,{recursive:true,force:true});copyReadingAssets(target);buildLanding(siteMeta,target);for(const page of target.pages){buildPage(siteMeta,target,page);}writeApprovalStatusReport(rootDir);return{siteMeta,readings};}if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){writePublicPdf(reading);copyNotebooklmVideo(reading);copyReadingAssets(reading);buildLanding(siteMeta,reading);for(const page of reading.pages){buildPage(siteMeta,reading,page);}}writeApprovalStatusReport(rootDir);return{siteMeta,readings};}
 module.exports={buildSite};
 if(require.main===module){const options=parseArgs();buildSite(options);console.log(options.slug?`[built] reading ${options.slug} + home`:"[built] docs" );}
 

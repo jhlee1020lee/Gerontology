@@ -99,6 +99,8 @@ Control 하위척도는 관리자가 규칙과 압력을 사용해 종업원을 
 
 ### 표 1
 
+![Table 1. Descriptive Statistics of Matching Variables by Cohort Before and After Matching](figures/table-1.png)
+
 표 1. 매칭 전후 코호트별 매칭 변수의 기술통계
 
 - 매칭 전, 제2차 세계대전 이전 코호트(관측치 4,714개, n = 1,308)의 평균 연령은 66.06세(SD = 13.66), 재검사 비율은 72%였다.
@@ -110,11 +112,15 @@ Control 하위척도는 관리자가 규칙과 압력을 사용해 종업원을 
 
 ### 그림 1 캡션
 
+![Figure 1. Distribution of longitudinal observations by cohort before and after matching](figures/figure-1.png)
+
 그림 1. 관측치 단위에서 연령과 재검사 기준으로 매칭하기 전(a)과 후(b)의 코호트별 종단 관측치 분포.
 
 둘째, 저자들은 성별, 교육, 재검사, 관측치 수를 추가 공변량으로 분석 모형에 포함했다. 이런 변수들을 성향점수 추정 자체에 넣을 수도 있었지만, 예비분석 결과 매칭에 포함하는 변수 수가 늘어날수록 충분히 비슷한 관측치를 찾을 가능성이 크게 줄어드는 절충이 나타났다. 따라서 저자들은 연령과 재검사 차이를 최소화하면서 각 코호트당 표본 수가 약 500명, 관측치 수가 1,500개 이상 유지되도록 설계했다. 연령은 55세에 중심화했고, 다른 공변량은 표본 평균에 중심화했다. 지각된 일 환경 하위척도, 교육, 관측치 수와 같은 연속 예측변수는 z점수로 표준화했다. 표 2는 코호트별 분석 변수의 기술통계와 상관을 제시한다. 후발 코호트는 작업 통제와 작업 혁신 점수가 더 높았고, 작업 자율성에서는 유의한 코호트 차이가 없었다.
 
 ### 표 2
+
+![Table 2. Descriptive Statistics and Intercorrelations of Predictor and Outcome Variables by Cohort After Matching](figures/table-2.png)
 
 표 2. 매칭 후 코호트별 예측변수와 결과변수의 기술통계 및 상관
 
@@ -166,6 +172,8 @@ cognitive performanceti = β0i + β1i(ageti) + β2i(ageti^2) + β3i(retestti) + 
 
 ### 표 3
 
+![Table 3. Results From Growth Models Examining Cohort Differences in Thurstone's Primary Mental Abilities](figures/table-3.png)
+
 표 3. Thurstone의 1차 정신능력에서 코호트 차이를 검토한 성장모형 결과
 
 아래 블록은 원문 표의 계수와 표준오차를 원순서대로 보존한 전사본이다.
@@ -188,6 +196,8 @@ Table 3 Results From Growth Models Examining Cohort Differences in Thurstone’s
 
 ### 표 4
 
+![Table 4. Results From Growth Models Examining the Role of Work Control on Thurstone's Primary Mental Abilities](figures/table-4.png)
+
 표 4. 작업 통제가 Thurstone의 1차 정신능력에 미치는 역할을 검토한 성장모형 결과
 
 아래 블록은 원문 표의 계수와 표준오차를 원순서대로 보존한 전사본이다.
@@ -199,6 +209,8 @@ Table 4 Results From Growth Models Examining the Role of Work Control on Thursto
 주. 절편은 55세에 중심화했다. 값이 클수록 재검사 관측치, 후발 코호트, 여성, 높은 교육, 많은 관측치 수, 높은 작업 통제 점수에 유리한 방향을 뜻한다. 결과변수는 Seattle Longitudinal Study 첫 조사시점을 기준으로 T점수(M = 50, SD = 10)로 표준화했다. 모든 예측변수는 표본 평균에 중심화했고, 연속형 예측변수는 z점수(M = 0, SD = 1)로 표준화했다. 코호트와 작업 통제의 효과가 굵은 글씨로 강조되어 있다. *p < .05.
 
 ### 표 5
+
+![Table 5. Results From Growth Models Examining the Role of Work Autonomy on Thurstone's Primary Mental Abilities](figures/table-5.png)
 
 표 5. 작업 자율성이 Thurstone의 1차 정신능력에 미치는 역할을 검토한 성장모형 결과
 
@@ -212,6 +224,8 @@ Table 5 Results From Growth Models Examining the Role of Work Autonomy on Thurst
 
 ### 표 6
 
+![Table 6. Results From Growth Models Examining the Role of Work Innovation on Thurstone's Primary Mental Abilities](figures/table-6.png)
+
 표 6. 작업 혁신이 Thurstone의 1차 정신능력에 미치는 역할을 검토한 성장모형 결과
 
 아래 블록은 원문 표의 계수와 표준오차를 원순서대로 보존한 전사본이다.
@@ -223,6 +237,12 @@ Table 6 Results From Growth Models Examining the Role of Work Innovation on Thur
 주. 절편은 55세에 중심화했다. 값이 클수록 재검사 관측치, 후발 코호트, 여성, 높은 교육, 많은 관측치 수, 높은 작업 혁신 점수에 유리한 방향을 뜻한다. 결과변수는 Seattle Longitudinal Study 첫 조사시점을 기준으로 T점수(M = 50, SD = 10)로 표준화했다. 모든 예측변수는 표본 평균에 중심화했고, 연속형 예측변수는 z점수(M = 0, SD = 1)로 표준화했다. 코호트와 작업 혁신의 효과가 굵은 글씨로 강조되어 있다. *p < .05.
 
 ### 그림 2-4 캡션
+
+![Figure 2. Prototypical trajectories of cognitive aging by cohort and work control](figures/figure-2.png)
+
+![Figure 3. Prototypical trajectories of cognitive aging by cohort and work autonomy](figures/figure-3.png)
+
+![Figure 4. Prototypical trajectories of cognitive aging by cohort and work innovation](figures/figure-4.png)
 
 그림 2. 작업 통제 수준이 높은 경우(+1 SD)와 낮은 경우(-1 SD)에 대해 코호트별 인지 노화의 전형적 궤적을 공간지각, 귀납적 추리, 단어 유창성, 수리능력, 어휘 의미에서 제시한 그림이다. 후발 코호트는 공간지각과 귀납적 추리에서 선발 코호트보다 더 높은 수행을 보였고, 귀납적 추리·단어 유창성·어휘 의미에서는 연령 관련 감소가 더 완만했다. 반대로 수리능력에서는 선발 코호트가 더 높았다. 작업 통제가 높을수록 모든 인지검사에서 수행 수준이 높았고, 귀납적 추리에서는 감소가 더 완만했다.
 
