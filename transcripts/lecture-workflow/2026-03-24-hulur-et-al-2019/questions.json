@@ -1,0 +1,141 @@
+{
+  "class_date": "2026-03-24",
+  "reading_slug": "hulur-et-al-2019",
+  "items": [
+    {
+      "question": "Why did the professor assign this paper instead of just giving you the conclusion?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 149"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 study design and implementation"
+      ],
+      "notes": "Likely when the student reports only the headline finding without explaining how the method was used."
+    },
+    {
+      "question": "How were the earlier-born and later-born cohorts defined in this paper?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 419"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 cohort definition"
+      ],
+      "notes": "Likely when the student says ?later cohort? without recalling how the paper split the cohorts."
+    },
+    {
+      "question": "Why must you separate cohort difference from age difference in this paper?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 299",
+        "line 368",
+        "line 419"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 cohort difference versus age difference"
+      ],
+      "notes": "Likely when the student mixes the research-method lesson with the paper result."
+    },
+    {
+      "question": "What is the difference between a higher level of cognitive performance and a slower rate of decline here?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 404",
+        "line 413"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 level versus change"
+      ],
+      "notes": "Likely when the student says later-born cohorts did better without distinguishing level from trajectory."
+    },
+    {
+      "question": "Why does the paper treat cognitive aging as multidimensional rather than one single ability?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 281",
+        "line 290",
+        "line 293"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 five primary mental abilities"
+      ],
+      "notes": "Likely when the student talks about cognition as one general score."
+    },
+    {
+      "question": "What were the three perceived work-environment variables in this paper?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 14",
+        "line 425",
+        "line 458"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 work control",
+        "hulur-et-al-2019 work autonomy",
+        "hulur-et-al-2019 work innovation"
+      ],
+      "notes": "Likely when the student remembers the broad idea of job environment but not the actual variables."
+    },
+    {
+      "question": "What is the difference between work control and work autonomy in this paper?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 458",
+        "line 485"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 work control versus work autonomy"
+      ],
+      "notes": "Likely when the student treats the two variables as practically the same."
+    },
+    {
+      "question": "Which work-environment variables showed cohort differences, and which one did not?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 425",
+        "line 491"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 cohort differences in work environment"
+      ],
+      "notes": "Likely when the student says the later-born cohort had a generally better work environment without specifying the pattern."
+    },
+    {
+      "question": "Why did the professor bring up the Flynn effect during this discussion?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 185",
+        "line 371",
+        "line 413"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 cohort differences and Flynn effect context"
+      ],
+      "notes": "Likely when the student remembers the term but cannot explain why it helps interpret the paper."
+    },
+    {
+      "question": "What is the causal-direction problem in this paper?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 248"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 causal direction limit"
+      ],
+      "notes": "Likely when the student states that enriched work improves cognition as if the paper proved causality."
+    },
+    {
+      "question": "What limitation or caution should you mention when explaining this paper?s findings?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 401",
+        "line 491"
+      ],
+      "pdf_evidence": [
+        "hulur-et-al-2019 limitations"
+      ],
+      "notes": "Likely when the student summarizes the result as if the study were methodologically complete and final."
+    }
+  ]
+}

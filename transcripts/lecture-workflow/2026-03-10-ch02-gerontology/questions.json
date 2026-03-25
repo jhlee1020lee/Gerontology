@@ -1,0 +1,127 @@
+{
+  "class_date": "2026-03-10",
+  "reading_slug": "ch02-gerontology",
+  "items": [
+    {
+      "question": "Why do you think that happened? Can you say it in a more precise way?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "06:52-08:49"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology population aging discussion"
+      ],
+      "notes": "Likely when the first answer is directionally right but too general."
+    },
+    {
+      "question": "What exactly was interesting, and what prior image or assumption did it change?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "08:49-09:30"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology aging image discussion"
+      ],
+      "notes": "Likely when a student gives a simple surprise reaction without contrast."
+    },
+    {
+      "question": "What concept are you talking about, and what is it for?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "09:30-10:31"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology support ratio discussion"
+      ],
+      "notes": "Likely when the student names an issue but cannot define the purpose of the measure."
+    },
+    {
+      "question": "Conceptually, what does the old-age dependency ratio mean?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "10:31-12:19"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology support ratio discussion"
+      ],
+      "notes": "Likely when the student gives a formula-like answer without explaining meaning."
+    },
+    {
+      "question": "What goes in the numerator and the denominator?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "10:31-12:19"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology support ratio discussion"
+      ],
+      "notes": "Likely when the student knows the term but not the structure."
+    },
+    {
+      "question": "What is the real problem with defining productive and dependent populations by those age cutoffs?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "12:19-16:45"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology support ratio critique"
+      ],
+      "notes": "Likely when the student mentions the ratio but not the assumptions behind the age boundaries."
+    },
+    {
+      "question": "What are the three components of population change, and why has migration mattered less in Korea than in the US or Europe?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "16:45-20:26"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology demographic change components"
+      ],
+      "notes": "Likely when the student talks only about births and deaths."
+    },
+    {
+      "question": "Which pushes rapid aging in Korea more strongly: longer life expectancy or lower fertility?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "28:03-29:56"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology demographic transition discussion"
+      ],
+      "notes": "Likely when the student explains aging mainly through longevity."
+    },
+    {
+      "question": "Can you explain morbidity expansion and compression in plain language?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "21:26-24:05"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology morbidity hypotheses"
+      ],
+      "notes": "Likely when the student repeats the technical label without showing understanding."
+    },
+    {
+      "question": "Is that an individual-level causal claim, or are you talking about a population-level demographic pattern?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "41:46-42:40"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology demographic transition discussion"
+      ],
+      "notes": "Likely when the student blurs macro co-movement with personal-level causation."
+    },
+    {
+      "question": "What current Korean policy issue does that connect to: regional extinction, megacity strategy, medical access, or immigration policy?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "37:23-40:01"
+      ],
+      "pdf_evidence": [
+        "[CH2]Gerontology regional inequality and policy discussion"
+      ],
+      "notes": "Likely when the answer stays in textbook language without linking to current Korean context."
+    }
+  ]
+}

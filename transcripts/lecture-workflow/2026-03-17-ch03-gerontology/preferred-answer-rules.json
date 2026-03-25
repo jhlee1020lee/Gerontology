@@ -1,0 +1,90 @@
+{
+  "class_date": "2026-03-17",
+  "reading_slug": "ch03-gerontology",
+  "rules": [
+    {
+      "rule": "Answer the exact dimension of the question, especially when the professor asks about formation, not just content.",
+      "reason": "The professor repeatedly stopped students who described the idea itself instead of explaining how that idea was formed.",
+      "transcript_evidence": [
+        "01:47-04:06"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "For essays, use personal examples and self-reflection instead of giving a clean textbook summary.",
+      "reason": "The professor explicitly said that generic, AI-like answers are weaker than answers built from one?s own case and insight.",
+      "transcript_evidence": [
+        "08:32-10:51",
+        "14:18-15:17"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "When explaining a norm or effect, name the actor, the mechanism, and the pressure point.",
+      "reason": "The class was repeatedly pushed from abstract claims toward who influences whom and through what route.",
+      "transcript_evidence": [
+        "06:44-09:09"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Do not stop at reporting an interesting response; interpret what it reveals about variation, media influence, peer comparison, or cultural expectation.",
+      "reason": "The professor kept moving students from anecdote to interpretation, especially around age variation and social influence.",
+      "transcript_evidence": [
+        "04:47-08:32"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Treat age norms as including sequence as well as timing.",
+      "reason": "The lecture explicitly expanded age norms from \"when things happen\" to \"in what order events are expected to happen.\"",
+      "transcript_evidence": [
+        "12:42-14:25"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Separate what society treats as the appropriate age from what the speaker personally wants.",
+      "reason": "The professor clearly distinguished social age norms from personal plans or preferences.",
+      "transcript_evidence": [
+        "17:15-18:11"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "When discussing theory, prioritize the current major frameworks and explain why they became central.",
+      "reason": "The professor gave an explicit hierarchy: life-span development and life-course perspective are the main frameworks now.",
+      "transcript_evidence": [
+        "16:49-18:20",
+        "32:43-41:37"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Use English theory names when they clarify meaning, especially for older theories and paired concepts.",
+      "reason": "The professor repeatedly switched to English labels to make theoretical contrasts more precise.",
+      "transcript_evidence": [
+        "18:58-20:30",
+        "32:43-41:37"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rule": "For life-course answers, connect theory to historical context, turning points, linked lives, and human agency.",
+      "reason": "The professor treated these as the core analytic moves needed to understand aging beyond stage theory.",
+      "transcript_evidence": [
+        "41:37-47:18",
+        "49:31-51:12"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "For interview-based work, choose a target who can give detailed narrative material and then analyze the interview with life-course concepts.",
+      "reason": "The assignment briefing stressed story density, informed target choice, ethical recording, and post-interview analysis using life-course concepts.",
+      "transcript_evidence": [
+        "42:22-44:40"
+      ],
+      "priority": "high"
+    }
+  ]
+}

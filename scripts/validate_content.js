@@ -309,8 +309,14 @@ function validateProfessorPrepJson(payload) {
     if (!toText(card.title)) {
       errors.push(`card ${index + 1} is missing title`);
     }
-    if (!toText(card.answer_30s || card.answer || card.model_answer)) {
-      errors.push(`card ${index + 1} is missing answer_30s`);
+    const answer30s = toText(card.answer_30s);
+    const legacyAnswer = toText(card.answer || card.model_answer);
+    if (!answer30s) {
+      if (legacyAnswer) {
+        errors.push(`card ${index + 1} must use answer_30s; legacy answer/model_answer is not valid for approval`);
+      } else {
+        errors.push(`card ${index + 1} is missing answer_30s`);
+      }
     }
   });
   return makeResult(errors.length ? PAGE_STATUS.SCHEMA_FAIL : PAGE_STATUS.SCHEMA_PASS, errors, warnings, metrics);

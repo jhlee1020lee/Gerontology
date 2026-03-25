@@ -1,0 +1,17 @@
+{
+  "class_date": "2026-03-10",
+  "reading_slug": "ch02-gerontology",
+  "source_audio": null,
+  "source_stt": "../../class-stt/2026-03-10-ch02-gerontology-class-stt.txt",
+  "source_pdf": "../../../source_pdfs/[CH2]Gerontology.pdf",
+  "stage1_full": "../../../content/readings/ch02-gerontology/full.md",
+  "workflow_status": {
+    "transcript": "complete",
+    "pdf_grounded_correction": "missing",
+    "question_extraction": "complete",
+    "preferred_answer_rule_extraction": "complete",
+    "disliked_answer_rule_extraction": "missing",
+    "limited_answer_generation": "missing",
+    "review_and_expansion": "missing"
+  }
+}

@@ -5,12 +5,18 @@
 - `site/` must not exist as a parallel build target.
 - Keep all generated links relative so the site works from local files and from static hosting.
 - `source_pdfs/` is source/input material. It may exist locally and may or may not be version-controlled.
+- `source_audio/` is source/input lecture-recording material. It may exist locally and may or may not be version-controlled.
 - Do not assume source PDFs are unavailable for version control.
+- Do not assume source audio is public or deployable.
 - Do not confuse source/input PDFs with deployable public PDFs.
 - When a reading supports public PDF access, the deployable PDF should live under a stable `docs/` path such as `docs/pdfs/<slug>.pdf`.
 - In metadata terms:
   - `source_pdf` points to source/input material
   - `public_pdf` points to deployable public output under `docs/`
+- `CONTENT_RULES.md` is the single source of truth for detailed workflow, validation gates, homepage ordering, and page-family rules.
+- `AGENTS.md` is the collaborator-facing summary and should stay aligned with this appendix.
+- `README.md` is the onboarding entry point and should summarize rather than redefine detailed policy.
+- If documents conflict on detailed policy, follow this appendix and then update the summary docs.
 
 ## 2. Workflow model
 - Stop treating the project as one giant all-at-once generation task.
@@ -20,6 +26,14 @@
 - For English readings, original-text extraction and Korean translation must be separate stages.
 - Do not interleave translation, quizzes, professor-prep, and site-polish in one low-quality generation step.
 - Prefer staged completion over one huge low-quality batch.
+- Default working unit is `1 reading x 1 stage x 1 pass`.
+- Do not mix generation, review, rewrite, and site polish in the same pass when a smaller pass can be validated first.
+- If Stage 3 is in progress, default to `1 page family at a time` instead of generating the entire study package in one batch.
+
+## 2.1 Terminology convention
+- In prose, use the published Korean page-family names: `전체 글`, `한국어 번역`, `교수님 구술 대비`.
+- Use `full`, `translation`, and `professor-prep` only for filenames, page keys, routes, or schema/file references.
+- When a sentence needs both, write the Korean name first and the file/page key in parentheses.
 
 ## 3. Hulur benchmark rule
 - `hulur-et-al-2019` is the current workflow and quality benchmark reading.
@@ -37,9 +51,7 @@
 
 ### 4.1 Stage 1 = original extraction
 - `개요`
-- `설명 영상`
 - `전체 글`
-- `한국어 번역` for English readings only
 - deployable online PDF access when public PDF access is supported
 
 Stage 1 content meaning:
@@ -47,24 +59,20 @@ Stage 1 content meaning:
   - Pass 1: front third extraction
   - Pass 2: middle third extraction
   - Pass 3: final third extraction plus end-to-end extraction QA
-- `설명 영상` must have a public notebookLM video or equivalent deployable video asset on the landing page.
+- Explanation videos may be added later as landing-page enhancements, but they are not part of Stage 1 completion or validation.
 - `전체 글` must contain the full original text only.
 - `전체 글` must not use summary-style rewriting, compression, or a clean-overview substitute.
 - `전체 글` must preserve section order and the readable full body.
 - Photos, tables, figures, and graphs from the source reading must be inserted directly into `전체 글` as image assets, not omitted and not replaced with text-only placeholders.
+
+### 4.2 Stage 2 = Korean translation
+- `한국어 번역` for English readings only
+
+Stage 2 content meaning:
 - `한국어 번역` must contain the full Korean translation of the original reading.
 - `한국어 번역` must not use summary-style translation, abridged translation, selective excerpts, or patchy translation.
 - `한국어 번역` must preserve section order and heading structure.
 - Photos, tables, figures, and graphs from the source reading must also be inserted directly into `한국어 번역` as image assets in the corresponding positions.
-
-### 4.2 Stage 2 = Korean translation
-- `?쒓뎅??踰덉뿭` for English readings only
-
-Stage 2 content meaning:
-- `?쒓뎅??踰덉뿭` must contain the full Korean translation of the original reading.
-- `?쒓뎅??踰덉뿭` must not use summary-style translation, abridged translation, selective excerpts, or patchy translation.
-- `?쒓뎅??踰덉뿭` must preserve section order and heading structure.
-- Photos, tables, figures, and graphs from the source reading must also be inserted directly into `?쒓뎅??踰덉뿭` as image assets in the corresponding positions.
 - Stage 2 must be executed in three contiguous passes:
   - Pass 1: front third translation
   - Pass 2: middle third translation
@@ -80,7 +88,110 @@ Stage 2 content meaning:
 - `시험 직전 정리`
 - `교수님 구술 대비`
 
-### 4.4 Stage ordering rule
+Stage 3 execution rule:
+- Do not generate the entire Stage 3 package in one pass.
+- Preferred Stage 3 order is:
+  - `summary`
+  - `concepts`
+  - `pitfalls`
+  - `quiz-ox`
+  - `quiz-short`
+  - `quiz-mcq`
+  - `review-sheet`
+  - `professor-prep`
+- Validate each page family before moving to the next one.
+- If `professor-prep` is being rebuilt from lecture evidence, finish the evidence bundle first, then generate only `3` to `5` draft cards, review them, and expand only after approval.
+
+### 4.4 Lecture recording workflow
+- Treat lecture recordings as a separate workflow from reading-page generation.
+- Process one lecture recording at a time.
+- Use the weekly PDF and the reading's Stage 1 text as the content anchor.
+- Use the lecture transcript as evidence for professor question style, preferred answer shape, and disliked answer patterns.
+- Split lecture-recording work into these steps:
+  - transcript
+  - PDF-grounded correction
+  - question extraction
+  - preferred-answer rule extraction
+  - disliked-answer rule extraction
+  - limited answer generation
+  - review and expansion
+- Do not infer professor style from raw audio or an uncorrected transcript alone.
+- When generating oral-practice answers from a new recording, start with `3` to `5` answers, review them, and only then expand.
+- Do not generate or refresh published `content/readings/<slug>/professor_prep.json` from a new recording until `pdf-grounded correction`, `question extraction`, `preferred-answer rule extraction`, and `disliked-answer rule extraction` are complete.
+- `limited answer generation` means exactly one draft batch of `3` to `5` cards in `answer-candidates.json`, not a hidden full rebuild.
+- `review and expansion` starts only after the draft batch is reviewed against the new evidence and judged acceptable in tone, specificity, and professor-style fit.
+- Default update mode is partial replacement of only the published cards directly supported by the newly approved recording evidence.
+- Use a full-page rebuild only when the new evidence changes the overall answer frame, likely follow-up pattern, or preferred answer shape for the reading.
+- Keep date-wise extraction notes separate from professor-wide reusable rules.
+- After repeated patterns have been observed across multiple dated bundles, merge them into `transcripts/lecture-workflow/professor-style-general-rules.md`.
+- Use that merged file as the default prior for future `professor-prep` generation, oral-practice answer drafting, and likely follow-up prediction unless a new dated bundle provides stronger contradictory evidence.
+
+Storage convention:
+- `/UserInput` is temporary intake only. Rename and move incoming files before transcript review starts.
+- Keep one lecture bundle per `class_date` x `reading_slug`.
+- Store original audio under `source_audio/class-recordings/YYYY-MM-DD-<reading-slug>-class-recording.<ext>`.
+- Store raw STT under `transcripts/class-stt/YYYY-MM-DD-<reading-slug>-class-stt.txt`.
+- Store derived workflow files under `transcripts/lecture-workflow/YYYY-MM-DD-<reading-slug>/`.
+- Do not scatter lecture workflow artifacts across `content/readings/<slug>/`.
+- `content/readings/<slug>/professor_prep.json` remains the published reading output, not the raw lecture-workflow bundle.
+
+Required bundle files inside `transcripts/lecture-workflow/YYYY-MM-DD-<reading-slug>/`:
+- `session.json`
+- `pdf-grounded-correction.md`
+- `questions.json`
+- `preferred-answer-rules.json`
+- `disliked-answer-rules.json`
+- `answer-candidates.json`
+- `review.md`
+
+`session.json` bundle manifest:
+- `class_date`
+- `reading_slug`
+- `source_audio`
+- `source_stt`
+- `source_pdf`
+- `stage1_full`
+- `workflow_status`
+
+`workflow_status` keys:
+- `transcript`
+- `pdf_grounded_correction`
+- `question_extraction`
+- `preferred_answer_rule_extraction`
+- `disliked_answer_rule_extraction`
+- `limited_answer_generation`
+- `review_and_expansion`
+
+Allowed `workflow_status` values:
+- `missing`
+- `in_progress`
+- `complete`
+- `approved`
+
+`questions.json` shape:
+- top-level: `class_date`, `reading_slug`, `items`
+- each item: `question`, `question_type`, `transcript_evidence`, `pdf_evidence`, `notes`
+
+`preferred-answer-rules.json` shape:
+- top-level: `class_date`, `reading_slug`, `rules`
+- each rule: `rule`, `reason`, `transcript_evidence`, `priority`
+
+`disliked-answer-rules.json` shape:
+- top-level: `class_date`, `reading_slug`, `rules`
+- each rule: `anti_pattern`, `reason`, `transcript_evidence`, `priority`
+
+`answer-candidates.json` shape:
+- top-level: `class_date`, `reading_slug`, `cards`
+- each card: `title`, `answer_30s`, `evidence_refs`, `status`
+- Start with `3` to `5` cards during limited answer generation, then expand only after review.
+- Before expansion, mark reviewed draft cards clearly and decide whether the new evidence supports partial replacement or a full rebuild.
+
+`pdf-grounded-correction.md` structure:
+- `## Correction summary`
+- `## Corrections against PDF`
+- `## Corrected transcript`
+
+### 4.5 Stage ordering rule
 - Finish and validate Stage 1 before starting Stage 2 for a reading.
 - Finish and validate Stage 2 before starting Stage 3 for a reading.
 - Do not leave Stage 1 or Stage 2 incomplete and then move to later readings.
@@ -91,10 +202,9 @@ Stage 2 content meaning:
 Stage 1 is valid only if all of the following are true:
 
 - Translation completeness is not part of Stage 1. It is validated only in Stage 2.
-- Stage 1 Pass 1-3 are all complete, contiguous, and merged into one readable `full` body
-- `전체 글` contains the full original text, preserving section order and the readable full body
-- `한국어 번역` is a complete full Korean translation for English readings, preserving section order and heading structure
-- photos, tables, figures, and graphs from the source reading are present in `전체 글` and `한국어 번역` as direct image inserts where applicable
+- Stage 1 Pass 1-3 are all complete, contiguous, and merged into one readable `전체 글` (`full`) body
+- `전체 글` (`full`) contains the full original text, preserving section order and the readable full body
+- photos, tables, figures, and graphs from the source reading are present in `전체 글` as direct image inserts where applicable
 - deployable PDF path exists when public PDF access is supported
 - reading-hub links work
 
@@ -102,37 +212,37 @@ Failure handling:
 - Translation gaps belong to Stage 2 failure handling, not Stage 1.
 - If any Stage 1 pass is missing or patchy, the reading is not complete.
 - If `전체 글` is not full text, the reading is not complete.
-- If `한국어 번역` is not a complete full translation, the reading is not complete.
 - Such readings must be marked `partial` or `blocked`, not done.
 
 ### 5.2 Stage 2 validation
 Stage 2 is valid only if all of the following are true:
 
-- `translation` is a complete full Korean translation for English readings, preserving section order and heading structure
-- Stage 2 Pass 1-3 are all complete, contiguous, and merged into one readable `translation` body
-- photos, tables, figures, and graphs from the source reading are present in `translation` as direct image inserts where applicable
+- `한국어 번역` (`translation`) is a complete full Korean translation for English readings, preserving section order and heading structure
+- Stage 2 Pass 1-3 are all complete, contiguous, and merged into one readable `한국어 번역` (`translation`) body
+- photos, tables, figures, and graphs from the source reading are present in `한국어 번역` (`translation`) as direct image inserts where applicable
 - reading-hub links work
 
 Failure handling:
-- If `translation` is not a complete full translation, the reading is not complete.
+- If `한국어 번역` (`translation`) is not a complete full translation, the reading is not complete.
 - If any Stage 2 pass is missing, compressed, or patchy, the reading is not complete.
 - Such readings must be marked `partial` or `blocked`, not done.
 
 ### 5.3 Stage 3 validation
 Stage 3 is valid only if all of the following are true:
 
-- `summary` exists and passes schema validation
-- `concepts` exists and passes schema validation
-- `pitfalls` exists
-- `review-sheet` exists
-- `professor-prep` exists
+- `핵심 요약` (`summary`) exists
+- `핵심 개념` (`concepts`) exists
+- `헷갈리는 포인트` (`pitfalls`) exists
+- `시험 직전 정리` (`review-sheet`) exists
+- `교수님 구술 대비` (`professor-prep`) exists
 - OX count = `15`
 - short-answer count = `15`
 - MCQ count = `15`
 - all Stage 3 pages are linked from the reading hub
 
-Schema validation expectations:
+Additional QA expectations:
 
+- Run `node scripts/validate_content.js` to surface structural issues before approval, but schema validation is a QA aid rather than the sole definition of Stage 3 completion.
 - `summary` must include a clear lead section and enough structured bullet content to show the major claims and why they matter.
 - `concepts` must include, for each concept:
   - Korean label
@@ -141,7 +251,7 @@ Schema validation expectations:
   - plain-language explanation
   - why it matters in this reading
   - one common confusion point
-- `professor-prep` must publish at least `15` cards using the minimal shape:
+- `교수님 구술 대비` (`professor-prep`) should normally publish at least `15` cards, and prefer `15` to `20` when quality allows, using the minimal shape:
   - `title`
   - `answer_30s`
 
@@ -163,7 +273,7 @@ Schema validation expectations:
   - `approved`
 - `schema_pass` means the generated page cleared the structural validator but still needs manual review.
 - Automation should stop after the first reading that is not `approved`.
-- Use `node scripts/validate_content.js` as the local validation gate before moving on to the next reading.
+- Use `node scripts/validate_content.js` as the local structural QA gate before moving on to the next reading.
 
 ## 6. Date / order rules
 - Homepage reading order and displayed dates must follow syllabus class-date order.
@@ -371,7 +481,7 @@ Bad expansions inside the template:
 - Do not convert tables, figures, or graphs into summary prose as a substitute for the original visual.
 - Do not silently skip major sections.
 - Stage 1 validation requires the readable full body, not a shortened substitute.
-- Stage 1 validation also requires the landing-page explanation video to exist and be approved for public release.
+- Landing-page explanation videos may be added later, but they are not part of Stage 1 validation.
 - If extraction quality is poor, fix extraction first instead of publishing obviously broken text.
 - Never substitute summary content into `full.html`.
 
@@ -469,10 +579,13 @@ This page should be built for follow-up defense.
 - Do not require `likely professor prompt`, `why this works`, `bad answer`, `follow-up`, or `recovery` as the default published schema.
 - Default published item shape should be only:
   - `title`
-  - `30-second model answer`
+  - `answer_30s`
+- Use `answer_30s` as the canonical field name. `30-second model answer` is descriptive copy only and must not be used as a schema key.
 - Each reading should have at least `15` model answers by default.
 - Prefer `15` to `20` when quality allows.
 - Each answer should be around `30` seconds when spoken.
+- Future answer generation should use the merged professor-wide rules in `transcripts/lecture-workflow/professor-style-general-rules.md` as the default prior.
+- Treat those merged rules as reusable answer-style guidance, not as subject-matter content that overrides the actual reading.
 
 Intended spoken logic:
 
@@ -483,8 +596,11 @@ Intended spoken logic:
 Required answer features derived from the recordings:
 
 - open with the answer, not with throat-clearing
+- answer the exact question that was asked, not a nearby question
 - mention one exact concept, finding, distinction, or question
-- explain `왜` in a causal or interpretive way
+- explain `왜` in a causal, comparative, or interpretive way
+- move from label to meaning, mechanism, or implication rather than stopping at the label
+- distinguish nearby concepts, variables, designs, or effects precisely rather than collapsing them into one vague category
 - include at least one concrete anchor such as:
   - age
   - year
@@ -492,11 +608,20 @@ Required answer features derived from the recordings:
   - method
   - theory contrast
   - Korean-context implication
+- if the reading is a research article, explain the design implementation, measured variables, core findings, and at least one limitation or causal-direction caution
+- if the answer includes a reaction such as `interesting`, `new`, or `surprising`, immediately state what prior expectation changed
 - be defensible against likely follow-up questions:
   - `그게 뭐야?`
   - `왜 중요한데?`
   - `연구에서는 뭐라고 하는데?`
   - `영어로 뭐지?`
+- be ready for recurring follow-up categories such as:
+  - `What exactly do you mean?`
+  - `Who or what is doing the explaining here?`
+  - `What is the difference between A and B?`
+  - `Which variable / design / effect are you talking about exactly?`
+  - `Is this age difference, cohort difference, period effect, level difference, change rate, or causality?`
+  - `What limitation or alternative explanation remains?`
 - if the answer contains a personal reaction, tie it back to the text immediately
 - avoid broad praise without content
 - avoid empty `장단점` listing unless each side is specified
@@ -536,4 +661,5 @@ Repository compatibility note:
 - Future default generation should target the minimal published schema of:
   - `title`
   - `answer_30s`
+- Legacy aliases such as `answer` or `model_answer` may be read during migration, but validation and new content should use `answer_30s`.
 - If extra fields still exist in older readings, treat them as legacy support material rather than the default published contract.

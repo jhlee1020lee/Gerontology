@@ -1,0 +1,106 @@
+{
+  "class_date": "2026-03-05",
+  "reading_slug": "ch01-gerontology",
+  "items": [
+    {
+      "question": "Why did age 65 become the old-age threshold? Was there a scientific basis for it?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "13:35-15:01"
+      ],
+      "pdf_evidence": [
+        "[CH1]Gerontology age criterion discussion"
+      ],
+      "notes": "Likely when an answer mentions pension age without historical detail."
+    },
+    {
+      "question": "What is the difference between gerontology and geriatrics?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "09:36-11:12"
+      ],
+      "pdf_evidence": [
+        "[CH1]Gerontology field definition"
+      ],
+      "notes": "Likely when the answer blurs the field label and the medical subfield."
+    },
+    {
+      "question": "What exactly do you mean by \"the West\"? Can you be more specific?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "13:35-15:01"
+      ],
+      "pdf_evidence": [
+        "[CH1]Gerontology age criterion discussion"
+      ],
+      "notes": "Likely when the answer uses a broad region label without naming a country or actor."
+    },
+    {
+      "question": "What time span do you mean by \"not that long ago,\" and why was that surprising?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "08:41-09:24"
+      ],
+      "pdf_evidence": [
+        "[CH1]Gerontology disciplinary emergence"
+      ],
+      "notes": "Likely when a student gives only a vague surprise reaction."
+    },
+    {
+      "question": "Why is \"new gerontology\" not the main point here?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "15:13-16:10"
+      ],
+      "pdf_evidence": [
+        "[CH1]Gerontology framing discussion"
+      ],
+      "notes": "Likely when a student repeats the label without explaining the broader shift in framing."
+    },
+    {
+      "question": "What is the downside of talking about old age only in a positive, inspirational way?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "16:29-19:07"
+      ],
+      "pdf_evidence": [
+        "[CH1]Gerontology balanced aging discussion"
+      ],
+      "notes": "Likely when a student gives a one-sided positive-aging answer."
+    },
+    {
+      "question": "What do you mean by chronological age, and why is age not as fixed as people assume?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "19:55-20:27",
+        "29:14-31:09"
+      ],
+      "pdf_evidence": [
+        "[CH1]Gerontology multiple age concepts"
+      ],
+      "notes": "Likely when a student uses age language loosely or treats one age concept as the only valid one."
+    },
+    {
+      "question": "When you say aging process, who or what is the unit of analysis? And how is that different from studying older adults as a group?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "29:14-31:09"
+      ],
+      "pdf_evidence": [
+        "[CH1]Gerontology process versus group distinction"
+      ],
+      "notes": "Likely when a student mixes person-level aging with group-level population talk."
+    },
+    {
+      "question": "Why did gerontology develop later in Korea than in some Western settings?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "26:04-26:35"
+      ],
+      "pdf_evidence": [
+        "[CH1]Gerontology historical emergence in Korea"
+      ],
+      "notes": "Likely when a student compares timelines without tying them to Korea?s historical context."
+    }
+  ]
+}

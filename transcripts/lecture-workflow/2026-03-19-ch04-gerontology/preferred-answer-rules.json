@@ -1,0 +1,68 @@
+{
+  "class_date": "2026-03-19",
+  "reading_slug": "ch04-gerontology",
+  "rules": [
+    {
+      "rule": "When explaining a research design, define it in both Korean and English and then explain the sample-time logic in one concrete example.",
+      "reason": "The professor repeatedly asked for the English labels and then pushed the class to explain what gets measured, when, and for whom.",
+      "transcript_evidence": [
+        "59:00-89:00"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Do not treat cross-sectional results as proof of age change; explicitly separate age difference from age change.",
+      "reason": "The lecture emphasized that comparing different age groups at one time point does not automatically show how the same people changed over time.",
+      "transcript_evidence": [
+        "77:00-113:00"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "When interpreting an observed difference, check whether it is better explained by age effect, cohort effect, or period effect.",
+      "reason": "The professor treated this three-way distinction as the core reading lesson in developmental research methods.",
+      "transcript_evidence": [
+        "113:00-149:00",
+        "206:00-206:59"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Do not dismiss cross-sectional design as simply inferior; explain both its strengths and its limits.",
+      "reason": "The lecture explicitly defended cross-sectional studies on cost, speed, and the absence of repeated-measure learning effects.",
+      "transcript_evidence": [
+        "164:00-185:00",
+        "368:00-389:00"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "When discussing longitudinal design, mention why it is valuable for aging research and also name attrition, survivor bias, repeated-measure learning effects, and cost or time burden.",
+      "reason": "The professor framed longitudinal research as powerful but methodologically demanding rather than automatically perfect.",
+      "transcript_evidence": [
+        "164:00-185:00",
+        "236:00-251:00",
+        "389:00-443:00"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "For advanced designs, focus less on memorizing labels and more on why mixed or sequential designs are used to partially separate age, cohort, and period effects.",
+      "reason": "The professor said students do not need to recite every design name if they understand why researchers keep splitting designs this way.",
+      "transcript_evidence": [
+        "389:00-437:00"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Use the long-term case examples to explain method, not just to retell the story.",
+      "reason": "The Harvard longitudinal study and later Korean examples were used to show how research design creates certain kinds of evidence about aging.",
+      "transcript_evidence": [
+        "236:00-257:00",
+        "323:00-365:00",
+        "449:00-449:59"
+      ],
+      "priority": "medium"
+    }
+  ]
+}

@@ -2,6 +2,14 @@
 
 Date: 2026-03-21
 
+## Current Use
+
+- `Status.md` is a historical pass log, not the source of truth for current approval rules.
+- If this file conflicts with current workflow or validation policy, follow `CONTENT_RULES.md`.
+- Historical references here to `12` cards, `10+` answers, or then-current render states are snapshots of older passes, not current completion criteria.
+- Current `professor-prep` policy targets `15` to `20` cards when quality allows, using the minimal published schema of `title` plus `answer_30s`.
+- Current lecture-evidence refreshes must follow the evidence-bundle-first workflow and the `3` to `5` draft-card review gate before expansion.
+
 Completed:
 
 - Updated `AGENTS.md`, `README.md`, and `CONTENT_RULES.md` to match the current repository state.
@@ -19,7 +27,7 @@ Not done in this pass:
 - No whole-site rebuild.
 - No rewrite of already-good Hulur study content.
 
-# Final Polish Status
+# Historical Final Polish Snapshot
 
 Run date: 2026-03-21
 
@@ -28,17 +36,17 @@ Summary:
 - Homepage UI flattened and cleaned to a calmer academic reading-site style.
 - Homepage cards now follow fixed syllabus class-date order with explicit date labels.
 - Homepage helper/admin/build-status copy removed.
-- `professor-prep` rebuilt around short oral model answers to “뭐가 흥미로웠어?” style prompts.
-- All readings now render populated `professor-prep` pages with 12 model-answer cards each.
+- At that pass, `professor-prep` had been rebuilt around short oral model answers. The answer frame has since been standardized more narrowly around `이 글을 어떻게 읽었는지`.
+- At that pass, all readings rendered populated `professor-prep` pages with roughly 12 model-answer cards each. This historical count is below the current default target and is not the current acceptance rule.
 - Full site rebuilt into `docs/` only.
 
-Validation:
+Historical snapshot:
 
 - `docs/index.html` rebuilt successfully.
 - Homepage order matches the 27-item syllabus order.
 - Homepage date labels use class dates and do not show `5/05`.
 - Every reading has `docs/readings/<slug>/professor-prep.html`.
-- Every professor-prep page renders at least 10 model answers.
+- At that pass, every professor-prep page rendered at least 10 model answers. Current evaluation should use today's `15` to `20` target and current validator rules instead.
 
 ## Hulur Reading Pass
 
@@ -79,10 +87,10 @@ Completed:
   - short-answer 15
   - multiple-choice 15
 - Rebuilt `review-sheet.md` into a compact exam-recovery page.
-- Rebuilt `professor_prep.json` into a 10-card source deck that renders as 12 model-answer cards and is tuned to direct class-style prompts.
+- Rebuilt `professor_prep.json` into a 10-card source deck that rendered as 12 model-answer cards in that intermediate pass. This state was later superseded by the refinement pass below.
 - Preserved deployable PDF access and confirmed header PDF buttons still render on `index.html`, `summary.html`, `full.html`, `translation.html`, and `review-sheet.html`.
 
-Validation:
+Pass checks:
 
 - `docs/readings/hulur-et-al-2019/summary.html` exists.
 - `docs/readings/hulur-et-al-2019/concepts.html` exists.
@@ -123,7 +131,7 @@ Completed:
 - Adjusted the shared professor-prep build logic so minimal 30-second-answer cards render cleanly without breaking older professor-prep sources.
 - Rebuilt Hulur plus the homepage into `docs/` only.
 
-Validation:
+Pass checks:
 
 - `docs/readings/hulur-et-al-2019/summary.html` exists.
 - `docs/readings/hulur-et-al-2019/concepts.html` exists.
@@ -163,7 +171,7 @@ Processed:
 - Replaced `translation.md` with a fuller Korean translation that restores method, matching, robustness-check, and limitation details that had been compressed away.
 - Left `summary.md` untouched so the summary page remains separate from the full-text and translation pages.
 
-Stage 1 status:
+Pass result snapshot (not the current formal Stage 1 validator):
 
 - Full original text: complete in `docs/readings/hulur-et-al-2019/full.html` as extracted source-text view.
 - Full Korean translation: complete for the readable main-body section flow in `docs/readings/hulur-et-al-2019/translation.html`.

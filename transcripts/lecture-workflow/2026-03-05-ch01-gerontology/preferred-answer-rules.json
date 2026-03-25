@@ -1,0 +1,72 @@
+{
+  "class_date": "2026-03-05",
+  "reading_slug": "ch01-gerontology",
+  "rules": [
+    {
+      "rule": "Do not stop at saying something was interesting; explain what was new and why it matters.",
+      "reason": "The professor pushed students past vague impressions toward explicit comparison between prior assumptions and new understanding.",
+      "transcript_evidence": [
+        "08:41-09:24",
+        "11:29-13:16"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Distinguish close terms precisely and include the English label when relevant.",
+      "reason": "The class explicitly separated gerontology from geriatrics rather than treating them as loose synonyms.",
+      "transcript_evidence": [
+        "09:36-11:12"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "When giving historical or institutional background, name the concrete actor and context instead of using broad labels.",
+      "reason": "Answers like \"the West\" or \"the pension system\" were pushed toward Bismarck, Germany, and the historical pension context.",
+      "transcript_evidence": [
+        "13:35-15:01"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Explain age categories as socially constructed criteria, not as self-evident natural facts.",
+      "reason": "The 65-year threshold was framed as a historical policy construction rather than a scientific cut point.",
+      "transcript_evidence": [
+        "13:35-15:01"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rule": "If the reading uses a catchy label, explain the direction behind it instead of relying on the label itself.",
+      "reason": "The professor said that the framing behind \"new gerontology\" matters more than repeating the term as if it were a standard classroom keyword.",
+      "transcript_evidence": [
+        "15:13-16:10"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rule": "Keep both sides of aging in view; avoid answers that romanticize old age or reduce it to decline only.",
+      "reason": "The professor repeatedly stressed that strong answers balance limits, decline, possibility, and variation instead of choosing one extreme frame.",
+      "transcript_evidence": [
+        "16:29-19:07"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Use the exact age concept being discussed and define it clearly.",
+      "reason": "The class moved from vague calendar-age wording toward exact labels such as chronological age and different age dimensions.",
+      "transcript_evidence": [
+        "19:55-20:27",
+        "29:14-31:09"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rule": "Separate answers about individual aging processes from answers about older-adult groups or social categories.",
+      "reason": "The professor explicitly distinguished focus on personal aging processes from focus on age-defined groups and linked that split to disciplinary perspective.",
+      "transcript_evidence": [
+        "29:14-31:09"
+      ],
+      "priority": "high"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "class_date": "2026-03-19",
+  "reading_slug": "ch04-gerontology",
+  "items": [
+    {
+      "question": "What is a cross-sectional design?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "59:00-77:00"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology research design review"
+      ],
+      "notes": "Likely when the student knows the term but cannot explain one-time measurement logic."
+    },
+    {
+      "question": "What is a longitudinal design, and how is it different from cross-sectional design?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "89:00-104:00"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology research design review"
+      ],
+      "notes": "Likely when the student does not clearly distinguish repeated follow-up of the same group from one-time comparison."
+    },
+    {
+      "question": "Why can't you read a cross-sectional difference as age change?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "104:00-113:00"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology research design review"
+      ],
+      "notes": "Likely when the student jumps from age-group comparison to developmental change."
+    },
+    {
+      "question": "What is the difference between age effect, cohort effect, and period effect?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "113:00-149:00",
+        "206:00-206:59"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology age-cohort-period distinction"
+      ],
+      "notes": "Likely when the student names the three effects without distinguishing them."
+    },
+    {
+      "question": "What exactly is a cohort, and why is it not limited to birth cohort?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "125:00-131:00"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology cohort concept"
+      ],
+      "notes": "Likely when the student treats cohort as only a birth-year category."
+    },
+    {
+      "question": "Why is it so hard to separate age, cohort, and period effects in one design?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "149:00-149:59",
+        "434:00-437:00"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology age-cohort-period distinction"
+      ],
+      "notes": "Likely when the student remembers the terms but not the methodological problem."
+    },
+    {
+      "question": "What are the strengths of cross-sectional design?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "368:00-389:00"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology research design review"
+      ],
+      "notes": "Likely when the student treats cross-sectional design as only weak or second-best."
+    },
+    {
+      "question": "What are the main limits of longitudinal design?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "164:00-185:00",
+        "389:00-443:00"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology longitudinal design limits"
+      ],
+      "notes": "Likely when the student praises longitudinal design without mentioning attrition, survivor bias, learning effects, or time and cost burden."
+    },
+    {
+      "question": "Why do researchers use mixed or sequential designs such as time-lag or cohort-sequential approaches?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "389:00-437:00"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology mixed design overview"
+      ],
+      "notes": "Likely when the student gets lost in labels and misses the reason those designs exist."
+    },
+    {
+      "question": "What does the long-term longitudinal example show about how aging research evidence is built?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "236:00-257:00",
+        "323:00-365:00"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology longitudinal example"
+      ],
+      "notes": "Likely when the student remembers the Harvard or Korean example only as an anecdote."
+    },
+    {
+      "question": "In the second English paper, how is cohort difference actually being used as an analytic idea?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "449:00-449:59"
+      ],
+      "pdf_evidence": [
+        "[CH4]Gerontology second English paper"
+      ],
+      "notes": "Likely when the student reads the paper but cannot connect it back to the research-method framework."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "class_date": "2026-03-10",
+  "reading_slug": "ch02-gerontology",
+  "rules": [
+    {
+      "rule": "Move from a broad answer to the mechanism that actually drives the demographic pattern.",
+      "reason": "The professor treated generic answers such as economic growth as incomplete unless the student unpacked why the speed of aging changed.",
+      "transcript_evidence": [
+        "06:52-08:49",
+        "28:03-29:56"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "If something was memorable, explain what prior assumption it changed and what the new point was.",
+      "reason": "Students were pushed beyond simple surprise reactions toward explicit contrast with their earlier image or expectation.",
+      "transcript_evidence": [
+        "08:49-09:30"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rule": "For indicator questions, explain the concept first, then the numerator, denominator, and the assumptions built into the measure.",
+      "reason": "The professor did not stop at the label old-age dependency ratio and kept pushing into structure, definition, and critique.",
+      "transcript_evidence": [
+        "09:30-16:45"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Distinguish administrative age cutoffs from social reality and explain why those cutoffs can mislead.",
+      "reason": "The class repeatedly returned to why 15-64 and 65+ are conventions that fit older settings better than current social reality.",
+      "transcript_evidence": [
+        "12:19-16:45"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Translate difficult demographic jargon into plain language that shows you actually understand the idea.",
+      "reason": "When morbidity expansion and compression were discussed, the professor explicitly wanted students to restate the ideas in simpler words.",
+      "transcript_evidence": [
+        "21:26-24:05"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Separate population-level demographic explanation from individual-level causal claims.",
+      "reason": "The professor explicitly corrected students when they treated macro co-movement as if it were a simple individual-level causal chain.",
+      "transcript_evidence": [
+        "41:46-42:40"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Include migration and current Korean policy context when talking about aging, not just fertility and mortality.",
+      "reason": "The lecture repeatedly connected demographic concepts to migration, regional extinction, medical access, and current policy debates in Korea.",
+      "transcript_evidence": [
+        "16:45-20:26",
+        "37:23-40:01"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rule": "When comparing countries, explain the relative driver rather than stopping at the fact that aging is fast.",
+      "reason": "The professor emphasized that rapid aging in Korea is not explained by longevity alone and must be tied to very low fertility.",
+      "transcript_evidence": [
+        "28:03-29:56",
+        "40:57-41:46"
+      ],
+      "priority": "high"
+    }
+  ]
+}

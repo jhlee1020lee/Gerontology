@@ -1,0 +1,71 @@
+{
+  "class_date": "2026-03-12",
+  "reading_slug": "beck-2016",
+  "rules": [
+    {
+      "rule": "Answer the exact question that was asked; do not drift into a nearby topic.",
+      "reason": "The professor repeatedly cut off answers that wandered away from the actual prompt.",
+      "transcript_evidence": [
+        "01:47-04:06"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "For reflective answers, use personal examples, honest self-positioning, and a concrete insight.",
+      "reason": "The professor explicitly contrasted vivid self-based writing with generic textbook-style writing.",
+      "transcript_evidence": [
+        "34:55-40:20"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "When you mention a role or effect, specify who is pressuring whom and how it operates.",
+      "reason": "Abstract claims about positive or negative roles were repeatedly pushed toward concrete actors and mechanisms.",
+      "transcript_evidence": [
+        "07:52-09:09"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Separate social age norms from your personal preference or plan.",
+      "reason": "The professor stressed that the assignment asked about what society treats as appropriate, not simply what the student wants.",
+      "transcript_evidence": [
+        "17:15-18:11"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Read age norms as including sequence, not just timing.",
+      "reason": "The lecture explicitly expanded age norms beyond \"what age\" to include \"in what order\" events are expected to happen.",
+      "transcript_evidence": [
+        "12:42-14:25"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Use your own language rather than polished summary language that sounds generated or impersonal.",
+      "reason": "The professor directly said that formulaic answer patterns are less persuasive than reflective, self-owned wording.",
+      "transcript_evidence": [
+        "39:21-41:18"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "When reading an American case, compare what transfers to Korea and what does not.",
+      "reason": "The discussion repeatedly noted that the article was relatable in some parts but not fully identical to Korean context.",
+      "transcript_evidence": [
+        "33:56-43:10"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rule": "Do not stop at reporting interesting responses; interpret what they reveal about variation, discomfort, gender difference, or norm structure.",
+      "reason": "The professor kept pushing students from anecdote to interpretation, especially around variation, gender, and sequence.",
+      "transcript_evidence": [
+        "07:02-17:15",
+        "21:18-24:45"
+      ],
+      "priority": "high"
+    }
+  ]
+}

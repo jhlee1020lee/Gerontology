@@ -1,0 +1,71 @@
+{
+  "class_date": "2026-03-24",
+  "reading_slug": "hulur-et-al-2019",
+  "rules": [
+    {
+      "rule": "To show that you actually read the paper, explain how the study design was implemented, not just the abstract-level conclusion.",
+      "reason": "The professor explicitly said the point of assigning the paper was to see how the research design taught in class was implemented in a real article.",
+      "transcript_evidence": [
+        "line 149"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Separate cohort difference from age difference, and separate performance level from rate of decline.",
+      "reason": "The discussion repeatedly emphasized that later-born cohorts performing higher is not the same claim as declining more slowly, and that the paper compares cohorts within the same age range.",
+      "transcript_evidence": [
+        "line 413",
+        "line 419"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "When discussing cognitive aging, do not treat cognition as one ability; explain the domain-specific pattern.",
+      "reason": "The professor highlighted that cognitive aging must be read by domain because different abilities peak and decline differently.",
+      "transcript_evidence": [
+        "line 281",
+        "line 290",
+        "line 299"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Use the exact paper variables and do not collapse work control, work autonomy, and work innovation into one vague job-quality idea.",
+      "reason": "The class focused on the fact that the three work-environment variables behaved differently, especially that autonomy did not show the same cohort pattern as control and innovation.",
+      "transcript_evidence": [
+        "line 14",
+        "line 425",
+        "line 458",
+        "line 491"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "If you connect the paper to the Flynn effect, explain the connection carefully instead of treating them as identical claims.",
+      "reason": "The professor used the Flynn effect to clarify the idea of later-born cohorts scoring higher, but not as a complete substitute for the paper?s own argument.",
+      "transcript_evidence": [
+        "line 185",
+        "line 413"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rule": "Do not stop at the main finding; also mention causal-direction limits and the paper?s own limitations.",
+      "reason": "The discussion explicitly raised whether enriched work improves cognition or cognitively stronger people enter such work, and pointed students to the limitation section as part of real paper reading.",
+      "transcript_evidence": [
+        "line 248",
+        "line 401",
+        "line 491"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "If you say the result was interesting or surprising, explain what you expected before reading and what changed after reading.",
+      "reason": "The professor pushed students to move beyond bare reaction and state the prior expectation they revised.",
+      "transcript_evidence": [
+        "30:58-34:05"
+      ],
+      "priority": "medium"
+    }
+  ]
+}

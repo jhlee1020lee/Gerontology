@@ -1,0 +1,17 @@
+{
+  "class_date": "2026-03-12",
+  "reading_slug": "beck-2016",
+  "source_audio": null,
+  "source_stt": "../../class-stt/2026-03-12-beck-2016-class-stt.txt",
+  "source_pdf": "../../../source_pdfs/Beck, 2016.pdf",
+  "stage1_full": "../../../content/readings/beck-2016/full.md",
+  "workflow_status": {
+    "transcript": "complete",
+    "pdf_grounded_correction": "missing",
+    "question_extraction": "complete",
+    "preferred_answer_rule_extraction": "complete",
+    "disliked_answer_rule_extraction": "missing",
+    "limited_answer_generation": "missing",
+    "review_and_expansion": "missing"
+  }
+}

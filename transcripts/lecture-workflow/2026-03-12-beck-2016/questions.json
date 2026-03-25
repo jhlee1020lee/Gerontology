@@ -1,0 +1,118 @@
+{
+  "class_date": "2026-03-12",
+  "reading_slug": "beck-2016",
+  "items": [
+    {
+      "question": "Why did you come to think that way?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "01:47-03:00"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 response essay framing"
+      ],
+      "notes": "Likely when the student describes a pattern but not how that idea was formed."
+    },
+    {
+      "question": "Listen to the question again and answer that question directly.",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "02:35-03:00"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 response essay framing"
+      ],
+      "notes": "Likely when the answer slides into a nearby issue instead of the actual prompt."
+    },
+    {
+      "question": "What do you personally think about it?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "34:55-40:20"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 adulthood reflection discussion"
+      ],
+      "notes": "Likely when the student reports other people?s views without locating their own stance."
+    },
+    {
+      "question": "What do you mean specifically?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "07:52-09:09",
+        "39:21-41:18"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 response essay framing"
+      ],
+      "notes": "Likely when the answer uses broad labels such as role, pressure, independence, or adulthood without specifics."
+    },
+    {
+      "question": "Who is pressuring whom in that example?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "07:52-09:09"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 age norms discussion"
+      ],
+      "notes": "Likely when the student mentions evaluation or pressure without naming the actor."
+    },
+    {
+      "question": "Are you talking about the age you personally want, or the age society treats as appropriate?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "17:15-18:11"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 age norm discussion"
+      ],
+      "notes": "Likely when the student mixes personal desire with perceived social norm."
+    },
+    {
+      "question": "What sequence assumption is hidden in that answer?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "12:42-14:25"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 age norm sequence discussion"
+      ],
+      "notes": "Likely when the student notices similar marriage and childbirth ages but does not analyze the ordering norm behind them."
+    },
+    {
+      "question": "What does that response reveal about gender difference, military service, or cultural expectation?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "14:25-17:15",
+        "21:18-24:45"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 gendered norm discussion"
+      ],
+      "notes": "Likely when the student reports male-female differences without interpretation."
+    },
+    {
+      "question": "Which part of this American article felt transferable to Korea, and which part did not?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "33:56-43:10"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 adulthood article discussion"
+      ],
+      "notes": "Likely when the student reacts to the article without comparing contexts."
+    },
+    {
+      "question": "Why is a generic textbook-style essay weaker than one with your own example?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "39:21-41:18"
+      ],
+      "pdf_evidence": [
+        "Beck, 2016 response essay framing"
+      ],
+      "notes": "Likely when the student summarizes concepts cleanly but never stakes a personal insight."
+    }
+  ]
+}

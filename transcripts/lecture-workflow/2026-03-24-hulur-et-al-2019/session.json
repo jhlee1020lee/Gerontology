@@ -1,0 +1,17 @@
+{
+  "class_date": "2026-03-24",
+  "reading_slug": "hulur-et-al-2019",
+  "source_audio": "../../../source_audio/class-recordings/2026-03-24-hulur-et-al-2019-class-recording.m4a",
+  "source_stt": "../../class-stt/2026-03-24-hulur-et-al-2019-class-stt.txt",
+  "source_pdf": "../../../source_pdfs/Hülür et al., 2019.pdf",
+  "stage1_full": "../../../content/readings/hulur-et-al-2019/full.md",
+  "workflow_status": {
+    "transcript": "complete",
+    "pdf_grounded_correction": "missing",
+    "question_extraction": "complete",
+    "preferred_answer_rule_extraction": "complete",
+    "disliked_answer_rule_extraction": "missing",
+    "limited_answer_generation": "missing",
+    "review_and_expansion": "missing"
+  }
+}
