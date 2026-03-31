@@ -52,7 +52,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T17:46:56.320Z",
+    "updated_at": "2026-03-31T04:59:25.151Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",
@@ -247,5 +247,7 @@
     "missing notebooklm video",
     "concepts: section 1 (1. 가족생활주기): missing '한국어 개념명'; section 1 (1. 가족생활주기): missing 'Original English term'; section 1 (1. 가족생활주기): missing '정확한 한 줄 정의'; section 1 (1. 가족생활주기): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 가족생활주기): missing '왜 이 ...에서 중요한지'; section 1 (1. 가족생활주기): missing '자주 헷갈리는 포인트'; section 2 (2. 축소완료기): missing '한국어 개념명'; section 2 (2. 축소완료기): missing 'Original English term'; section 2 (2. 축소완료기): missing '정확한 한 줄 정의'; section 2 (2. 축소완료기): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 축소완료기): missing '왜 이 ...에서 중요한지'; section 2 (2. 축소완료기): missing '자주 헷갈리는 포인트'; section 3 (3. 중노년기 부부관계): missing '한국어 개념명'; section 3 (3. 중노년기 부부관계): missing 'Original English term'; section 3 (3. 중노년기 부부관계): missing '정확한 한 줄 정의'; section 3 (3. 중노년기 부부관계): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 중노년기 부부관계): missing '왜 이 ...에서 중요한지'; section 3 (3. 중노년기 부부관계): missing '자주 헷갈리는 포인트'; section 4 (4. 황혼이혼): missing '한국어 개념명'; section 4 (4. 황혼이혼): missing 'Original English term'; section 4 (4. 황혼이혼): missing '정확한 한 줄 정의'; section 4 (4. 황혼이혼): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 황혼이혼): missing '왜 이 ...에서 중요한지'; section 4 (4. 황혼이혼): missing '자주 헷갈리는 포인트'; section 5 (5. 사별): missing '한국어 개념명'; section 5 (5. 사별): missing 'Original English term'; section 5 (5. 사별): missing '정확한 한 줄 정의'; section 5 (5. 사별): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 사별): missing '왜 이 ...에서 중요한지'; section 5 (5. 사별): missing '자주 헷갈리는 포인트'; section 6 (6. 졸혼): missing '한국어 개념명'; section 6 (6. 졸혼): missing 'Original English term'; section 6 (6. 졸혼): missing '정확한 한 줄 정의'; section 6 (6. 졸혼): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 졸혼): missing '왜 이 ...에서 중요한지'; section 6 (6. 졸혼): missing '자주 헷갈리는 포인트'; section 7 (7. 부부관계의 질): missing '한국어 개념명'; section 7 (7. 부부관계의 질): missing 'Original English term'; section 7 (7. 부부관계의 질): missing '정확한 한 줄 정의'; section 7 (7. 부부관계의 질): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 부부관계의 질): missing '왜 이 ...에서 중요한지'; section 7 (7. 부부관계의 질): missing '자주 헷갈리는 포인트'; section 8 (8. 배우자 돌봄): missing '한국어 개념명'; section 8 (8. 배우자 돌봄): missing 'Original English term'; section 8 (8. 배우자 돌봄): missing '정확한 한 줄 정의'; section 8 (8. 배우자 돌봄): missing '학생 말투로 풀어쓴 설명'; section 8 (8. 배우자 돌봄): missing '왜 이 ...에서 중요한지'; section 8 (8. 배우자 돌봄): missing '자주 헷갈리는 포인트'",
     "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
-  ]
+  ],
+  "shared_page_bundle": null,
+  "shared_page_keys": []
 }

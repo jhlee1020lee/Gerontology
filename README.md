@@ -108,6 +108,12 @@ Then open:
 start docs\index.html
 ```
 
+## Homepage chatbot
+- The homepage now supports a floating chatbot widget in the lower-right corner.
+- This is a static-site UI only. Do not put `OPENAI_API_KEY` in browser code.
+- Configure the public proxy URL in `scripts/site_chatbot_config.js`, then rebuild.
+- Setup details and a serverless proxy example live in [CHATBOT_SETUP.md](CHATBOT_SETUP.md).
+
 ## Notes
 - The site is Korean-first, while original English titles, author names, and source text stay in English where needed.
 - Missing content should still produce a valid placeholder page.

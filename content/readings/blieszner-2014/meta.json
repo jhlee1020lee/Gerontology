@@ -49,7 +49,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-21T17:46:56.379Z",
+    "updated_at": "2026-03-31T04:59:25.184Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_fail",
@@ -257,5 +257,7 @@
     "missing notebooklm video",
     "concepts: section 1 (1. friendship): missing '한국어 개념명'; section 1 (1. friendship): missing 'Original English term'; section 1 (1. friendship): missing '정확한 한 줄 정의'; section 1 (1. friendship): missing '학생 말투로 풀어쓴 설명'; section 1 (1. friendship): missing '왜 이 ...에서 중요한지'; section 1 (1. friendship): missing '자주 헷갈리는 포인트'; section 2 (2. voluntary tie): missing '한국어 개념명'; section 2 (2. voluntary tie): missing 'Original English term'; section 2 (2. voluntary tie): missing '정확한 한 줄 정의'; section 2 (2. voluntary tie): missing '학생 말투로 풀어쓴 설명'; section 2 (2. voluntary tie): missing '왜 이 ...에서 중요한지'; section 2 (2. voluntary tie): missing '자주 헷갈리는 포인트'; section 3 (3. reciprocity): missing '한국어 개념명'; section 3 (3. reciprocity): missing 'Original English term'; section 3 (3. reciprocity): missing '정확한 한 줄 정의'; section 3 (3. reciprocity): missing '학생 말투로 풀어쓴 설명'; section 3 (3. reciprocity): missing '왜 이 ...에서 중요한지'; section 3 (3. reciprocity): missing '자주 헷갈리는 포인트'; section 4 (4. companionship): missing '한국어 개념명'; section 4 (4. companionship): missing 'Original English term'; section 4 (4. companionship): missing '정확한 한 줄 정의'; section 4 (4. companionship): missing '학생 말투로 풀어쓴 설명'; section 4 (4. companionship): missing '왜 이 ...에서 중요한지'; section 4 (4. companionship): missing '자주 헷갈리는 포인트'; section 5 (5. emotional support): missing '한국어 개념명'; section 5 (5. emotional support): missing 'Original English term'; section 5 (5. emotional support): missing '정확한 한 줄 정의'; section 5 (5. emotional support): missing '학생 말투로 풀어쓴 설명'; section 5 (5. emotional support): missing '왜 이 ...에서 중요한지'; section 5 (5. emotional support): missing '자주 헷갈리는 포인트'; section 6 (6. instrumental help): missing '한국어 개념명'; section 6 (6. instrumental help): missing 'Original English term'; section 6 (6. instrumental help): missing '정확한 한 줄 정의'; section 6 (6. instrumental help): missing '학생 말투로 풀어쓴 설명'; section 6 (6. instrumental help): missing '왜 이 ...에서 중요한지'; section 6 (6. instrumental help): missing '자주 헷갈리는 포인트'; section 7 (7. loneliness intervention): missing '한국어 개념명'; section 7 (7. loneliness intervention): missing 'Original English term'; section 7 (7. loneliness intervention): missing '정확한 한 줄 정의'; section 7 (7. loneliness intervention): missing '학생 말투로 풀어쓴 설명'; section 7 (7. loneliness intervention): missing '왜 이 ...에서 중요한지'; section 7 (7. loneliness intervention): missing '자주 헷갈리는 포인트'; section 8 (8. friendship maintenance): missing '한국어 개념명'; section 8 (8. friendship maintenance): missing 'Original English term'; section 8 (8. friendship maintenance): missing '정확한 한 줄 정의'; section 8 (8. friendship maintenance): missing '학생 말투로 풀어쓴 설명'; section 8 (8. friendship maintenance): missing '왜 이 ...에서 중요한지'; section 8 (8. friendship maintenance): missing '자주 헷갈리는 포인트'",
     "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
-  ]
+  ],
+  "shared_page_bundle": null,
+  "shared_page_keys": []
 }

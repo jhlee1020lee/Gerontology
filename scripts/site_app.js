@@ -14,6 +14,7 @@ const storage={
 
 const THEME_KEY="aa-theme";
 const FONT_KEY="aa-font-scale";
+const CHATBOT_STORAGE_KEY="aa-home-chatbot-history";
 const UI_TEXT={
   darkMode:"다크 모드",
   lightMode:"라이트 모드",
@@ -30,6 +31,128 @@ const UI_TEXT={
   prepDifficultActive:"표시됨",
   prepNoDifficult:"표시한 답변 카드가 여기에 모입니다."
 };
+
+const DEFAULT_CHATBOT_CONFIG={
+  enabled:true,
+  endpoint:"",
+  title:"AI 챗봇",
+  welcomeMessage:"",
+  disconnectedMessage:"아직 API 엔드포인트가 연결되지 않았습니다. scripts/site_chatbot_config.js 에서 endpoint를 설정한 뒤 다시 빌드하세요.",
+  requestTimeoutMs:45000,
+  maxMaterials:6
+};
+
+function escapeHtmlText(value){
+  return String(value??"")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/\"/g,"&quot;")
+    .replace(/'/g,"&#39;");
+}
+
+function renderPlainTextBlocks(text){
+  return String(text||"")
+    .trim()
+    .split(/\n{2,}/)
+    .map((block)=>`<p>${escapeHtmlText(block).replace(/\n/g,"<br />")}</p>`)
+    .join("");
+}
+
+function getHomeChatbotConfig(){
+  const configured=window.AA_CHATBOT_CONFIG&&typeof window.AA_CHATBOT_CONFIG==="object"
+    ? window.AA_CHATBOT_CONFIG
+    : {};
+  return {...DEFAULT_CHATBOT_CONFIG,...configured};
+}
+
+function normalizeChatbotMessages(messages){
+  if(!Array.isArray(messages))return [];
+  return messages
+    .map((message)=>({
+      role:message?.role==="user"?"user":"assistant",
+      content:String(message?.content||"").trim()
+    }))
+    .filter((message)=>message.content)
+    .slice(-20);
+}
+
+function tokenizeChatbotSearch(text){
+  const matches=String(text||"").toLowerCase().match(/[0-9a-z\uac00-\ud7a3]+/g)||[];
+  return Array.from(new Set(matches.filter((token)=>token.length>1)));
+}
+
+function getChatbotCorpusChunks(){
+  const payload=window.AA_CHATBOT_CORPUS;
+  return Array.isArray(payload?.chunks)?payload.chunks:[];
+}
+
+function scoreChatbotChunk(chunk,queryTokens,queryText){
+  const haystack=String(chunk?.searchText||"").toLowerCase();
+  if(!haystack)return 0;
+  let score=0;
+
+  queryTokens.forEach((token)=>{
+    if(!haystack.includes(token))return;
+    score+=token.length>=4?4:2;
+    if(String(chunk?.readingTitle||"").toLowerCase().includes(token))score+=4;
+    if(String(chunk?.pageLabel||"").toLowerCase().includes(token))score+=2;
+  });
+
+  const readingTitle=String(chunk?.readingTitle||"").toLowerCase();
+  const pageLabel=String(chunk?.pageLabel||"").toLowerCase();
+  if(readingTitle&&queryText.includes(readingTitle))score+=10;
+  if(pageLabel&&queryText.includes(pageLabel))score+=6;
+  if(String(chunk?.slug||"").toLowerCase()&&queryText.includes(String(chunk.slug).toLowerCase()))score+=6;
+  return score;
+}
+
+function selectChatbotMaterials(query,maxItems){
+  const queryText=String(query||"").trim().toLowerCase();
+  const queryTokens=tokenizeChatbotSearch(queryText);
+  if(!queryTokens.length)return [];
+  return getChatbotCorpusChunks()
+    .map((chunk)=>({chunk,score:scoreChatbotChunk(chunk,queryTokens,queryText)}))
+    .filter((entry)=>entry.score>0)
+    .sort((a,b)=>b.score-a.score||String(a.chunk.id||"").localeCompare(String(b.chunk.id||"")))
+    .slice(0,maxItems)
+    .map((entry)=>({
+      id:entry.chunk.id,
+      slug:entry.chunk.slug,
+      readingTitle:entry.chunk.readingTitle,
+      pageKey:entry.chunk.pageKey,
+      pageLabel:entry.chunk.pageLabel,
+      href:entry.chunk.href?new URL(entry.chunk.href,window.location.href).href:"",
+      text:String(entry.chunk.text||"").trim()
+    }))
+    .filter((entry)=>entry.text);
+}
+
+function buildChatbotMaterialPrompt(materials){
+  if(!materials.length){
+    return [
+      "Answer only from published site materials.",
+      "No relevant material snippet was found for this question.",
+      "If the answer is not supported by the site's published materials or reading cards, say that you cannot answer from the current materials."
+    ].join("\n");
+  }
+
+  const materialText=materials
+    .map((item,index)=>[
+      `[Material ${index+1}]`,
+      `Reading: ${item.readingTitle}`,
+      `Page: ${item.pageLabel}`,
+      item.href?`URL: ${item.href}`:"",
+      item.text
+    ].filter(Boolean).join("\n"))
+    .join("\n\n");
+
+  return [
+    "Answer only from the published site materials below.",
+    "If the answer is not directly supported by these materials or the reading-card metadata, say that you cannot answer from the current site materials.",
+    materialText
+  ].join("\n\n");
+}
 
 function setTheme(theme){
   document.documentElement.dataset.theme=theme;
@@ -109,6 +232,286 @@ function initHomeFilters(){
   [input,typeSelect,tagSelect].forEach((element)=>element&&element.addEventListener("input",apply));
   [typeSelect,tagSelect].forEach((element)=>element&&element.addEventListener("change",apply));
   apply();
+}
+
+function buildHomeChatbotCatalog(){
+  return Array.from(document.querySelectorAll("[data-reading-card]"))
+    .map((card)=>{
+      const link=card.querySelector("a.card-link");
+      const href=link?.getAttribute("href");
+      return{
+        slug:(card.dataset.readingSlug||"").trim(),
+        title:(card.querySelector(".title")?.textContent||"").trim(),
+        subtitle:(card.querySelector(".card-subtitle")?.textContent||"").trim(),
+        date:(card.querySelector(".card-date")?.textContent||"").trim(),
+        type:(card.dataset.type||"").trim(),
+        state:(card.dataset.cardState||"").trim(),
+        href:href?new URL(href,window.location.href).href:"",
+        visible:!card.hidden
+      };
+    })
+    .filter((reading)=>reading.title);
+}
+
+function extractTextFromContentBlocks(blocks){
+  if(!Array.isArray(blocks))return "";
+  return blocks
+    .map((block)=>{
+      if(typeof block==="string")return block;
+      if(typeof block?.text==="string")return block.text;
+      if(typeof block?.content==="string")return block.content;
+      return "";
+    })
+    .filter(Boolean)
+    .join("\n\n")
+    .trim();
+}
+
+function extractChatbotReply(payload){
+  if(typeof payload==="string")return payload.trim();
+  if(!payload||typeof payload!=="object")return "";
+
+  const direct=[
+    payload.reply,
+    payload.output_text,
+    payload.text,
+    payload.message,
+    payload.answer,
+    payload.error?.message
+  ].find((value)=>typeof value==="string"&&value.trim());
+  if(direct)return direct.trim();
+
+  if(Array.isArray(payload.content)){
+    const contentText=extractTextFromContentBlocks(payload.content);
+    if(contentText)return contentText;
+  }
+
+  if(Array.isArray(payload.output)){
+    for(const item of payload.output){
+      if(item?.role==="assistant"&&Array.isArray(item.content)){
+        const outputText=extractTextFromContentBlocks(item.content);
+        if(outputText)return outputText;
+      }
+      if(Array.isArray(item?.content)){
+        const contentText=extractTextFromContentBlocks(item.content);
+        if(contentText)return contentText;
+      }
+    }
+  }
+
+  if(Array.isArray(payload.messages)){
+    const assistantMessage=[...payload.messages].reverse().find((item)=>item?.role==="assistant");
+    if(assistantMessage){
+      const messageText=extractChatbotReply(assistantMessage);
+      if(messageText)return messageText;
+    }
+  }
+
+  if(Array.isArray(payload.choices)){
+    for(const choice of payload.choices){
+      const choiceText=choice?.message?.content||choice?.text;
+      if(typeof choiceText==="string"&&choiceText.trim())return choiceText.trim();
+    }
+  }
+
+  return "";
+}
+
+function renderChatbotMessageHtml(message){
+  const role=message.role==="user"?"user":"assistant";
+  const label=role==="user"?"질문":"답변";
+  return `
+    <article class="home-chatbot-message is-${role}">
+      <p class="home-chatbot-message-role">${label}</p>
+      <div class="home-chatbot-bubble">${renderPlainTextBlocks(message.content)}</div>
+    </article>
+  `;
+}
+
+function initHomeChatbot(){
+  const root=document.querySelector("[data-home-chatbot]");
+  if(!root||document.body.dataset.pageKind!=="home")return;
+
+  const config=getHomeChatbotConfig();
+  if(config.enabled===false){
+    root.remove();
+    return;
+  }
+
+  const toggle=root.querySelector("[data-chatbot-toggle]");
+  const panel=root.querySelector("[data-chatbot-panel]");
+  const backdrop=root.querySelector("[data-chatbot-backdrop]");
+  const closeButton=root.querySelector("[data-chatbot-close]");
+  const viewport=root.querySelector("[data-chatbot-messages]");
+  const form=root.querySelector("[data-chatbot-form]");
+  const input=root.querySelector("[data-chatbot-input]");
+  const submit=root.querySelector("[data-chatbot-submit]");
+  if(!toggle||!panel||!viewport||!form||!input||!submit)return;
+
+  const state={
+    open:false,
+    loading:false,
+    controller:null,
+    messages:normalizeChatbotMessages(storage.get(CHATBOT_STORAGE_KEY,[]))
+  };
+
+  const idleSubmitLabel=submit.textContent;
+  if(String(config.placeholder||"").trim())input.placeholder=String(config.placeholder).trim();
+
+  if(!state.messages.length&&String(config.welcomeMessage||"").trim()){
+    state.messages=[{role:"assistant",content:String(config.welcomeMessage||DEFAULT_CHATBOT_CONFIG.welcomeMessage).trim()}];
+  }
+
+  function persistMessages(){
+    storage.set(CHATBOT_STORAGE_KEY,state.messages.slice(-20));
+  }
+
+  function scrollMessagesToEnd(){
+    window.requestAnimationFrame(()=>{
+      viewport.scrollTop=viewport.scrollHeight;
+    });
+  }
+
+  function renderMessages(){
+    const loadingHtml=state.loading
+      ? `
+        <article class="home-chatbot-message is-assistant is-loading">
+          <p class="home-chatbot-message-role">챗봇</p>
+          <div class="home-chatbot-bubble">
+            <p>응답을 만드는 중입니다...</p>
+          </div>
+        </article>
+      `
+      : "";
+    viewport.innerHTML=state.messages.map(renderChatbotMessageHtml).join("")+loadingHtml;
+    scrollMessagesToEnd();
+  }
+
+  function setOpen(nextOpen){
+    state.open=Boolean(nextOpen);
+    root.classList.toggle("is-open",state.open);
+    root.classList.toggle("is-collapsed",!state.open);
+    panel.hidden=!state.open;
+    if(backdrop)backdrop.hidden=!state.open;
+    toggle.setAttribute("aria-expanded",String(state.open));
+    if(state.open){
+      window.requestAnimationFrame(()=>input.focus());
+    }
+  }
+
+  function setLoading(nextLoading){
+    state.loading=Boolean(nextLoading);
+    submit.disabled=state.loading;
+    submit.textContent=state.loading?"전송 중..." : idleSubmitLabel;
+    root.classList.toggle("is-loading",state.loading);
+    renderMessages();
+  }
+
+  async function sendMessage(rawText){
+    const text=String(rawText||"").trim();
+    if(!text||state.loading)return;
+
+    state.messages.push({role:"user",content:text});
+    input.value="";
+    persistMessages();
+    renderMessages();
+    setOpen(true);
+
+    const endpoint=String(config.endpoint||"").trim();
+    const materials=selectChatbotMaterials(text,Math.max(1,Number(config.maxMaterials)||DEFAULT_CHATBOT_CONFIG.maxMaterials));
+    const requestMessages=state.messages
+      .slice(0,-1)
+      .concat({role:"assistant",content:buildChatbotMaterialPrompt(materials)},state.messages.slice(-1));
+    if(!endpoint){
+      state.messages.push({
+        role:"assistant",
+        content:String(config.disconnectedMessage||DEFAULT_CHATBOT_CONFIG.disconnectedMessage)
+      });
+      persistMessages();
+      renderMessages();
+      return;
+    }
+
+    setLoading(true);
+    const controller=typeof AbortController==="function"?new AbortController():null;
+    state.controller=controller;
+    const timeoutMs=Math.max(1000,Number(config.requestTimeoutMs)||DEFAULT_CHATBOT_CONFIG.requestTimeoutMs);
+    const timeoutId=controller?window.setTimeout(()=>controller.abort(),timeoutMs):null;
+
+    try{
+      const response=await fetch(endpoint,{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({
+          messages:requestMessages,
+          site:{
+            title:(document.querySelector(".brand-title")?.textContent||document.title).trim()
+          },
+          page:{
+            kind:document.body.dataset.pageKind||"",
+            title:document.title,
+            url:window.location.href
+          },
+          readings:buildHomeChatbotCatalog(),
+          materials
+        }),
+        signal:controller?.signal
+      });
+
+      const rawBody=await response.text();
+      let payload={};
+      try{
+        payload=rawBody?JSON.parse(rawBody):{};
+      }catch(error){
+        payload={text:rawBody};
+      }
+
+      const reply=extractChatbotReply(payload);
+      if(!response.ok){
+        throw new Error(reply||`요청 실패 (${response.status})`);
+      }
+      if(!reply){
+        throw new Error("응답 본문이 비어 있습니다.");
+      }
+
+      state.messages.push({role:"assistant",content:reply});
+    }catch(error){
+      const fallbackMessage=error?.name==="AbortError"
+        ? "응답 시간이 길어져 요청을 중단했습니다. 서버 프록시나 모델 설정을 다시 확인해 주세요."
+        : `연결 중 오류가 발생했습니다. ${error?.message||"서버 응답을 확인해 주세요."}`;
+      state.messages.push({role:"assistant",content:fallbackMessage});
+    }finally{
+      if(timeoutId)window.clearTimeout(timeoutId);
+      state.controller=null;
+      persistMessages();
+      setLoading(false);
+    }
+  }
+
+  toggle.addEventListener("click",()=>{setOpen(!state.open);});
+  closeButton&&closeButton.addEventListener("click",()=>{setOpen(false);});
+  backdrop&&backdrop.addEventListener("click",()=>{setOpen(false);});
+  document.addEventListener("keydown",(event)=>{
+    if(event.key==="Escape"&&state.open){
+      setOpen(false);
+    }
+  });
+
+  form.addEventListener("submit",(event)=>{
+    event.preventDefault();
+    sendMessage(input.value);
+  });
+
+  input.addEventListener("keydown",(event)=>{
+    if(event.key==="Enter"&&!event.shiftKey){
+      event.preventDefault();
+      if(form.requestSubmit)form.requestSubmit();
+      else sendMessage(input.value);
+    }
+  });
+
+  setOpen(false);
+  renderMessages();
 }
 
 function initTabMenus(){
@@ -352,6 +755,7 @@ document.addEventListener("DOMContentLoaded",()=>{
   initTheme();
   initGatedLinks();
   initHomeFilters();
+  initHomeChatbot();
   initTabMenus();
   initReader();
   initProfessorPrep();

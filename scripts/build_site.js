@@ -9,7 +9,9 @@ const manifestPath=path.join(rootDir,"manifest","readings.json");
 const siteDir=path.join(rootDir,"docs");
 const styleSource=path.join(__dirname,"site_styles.css");
 const appSource=path.join(__dirname,"site_app.js");
+const chatbotConfigSource=path.join(__dirname,"site_chatbot_config.js");
 const brandLogoSource=path.join(__dirname,"assets","branding","snu.png");
+const CHATBOT_CORPUS_CHARS=900;
 const LANDING_TAB_LABEL="설명 영상";
 const NOTEBOOKLM_VIDEO_CANDIDATES=["notebooklm.mp4","notebooklm.webm","notebooklm.mov","notebooklm.m4v"];
 const THUMBNAIL_SOURCE_CANDIDATES=["thumbnail.png","thumbnail.jpg","thumbnail.jpeg","thumbnail.webp","thumbnail.svg"];
@@ -220,6 +222,12 @@ function ensureContentPlaceholders(manifest,slugFilter=null){manifest.readings.f
 function prepareReadings(manifest){return manifest.readings.map((rawReading,index)=>{const reading=normalizeReading(rawReading,index+1);const existingMeta=loadReadingMeta(reading.content_dir);const validationOptions={requireBuiltArtifacts:Boolean(existingMeta.validation_status?.require_built_artifacts)};const snapshot=buildValidationSnapshot(rootDir,reading,existingMeta,validationOptions);const mergedMeta=mergeValidationFields(existingMeta,snapshot);const pages=PAGE_DEFS.filter((page)=>!(page.englishOnly&&reading.language!=="en")).map((page)=>({...page,label:readingPageLabel(reading,page),...pageState(reading,page,snapshot)}));return{...reading,content_status:mergedMeta.content_status,validation_status:mergedMeta.validation_status,workflow_status:mergedMeta.workflow_status,workflow_notes:mergedMeta.workflow_notes,manual_review:mergedMeta.manual_review,pages};});}
 function compareReadings(a,b,mode){if(mode==="chronological"){const aHasDate=Boolean(a.effective_sort_date);const bHasDate=Boolean(b.effective_sort_date);if(aHasDate&&bHasDate&&a.effective_sort_date!==b.effective_sort_date)return a.effective_sort_date.localeCompare(b.effective_sort_date);if(aHasDate!==bHasDate)return aHasDate?-1:1;if(a.home_order_index!==b.home_order_index)return a.home_order_index-b.home_order_index;}return a.sequence-b.sequence;}
 function searchBlob(reading){return[reading.slug,reading.title,reading.subtitle,reading.source_filename,reading.language,reading.type,reading.kind,reading.year_label,reading.display_date,...(reading.authors||[]),...(reading.tags||[]),...(reading.metadata_notes||[])].filter(Boolean).join(" ");}
+function normalizeChatbotText(text){return String(text||"").replace(/\r\n/g,"\n").replace(/\u00a0/g," ").replace(/[ \t]+/g," ").replace(/\n{3,}/g,"\n\n").trim();}
+function markdownToChatbotText(text){return normalizeChatbotText(String(text||"").replace(/```[\s\S]*?```/g," ").replace(/!\[([^\]]*)\]\([^)]+\)/g," $1 ").replace(/\[([^\]]+)\]\([^)]+\)/g,"$1").replace(/^#{1,6}\s*/gm,"").replace(/^>\s*/gm,"").replace(/^\-\s+/gm,"").replace(/\*\*([^*]+)\*\*/g,"$1").replace(/\*([^*]+)\*/g,"$1").replace(/`([^`]+)`/g,"$1"));}
+function splitTextByLength(text,maxChars=CHATBOT_CORPUS_CHARS){const input=normalizeChatbotText(text);if(!input)return[];const paragraphs=input.split(/\n\n+/).map((part)=>part.trim()).filter(Boolean);const chunks=[];let current="";const pushCurrent=()=>{if(current.trim())chunks.push(current.trim());current="";};const appendPart=(part)=>{if(!part)return;const candidate=current?`${current}\n\n${part}`:part;if(candidate.length<=maxChars){current=candidate;return;}if(current)pushCurrent();if(part.length<=maxChars){current=part;return;}let remaining=part;while(remaining.length>maxChars){let cut=remaining.lastIndexOf(" ",maxChars);if(cut<Math.floor(maxChars*0.55))cut=maxChars;chunks.push(remaining.slice(0,cut).trim());remaining=remaining.slice(cut).trim();}current=remaining;};paragraphs.forEach(appendPart);pushCurrent();return chunks;}
+function chatbotCorpusHref(outputPath){return relHref(outputPath,path.join(siteDir,"assets","chatbot-corpus.js"));}
+function buildChatbotCorpus(readings){const chunks=[];let chunkId=1;const addChunk=(reading,pageKey,pageLabel,href,text)=>{splitTextByLength(text).forEach((chunkText,index)=>{if(!chunkText)return;chunks.push({id:`chatbot-${String(chunkId++).padStart(5,"0")}`,slug:reading.slug,readingTitle:reading.title,pageKey,pageLabel,href:href.split(path.sep).join("/"),text:chunkText,searchText:[reading.title,pageLabel,chunkText].filter(Boolean).join(" ").toLowerCase(),order:index+1});});};readings.filter((reading)=>isPublishedReading(reading)).forEach((reading)=>{const readingHref=path.posix.join("readings",reading.slug,"index.html");const overviewText=[reading.subtitle,reading.overview_hook,...(reading.classroom_points||[])].filter(Boolean).join("\n\n");addChunk(reading,"overview","읽기 개요",readingHref,overviewText);reading.pages.filter((page)=>page.review_passed).forEach((page)=>{const href=path.posix.join("readings",reading.slug,page.filename);if(page.type==="article"){const text=loadMarkdown(page.sourcePath);if(text)addChunk(reading,page.key,page.label,href,markdownToChatbotText(text));return;}if(page.type==="professor-prep"){const prep=loadProfessorPrep(page.sourcePath);if(prep&&Array.isArray(prep.cards)){prep.cards.forEach((card)=>{addChunk(reading,page.key,page.label,href,`${card.title}\n${card.answer_30s}`);});}}});});return{generated_at:new Date().toISOString(),chunk_count:chunks.length,chunks};}
+function writeChatbotCorpusAsset(readings){writeText(path.join(siteDir,"assets","chatbot-corpus.js"),`window.AA_CHATBOT_CORPUS=${JSON.stringify(buildChatbotCorpus(readings),null,2)};\n`);}
 function buildTagOptions(readings){return Array.from(new Set(readings.flatMap((reading)=>reading.tags||[]).filter(Boolean))).sort((a,b)=>a.localeCompare(b,"ko"));}
 function readingSequenceLabel(sequence){return `읽기 ${String(sequence).padStart(2,"0")}`;}
 function studyOrderText(reading){const steps=[LANDING_TAB_LABEL,reading.language==="en"?"원문 읽기":"본문 읽기"];if(reading.translation_required)steps.push("번역본 읽기");steps.push("읽기 답변 준비");return steps.join(" -> ");}
@@ -268,7 +276,30 @@ function siteHeader(siteMeta,outputPath){const homeHref=relHref(outputPath,path.
   </div>
 </header>
 `;}
-function renderDocument(siteMeta,outputPath,title,body,description,bodyAttrs="",lang="ko"){const cssHref=relHref(outputPath,path.join(siteDir,"assets","styles.css"));const jsHref=relHref(outputPath,path.join(siteDir,"assets","app.js"));return `<!DOCTYPE html>
+function renderHomeChatbot(siteMeta){return `
+<section class="home-chatbot is-collapsed" data-home-chatbot>
+  <button class="home-chatbot-toggle" type="button" data-chatbot-toggle aria-expanded="false" aria-controls="home-chatbot-panel" aria-label="스터디 챗봇 열기">
+    <span class="home-chatbot-toggle-badge" aria-hidden="true">AI</span>
+    <span class="home-chatbot-toggle-label">챗봇</span>
+  </button>
+  <div class="home-chatbot-backdrop" data-chatbot-backdrop hidden></div>
+  <aside class="home-chatbot-panel" id="home-chatbot-panel" data-chatbot-panel hidden aria-label="${escapeHtml(siteMeta.title)} AI 챗봇">
+    <div class="home-chatbot-head">
+      <h2>AI 챗봇</h2>
+      <button class="ghost-btn home-chatbot-close" type="button" data-chatbot-close aria-label="챗봇 닫기">닫기</button>
+    </div>
+    <div class="home-chatbot-messages" data-chatbot-messages aria-live="polite"></div>
+    <form class="home-chatbot-form" data-chatbot-form>
+      <label class="sr-only" for="home-chatbot-input">챗봇 질문</label>
+      <div class="home-chatbot-input-row">
+        <textarea id="home-chatbot-input" class="home-chatbot-input" data-chatbot-input rows="2" placeholder="공개된 강의자료 내용을 물어보세요."></textarea>
+        <button class="ghost-btn home-chatbot-submit" type="submit" data-chatbot-submit>보내기</button>
+      </div>
+    </form>
+  </aside>
+</section>
+`;}
+function renderDocument(siteMeta,outputPath,title,body,description,bodyAttrs="",lang="ko",extraScripts=""){const cssHref=relHref(outputPath,path.join(siteDir,"assets","styles.css"));const jsHref=relHref(outputPath,path.join(siteDir,"assets","app.js"));const bodyHtml=String(body||"").trim();return `<!DOCTYPE html>
 <html lang="${escapeHtml(lang)}">
 <head>
   <meta charset="utf-8" />
@@ -288,7 +319,8 @@ function renderDocument(siteMeta,outputPath,title,body,description,bodyAttrs="",
   <link rel="stylesheet" href="${escapeHtml(cssHref)}" />
 </head>
 <body ${bodyAttrs}>
-${body}
+${bodyHtml}
+${extraScripts?`\n${extraScripts}`:""}
 <script src="${escapeHtml(jsHref)}"></script>
 </body>
 </html>
@@ -379,8 +411,8 @@ function writePlaceholderSvg(reading,svgPath){const slug=escapeHtml(reading.slug
 </svg>
 `;writeText(svgPath,svg);}
 function buildThumbnails(manifest,slugFilter=null){const thumbnailDir=path.join(siteDir,"assets","thumbnails");fs.mkdirSync(thumbnailDir,{recursive:true});const results={};for(const reading of manifest.readings){const sourceThumbnail=detectReadingThumbnailSource(reading.content_dir);if(sourceThumbnail){const extension=path.extname(sourceThumbnail).toLowerCase();const targetPath=path.join(thumbnailDir,`${reading.slug}${extension}`);fs.copyFileSync(sourceThumbnail,targetPath);results[reading.slug]=path.posix.join("assets","thumbnails",path.basename(targetPath));continue;}const svgPath=path.join(thumbnailDir,`${reading.slug}.svg`);if(!slugFilter||reading.slug===slugFilter||!fs.existsSync(svgPath))writePlaceholderSvg(reading,svgPath);results[reading.slug]=path.posix.join("assets","thumbnails",`${reading.slug}.svg`);}return results;}
-function buildIndex(siteMeta,readings,thumbnails){const outputPath=path.join(siteDir,"index.html");const sortedReadings=[...readings].sort((a,b)=>compareReadings(a,b,"chronological"));const cards=sortedReadings.map((reading,index)=>{const thumbHref=relHref(outputPath,path.join(siteDir,thumbnails[reading.slug]));const targetHref=relHref(outputPath,path.join(siteDir,"readings",reading.slug,"index.html"));const metaBits=cardMetaLabel(reading);const cardAuthorText=cardAuthorLabel(reading);const authorLine=cardAuthorText?`<p class="meta card-authors">${escapeHtml(cardAuthorText)}</p>`:`<p class="meta card-authors is-empty" aria-hidden="true">&nbsp;</p>`;const cardOpen=isPublishedReading(reading);const openTag=cardOpen?`<a class="card-link" href="${escapeHtml(targetHref)}">`:`<button class="card-link is-locked" type="button" data-gated-link data-gated-message="준비중입니다.">`;const closeTag=cardOpen?"</a>":"</button>";const stateClass=cardOpen?"ready":"locked";const stateLabel=cardOpen?"바로 보기":"준비 중";return `
-<article class="video-card" data-reading-card data-card-state="${stateClass}" data-search="${escapeHtml(searchBlob(reading))}" data-type="${escapeHtml(reading.type)}" data-tags="${escapeHtml(reading.tags.map((tag)=>tag.toLowerCase()).join("||"))}" data-sort-date="${escapeHtml(reading.effective_sort_date||"")}" data-sequence="${index+1}">
+function buildIndex(siteMeta,readings,thumbnails){const outputPath=path.join(siteDir,"index.html");const chatbotConfigAssetHref=relHref(outputPath,path.join(siteDir,"assets","chatbot-config.js"));const chatbotCorpusAssetHref=chatbotCorpusHref(outputPath);const sortedReadings=[...readings].sort((a,b)=>compareReadings(a,b,"chronological"));const cards=sortedReadings.map((reading,index)=>{const thumbHref=relHref(outputPath,path.join(siteDir,thumbnails[reading.slug]));const targetHref=relHref(outputPath,path.join(siteDir,"readings",reading.slug,"index.html"));const metaBits=cardMetaLabel(reading);const cardAuthorText=cardAuthorLabel(reading);const authorLine=cardAuthorText?`<p class="meta card-authors">${escapeHtml(cardAuthorText)}</p>`:`<p class="meta card-authors is-empty" aria-hidden="true">&nbsp;</p>`;const cardOpen=isPublishedReading(reading);const openTag=cardOpen?`<a class="card-link" href="${escapeHtml(targetHref)}">`:`<button class="card-link is-locked" type="button" data-gated-link data-gated-message="준비중입니다.">`;const closeTag=cardOpen?"</a>":"</button>";const stateClass=cardOpen?"ready":"locked";const stateLabel=cardOpen?"바로 보기":"준비 중";return `
+<article class="video-card" data-reading-card data-reading-slug="${escapeHtml(reading.slug)}" data-card-state="${stateClass}" data-search="${escapeHtml(searchBlob(reading))}" data-type="${escapeHtml(reading.type)}" data-tags="${escapeHtml(reading.tags.map((tag)=>tag.toLowerCase()).join("||"))}" data-sort-date="${escapeHtml(reading.effective_sort_date||"")}" data-sequence="${index+1}">
   ${openTag}
     <div class="thumb">
       <img src="${escapeHtml(thumbHref)}" alt="${escapeHtml(reading.title)} 썸네일" />
@@ -408,7 +440,8 @@ ${siteHeader(siteMeta,outputPath)}
   </section>
   <div class="video-grid" data-reading-grid>${cards}</div>
 </main>
-`;writeText(outputPath,renderDocument(siteMeta,outputPath,siteMeta.title,body,siteMeta.description,'data-page-kind="home"',"ko"));}
+${renderHomeChatbot(siteMeta)}
+`;writeText(outputPath,renderDocument(siteMeta,outputPath,siteMeta.title,body,siteMeta.description,'data-page-kind="home"',"ko",`<script src="${escapeHtml(chatbotConfigAssetHref)}"></script>\n<script src="${escapeHtml(chatbotCorpusAssetHref)}"></script>`));}
 function buildLanding(siteMeta,reading){const outputPath=path.join(siteDir,"readings",reading.slug,"index.html");const content=isPublishedReading(reading)&&isApprovedStatus(landingStatus(reading))?`<section class="video-stage"><div class="video-frame">${renderNotebookLmVideo(outputPath,reading)}</div></section>`:pendingReadingHtml(reading,LANDING_TAB_LABEL,{backHref:"../../index.html",backLabel:"홈으로 돌아가기"});const body=`
 ${siteHeader(siteMeta,outputPath)}
 <main class="video-shell">
@@ -496,10 +529,10 @@ ${siteHeader(siteMeta,outputPath)}
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,'data-page-kind="prep"',"ko"));}
 function copyNotebooklmVideo(reading){if(!reading.notebooklm_video_source||!reading.notebooklm_video_url)return;const target=path.join(siteDir,...reading.notebooklm_video_url.split("/"));fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(reading.notebooklm_video_source,target);}
-function writeAssets(){writeText(path.join(siteDir,"assets","styles.css"),readText(styleSource));writeText(path.join(siteDir,"assets","app.js"),readText(appSource));if(fs.existsSync(brandLogoSource)){const target=path.join(siteDir,"assets","branding","snu.png");fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(brandLogoSource,target);}}
+function writeAssets(){writeText(path.join(siteDir,"assets","styles.css"),readText(styleSource));writeText(path.join(siteDir,"assets","app.js"),readText(appSource));writeText(path.join(siteDir,"assets","chatbot-config.js"),readText(chatbotConfigSource));if(fs.existsSync(brandLogoSource)){const target=path.join(siteDir,"assets","branding","snu.png");fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(brandLogoSource,target);}}
 function parseArgs(){const slugIndex=process.argv.indexOf("--slug");return{slug:slugIndex!==-1?process.argv[slugIndex+1]:null};}
 function buildPage(siteMeta,reading,page){if(page.type==="article"){buildArticle(siteMeta,reading,page);return;}if(page.type==="professor-prep"){buildProfessorPrep(siteMeta,reading,page);return;}buildQuiz(siteMeta,reading,page);}
-function buildSite(options={}){const manifest=loadManifest();ensureContentPlaceholders(manifest,options.slug||null);const siteMeta=manifest.site;const readings=prepareReadings(manifest);if(options.slug){const target=readings.find((reading)=>reading.slug===options.slug);if(!target)throw new Error(`Unknown slug: ${options.slug}`);fs.mkdirSync(siteDir,{recursive:true});const thumbnails=buildThumbnails(manifest,target.slug);writeAssets();buildIndex(siteMeta,readings,thumbnails);writePublicPdf(target);copyNotebooklmVideo(target);const readingDir=path.join(siteDir,"readings",target.slug);const readingAssetDir=path.join(siteDir,"assets","readings",target.slug);if(fs.existsSync(readingDir))fs.rmSync(readingDir,{recursive:true,force:true});if(fs.existsSync(readingAssetDir))fs.rmSync(readingAssetDir,{recursive:true,force:true});copyReadingAssets(target);buildLanding(siteMeta,target);for(const page of target.pages){buildPage(siteMeta,target,page);}writeApprovalStatusReport(rootDir);return{siteMeta,readings};}if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){writePublicPdf(reading);copyNotebooklmVideo(reading);copyReadingAssets(reading);buildLanding(siteMeta,reading);for(const page of reading.pages){buildPage(siteMeta,reading,page);}}writeApprovalStatusReport(rootDir);return{siteMeta,readings};}
+function buildSite(options={}){const manifest=loadManifest();ensureContentPlaceholders(manifest,options.slug||null);const siteMeta=manifest.site;const readings=prepareReadings(manifest);if(options.slug){const target=readings.find((reading)=>reading.slug===options.slug);if(!target)throw new Error(`Unknown slug: ${options.slug}`);fs.mkdirSync(siteDir,{recursive:true});const thumbnails=buildThumbnails(manifest,target.slug);writeAssets();writeChatbotCorpusAsset(readings);buildIndex(siteMeta,readings,thumbnails);writePublicPdf(target);copyNotebooklmVideo(target);const readingDir=path.join(siteDir,"readings",target.slug);const readingAssetDir=path.join(siteDir,"assets","readings",target.slug);if(fs.existsSync(readingDir))fs.rmSync(readingDir,{recursive:true,force:true});if(fs.existsSync(readingAssetDir))fs.rmSync(readingAssetDir,{recursive:true,force:true});copyReadingAssets(target);buildLanding(siteMeta,target);for(const page of target.pages){buildPage(siteMeta,target,page);}writeApprovalStatusReport(rootDir);return{siteMeta,readings};}if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();writeChatbotCorpusAsset(readings);buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){writePublicPdf(reading);copyNotebooklmVideo(reading);copyReadingAssets(reading);buildLanding(siteMeta,reading);for(const page of reading.pages){buildPage(siteMeta,reading,page);}}writeApprovalStatusReport(rootDir);return{siteMeta,readings};}
 module.exports={buildSite};
 if(require.main===module){const options=parseArgs();buildSite(options);console.log(options.slug?`[built] reading ${options.slug} + home`:"[built] docs" );}
 
