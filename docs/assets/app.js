@@ -82,6 +82,17 @@ function tokenizeChatbotSearch(text){
   return Array.from(new Set(matches.filter((token)=>token.length>1)));
 }
 
+function getCurrentChatbotContext(){
+  const pathname=window.location.pathname||"";
+  const readingMatch=pathname.match(/\/readings\/([^/]+)\//);
+  const headingTitle=(document.querySelector(".article-header h1")?.textContent||"").trim();
+  return{
+    pageKind:(document.body.dataset.pageKind||"").trim(),
+    readingSlug:readingMatch?decodeURIComponent(readingMatch[1]).trim():"",
+    readingTitle:headingTitle
+  };
+}
+
 function getChatbotCorpusChunks(){
   const payload=window.AA_CHATBOT_CORPUS;
   return Array.isArray(payload?.chunks)?payload.chunks:[];
@@ -107,14 +118,21 @@ function scoreChatbotChunk(chunk,queryTokens,queryText){
   return score;
 }
 
-function selectChatbotMaterials(query,maxItems){
+function selectChatbotMaterials(query,maxItems,context=getCurrentChatbotContext()){
   const queryText=String(query||"").trim().toLowerCase();
   const queryTokens=tokenizeChatbotSearch(queryText);
   if(!queryTokens.length)return [];
-  return getChatbotCorpusChunks()
+  const allChunks=getChatbotCorpusChunks();
+  const readingScopedChunks=context.readingSlug
+    ? allChunks.filter((chunk)=>String(chunk?.slug||"").trim()===context.readingSlug)
+    : allChunks;
+  const sourceChunks=readingScopedChunks.length?readingScopedChunks:allChunks;
+  const matches=sourceChunks
     .map((chunk)=>({chunk,score:scoreChatbotChunk(chunk,queryTokens,queryText)}))
     .filter((entry)=>entry.score>0)
-    .sort((a,b)=>b.score-a.score||String(a.chunk.id||"").localeCompare(String(b.chunk.id||"")))
+    .sort((a,b)=>b.score-a.score||String(a.chunk.id||"").localeCompare(String(b.chunk.id||"")));
+  if(context.readingSlug&&readingScopedChunks.length&&!matches.length)return [];
+  return matches
     .slice(0,maxItems)
     .map((entry)=>({
       id:entry.chunk.id,
@@ -128,12 +146,24 @@ function selectChatbotMaterials(query,maxItems){
     .filter((entry)=>entry.text);
 }
 
-function buildChatbotMaterialPrompt(materials){
+function buildChatbotMaterialPrompt(materials,context=getCurrentChatbotContext()){
+  const scopeLines=context.readingSlug
+    ? [
+        `Current reading scope: ${context.readingTitle||context.readingSlug}`,
+        "The user is asking from inside this reading page.",
+        "Prefer this reading only unless the user explicitly asks for a cross-reading comparison."
+      ]
+    : [];
   if(!materials.length){
     return [
+      ...scopeLines,
       "Answer only from published site materials.",
-      "No relevant material snippet was found for this question.",
-      "If the answer is not supported by the site's published materials or reading cards, say that you cannot answer from the current materials."
+      context.readingSlug
+        ? "No relevant material snippet was found inside the current reading."
+        : "No relevant material snippet was found for this question.",
+      context.readingSlug
+        ? "If the current reading does not support the answer, say that you cannot answer from the current reading materials."
+        : "If the answer is not supported by the site's published materials or reading cards, say that you cannot answer from the current materials."
     ].join("\n");
   }
 
@@ -148,8 +178,11 @@ function buildChatbotMaterialPrompt(materials){
     .join("\n\n");
 
   return [
+    ...scopeLines,
     "Answer only from the published site materials below.",
-    "If the answer is not directly supported by these materials or the reading-card metadata, say that you cannot answer from the current site materials.",
+    context.readingSlug
+      ? "Use the current reading as the primary scope. Do not pull supporting details from other readings unless the user explicitly asks for a cross-reading comparison."
+      : "If the answer is not directly supported by these materials or the reading-card metadata, say that you cannot answer from the current site materials.",
     materialText
   ].join("\n\n");
 }
@@ -235,7 +268,7 @@ function initHomeFilters(){
 }
 
 function buildHomeChatbotCatalog(){
-  return Array.from(document.querySelectorAll("[data-reading-card]"))
+  const cards=Array.from(document.querySelectorAll("[data-reading-card]"))
     .map((card)=>{
       const link=card.querySelector("a.card-link");
       const href=link?.getAttribute("href");
@@ -251,6 +284,20 @@ function buildHomeChatbotCatalog(){
       };
     })
     .filter((reading)=>reading.title);
+  if(cards.length)return cards;
+
+  const context=getCurrentChatbotContext();
+  if(!context.readingSlug&&!context.readingTitle)return [];
+  return [{
+    slug:context.readingSlug,
+    title:context.readingTitle||context.readingSlug,
+    subtitle:"",
+    date:"",
+    type:"reading",
+    state:"ready",
+    href:window.location.href,
+    visible:true
+  }];
 }
 
 function extractTextFromContentBlocks(blocks){
@@ -418,10 +465,11 @@ function initHomeChatbot(){
     setOpen(true);
 
     const endpoint=String(config.endpoint||"").trim();
-    const materials=selectChatbotMaterials(text,Math.max(1,Number(config.maxMaterials)||DEFAULT_CHATBOT_CONFIG.maxMaterials));
+    const context=getCurrentChatbotContext();
+    const materials=selectChatbotMaterials(text,Math.max(1,Number(config.maxMaterials)||DEFAULT_CHATBOT_CONFIG.maxMaterials),context);
     const requestMessages=state.messages
       .slice(0,-1)
-      .concat({role:"assistant",content:buildChatbotMaterialPrompt(materials)},state.messages.slice(-1));
+      .concat({role:"assistant",content:buildChatbotMaterialPrompt(materials,context)},state.messages.slice(-1));
     if(!endpoint){
       state.messages.push({
         role:"assistant",
@@ -450,7 +498,9 @@ function initHomeChatbot(){
           page:{
             kind:document.body.dataset.pageKind||"",
             title:document.title,
-            url:window.location.href
+            url:window.location.href,
+            readingSlug:context.readingSlug,
+            readingTitle:context.readingTitle
           },
           readings:buildHomeChatbotCatalog(),
           materials

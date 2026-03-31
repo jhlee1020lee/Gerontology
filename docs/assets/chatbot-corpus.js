@@ -1,5 +1,5 @@
 window.AA_CHATBOT_CORPUS={
-  "generated_at": "2026-03-31T05:47:00.201Z",
+  "generated_at": "2026-03-31T05:56:22.233Z",
   "chunk_count": 404,
   "chunks": [
     {
