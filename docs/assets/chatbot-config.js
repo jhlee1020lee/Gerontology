@@ -2,7 +2,7 @@
 // A relative path such as /api/chat only works when the site is served over HTTP(S).
 window.AA_CHATBOT_CONFIG={
   enabled:true,
-  endpoint:"",
+  endpoint:"https://gerontology.vercel.app/api/chat",
   title:"AI 챗봇",
   welcomeMessage:"",
   placeholder:"공개된 강의자료 내용을 물어보세요.",
