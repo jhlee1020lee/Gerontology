@@ -1,0 +1,48 @@
+﻿{
+  "class_date": "2026-03-26",
+  "reading_slug": "ch05-gerontology",
+  "rules": [
+    {
+      "anti_pattern": "Treat secondary aging as if it were just primary aging accumulated over time.",
+      "reason": "That shortcut erases the chapter's central distinction between unavoidable age-related change and modifiable change tied to disease, disuse, or environment.",
+      "transcript_evidence": ["line 38", "line 266"],
+      "priority": "high"
+    },
+    {
+      "anti_pattern": "Summarize the chapter only as wrinkles, gray hair, or looking older.",
+      "reason": "The professor explicitly approved the reading that the chapter is really about function and autonomy, not appearance alone.",
+      "transcript_evidence": ["line 125", "line 128"],
+      "priority": "high"
+    },
+    {
+      "anti_pattern": "Say older adults simply sleep less or that REM just gets longer, without explaining fragmented and low-quality sleep.",
+      "reason": "The class discussion used the insomnia example to show that the key issue is shallow, easily interrupted sleep and the mismatch between observed sleep and subjective sleep.",
+      "transcript_evidence": ["line 137", "line 158", "line 164"],
+      "priority": "high"
+    },
+    {
+      "anti_pattern": "Use the 34, 60, 78 age-break clip as if it were the chapter's own data or as if it proved causality.",
+      "reason": "The professor explicitly identified the design as cross-sectional and noted the limit on causal interpretation.",
+      "transcript_evidence": ["line 233", "line 251", "line 260"],
+      "priority": "high"
+    },
+    {
+      "anti_pattern": "Present one biological aging theory as the complete explanation of aging.",
+      "reason": "The professor stressed that multiple aging theories coexist because aging is not fully explained by one single theory.",
+      "transcript_evidence": ["line 47", "line 50", "line 317"],
+      "priority": "medium"
+    },
+    {
+      "anti_pattern": "Read loud speech, withdrawal, or irritation in later life only as personality rather than checking whether sensory change is involved.",
+      "reason": "The hearing-loss discussion directly warned against turning a sensory problem into a character judgment.",
+      "transcript_evidence": ["line 56", "line 68"],
+      "priority": "medium"
+    },
+    {
+      "anti_pattern": "Talk about anti-aging technology only as exciting progress without mentioning unequal access or the social side of long life.",
+      "reason": "The class explicitly raised inequality, social preparation, and care burden as follow-up concerns.",
+      "transcript_evidence": ["line 425", "line 437", "line 440", "line 500"],
+      "priority": "medium"
+    }
+  ]
+}

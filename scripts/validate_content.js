@@ -128,6 +128,42 @@ function resolveNotebooklmVideo(rootDir, reading, existingMeta = {}) {
   };
 }
 
+function sharedPageKeys(reading) {
+  return (Array.isArray(reading.shared_page_keys) ? reading.shared_page_keys : [])
+    .map((item) => toText(item))
+    .filter(Boolean);
+}
+
+function pageSourceFilename(pageKey) {
+  if (pageKey === "full") {
+    return "full.md";
+  }
+  if (pageKey === "translation") {
+    return "translation.md";
+  }
+  if (pageKey === "review-sheet") {
+    return "review-sheet.md";
+  }
+  if (pageKey === "professor-prep") {
+    return "professor_prep.json";
+  }
+  if (pageKey === "quiz-short") {
+    return "quiz_short.json";
+  }
+  if (ARTICLE_PAGE_KEYS.has(pageKey)) {
+    return `${pageKey}.md`;
+  }
+  return `${pageKey}.json`;
+}
+
+function sharedPageSourcePath(rootDir, reading, pageKey) {
+  const bundle = toText(reading.shared_page_bundle);
+  if (!bundle || !sharedPageKeys(reading).includes(pageKey)) {
+    return "";
+  }
+  return path.join(rootDir, "content", "shared-study", bundle, pageSourceFilename(pageKey));
+}
+
 function normalizeManualReview(value) {
   const manual = value && typeof value === "object" ? value : {};
   return {
@@ -387,6 +423,10 @@ function validateLandingVideo(rootDir, reading, existingMeta = {}, options = {})
 }
 
 function contentPathForPage(rootDir, reading, pageKey) {
+  const sharedPath = sharedPageSourcePath(rootDir, reading, pageKey);
+  if (sharedPath) {
+    return sharedPath;
+  }
   const contentDir = path.join(rootDir, reading.content_dir);
   if (pageKey === "full") {
     const preferred = path.join(contentDir, "full.md");

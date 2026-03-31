@@ -1,0 +1,43 @@
+warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'APPROVAL_STATUS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CONTENT_RULES.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'content/readings/kerrigan-2018/meta.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'content/readings/olshansky-carnes-2019/meta.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/readings/kerrigan-2018/professor-prep.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/readings/kerrigan-2018/quiz-mcq.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/readings/kerrigan-2018/quiz-ox.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/readings/kerrigan-2018/quiz-short.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/readings/olshansky-carnes-2019/professor-prep.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/readings/olshansky-carnes-2019/quiz-mcq.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/readings/olshansky-carnes-2019/quiz-ox.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/readings/olshansky-carnes-2019/quiz-short.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/build_site.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/validate_content.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'transcripts/class-stt/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'transcripts/lecture-workflow/README.md', LF will be replaced by CRLF the next time Git touches it
+AGENTS.md
+APPROVAL_STATUS.md
+CONTENT_RULES.md
+README.md
+content/readings/kerrigan-2018/meta.json
+content/readings/olshansky-carnes-2019/meta.json
+docs/readings/kerrigan-2018/professor-prep.html
+docs/readings/kerrigan-2018/quiz-mcq.html
+docs/readings/kerrigan-2018/quiz-ox.html
+docs/readings/kerrigan-2018/quiz-short.html
+docs/readings/olshansky-carnes-2019/professor-prep.html
+docs/readings/olshansky-carnes-2019/quiz-mcq.html
+docs/readings/olshansky-carnes-2019/quiz-ox.html
+docs/readings/olshansky-carnes-2019/quiz-short.html
+manifest/readings.json
+scripts/build_site.js
+scripts/validate_content.js
+transcripts/class-stt/README.md
+transcripts/lecture-workflow/2026-03-05-ch01-gerontology/session.json
+transcripts/lecture-workflow/2026-03-10-ch02-gerontology/session.json
+transcripts/lecture-workflow/2026-03-12-beck-2016/session.json
+transcripts/lecture-workflow/2026-03-17-ch03-gerontology/session.json
+transcripts/lecture-workflow/2026-03-19-ch04-gerontology/session.json
+transcripts/lecture-workflow/2026-03-24-hulur-et-al-2019/session.json
+transcripts/lecture-workflow/README.md

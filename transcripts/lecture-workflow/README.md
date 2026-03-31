@@ -1,4 +1,4 @@
-# Lecture Workflow Bundles
+﻿# Lecture Workflow Bundles
 
 This folder stores derived lecture-recording workflow artifacts after raw files are normalized.
 
@@ -6,11 +6,13 @@ This folder stores derived lecture-recording workflow artifacts after raw files 
 - Bundle directory format is `YYYY-MM-DD-<reading-slug>/`.
 - Raw audio does not live here. Store it under `source_audio/class-recordings/`.
 - Raw STT does not live here. Store it under `transcripts/class-stt/`.
+- Corrected STT lives here as part of the bundle, after the raw STT has been normalized.
 - Use `session.json` as the bundle manifest and canonical local reference map.
 
 ## Required bundle files
 
 - `session.json`
+- `stt-correction.md`
 - `pdf-grounded-correction.md`
 - `questions.json`
 - `preferred-answer-rules.json`
@@ -28,9 +30,11 @@ This folder stores derived lecture-recording workflow artifacts after raw files 
 | 2026-03-17 | `ch03-gerontology` | `2026-03-17-ch03-gerontology/` |
 | 2026-03-19 | `ch04-gerontology` | `2026-03-19-ch04-gerontology/` |
 | 2026-03-24 | `hulur-et-al-2019` | `2026-03-24-hulur-et-al-2019/` |
+| 2026-03-26 | `ch05-gerontology` | `2026-03-26-ch05-gerontology/` |
 
 ## Working notes
 
 - `date-wise-professor-style.md` is a cross-bundle summary for date-by-date professor-style extraction.
 - `professor-style-general-rules.md` is the merged professor-wide reusable guidance synthesized from the dated bundles.
-- If a bundle only reflects raw transcript evidence, keep preferred-answer guidance provisional until `pdf-grounded-correction.md` is completed.
+- If a bundle only reflects raw transcript evidence, keep preferred-answer guidance provisional until `stt-correction.md` and `pdf-grounded-correction.md` are completed.
+

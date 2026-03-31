@@ -109,15 +109,17 @@ Stage 3 execution rule:
 - Use the lecture transcript as evidence for professor question style, preferred answer shape, and disliked answer patterns.
 - Split lecture-recording work into these steps:
   - transcript
+  - STT correction
   - PDF-grounded correction
   - question extraction
   - preferred-answer rule extraction
   - disliked-answer rule extraction
   - limited answer generation
   - review and expansion
-- Do not infer professor style from raw audio or an uncorrected transcript alone.
+- `STT correction` means fixing recognizer errors in the raw STT before evidence extraction, while preserving the spoken meaning, sequence, and uncertainty where needed.
+- Do not infer professor style from raw audio or raw STT alone.
 - When generating oral-practice answers from a new recording, start with `3` to `5` answers, review them, and only then expand.
-- Do not generate or refresh published `content/readings/<slug>/professor_prep.json` from a new recording until `pdf-grounded correction`, `question extraction`, `preferred-answer rule extraction`, and `disliked-answer rule extraction` are complete.
+- Do not generate or refresh published `content/readings/<slug>/professor_prep.json` from a new recording until `STT correction`, `pdf-grounded correction`, `question extraction`, `preferred-answer rule extraction`, and `disliked-answer rule extraction` are complete.
 - `limited answer generation` means exactly one draft batch of `3` to `5` cards in `answer-candidates.json`, not a hidden full rebuild.
 - `review and expansion` starts only after the draft batch is reviewed against the new evidence and judged acceptable in tone, specificity, and professor-style fit.
 - Default update mode is partial replacement of only the published cards directly supported by the newly approved recording evidence.
@@ -131,12 +133,14 @@ Storage convention:
 - Keep one lecture bundle per `class_date` x `reading_slug`.
 - Store original audio under `source_audio/class-recordings/YYYY-MM-DD-<reading-slug>-class-recording.<ext>`.
 - Store raw STT under `transcripts/class-stt/YYYY-MM-DD-<reading-slug>-class-stt.txt`.
+- Store corrected STT under `transcripts/lecture-workflow/YYYY-MM-DD-<reading-slug>/stt-correction.md`.
 - Store derived workflow files under `transcripts/lecture-workflow/YYYY-MM-DD-<reading-slug>/`.
 - Do not scatter lecture workflow artifacts across `content/readings/<slug>/`.
 - `content/readings/<slug>/professor_prep.json` remains the published reading output, not the raw lecture-workflow bundle.
 
 Required bundle files inside `transcripts/lecture-workflow/YYYY-MM-DD-<reading-slug>/`:
 - `session.json`
+- `stt-correction.md`
 - `pdf-grounded-correction.md`
 - `questions.json`
 - `preferred-answer-rules.json`
@@ -155,6 +159,7 @@ Required bundle files inside `transcripts/lecture-workflow/YYYY-MM-DD-<reading-s
 
 `workflow_status` keys:
 - `transcript`
+- `stt_correction`
 - `pdf_grounded_correction`
 - `question_extraction`
 - `preferred_answer_rule_extraction`
@@ -186,10 +191,15 @@ Allowed `workflow_status` values:
 - Start with `3` to `5` cards during limited answer generation, then expand only after review.
 - Before expansion, mark reviewed draft cards clearly and decide whether the new evidence supports partial replacement or a full rebuild.
 
+`stt-correction.md` structure:
+- `## Correction summary`
+- `## Notable STT fixes`
+- `## Corrected transcript`
+
 `pdf-grounded-correction.md` structure:
 - `## Correction summary`
 - `## Corrections against PDF`
-- `## Corrected transcript`
+- `## Reading-grounded notes`
 
 ### 4.5 Stage ordering rule
 - Finish and validate Stage 1 before starting Stage 2 for a reading.

@@ -62,7 +62,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-24T05:26:17.752Z",
+    "updated_at": "2026-03-27T09:03:48.409Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -148,7 +148,7 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 18
+          "card_count": 15
         }
       },
       "quiz_ox": {
@@ -190,5 +190,12 @@
     }
   },
   "workflow_status": "approved",
-  "workflow_notes": []
+  "workflow_notes": [],
+  "shared_page_bundle": "2026-03-31-longevity-pair",
+  "shared_page_keys": [
+    "quiz-ox",
+    "quiz-short",
+    "professor-prep",
+    "quiz-mcq"
+  ]
 }

@@ -1,0 +1,48 @@
+﻿{
+  "class_date": "2026-03-26",
+  "reading_slug": "ch05-gerontology",
+  "rules": [
+    {
+      "rule": "Start by distinguishing primary, secondary, and tertiary aging exactly instead of saying aging just gets worse overall.",
+      "reason": "The professor repeatedly brought the discussion back to that three-part distinction and used it as the main organizing frame for the chapter.",
+      "transcript_evidence": ["line 38", "line 41", "line 266"],
+      "priority": "high"
+    },
+    {
+      "rule": "When you mention a visible bodily change, connect it immediately to mechanism, daily-life function, or autonomy.",
+      "reason": "The professor explicitly endorsed the reading that this chapter is about function and autonomy, not only outward appearance.",
+      "transcript_evidence": ["line 125", "line 128"],
+      "priority": "high"
+    },
+    {
+      "rule": "If you say something is preventable or manageable, place it under secondary aging and name the concrete factor such as sun exposure, noise exposure, inactivity, diet, smoking, or disease.",
+      "reason": "The class repeatedly used concrete examples to show what counts as modifiable secondary aging rather than unavoidable primary aging.",
+      "transcript_evidence": ["line 74", "line 86", "line 266"],
+      "priority": "high"
+    },
+    {
+      "rule": "Use the exact technical term when it matters, especially REM sleep, testosterone, telomere, terminal decline, and time to death.",
+      "reason": "Several discussion points turned on specific terms, and imprecise wording would blur distinct concepts.",
+      "transcript_evidence": ["line 80", "line 101", "line 137", "line 269", "line 275"],
+      "priority": "high"
+    },
+    {
+      "rule": "If you cite outside news or video material, label it as supplementary and explain the design limit before you draw a conclusion.",
+      "reason": "The professor stopped to note that the 34, 60, 78 article was a cross-sectional design and later marked the Hallmarks and Sinclair material as beyond the textbook.",
+      "transcript_evidence": ["line 233", "line 251", "line 317", "line 356"],
+      "priority": "high"
+    },
+    {
+      "rule": "If you say the chapter was interesting or surprising, explain what assumption changed, such as moving from an appearance-centered view of aging to a function-centered one.",
+      "reason": "The best student responses in this class did not stop at saying a topic was interesting; they stated what prior expectation changed.",
+      "transcript_evidence": ["line 125", "line 128"],
+      "priority": "medium"
+    },
+    {
+      "rule": "When discussing life extension or anti-aging technology, add one concrete social consequence such as inequality, care burden, or lack of social preparation.",
+      "reason": "The professor opened a class discussion about unequal access and the social side of longevity rather than treating the technology as automatically good.",
+      "transcript_evidence": ["line 425", "line 437", "line 440", "line 500"],
+      "priority": "medium"
+    }
+  ]
+}

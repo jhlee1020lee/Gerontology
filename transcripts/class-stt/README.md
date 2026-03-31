@@ -5,7 +5,8 @@
 - 이 폴더는 `수업 녹음 STT`만 보관한다.
 - `content/readings/*/raw.txt`는 읽기 자료 원문 추출본이므로 여기와 성격이 다르다.
 - 원본 오디오는 `source_audio/class-recordings/`에 둔다.
-- 보정본, 질문 추출, answer-rule 추출, 답변 초안은 `transcripts/lecture-workflow/<bundle>/`에 둔다.
+- STT 교정본은 `transcripts/lecture-workflow/<bundle>/stt-correction.md`에 둔다.
+- 보정본 이후의 PDF-grounded correction, 질문 추출, answer-rule 추출, 답변 초안은 `transcripts/lecture-workflow/<bundle>/`에 둔다.
 - 파일명 형식은 `YYYY-MM-DD-<reading-slug>-class-stt.txt`로 통일한다.
 
 ## Inventory
@@ -18,3 +19,5 @@
 | 2026-03-17 | `ch03-gerontology` | `2026-03-17-ch03-gerontology-class-stt.txt` | `2026. 3. 17. 오후 3_38 _ 녹음.txt` |
 | 2026-03-19 | `ch04-gerontology` | `2026-03-19-ch04-gerontology-class-stt.txt` | `2026. 3. 19. 오후 3_32 _ 녹음.txt` |
 | 2026-03-24 | `hulur-et-al-2019` | `2026-03-24-hulur-et-al-2019-class-stt.txt` | `2026. 3. 24. 오후 3_28 _ 녹음.txt` |
+| 2026-03-26 | `ch05-gerontology` | `2026-03-26-ch05-gerontology-class-stt.txt` | `2026. 3. 26. 오후 3_29 _ 녹음.txt` |
+

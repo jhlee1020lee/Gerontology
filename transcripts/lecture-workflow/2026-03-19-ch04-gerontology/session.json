@@ -1,17 +1,18 @@
-{
-  "class_date": "2026-03-19",
-  "reading_slug": "ch04-gerontology",
-  "source_audio": null,
-  "source_stt": "../../class-stt/2026-03-19-ch04-gerontology-class-stt.txt",
-  "source_pdf": "../../../source_pdfs/[CH4]Gerontology.pdf",
-  "stage1_full": "../../../content/readings/ch04-gerontology/full.md",
-  "workflow_status": {
-    "transcript": "complete",
-    "pdf_grounded_correction": "missing",
-    "question_extraction": "complete",
-    "preferred_answer_rule_extraction": "complete",
-    "disliked_answer_rule_extraction": "missing",
-    "limited_answer_generation": "missing",
-    "review_and_expansion": "missing"
-  }
+﻿{
+    "class_date":  "2026-03-19",
+    "reading_slug":  "ch04-gerontology",
+    "source_audio":  null,
+    "source_stt":  "../../class-stt/2026-03-19-ch04-gerontology-class-stt.txt",
+    "source_pdf":  "../../../source_pdfs/[CH4]Gerontology.pdf",
+    "stage1_full":  "../../../content/readings/ch04-gerontology/full.md",
+    "workflow_status":  {
+                            "transcript":  "complete",
+                            "stt_correction":  "missing",
+                            "pdf_grounded_correction":  "missing",
+                            "question_extraction":  "complete",
+                            "preferred_answer_rule_extraction":  "complete",
+                            "disliked_answer_rule_extraction":  "missing",
+                            "limited_answer_generation":  "missing",
+                            "review_and_expansion":  "missing"
+                        }
 }

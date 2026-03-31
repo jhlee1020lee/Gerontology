@@ -111,21 +111,24 @@ Stage 3 execution rule:
 - Use the lecture transcript as evidence for professor question style, preferred answer shape, and disliked answer patterns.
 - Split lecture-recording work into these steps:
   - transcript
+  - STT correction
   - PDF-grounded correction
   - question extraction
   - preferred-answer rule extraction
   - disliked-answer rule extraction
   - limited answer generation
   - review and expansion
-- Do not infer professor style from raw audio or an uncorrected transcript alone.
+- `STT correction` means fixing recognizer errors in the raw STT before evidence extraction, while preserving the spoken meaning and sequence.
+- Do not infer professor style from raw audio or raw STT alone.
 - When generating oral-practice answers from a new recording, start with `3` to `5` answers, review them, and only then expand.
-- Do not generate or refresh published `professor_prep.json` from a new recording until `pdf-grounded correction`, `question extraction`, `preferred-answer rule extraction`, and `disliked-answer rule extraction` are complete.
+- Do not generate or refresh published `professor_prep.json` from a new recording until `STT correction`, `pdf-grounded correction`, `question extraction`, `preferred-answer rule extraction`, and `disliked-answer rule extraction` are complete.
 - After those evidence steps are complete, create only `3` to `5` draft cards first and review them before any larger rebuild.
 - Default update mode is partial replacement of only the cards directly supported by the newly approved recording evidence.
 - Use a full-page rebuild only when the new evidence changes the overall answer frame, likely follow-up pattern, or preferred answer shape for the reading.
 - `/UserInput` is a temporary intake folder only. Rename and move incoming lecture files before analysis starts.
 - Store original audio under `source_audio/class-recordings/YYYY-MM-DD-<reading-slug>-class-recording.<ext>`.
 - Store raw STT under `transcripts/class-stt/YYYY-MM-DD-<reading-slug>-class-stt.txt`.
+- Store corrected STT and downstream evidence files under `transcripts/lecture-workflow/YYYY-MM-DD-<reading-slug>/`.
 - Store derived workflow files under `transcripts/lecture-workflow/YYYY-MM-DD-<reading-slug>/`.
 - Use `session.json` as the bundle manifest for canonical references and workflow status.
 

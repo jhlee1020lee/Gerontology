@@ -1,0 +1,96 @@
+{
+  "title": "3/31 장수 논쟁 합본 OX 퀴즈",
+  "instructions": "두 읽기를 함께 읽은 기준으로 판단하세요. 문장이 맞으면 O, 틀리면 X를 고르면 됩니다.",
+  "items": [
+    {
+      "prompt": "Kerrigan 글은 역노화를 하나의 단일 기술로 설명하기보다 서로 다른 12개 개입 아이디어를 한데 묶어 보여준다.",
+      "answer": "O",
+      "explanation": "이 글의 12개 사례는 줄기세포 재프로그래밍, mtDNA, senolytics, NAD+, THC, rapamycin, gene deletion처럼 표적과 기전이 서로 다르다.",
+      "source": "kerrigan-2018"
+    },
+    {
+      "prompt": "Kerrigan 글에 나온 12개 사례는 모두 인간 대상 임상 근거가 충분히 확보된 치료법이다.",
+      "answer": "X",
+      "explanation": "대부분의 근거는 mice, fruit fly, yeast, dog, human fibroblasts, 초기 trial 수준에 머문다.",
+      "source": "kerrigan-2018"
+    },
+    {
+      "prompt": "Kerrigan 글에서 Rejuvenate Bio는 연구 방법이 충분히 공개된 학술 논문 사례로 제시된다.",
+      "answer": "X",
+      "explanation": "기사에서는 Rejuvenate Bio를 secretive start-up으로 소개하며, 공개 정보와 검증 강도가 제한적이라는 인상을 준다.",
+      "source": "kerrigan-2018"
+    },
+    {
+      "prompt": "Kerrigan 글의 senolytic drugs 사례에서는 dasatinib과 quercetin 조합이 자연노화 쥐의 기능 저하와 수명에 긍정적 신호를 보였다고 설명한다.",
+      "answer": "O",
+      "explanation": "기사에서는 두 약물 조합이 노쇠세포를 선택적으로 제거했고, 자연노화 쥐가 대조군보다 더 오래 살았다고 소개한다.",
+      "source": "kerrigan-2018"
+    },
+    {
+      "prompt": "Kerrigan 글의 핵심은 12개 사례가 모두 같은 생물학적 기전을 공유한다는 점을 입증하는 데 있다.",
+      "answer": "X",
+      "explanation": "오히려 이 글은 매우 다른 기전과 근거 수준을 가진 사례들을 reverse aging이라는 큰 제목 아래 함께 나열한 기사에 가깝다.",
+      "source": "kerrigan-2018"
+    },
+    {
+      "prompt": "Olshansky와 Carnes는 life expectancy와 maximum life span을 구분하지 않으면 장수 논쟁이 과장되기 쉽다고 본다.",
+      "answer": "O",
+      "explanation": "논문은 평균 기대수명과 종의 최장수명 상한을 섞어 말하면 논의가 흐려진다고 본다.",
+      "source": "olshansky-carnes-2019"
+    },
+    {
+      "prompt": "Olshansky와 Carnes는 과거 사망률 하락 추세를 수학적으로 외삽하는 것만으로도 급진적 수명 연장을 충분히 정당화할 수 있다고 본다.",
+      "answer": "X",
+      "explanation": "이 논문은 바로 그 외삽 논리를 비판하며, 생물학적 제약을 무시한 낙관론이라고 본다.",
+      "source": "olshansky-carnes-2019"
+    },
+    {
+      "prompt": "Olshansky와 Carnes는 Zeno's Paradox를 이용해 순수 수학적 불멸 논증의 한계를 비판한다.",
+      "answer": "O",
+      "explanation": "논문은 Zeno's Paradox를 비유로 사용해, 수학적 계산만으로는 인간 수명 현실을 설명할 수 없다고 말한다.",
+      "source": "olshansky-carnes-2019"
+    },
+    {
+      "prompt": "Olshansky와 Carnes는 의학과 공중보건의 목표를 life extension보다 health extension으로 옮겨야 한다고 주장한다.",
+      "answer": "O",
+      "explanation": "논문의 결론은 건강수명 연장과 compression of morbidity가 더 현실적이고 중요한 목표라는 것이다.",
+      "source": "olshansky-carnes-2019"
+    },
+    {
+      "prompt": "Olshansky와 Carnes는 질병을 하나씩 공격해도 기대수명이 과거처럼 계속 크게 늘 것이라고 낙관한다.",
+      "answer": "X",
+      "explanation": "논문은 오히려 그런 접근만으로는 frailty와 disability가 집중되는 red zone이 길어질 수 있다고 본다.",
+      "source": "olshansky-carnes-2019"
+    },
+    {
+      "prompt": "두 글을 함께 읽으면, 첫 글은 개입 후보들을 넓게 소개하고 둘째 글은 그런 장수 주장에 필요한 개념 구분과 비판 기준을 제공한다고 볼 수 있다.",
+      "answer": "O",
+      "explanation": "Kerrigan 글은 다양한 intervention을 빠르게 훑게 하고, Olshansky와 Carnes 논문은 그 주장들을 어떤 기준으로 해석해야 하는지 정리해 준다.",
+      "source": "공통 비교"
+    },
+    {
+      "prompt": "두 글을 함께 읽을 때, mouse나 fly 같은 전임상 결과와 인간 집단의 life expectancy 예측은 같은 수준의 근거로 취급해도 된다.",
+      "answer": "X",
+      "explanation": "두 읽기를 같이 보면 개입 후보의 전임상 근거와 population-level longevity forecast는 질문도 다르고 근거 층위도 다르다는 점이 더 분명해진다.",
+      "source": "공통 비교"
+    },
+    {
+      "prompt": "두 글을 함께 읽으면, reverse aging이라는 큰 표현 아래에서도 작동 기전과 근거 수준을 따로 봐야 한다는 점이 더 분명해진다.",
+      "answer": "O",
+      "explanation": "첫 글은 기전이 다른 사례를 한데 묶고, 둘째 글은 과장된 장수 해석을 경계하므로, 둘을 같이 읽을수록 mechanism과 evidence level을 분리해 보는 습관이 중요해진다.",
+      "source": "공통 비교"
+    },
+    {
+      "prompt": "Kerrigan 글은 주로 개입 후보를 나열하고, Olshansky와 Carnes는 그런 장수 담론을 해석할 때 hype를 경계하라고 말한다.",
+      "answer": "O",
+      "explanation": "하나는 대중 과학 기사, 다른 하나는 개념과 데이터로 급진적 수명 연장 담론을 비판하는 리뷰 논문이라는 점에서 역할이 다르다.",
+      "source": "공통 비교"
+    },
+    {
+      "prompt": "두 글을 함께 읽으면, 인간에게 바로 적용 가능한 치료와 아직 아이디어 수준인 후보를 구분하지 않으면 과장된 결론으로 가기 쉽다는 점을 배운다.",
+      "answer": "O",
+      "explanation": "첫 글의 후보 기술들을 둘째 글의 비판 기준으로 다시 보면, 가능성 자체와 확정된 인간 적용을 섞어 말하면 안 된다는 점이 선명해진다.",
+      "source": "공통 비교"
+    }
+  ]
+}

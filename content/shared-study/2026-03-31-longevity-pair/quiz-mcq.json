@@ -1,0 +1,186 @@
+﻿{
+  "title": "3/31 장수 논쟁 합본 객관식 퀴즈",
+  "instructions": "두 읽기를 함께 읽은 기준으로 풉니다. 보기 네 개 중 가장 알맞은 답을 고르세요.",
+  "items": [
+    {
+      "prompt": "Kerrigan, 2018을 가장 정확하게 설명한 것은 무엇인가요?",
+      "options": [
+        "서로 다른 12개 노화 개입 후보를 넓게 소개하는 기사",
+        "인간 최장수명 상한을 수리적으로 추정한 리뷰 논문",
+        "미국 기대수명 추세만 분석한 인구통계 논문",
+        "노화생물학 연구비 정책을 다룬 정부 보고서"
+      ],
+      "answer": "서로 다른 12개 노화 개입 후보를 넓게 소개하는 기사",
+      "explanation": "Kerrigan, 2018은 reverse aging 아래 서로 다른 표적과 근거 수준을 가진 12개 intervention을 묶어 소개하는 대중 과학 기사다.",
+      "source": "Kerrigan, 2018"
+    },
+    {
+      "prompt": "Kerrigan, 2018에서 연구 방법이 거의 공개되지 않은 secretive start-up 사례로 소개되는 것은 무엇인가요?",
+      "options": [
+        "Rejuvenate Bio",
+        "NAD+",
+        "Young Blood",
+        "mitophagy"
+      ],
+      "answer": "Rejuvenate Bio",
+      "explanation": "기사는 Rejuvenate Bio를 개 대상 역노화 서비스를 구상하는 비밀스러운 스타트업 사례로 소개한다.",
+      "source": "Kerrigan, 2018"
+    },
+    {
+      "prompt": "Kerrigan, 2018의 senolytic drugs 사례와 올바르게 연결되는 조합은 무엇인가요?",
+      "options": [
+        "dasatinib + quercetin",
+        "rapamycin + lamin",
+        "THC + NAD+",
+        "resveratrol + plasma"
+      ],
+      "answer": "dasatinib + quercetin",
+      "explanation": "기사의 senolytic 예시는 dasatinib과 quercetin 조합으로, senescent cells를 선택적으로 줄이는 사례로 제시된다.",
+      "source": "Kerrigan, 2018"
+    },
+    {
+      "prompt": "Kerrigan, 2018을 읽을 때 가장 중요한 해석 원칙으로 알맞은 것은 무엇인가요?",
+      "options": [
+        "각 사례의 작동 기전과 evidence level을 함께 본다.",
+        "기사 제목이 강하면 인간 적용도 가깝다고 본다.",
+        "상업적 사례와 논문 사례를 같은 무게로 읽는다.",
+        "기술 이름이 많을수록 과학적 검증도 높다고 본다."
+      ],
+      "answer": "각 사례의 작동 기전과 evidence level을 함께 본다.",
+      "explanation": "Kerrigan, 2018의 핵심은 12개 기술을 한데 묶는 데 있고, 사례별 근거 수준은 매우 다르므로 mechanism과 evidence level을 같이 봐야 한다.",
+      "source": "Kerrigan, 2018"
+    },
+    {
+      "prompt": "Kerrigan, 2018의 가장 안전한 결론으로 알맞은 것은 무엇인가요?",
+      "options": [
+        "역노화 연구는 흥미롭지만 아직 대부분 전임상 단계다.",
+        "역노화는 이미 인간에게서 광범위하게 실현됐다.",
+        "12개 기술은 모두 같은 생물학적 기전을 공유한다.",
+        "기사의 모든 사례는 수명보다 인지 기능만 다룬다."
+      ],
+      "answer": "역노화 연구는 흥미롭지만 아직 대부분 전임상 단계다.",
+      "explanation": "이 글은 가능성을 많이 보여 주지만, 확정된 인간 치료를 제시하는 글은 아니며 근거 대부분은 전임상 또는 초기 단계다.",
+      "source": "Kerrigan, 2018"
+    },
+    {
+      "prompt": "Olshansky와 Carnes, 2019가 life extension보다 더 중요한 목표로 제시하는 것은 무엇인가요?",
+      "options": [
+        "health extension",
+        "immortality",
+        "cryonics",
+        "gene cloning"
+      ],
+      "answer": "health extension",
+      "explanation": "저자들은 의학과 공중보건의 우선 목표를 life extension보다 health extension으로 옮겨야 한다고 주장한다.",
+      "source": "Olshansky & Carnes, 2019"
+    },
+    {
+      "prompt": "Olshansky와 Carnes, 2019가 Zeno's Paradox를 끌어오는 이유로 가장 알맞은 것은 무엇인가요?",
+      "options": [
+        "수학적 외삽이 생물학적 현실을 무시할 수 있음을 보여 주기 위해",
+        "불멸이 이미 가능하다는 점을 입증하기 위해",
+        "고대 철학이 현대 통계보다 우월함을 보이기 위해",
+        "수명 예측에는 생물학이 불필요함을 보이기 위해"
+      ],
+      "answer": "수학적 외삽이 생물학적 현실을 무시할 수 있음을 보여 주기 위해",
+      "explanation": "저자들은 제논의 역설을 비유로 사용해 순수 수학적 장수 예측이 인간 biology의 제약을 지울 수 없다고 말한다.",
+      "source": "Olshansky & Carnes, 2019"
+    },
+    {
+      "prompt": "Olshansky와 Carnes, 2019에서 period life expectancy를 가장 정확하게 설명한 것은 무엇인가요?",
+      "options": [
+        "특정 시점의 연령별 사망률을 고정해 계산한 값",
+        "실제 출생 코호트가 끝까지 살아 낸 수명",
+        "인간 종의 절대 최장수명",
+        "건강수명과 기능수명을 합친 종합 점수"
+      ],
+      "answer": "특정 시점의 연령별 사망률을 고정해 계산한 값",
+      "explanation": "period life expectancy는 한 시점의 사망률표를 그대로 적용한 계산값이며 cohort life expectancy와 구분해야 한다.",
+      "source": "Olshansky & Carnes, 2019"
+    },
+    {
+      "prompt": "Olshansky와 Carnes, 2019가 제시하는 `85세`의 의미로 가장 알맞은 것은 무엇인가요?",
+      "options": [
+        "국가 단위 population life expectancy의 상한",
+        "모든 인간 개인의 절대 최장수명",
+        "노화 치료 시작 권고 연령",
+        "수명 예측 모델의 최소 기준값"
+      ],
+      "answer": "국가 단위 population life expectancy의 상한",
+      "explanation": "이 논문에서 85는 개인 최고령의 상한이 아니라 national population level 기대수명의 상한으로 제시된다.",
+      "source": "Olshansky & Carnes, 2019"
+    },
+    {
+      "prompt": "Olshansky와 Carnes, 2019에서 `red zone`이 뜻하는 것은 무엇인가요?",
+      "options": [
+        "frailty와 disability가 급증하는 생애 후반 구간",
+        "감염병으로 기대수명이 급락하는 시기",
+        "실험동물 생존곡선의 전환점",
+        "출생 직후 영아 사망이 집중되는 구간"
+      ],
+      "answer": "frailty와 disability가 급증하는 생애 후반 구간",
+      "explanation": "논문은 단순한 수명 연장이 오히려 red zone을 늘릴 수 있다고 보며, 그래서 health extension을 더 중시한다.",
+      "source": "Olshansky & Carnes, 2019"
+    },
+    {
+      "prompt": "두 읽기를 함께 볼 때 가장 먼저 분리해서 봐야 하는 것은 무엇인가요?",
+      "options": [
+        "각 주장에 대한 mechanism과 evidence level",
+        "기사 제목의 자극성과 정책 효과",
+        "스타트업의 시장성만을 기준으로 한 순위",
+        "개입 기술의 영어 이름 길이와 대중성"
+      ],
+      "answer": "각 주장에 대한 mechanism과 evidence level",
+      "explanation": "Kerrigan, 2018은 다양한 intervention을 넓게 제시하고, Olshansky와 Carnes, 2019는 과장된 longevity claim을 비판하므로 mechanism과 evidence level을 먼저 나눠 봐야 한다.",
+      "source": "공통 비교"
+    },
+    {
+      "prompt": "두 읽기를 함께 읽은 뒤 가장 과장된 해석으로 알맞은 것은 무엇인가요?",
+      "options": [
+        "Kerrigan, 2018의 후보 기술들은 인간이 이미 longevity ceiling을 돌파했다는 증거다.",
+        "Kerrigan, 2018의 후보 기술들은 흥미롭지만 대부분 인간 적용 전 단계다.",
+        "Olshansky와 Carnes, 2019는 life expectancy와 maximum life span을 구분해야 한다고 본다.",
+        "Olshansky와 Carnes, 2019는 health extension을 더 현실적인 목표로 본다."
+      ],
+      "answer": "Kerrigan, 2018의 후보 기술들은 인간이 이미 longevity ceiling을 돌파했다는 증거다.",
+      "explanation": "두 글을 같이 읽으면 전임상 개입 후보를 곧바로 인간 장수 한계 돌파의 증거로 번역하는 것이 가장 위험한 과장임이 분명해진다.",
+      "source": "공통 비교"
+    },
+    {
+      "prompt": "교수님이 두 논문을 함께 읽고 무엇이 달라졌냐고 물을 때 가장 적절한 답의 방향은 무엇인가요?",
+      "options": [
+        "가능성의 언어를 population-level longevity claim으로 바로 번역하면 안 된다는 점",
+        "새 기술 이름을 많이 외우면 논문 이해가 깊어진다는 점",
+        "상업적 스타트업 사례가 가장 믿을 만하다는 점",
+        "수학적 외삽만으로도 장수 예측은 충분하다는 점"
+      ],
+      "answer": "가능성의 언어를 population-level longevity claim으로 바로 번역하면 안 된다는 점",
+      "explanation": "합본 읽기의 핵심은 intervention hype와 population metric을 분리하는 데 있다.",
+      "source": "공통 비교"
+    },
+    {
+      "prompt": "두 읽기를 함께 읽을 때 Kerrigan, 2018과 Olshansky와 Carnes, 2019의 역할 구분으로 가장 알맞은 것은 무엇인가요?",
+      "options": [
+        "Kerrigan, 2018은 intervention map을 주고, Olshansky와 Carnes, 2019는 concept map을 준다.",
+        "Kerrigan, 2018은 인구통계 데이터를 주고, Olshansky와 Carnes, 2019는 스타트업 사례를 준다.",
+        "Kerrigan, 2018은 cohort life expectancy를 계산하고, Olshansky와 Carnes, 2019는 senolytics를 실험한다.",
+        "Kerrigan, 2018은 불멸 가능성을 지지하고, Olshansky와 Carnes, 2019는 그 가능성을 입증한다."
+      ],
+      "answer": "Kerrigan, 2018은 intervention map을 주고, Olshansky와 Carnes, 2019는 concept map을 준다.",
+      "explanation": "하나는 다양한 노화 개입 후보를 한데 보여 주고, 다른 하나는 그 담론을 읽는 개념적 필터를 제공한다.",
+      "source": "공통 비교"
+    },
+    {
+      "prompt": "두 읽기를 함께 읽은 뒤 가장 방어 가능한 최종 결론은 무엇인가요?",
+      "options": [
+        "노화 개입 연구는 중요하지만, 목표는 과장된 불멸 담론보다 health extension에 더 가깝다.",
+        "전임상 결과만으로도 인간 maximum life span 상승은 이미 입증됐다.",
+        "life expectancy와 maximum life span은 사실상 같은 지표다.",
+        "질병 하나씩 치료하면 평균수명은 앞으로도 직선적으로 계속 증가한다."
+      ],
+      "answer": "노화 개입 연구는 중요하지만, 목표는 과장된 불멸 담론보다 health extension에 더 가깝다.",
+      "explanation": "Kerrigan, 2018의 intervention 후보들을 Olshansky와 Carnes, 2019의 기준으로 다시 보면, 가장 방어 가능한 결론은 health extension과 evidence-based interpretation 쪽이다.",
+      "source": "공통 비교"
+    }
+  ]
+}

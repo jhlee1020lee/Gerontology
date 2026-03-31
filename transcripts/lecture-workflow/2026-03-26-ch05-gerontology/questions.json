@@ -1,0 +1,115 @@
+﻿{
+  "class_date": "2026-03-26",
+  "reading_slug": "ch05-gerontology",
+  "items": [
+    {
+      "question": "What is the difference between primary, secondary, and tertiary aging in this chapter?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 38", "line 41", "line 266", "line 275"],
+      "pdf_evidence": [
+        "ch05-gerontology primary aging",
+        "ch05-gerontology secondary aging",
+        "ch05-gerontology tertiary aging"
+      ],
+      "notes": "This is the core distinction the professor returned to throughout the session."
+    },
+    {
+      "question": "Why did the professor say the most practical interventions are aimed at secondary aging rather than primary aging?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 74", "line 89", "line 266"],
+      "pdf_evidence": [
+        "ch05-gerontology secondary aging and lifestyle factors",
+        "ch05-gerontology prevention and delay"
+      ],
+      "notes": "Likely follow-up if the student only lists the three aging categories without explaining why the distinction matters."
+    },
+    {
+      "question": "Why is the truck-driver sun-exposure photo a good example of secondary aging rather than primary aging?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 71", "line 74", "line 77"],
+      "pdf_evidence": [
+        "ch05-gerontology skin change and sun exposure"
+      ],
+      "notes": "Tests whether the student can connect an example to the right category instead of just calling it aging."
+    },
+    {
+      "question": "Why should you explain this chapter in terms of function and autonomy, not only in terms of appearance?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 125", "line 128"],
+      "pdf_evidence": [
+        "ch05-gerontology body composition changes",
+        "ch05-gerontology skeletal and joint changes",
+        "ch05-gerontology cardiovascular, respiratory, and nervous system changes"
+      ],
+      "notes": "Likely when the student overfocuses on wrinkles, gray hair, or visible body changes."
+    },
+    {
+      "question": "How do sensory changes become a social interaction issue rather than just a body-part issue?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 53", "line 56", "line 68"],
+      "pdf_evidence": [
+        "ch05-gerontology hearing change",
+        "ch05-gerontology sensory change and social isolation"
+      ],
+      "notes": "The professor repeatedly linked hearing loss to misunderstanding behavior and communication."
+    },
+    {
+      "question": "What exactly changes in sleep in later life, and why do older adults say they did not sleep even when they did?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 131", "line 137", "line 158", "line 164"],
+      "pdf_evidence": [
+        "ch05-gerontology sleep pattern changes",
+        "ch05-gerontology REM and repeated waking",
+        "ch05-gerontology sleep quality in later life"
+      ],
+      "notes": "Likely when the student says only that older adults wake up early."
+    },
+    {
+      "question": "Why did the professor warn you not to treat one biological aging theory as the whole explanation of aging?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 47", "line 50", "line 122", "line 317"],
+      "pdf_evidence": [
+        "ch05-gerontology programmed theories",
+        "ch05-gerontology damage and error theories"
+      ],
+      "notes": "Tests whether the student understands the plural, competing-theory structure of the chapter."
+    },
+    {
+      "question": "What is the design limitation of the 34, 60, 78 age-break article the professor showed?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 233", "line 239", "line 251", "line 257", "line 260"],
+      "pdf_evidence": [
+        "ch05-gerontology research design caution",
+        "ch05-gerontology cross-sectional versus change interpretation"
+      ],
+      "notes": "Likely when the student repeats the age-break claim without explaining that the evidence shown was cross-sectional."
+    },
+    {
+      "question": "How does terminal decline change the way you think about age versus distance to death?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 269", "line 272", "line 275"],
+      "pdf_evidence": [
+        "ch05-gerontology tertiary aging"
+      ],
+      "notes": "This checks whether the student can explain the professor's time-to-death framing rather than just naming tertiary aging."
+    },
+    {
+      "question": "How should you separate the assigned chapter from the supplementary anti-aging material on Hallmarks of Aging and David Sinclair?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 317", "line 326", "line 356", "line 389", "line 413"],
+      "pdf_evidence": [
+        "ch05-gerontology classical biological aging theories"
+      ],
+      "notes": "Likely when a student blends textbook content and current anti-aging discourse into one undifferentiated answer."
+    },
+    {
+      "question": "What social or ethical problem did the class discussion raise about extending life much further?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": ["line 425", "line 437", "line 440", "line 500"],
+      "pdf_evidence": [
+        "ch05-gerontology longevity and social context"
+      ],
+      "notes": "Useful if the student wants to connect the chapter to broader aging-society questions without losing the reading anchor."
+    }
+  ]
+}
