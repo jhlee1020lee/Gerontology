@@ -46,6 +46,32 @@
   </article>
 </main>
 
+<section class="home-chatbot is-collapsed" data-home-chatbot>
+  <button class="home-chatbot-toggle" type="button" data-chatbot-toggle aria-expanded="false" aria-controls="home-chatbot-panel" aria-label="스터디 챗봇 열기">
+    <span class="home-chatbot-toggle-badge" aria-hidden="true">AI</span>
+    <span class="home-chatbot-toggle-label">챗봇</span>
+  </button>
+  <div class="home-chatbot-backdrop" data-chatbot-backdrop hidden></div>
+  <aside class="home-chatbot-panel" id="home-chatbot-panel" data-chatbot-panel hidden aria-label="성인발달과노화 읽기 사이트 AI 챗봇">
+    <div class="home-chatbot-head">
+      <h2>AI 챗봇</h2>
+      <button class="ghost-btn home-chatbot-close" type="button" data-chatbot-close aria-label="챗봇 닫기">닫기</button>
+    </div>
+    <div class="home-chatbot-messages" data-chatbot-messages aria-live="polite"></div>
+    <form class="home-chatbot-form" data-chatbot-form>
+      <label class="sr-only" for="home-chatbot-input">챗봇 질문</label>
+      <div class="home-chatbot-input-row">
+        <textarea id="home-chatbot-input" class="home-chatbot-input" data-chatbot-input rows="2" placeholder="공개된 강의자료 내용을 물어보세요."></textarea>
+        <button class="ghost-btn home-chatbot-submit" type="submit" data-chatbot-submit>보내기</button>
+      </div>
+    </form>
+  </aside>
+</section>
+
+
+<script src="../../assets/chatbot-config.js"></script>
+<script src="../../assets/chatbot-corpus.js"></script>
+
 <script src="../../assets/app.js"></script>
 </body>
 </html>

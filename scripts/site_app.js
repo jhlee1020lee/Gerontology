@@ -330,7 +330,7 @@ function renderChatbotMessageHtml(message){
 
 function initHomeChatbot(){
   const root=document.querySelector("[data-home-chatbot]");
-  if(!root||document.body.dataset.pageKind!=="home")return;
+  if(!root)return;
 
   const config=getHomeChatbotConfig();
   if(config.enabled===false){

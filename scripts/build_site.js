@@ -299,7 +299,7 @@ function renderHomeChatbot(siteMeta){return `
   </aside>
 </section>
 `;}
-function renderDocument(siteMeta,outputPath,title,body,description,bodyAttrs="",lang="ko",extraScripts=""){const cssHref=relHref(outputPath,path.join(siteDir,"assets","styles.css"));const jsHref=relHref(outputPath,path.join(siteDir,"assets","app.js"));const bodyHtml=String(body||"").trim();return `<!DOCTYPE html>
+function renderDocument(siteMeta,outputPath,title,body,description,bodyAttrs="",lang="ko",extraScripts=""){const cssHref=relHref(outputPath,path.join(siteDir,"assets","styles.css"));const jsHref=relHref(outputPath,path.join(siteDir,"assets","app.js"));const chatbotConfigAssetHref=relHref(outputPath,path.join(siteDir,"assets","chatbot-config.js"));const chatbotCorpusAssetHref=chatbotCorpusHref(outputPath);const bodyHtml=String(body||"").trim();const sharedChatbotScripts=`<script src="${escapeHtml(chatbotConfigAssetHref)}"></script>\n<script src="${escapeHtml(chatbotCorpusAssetHref)}"></script>`;return `<!DOCTYPE html>
 <html lang="${escapeHtml(lang)}">
 <head>
   <meta charset="utf-8" />
@@ -320,6 +320,8 @@ function renderDocument(siteMeta,outputPath,title,body,description,bodyAttrs="",
 </head>
 <body ${bodyAttrs}>
 ${bodyHtml}
+${renderHomeChatbot(siteMeta)}
+${sharedChatbotScripts?`\n${sharedChatbotScripts}`:""}
 ${extraScripts?`\n${extraScripts}`:""}
 <script src="${escapeHtml(jsHref)}"></script>
 </body>
@@ -440,8 +442,7 @@ ${siteHeader(siteMeta,outputPath)}
   </section>
   <div class="video-grid" data-reading-grid>${cards}</div>
 </main>
-${renderHomeChatbot(siteMeta)}
-`;writeText(outputPath,renderDocument(siteMeta,outputPath,siteMeta.title,body,siteMeta.description,'data-page-kind="home"',"ko",`<script src="${escapeHtml(chatbotConfigAssetHref)}"></script>\n<script src="${escapeHtml(chatbotCorpusAssetHref)}"></script>`));}
+`;writeText(outputPath,renderDocument(siteMeta,outputPath,siteMeta.title,body,siteMeta.description,'data-page-kind="home"',"ko"));}
 function buildLanding(siteMeta,reading){const outputPath=path.join(siteDir,"readings",reading.slug,"index.html");const content=isPublishedReading(reading)&&isApprovedStatus(landingStatus(reading))?`<section class="video-stage"><div class="video-frame">${renderNotebookLmVideo(outputPath,reading)}</div></section>`:pendingReadingHtml(reading,LANDING_TAB_LABEL,{backHref:"../../index.html",backLabel:"홈으로 돌아가기"});const body=`
 ${siteHeader(siteMeta,outputPath)}
 <main class="video-shell">
