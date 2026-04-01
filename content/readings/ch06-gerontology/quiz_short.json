@@ -3,140 +3,143 @@
   "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
   "items": [
     {
-      "question": "심리적 노화 I : 인지적 변화에서 핵심적으로 붙잡아야 하는 용어는? 인지적 노화과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "교육과 경험에 기대는 지능은 무엇인가?",
       "accepted_answers": [
-        "인지적 노화"
+        "결정화된 지능"
       ],
       "answer_type": "term",
-      "explanation": "인지적 노화은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "어휘, 언어이해, 추론처럼 축적된 지식을 활용하는 능력은 결정화된 지능이다.",
       "source": "핵심 개념"
     },
     {
-      "question": "심리적 노화 I : 인지적 변화에서 핵심적으로 붙잡아야 하는 용어는? 유동지능과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "새로운 정보를 빠르게 처리하고 조작하는 지능은 무엇인가?",
       "accepted_answers": [
-        "유동지능"
+        "유동성 지능"
       ],
       "answer_type": "term",
-      "explanation": "유동지능은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "공간지각과 추상적 사고처럼 즉각적 처리에 가까운 능력은 유동성 지능이다.",
       "source": "핵심 개념"
     },
     {
-      "question": "심리적 노화 I : 인지적 변화에서 핵심적으로 붙잡아야 하는 용어는? 결정지능과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "같은 사람을 시간에 따라 추적하는 연구설계는 무엇인가?",
       "accepted_answers": [
-        "결정지능"
+        "종단연구"
       ],
       "answer_type": "term",
-      "explanation": "결정지능은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "시간에 따른 실제 변화를 보기 위해 같은 참여자를 추적하는 설계가 종단연구다.",
+      "source": "전체 글"
+    },
+    {
+      "question": "서로 다른 연령집단을 한 시점에 비교하는 연구설계는 무엇인가?",
+      "accepted_answers": [
+        "횡단연구"
+      ],
+      "answer_type": "term",
+      "explanation": "한 시점에서 연령집단 간 차이를 보는 설계가 횡단연구다.",
+      "source": "전체 글"
+    },
+    {
+      "question": "태어난 시대 차이로 생기는 세대 효과를 가리키는 말은 무엇인가?",
+      "accepted_answers": [
+        "코호트 차이"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "연령효과와 구분해야 하는 세대 배경 차이가 코호트 차이다.",
       "source": "핵심 개념"
     },
     {
-      "question": "심리적 노화 I : 인지적 변화에서 핵심적으로 붙잡아야 하는 용어는? 작업기억과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "작업기억"
-      ],
-      "answer_type": "term",
-      "explanation": "작업기억은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "심리적 노화 I : 인지적 변화에서 핵심적으로 붙잡아야 하는 용어는? 일화기억과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "개인이 겪은 사건과 경험의 세부를 기억하는 체계는 무엇인가?",
       "accepted_answers": [
         "일화기억"
       ],
       "answer_type": "term",
-      "explanation": "일화기억은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "개인적 경험의 맥락과 세부를 담는 기억이 일화기억이다.",
       "source": "핵심 개념"
     },
     {
-      "question": "심리적 노화 I : 인지적 변화에서 핵심적으로 붙잡아야 하는 용어는? 의미기억과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "단어 의미와 세계 지식 같은 일반 지식을 저장하는 기억은 무엇인가?",
       "accepted_answers": [
         "의미기억"
       ],
       "answer_type": "term",
-      "explanation": "의미기억은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "단어와 세상에 대한 일반 지식은 의미기억에 가깝다.",
       "source": "핵심 개념"
     },
     {
-      "question": "심리적 노화 I : 인지적 변화에서 핵심적으로 붙잡아야 하는 용어는? 처리속도과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "보기 속에서 알아보는 인출 방식은 무엇인가?",
       "accepted_answers": [
-        "처리속도"
+        "재인"
       ],
       "answer_type": "term",
-      "explanation": "처리속도은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "선택지 속에서 알아보는 인출은 재인이다.",
+      "source": "전체 글"
     },
     {
-      "question": "심리적 노화 I : 인지적 변화에서 핵심적으로 붙잡아야 하는 용어는? 지혜과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "단서 없이 스스로 떠올리는 인출 방식은 무엇인가?",
       "accepted_answers": [
-        "지혜"
+        "회상"
       ],
       "answer_type": "term",
-      "explanation": "지혜은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "기억 내용을 스스로 끌어내는 인출은 회상이다.",
+      "source": "전체 글"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "의식적 기억과 진술적 정보 기억의 주요 기관은 무엇인가?",
       "accepted_answers": [
-        "선택적 변화"
+        "해마"
       ],
-      "answer_type": "short_phrase",
-      "explanation": "선택적 변화은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "answer_type": "term",
+      "explanation": "생물학적 접근에서 의식적 기억의 핵심 기관으로 해마가 제시된다.",
+      "source": "전체 글"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "부호화와 인출 전략과 가장 관련된 뇌 영역은 무엇인가?",
       "accepted_answers": [
-        "지능 구분"
+        "전두엽"
       ],
-      "answer_type": "short_phrase",
-      "explanation": "지능 구분은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "answer_type": "term",
+      "explanation": "기억 전략을 생각하는 기능과 연결되는 영역이 전두엽이다.",
+      "source": "전체 글"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "베를린 지혜 모델에서 가치와 목표를 다루는 기준은 무엇인가?",
       "accepted_answers": [
-        "기억 체계"
+        "상대주의"
       ],
-      "answer_type": "short_phrase",
-      "explanation": "기억 체계은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "answer_type": "term",
+      "explanation": "다른 사람의 가치와 우선성을 고려하는 기준이 상대주의다.",
+      "source": "전체 글"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "Owens 연구에서 지능검사 점수 증가가 이어진 시점은 몇 세까지인가?",
       "accepted_answers": [
-        "지혜와 창의력"
+        "50세",
+        "50"
       ],
-      "answer_type": "short_phrase",
-      "explanation": "지혜와 창의력은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "answer_type": "number",
+      "explanation": "장에서는 성인기 이후에도 50세까지 지능검사 점수가 증가했다고 설명한다.",
+      "source": "전체 글"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "81세까지 지능 쇠퇴를 보인 참여자 비율은 대략 얼마인가?",
       "accepted_answers": [
-        "조절 가능성"
+        "30~40%",
+        "30-40%",
+        "30~40",
+        "30-40"
       ],
-      "answer_type": "short_phrase",
-      "explanation": "조절 가능성은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "answer_type": "number",
+      "explanation": "장에서는 약 30~40퍼센트 정도만 쇠퇴를 보였다고 정리한다.",
+      "source": "전체 글"
     },
     {
-      "question": "이 읽기의 장 번호를 짧게 답하시오.",
+      "question": "전통적 IQ로 충분히 포착하기 어렵다고 장이 따로 강조한 성인기 능력은 무엇인가?",
       "accepted_answers": [
-        "CH6"
+        "일상생활 문제해결"
       ],
       "answer_type": "short_phrase",
-      "explanation": "교재 장 번호는 기본 구조 확인용이다.",
-      "source": "메타데이터"
-    },
-    {
-      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
-      "accepted_answers": [
-        "교재",
-        "chapter"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "국문 장 자료는 교재 chapter다.",
-      "source": "메타데이터"
+      "explanation": "성인기 이후 지능의 질적 차이를 보여 주는 대표 예가 일상생활 문제해결이다.",
+      "source": "전체 글"
     }
   ]
 }

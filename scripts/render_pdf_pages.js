@@ -8,7 +8,7 @@ const ROOT_DIR = path.resolve(__dirname, "..");
 const MANIFEST_PATH = path.join(ROOT_DIR, "manifest", "readings.json");
 
 function readJson(filePath) {
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  return JSON.parse(fs.readFileSync(filePath, "utf8").replace(/^\uFEFF/, ""));
 }
 
 function loadManifest() {

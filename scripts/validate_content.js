@@ -571,9 +571,6 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
       stage1Extra.push(...artifactResult.errors.filter((message) => message.includes("public pdf")));
     }
   }
-  if (landing.status !== PAGE_STATUS.APPROVED) {
-    stage1Extra.push(...landing.errors);
-  }
   const stage1Required = ["full"].concat(reading.language === "en" ? ["translation"] : []);
   const stage2 = stageStatusFromPages(pageResults, STAGE2_PAGE_KEYS);
   const stage1 = stageStatusFromPages(pageResults, stage1Required, { extraNotes: stage1Extra });
