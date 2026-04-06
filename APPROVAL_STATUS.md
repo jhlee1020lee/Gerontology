@@ -2,10 +2,10 @@
 
 > 자동 생성 파일입니다. `node scripts/build_site.js`를 실행하면 함께 갱신됩니다.
 
-- 마지막 갱신: 2026-04-01-16:04:32 KST
+- 마지막 갱신: 2026-04-06-19:25:56 KST
 - 전체 읽기: 27
-- 승인 완료: 5
-- 미승인/검토 필요: 22
+- 승인 완료: 6
+- 미승인/검토 필요: 21
 
 ## 승인 완료
 
@@ -16,6 +16,7 @@
 | 8 | 3/31 | kerrigan-2018 | 12 Innovations That Could Make Reverse Aging a Reality |
 | 9 | 3/31 | olshansky-carnes-2019 | Inconvenient Truths About Human Longevity |
 | 10 | 4/02 | ch06-gerontology | 심리적 노화 I : 인지적 변화 |
+| 11 | 4/07 | park-mcdonough-2013 | The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research |
 
 ## 미승인 / 검토 필요
 
@@ -26,7 +27,6 @@
 | 3 | 3/12 | beck-2016 | 미승인 | 수동 검토 | 미승인 | 미달 | 설명 영상, Stage 1 수동 승인, 전체 글, 한국어 번역 |
 | 4 | 3/17 | ch03-gerontology | 미승인 | 수동 검토 | 미승인 | 미달 | 설명 영상, Stage 1 수동 승인, 전체 글, 핵심 요약 |
 | 5 | 3/19 | ch04-gerontology | 미승인 | 수동 검토 | 미승인 | 미달 | 설명 영상, Stage 1 수동 승인, 전체 글, 핵심 요약 |
-| 11 | 4/07 | park-mcdonough-2013 | 미승인 | 미승인 | 미승인 | 미달 | 설명 영상, 전체 글, 한국어 번역, 핵심 요약 |
 | 12 | 4/09 | ch07-gerontology | 미승인 | 수동 검토 | 미승인 | 미달 | 설명 영상, Stage 1 수동 승인, 전체 글, 핵심 요약 |
 | 13 | 4/14 | wagner-et-al-2016 | 미승인 | 미승인 | 미승인 | 미달 | 설명 영상, 전체 글, 한국어 번역, 핵심 요약 |
 | 14 | 4/21 | ch08-gerontology | 미승인 | 수동 검토 | 미승인 | 미달 | 설명 영상, Stage 1 수동 승인, 전체 글, 핵심 요약 |

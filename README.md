@@ -65,6 +65,8 @@ Common authored source files in a reading folder include:
 - Keep `full.html` as full original text and `translation.html` as full Korean translation for English readings.
 - Use `summary.html` as the only summarized page.
 - Validate each stage before moving to the next one.
+- Never do a full-reading all-at-once batch; if a pass starts spanning multiple stages, page families, or context limits, split it again before continuing.
+- When a reading has named sections, split work and public-facing structure by topic/section first, not by raw PDF page number.
 - Lecture-recording analysis should normally run as `raw STT -> STT correction -> PDF-grounded correction -> evidence extraction -> 3-5 draft answer cards`.
 - In prose, prefer `전체 글`, `한국어 번역`, `교수님 구술 대비`; reserve `full`, `translation`, `professor-prep` for file/key references.
 

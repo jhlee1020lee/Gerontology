@@ -1,4 +1,4 @@
-﻿const fs=require("fs");
+const fs=require("fs");
 const path=require("path");
 
 const {PAGE_STATUS,READING_STATUS,buildValidationSnapshot,mergeValidationFields}=require("./validate_content");
@@ -263,7 +263,7 @@ function copyReadingAssets(reading){const contentDir=path.join(rootDir,reading.c
 function resolveSiteAssetHref(outputPath,value){const text=toText(value);if(!text)return"";if(isExternalUrl(text))return text;const normalized=text.replace(/^\.?\//,"");return relHref(outputPath,path.join(siteDir,...normalized.split("/")));}
 function toEmbedUrl(value){const text=toText(value);if(!text)return"";try{const url=new URL(text);if(url.hostname.includes("youtu.be")){const id=url.pathname.replace(/^\/+/,"").split("/")[0];return id?`https://www.youtube.com/embed/${id}`:text;}if(url.hostname.includes("youtube.com")&&url.searchParams.get("v"))return `https://www.youtube.com/embed/${url.searchParams.get("v")}`;return text;}catch(error){return text;}}
 function isDirectVideoFile(value){return /\.(mp4|webm|ogg)(\?.*)?$/i.test(toText(value));}
-function renderNotebookLmVideo(outputPath,reading){const rawUrl=reading.notebooklm_video_url;if(!rawUrl)return `<div class="video-placeholder"><div><p class="section-kicker">NotebookLM 설명영상</p><h2>영상 준비 중</h2><p class="meta"><code>content/readings/${escapeHtml(reading.slug)}/meta.json</code>에 <code>notebooklm_video_url</code>을 넣으면 이 자리에 바로 표시됩니다.</p></div></div>`;const href=resolveSiteAssetHref(outputPath,rawUrl);if(isDirectVideoFile(rawUrl)){const poster=resolveSiteAssetHref(outputPath,reading.notebooklm_video_poster);return `<video class="video-media" controls preload="metadata"${poster?` poster="${escapeHtml(poster)}"`:""}><source src="${escapeHtml(href)}" /></video>`;}return `<iframe class="video-media" src="${escapeHtml(toEmbedUrl(href))}" title="${escapeHtml(reading.title)} NotebookLM 설명영상" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;}
+function renderNotebookLmVideo(outputPath,reading){const rawUrl=reading.notebooklm_video_url;const note=toText(reading.notebooklm_video_note);if(!rawUrl)return `<div class="video-placeholder"><div><p class="section-kicker">NotebookLM 설명영상</p><h2>영상 준비 중</h2>${note?`<p class="meta">${escapeHtml(note)}</p>`:""}<p class="meta"><code>content/readings/${escapeHtml(reading.slug)}/meta.json</code>에 <code>notebooklm_video_url</code>을 넣으면 이 자리에 바로 표시됩니다.</p></div></div>`;const href=resolveSiteAssetHref(outputPath,rawUrl);if(isDirectVideoFile(rawUrl)){const poster=resolveSiteAssetHref(outputPath,reading.notebooklm_video_poster);return `<video class="video-media" controls preload="metadata"${poster?` poster="${escapeHtml(poster)}"`:""}><source src="${escapeHtml(href)}" /></video>`;}return `<iframe class="video-media" src="${escapeHtml(toEmbedUrl(href))}" title="${escapeHtml(reading.title)} NotebookLM 설명영상" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;}
 function renderBrandMarkSvg(){return `
 <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
   <defs>
@@ -386,10 +386,10 @@ function placeholderProfessorPrepHtml(page,sourcePath){const relSource=fileLabel
   <p>${escapeHtml(page.description)}</p>
 </section>
 `;}
-function pendingUploadHtml(reading,label,detail="",options={}){const backHref=options.backHref||"index.html";const backLabel=options.backLabel||"설명 영상으로 돌아가기";return `
+function pendingUploadHtml(reading,label,detail="",options={}){const backHref=options.backHref||"index.html";const backLabel=options.backLabel||"설명 영상으로 돌아가기";const lead=options.lead||`${label} 페이지는 아직 승인되지 않아 공개되지 않습니다.`;return `
 <section class="placeholder upload-placeholder">
   <h2>업로드 예정입니다.</h2>
-  <p>${escapeHtml(label)} 페이지는 아직 승인되지 않아 공개되지 않습니다.</p>
+  <p>${escapeHtml(lead)}</p>
   <p>${escapeHtml(detail||"검토가 끝나면 이 자리에서 바로 열 수 있습니다.")}</p>
   <div class="action-row">
     <a class="ghost-btn link-btn" href="${escapeHtml(backHref)}">${escapeHtml(backLabel)}</a>
@@ -464,7 +464,7 @@ ${siteHeader(siteMeta,outputPath)}
   <div class="video-grid" data-reading-grid>${cards}</div>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,siteMeta.title,body,siteMeta.description,'data-page-kind="home"',"ko"));}
-function buildLanding(siteMeta,reading){const outputPath=path.join(siteDir,"readings",reading.slug,"index.html");const accessible=isAccessibleReading(reading);const content=accessible&&isApprovedStatus(landingStatus(reading))?`<section class="video-stage"><div class="video-frame">${renderNotebookLmVideo(outputPath,reading)}</div></section>`:accessible?pendingUploadHtml(reading,LANDING_TAB_LABEL,"설명 영상은 아직 준비 중이지만, 승인된 페이지는 탭에서 바로 열 수 있습니다.",{backHref:"../../index.html",backLabel:"홈으로 돌아가기"}):pendingReadingHtml(reading,LANDING_TAB_LABEL,{backHref:"../../index.html",backLabel:"홈으로 돌아가기"});const body=`
+function buildLanding(siteMeta,reading){const outputPath=path.join(siteDir,"readings",reading.slug,"index.html");const accessible=isAccessibleReading(reading);const pendingVideoMessage=toText(reading.notebooklm_video_note)||"설명 영상은 아직 준비 중이지만, 승인된 페이지는 탭에서 바로 열 수 있습니다.";const content=accessible&&isApprovedStatus(landingStatus(reading))?`<section class="video-stage"><div class="video-frame">${renderNotebookLmVideo(outputPath,reading)}</div></section>`:accessible?pendingUploadHtml(reading,LANDING_TAB_LABEL,pendingVideoMessage,{lead:"설명 영상은 아직 업로드되지 않았습니다.",backHref:"../../index.html",backLabel:"홈으로 돌아가기"}):pendingReadingHtml(reading,LANDING_TAB_LABEL,{backHref:"../../index.html",backLabel:"홈으로 돌아가기"});const body=`
 ${siteHeader(siteMeta,outputPath)}
 <main class="video-shell">
   <article class="article panel video-article">

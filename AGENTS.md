@@ -43,6 +43,8 @@ Maintain a static study website for gerontology course readings that can be prev
 - Do not combine extraction, translation, quizzes, professor-prep, and UI/site polish in one low-quality batch.
 - Prefer staged completion over one huge weak batch.
 - Default working unit is `1 reading x 1 stage x 1 pass`.
+- Absolute batching ban: never try to finish an entire reading, multiple stages, or the whole Stage 3 package in one pass.
+- Performance/context safety rule: if a pass starts to approach context or token limits, split it into a smaller validated pass before continuing.
 - Do not mix generation, review, rewrite, and site polish in the same pass when a smaller pass can be validated first.
 - If Stage 3 is in progress, default to `1 page family at a time` rather than generating the whole study package in one shot.
 
@@ -63,6 +65,8 @@ Stage 1 content meaning:
 - `전체 글` must preserve section order and the readable full body.
 - Photos, tables, figures, and graphs from the source reading must be inserted directly into `전체 글` as image assets.
 - Stage 1 must be completed in three contiguous passes:
+- Prefer topic/section boundaries over raw PDF page boundaries when the reading has named sections.
+- Do not describe public progress or public pages as `Page 1-2`, `Page 3-4`, and so on when a topic-based section split is available.
   - Pass 1: front third of the reading
   - Pass 2: middle third of the reading
   - Pass 3: final third of the reading plus end-to-end extraction QA
@@ -76,6 +80,8 @@ Stage 2 content meaning:
 - `한국어 번역` must preserve section order and heading structure.
 - Photos, tables, figures, and graphs from the source reading must also be inserted directly into `한국어 번역` as image assets in the matching positions.
 - Stage 2 must be completed in three contiguous passes:
+- Prefer topic/section boundaries over raw PDF page boundaries when the reading has named sections.
+- Do not describe public progress or public pages as `Page 1-2`, `Page 3-4`, and so on when a topic-based section split is available.
   - Pass 1: front third translation
   - Pass 2: middle third translation
   - Pass 3: final third translation plus end-to-end translation QA
