@@ -6,7 +6,7 @@ const { PAGE_STATUS, READING_STATUS, buildValidationSnapshot } = require("./vali
 const ROOT_DIR = path.resolve(__dirname, "..");
 const OUTPUT_PATH = path.join(ROOT_DIR, "APPROVAL_STATUS.md");
 
-const STAGE2_PAGE_KEYS = [
+const STAGE3_PAGE_KEYS = [
   "summary",
   "concepts",
   "pitfalls",
@@ -24,7 +24,7 @@ const PAGE_LABELS = {
   concepts: "핵심 개념",
   pitfalls: "헷갈리는 포인트",
   review_sheet: "시험 직전 정리",
-  professor_prep: "읽기 답변 준비",
+  professor_prep: "교수님 구술 대비",
   quiz_ox: "OX 퀴즈",
   quiz_short: "단답형 퀴즈",
   quiz_mcq: "객관식 퀴즈",
@@ -106,6 +106,23 @@ function pageStatusLabel(status) {
   }[status] || status || "-";
 }
 
+function isOptionalLandingGap(snapshot) {
+  const landing = snapshot.validation_status?.landing || {};
+  const warnings = Array.isArray(landing.warnings) ? landing.warnings : [];
+  return (
+    landing.status === PAGE_STATUS.SCHEMA_PASS &&
+    warnings.length > 0 &&
+    warnings.every((warning) => String(warning).includes("missing optional notebooklm video"))
+  );
+}
+
+function landingStatusLabel(snapshot) {
+  if (isOptionalLandingGap(snapshot)) {
+    return "선택 사항";
+  }
+  return pageStatusLabel(snapshot.validation_status?.landing?.status || PAGE_STATUS.MISSING);
+}
+
 function escapeTable(value) {
   return String(value ?? "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
 }
@@ -119,7 +136,7 @@ function summarizeNote(snapshot) {
   const landingStatus = snapshot.validation_status?.landing?.status || PAGE_STATUS.MISSING;
   const pageResults = snapshot.validation_status?.page_results || {};
 
-  if (landingStatus !== PAGE_STATUS.APPROVED) {
+  if (landingStatus !== PAGE_STATUS.APPROVED && !isOptionalLandingGap(snapshot)) {
     items.push("설명 영상");
   }
 
@@ -131,6 +148,10 @@ function summarizeNote(snapshot) {
     items.push("Stage 2 수동 승인");
   }
 
+  if (snapshot.validation_status?.stage3?.status === READING_STATUS.MANUAL_REVIEW_REQUIRED) {
+    items.push("Stage 3 수동 승인");
+  }
+
   ["full", "translation"].forEach((pageKey) => {
     const page = pageResults[pageKey];
     if (page && page.status !== PAGE_STATUS.APPROVED && page.status !== PAGE_STATUS.NOT_APPLICABLE) {
@@ -138,7 +159,7 @@ function summarizeNote(snapshot) {
     }
   });
 
-  STAGE2_PAGE_KEYS.forEach((pageKey) => {
+  STAGE3_PAGE_KEYS.forEach((pageKey) => {
     const page = pageResults[pageKey];
     if (page && page.status !== PAGE_STATUS.APPROVED && page.status !== PAGE_STATUS.NOT_APPLICABLE) {
       items.push(PAGE_LABELS[pageKey] || pageKey);
@@ -194,7 +215,8 @@ function collectApprovalRows(rootDir = ROOT_DIR) {
       workflowStatus: snapshot.workflow_status,
       stage1Status: snapshot.validation_status?.stage1?.status || READING_STATUS.PARTIAL,
       stage2Status: snapshot.validation_status?.stage2?.status || READING_STATUS.PARTIAL,
-      landingStatus: snapshot.validation_status?.landing?.status || PAGE_STATUS.MISSING,
+      stage3Status: snapshot.validation_status?.stage3?.status || READING_STATUS.PARTIAL,
+      landingStatusLabel: landingStatusLabel(snapshot),
       note: summarizeNote(snapshot),
     };
   });
@@ -233,12 +255,12 @@ function renderApprovalStatusReport(rows) {
     lines.push("- 없음", "");
   } else {
     lines.push(
-      "| 순서 | 날짜 | slug | 전체 | Stage 1 | Stage 2 | 영상 | 메모 |",
-      "| --- | --- | --- | --- | --- | --- | --- | --- |"
+      "| 순서 | 날짜 | slug | 읽기 | Stage 1 | Stage 2 | Stage 3 | 랜딩/영상 | 메모 |",
+      "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"
     );
     pendingRows.forEach((row) => {
       lines.push(
-        `| ${row.sequence} | ${escapeTable(row.dateLabel)} | ${escapeTable(row.slug)} | ${escapeTable(readingStatusLabel(row.workflowStatus))} | ${escapeTable(readingStatusLabel(row.stage1Status))} | ${escapeTable(readingStatusLabel(row.stage2Status))} | ${escapeTable(pageStatusLabel(row.landingStatus))} | ${escapeTable(row.note)} |`
+        `| ${row.sequence} | ${escapeTable(row.dateLabel)} | ${escapeTable(row.slug)} | ${escapeTable(readingStatusLabel(row.workflowStatus))} | ${escapeTable(readingStatusLabel(row.stage1Status))} | ${escapeTable(readingStatusLabel(row.stage2Status))} | ${escapeTable(readingStatusLabel(row.stage3Status))} | ${escapeTable(row.landingStatusLabel)} | ${escapeTable(row.note)} |`
       );
     });
     lines.push("");

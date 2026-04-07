@@ -27,7 +27,7 @@
     "quiz_ox": "approved",
     "quiz_short": "approved",
     "quiz_mcq": "approved",
-    "index": "schema_fail"
+    "index": "approved"
   },
   "content_dir": "content/readings/park-mcdonough-2013",
   "type": "article",
@@ -35,11 +35,11 @@
   "reading_date": null,
   "sort_date": "2026-04-07",
   "display_date_label": "4/07",
-  "public_pdf": null,
+  "public_pdf": "pdfs/park-mcdonough-2013.pdf",
   "overview_hook": null,
   "classroom_points": [],
-  "notebooklm_video_url": null,
-  "notebooklm_video_note": "설명 영상은 추후 업로드 예정입니다.",
+  "notebooklm_video_url": "assets/videos/park-mcdonough-2013/notebooklm.mp4",
+  "notebooklm_video_note": null,
   "notebooklm_video_poster": null,
   "manual_review": {
     "approved_pages": [
@@ -63,17 +63,16 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-06T10:25:56.174Z",
+    "updated_at": "2026-04-07T03:07:05.351Z",
     "require_built_artifacts": true,
     "landing": {
-      "status": "schema_fail",
-      "errors": [
-        "missing notebooklm video"
-      ],
+      "status": "approved",
+      "errors": [],
       "warnings": [],
       "metrics": {
-        "has_video": false,
-        "source": "missing"
+        "has_video": true,
+        "policy": "optional",
+        "source": "local"
       }
     },
     "page_results": {
@@ -189,6 +188,10 @@
       "status": "approved",
       "notes": []
     },
+    "stage3": {
+      "status": "approved",
+      "notes": []
+    },
     "reading": {
       "status": "approved",
       "notes": []
@@ -197,5 +200,7 @@
   "workflow_status": "approved",
   "workflow_notes": [],
   "shared_page_bundle": null,
-  "shared_page_keys": []
+  "shared_page_keys": [],
+  "pdf_visibility": "public",
+  "landing_video_policy": "optional"
 }

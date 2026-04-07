@@ -21,6 +21,7 @@ Static gerontology reading site built from manifest-driven source content and pu
 - `docs/`: final generated static site output and deployable public assets
 
 When docs conflict on detailed policy, follow [CONTENT_RULES.md](CONTENT_RULES.md).
+Treat this README as onboarding only; do not use it to override detailed workflow or approval policy.
 
 ## Output and PDF model
 - `docs/` is the only final generated site folder.

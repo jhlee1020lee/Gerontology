@@ -30,7 +30,7 @@
     "quiz_ox": "schema_pass",
     "quiz_short": "schema_pass",
     "quiz_mcq": "schema_pass",
-    "index": "schema_fail"
+    "index": "schema_pass"
   },
   "content_dir": "content/readings/suitor-et-al-2014",
   "type": "article",
@@ -52,16 +52,17 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-31T05:56:21.991Z",
+    "updated_at": "2026-04-07T03:01:50.694Z",
     "require_built_artifacts": false,
     "landing": {
-      "status": "schema_fail",
-      "errors": [
-        "missing notebooklm video"
+      "status": "schema_pass",
+      "errors": [],
+      "warnings": [
+        "missing optional notebooklm video"
       ],
-      "warnings": [],
       "metrics": {
         "has_video": false,
+        "policy": "optional",
         "source": "missing"
       }
     },
@@ -231,13 +232,16 @@
       }
     },
     "stage1": {
-      "status": "partial",
-      "notes": [
-        "translation: content is too short (<200 words); translation is suspiciously short relative to full text",
-        "missing notebooklm video"
-      ]
+      "status": "manual_review_required",
+      "notes": []
     },
     "stage2": {
+      "status": "partial",
+      "notes": [
+        "translation: content is too short (<200 words); translation is suspiciously short relative to full text"
+      ]
+    },
+    "stage3": {
       "status": "partial",
       "notes": [
         "concepts: section 1 (1. within-family differences): missing '한국어 개념명'; section 1 (1. within-family differences): missing 'Original English term'; section 1 (1. within-family differences): missing '정확한 한 줄 정의'; section 1 (1. within-family differences): missing '학생 말투로 풀어쓴 설명'; section 1 (1. within-family differences): missing '왜 이 ...에서 중요한지'; section 1 (1. within-family differences): missing '자주 헷갈리는 포인트'; section 2 (2. sibling tension): missing '한국어 개념명'; section 2 (2. sibling tension): missing 'Original English term'; section 2 (2. sibling tension): missing '정확한 한 줄 정의'; section 2 (2. sibling tension): missing '학생 말투로 풀어쓴 설명'; section 2 (2. sibling tension): missing '왜 이 ...에서 중요한지'; section 2 (2. sibling tension): missing '자주 헷갈리는 포인트'; section 3 (3. maternal favoritism): missing '한국어 개념명'; section 3 (3. maternal favoritism): missing 'Original English term'; section 3 (3. maternal favoritism): missing '정확한 한 줄 정의'; section 3 (3. maternal favoritism): missing '학생 말투로 풀어쓴 설명'; section 3 (3. maternal favoritism): missing '왜 이 ...에서 중요한지'; section 3 (3. maternal favoritism): missing '자주 헷갈리는 포인트'; section 4 (4. caregiving): missing '한국어 개념명'; section 4 (4. caregiving): missing 'Original English term'; section 4 (4. caregiving): missing '정확한 한 줄 정의'; section 4 (4. caregiving): missing '학생 말투로 풀어쓴 설명'; section 4 (4. caregiving): missing '왜 이 ...에서 중요한지'; section 4 (4. caregiving): missing '자주 헷갈리는 포인트'; section 5 (5. future caregiver favoritism): missing '한국어 개념명'; section 5 (5. future caregiver favoritism): missing 'Original English term'; section 5 (5. future caregiver favoritism): missing '정확한 한 줄 정의'; section 5 (5. future caregiver favoritism): missing '학생 말투로 풀어쓴 설명'; section 5 (5. future caregiver favoritism): missing '왜 이 ...에서 중요한지'; section 5 (5. future caregiver favoritism): missing '자주 헷갈리는 포인트'; section 6 (6. relational equity): missing '한국어 개념명'; section 6 (6. relational equity): missing 'Original English term'; section 6 (6. relational equity): missing '정확한 한 줄 정의'; section 6 (6. relational equity): missing '학생 말투로 풀어쓴 설명'; section 6 (6. relational equity): missing '왜 이 ...에서 중요한지'; section 6 (6. relational equity): missing '자주 헷갈리는 포인트'; section 7 (7. multilevel analysis): missing '한국어 개념명'; section 7 (7. multilevel analysis): missing 'Original English term'; section 7 (7. multilevel analysis): missing '정확한 한 줄 정의'; section 7 (7. multilevel analysis): missing '학생 말투로 풀어쓴 설명'; section 7 (7. multilevel analysis): missing '왜 이 ...에서 중요한지'; section 7 (7. multilevel analysis): missing '자주 헷갈리는 포인트'; section 8 (8. later-life family): missing '한국어 개념명'; section 8 (8. later-life family): missing 'Original English term'; section 8 (8. later-life family): missing '정확한 한 줄 정의'; section 8 (8. later-life family): missing '학생 말투로 풀어쓴 설명'; section 8 (8. later-life family): missing '왜 이 ...에서 중요한지'; section 8 (8. later-life family): missing '자주 헷갈리는 포인트'",
@@ -248,7 +252,6 @@
       "status": "partial",
       "notes": [
         "translation: content is too short (<200 words); translation is suspiciously short relative to full text",
-        "missing notebooklm video",
         "concepts: section 1 (1. within-family differences): missing '한국어 개념명'; section 1 (1. within-family differences): missing 'Original English term'; section 1 (1. within-family differences): missing '정확한 한 줄 정의'; section 1 (1. within-family differences): missing '학생 말투로 풀어쓴 설명'; section 1 (1. within-family differences): missing '왜 이 ...에서 중요한지'; section 1 (1. within-family differences): missing '자주 헷갈리는 포인트'; section 2 (2. sibling tension): missing '한국어 개념명'; section 2 (2. sibling tension): missing 'Original English term'; section 2 (2. sibling tension): missing '정확한 한 줄 정의'; section 2 (2. sibling tension): missing '학생 말투로 풀어쓴 설명'; section 2 (2. sibling tension): missing '왜 이 ...에서 중요한지'; section 2 (2. sibling tension): missing '자주 헷갈리는 포인트'; section 3 (3. maternal favoritism): missing '한국어 개념명'; section 3 (3. maternal favoritism): missing 'Original English term'; section 3 (3. maternal favoritism): missing '정확한 한 줄 정의'; section 3 (3. maternal favoritism): missing '학생 말투로 풀어쓴 설명'; section 3 (3. maternal favoritism): missing '왜 이 ...에서 중요한지'; section 3 (3. maternal favoritism): missing '자주 헷갈리는 포인트'; section 4 (4. caregiving): missing '한국어 개념명'; section 4 (4. caregiving): missing 'Original English term'; section 4 (4. caregiving): missing '정확한 한 줄 정의'; section 4 (4. caregiving): missing '학생 말투로 풀어쓴 설명'; section 4 (4. caregiving): missing '왜 이 ...에서 중요한지'; section 4 (4. caregiving): missing '자주 헷갈리는 포인트'; section 5 (5. future caregiver favoritism): missing '한국어 개념명'; section 5 (5. future caregiver favoritism): missing 'Original English term'; section 5 (5. future caregiver favoritism): missing '정확한 한 줄 정의'; section 5 (5. future caregiver favoritism): missing '학생 말투로 풀어쓴 설명'; section 5 (5. future caregiver favoritism): missing '왜 이 ...에서 중요한지'; section 5 (5. future caregiver favoritism): missing '자주 헷갈리는 포인트'; section 6 (6. relational equity): missing '한국어 개념명'; section 6 (6. relational equity): missing 'Original English term'; section 6 (6. relational equity): missing '정확한 한 줄 정의'; section 6 (6. relational equity): missing '학생 말투로 풀어쓴 설명'; section 6 (6. relational equity): missing '왜 이 ...에서 중요한지'; section 6 (6. relational equity): missing '자주 헷갈리는 포인트'; section 7 (7. multilevel analysis): missing '한국어 개념명'; section 7 (7. multilevel analysis): missing 'Original English term'; section 7 (7. multilevel analysis): missing '정확한 한 줄 정의'; section 7 (7. multilevel analysis): missing '학생 말투로 풀어쓴 설명'; section 7 (7. multilevel analysis): missing '왜 이 ...에서 중요한지'; section 7 (7. multilevel analysis): missing '자주 헷갈리는 포인트'; section 8 (8. later-life family): missing '한국어 개념명'; section 8 (8. later-life family): missing 'Original English term'; section 8 (8. later-life family): missing '정확한 한 줄 정의'; section 8 (8. later-life family): missing '학생 말투로 풀어쓴 설명'; section 8 (8. later-life family): missing '왜 이 ...에서 중요한지'; section 8 (8. later-life family): missing '자주 헷갈리는 포인트'",
         "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
       ]
@@ -257,10 +260,11 @@
   "workflow_status": "partial",
   "workflow_notes": [
     "translation: content is too short (<200 words); translation is suspiciously short relative to full text",
-    "missing notebooklm video",
     "concepts: section 1 (1. within-family differences): missing '한국어 개념명'; section 1 (1. within-family differences): missing 'Original English term'; section 1 (1. within-family differences): missing '정확한 한 줄 정의'; section 1 (1. within-family differences): missing '학생 말투로 풀어쓴 설명'; section 1 (1. within-family differences): missing '왜 이 ...에서 중요한지'; section 1 (1. within-family differences): missing '자주 헷갈리는 포인트'; section 2 (2. sibling tension): missing '한국어 개념명'; section 2 (2. sibling tension): missing 'Original English term'; section 2 (2. sibling tension): missing '정확한 한 줄 정의'; section 2 (2. sibling tension): missing '학생 말투로 풀어쓴 설명'; section 2 (2. sibling tension): missing '왜 이 ...에서 중요한지'; section 2 (2. sibling tension): missing '자주 헷갈리는 포인트'; section 3 (3. maternal favoritism): missing '한국어 개념명'; section 3 (3. maternal favoritism): missing 'Original English term'; section 3 (3. maternal favoritism): missing '정확한 한 줄 정의'; section 3 (3. maternal favoritism): missing '학생 말투로 풀어쓴 설명'; section 3 (3. maternal favoritism): missing '왜 이 ...에서 중요한지'; section 3 (3. maternal favoritism): missing '자주 헷갈리는 포인트'; section 4 (4. caregiving): missing '한국어 개념명'; section 4 (4. caregiving): missing 'Original English term'; section 4 (4. caregiving): missing '정확한 한 줄 정의'; section 4 (4. caregiving): missing '학생 말투로 풀어쓴 설명'; section 4 (4. caregiving): missing '왜 이 ...에서 중요한지'; section 4 (4. caregiving): missing '자주 헷갈리는 포인트'; section 5 (5. future caregiver favoritism): missing '한국어 개념명'; section 5 (5. future caregiver favoritism): missing 'Original English term'; section 5 (5. future caregiver favoritism): missing '정확한 한 줄 정의'; section 5 (5. future caregiver favoritism): missing '학생 말투로 풀어쓴 설명'; section 5 (5. future caregiver favoritism): missing '왜 이 ...에서 중요한지'; section 5 (5. future caregiver favoritism): missing '자주 헷갈리는 포인트'; section 6 (6. relational equity): missing '한국어 개념명'; section 6 (6. relational equity): missing 'Original English term'; section 6 (6. relational equity): missing '정확한 한 줄 정의'; section 6 (6. relational equity): missing '학생 말투로 풀어쓴 설명'; section 6 (6. relational equity): missing '왜 이 ...에서 중요한지'; section 6 (6. relational equity): missing '자주 헷갈리는 포인트'; section 7 (7. multilevel analysis): missing '한국어 개념명'; section 7 (7. multilevel analysis): missing 'Original English term'; section 7 (7. multilevel analysis): missing '정확한 한 줄 정의'; section 7 (7. multilevel analysis): missing '학생 말투로 풀어쓴 설명'; section 7 (7. multilevel analysis): missing '왜 이 ...에서 중요한지'; section 7 (7. multilevel analysis): missing '자주 헷갈리는 포인트'; section 8 (8. later-life family): missing '한국어 개념명'; section 8 (8. later-life family): missing 'Original English term'; section 8 (8. later-life family): missing '정확한 한 줄 정의'; section 8 (8. later-life family): missing '학생 말투로 풀어쓴 설명'; section 8 (8. later-life family): missing '왜 이 ...에서 중요한지'; section 8 (8. later-life family): missing '자주 헷갈리는 포인트'",
     "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
   ],
   "shared_page_bundle": null,
-  "shared_page_keys": []
+  "shared_page_keys": [],
+  "pdf_visibility": "none",
+  "landing_video_policy": "optional"
 }

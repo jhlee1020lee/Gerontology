@@ -29,7 +29,7 @@
     "quiz_ox": "schema_pass",
     "quiz_short": "schema_pass",
     "quiz_mcq": "schema_pass",
-    "index": "schema_fail"
+    "index": "schema_pass"
   },
   "content_dir": "content/readings/ch07-gerontology",
   "type": "chapter",
@@ -51,16 +51,17 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-31T05:56:21.863Z",
+    "updated_at": "2026-04-07T02:55:55.237Z",
     "require_built_artifacts": false,
     "landing": {
-      "status": "schema_fail",
-      "errors": [
-        "missing notebooklm video"
+      "status": "schema_pass",
+      "errors": [],
+      "warnings": [
+        "missing optional notebooklm video"
       ],
-      "warnings": [],
       "metrics": {
         "has_video": false,
+        "policy": "optional",
         "source": "missing"
       }
     },
@@ -226,12 +227,14 @@
       }
     },
     "stage1": {
-      "status": "partial",
-      "notes": [
-        "missing notebooklm video"
-      ]
+      "status": "manual_review_required",
+      "notes": []
     },
     "stage2": {
+      "status": "approved",
+      "notes": []
+    },
+    "stage3": {
       "status": "partial",
       "notes": [
         "summary: summary contains banned template phrase: /이 읽기에서 .*어떻게 연결되는지 보여 주는 핵심 축이다/; summary contains banned template phrase: /발표에서는 .*한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다/; summary contains banned template phrase: /읽을 때는 .*같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다/",
@@ -242,7 +245,6 @@
     "reading": {
       "status": "partial",
       "notes": [
-        "missing notebooklm video",
         "summary: summary contains banned template phrase: /이 읽기에서 .*어떻게 연결되는지 보여 주는 핵심 축이다/; summary contains banned template phrase: /발표에서는 .*한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다/; summary contains banned template phrase: /읽을 때는 .*같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다/",
         "concepts: section 1 (1. 성격): missing '한국어 개념명'; section 1 (1. 성격): missing 'Original English term'; section 1 (1. 성격): missing '정확한 한 줄 정의'; section 1 (1. 성격): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 성격): missing '왜 이 ...에서 중요한지'; section 1 (1. 성격): missing '자주 헷갈리는 포인트'; section 2 (2. 순위안정성): missing '한국어 개념명'; section 2 (2. 순위안정성): missing 'Original English term'; section 2 (2. 순위안정성): missing '정확한 한 줄 정의'; section 2 (2. 순위안정성): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 순위안정성): missing '왜 이 ...에서 중요한지'; section 2 (2. 순위안정성): missing '자주 헷갈리는 포인트'; section 3 (3. 평균수준 변화): missing '한국어 개념명'; section 3 (3. 평균수준 변화): missing 'Original English term'; section 3 (3. 평균수준 변화): missing '정확한 한 줄 정의'; section 3 (3. 평균수준 변화): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 평균수준 변화): missing '왜 이 ...에서 중요한지'; section 3 (3. 평균수준 변화): missing '자주 헷갈리는 포인트'; section 4 (4. 자아개념): missing '한국어 개념명'; section 4 (4. 자아개념): missing 'Original English term'; section 4 (4. 자아개념): missing '정확한 한 줄 정의'; section 4 (4. 자아개념): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 자아개념): missing '왜 이 ...에서 중요한지'; section 4 (4. 자아개념): missing '자주 헷갈리는 포인트'; section 5 (5. 정서조절): missing '한국어 개념명'; section 5 (5. 정서조절): missing 'Original English term'; section 5 (5. 정서조절): missing '정확한 한 줄 정의'; section 5 (5. 정서조절): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 정서조절): missing '왜 이 ...에서 중요한지'; section 5 (5. 정서조절): missing '자주 헷갈리는 포인트'; section 6 (6. 사회정서선택성): missing '한국어 개념명'; section 6 (6. 사회정서선택성): missing 'Original English term'; section 6 (6. 사회정서선택성): missing '정확한 한 줄 정의'; section 6 (6. 사회정서선택성): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 사회정서선택성): missing '왜 이 ...에서 중요한지'; section 6 (6. 사회정서선택성): missing '자주 헷갈리는 포인트'; section 7 (7. 긍정성 효과): missing '한국어 개념명'; section 7 (7. 긍정성 효과): missing 'Original English term'; section 7 (7. 긍정성 효과): missing '정확한 한 줄 정의'; section 7 (7. 긍정성 효과): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 긍정성 효과): missing '왜 이 ...에서 중요한지'; section 7 (7. 긍정성 효과): missing '자주 헷갈리는 포인트'; section 8 (8. 적응): missing '한국어 개념명'; section 8 (8. 적응): missing 'Original English term'; section 8 (8. 적응): missing '정확한 한 줄 정의'; section 8 (8. 적응): missing '학생 말투로 풀어쓴 설명'; section 8 (8. 적응): missing '왜 이 ...에서 중요한지'; section 8 (8. 적응): missing '자주 헷갈리는 포인트'; concepts page contains banned placeholder or template phrase: /반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다/; concepts page contains banned placeholder or template phrase: /정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다/",
         "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
@@ -251,11 +253,12 @@
   },
   "workflow_status": "partial",
   "workflow_notes": [
-    "missing notebooklm video",
     "summary: summary contains banned template phrase: /이 읽기에서 .*어떻게 연결되는지 보여 주는 핵심 축이다/; summary contains banned template phrase: /발표에서는 .*한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다/; summary contains banned template phrase: /읽을 때는 .*같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다/",
     "concepts: section 1 (1. 성격): missing '한국어 개념명'; section 1 (1. 성격): missing 'Original English term'; section 1 (1. 성격): missing '정확한 한 줄 정의'; section 1 (1. 성격): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 성격): missing '왜 이 ...에서 중요한지'; section 1 (1. 성격): missing '자주 헷갈리는 포인트'; section 2 (2. 순위안정성): missing '한국어 개념명'; section 2 (2. 순위안정성): missing 'Original English term'; section 2 (2. 순위안정성): missing '정확한 한 줄 정의'; section 2 (2. 순위안정성): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 순위안정성): missing '왜 이 ...에서 중요한지'; section 2 (2. 순위안정성): missing '자주 헷갈리는 포인트'; section 3 (3. 평균수준 변화): missing '한국어 개념명'; section 3 (3. 평균수준 변화): missing 'Original English term'; section 3 (3. 평균수준 변화): missing '정확한 한 줄 정의'; section 3 (3. 평균수준 변화): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 평균수준 변화): missing '왜 이 ...에서 중요한지'; section 3 (3. 평균수준 변화): missing '자주 헷갈리는 포인트'; section 4 (4. 자아개념): missing '한국어 개념명'; section 4 (4. 자아개념): missing 'Original English term'; section 4 (4. 자아개념): missing '정확한 한 줄 정의'; section 4 (4. 자아개념): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 자아개념): missing '왜 이 ...에서 중요한지'; section 4 (4. 자아개념): missing '자주 헷갈리는 포인트'; section 5 (5. 정서조절): missing '한국어 개념명'; section 5 (5. 정서조절): missing 'Original English term'; section 5 (5. 정서조절): missing '정확한 한 줄 정의'; section 5 (5. 정서조절): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 정서조절): missing '왜 이 ...에서 중요한지'; section 5 (5. 정서조절): missing '자주 헷갈리는 포인트'; section 6 (6. 사회정서선택성): missing '한국어 개념명'; section 6 (6. 사회정서선택성): missing 'Original English term'; section 6 (6. 사회정서선택성): missing '정확한 한 줄 정의'; section 6 (6. 사회정서선택성): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 사회정서선택성): missing '왜 이 ...에서 중요한지'; section 6 (6. 사회정서선택성): missing '자주 헷갈리는 포인트'; section 7 (7. 긍정성 효과): missing '한국어 개념명'; section 7 (7. 긍정성 효과): missing 'Original English term'; section 7 (7. 긍정성 효과): missing '정확한 한 줄 정의'; section 7 (7. 긍정성 효과): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 긍정성 효과): missing '왜 이 ...에서 중요한지'; section 7 (7. 긍정성 효과): missing '자주 헷갈리는 포인트'; section 8 (8. 적응): missing '한국어 개념명'; section 8 (8. 적응): missing 'Original English term'; section 8 (8. 적응): missing '정확한 한 줄 정의'; section 8 (8. 적응): missing '학생 말투로 풀어쓴 설명'; section 8 (8. 적응): missing '왜 이 ...에서 중요한지'; section 8 (8. 적응): missing '자주 헷갈리는 포인트'; concepts page contains banned placeholder or template phrase: /반복적으로 확인해야 하는 핵심 개념 또는 쟁점이다/; concepts page contains banned placeholder or template phrase: /정의, 근거, 함의 순서로 연결해 말하면 수업 답변이 흔들리지 않는다/",
     "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
   ],
   "shared_page_bundle": null,
-  "shared_page_keys": []
+  "shared_page_keys": [],
+  "pdf_visibility": "none",
+  "landing_video_policy": "optional"
 }

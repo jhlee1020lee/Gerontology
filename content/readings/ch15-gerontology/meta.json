@@ -30,7 +30,7 @@
     "quiz_ox": "schema_pass",
     "quiz_short": "schema_pass",
     "quiz_mcq": "schema_pass",
-    "index": "schema_fail"
+    "index": "schema_pass"
   },
   "content_dir": "content/readings/ch15-gerontology",
   "type": "chapter",
@@ -52,16 +52,17 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-03-31T05:56:21.917Z",
+    "updated_at": "2026-04-07T03:01:21.984Z",
     "require_built_artifacts": false,
     "landing": {
-      "status": "schema_fail",
-      "errors": [
-        "missing notebooklm video"
+      "status": "schema_pass",
+      "errors": [],
+      "warnings": [
+        "missing optional notebooklm video"
       ],
-      "warnings": [],
       "metrics": {
         "has_video": false,
+        "policy": "optional",
         "source": "missing"
       }
     },
@@ -221,12 +222,14 @@
       }
     },
     "stage1": {
-      "status": "partial",
-      "notes": [
-        "missing notebooklm video"
-      ]
+      "status": "manual_review_required",
+      "notes": []
     },
     "stage2": {
+      "status": "approved",
+      "notes": []
+    },
+    "stage3": {
       "status": "partial",
       "notes": [
         "concepts: section 1 (1. 환경노년학): missing '한국어 개념명'; section 1 (1. 환경노년학): missing 'Original English term'; section 1 (1. 환경노년학): missing '정확한 한 줄 정의'; section 1 (1. 환경노년학): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 환경노년학): missing '왜 이 ...에서 중요한지'; section 1 (1. 환경노년학): missing '자주 헷갈리는 포인트'; section 2 (2. 장이론): missing '한국어 개념명'; section 2 (2. 장이론): missing 'Original English term'; section 2 (2. 장이론): missing '정확한 한 줄 정의'; section 2 (2. 장이론): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 장이론): missing '왜 이 ...에서 중요한지'; section 2 (2. 장이론): missing '자주 헷갈리는 포인트'; section 3 (3. 환경압박-역량 모델): missing '한국어 개념명'; section 3 (3. 환경압박-역량 모델): missing 'Original English term'; section 3 (3. 환경압박-역량 모델): missing '정확한 한 줄 정의'; section 3 (3. 환경압박-역량 모델): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 환경압박-역량 모델): missing '왜 이 ...에서 중요한지'; section 3 (3. 환경압박-역량 모델): missing '자주 헷갈리는 포인트'; section 4 (4. 지역사회 환경): missing '한국어 개념명'; section 4 (4. 지역사회 환경): missing 'Original English term'; section 4 (4. 지역사회 환경): missing '정확한 한 줄 정의'; section 4 (4. 지역사회 환경): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 지역사회 환경): missing '왜 이 ...에서 중요한지'; section 4 (4. 지역사회 환경): missing '자주 헷갈리는 포인트'; section 5 (5. 장소애착): missing '한국어 개념명'; section 5 (5. 장소애착): missing 'Original English term'; section 5 (5. 장소애착): missing '정확한 한 줄 정의'; section 5 (5. 장소애착): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 장소애착): missing '왜 이 ...에서 중요한지'; section 5 (5. 장소애착): missing '자주 헷갈리는 포인트'; section 6 (6. 물리적 환경): missing '한국어 개념명'; section 6 (6. 물리적 환경): missing 'Original English term'; section 6 (6. 물리적 환경): missing '정확한 한 줄 정의'; section 6 (6. 물리적 환경): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 물리적 환경): missing '왜 이 ...에서 중요한지'; section 6 (6. 물리적 환경): missing '자주 헷갈리는 포인트'; section 7 (7. 사회적 환경): missing '한국어 개념명'; section 7 (7. 사회적 환경): missing 'Original English term'; section 7 (7. 사회적 환경): missing '정확한 한 줄 정의'; section 7 (7. 사회적 환경): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 사회적 환경): missing '왜 이 ...에서 중요한지'; section 7 (7. 사회적 환경): missing '자주 헷갈리는 포인트'; section 8 (8. aging in place): missing '한국어 개념명'; section 8 (8. aging in place): missing 'Original English term'; section 8 (8. aging in place): missing '정확한 한 줄 정의'; section 8 (8. aging in place): missing '학생 말투로 풀어쓴 설명'; section 8 (8. aging in place): missing '왜 이 ...에서 중요한지'; section 8 (8. aging in place): missing '자주 헷갈리는 포인트'",
@@ -236,7 +239,6 @@
     "reading": {
       "status": "partial",
       "notes": [
-        "missing notebooklm video",
         "concepts: section 1 (1. 환경노년학): missing '한국어 개념명'; section 1 (1. 환경노년학): missing 'Original English term'; section 1 (1. 환경노년학): missing '정확한 한 줄 정의'; section 1 (1. 환경노년학): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 환경노년학): missing '왜 이 ...에서 중요한지'; section 1 (1. 환경노년학): missing '자주 헷갈리는 포인트'; section 2 (2. 장이론): missing '한국어 개념명'; section 2 (2. 장이론): missing 'Original English term'; section 2 (2. 장이론): missing '정확한 한 줄 정의'; section 2 (2. 장이론): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 장이론): missing '왜 이 ...에서 중요한지'; section 2 (2. 장이론): missing '자주 헷갈리는 포인트'; section 3 (3. 환경압박-역량 모델): missing '한국어 개념명'; section 3 (3. 환경압박-역량 모델): missing 'Original English term'; section 3 (3. 환경압박-역량 모델): missing '정확한 한 줄 정의'; section 3 (3. 환경압박-역량 모델): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 환경압박-역량 모델): missing '왜 이 ...에서 중요한지'; section 3 (3. 환경압박-역량 모델): missing '자주 헷갈리는 포인트'; section 4 (4. 지역사회 환경): missing '한국어 개념명'; section 4 (4. 지역사회 환경): missing 'Original English term'; section 4 (4. 지역사회 환경): missing '정확한 한 줄 정의'; section 4 (4. 지역사회 환경): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 지역사회 환경): missing '왜 이 ...에서 중요한지'; section 4 (4. 지역사회 환경): missing '자주 헷갈리는 포인트'; section 5 (5. 장소애착): missing '한국어 개념명'; section 5 (5. 장소애착): missing 'Original English term'; section 5 (5. 장소애착): missing '정확한 한 줄 정의'; section 5 (5. 장소애착): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 장소애착): missing '왜 이 ...에서 중요한지'; section 5 (5. 장소애착): missing '자주 헷갈리는 포인트'; section 6 (6. 물리적 환경): missing '한국어 개념명'; section 6 (6. 물리적 환경): missing 'Original English term'; section 6 (6. 물리적 환경): missing '정확한 한 줄 정의'; section 6 (6. 물리적 환경): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 물리적 환경): missing '왜 이 ...에서 중요한지'; section 6 (6. 물리적 환경): missing '자주 헷갈리는 포인트'; section 7 (7. 사회적 환경): missing '한국어 개념명'; section 7 (7. 사회적 환경): missing 'Original English term'; section 7 (7. 사회적 환경): missing '정확한 한 줄 정의'; section 7 (7. 사회적 환경): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 사회적 환경): missing '왜 이 ...에서 중요한지'; section 7 (7. 사회적 환경): missing '자주 헷갈리는 포인트'; section 8 (8. aging in place): missing '한국어 개념명'; section 8 (8. aging in place): missing 'Original English term'; section 8 (8. aging in place): missing '정확한 한 줄 정의'; section 8 (8. aging in place): missing '학생 말투로 풀어쓴 설명'; section 8 (8. aging in place): missing '왜 이 ...에서 중요한지'; section 8 (8. aging in place): missing '자주 헷갈리는 포인트'",
         "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
       ]
@@ -244,10 +246,11 @@
   },
   "workflow_status": "partial",
   "workflow_notes": [
-    "missing notebooklm video",
     "concepts: section 1 (1. 환경노년학): missing '한국어 개념명'; section 1 (1. 환경노년학): missing 'Original English term'; section 1 (1. 환경노년학): missing '정확한 한 줄 정의'; section 1 (1. 환경노년학): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 환경노년학): missing '왜 이 ...에서 중요한지'; section 1 (1. 환경노년학): missing '자주 헷갈리는 포인트'; section 2 (2. 장이론): missing '한국어 개념명'; section 2 (2. 장이론): missing 'Original English term'; section 2 (2. 장이론): missing '정확한 한 줄 정의'; section 2 (2. 장이론): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 장이론): missing '왜 이 ...에서 중요한지'; section 2 (2. 장이론): missing '자주 헷갈리는 포인트'; section 3 (3. 환경압박-역량 모델): missing '한국어 개념명'; section 3 (3. 환경압박-역량 모델): missing 'Original English term'; section 3 (3. 환경압박-역량 모델): missing '정확한 한 줄 정의'; section 3 (3. 환경압박-역량 모델): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 환경압박-역량 모델): missing '왜 이 ...에서 중요한지'; section 3 (3. 환경압박-역량 모델): missing '자주 헷갈리는 포인트'; section 4 (4. 지역사회 환경): missing '한국어 개념명'; section 4 (4. 지역사회 환경): missing 'Original English term'; section 4 (4. 지역사회 환경): missing '정확한 한 줄 정의'; section 4 (4. 지역사회 환경): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 지역사회 환경): missing '왜 이 ...에서 중요한지'; section 4 (4. 지역사회 환경): missing '자주 헷갈리는 포인트'; section 5 (5. 장소애착): missing '한국어 개념명'; section 5 (5. 장소애착): missing 'Original English term'; section 5 (5. 장소애착): missing '정확한 한 줄 정의'; section 5 (5. 장소애착): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 장소애착): missing '왜 이 ...에서 중요한지'; section 5 (5. 장소애착): missing '자주 헷갈리는 포인트'; section 6 (6. 물리적 환경): missing '한국어 개념명'; section 6 (6. 물리적 환경): missing 'Original English term'; section 6 (6. 물리적 환경): missing '정확한 한 줄 정의'; section 6 (6. 물리적 환경): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 물리적 환경): missing '왜 이 ...에서 중요한지'; section 6 (6. 물리적 환경): missing '자주 헷갈리는 포인트'; section 7 (7. 사회적 환경): missing '한국어 개념명'; section 7 (7. 사회적 환경): missing 'Original English term'; section 7 (7. 사회적 환경): missing '정확한 한 줄 정의'; section 7 (7. 사회적 환경): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 사회적 환경): missing '왜 이 ...에서 중요한지'; section 7 (7. 사회적 환경): missing '자주 헷갈리는 포인트'; section 8 (8. aging in place): missing '한국어 개념명'; section 8 (8. aging in place): missing 'Original English term'; section 8 (8. aging in place): missing '정확한 한 줄 정의'; section 8 (8. aging in place): missing '학생 말투로 풀어쓴 설명'; section 8 (8. aging in place): missing '왜 이 ...에서 중요한지'; section 8 (8. aging in place): missing '자주 헷갈리는 포인트'",
     "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
   ],
   "shared_page_bundle": null,
-  "shared_page_keys": []
+  "shared_page_keys": [],
+  "pdf_visibility": "none",
+  "landing_video_policy": "optional"
 }

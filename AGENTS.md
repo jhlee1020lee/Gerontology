@@ -5,8 +5,8 @@ Maintain a static study website for gerontology course readings that can be prev
 
 ## Documentation roles
 - `CONTENT_RULES.md` is the single source of truth for detailed workflow, validation gates, homepage ordering, and page-family rules.
-- `AGENTS.md` is the collaborator-facing summary and should stay aligned with `CONTENT_RULES.md`.
-- `README.md` is the onboarding entry point and should summarize rather than redefine detailed policy.
+- `AGENTS.md` is the collaborator-facing summary/checklist and should point back to `CONTENT_RULES.md` instead of restating detailed policy.
+- `README.md` is the onboarding entry point and should summarize and link to `CONTENT_RULES.md` rather than redefine detailed policy.
 - If documents conflict on detailed policy, follow `CONTENT_RULES.md` and then update the summary docs.
 
 ## Core rules

@@ -21,7 +21,9 @@ const READING_STATUS = Object.freeze({
 const ARTICLE_PAGE_KEYS = new Set(["full", "translation", "summary", "concepts", "pitfalls", "review-sheet"]);
 const QUIZ_PAGE_KEYS = new Set(["quiz-ox", "quiz-short", "quiz-mcq"]);
 const NOTEBOOKLM_VIDEO_CANDIDATES = ["notebooklm.mp4", "notebooklm.webm", "notebooklm.mov", "notebooklm.m4v"];
-const STAGE2_PAGE_KEYS = ["summary", "concepts", "pitfalls", "review-sheet", "professor-prep", "quiz-ox", "quiz-short", "quiz-mcq"];
+const STAGE1_PAGE_KEYS = ["full"];
+const STAGE2_PAGE_KEYS = ["translation"];
+const STAGE3_PAGE_KEYS = ["summary", "concepts", "pitfalls", "review-sheet", "professor-prep", "quiz-ox", "quiz-short", "quiz-mcq"];
 const SHORT_ANSWER_TYPES = new Set(["term", "person", "number", "short_phrase"]);
 
 const SUMMARY_BANNED_PATTERNS = [
@@ -114,6 +116,14 @@ function publicNotebooklmVideoPath(reading, sourcePath) {
     return "";
   }
   return path.posix.join("assets", "videos", reading.slug, path.basename(sourcePath));
+}
+
+function pdfVisibility(reading, existingMeta = {}) {
+  return toText(reading.pdf_visibility || existingMeta.pdf_visibility) || (toText(reading.public_pdf) ? "public" : "none");
+}
+
+function landingVideoPolicy(reading, existingMeta = {}) {
+  return toText(reading.landing_video_policy || existingMeta.landing_video_policy) || "optional";
 }
 
 function resolveNotebooklmVideo(rootDir, reading, existingMeta = {}) {
@@ -404,14 +414,20 @@ function validateQuizPayload(pageKey, payload) {
 
 function validateLandingVideo(rootDir, reading, existingMeta = {}, options = {}) {
   const { localPath, videoUrl, isExternal } = resolveNotebooklmVideo(rootDir, reading, existingMeta);
+  const policy = landingVideoPolicy(reading, existingMeta);
   const errors = [];
   const warnings = [];
   const metrics = {
     has_video: Boolean(videoUrl),
+    policy,
     source: localPath ? "local" : (isExternal ? "external" : "missing"),
   };
   if (!videoUrl) {
-    errors.push("missing notebooklm video");
+    if (policy === "required") {
+      errors.push("missing notebooklm video");
+    } else {
+      warnings.push("missing optional notebooklm video");
+    }
   }
   if (options.requireBuiltArtifacts && videoUrl && !isExternal) {
     const builtVideoPath = path.join(rootDir, "docs", ...videoUrl.split("/"));
@@ -419,7 +435,8 @@ function validateLandingVideo(rootDir, reading, existingMeta = {}, options = {})
       errors.push(`missing built notebooklm video: ${videoUrl}`);
     }
   }
-  return makeResult(errors.length ? PAGE_STATUS.SCHEMA_FAIL : PAGE_STATUS.APPROVED, errors, warnings, metrics);
+  const status = errors.length ? PAGE_STATUS.SCHEMA_FAIL : (videoUrl ? PAGE_STATUS.APPROVED : PAGE_STATUS.SCHEMA_PASS);
+  return makeResult(status, errors, warnings, metrics);
 }
 
 function contentPathForPage(rootDir, reading, pageKey) {
@@ -527,7 +544,7 @@ function stageStatusFromPages(pageResults, requiredKeys, options = {}) {
   return { status: READING_STATUS.MANUAL_REVIEW_REQUIRED, notes: [] };
 }
 
-function validateBuildArtifacts(rootDir, reading) {
+function validateBuildArtifacts(rootDir, reading, existingMeta = {}) {
   const errors = [];
   const readingDir = path.join(rootDir, "docs", "readings", reading.slug);
   const requiredPages = ["index.html", "full.html", "summary.html", "concepts.html", "pitfalls.html", "review-sheet.html", "professor-prep.html", "quiz-ox.html", "quiz-short.html", "quiz-mcq.html"];
@@ -539,7 +556,7 @@ function validateBuildArtifacts(rootDir, reading) {
       errors.push(`missing built page: docs/readings/${reading.slug}/${file}`);
     }
   });
-  if (toText(reading.public_pdf)) {
+  if (pdfVisibility(reading, existingMeta) === "public" && toText(reading.public_pdf)) {
     const publicPdfPath = path.join(rootDir, "docs", ...reading.public_pdf.split("/"));
     if (!fs.existsSync(publicPdfPath)) {
       errors.push(`missing built public pdf: ${reading.public_pdf}`);
@@ -566,24 +583,33 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
 
   const stage1Extra = [];
   if (options.requireBuiltArtifacts) {
-    const artifactResult = validateBuildArtifacts(rootDir, reading);
+    const artifactResult = validateBuildArtifacts(rootDir, reading, existingMeta);
     if (artifactResult.errors.length) {
       stage1Extra.push(...artifactResult.errors.filter((message) => message.includes("public pdf")));
     }
   }
-  const stage1Required = ["full"].concat(reading.language === "en" ? ["translation"] : []);
-  const stage2 = stageStatusFromPages(pageResults, STAGE2_PAGE_KEYS);
-  const stage1 = stageStatusFromPages(pageResults, stage1Required, { extraNotes: stage1Extra });
+  const stage1 = stageStatusFromPages(pageResults, STAGE1_PAGE_KEYS, { extraNotes: stage1Extra });
+  const stage2Required = reading.language === "en" ? STAGE2_PAGE_KEYS : [];
+  const stage2 = stageStatusFromPages(pageResults, stage2Required);
+  const stage3 = stageStatusFromPages(pageResults, STAGE3_PAGE_KEYS);
 
   let readingStatus = READING_STATUS.PARTIAL;
   const readingNotes = [];
   if (manualReview.blocked_reason) {
     readingStatus = READING_STATUS.BLOCKED;
     readingNotes.push(manualReview.blocked_reason);
-  } else if (stage1.status === READING_STATUS.PARTIAL || stage2.status === READING_STATUS.PARTIAL) {
+  } else if (
+    stage1.status === READING_STATUS.PARTIAL
+    || stage2.status === READING_STATUS.PARTIAL
+    || stage3.status === READING_STATUS.PARTIAL
+  ) {
     readingStatus = READING_STATUS.PARTIAL;
-    readingNotes.push(...stage1.notes, ...stage2.notes);
-  } else if (stage1.status === READING_STATUS.APPROVED && stage2.status === READING_STATUS.APPROVED) {
+    readingNotes.push(...stage1.notes, ...stage2.notes, ...stage3.notes);
+  } else if (
+    stage1.status === READING_STATUS.APPROVED
+    && stage2.status === READING_STATUS.APPROVED
+    && stage3.status === READING_STATUS.APPROVED
+  ) {
     readingStatus = READING_STATUS.APPROVED;
   } else {
     readingStatus = READING_STATUS.MANUAL_REVIEW_REQUIRED;
@@ -616,6 +642,7 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
     ),
     stage1,
     stage2,
+    stage3,
     reading: {
       status: readingStatus,
       notes: readingNotes,
@@ -667,6 +694,7 @@ function renderCliReport(results) {
     lines.push(`- ${slug}: ${snapshot.workflow_status}`);
     lines.push(`  - stage1: ${snapshot.validation_status.stage1.status}`);
     lines.push(`  - stage2: ${snapshot.validation_status.stage2.status}`);
+    lines.push(`  - stage3: ${snapshot.validation_status.stage3.status}`);
   });
   return lines.join("\n");
 }

@@ -12,10 +12,12 @@
 - When a reading supports public PDF access, the deployable PDF should live under a stable `docs/` path such as `docs/pdfs/<slug>.pdf`.
 - In metadata terms:
   - `source_pdf` points to source/input material
+  - `pdf_visibility` controls whether deploy HTML may expose a public PDF
   - `public_pdf` points to deployable public output under `docs/`
+  - `landing_video_policy` controls whether a missing landing video is treated as optional or required
 - `CONTENT_RULES.md` is the single source of truth for detailed workflow, validation gates, homepage ordering, and page-family rules.
-- `AGENTS.md` is the collaborator-facing summary and should stay aligned with this appendix.
-- `README.md` is the onboarding entry point and should summarize rather than redefine detailed policy.
+- `AGENTS.md` is the collaborator-facing summary/checklist and should point back to this appendix instead of restating detailed policy.
+- `README.md` is the onboarding entry point and should summarize and link to this appendix rather than redefine detailed policy.
 - If documents conflict on detailed policy, follow this appendix and then update the summary docs.
 
 ## 2. Workflow model
@@ -36,6 +38,15 @@
 - In prose, use the published Korean page-family names: `전체 글`, `한국어 번역`, `교수님 구술 대비`.
 - Use `full`, `translation`, and `professor-prep` only for filenames, page keys, routes, or schema/file references.
 - When a sentence needs both, write the Korean name first and the file/page key in parentheses.
+
+## 2.2 Status and approval terminology
+- `page_status` means the state of one generated page family such as `full`, `translation`, or `summary`.
+- `stage1_status`, `stage2_status`, and `stage3_status` mean stage-level approval states for one reading.
+- `reading_status` means the overall reading-package approval state for one reading.
+- `landing_video_status` means the landing-page / explanation-video enhancement state and must be tracked separately from Stage 1, Stage 2, and Stage 3 completion.
+- `lecture_workflow_status` means the lecture-recording workflow state for transcript/evidence bundles and must not be used as shorthand for reading approval.
+- Do not use `전체` as a shorthand for whole-reading approval, because `전체 글` already has a published page-family meaning.
+- In prose, prefer explicit phrases such as `reading_status`, `Stage 1 approval`, or `전체 글 (full)` instead of ambiguous shorthand.
 
 ## 3. Hulur benchmark rule
 - `hulur-et-al-2019` is the current workflow and quality benchmark reading.
@@ -282,14 +293,24 @@ Additional QA expectations:
   - `schema_pass`
   - `approved`
   - `not_applicable`
-- Reading/workflow status values:
+- Stage / reading status values:
   - `blocked`
   - `partial`
   - `manual_review_required`
   - `approved`
+- Landing/video status should be tracked separately from Stage 1, Stage 2, Stage 3, and overall reading approval.
+- `missing` means the required content or generated output does not exist yet.
+- `schema_fail` means a generated page exists but failed structural validation.
 - `schema_pass` means the generated page cleared the structural validator but still needs manual review.
-- Automation should stop after the first reading that is not `approved`.
-- Use `node scripts/validate_content.js` as the local structural QA gate before moving on to the next reading.
+- `approved` means the page, stage, or reading package cleared manual review.
+- `not_applicable` means the page family does not apply to the reading, for example `translation` on a Korean reading.
+- `partial` means required work is still missing, patchy, or under active rework. Use this for normal incompleteness.
+- `manual_review_required` means the structural and staging checks are complete enough for human review, but approval has not been granted yet.
+- `blocked` means work cannot continue without an external dependency, policy decision, or explicit manual intervention. Do not use `blocked` for ordinary incompleteness.
+- If a page family is only `schema_pass`, do not promote the containing stage or reading to `approved`.
+- If Stage 1, Stage 2, or Stage 3 is waiting on manual review after structural completion, prefer `manual_review_required` over `partial`.
+- Automation should stop after the first reading whose `reading_status` is not `approved`.
+- Use `node scripts/validate_content.js` as the local structural QA gate before moving on to the next reading, but do not treat schema validation as a substitute for manual approval.
 
 ## 6. Date / order rules
 - Homepage reading order and displayed dates must follow syllabus class-date order.
