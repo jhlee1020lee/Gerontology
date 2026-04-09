@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { normalizeTranslationOriginalRevealConfig, parseMarkdownDocument, resolveTranslationAlignment } = require("./translation_original_reveal");
 
 const ROOT_DIR = path.resolve(__dirname, "..");
 
@@ -44,6 +45,27 @@ const PITFALLS_BANNED_PATTERNS = [
   /자주 틀리는 말만 반복하고 구체 구분이 없다/,
 ];
 
+const REVIEW_SHEET_BANNED_PATTERNS = [
+  /이 부분을 한 문장으로 다시 말할 수 있어야 한다/,
+  /이 용어가 왜 중요한지 바로 설명할 수 있어야 한다/,
+  /한 문장으로 다시 말할 수 있어야 한다/,
+];
+
+const PITFALLS_GENERIC_PATTERNS = [
+  /교수님 스타일에서는 한국 맥락 연결이 중요하다/,
+  /AI처럼 들리기 쉽다/,
+  /영문 읽기/,
+  /번역만 보고 가면/,
+];
+
+const QUIZ_TRIVIAL_EXPLANATION_PATTERNS = [
+  /이 읽기(?:의)? 핵심 용어다\.?$/,
+  /보여 주는 핵심 축이다\.?$/,
+  /읽기 구조를 잡는 핵심 축이다\.?$/,
+];
+
+const UNRESOLVED_PARTICLE_PATTERN = /은\(는\)|는\(은\)|와\(과\)|과\(와\)|이\(가\)|가\(이\)|을\(를\)|를\(을\)|로\(으로\)|으로\(로\)/;
+
 function readText(filePath) {
   return fs.readFileSync(filePath, "utf8").replace(/^\uFEFF/, "");
 }
@@ -70,6 +92,31 @@ function wordCount(value) {
 
 function countMatches(value, pattern) {
   return [...toText(value).matchAll(pattern)].length;
+}
+
+function normalizedText(value) {
+  return toText(value).toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function findDuplicateNormalizedTexts(values) {
+  const seen = new Set();
+  const duplicates = new Set();
+  values.forEach((value) => {
+    const key = normalizedText(value);
+    if (!key) {
+      return;
+    }
+    if (seen.has(key)) {
+      duplicates.add(key);
+      return;
+    }
+    seen.add(key);
+  });
+  return [...duplicates];
+}
+
+function containsUnresolvedParticleTemplate(value) {
+  return UNRESOLVED_PARTICLE_PATTERN.test(toText(value));
 }
 
 function splitLevelTwoSections(markdown) {
@@ -136,6 +183,80 @@ function resolveNotebooklmVideo(rootDir, reading, existingMeta = {}) {
     videoUrl,
     isExternal: isExternalUrl(videoUrl),
   };
+}
+
+function translationOriginalRevealPath(rootDir, reading, existingMeta = {}) {
+  const config = normalizeTranslationOriginalRevealConfig(existingMeta.translation_original_reveal || reading.translation_original_reveal);
+  if (!config.enabled) {
+    return "";
+  }
+  const translationSourcePath = contentPathForPage(rootDir, reading, "translation");
+  return path.join(path.dirname(translationSourcePath), config.alignment_file);
+}
+
+function shouldRequireTranslationOriginalRevealBuild(reading, existingMeta = {}, pageResults = {}) {
+  const config = normalizeTranslationOriginalRevealConfig(existingMeta.translation_original_reveal || reading.translation_original_reveal);
+  if (!config.enabled || reading.language !== "en") {
+    return false;
+  }
+  return pageResults.full?.status === PAGE_STATUS.APPROVED
+    && pageResults.translation?.status === PAGE_STATUS.APPROVED;
+}
+
+function countHtmlClass(html, className) {
+  const classAttrs = [...String(html || "").matchAll(/class="([^"]+)"/g)].map((match) => match[1]);
+  return classAttrs.filter((value) => value.split(/\s+/).includes(className)).length;
+}
+
+function applyArtifactErrorsToPageResult(result, artifactErrors = []) {
+  if (!artifactErrors.length) {
+    return result;
+  }
+  const mergedErrors = Array.from(new Set([...(Array.isArray(result.errors) ? result.errors : []), ...artifactErrors]));
+  return {
+    ...result,
+    status: PAGE_STATUS.SCHEMA_FAIL,
+    errors: mergedErrors,
+  };
+}
+
+function validateTranslationOriginalReveal(rootDir, reading, existingMeta, translationText, fullText) {
+  const config = normalizeTranslationOriginalRevealConfig(existingMeta.translation_original_reveal || reading.translation_original_reveal);
+  const errors = [];
+  const warnings = [];
+  const metrics = {
+    original_reveal_enabled: config.enabled,
+    reveal_entry_count: 0,
+  };
+  if (!config.enabled) {
+    return { errors, warnings, metrics };
+  }
+  if (reading.language !== "en") {
+    errors.push("translation original reveal is only allowed on English readings");
+    return { errors, warnings, metrics };
+  }
+  const alignmentPath = translationOriginalRevealPath(rootDir, reading, existingMeta);
+  if (!alignmentPath || !fs.existsSync(alignmentPath)) {
+    errors.push("translation original reveal alignment file is missing");
+    return { errors, warnings, metrics };
+  }
+  const payload = loadJson(alignmentPath);
+  if (!payload || typeof payload !== "object") {
+    errors.push("translation original reveal alignment payload is invalid");
+    return { errors, warnings, metrics };
+  }
+  if (toText(payload.reading_slug) && toText(payload.reading_slug) !== reading.slug) {
+    errors.push("translation original reveal reading_slug does not match the reading");
+  }
+  const translationDocument = parseMarkdownDocument(translationText, { skipFirstTitleHeading: true, collectFrontmatter: true });
+  const originalDocument = parseMarkdownDocument(fullText, { skipFirstTitleHeading: true, collectFrontmatter: true });
+  const resolved = resolveTranslationAlignment(payload, translationDocument, originalDocument, { allowedStatuses: ["verified"] });
+  metrics.reveal_entry_count = resolved.entries.length;
+  errors.push(...resolved.errors);
+  if (!metrics.reveal_entry_count) {
+    errors.push("translation original reveal is enabled but no verified entries were published");
+  }
+  return { errors, warnings, metrics };
 }
 
 function sharedPageKeys(reading) {
@@ -298,6 +419,14 @@ function validatePitfallsMarkdown(text) {
       errors.push(`pitfalls page contains banned template phrase: ${pattern}`);
     }
   });
+  PITFALLS_GENERIC_PATTERNS.forEach((pattern) => {
+    if (pattern.test(text)) {
+      errors.push(`pitfalls page contains generic coaching phrase instead of reading-specific confusion: ${pattern}`);
+    }
+  });
+  if (containsUnresolvedParticleTemplate(text)) {
+    errors.push("pitfalls page contains unresolved particle template such as '은(는)' or '와(과)'");
+  }
   return makeResult(errors.length ? PAGE_STATUS.SCHEMA_FAIL : PAGE_STATUS.SCHEMA_PASS, errors, warnings, metrics);
 }
 
@@ -308,6 +437,14 @@ function validateReviewSheetMarkdown(text) {
   const { errors, warnings, metrics } = baseMarkdownChecks(text, 80);
   if (countMatches(text, /^##\s+/gm) < 3) {
     warnings.push("review sheet should usually have at least 3 second-level sections");
+  }
+  REVIEW_SHEET_BANNED_PATTERNS.forEach((pattern) => {
+    if (pattern.test(text)) {
+      errors.push(`review sheet contains placeholder study instruction instead of actual content: ${pattern}`);
+    }
+  });
+  if (containsUnresolvedParticleTemplate(text)) {
+    errors.push("review sheet contains unresolved particle template such as '은(는)' or '와(과)'");
   }
   return makeResult(errors.length ? PAGE_STATUS.SCHEMA_FAIL : PAGE_STATUS.SCHEMA_PASS, errors, warnings, metrics);
 }
@@ -320,7 +457,7 @@ function validateFullMarkdown(text) {
   return makeResult(errors.length ? PAGE_STATUS.SCHEMA_FAIL : PAGE_STATUS.SCHEMA_PASS, errors, warnings, metrics);
 }
 
-function validateTranslationMarkdown(text, fullText) {
+function validateTranslationMarkdown(rootDir, reading, existingMeta, text, fullText) {
   if (!text) {
     return missingResult();
   }
@@ -333,6 +470,10 @@ function validateTranslationMarkdown(text, fullText) {
       errors.push("translation is suspiciously short relative to full text");
     }
   }
+  const revealValidation = validateTranslationOriginalReveal(rootDir, reading, existingMeta, text, fullText);
+  errors.push(...revealValidation.errors);
+  warnings.push(...revealValidation.warnings);
+  Object.assign(metrics, revealValidation.metrics);
   return makeResult(errors.length ? PAGE_STATUS.SCHEMA_FAIL : PAGE_STATUS.SCHEMA_PASS, errors, warnings, metrics);
 }
 
@@ -380,34 +521,100 @@ function validateQuizPayload(pageKey, payload) {
     errors.push(`${pageKey} must contain exactly 15 items`);
   }
   if (pageKey === "quiz-short") {
+    const questions = [];
     items.forEach((item, index) => {
+      const question = toText(item.question);
+      const explanation = toText(item.explanation);
       const acceptedAnswers = Array.isArray(item.accepted_answers)
         ? item.accepted_answers.map((answer) => toText(answer)).filter(Boolean)
         : [];
+      questions.push(question);
+      if (!question) {
+        errors.push(`quiz-short item ${index + 1} is missing question`);
+      }
       if (!acceptedAnswers.length) {
         errors.push(`quiz-short item ${index + 1} is missing accepted_answers`);
       }
       if (!SHORT_ANSWER_TYPES.has(toText(item.answer_type))) {
         errors.push(`quiz-short item ${index + 1} has invalid answer_type`);
       }
+      if (!explanation) {
+        errors.push(`quiz-short item ${index + 1} is missing explanation`);
+      } else {
+        QUIZ_TRIVIAL_EXPLANATION_PATTERNS.forEach((pattern) => {
+          if (pattern.test(explanation)) {
+            errors.push(`quiz-short item ${index + 1} explanation is too generic: ${pattern}`);
+          }
+        });
+      }
+      if (containsUnresolvedParticleTemplate(question) || containsUnresolvedParticleTemplate(explanation)) {
+        errors.push(`quiz-short item ${index + 1} contains unresolved particle template`);
+      }
       acceptedAnswers.forEach((answer, answerIndex) => {
         if (wordCount(answer) > 7) {
           errors.push(`quiz-short item ${index + 1} answer ${answerIndex + 1} exceeds 7 words`);
         }
+        if (answer.length >= 2 && normalizedText(question).includes(normalizedText(answer))) {
+          errors.push(`quiz-short item ${index + 1} leaks the accepted answer in the question`);
+        }
       });
     });
+    const duplicateQuestions = findDuplicateNormalizedTexts(questions);
+    if (duplicateQuestions.length) {
+      errors.push(`quiz-short contains duplicate or near-duplicate questions (${duplicateQuestions.length})`);
+    }
   } else {
+    const prompts = [];
+    const mcqAnswerPositions = [];
     items.forEach((item, index) => {
-      if (!toText(item.prompt)) {
+      const prompt = toText(item.prompt);
+      const answer = toText(item.answer);
+      const explanation = toText(item.explanation);
+      prompts.push(prompt);
+      if (!prompt) {
         errors.push(`${pageKey} item ${index + 1} is missing prompt`);
       }
-      if (!toText(item.answer)) {
+      if (!answer) {
         errors.push(`${pageKey} item ${index + 1} is missing answer`);
       }
-      if (!toText(item.explanation)) {
+      if (!explanation) {
         errors.push(`${pageKey} item ${index + 1} is missing explanation`);
+      } else {
+        QUIZ_TRIVIAL_EXPLANATION_PATTERNS.forEach((pattern) => {
+          if (pattern.test(explanation)) {
+            errors.push(`${pageKey} item ${index + 1} explanation is too generic: ${pattern}`);
+          }
+        });
+      }
+      if (containsUnresolvedParticleTemplate(prompt) || containsUnresolvedParticleTemplate(explanation)) {
+        errors.push(`${pageKey} item ${index + 1} contains unresolved particle template`);
+      }
+      if (pageKey === "quiz-ox" && !/^(O|X|true|false)$/i.test(answer)) {
+        errors.push(`quiz-ox item ${index + 1} answer must be O/X or true/false`);
+      }
+      if (pageKey === "quiz-mcq") {
+        const options = Array.isArray(item.options)
+          ? item.options.map((option) => toText(option)).filter(Boolean)
+          : [];
+        if (options.length < 3) {
+          errors.push(`quiz-mcq item ${index + 1} needs at least 3 options`);
+        }
+        if (options.length && !options.includes(answer)) {
+          errors.push(`quiz-mcq item ${index + 1} answer must appear in options`);
+        }
+        mcqAnswerPositions.push(options.indexOf(answer));
       }
     });
+    const duplicatePrompts = findDuplicateNormalizedTexts(prompts);
+    if (duplicatePrompts.length) {
+      errors.push(`${pageKey} contains duplicate or near-duplicate prompts (${duplicatePrompts.length})`);
+    }
+    if (pageKey === "quiz-mcq") {
+      const uniquePositions = [...new Set(mcqAnswerPositions.filter((position) => position >= 0))];
+      if (mcqAnswerPositions.length >= 6 && uniquePositions.length === 1) {
+        errors.push("quiz-mcq uses the same answer position for every item");
+      }
+    }
   }
   return makeResult(errors.length ? PAGE_STATUS.SCHEMA_FAIL : PAGE_STATUS.SCHEMA_PASS, errors, warnings, metrics);
 }
@@ -474,7 +681,7 @@ function contentPathForPage(rootDir, reading, pageKey) {
   return path.join(contentDir, `${pageKey}.json`);
 }
 
-function validatePage(rootDir, reading, pageKey, manualReview) {
+function validatePage(rootDir, reading, pageKey, manualReview, existingMeta = {}) {
   if (pageKey === "translation" && reading.language !== "en") {
     return makeResult(PAGE_STATUS.NOT_APPLICABLE, [], [], {});
   }
@@ -496,7 +703,7 @@ function validatePage(rootDir, reading, pageKey, manualReview) {
     } else if (pageKey === "translation") {
       const fullPath = contentPathForPage(rootDir, reading, "full");
       const fullText = fs.existsSync(fullPath) ? readText(fullPath) : "";
-      result = validateTranslationMarkdown(text, fullText);
+      result = validateTranslationMarkdown(rootDir, reading, existingMeta, text, fullText);
     } else {
       result = validateFullMarkdown(text);
     }
@@ -544,8 +751,9 @@ function stageStatusFromPages(pageResults, requiredKeys, options = {}) {
   return { status: READING_STATUS.MANUAL_REVIEW_REQUIRED, notes: [] };
 }
 
-function validateBuildArtifacts(rootDir, reading, existingMeta = {}) {
+function validateBuildArtifacts(rootDir, reading, existingMeta = {}, pageResults = {}) {
   const errors = [];
+  const translationErrors = [];
   const readingDir = path.join(rootDir, "docs", "readings", reading.slug);
   const requiredPages = ["index.html", "full.html", "summary.html", "concepts.html", "pitfalls.html", "review-sheet.html", "professor-prep.html", "quiz-ox.html", "quiz-short.html", "quiz-mcq.html"];
   if (reading.language === "en") {
@@ -553,7 +761,11 @@ function validateBuildArtifacts(rootDir, reading, existingMeta = {}) {
   }
   requiredPages.forEach((file) => {
     if (!fs.existsSync(path.join(readingDir, file))) {
-      errors.push(`missing built page: docs/readings/${reading.slug}/${file}`);
+      const message = `missing built page: docs/readings/${reading.slug}/${file}`;
+      errors.push(message);
+      if (file === "translation.html") {
+        translationErrors.push(message);
+      }
     }
   });
   if (pdfVisibility(reading, existingMeta) === "public" && toText(reading.public_pdf)) {
@@ -562,35 +774,80 @@ function validateBuildArtifacts(rootDir, reading, existingMeta = {}) {
       errors.push(`missing built public pdf: ${reading.public_pdf}`);
     }
   }
-  return { errors, page_count: requiredPages.length };
+  if (shouldRequireTranslationOriginalRevealBuild(reading, existingMeta, pageResults)) {
+    const translationHtmlPath = path.join(readingDir, "translation.html");
+    if (fs.existsSync(translationHtmlPath)) {
+      const html = readText(translationHtmlPath);
+      const segmentCount = countHtmlClass(html, "translation-segment");
+      const revealCount = countHtmlClass(html, "source-reveal");
+      const expectedCount = Number(pageResults.translation?.metrics?.reveal_entry_count || 0);
+      if (!html.includes('data-original-reveal="enabled"')) {
+        translationErrors.push(`missing built translation original reveal marker: docs/readings/${reading.slug}/translation.html`);
+      }
+      if (segmentCount !== expectedCount) {
+        translationErrors.push(`built translation original reveal segment count mismatch: expected ${expectedCount}, found ${segmentCount} in docs/readings/${reading.slug}/translation.html`);
+      }
+      if (revealCount !== expectedCount) {
+        translationErrors.push(`built translation original reveal body count mismatch: expected ${expectedCount}, found ${revealCount} in docs/readings/${reading.slug}/translation.html`);
+      }
+      if (countHtmlClass(html, "source-reveal-summary") !== expectedCount) {
+        translationErrors.push(`built translation original reveal summary count mismatch: expected ${expectedCount} in docs/readings/${reading.slug}/translation.html`);
+      }
+    } else {
+      translationErrors.push(`missing built page: docs/readings/${reading.slug}/translation.html`);
+    }
+  }
+  return { errors: [...errors, ...translationErrors], translationErrors, page_count: requiredPages.length };
 }
 
 function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = {}) {
   const manualReview = normalizeManualReview(existingMeta.manual_review);
   const landing = validateLandingVideo(rootDir, reading, existingMeta, options);
   const pageResults = {
-    full: validatePage(rootDir, reading, "full", manualReview),
-    translation: validatePage(rootDir, reading, "translation", manualReview),
-    summary: validatePage(rootDir, reading, "summary", manualReview),
-    concepts: validatePage(rootDir, reading, "concepts", manualReview),
-    pitfalls: validatePage(rootDir, reading, "pitfalls", manualReview),
-    "review-sheet": validatePage(rootDir, reading, "review-sheet", manualReview),
-    "professor-prep": validatePage(rootDir, reading, "professor-prep", manualReview),
-    "quiz-ox": validatePage(rootDir, reading, "quiz-ox", manualReview),
-    "quiz-short": validatePage(rootDir, reading, "quiz-short", manualReview),
-    "quiz-mcq": validatePage(rootDir, reading, "quiz-mcq", manualReview),
+    full: validatePage(rootDir, reading, "full", manualReview, existingMeta),
+    translation: validatePage(rootDir, reading, "translation", manualReview, existingMeta),
+    summary: validatePage(rootDir, reading, "summary", manualReview, existingMeta),
+    concepts: validatePage(rootDir, reading, "concepts", manualReview, existingMeta),
+    pitfalls: validatePage(rootDir, reading, "pitfalls", manualReview, existingMeta),
+    "review-sheet": validatePage(rootDir, reading, "review-sheet", manualReview, existingMeta),
+    "professor-prep": validatePage(rootDir, reading, "professor-prep", manualReview, existingMeta),
+    "quiz-ox": validatePage(rootDir, reading, "quiz-ox", manualReview, existingMeta),
+    "quiz-short": validatePage(rootDir, reading, "quiz-short", manualReview, existingMeta),
+    "quiz-mcq": validatePage(rootDir, reading, "quiz-mcq", manualReview, existingMeta),
   };
+  const sourcePageResults = Object.fromEntries(
+    Object.entries(pageResults).map(([pageKey, result]) => [
+      pageKey,
+      {
+        ...result,
+        errors: [...result.errors],
+        warnings: [...result.warnings],
+        metrics: { ...result.metrics },
+      },
+    ])
+  );
 
   const stage1Extra = [];
-  if (options.requireBuiltArtifacts) {
-    const artifactResult = validateBuildArtifacts(rootDir, reading, existingMeta);
+  const stage2Extra = [];
+  const requireBuiltArtifacts = Boolean(
+    options.requireBuiltArtifacts
+    || shouldRequireTranslationOriginalRevealBuild(reading, existingMeta, pageResults)
+  );
+  if (requireBuiltArtifacts) {
+    const artifactResult = validateBuildArtifacts(rootDir, reading, existingMeta, pageResults);
     if (artifactResult.errors.length) {
       stage1Extra.push(...artifactResult.errors.filter((message) => message.includes("public pdf")));
+      if (reading.language === "en") {
+        stage2Extra.push(...artifactResult.errors.filter((message) => message.includes("translation")));
+      }
+    }
+    if (artifactResult.translationErrors.length) {
+      pageResults.translation = applyArtifactErrorsToPageResult(pageResults.translation, artifactResult.translationErrors);
     }
   }
   const stage1 = stageStatusFromPages(pageResults, STAGE1_PAGE_KEYS, { extraNotes: stage1Extra });
   const stage2Required = reading.language === "en" ? STAGE2_PAGE_KEYS : [];
-  const stage2 = stageStatusFromPages(pageResults, stage2Required);
+  const stage2 = stageStatusFromPages(pageResults, stage2Required, { extraNotes: stage2Extra });
   const stage3 = stageStatusFromPages(pageResults, STAGE3_PAGE_KEYS);
 
   let readingStatus = READING_STATUS.PARTIAL;
@@ -622,7 +879,7 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
 
   const validationStatus = {
     updated_at: new Date().toISOString(),
-    require_built_artifacts: Boolean(options.requireBuiltArtifacts),
+    require_built_artifacts: requireBuiltArtifacts,
     landing: {
       status: landing.status,
       errors: landing.errors,
@@ -631,6 +888,17 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
     },
     page_results: Object.fromEntries(
       Object.entries(pageResults).map(([pageKey, result]) => [
+        statusKeyForPage(pageKey),
+        {
+          status: result.status,
+          errors: result.errors,
+          warnings: result.warnings,
+          metrics: result.metrics,
+        },
+      ])
+    ),
+    source_page_results: Object.fromEntries(
+      Object.entries(sourcePageResults).map(([pageKey, result]) => [
         statusKeyForPage(pageKey),
         {
           status: result.status,

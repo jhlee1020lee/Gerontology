@@ -27,9 +27,9 @@
     "pitfalls": "schema_pass",
     "review_sheet": "schema_pass",
     "professor_prep": "schema_fail",
-    "quiz_ox": "schema_pass",
-    "quiz_short": "schema_pass",
-    "quiz_mcq": "schema_pass",
+    "quiz_ox": "schema_fail",
+    "quiz_short": "schema_fail",
+    "quiz_mcq": "schema_fail",
     "index": "schema_pass"
   },
   "content_dir": "content/readings/konrath-et-al-2012",
@@ -52,7 +52,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-07T02:57:21.901Z",
+    "updated_at": "2026-04-09T00:10:06.643Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -207,24 +207,45 @@
         }
       },
       "quiz_ox": {
-        "status": "schema_pass",
-        "errors": [],
+        "status": "schema_fail",
+        "errors": [
+          "quiz-ox item 1 contains unresolved particle template",
+          "quiz-ox item 2 contains unresolved particle template",
+          "quiz-ox item 3 contains unresolved particle template",
+          "quiz-ox item 4 contains unresolved particle template",
+          "quiz-ox item 5 contains unresolved particle template",
+          "quiz-ox item 6 contains unresolved particle template",
+          "quiz-ox item 7 contains unresolved particle template",
+          "quiz-ox item 8 contains unresolved particle template"
+        ],
         "warnings": [],
         "metrics": {
           "item_count": 15
         }
       },
       "quiz_short": {
-        "status": "schema_pass",
-        "errors": [],
+        "status": "schema_fail",
+        "errors": [
+          "quiz-short item 1 contains unresolved particle template",
+          "quiz-short item 2 contains unresolved particle template",
+          "quiz-short item 3 contains unresolved particle template",
+          "quiz-short item 4 contains unresolved particle template",
+          "quiz-short item 5 contains unresolved particle template",
+          "quiz-short item 6 contains unresolved particle template",
+          "quiz-short item 7 contains unresolved particle template",
+          "quiz-short item 7 leaks the accepted answer in the question",
+          "quiz-short item 8 contains unresolved particle template"
+        ],
         "warnings": [],
         "metrics": {
           "item_count": 15
         }
       },
       "quiz_mcq": {
-        "status": "schema_pass",
-        "errors": [],
+        "status": "schema_fail",
+        "errors": [
+          "quiz-mcq uses the same answer position for every item"
+        ],
         "warnings": [],
         "metrics": {
           "item_count": 15
@@ -245,7 +266,10 @@
       "status": "partial",
       "notes": [
         "concepts: section 1 (1. volunteering): missing '한국어 개념명'; section 1 (1. volunteering): missing 'Original English term'; section 1 (1. volunteering): missing '정확한 한 줄 정의'; section 1 (1. volunteering): missing '학생 말투로 풀어쓴 설명'; section 1 (1. volunteering): missing '왜 이 ...에서 중요한지'; section 1 (1. volunteering): missing '자주 헷갈리는 포인트'; section 2 (2. other-oriented motives): missing '한국어 개념명'; section 2 (2. other-oriented motives): missing 'Original English term'; section 2 (2. other-oriented motives): missing '정확한 한 줄 정의'; section 2 (2. other-oriented motives): missing '학생 말투로 풀어쓴 설명'; section 2 (2. other-oriented motives): missing '왜 이 ...에서 중요한지'; section 2 (2. other-oriented motives): missing '자주 헷갈리는 포인트'; section 3 (3. self-oriented motives): missing '한국어 개념명'; section 3 (3. self-oriented motives): missing 'Original English term'; section 3 (3. self-oriented motives): missing '정확한 한 줄 정의'; section 3 (3. self-oriented motives): missing '학생 말투로 풀어쓴 설명'; section 3 (3. self-oriented motives): missing '왜 이 ...에서 중요한지'; section 3 (3. self-oriented motives): missing '자주 헷갈리는 포인트'; section 4 (4. mortality risk): missing '한국어 개념명'; section 4 (4. mortality risk): missing 'Original English term'; section 4 (4. mortality risk): missing '정확한 한 줄 정의'; section 4 (4. mortality risk): missing '학생 말투로 풀어쓴 설명'; section 4 (4. mortality risk): missing '왜 이 ...에서 중요한지'; section 4 (4. mortality risk): missing '자주 헷갈리는 포인트'; section 5 (5. eudaimonic well-being): missing '한국어 개념명'; section 5 (5. eudaimonic well-being): missing 'Original English term'; section 5 (5. eudaimonic well-being): missing '정확한 한 줄 정의'; section 5 (5. eudaimonic well-being): missing '학생 말투로 풀어쓴 설명'; section 5 (5. eudaimonic well-being): missing '왜 이 ...에서 중요한지'; section 5 (5. eudaimonic well-being): missing '자주 헷갈리는 포인트'; section 6 (6. social resources): missing '한국어 개념명'; section 6 (6. social resources): missing 'Original English term'; section 6 (6. social resources): missing '정확한 한 줄 정의'; section 6 (6. social resources): missing '학생 말투로 풀어쓴 설명'; section 6 (6. social resources): missing '왜 이 ...에서 중요한지'; section 6 (6. social resources): missing '자주 헷갈리는 포인트'; section 7 (7. WLS): missing '한국어 개념명'; section 7 (7. WLS): missing 'Original English term'; section 7 (7. WLS): missing '정확한 한 줄 정의'; section 7 (7. WLS): missing '학생 말투로 풀어쓴 설명'; section 7 (7. WLS): missing '왜 이 ...에서 중요한지'; section 7 (7. WLS): missing '자주 헷갈리는 포인트'; section 8 (8. logistic regression): missing '한국어 개념명'; section 8 (8. logistic regression): missing 'Original English term'; section 8 (8. logistic regression): missing '정확한 한 줄 정의'; section 8 (8. logistic regression): missing '학생 말투로 풀어쓴 설명'; section 8 (8. logistic regression): missing '왜 이 ...에서 중요한지'; section 8 (8. logistic regression): missing '자주 헷갈리는 포인트'",
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
+        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
+        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
+        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 7 leaks the accepted answer in the question; quiz-short item 8 contains unresolved particle template",
+        "quiz-mcq: quiz-mcq uses the same answer position for every item"
       ]
     },
     "reading": {
@@ -253,7 +277,10 @@
       "notes": [
         "translation: content is too short (<200 words); translation is suspiciously short relative to full text",
         "concepts: section 1 (1. volunteering): missing '한국어 개념명'; section 1 (1. volunteering): missing 'Original English term'; section 1 (1. volunteering): missing '정확한 한 줄 정의'; section 1 (1. volunteering): missing '학생 말투로 풀어쓴 설명'; section 1 (1. volunteering): missing '왜 이 ...에서 중요한지'; section 1 (1. volunteering): missing '자주 헷갈리는 포인트'; section 2 (2. other-oriented motives): missing '한국어 개념명'; section 2 (2. other-oriented motives): missing 'Original English term'; section 2 (2. other-oriented motives): missing '정확한 한 줄 정의'; section 2 (2. other-oriented motives): missing '학생 말투로 풀어쓴 설명'; section 2 (2. other-oriented motives): missing '왜 이 ...에서 중요한지'; section 2 (2. other-oriented motives): missing '자주 헷갈리는 포인트'; section 3 (3. self-oriented motives): missing '한국어 개념명'; section 3 (3. self-oriented motives): missing 'Original English term'; section 3 (3. self-oriented motives): missing '정확한 한 줄 정의'; section 3 (3. self-oriented motives): missing '학생 말투로 풀어쓴 설명'; section 3 (3. self-oriented motives): missing '왜 이 ...에서 중요한지'; section 3 (3. self-oriented motives): missing '자주 헷갈리는 포인트'; section 4 (4. mortality risk): missing '한국어 개념명'; section 4 (4. mortality risk): missing 'Original English term'; section 4 (4. mortality risk): missing '정확한 한 줄 정의'; section 4 (4. mortality risk): missing '학생 말투로 풀어쓴 설명'; section 4 (4. mortality risk): missing '왜 이 ...에서 중요한지'; section 4 (4. mortality risk): missing '자주 헷갈리는 포인트'; section 5 (5. eudaimonic well-being): missing '한국어 개념명'; section 5 (5. eudaimonic well-being): missing 'Original English term'; section 5 (5. eudaimonic well-being): missing '정확한 한 줄 정의'; section 5 (5. eudaimonic well-being): missing '학생 말투로 풀어쓴 설명'; section 5 (5. eudaimonic well-being): missing '왜 이 ...에서 중요한지'; section 5 (5. eudaimonic well-being): missing '자주 헷갈리는 포인트'; section 6 (6. social resources): missing '한국어 개념명'; section 6 (6. social resources): missing 'Original English term'; section 6 (6. social resources): missing '정확한 한 줄 정의'; section 6 (6. social resources): missing '학생 말투로 풀어쓴 설명'; section 6 (6. social resources): missing '왜 이 ...에서 중요한지'; section 6 (6. social resources): missing '자주 헷갈리는 포인트'; section 7 (7. WLS): missing '한국어 개념명'; section 7 (7. WLS): missing 'Original English term'; section 7 (7. WLS): missing '정확한 한 줄 정의'; section 7 (7. WLS): missing '학생 말투로 풀어쓴 설명'; section 7 (7. WLS): missing '왜 이 ...에서 중요한지'; section 7 (7. WLS): missing '자주 헷갈리는 포인트'; section 8 (8. logistic regression): missing '한국어 개념명'; section 8 (8. logistic regression): missing 'Original English term'; section 8 (8. logistic regression): missing '정확한 한 줄 정의'; section 8 (8. logistic regression): missing '학생 말투로 풀어쓴 설명'; section 8 (8. logistic regression): missing '왜 이 ...에서 중요한지'; section 8 (8. logistic regression): missing '자주 헷갈리는 포인트'",
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
+        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
+        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
+        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 7 leaks the accepted answer in the question; quiz-short item 8 contains unresolved particle template",
+        "quiz-mcq: quiz-mcq uses the same answer position for every item"
       ]
     }
   },
@@ -261,7 +288,10 @@
   "workflow_notes": [
     "translation: content is too short (<200 words); translation is suspiciously short relative to full text",
     "concepts: section 1 (1. volunteering): missing '한국어 개념명'; section 1 (1. volunteering): missing 'Original English term'; section 1 (1. volunteering): missing '정확한 한 줄 정의'; section 1 (1. volunteering): missing '학생 말투로 풀어쓴 설명'; section 1 (1. volunteering): missing '왜 이 ...에서 중요한지'; section 1 (1. volunteering): missing '자주 헷갈리는 포인트'; section 2 (2. other-oriented motives): missing '한국어 개념명'; section 2 (2. other-oriented motives): missing 'Original English term'; section 2 (2. other-oriented motives): missing '정확한 한 줄 정의'; section 2 (2. other-oriented motives): missing '학생 말투로 풀어쓴 설명'; section 2 (2. other-oriented motives): missing '왜 이 ...에서 중요한지'; section 2 (2. other-oriented motives): missing '자주 헷갈리는 포인트'; section 3 (3. self-oriented motives): missing '한국어 개념명'; section 3 (3. self-oriented motives): missing 'Original English term'; section 3 (3. self-oriented motives): missing '정확한 한 줄 정의'; section 3 (3. self-oriented motives): missing '학생 말투로 풀어쓴 설명'; section 3 (3. self-oriented motives): missing '왜 이 ...에서 중요한지'; section 3 (3. self-oriented motives): missing '자주 헷갈리는 포인트'; section 4 (4. mortality risk): missing '한국어 개념명'; section 4 (4. mortality risk): missing 'Original English term'; section 4 (4. mortality risk): missing '정확한 한 줄 정의'; section 4 (4. mortality risk): missing '학생 말투로 풀어쓴 설명'; section 4 (4. mortality risk): missing '왜 이 ...에서 중요한지'; section 4 (4. mortality risk): missing '자주 헷갈리는 포인트'; section 5 (5. eudaimonic well-being): missing '한국어 개념명'; section 5 (5. eudaimonic well-being): missing 'Original English term'; section 5 (5. eudaimonic well-being): missing '정확한 한 줄 정의'; section 5 (5. eudaimonic well-being): missing '학생 말투로 풀어쓴 설명'; section 5 (5. eudaimonic well-being): missing '왜 이 ...에서 중요한지'; section 5 (5. eudaimonic well-being): missing '자주 헷갈리는 포인트'; section 6 (6. social resources): missing '한국어 개념명'; section 6 (6. social resources): missing 'Original English term'; section 6 (6. social resources): missing '정확한 한 줄 정의'; section 6 (6. social resources): missing '학생 말투로 풀어쓴 설명'; section 6 (6. social resources): missing '왜 이 ...에서 중요한지'; section 6 (6. social resources): missing '자주 헷갈리는 포인트'; section 7 (7. WLS): missing '한국어 개념명'; section 7 (7. WLS): missing 'Original English term'; section 7 (7. WLS): missing '정확한 한 줄 정의'; section 7 (7. WLS): missing '학생 말투로 풀어쓴 설명'; section 7 (7. WLS): missing '왜 이 ...에서 중요한지'; section 7 (7. WLS): missing '자주 헷갈리는 포인트'; section 8 (8. logistic regression): missing '한국어 개념명'; section 8 (8. logistic regression): missing 'Original English term'; section 8 (8. logistic regression): missing '정확한 한 줄 정의'; section 8 (8. logistic regression): missing '학생 말투로 풀어쓴 설명'; section 8 (8. logistic regression): missing '왜 이 ...에서 중요한지'; section 8 (8. logistic regression): missing '자주 헷갈리는 포인트'",
-    "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
+    "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
+    "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
+    "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 7 leaks the accepted answer in the question; quiz-short item 8 contains unresolved particle template",
+    "quiz-mcq: quiz-mcq uses the same answer position for every item"
   ],
   "shared_page_bundle": null,
   "shared_page_keys": [],

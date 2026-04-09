@@ -1,0 +1,907 @@
+{
+  "version": 2,
+  "reading_slug": "hulur-et-al-2019",
+  "page": "translation",
+  "entries": [
+    {
+      "id": "abstract-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 1,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 1
+      }
+    },
+    {
+      "id": "abstract-keywords-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 2,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 2
+      }
+    },
+    {
+      "id": "intro-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 4,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 4
+      }
+    },
+    {
+      "id": "intro-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 5,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 4
+      }
+    },
+    {
+      "id": "intro-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 6,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 4
+      }
+    },
+    {
+      "id": "editor-info-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 8,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 6
+      }
+    },
+    {
+      "id": "possible-explanations-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 10,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 8
+      }
+    },
+    {
+      "id": "possible-explanations-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 11,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 8
+      }
+    },
+    {
+      "id": "work-env-aging-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 13,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 10
+      }
+    },
+    {
+      "id": "work-env-aging-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 14,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 10
+      }
+    },
+    {
+      "id": "work-env-aging-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 15,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 10
+      }
+    },
+    {
+      "id": "work-env-aging-p3",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 16,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 10
+      }
+    },
+    {
+      "id": "present-study-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 18,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 12
+      }
+    },
+    {
+      "id": "present-study-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 19,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 12
+      }
+    },
+    {
+      "id": "present-study-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 20,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 12
+      }
+    },
+    {
+      "id": "participants-procedure-intro-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 23,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 14
+      }
+    },
+    {
+      "id": "participants-procedure-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 24,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 16
+      }
+    },
+    {
+      "id": "participants-procedure-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 25,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 16
+      }
+    },
+    {
+      "id": "cognitive-abilities-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 28,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 19
+      }
+    },
+    {
+      "id": "cognitive-abilities-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 29,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 19
+      }
+    },
+    {
+      "id": "cognitive-abilities-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 30,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 19
+      }
+    },
+    {
+      "id": "cohort-measure-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 32,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 21
+      }
+    },
+    {
+      "id": "time-metric-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 34,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 23
+      }
+    },
+    {
+      "id": "perceived-work-environment-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 36,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 25
+      }
+    },
+    {
+      "id": "perceived-work-environment-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 37,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 25
+      }
+    },
+    {
+      "id": "perceived-work-environment-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 38,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 25
+      }
+    },
+    {
+      "id": "covariates-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 40,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 27
+      }
+    },
+    {
+      "id": "data-preparation-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 42,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 32
+      }
+    },
+    {
+      "id": "data-preparation-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 43,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 32
+      }
+    },
+    {
+      "id": "data-preparation-table1-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 46,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 29
+      }
+    },
+    {
+      "id": "data-preparation-table1-note-p3",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 48,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 29
+      }
+    },
+    {
+      "id": "data-preparation-figure1-p4",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 51,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 30
+      }
+    },
+    {
+      "id": "data-preparation-p5",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 52,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 32
+      }
+    },
+    {
+      "id": "data-preparation-table2-p6",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 55,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 31
+      }
+    },
+    {
+      "id": "data-preparation-table2-p7",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 56,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 31
+      }
+    },
+    {
+      "id": "data-preparation-table2-p8",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 58,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 31
+      }
+    },
+    {
+      "id": "data-preparation-table2-p9",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 60,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 31
+      }
+    },
+    {
+      "id": "data-analysis-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 62,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 34
+      }
+    },
+    {
+      "id": "data-analysis-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 63,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 34
+      }
+    },
+    {
+      "id": "data-analysis-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 64,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 34
+      }
+    },
+    {
+      "id": "data-analysis-p3",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 65,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 34
+      }
+    },
+    {
+      "id": "data-analysis-p4",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 66,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 34
+      }
+    },
+    {
+      "id": "data-analysis-p5",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 67,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 34
+      }
+    },
+    {
+      "id": "data-analysis-p6",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 68,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 34
+      }
+    },
+    {
+      "id": "results-cohort-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 71,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 38
+      }
+    },
+    {
+      "id": "results-cohort-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 72,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 38
+      }
+    },
+    {
+      "id": "results-cohort-table3-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 75,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 37
+      }
+    },
+    {
+      "id": "results-cohort-table3-p3",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 76,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 37
+      }
+    },
+    {
+      "id": "results-work-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 78,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 43
+      }
+    },
+    {
+      "id": "results-work-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 79,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 43
+      }
+    },
+    {
+      "id": "results-work-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 80,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 43
+      }
+    },
+    {
+      "id": "results-work-p3",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 81,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 43
+      }
+    },
+    {
+      "id": "results-work-table4-p4",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 84,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 40
+      }
+    },
+    {
+      "id": "results-work-table4-p5",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 85,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 40
+      }
+    },
+    {
+      "id": "results-work-table5-p6",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 88,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 41
+      }
+    },
+    {
+      "id": "results-work-table5-p7",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 89,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 41
+      }
+    },
+    {
+      "id": "results-work-table6-p8",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 92,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 42
+      }
+    },
+    {
+      "id": "results-work-table6-p9",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 93,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 42
+      }
+    },
+    {
+      "id": "results-work-figure2-p10",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 98,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 47
+      }
+    },
+    {
+      "id": "results-work-figure3-p11",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 99,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 50
+      }
+    },
+    {
+      "id": "results-work-figure4-p12",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 100,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 51
+      }
+    },
+    {
+      "id": "discussion-overview-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 102,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 45
+      }
+    },
+    {
+      "id": "discussion-overview-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 103,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 45
+      }
+    },
+    {
+      "id": "discussion-cohort-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 105,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 48
+      }
+    },
+    {
+      "id": "discussion-cohort-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 106,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 48
+      }
+    },
+    {
+      "id": "discussion-history-graded-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 108,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 52
+      }
+    },
+    {
+      "id": "discussion-history-graded-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 109,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 52
+      }
+    },
+    {
+      "id": "discussion-limitations-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 111,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 54
+      }
+    },
+    {
+      "id": "discussion-limitations-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 112,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 54
+      }
+    },
+    {
+      "id": "conclusions-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 114,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 56
+      }
+    },
+    {
+      "id": "references-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 116,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 58
+      }
+    },
+    {
+      "id": "references-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 117,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 58
+      }
+    },
+    {
+      "id": "references-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 118,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 58
+      }
+    },
+    {
+      "id": "publication-history-p3",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 119,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 61
+      }
+    },
+    {
+      "id": "publication-history-p4",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 120,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 62
+      }
+    }
+  ]
+}

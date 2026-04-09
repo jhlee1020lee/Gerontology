@@ -88,9 +88,18 @@ function getCurrentChatbotContext(){
   const headingTitle=(document.querySelector(".article-header h1")?.textContent||"").trim();
   return{
     pageKind:(document.body.dataset.pageKind||"").trim(),
+    readingPage:(document.body.dataset.readingPage||"").trim(),
     readingSlug:readingMatch?decodeURIComponent(readingMatch[1]).trim():"",
     readingTitle:headingTitle
   };
+}
+
+function chatbotStorageKey(context=getCurrentChatbotContext()){
+  if(context.readingSlug){
+    const scope=[context.readingSlug,context.readingPage||context.pageKind||"page"].filter(Boolean).join(":");
+    return `${CHATBOT_STORAGE_KEY}:${scope}`;
+  }
+  return CHATBOT_STORAGE_KEY;
 }
 
 function getChatbotCorpusChunks(){
@@ -126,7 +135,10 @@ function selectChatbotMaterials(query,maxItems,context=getCurrentChatbotContext(
   const readingScopedChunks=context.readingSlug
     ? allChunks.filter((chunk)=>String(chunk?.slug||"").trim()===context.readingSlug)
     : allChunks;
-  const sourceChunks=readingScopedChunks.length?readingScopedChunks:allChunks;
+  const pageScopedChunks=context.readingPage
+    ? readingScopedChunks.filter((chunk)=>String(chunk?.pageKey||"").trim()===context.readingPage)
+    : [];
+  const sourceChunks=pageScopedChunks.length?pageScopedChunks:(readingScopedChunks.length?readingScopedChunks:allChunks);
   const matches=sourceChunks
     .map((chunk)=>({chunk,score:scoreChatbotChunk(chunk,queryTokens,queryText)}))
     .filter((entry)=>entry.score>0)
@@ -394,12 +406,14 @@ function initHomeChatbot(){
   const input=root.querySelector("[data-chatbot-input]");
   const submit=root.querySelector("[data-chatbot-submit]");
   if(!toggle||!panel||!viewport||!form||!input||!submit)return;
+  const pageContext=getCurrentChatbotContext();
+  const storageKey=chatbotStorageKey(pageContext);
 
   const state={
     open:false,
     loading:false,
     controller:null,
-    messages:normalizeChatbotMessages(storage.get(CHATBOT_STORAGE_KEY,[]))
+    messages:normalizeChatbotMessages(storage.get(storageKey,[]))
   };
 
   const idleSubmitLabel=submit.textContent;
@@ -410,7 +424,7 @@ function initHomeChatbot(){
   }
 
   function persistMessages(){
-    storage.set(CHATBOT_STORAGE_KEY,state.messages.slice(-20));
+    storage.set(storageKey,state.messages.slice(-20));
   }
 
   function scrollMessagesToEnd(){
@@ -616,6 +630,10 @@ function cleanHeadingText(text){
   return String(text||"").replace(/\s*중요\s*$/," ").trim();
 }
 
+function isReaderHeading(heading){
+  return Boolean(heading)&&heading.dataset?.readerToc!=="false";
+}
+
 function setFontScale(scale){
   const clamped=Math.min(1.35,Math.max(0.9,Number(scale.toFixed(2))));
   document.documentElement.style.setProperty("--reader-font-scale",String(clamped));
@@ -671,7 +689,7 @@ function initReader(){
     updateBookmark();
   }
 
-  const headings=Array.from(articleBody.querySelectorAll("h2,h3,h4"));
+  const headings=Array.from(articleBody.querySelectorAll("h2,h3,h4")).filter(isReaderHeading);
   const renderImportantList=()=>{
     if(!importantList)return;
     if(!headings.length){

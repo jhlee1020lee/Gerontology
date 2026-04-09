@@ -27,9 +27,9 @@
     "pitfalls": "schema_pass",
     "review_sheet": "schema_pass",
     "professor_prep": "schema_fail",
-    "quiz_ox": "schema_pass",
-    "quiz_short": "schema_pass",
-    "quiz_mcq": "schema_pass",
+    "quiz_ox": "schema_fail",
+    "quiz_short": "schema_fail",
+    "quiz_mcq": "schema_fail",
     "index": "schema_pass"
   },
   "content_dir": "content/readings/ch08-gerontology",
@@ -52,7 +52,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-07T03:01:04.324Z",
+    "updated_at": "2026-04-09T00:10:06.512Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -197,24 +197,44 @@
         }
       },
       "quiz_ox": {
-        "status": "schema_pass",
-        "errors": [],
+        "status": "schema_fail",
+        "errors": [
+          "quiz-ox item 1 contains unresolved particle template",
+          "quiz-ox item 2 contains unresolved particle template",
+          "quiz-ox item 3 contains unresolved particle template",
+          "quiz-ox item 4 contains unresolved particle template",
+          "quiz-ox item 5 contains unresolved particle template",
+          "quiz-ox item 6 contains unresolved particle template",
+          "quiz-ox item 7 contains unresolved particle template",
+          "quiz-ox item 8 contains unresolved particle template"
+        ],
         "warnings": [],
         "metrics": {
           "item_count": 15
         }
       },
       "quiz_short": {
-        "status": "schema_pass",
-        "errors": [],
+        "status": "schema_fail",
+        "errors": [
+          "quiz-short item 1 contains unresolved particle template",
+          "quiz-short item 2 contains unresolved particle template",
+          "quiz-short item 3 contains unresolved particle template",
+          "quiz-short item 4 contains unresolved particle template",
+          "quiz-short item 5 contains unresolved particle template",
+          "quiz-short item 6 contains unresolved particle template",
+          "quiz-short item 7 contains unresolved particle template",
+          "quiz-short item 8 contains unresolved particle template"
+        ],
         "warnings": [],
         "metrics": {
           "item_count": 15
         }
       },
       "quiz_mcq": {
-        "status": "schema_pass",
-        "errors": [],
+        "status": "schema_fail",
+        "errors": [
+          "quiz-mcq uses the same answer position for every item"
+        ],
         "warnings": [],
         "metrics": {
           "item_count": 15
@@ -233,21 +253,30 @@
       "status": "partial",
       "notes": [
         "concepts: section 1 (1. 관계수명): missing '한국어 개념명'; section 1 (1. 관계수명): missing 'Original English term'; section 1 (1. 관계수명): missing '정확한 한 줄 정의'; section 1 (1. 관계수명): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 관계수명): missing '왜 이 ...에서 중요한지'; section 1 (1. 관계수명): missing '자주 헷갈리는 포인트'; section 2 (2. 콩깍지형 가족): missing '한국어 개념명'; section 2 (2. 콩깍지형 가족): missing 'Original English term'; section 2 (2. 콩깍지형 가족): missing '정확한 한 줄 정의'; section 2 (2. 콩깍지형 가족): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 콩깍지형 가족): missing '왜 이 ...에서 중요한지'; section 2 (2. 콩깍지형 가족): missing '자주 헷갈리는 포인트'; section 3 (3. 다세대 가족 모델): missing '한국어 개념명'; section 3 (3. 다세대 가족 모델): missing 'Original English term'; section 3 (3. 다세대 가족 모델): missing '정확한 한 줄 정의'; section 3 (3. 다세대 가족 모델): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 다세대 가족 모델): missing '왜 이 ...에서 중요한지'; section 3 (3. 다세대 가족 모델): missing '자주 헷갈리는 포인트'; section 4 (4. 오메가 세대): missing '한국어 개념명'; section 4 (4. 오메가 세대): missing 'Original English term'; section 4 (4. 오메가 세대): missing '정확한 한 줄 정의'; section 4 (4. 오메가 세대): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 오메가 세대): missing '왜 이 ...에서 중요한지'; section 4 (4. 오메가 세대): missing '자주 헷갈리는 포인트'; section 5 (5. 알파 세대): missing '한국어 개념명'; section 5 (5. 알파 세대): missing 'Original English term'; section 5 (5. 알파 세대): missing '정확한 한 줄 정의'; section 5 (5. 알파 세대): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 알파 세대): missing '왜 이 ...에서 중요한지'; section 5 (5. 알파 세대): missing '자주 헷갈리는 포인트'; section 6 (6. 야누스 세대): missing '한국어 개념명'; section 6 (6. 야누스 세대): missing 'Original English term'; section 6 (6. 야누스 세대): missing '정확한 한 줄 정의'; section 6 (6. 야누스 세대): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 야누스 세대): missing '왜 이 ...에서 중요한지'; section 6 (6. 야누스 세대): missing '자주 헷갈리는 포인트'; section 7 (7. 세대관계 약화설): missing '한국어 개념명'; section 7 (7. 세대관계 약화설): missing 'Original English term'; section 7 (7. 세대관계 약화설): missing '정확한 한 줄 정의'; section 7 (7. 세대관계 약화설): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 세대관계 약화설): missing '왜 이 ...에서 중요한지'; section 7 (7. 세대관계 약화설): missing '자주 헷갈리는 포인트'; section 8 (8. 세대 간 결속): missing '한국어 개념명'; section 8 (8. 세대 간 결속): missing 'Original English term'; section 8 (8. 세대 간 결속): missing '정확한 한 줄 정의'; section 8 (8. 세대 간 결속): missing '학생 말투로 풀어쓴 설명'; section 8 (8. 세대 간 결속): missing '왜 이 ...에서 중요한지'; section 8 (8. 세대 간 결속): missing '자주 헷갈리는 포인트'",
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
+        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
+        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
+        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template",
+        "quiz-mcq: quiz-mcq uses the same answer position for every item"
       ]
     },
     "reading": {
       "status": "partial",
       "notes": [
         "concepts: section 1 (1. 관계수명): missing '한국어 개념명'; section 1 (1. 관계수명): missing 'Original English term'; section 1 (1. 관계수명): missing '정확한 한 줄 정의'; section 1 (1. 관계수명): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 관계수명): missing '왜 이 ...에서 중요한지'; section 1 (1. 관계수명): missing '자주 헷갈리는 포인트'; section 2 (2. 콩깍지형 가족): missing '한국어 개념명'; section 2 (2. 콩깍지형 가족): missing 'Original English term'; section 2 (2. 콩깍지형 가족): missing '정확한 한 줄 정의'; section 2 (2. 콩깍지형 가족): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 콩깍지형 가족): missing '왜 이 ...에서 중요한지'; section 2 (2. 콩깍지형 가족): missing '자주 헷갈리는 포인트'; section 3 (3. 다세대 가족 모델): missing '한국어 개념명'; section 3 (3. 다세대 가족 모델): missing 'Original English term'; section 3 (3. 다세대 가족 모델): missing '정확한 한 줄 정의'; section 3 (3. 다세대 가족 모델): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 다세대 가족 모델): missing '왜 이 ...에서 중요한지'; section 3 (3. 다세대 가족 모델): missing '자주 헷갈리는 포인트'; section 4 (4. 오메가 세대): missing '한국어 개념명'; section 4 (4. 오메가 세대): missing 'Original English term'; section 4 (4. 오메가 세대): missing '정확한 한 줄 정의'; section 4 (4. 오메가 세대): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 오메가 세대): missing '왜 이 ...에서 중요한지'; section 4 (4. 오메가 세대): missing '자주 헷갈리는 포인트'; section 5 (5. 알파 세대): missing '한국어 개념명'; section 5 (5. 알파 세대): missing 'Original English term'; section 5 (5. 알파 세대): missing '정확한 한 줄 정의'; section 5 (5. 알파 세대): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 알파 세대): missing '왜 이 ...에서 중요한지'; section 5 (5. 알파 세대): missing '자주 헷갈리는 포인트'; section 6 (6. 야누스 세대): missing '한국어 개념명'; section 6 (6. 야누스 세대): missing 'Original English term'; section 6 (6. 야누스 세대): missing '정확한 한 줄 정의'; section 6 (6. 야누스 세대): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 야누스 세대): missing '왜 이 ...에서 중요한지'; section 6 (6. 야누스 세대): missing '자주 헷갈리는 포인트'; section 7 (7. 세대관계 약화설): missing '한국어 개념명'; section 7 (7. 세대관계 약화설): missing 'Original English term'; section 7 (7. 세대관계 약화설): missing '정확한 한 줄 정의'; section 7 (7. 세대관계 약화설): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 세대관계 약화설): missing '왜 이 ...에서 중요한지'; section 7 (7. 세대관계 약화설): missing '자주 헷갈리는 포인트'; section 8 (8. 세대 간 결속): missing '한국어 개념명'; section 8 (8. 세대 간 결속): missing 'Original English term'; section 8 (8. 세대 간 결속): missing '정확한 한 줄 정의'; section 8 (8. 세대 간 결속): missing '학생 말투로 풀어쓴 설명'; section 8 (8. 세대 간 결속): missing '왜 이 ...에서 중요한지'; section 8 (8. 세대 간 결속): missing '자주 헷갈리는 포인트'",
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
+        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
+        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
+        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template",
+        "quiz-mcq: quiz-mcq uses the same answer position for every item"
       ]
     }
   },
   "workflow_status": "partial",
   "workflow_notes": [
     "concepts: section 1 (1. 관계수명): missing '한국어 개념명'; section 1 (1. 관계수명): missing 'Original English term'; section 1 (1. 관계수명): missing '정확한 한 줄 정의'; section 1 (1. 관계수명): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 관계수명): missing '왜 이 ...에서 중요한지'; section 1 (1. 관계수명): missing '자주 헷갈리는 포인트'; section 2 (2. 콩깍지형 가족): missing '한국어 개념명'; section 2 (2. 콩깍지형 가족): missing 'Original English term'; section 2 (2. 콩깍지형 가족): missing '정확한 한 줄 정의'; section 2 (2. 콩깍지형 가족): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 콩깍지형 가족): missing '왜 이 ...에서 중요한지'; section 2 (2. 콩깍지형 가족): missing '자주 헷갈리는 포인트'; section 3 (3. 다세대 가족 모델): missing '한국어 개념명'; section 3 (3. 다세대 가족 모델): missing 'Original English term'; section 3 (3. 다세대 가족 모델): missing '정확한 한 줄 정의'; section 3 (3. 다세대 가족 모델): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 다세대 가족 모델): missing '왜 이 ...에서 중요한지'; section 3 (3. 다세대 가족 모델): missing '자주 헷갈리는 포인트'; section 4 (4. 오메가 세대): missing '한국어 개념명'; section 4 (4. 오메가 세대): missing 'Original English term'; section 4 (4. 오메가 세대): missing '정확한 한 줄 정의'; section 4 (4. 오메가 세대): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 오메가 세대): missing '왜 이 ...에서 중요한지'; section 4 (4. 오메가 세대): missing '자주 헷갈리는 포인트'; section 5 (5. 알파 세대): missing '한국어 개념명'; section 5 (5. 알파 세대): missing 'Original English term'; section 5 (5. 알파 세대): missing '정확한 한 줄 정의'; section 5 (5. 알파 세대): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 알파 세대): missing '왜 이 ...에서 중요한지'; section 5 (5. 알파 세대): missing '자주 헷갈리는 포인트'; section 6 (6. 야누스 세대): missing '한국어 개념명'; section 6 (6. 야누스 세대): missing 'Original English term'; section 6 (6. 야누스 세대): missing '정확한 한 줄 정의'; section 6 (6. 야누스 세대): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 야누스 세대): missing '왜 이 ...에서 중요한지'; section 6 (6. 야누스 세대): missing '자주 헷갈리는 포인트'; section 7 (7. 세대관계 약화설): missing '한국어 개념명'; section 7 (7. 세대관계 약화설): missing 'Original English term'; section 7 (7. 세대관계 약화설): missing '정확한 한 줄 정의'; section 7 (7. 세대관계 약화설): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 세대관계 약화설): missing '왜 이 ...에서 중요한지'; section 7 (7. 세대관계 약화설): missing '자주 헷갈리는 포인트'; section 8 (8. 세대 간 결속): missing '한국어 개념명'; section 8 (8. 세대 간 결속): missing 'Original English term'; section 8 (8. 세대 간 결속): missing '정확한 한 줄 정의'; section 8 (8. 세대 간 결속): missing '학생 말투로 풀어쓴 설명'; section 8 (8. 세대 간 결속): missing '왜 이 ...에서 중요한지'; section 8 (8. 세대 간 결속): missing '자주 헷갈리는 포인트'",
-    "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title"
+    "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
+    "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
+    "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template",
+    "quiz-mcq: quiz-mcq uses the same answer position for every item"
   ],
   "shared_page_bundle": null,
   "shared_page_keys": [],

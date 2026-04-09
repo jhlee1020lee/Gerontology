@@ -64,6 +64,7 @@ Common authored source files in a reading folder include:
 - Work one reading at a time.
 - Treat extraction, translation, study-package pages, and lecture-recording analysis as separate stages.
 - Keep `full.html` as full original text and `translation.html` as full Korean translation for English readings.
+- Use the long-form reading layout only on `full.html` and `translation.html`; keep summary, quiz, review, and professor-prep pages on their lighter page templates.
 - Use `summary.html` as the only summarized page.
 - Validate each stage before moving to the next one.
 - Never do a full-reading all-at-once batch; if a pass starts spanning multiple stages, page families, or context limits, split it again before continuing.

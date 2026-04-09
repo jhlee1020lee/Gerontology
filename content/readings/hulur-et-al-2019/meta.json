@@ -50,6 +50,11 @@
   "notebooklm_video_url": "assets/videos/hulur-et-al-2019/notebooklm.mp4",
   "notebooklm_video_note": null,
   "notebooklm_video_poster": null,
+  "translation_original_reveal": {
+    "enabled": true,
+    "alignment_file": "translation_alignment.json",
+    "mode": "details"
+  },
   "manual_review": {
     "approved_pages": [
       "full",
@@ -71,7 +76,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-07T02:47:09.316Z",
+    "updated_at": "2026-04-09T02:31:21.689Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -89,7 +94,7 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 11570,
+          "word_count": 9726,
           "section_count": 10,
           "sub_section_count": 11,
           "bullet_count": 0
@@ -104,8 +109,115 @@
           "section_count": 10,
           "sub_section_count": 18,
           "bullet_count": 15,
-          "full_word_count": 11570,
-          "translation_ratio": 0.576
+          "full_word_count": 9726,
+          "translation_ratio": 0.686,
+          "original_reveal_enabled": true,
+          "reveal_entry_count": 75
+        }
+      },
+      "summary": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 442,
+          "section_count": 3,
+          "sub_section_count": 0,
+          "bullet_count": 16
+        }
+      },
+      "concepts": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 772,
+          "section_count": 9,
+          "sub_section_count": 0,
+          "bullet_count": 54,
+          "concept_count": 9
+        }
+      },
+      "pitfalls": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 614,
+          "section_count": 8,
+          "sub_section_count": 0,
+          "bullet_count": 32
+        }
+      },
+      "review_sheet": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 326,
+          "section_count": 5,
+          "sub_section_count": 0,
+          "bullet_count": 32
+        }
+      },
+      "professor_prep": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "card_count": 15
+        }
+      },
+      "quiz_ox": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_short": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_mcq": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      }
+    },
+    "source_page_results": {
+      "full": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 9726,
+          "section_count": 10,
+          "sub_section_count": 11,
+          "bullet_count": 0
+        }
+      },
+      "translation": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 6669,
+          "section_count": 10,
+          "sub_section_count": 18,
+          "bullet_count": 15,
+          "full_word_count": 9726,
+          "translation_ratio": 0.686,
+          "original_reveal_enabled": true,
+          "reveal_entry_count": 75
         }
       },
       "summary": {

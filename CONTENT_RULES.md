@@ -521,6 +521,12 @@ Bad expansions inside the template:
 - Landing-page explanation videos may be added later, but they are not part of Stage 1 validation.
 - If extraction quality is poor, fix extraction first instead of publishing obviously broken text.
 - Never substitute summary content into `full.html`.
+- `full.html` is a long-form reading page and must use the reading-only reader shell.
+- The reader shell for `full.html` must stay focused on reading: build-time TOC, narrow reading measure, figure/table open action, and no font-size/bookmark/resume controls.
+- Build the TOC from content headings, not from runtime DOM mutation.
+- Exclude frontmatter, backmatter (`References`, `Publication History`, and equivalents), and table/figure labels from the TOC.
+- Prefer topic/section headings in the TOC; do not turn table/figure labels into navigational headings.
+- On narrow screens, move reading navigation above the article body rather than leaving it below the full text.
 
 ### 10.4 한국어 번역
 - English readings must be translated only after Stage 1 extraction is complete.
@@ -538,6 +544,10 @@ Bad expansions inside the template:
 - If translation cannot be completed cleanly, mark the reading blocked rather than pretending the page is finished.
 - Translation quality matters more than raw batch speed.
 - Never substitute summary content into `translation.html`.
+- `translation.html` uses the same long-form reading shell as `full.html`, and that shell applies only to these reading-text pages.
+- Keep translation navigation static and build-time generated, using the translated heading structure as the TOC source.
+- Exclude frontmatter, backmatter (`참고문헌`, `출판 이력`, and equivalents), and table/figure labels from the TOC.
+- When a translated page already supplies Korean table/figure explanation immediately around the asset, do not repeat the original English figcaption in the visible reading flow.
 
 ### 10.5 핵심 개념
 For each major concept, include:

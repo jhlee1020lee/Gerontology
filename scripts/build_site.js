@@ -1,8 +1,9 @@
-const fs=require("fs");
+﻿const fs=require("fs");
 const path=require("path");
 
 const {PAGE_STATUS,READING_STATUS,buildValidationSnapshot,mergeValidationFields}=require("./validate_content");
 const {writeApprovalStatusReport}=require("./approval_status");
+const {normalizeTranslationOriginalRevealConfig,parseMarkdownDocument,resolveTranslationAlignment}=require("./translation_original_reveal");
 
 const rootDir=path.resolve(__dirname,"..");
 const manifestPath=path.join(rootDir,"manifest","readings.json");
@@ -15,6 +16,7 @@ const CHATBOT_CORPUS_CHARS=900;
 const LANDING_TAB_LABEL="설명 영상";
 const NOTEBOOKLM_VIDEO_CANDIDATES=["notebooklm.mp4","notebooklm.webm","notebooklm.mov","notebooklm.m4v"];
 const THUMBNAIL_SOURCE_CANDIDATES=["thumbnail.png","thumbnail.jpg","thumbnail.jpeg","thumbnail.webp","thumbnail.svg"];
+const READING_LAYOUT_PAGE_KEYS=new Set(["full","translation"]);
 
 const PAGE_DEFS=[
   {key:"summary",label:"핵심 요약",filename:"summary.html",type:"article",description:"읽기 전 전체 흐름을 빠르게 잡는 요약 페이지입니다."},
@@ -88,6 +90,45 @@ function loadManifest(){return JSON.parse(readText(manifestPath));}
 function relHref(fromPath,toPath){return path.relative(path.dirname(fromPath),toPath).split(path.sep).join("/");}
 function escapeHtml(value){return String(value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\"/g,"&quot;").replace(/'/g,"&#39;");}
 function renderInline(text){return escapeHtml(text).replace(/`([^`]+)`/g,"<code>$1</code>").replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>").replace(/\*([^*]+)\*/g,"<em>$1</em>");}
+function slugifyHeading(value){return String(value||"").toLowerCase().trim().replace(/[^a-z0-9\uac00-\ud7a3\s-]/g,"").replace(/\s+/g,"-").replace(/-+/g,"-").replace(/^-|-$/g,"")||"section";}
+function stripHtml(value){return String(value||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();}
+function isSupplementFigureLabel(value){return /^(table|figure)\s+\d+(?:[\s.:_-].*)?$|^(표|그림)\s*\d+(?:[\s.:_-].*)?$/i.test(toText(value));}
+function isReaderMetaHeading(value){return /^(editor'?s note(?: and author information)?|편집자 주(?: 및 저자 정보)?)$/i.test(toText(value));}
+function isReaderBackmatterHeading(value){return /^(references|publication history|참고문헌|출판 이력)$/i.test(toText(value));}
+function figureKindForAsset(caption,assetTarget){
+  const label=toText(caption)||path.basename(toText(assetTarget)).toLowerCase();
+  if(/^(table)\b|^(표)\b/i.test(label)||/table-\d+/i.test(label))return"table";
+  if(/^(figure)\b|^(그림)\b/i.test(label)||/figure-\d+/i.test(label))return"figure";
+  return"media";
+}
+function usesReadingLayout(page){return READING_LAYOUT_PAGE_KEYS.has(page.key);}
+function translationOriginalRevealPath(reading){
+  const config=normalizeTranslationOriginalRevealConfig(reading.translation_original_reveal);
+  if(!config.enabled)return"";
+  const translationSourcePath=contentPath(reading,{key:"translation",type:"article"});
+  return path.join(path.dirname(translationSourcePath),config.alignment_file);
+}
+function hasApprovedStageStatus(reading,stageKey){
+  return toText(reading.validation_status?.[stageKey]?.status)===READING_STATUS.APPROVED;
+}
+function hasApprovedPageSourceStatus(reading,pageKey){
+  const sourceStatus=toText(reading.validation_status?.source_page_results?.[pageKey]?.status);
+  const fallbackStatus=toText(reading.validation_status?.page_results?.[pageKey]?.status);
+  return (sourceStatus||fallbackStatus)===PAGE_STATUS.APPROVED;
+}
+function shouldUseTranslationOriginalReveal(reading,page){
+  const config=normalizeTranslationOriginalRevealConfig(reading.translation_original_reveal);
+  return page.key==="translation"
+    &&reading.language==="en"
+    &&config.enabled
+    &&hasApprovedPageSourceStatus(reading,"full")
+    &&hasApprovedPageSourceStatus(reading,"translation");
+}
+function revealSummaryLabel(reveal){
+  if(reveal?.unit==="sentence_group")return "이 문단과 대응하는 원문 일부 보기";
+  if(reveal?.unit==="context_block")return "이 문단이 참고한 원문 단락 보기";
+  return "이 문단에 대응하는 원문 보기";
+}
 
 function resolveReadingAssetHref(outputPath,reading,sourcePath,assetPath){
   const rawPath=toText(assetPath);
@@ -102,9 +143,32 @@ function resolveReadingAssetHref(outputPath,reading,sourcePath,assetPath){
   return relHref(outputPath,targetPath);
 }
 
+function extractReaderTocItems(html){
+  const items=[];
+  const headingPattern=/<h([234])([^>]*)>([\s\S]*?)<\/h\1>/g;
+  let match;
+  while((match=headingPattern.exec(String(html||"")))!==null){
+    const [,level,attrs,innerHtml]=match;
+    if(/data-reader-toc="false"/.test(attrs))continue;
+    const idMatch=attrs.match(/\bid="([^"]+)"/);
+    if(!idMatch)continue;
+    const text=stripHtml(innerHtml);
+    if(!text)continue;
+    items.push({level:Number(level),id:idMatch[1],text});
+  }
+  return items;
+}
+
+function renderReaderToc(html){
+  const items=extractReaderTocItems(html);
+  if(!items.length)return `<p class="meta">본문 목차가 아직 없습니다.</p>`;
+  return items.map((item)=>`<a class="toc-link toc-h${item.level}" href="#${escapeHtml(item.id)}">${escapeHtml(item.text)}</a>`).join("");
+}
+
 function markdownToHtml(text,options={}){
   const lines=text.replace(/\r\n/g,"\n").split("\n");
   const parts=[];
+  const frontmatterParts=[];
   let paragraph=[];
   let listItems=[];
   let quoteLines=[];
@@ -112,11 +176,44 @@ function markdownToHtml(text,options={}){
   const outputPath=options.outputPath||"";
   const reading=options.reading||null;
   const sourcePath=options.sourcePath||"";
+  const skipFirstTitleHeading=Boolean(options.skipFirstTitleHeading);
+  const collectFrontmatter=Boolean(options.collectFrontmatter);
+  const suppressFigureCaptions=Boolean(options.suppressFigureCaptions);
+  const usedHeadingIds=new Set();
+  let skippedTitleHeading=false;
+  let encounteredContentHeading=false;
 
-  const flushParagraph=()=>{if(paragraph.length){parts.push(`<p>${renderInline(paragraph.join(" ").trim())}</p>`);paragraph=[];}};
-  const flushList=()=>{if(listItems.length){parts.push(`<ul>${listItems.map((item)=>`<li>${renderInline(item)}</li>`).join("")}</ul>`);listItems=[];}};
-  const flushQuote=()=>{if(quoteLines.length){parts.push(`<blockquote>${renderInline(quoteLines.join(" ").trim())}</blockquote>`);quoteLines=[];}};
-  const flushCode=()=>{if(codeLines){parts.push(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`);codeLines=null;}};
+  const pushBlock=(html,preferFrontmatter=false)=>{
+    if(collectFrontmatter&&preferFrontmatter&&!encounteredContentHeading){
+      frontmatterParts.push(html);
+      return;
+    }
+    parts.push(html);
+  };
+  const flushParagraph=()=>{if(paragraph.length){pushBlock(`<p>${renderInline(paragraph.join(" ").trim())}</p>`,true);paragraph=[];}};
+  const flushList=()=>{if(listItems.length){pushBlock(`<ul>${listItems.map((item)=>`<li>${renderInline(item)}</li>`).join("")}</ul>`,true);listItems=[];}};
+  const flushQuote=()=>{if(quoteLines.length){pushBlock(`<blockquote>${renderInline(quoteLines.join(" ").trim())}</blockquote>`,true);quoteLines=[];}};
+  const flushCode=()=>{if(codeLines){pushBlock(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`,true);codeLines=null;}};
+  const headingAttrs=(textLabel)=>{
+    const attrs=[];
+    const classes=[];
+    const baseId=slugifyHeading(textLabel);
+    let id=baseId;
+    let suffix=2;
+    while(usedHeadingIds.has(id))id=`${baseId}-${suffix++}`;
+    usedHeadingIds.add(id);
+    attrs.push(`id="${escapeHtml(id)}"`);
+    if(isReaderMetaHeading(textLabel)){
+      attrs.push('data-reader-toc="false"');
+      classes.push("article-meta-heading");
+    }
+    if(isReaderBackmatterHeading(textLabel)){
+      attrs.push('data-reader-toc="false"');
+      classes.push("article-backmatter-heading");
+    }
+    if(classes.length)attrs.push(`class="${escapeHtml(classes.join(" "))}"`);
+    return attrs.length?` ${attrs.join(" ")}`:"";
+  };
   const renderFigure=(line)=>{
     const match=line.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
     if(!match)return "";
@@ -124,7 +221,17 @@ function markdownToHtml(text,options={}){
     const assetTarget=match[2].trim();
     const href=reading&&outputPath&&sourcePath?resolveReadingAssetHref(outputPath,reading,sourcePath,assetTarget):assetTarget;
     if(!href)return "";
-    return `<figure class="article-figure"><img src="${escapeHtml(href)}" alt="${escapeHtml(caption)}" loading="lazy" />${caption?`<figcaption>${renderInline(caption)}</figcaption>`:""}</figure>`;
+    const figureKind=figureKindForAsset(caption,assetTarget);
+    const captionHtml=!suppressFigureCaptions&&caption?`<figcaption>${renderInline(caption)}</figcaption>`:"";
+    return `<figure class="article-figure is-${escapeHtml(figureKind)}"><a class="article-figure-link" href="${escapeHtml(href)}" target="_blank" rel="noopener"><img src="${escapeHtml(href)}" alt="${escapeHtml(caption)}" loading="lazy" /></a>${captionHtml}<p class="article-figure-action"><a href="${escapeHtml(href)}" target="_blank" rel="noopener">크게 보기</a></p></figure>`;
+  };
+  const pushHeading=(level,textLabel)=>{
+    encounteredContentHeading=true;
+    if(isSupplementFigureLabel(textLabel)){
+      parts.push(`<p class="article-inline-label" data-reader-toc="false">${renderInline(textLabel)}</p>`);
+      return;
+    }
+    parts.push(`<h${level}${headingAttrs(textLabel)}>${renderInline(textLabel)}</h${level}>`);
   };
 
   for(const rawLine of lines){
@@ -138,18 +245,84 @@ function markdownToHtml(text,options={}){
     if(line===">"){flushParagraph();flushList();flushQuote();continue;}
     if(line.startsWith("```")){flushParagraph();flushList();flushQuote();codeLines=[];continue;}
     const figureHtml=renderFigure(line);
-    if(figureHtml){flushParagraph();flushList();flushQuote();parts.push(figureHtml);continue;}
-    if(line.startsWith("#### ")){flushParagraph();flushList();flushQuote();parts.push(`<h4>${renderInline(line.slice(5))}</h4>`);continue;}
-    if(line.startsWith("### ")){flushParagraph();flushList();flushQuote();parts.push(`<h3>${renderInline(line.slice(4))}</h3>`);continue;}
-    if(line.startsWith("## ")){flushParagraph();flushList();flushQuote();parts.push(`<h2>${renderInline(line.slice(3))}</h2>`);continue;}
-    if(line.startsWith("# ")){flushParagraph();flushList();flushQuote();parts.push(`<h1>${renderInline(line.slice(2))}</h1>`);continue;}
+    if(figureHtml){flushParagraph();flushList();flushQuote();pushBlock(figureHtml,true);continue;}
+    if(line.startsWith("#### ")){flushParagraph();flushList();flushQuote();pushHeading(4,line.slice(5));continue;}
+    if(line.startsWith("### ")){flushParagraph();flushList();flushQuote();pushHeading(3,line.slice(4));continue;}
+    if(line.startsWith("## ")){flushParagraph();flushList();flushQuote();pushHeading(2,line.slice(3));continue;}
+    if(line.startsWith("# ")){
+      flushParagraph();
+      flushList();
+      flushQuote();
+      if(skipFirstTitleHeading&&!skippedTitleHeading){skippedTitleHeading=true;continue;}
+      pushHeading(1,line.slice(2));
+      continue;
+    }
     if(line.startsWith("- ")){flushParagraph();flushQuote();listItems.push(line.slice(2).trim());continue;}
     if(line.startsWith("> ")){flushParagraph();flushList();quoteLines.push(line.slice(2).trim());continue;}
     flushList();flushQuote();paragraph.push(line);
   }
 
   flushParagraph();flushList();flushQuote();flushCode();
-  return parts.join("\n");
+  return(frontmatterParts.length?[`<div class="article-frontmatter">${frontmatterParts.join("\n")}</div>`,...parts]:parts).join("\n");
+}
+function renderArticleBlock(block,options={}){
+  if(!block||typeof block!=="object")return"";
+  const outputPath=options.outputPath||"";
+  const reading=options.reading||null;
+  const sourcePath=options.sourcePath||"";
+  const suppressFigureCaptions=Boolean(options.suppressFigureCaptions);
+  if(block.type==="paragraph")return `<p>${renderInline(block.text)}</p>`;
+  if(block.type==="list")return `<ul>${(Array.isArray(block.items)?block.items:[]).map((item)=>`<li>${renderInline(item)}</li>`).join("")}</ul>`;
+  if(block.type==="quote")return `<blockquote>${renderInline(block.text)}</blockquote>`;
+  if(block.type==="code")return `<pre><code>${escapeHtml(block.text||"")}</code></pre>`;
+  if(block.type==="inline_label")return `<p class="article-inline-label" data-reader-toc="false">${renderInline(block.text)}</p>`;
+  if(block.type==="heading"){
+    const attrs=[];
+    if(block.id)attrs.push(`id="${escapeHtml(block.id)}"`);
+    if(block.tocExcluded)attrs.push('data-reader-toc="false"');
+    if(Array.isArray(block.classes)&&block.classes.length)attrs.push(`class="${escapeHtml(block.classes.join(" "))}"`);
+    return `<h${block.level}${attrs.length?` ${attrs.join(" ")}`:""}>${renderInline(block.text)}</h${block.level}>`;
+  }
+  if(block.type==="figure"){
+    const caption=toText(block.caption);
+    const href=reading&&outputPath&&sourcePath?resolveReadingAssetHref(outputPath,reading,sourcePath,block.assetTarget):block.assetTarget;
+    if(!href)return"";
+    const figureKind=figureKindForAsset(caption,block.assetTarget);
+    const captionHtml=!suppressFigureCaptions&&caption?`<figcaption>${renderInline(caption)}</figcaption>`:"";
+    return `<figure class="article-figure is-${escapeHtml(figureKind)}"><a class="article-figure-link" href="${escapeHtml(href)}" target="_blank" rel="noopener"><img src="${escapeHtml(href)}" alt="${escapeHtml(caption)}" loading="lazy" /></a>${captionHtml}<p class="article-figure-action"><a href="${escapeHtml(href)}" target="_blank" rel="noopener">크게 보기</a></p></figure>`;
+  }
+  return"";
+}
+function renderRevealSourceHtml(text){
+  return String(text||"").split(/\n{2,}/).map((paragraph)=>paragraph.trim()).filter(Boolean).map((paragraph)=>`<p>${renderInline(paragraph)}</p>`).join("");
+}
+function renderParsedArticleDocument(document,options={}){
+  const frontmatterBlocks=Array.isArray(document?.frontmatterBlocks)?document.frontmatterBlocks:[];
+  const contentBlocks=Array.isArray(document?.blocks)?document.blocks:[];
+  const revealByFlatIndex=options.revealByFlatIndex instanceof Map?options.revealByFlatIndex:new Map();
+  const frontmatterHtml=frontmatterBlocks.length?`<div class="article-frontmatter">${frontmatterBlocks.map((block)=>renderArticleBlock(block,options)).join("\n")}</div>`:"";
+  const contentHtml=contentBlocks.map((block,flatIndex)=>{
+    const blockHtml=renderArticleBlock(block,options);
+    if(!blockHtml)return"";
+    const reveal=revealByFlatIndex.get(flatIndex);
+    if(!reveal||block.type!=="paragraph")return blockHtml;
+    return `<section class="translation-segment" data-segment-id="${escapeHtml(reveal.id)}" data-reveal-unit="${escapeHtml(reveal.unit||"paragraph")}">${blockHtml}<details class="source-reveal"><summary class="source-reveal-summary">${escapeHtml(revealSummaryLabel(reveal))}</summary><div class="source-reveal-body" lang="en">${renderRevealSourceHtml(reveal.sourceText)}</div></details></section>`;
+  }).join("\n");
+  return[frontmatterHtml,contentHtml].filter(Boolean).join("\n");
+}
+function buildTranslationOriginalRevealHtml(reading,page,outputPath,text){
+  const alignmentPath=translationOriginalRevealPath(reading);
+  const alignmentPayload=alignmentPath?loadJson(alignmentPath):null;
+  if(!alignmentPayload)throw new Error(`[missing] ${reading.slug}: translation original reveal is enabled but alignment file is missing`);
+  const translationDocument=parseMarkdownDocument(text,{skipFirstTitleHeading:true,collectFrontmatter:true});
+  const fullSourcePath=contentPath(reading,{key:"full",type:"article"});
+  const fullText=loadMarkdown(fullSourcePath);
+  if(!fullText)throw new Error(`[missing] ${reading.slug}: translation original reveal requires full.md`);
+  const originalDocument=parseMarkdownDocument(fullText,{skipFirstTitleHeading:true,collectFrontmatter:true});
+  const resolved=resolveTranslationAlignment(alignmentPayload,translationDocument,originalDocument,{allowedStatuses:["verified"]});
+  if(resolved.errors.length)throw new Error(`[invalid] ${reading.slug}: translation original reveal alignment failed\n${resolved.errors.join("\n")}`);
+  const revealByFlatIndex=new Map(resolved.entries.map((entry)=>[entry.translationBlock.flatIndex,entry]));
+  return renderParsedArticleDocument(translationDocument,{outputPath,reading,sourcePath:page.sourcePath,suppressFigureCaptions:true,revealByFlatIndex});
 }
 
 function loadMarkdown(filePath){if(!fs.existsSync(filePath))return null;const text=readText(filePath).trim();return text||null;}
@@ -207,6 +380,7 @@ function syllabusOrderIndex(reading){const index=SYLLABUS_HOME_ORDER.indexOf(rea
 function statusKeyForPage(pageKey){return pageKey.replace(/-/g,"_");}
 function isReadyStatus(status){return status===PAGE_STATUS.SCHEMA_PASS||status===PAGE_STATUS.APPROVED;}
 function validationStatusForPage(snapshot,pageKey,available){const key=statusKeyForPage(pageKey);const status=snapshot?.content_status?.[key];if(status)return status;return available?PAGE_STATUS.SCHEMA_PASS:PAGE_STATUS.MISSING;}
+function sourceValidationStatusForPage(snapshot,pageKey,available){const key=statusKeyForPage(pageKey);const status=snapshot?.validation_status?.source_page_results?.[key]?.status;if(status)return status;return validationStatusForPage(snapshot,pageKey,available);}
 function landingStatus(reading){return reading.validation_status?.landing?.status||PAGE_STATUS.SCHEMA_FAIL;}
 function isApprovedStatus(status){return status===PAGE_STATUS.APPROVED;}
 function isPublishedReading(reading){return reading.workflow_status===READING_STATUS.APPROVED;}
@@ -232,14 +406,14 @@ function readingEntryTarget(reading){
   return page?page.filename:"index.html";
 }
 function contentPath(reading,page){const sharedPath=sharedPageSourcePath(reading,page);if(sharedPath)return sharedPath;const contentDir=path.join(rootDir,reading.content_dir);if(page.key==="full"){const preferred=path.join(contentDir,"full.md");const fallback=path.join(contentDir,"cleaned.md");return fs.existsSync(preferred)?preferred:(fs.existsSync(fallback)?fallback:preferred);}if(page.key==="quiz-short")return path.join(contentDir,"quiz_short.json");if(page.key==="professor-prep")return path.join(contentDir,"professor_prep.json");if(page.type==="article")return path.join(contentDir,`${page.key}.md`);return path.join(contentDir,`${page.key}.json`);}
-function pageState(reading,page,snapshot=null){const sourcePath=contentPath(reading,page);if(page.type==="article"){const available=Boolean(loadMarkdown(sourcePath));const validation_status=validationStatusForPage(snapshot,page.key,available);return{sourcePath,available,count:null,validation_status,schema_passed:isReadyStatus(validation_status),review_passed:validation_status===PAGE_STATUS.APPROVED};}if(page.type==="professor-prep"){const prep=loadProfessorPrep(sourcePath);const available=Boolean(prep);const validation_status=validationStatusForPage(snapshot,page.key,available);return{sourcePath,available,count:prep?prep.cards.length:0,validation_status,schema_passed:isReadyStatus(validation_status),review_passed:validation_status===PAGE_STATUS.APPROVED};}const quiz=loadQuiz(page,sourcePath);const available=Boolean(quiz);const validation_status=validationStatusForPage(snapshot,page.key,available);return{sourcePath,available,count:quiz?quiz.items.length:0,validation_status,schema_passed:isReadyStatus(validation_status),review_passed:validation_status===PAGE_STATUS.APPROVED};}
+function pageState(reading,page,snapshot=null){const sourcePath=contentPath(reading,page);if(page.type==="article"){const available=Boolean(loadMarkdown(sourcePath));const validation_status=validationStatusForPage(snapshot,page.key,available);const source_validation_status=sourceValidationStatusForPage(snapshot,page.key,available);return{sourcePath,available,count:null,validation_status,source_validation_status,schema_passed:isReadyStatus(validation_status),review_passed:source_validation_status===PAGE_STATUS.APPROVED};}if(page.type==="professor-prep"){const prep=loadProfessorPrep(sourcePath);const available=Boolean(prep);const validation_status=validationStatusForPage(snapshot,page.key,available);const source_validation_status=sourceValidationStatusForPage(snapshot,page.key,available);return{sourcePath,available,count:prep?prep.cards.length:0,validation_status,source_validation_status,schema_passed:isReadyStatus(validation_status),review_passed:source_validation_status===PAGE_STATUS.APPROVED};}const quiz=loadQuiz(page,sourcePath);const available=Boolean(quiz);const validation_status=validationStatusForPage(snapshot,page.key,available);const source_validation_status=sourceValidationStatusForPage(snapshot,page.key,available);return{sourcePath,available,count:quiz?quiz.items.length:0,validation_status,source_validation_status,schema_passed:isReadyStatus(validation_status),review_passed:source_validation_status===PAGE_STATUS.APPROVED};}
 function metadataStatusHtml(status){return status==="complete"?'<span class="status ready">메타데이터 확인됨</span>':'<span class="status placeholder">메타데이터 확인 필요</span>';}
 function readingPageLabel(reading,page){
   if(page.key==="full")return reading.language==="en"?"원문 읽기":"본문 읽기";
   if(page.key==="translation")return "번역본 읽기";
   return page.label;
 }
-function normalizeReading(reading,sequence){const supplemental=loadReadingMeta(reading.content_dir);const localNotebooklmVideo=detectNotebooklmVideoSource(reading.content_dir);const language=reading.language||"unknown";const type=detectType(reading);const rawTags=Array.isArray(reading.tags)&&reading.tags.length?reading.tags:["Metadata incomplete"];const source_filename=reading.source_filename||path.basename(reading.source_pdf);const sortDate=effectiveSortDate(reading);const classroom_points=(Array.isArray(reading.classroom_points)?reading.classroom_points:[]).map((item)=>translateCommonText(item)).filter(Boolean);const shared_page_keys=(Array.isArray(reading.shared_page_keys)?reading.shared_page_keys:Array.isArray(supplemental.shared_page_keys)?supplemental.shared_page_keys:[]).map((item)=>toText(item)).filter(Boolean);const pdf_visibility=readingPdfVisibility(reading,supplemental);const landing_video_policy=landingVideoPolicy(reading,supplemental);return{...reading,sequence,subtitle:translateCommonText(reading.subtitle||"Filename-derived placeholder metadata."),authors:reading.authors||[],authors_label:authorsLabel(reading.authors||[]),year_label:yearLabel(reading.year),language,language_label:languageLabel(language),kind:reading.kind||`${type} pdf`,kind_label:kindLabel(reading.kind||`${type} pdf`,type),type,type_label:typeLabel(type),source_filename,tags:rawTags.map(translateTag),description:translateCommonText(reading.description||"Placeholder record created from the source filename only."),metadata_status:reading.metadata_status||"incomplete",metadata_notes:(reading.metadata_notes||[]).map(translateCommonText),class_date:reading.class_date??null,reading_date:reading.reading_date??null,sort_date:reading.sort_date??null,display_date_label:reading.display_date_label??null,effective_sort_date:sortDate,display_date:displayDateLabel(reading),translation_required:language==="en",home_order_index:syllabusOrderIndex({source_filename}),pdf_visibility,public_pdf:toText(reading.public_pdf)||"",overview_hook:translateCommonText(reading.overview_hook||""),classroom_points,shared_page_bundle:toText(reading.shared_page_bundle||supplemental.shared_page_bundle||""),shared_page_keys,landing_video_policy,notebooklm_video_source:localNotebooklmVideo,notebooklm_video_url:toText(reading.notebooklm_video_url||publicNotebooklmVideoPath(reading,localNotebooklmVideo)||supplemental.notebooklm_video_url||""),notebooklm_video_note:toText(reading.notebooklm_video_note||supplemental.notebooklm_video_note||""),notebooklm_video_poster:toText(reading.notebooklm_video_poster||supplemental.notebooklm_video_poster||"")};}
+function normalizeReading(reading,sequence){const supplemental=loadReadingMeta(reading.content_dir);const localNotebooklmVideo=detectNotebooklmVideoSource(reading.content_dir);const language=reading.language||"unknown";const type=detectType(reading);const rawTags=Array.isArray(reading.tags)&&reading.tags.length?reading.tags:["Metadata incomplete"];const source_filename=reading.source_filename||path.basename(reading.source_pdf);const sortDate=effectiveSortDate(reading);const classroom_points=(Array.isArray(reading.classroom_points)?reading.classroom_points:[]).map((item)=>translateCommonText(item)).filter(Boolean);const shared_page_keys=(Array.isArray(reading.shared_page_keys)?reading.shared_page_keys:Array.isArray(supplemental.shared_page_keys)?supplemental.shared_page_keys:[]).map((item)=>toText(item)).filter(Boolean);const pdf_visibility=readingPdfVisibility(reading,supplemental);const landing_video_policy=landingVideoPolicy(reading,supplemental);const translation_original_reveal=normalizeTranslationOriginalRevealConfig(reading.translation_original_reveal||supplemental.translation_original_reveal);return{...reading,sequence,subtitle:translateCommonText(reading.subtitle||"Filename-derived placeholder metadata."),authors:reading.authors||[],authors_label:authorsLabel(reading.authors||[]),year_label:yearLabel(reading.year),language,language_label:languageLabel(language),kind:reading.kind||`${type} pdf`,kind_label:kindLabel(reading.kind||`${type} pdf`,type),type,type_label:typeLabel(type),source_filename,tags:rawTags.map(translateTag),description:translateCommonText(reading.description||"Placeholder record created from the source filename only."),metadata_status:reading.metadata_status||"incomplete",metadata_notes:(reading.metadata_notes||[]).map(translateCommonText),class_date:reading.class_date??null,reading_date:reading.reading_date??null,sort_date:reading.sort_date??null,display_date_label:reading.display_date_label??null,effective_sort_date:sortDate,display_date:displayDateLabel(reading),translation_required:language==="en",home_order_index:syllabusOrderIndex({source_filename}),pdf_visibility,public_pdf:toText(reading.public_pdf)||"",overview_hook:translateCommonText(reading.overview_hook||""),classroom_points,shared_page_bundle:toText(reading.shared_page_bundle||supplemental.shared_page_bundle||""),shared_page_keys,landing_video_policy,notebooklm_video_source:localNotebooklmVideo,notebooklm_video_url:toText(reading.notebooklm_video_url||publicNotebooklmVideoPath(reading,localNotebooklmVideo)||supplemental.notebooklm_video_url||""),notebooklm_video_note:toText(reading.notebooklm_video_note||supplemental.notebooklm_video_note||""),notebooklm_video_poster:toText(reading.notebooklm_video_poster||supplemental.notebooklm_video_poster||""),translation_original_reveal};}
 function buildContentStatus(reading,existingMeta={},options={}){return buildValidationSnapshot(rootDir,reading,existingMeta,options).content_status;}
 function ensureContentPlaceholders(manifest,slugFilter=null){manifest.readings.forEach((rawReading,index)=>{const reading=normalizeReading(rawReading,index+1);if(slugFilter&&reading.slug!==slugFilter)return;const contentDir=path.join(rootDir,reading.content_dir);fs.mkdirSync(contentDir,{recursive:true});const metaPath=path.join(contentDir,"meta.json");let existing={};if(fs.existsSync(metaPath)){try{existing=JSON.parse(readText(metaPath));}catch(error){existing={};}}const validationOptions={requireBuiltArtifacts:Boolean(existing.validation_status?.require_built_artifacts)};const snapshot=buildValidationSnapshot(rootDir,reading,existing,validationOptions);const payload=mergeValidationFields({...existing,slug:reading.slug,source_filename:reading.source_filename,source_pdf:reading.source_pdf,content_dir:reading.content_dir,title:reading.title,subtitle:reading.subtitle,authors:reading.authors,year:reading.year??null,language:reading.language,type:reading.type,kind:reading.kind,class_date:reading.class_date,reading_date:reading.reading_date,sort_date:reading.sort_date,display_date_label:reading.display_date_label,description:reading.description,metadata_status:reading.metadata_status,metadata_notes:reading.metadata_notes,pdf_visibility:reading.pdf_visibility||"none",public_pdf:reading.public_pdf||null,overview_hook:reading.overview_hook||null,classroom_points:reading.classroom_points||[],shared_page_bundle:reading.shared_page_bundle||null,shared_page_keys:reading.shared_page_keys||[],landing_video_policy:reading.landing_video_policy||"optional",notebooklm_video_url:reading.notebooklm_video_url||null,notebooklm_video_note:reading.notebooklm_video_note||null,notebooklm_video_poster:reading.notebooklm_video_poster||null,content_status:buildContentStatus(reading,existing,validationOptions)},snapshot);writeText(metaPath,`${JSON.stringify(payload,null,2)}\n`);});}
 function prepareReadings(manifest){return manifest.readings.map((rawReading,index)=>{const reading=normalizeReading(rawReading,index+1);const existingMeta=loadReadingMeta(reading.content_dir);const validationOptions={requireBuiltArtifacts:Boolean(existingMeta.validation_status?.require_built_artifacts)};const snapshot=buildValidationSnapshot(rootDir,reading,existingMeta,validationOptions);const mergedMeta=mergeValidationFields(existingMeta,snapshot);const pages=PAGE_DEFS.filter((page)=>!(page.englishOnly&&reading.language!=="en")).map((page)=>({...page,label:readingPageLabel(reading,page),...pageState(reading,page,snapshot)}));return{...reading,content_status:mergedMeta.content_status,validation_status:mergedMeta.validation_status,workflow_status:mergedMeta.workflow_status,workflow_notes:mergedMeta.workflow_notes,manual_review:mergedMeta.manual_review,pages};});}
@@ -402,19 +576,19 @@ function pendingReadingHtml(reading,label,options={}){return pendingUploadHtml(r
 function metadataNotesHtml(reading){if(!reading.metadata_notes||!reading.metadata_notes.length)return"";return `<div class="meta-notes"><h3>메타데이터 메모</h3><ul>${reading.metadata_notes.map((note)=>`<li>${escapeHtml(note)}</li>`).join("")}</ul></div>`;}
 function pageDetailText(page){if(page.type==="quiz")return page.available?`${page.count}문항`:"임시 안내";if(page.type==="professor-prep")return page.available?`${page.count}카드`:"임시 안내";return page.available?"열기":"임시 안내";}
 function pageLink(outputPath,reading,page,labelOverride){const target=relHref(outputPath,path.join(siteDir,"readings",reading.slug,page.filename));return `<a class="ghost-btn link-btn" href="${escapeHtml(target)}">${escapeHtml(labelOverride||page.label)}</a>`;}
-function readerToolbar(){return `
-<div class="reader-toolbar" role="toolbar" aria-label="읽기 조절">
-  <div class="toolbar-group">
-    <button class="reader-btn" type="button" data-font-action="decrease">A-</button>
-    <button class="reader-btn" type="button" data-font-action="reset">A</button>
-    <button class="reader-btn" type="button" data-font-action="increase">A+</button>
-  </div>
-  <div class="toolbar-group">
-    <button class="reader-btn" type="button" data-page-bookmark>북마크</button>
-    <button class="reader-btn" type="button" data-resume-position hidden>이어서 보기</button>
-  </div>
-  <p class="reader-note" data-reading-status>읽던 위치는 이 기기에만 저장됩니다.</p>
-</div>
+function renderPilotReaderAside(outputPath,reading,page,tocHtml){return `
+<aside class="reader-aside" aria-label="${escapeHtml(page.label)} navigation">
+  <section class="panel side-panel">
+    <p class="section-kicker">목차</p>
+    <div class="toc-list">${tocHtml}</div>
+  </section>
+  <section class="panel side-panel reader-context-panel">
+    <p class="section-kicker">자료</p>
+    <h2>${escapeHtml(page.label)}</h2>
+    <p class="meta">${escapeHtml(page.description)}</p>
+    ${renderPdfActions(outputPath,reading,"pdf-actions side-pdf-actions")}
+  </section>
+</aside>
 `;}
 function renderList(items){return `<ul>${items.map((item)=>`<li>${renderInline(item)}</li>`).join("")}</ul>`;}
 function renderChipRow(items,className="chip-row"){return `<div class="${escapeHtml(className)}">${items.map((item)=>`<span class="chip">${escapeHtml(item)}</span>`).join("")}</div>`;}
@@ -477,7 +651,18 @@ ${siteHeader(siteMeta,outputPath)}
   </article>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,reading.title,body,reading.description,'data-page-kind="landing"',reading.language==="en"?"en":"ko"));}
-function buildArticle(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const text=loadMarkdown(page.sourcePath);const content=!isAccessibleReading(reading)?pendingReadingHtml(reading,page.label):page.review_passed?(text?markdownToHtml(text,{outputPath,reading,sourcePath:page.sourcePath}):placeholderArticleHtml(reading,page,page.sourcePath)):pendingUploadHtml(reading,page.label);const body=`
+function buildArticle(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const text=loadMarkdown(page.sourcePath);const readingLayout=usesReadingLayout(page);const originalReveal=shouldUseTranslationOriginalReveal(reading,page);const content=!isAccessibleReading(reading)?pendingReadingHtml(reading,page.label):page.review_passed?(text?(originalReveal?buildTranslationOriginalRevealHtml(reading,page,outputPath,text):markdownToHtml(text,{outputPath,reading,sourcePath:page.sourcePath,skipFirstTitleHeading:readingLayout,collectFrontmatter:readingLayout,suppressFigureCaptions:readingLayout&&page.key==="translation"})):placeholderArticleHtml(reading,page,page.sourcePath)):pendingUploadHtml(reading,page.label);const tocHtml=readingLayout?renderReaderToc(content):"";const body=readingLayout?`
+${siteHeader(siteMeta,outputPath)}
+<main class="reader-shell reader-shell-reading">
+  <div class="reader-grid">
+    <article class="article panel article-pilot">
+      ${renderArticleHeader(outputPath,reading,{activeKey:page.key,label:page.label,includePdf:false})}
+      <section class="article-body article-body-pilot">${content}</section>
+    </article>
+    ${renderPilotReaderAside(outputPath,reading,page,tocHtml)}
+  </div>
+</main>
+`:`
 ${siteHeader(siteMeta,outputPath)}
 <main class="reader-shell">
   <article class="article panel">
@@ -485,7 +670,7 @@ ${siteHeader(siteMeta,outputPath)}
     <section class="article-body">${content}</section>
   </article>
 </main>
-`;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,'data-page-kind="article"',page.key==="full"&&reading.language==="en"?"en":"ko"));}
+`;const bodyAttrs=`data-page-kind="article" data-reading-slug="${escapeHtml(reading.slug)}" data-reading-page="${escapeHtml(page.key)}"${readingLayout?' data-reading-layout="reader-v2"':''}${originalReveal?' data-original-reveal="enabled"':''}`;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,bodyAttrs,page.key==="full"&&reading.language==="en"?"en":"ko"));}
 function writePublicPdf(reading){if(reading.pdf_visibility!=="public"||!reading.public_pdf)return false;const sourcePath=path.join(rootDir,reading.source_pdf);if(!fs.existsSync(sourcePath))return false;const targetPath=publicPdfTargetPath(reading);fs.mkdirSync(path.dirname(targetPath),{recursive:true});fs.copyFileSync(sourcePath,targetPath);return true;}
 function renderStandardQuizCard(item,index){const optionsHtml=item.options&&item.options.length?`<ol class="choices">${item.options.map((option)=>`<li>${renderInline(option)}</li>`).join("")}</ol>`:"";const sourceHtml=item.source?`<p><strong>출처:</strong> ${renderInline(item.source)}</p>`:"";return `
 <article class="quiz-card">
@@ -562,6 +747,7 @@ function buildPage(siteMeta,reading,page){if(page.type==="article"){buildArticle
 function buildSite(options={}){const manifest=loadManifest();const siteMeta=manifest.site;let readings=refreshReadings(manifest,options.slug||null);if(options.slug){buildSlugOutputs(siteMeta,manifest,readings,options.slug);readings=refreshReadings(manifest,options.slug);buildSlugOutputs(siteMeta,manifest,readings,options.slug);writeApprovalStatusReport(rootDir);return{siteMeta,readings};}buildFullOutputs(siteMeta,manifest,readings);readings=refreshReadings(manifest);buildFullOutputs(siteMeta,manifest,readings);writeApprovalStatusReport(rootDir);return{siteMeta,readings};}
 module.exports={buildSite};
 if(require.main===module){const options=parseArgs();buildSite(options);console.log(options.slug?`[built] reading ${options.slug} + home`:"[built] docs" );}
+
 
 
 
