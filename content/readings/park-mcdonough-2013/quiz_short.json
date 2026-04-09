@@ -3,141 +3,109 @@
   "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
   "items": [
     {
-      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? 기능적 뇌영상과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "기능적 뇌영상"
-      ],
+      "question": "노년 성인에서 반구 비대칭 감소 패턴을 가리키는 약어는?",
+      "accepted_answers": ["HAROLD"],
       "answer_type": "term",
-      "explanation": "기능적 뇌영상은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "양측 전전두엽 활성 증가와 함께 등장하는 대표 약어다.",
       "source": "핵심 개념"
     },
     {
-      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? 처리속도 이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "처리속도 이론"
-      ],
+      "question": "후방 활동 감소와 전방 활동 증가를 가리키는 약어는?",
+      "accepted_answers": ["PASA"],
       "answer_type": "term",
-      "explanation": "처리속도 이론은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "뒤쪽 감각 처리 감소와 앞쪽 전략 영역 증가를 함께 읽는 패턴이다.",
       "source": "핵심 개념"
     },
     {
-      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? 제한된 자원 이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "제한된 자원 이론"
-      ],
+      "question": "과제 난도가 올라갈수록 조기 최대 동원을 설명하는 가설 약어는?",
+      "accepted_answers": ["CRUNCH"],
       "answer_type": "term",
-      "explanation": "제한된 자원 이론은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "노년 성인이 더 이른 시점에 한계치에 도달한다는 설명과 연결된다.",
       "source": "핵심 개념"
     },
     {
-      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? 보상과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "보상"
-      ],
-      "answer_type": "term",
-      "explanation": "보상은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? HAROLD과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "HAROLD"
-      ],
-      "answer_type": "term",
-      "explanation": "HAROLD은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? PASA과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "PASA"
-      ],
-      "answer_type": "term",
-      "explanation": "PASA은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? CRUNCH과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "CRUNCH"
-      ],
-      "answer_type": "term",
-      "explanation": "CRUNCH은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research에서 핵심적으로 붙잡아야 하는 용어는? scaffolding과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "scaffolding"
-      ],
-      "answer_type": "term",
-      "explanation": "scaffolding은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "고전 이론"
-      ],
+      "question": "기능 구분의 선명도 저하를 뜻하는 관점은?",
+      "accepted_answers": ["탈분화"],
       "answer_type": "short_phrase",
-      "explanation": "고전 이론은(는) 읽기 구조를 잡는 핵심 축이다.",
+      "explanation": "복측 시각피질 특수성 감소를 설명할 때 핵심이 되는 개념이다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "인지 저하의 핵심 원인을 속도 감소에서 찾는 이론은?",
+      "accepted_answers": ["처리속도 이론"],
+      "answer_type": "short_phrase",
+      "explanation": "Salthouse가 대표적으로 연결되는 고전 이론이다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "사용 가능한 인지 자원 총량 감소를 강조하는 이론은?",
+      "accepted_answers": ["제한된 자원 이론"],
+      "answer_type": "short_phrase",
+      "explanation": "쉬운 과제보다 자원 요구가 큰 과제에서 연령 차이가 커진다고 보는 설명이다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "HAROLD, PASA, CRUNCH를 상위에서 묶는 적응 틀은?",
+      "accepted_answers": ["스캐폴딩", "scaffolding"],
+      "answer_type": "short_phrase",
+      "explanation": "노화한 뇌가 우회 경로와 재조직화를 통해 수행을 유지하는 그림을 묶는 개념이다.",
+      "source": "핵심 개념"
+    },
+    {
+      "question": "기억 과제에서 연결성 증가가 언급되는 내측측두엽 약어는?",
+      "accepted_answers": ["MTL"],
+      "answer_type": "term",
+      "explanation": "이 글은 MTL과 PFC 사이 연결성 증가를 재조직화 근거로 언급한다.",
+      "source": "기능적 신경영상 결과와 인지 노화 이론"
+    },
+    {
+      "question": "양측성 활성 증가가 자주 논의되는 전전두엽 약어는?",
+      "accepted_answers": ["PFC"],
+      "answer_type": "term",
+      "explanation": "HAROLD 설명에서 반복적으로 붙는 핵심 영역 약어다.",
+      "source": "기능적 신경영상 결과와 인지 노화 이론"
+    },
+    {
+      "question": "이 글이 실린 학술지 이름은?",
+      "accepted_answers": ["Perspectives on Psychological Science"],
+      "answer_type": "short_phrase",
+      "explanation": "서지 정보에서 바로 확인할 수 있는 기본 출판 정보다.",
+      "source": "메타데이터"
+    },
+    {
+      "question": "저자들이 선택적으로 검토한 고전 이론은 몇 가지인가?",
+      "accepted_answers": ["3", "세 가지"],
+      "answer_type": "number",
+      "explanation": "도입부는 처리속도, 제한된 자원, 탈분화라는 세 축을 고전 설명으로 정리한다.",
+      "source": "도입"
+    },
+    {
+      "question": "복측 시각피질 특수성 감소와 가장 직접적으로 연결되는 관점은?",
+      "accepted_answers": ["탈분화"],
+      "answer_type": "short_phrase",
+      "explanation": "기능의 경계가 흐려진다는 신경 수준 근거로 사용된다.",
       "source": "핵심 요약"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "기능적 뇌영상"
-      ],
+      "question": "노년기 뇌를 적응적이고 가소적인 구조로 다시 보게 한 핵심 방법은?",
+      "accepted_answers": ["기능적 신경영상"],
       "answer_type": "short_phrase",
-      "explanation": "기능적 뇌영상은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "explanation": "이 글 전체를 묶는 출발점이 바로 그 방법의 등장이다.",
+      "source": "초록"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "대표 패턴"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "대표 패턴은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "동적 적응"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "동적 적응은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "가소성"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "가소성은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 제1저자 성을 한 단어로 답하시오.",
-      "accepted_answers": [
-        "Park"
-      ],
+      "question": "처리속도 이론의 대표 연구자로 반복 언급되는 성은?",
+      "accepted_answers": ["Salthouse"],
       "answer_type": "person",
-      "explanation": "제1저자 성은 발표 기본 정보다.",
-      "source": "메타데이터"
+      "explanation": "처리속도 이론 설명에 반복해서 등장하는 대표 이름이다.",
+      "source": "도입"
     },
     {
-      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
-      "accepted_answers": [
-        "article",
-        "논문",
-        "기사"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "영문 읽기는 article 또는 기사/논문 자료다.",
-      "source": "메타데이터"
+      "question": "저자들이 연결한 최근 연구 확장 방향은 인지 ___ 연구이다.",
+      "accepted_answers": ["훈련"],
+      "answer_type": "term",
+      "explanation": "결론부는 뇌 재조직화 가능성과 인지 훈련 연구의 확장을 함께 연결한다.",
+      "source": "초록"
     }
   ]
 }

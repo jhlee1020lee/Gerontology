@@ -195,6 +195,11 @@ Each reading supports the following generated pages:
 - In `full.html` and `translation.html`, do not replace photos, tables, figures, or graphs with text-only placeholders.
 - Only `full.html` and `translation.html` use the long-form reading reader shell; do not spread that shell to summary, quiz, review-sheet, or professor-prep pages.
 - Keep the reading shell static and reading-focused: build-time TOC, calm figure/table handling, and no font-size/bookmark/resume controls.
+- `translation original reveal` is allowed only on English `translation.html` pages.
+- If `translation original reveal` is enabled, require a valid `translation_alignment.json` and publish only `verified` entries.
+- If exact matching is uncertain, prefer `context_block`; do not fake sentence-level precision.
+- `translation original reveal` must use build-time click/tap disclosure, not hover-only behavior.
+- When `translation original reveal` is enabled, rebuild and run `node scripts/validate_content.js --require-built-artifacts`; artifact mismatch means the reading is not approved.
 - `quiz-short` is true short-answer only.
 - Allowed short-answer outputs are:
   - one term

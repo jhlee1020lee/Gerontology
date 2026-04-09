@@ -55,6 +55,17 @@
       "quiz-short",
       "quiz-mcq"
     ],
+    "approved_page_hashes": {
+      "full": "e27b31f4a58f2c0b39f938d62c739f6f2a8fb434",
+      "summary": "cc486f7d76e9536ab6d6857dd91583d3f5b9b3a5",
+      "concepts": "b90d9928b2afd0f1e20db93522f44846cb1dad7e",
+      "pitfalls": "70ad08eab9d46f1ada49615806e69074a60487ec",
+      "review-sheet": "95cbd8150de4a1c93668ab8c3e31df5d96fce868",
+      "professor-prep": "d7434750f853d7cd4c96ead5da3a361a5a56323d",
+      "quiz-ox": "575d1e0d299a07ee8ed5a51a180c3d2b7b18e5d3",
+      "quiz-short": "c87a8acf1a1149e561e17defcfda90cbc6ae71a3",
+      "quiz-mcq": "0c469ebb4242a063c74847a7cc1f71cb49728125"
+    },
     "reviewer": "codex",
     "reviewed_at": "2026-04-08",
     "notes": [
@@ -65,7 +76,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T00:10:06.504Z",
+    "updated_at": "2026-04-09T04:21:54.176Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -88,7 +99,119 @@
           "word_count": 5018,
           "section_count": 6,
           "sub_section_count": 15,
-          "bullet_count": 0
+          "bullet_count": 0,
+          "level2_heading_count": 6,
+          "level3_heading_count": 15,
+          "level4_heading_count": 3,
+          "figure_count": 8,
+          "paragraph_count": 34,
+          "level2_section_count": 6,
+          "empty_level2_sections": [],
+          "last_level2_title": "노년기 적응"
+        }
+      },
+      "translation": {
+        "status": "not_applicable",
+        "errors": [],
+        "warnings": [],
+        "metrics": {}
+      },
+      "summary": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 457,
+          "section_count": 4,
+          "sub_section_count": 5,
+          "bullet_count": 24
+        }
+      },
+      "concepts": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 695,
+          "section_count": 8,
+          "sub_section_count": 0,
+          "bullet_count": 48,
+          "concept_count": 8
+        }
+      },
+      "pitfalls": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 342,
+          "section_count": 5,
+          "sub_section_count": 0,
+          "bullet_count": 15
+        }
+      },
+      "review_sheet": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 334,
+          "section_count": 4,
+          "sub_section_count": 0,
+          "bullet_count": 19
+        }
+      },
+      "professor_prep": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "card_count": 16
+        }
+      },
+      "quiz_ox": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_short": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_mcq": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      }
+    },
+    "source_page_results": {
+      "full": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 5018,
+          "section_count": 6,
+          "sub_section_count": 15,
+          "bullet_count": 0,
+          "level2_heading_count": 6,
+          "level3_heading_count": 15,
+          "level4_heading_count": 3,
+          "figure_count": 8,
+          "paragraph_count": 34,
+          "level2_section_count": 6,
+          "empty_level2_sections": [],
+          "last_level2_title": "노년기 적응"
         }
       },
       "translation": {

@@ -68,6 +68,18 @@
       "quiz-short",
       "quiz-mcq"
     ],
+    "approved_page_hashes": {
+      "full": "114763df3480c5fbb732161a6fff633dabf2b12f",
+      "translation": "b0daed2f1f4f2f06d1717a7af8dee00be2c21509",
+      "summary": "b92495a35ac2b85644d76274cbf1ffbe6c97ea91",
+      "concepts": "48ec42acca2c782fb827013602a65f0281b7ccc9",
+      "pitfalls": "29620047a89ace0b76501f8433c3df8d06322460",
+      "review-sheet": "8a140c591c357b55fa1ce9c4f6baee8f2379a99d",
+      "professor-prep": "01abb1fd89fc753993f672eac31cae51bf12c3fc",
+      "quiz-ox": "7e71e342d99805378e41b78f0e4662a9d9e68207",
+      "quiz-short": "75ac41cfd0840e15b535a01cebf0a43274d47252",
+      "quiz-mcq": "855dc5094b66e500c961ba302f979ae13240e17e"
+    },
     "reviewer": "codex",
     "reviewed_at": "2026-03-22",
     "notes": [
@@ -76,7 +88,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T02:31:21.689Z",
+    "updated_at": "2026-04-09T04:21:54.379Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -97,7 +109,15 @@
           "word_count": 9726,
           "section_count": 10,
           "sub_section_count": 11,
-          "bullet_count": 0
+          "bullet_count": 0,
+          "level2_heading_count": 10,
+          "level3_heading_count": 11,
+          "level4_heading_count": 5,
+          "figure_count": 10,
+          "paragraph_count": 27,
+          "level2_section_count": 10,
+          "empty_level2_sections": [],
+          "last_level2_title": "References"
         }
       },
       "translation": {
@@ -111,6 +131,18 @@
           "bullet_count": 15,
           "full_word_count": 9726,
           "translation_ratio": 0.686,
+          "level2_heading_count": 10,
+          "level3_heading_count": 10,
+          "level4_heading_count": 5,
+          "figure_count": 10,
+          "paragraph_count": 75,
+          "level2_section_count": 10,
+          "empty_level2_sections": [],
+          "last_level2_title": "참고문헌",
+          "full_level2_heading_count": 10,
+          "full_level3_heading_count": 11,
+          "full_level4_heading_count": 5,
+          "full_figure_count": 10,
           "original_reveal_enabled": true,
           "reveal_entry_count": 75
         }
@@ -202,7 +234,15 @@
           "word_count": 9726,
           "section_count": 10,
           "sub_section_count": 11,
-          "bullet_count": 0
+          "bullet_count": 0,
+          "level2_heading_count": 10,
+          "level3_heading_count": 11,
+          "level4_heading_count": 5,
+          "figure_count": 10,
+          "paragraph_count": 27,
+          "level2_section_count": 10,
+          "empty_level2_sections": [],
+          "last_level2_title": "References"
         }
       },
       "translation": {
@@ -216,6 +256,18 @@
           "bullet_count": 15,
           "full_word_count": 9726,
           "translation_ratio": 0.686,
+          "level2_heading_count": 10,
+          "level3_heading_count": 10,
+          "level4_heading_count": 5,
+          "figure_count": 10,
+          "paragraph_count": 75,
+          "level2_section_count": 10,
+          "empty_level2_sections": [],
+          "last_level2_title": "참고문헌",
+          "full_level2_heading_count": 10,
+          "full_level3_heading_count": 11,
+          "full_level4_heading_count": 5,
+          "full_figure_count": 10,
           "original_reveal_enabled": true,
           "reveal_entry_count": 75
         }

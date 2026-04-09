@@ -3,94 +3,94 @@
   "instructions": "문장을 맞으면 O, 틀리면 X로 판단한 뒤 설명을 확인한다.",
   "items": [
     {
-      "prompt": "연구문제은(는) 이 읽기에서 end-of-life development와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
+      "prompt": "이 연구는 Berlin Aging Study의 이미 사망한 참여자 463명을 대상으로 최대 13년 종단자료를 분석했다.",
       "answer": "O",
-      "explanation": "연구문제은(는) 이 읽기에서 end-of-life development와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "source": "핵심 요약"
+      "explanation": "저자들은 BASE의 사망자 463명을 사용해 삶의 말기 성격 궤적을 추적했다.",
+      "source": "방법"
     },
     {
-      "prompt": "읽을 때는 end-of-life development와 mean-level trajectory가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "answer": "O",
-      "explanation": "읽을 때는 end-of-life development와 mean-level trajectory가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "발표에서는 연구문제을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "answer": "O",
-      "explanation": "발표에서는 연구문제을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "자료와 표본은(는) 이 읽기에서 mean-level trajectory와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "answer": "O",
-      "explanation": "자료와 표본은(는) 이 읽기에서 mean-level trajectory와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "읽을 때는 mean-level trajectory와 time to death가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "answer": "O",
-      "explanation": "읽을 때는 mean-level trajectory와 time to death가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "발표에서는 자료와 표본을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "answer": "O",
-      "explanation": "발표에서는 자료와 표본을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "성격 궤적은(는) 이 읽기에서 time to death와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "answer": "O",
-      "explanation": "성격 궤적은(는) 이 읽기에서 time to death와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "읽을 때는 time to death와 neuroticism가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "answer": "O",
-      "explanation": "읽을 때는 time to death와 neuroticism가 같은 말인지, 다른 수준의 개념인지 구분해서 따라가면 구조가 잡힌다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "발표에서는 성격 궤적을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "answer": "O",
-      "explanation": "발표에서는 성격 궤적을(를) 한 문장으로 정의한 뒤 바로 근거와 함의를 붙이는 방식이 안전하다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "자원과 위험은(는) 이 읽기에서 neuroticism와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "answer": "O",
-      "explanation": "자원과 위험은(는) 이 읽기에서 neuroticism와(과) 어떻게 연결되는지 보여 주는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories은(는) end-of-life development 하나로만 설명된다.",
+      "prompt": "논문은 Big Five 다섯 특성을 모두 같은 비중으로 분석했다.",
       "answer": "X",
-      "explanation": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories은(는) end-of-life development, mean-level trajectory, time to death처럼 여러 축을 함께 보라고 요구한다.",
-      "source": "헷갈리는 포인트"
+      "explanation": "BASE에서 측정된 차원이 제한되어 있어서 신경증, 외향성, 개방성만 분석했다.",
+      "source": "서론"
     },
     {
-      "prompt": "이 읽기의 논점은 한국 맥락과 연결할 필요가 없다.",
-      "answer": "X",
-      "explanation": "이 읽기는 한국 제도, 노동, 돌봄, 건강, 세대 경험과 연결해 다시 말할수록 수업 답변이 강해진다.",
-      "source": "헷갈리는 포인트"
+      "prompt": "이 논문은 chronological age와 time to death를 구분해서 모델에 넣었다.",
+      "answer": "O",
+      "explanation": "연령과 죽음까지 남은 시간을 분리해 말기 발달을 더 정확히 보려는 설계가 핵심이다.",
+      "source": "서론"
     },
     {
-      "prompt": "핵심 개념 이름만 말하면 충분하다.",
+      "prompt": "신경증은 삶의 마지막 시기에서 평균적으로 감소하는 경향을 보였다.",
       "answer": "X",
-      "explanation": "개념을 말할 때는 정의와 근거, 왜 중요한지까지 붙여야 한다.",
-      "source": "헷갈리는 포인트"
+      "explanation": "저자들이 보고한 평균 궤적은 신경증 상승이며, 특히 죽음이 가까워질수록 더 가팔라졌다.",
+      "source": "결과"
     },
     {
-      "prompt": "이 읽기는 한계보다 결론만 외우면 된다.",
-      "answer": "X",
-      "explanation": "한계를 한 문장으로 인정한 뒤 핵심 함의를 다시 붙이는 방식이 더 설득력 있다.",
-      "source": "헷갈리는 포인트"
+      "prompt": "외향성과 개방성은 삶의 말기에 평균적으로 감소했다.",
+      "answer": "O",
+      "explanation": "두 특성은 마지막 10년 동안 대체로 꾸준한 하강을 보였다.",
+      "source": "결과"
     },
     {
-      "prompt": "영문 읽기는 번역만 보면 원문 구조를 볼 필요가 없다.",
+      "prompt": "나쁜 건강은 세 특성 모두에서 같은 방식으로 위험요인으로 나타났다.",
       "answer": "X",
-      "explanation": "영문 읽기는 원문 제목과 핵심 용어, 구조를 함께 봐야 수업 질문에 대응할 수 있다.",
-      "source": "헷갈리는 포인트"
+      "explanation": "건강 악화는 외향성과 개방성 감소와 연결됐지만 신경증에서는 같은 패턴이 아니었다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "높은 인지 수행은 더 높은 개방성과 연결되었다.",
+      "answer": "O",
+      "explanation": "인지 수행은 예상대로 개방성 수준과 정적 관련을 보였다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "인지 수행이 높을수록 외향성도 항상 더 안정적으로 유지되었다.",
+      "answer": "X",
+      "explanation": "오히려 높은 인지 수행을 가진 사람들에서 외향성 감소가 더 가팔라지는 예상 밖 결과가 보고됐다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "외로움이 더 클수록 신경증 수준은 더 높게 나타났다.",
+      "answer": "O",
+      "explanation": "사회적 포괄 결과에서 외로움은 높은 신경증과 연결된 핵심 위험요인으로 나왔다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "사회활동이 많은 사람일수록 외향성과 개방성 수준이 더 낮았다.",
+      "answer": "X",
+      "explanation": "사회활동은 더 높은 외향성과 개방성과 연결되어 사회적 포괄의 보호요인으로 해석됐다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "개인적 통제감은 외향성과 개방성의 높은 수준과 연결되었다.",
+      "answer": "O",
+      "explanation": "자신의 삶을 스스로 통제한다고 느끼는 감각은 두 특성의 더 높은 수준과 관련됐다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "타인 통제감은 신경증과 무관했고 오직 외향성에만 관련되었다.",
+      "answer": "X",
+      "explanation": "타인에게 통제된다고 느끼는 정도는 신경증의 높은 수준과 연결되었고, 개방성과의 추가 관계도 보고됐다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "자원과 위험요인을 모두 넣은 뒤에도 연령과 time to death의 효과는 그대로 핵심 결과로 남았다.",
+      "answer": "X",
+      "explanation": "완전 조건모형에서는 연령과 죽음의 근접성보다 자원의 가용성이 성격 궤적을 더 직접적으로 설명하는 것으로 해석됐다.",
+      "source": "논의"
+    },
+    {
+      "prompt": "저자들은 종단표본의 선택효과 때문에 결과가 실제 인구보다 조금 더 긍정적으로 보일 수 있다고 봤다.",
+      "answer": "O",
+      "explanation": "끝까지 남은 참여자들이 더 건강하고 기능이 좋은 쪽으로 선택됐을 가능성을 한계로 인정했다.",
+      "source": "논의"
+    },
+    {
+      "prompt": "실천적 함의로는 건강만 관리하면 되고 통제감이나 사회적 포괄은 큰 의미가 없다고 결론냈다.",
+      "answer": "X",
+      "explanation": "저자들은 건강 저하를 넘어서 통제감과 사회적 포괄을 유지하는 일이 삶의 말기 성격 발달에서 중요하다고 보았다.",
+      "source": "논의"
     }
   ]
 }

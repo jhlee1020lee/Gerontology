@@ -44,13 +44,14 @@
   "notebooklm_video_poster": null,
   "manual_review": {
     "approved_pages": [],
+    "approved_page_hashes": {},
     "reviewer": "",
     "reviewed_at": null,
     "notes": [],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T00:10:06.609Z",
+    "updated_at": "2026-04-09T04:21:54.352Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -73,14 +74,23 @@
           "word_count": 7813,
           "section_count": 10,
           "sub_section_count": 0,
-          "bullet_count": 0
+          "bullet_count": 0,
+          "level2_heading_count": 10,
+          "level3_heading_count": 0,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 92,
+          "level2_section_count": 10,
+          "empty_level2_sections": [],
+          "last_level2_title": "Page 10"
         }
       },
       "translation": {
         "status": "schema_fail",
         "errors": [
           "content is too short (<200 words)",
-          "translation is suspiciously short relative to full text"
+          "translation is suspiciously short relative to full text",
+          "translation is missing second-level sections relative to the original text"
         ],
         "warnings": [],
         "metrics": {
@@ -89,7 +99,229 @@
           "sub_section_count": 0,
           "bullet_count": 0,
           "full_word_count": 7813,
-          "translation_ratio": 0.021
+          "translation_ratio": 0.021,
+          "level2_heading_count": 5,
+          "level3_heading_count": 0,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 5,
+          "level2_section_count": 5,
+          "empty_level2_sections": [],
+          "last_level2_title": "의의",
+          "full_level2_heading_count": 10,
+          "full_level3_heading_count": 0,
+          "full_level4_heading_count": 0,
+          "full_figure_count": 0,
+          "original_reveal_enabled": false,
+          "reveal_entry_count": 0
+        }
+      },
+      "summary": {
+        "status": "schema_pass",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 155,
+          "section_count": 3,
+          "sub_section_count": 4,
+          "bullet_count": 11
+        }
+      },
+      "concepts": {
+        "status": "schema_fail",
+        "errors": [
+          "section 1 (1. retirement village): missing '한국어 개념명'",
+          "section 1 (1. retirement village): missing 'Original English term'",
+          "section 1 (1. retirement village): missing '정확한 한 줄 정의'",
+          "section 1 (1. retirement village): missing '학생 말투로 풀어쓴 설명'",
+          "section 1 (1. retirement village): missing '왜 이 ...에서 중요한지'",
+          "section 1 (1. retirement village): missing '자주 헷갈리는 포인트'",
+          "section 2 (2. independence): missing '한국어 개념명'",
+          "section 2 (2. independence): missing 'Original English term'",
+          "section 2 (2. independence): missing '정확한 한 줄 정의'",
+          "section 2 (2. independence): missing '학생 말투로 풀어쓴 설명'",
+          "section 2 (2. independence): missing '왜 이 ...에서 중요한지'",
+          "section 2 (2. independence): missing '자주 헷갈리는 포인트'",
+          "section 3 (3. dependence): missing '한국어 개념명'",
+          "section 3 (3. dependence): missing 'Original English term'",
+          "section 3 (3. dependence): missing '정확한 한 줄 정의'",
+          "section 3 (3. dependence): missing '학생 말투로 풀어쓴 설명'",
+          "section 3 (3. dependence): missing '왜 이 ...에서 중요한지'",
+          "section 3 (3. dependence): missing '자주 헷갈리는 포인트'",
+          "section 4 (4. othering): missing '한국어 개념명'",
+          "section 4 (4. othering): missing 'Original English term'",
+          "section 4 (4. othering): missing '정확한 한 줄 정의'",
+          "section 4 (4. othering): missing '학생 말투로 풀어쓴 설명'",
+          "section 4 (4. othering): missing '왜 이 ...에서 중요한지'",
+          "section 4 (4. othering): missing '자주 헷갈리는 포인트'",
+          "section 5 (5. prolonged midlife): missing '한국어 개념명'",
+          "section 5 (5. prolonged midlife): missing 'Original English term'",
+          "section 5 (5. prolonged midlife): missing '정확한 한 줄 정의'",
+          "section 5 (5. prolonged midlife): missing '학생 말투로 풀어쓴 설명'",
+          "section 5 (5. prolonged midlife): missing '왜 이 ...에서 중요한지'",
+          "section 5 (5. prolonged midlife): missing '자주 헷갈리는 포인트'",
+          "section 6 (6. independent living community): missing '한국어 개념명'",
+          "section 6 (6. independent living community): missing 'Original English term'",
+          "section 6 (6. independent living community): missing '정확한 한 줄 정의'",
+          "section 6 (6. independent living community): missing '학생 말투로 풀어쓴 설명'",
+          "section 6 (6. independent living community): missing '왜 이 ...에서 중요한지'",
+          "section 6 (6. independent living community): missing '자주 헷갈리는 포인트'",
+          "section 7 (7. qualitative interview): missing '한국어 개념명'",
+          "section 7 (7. qualitative interview): missing 'Original English term'",
+          "section 7 (7. qualitative interview): missing '정확한 한 줄 정의'",
+          "section 7 (7. qualitative interview): missing '학생 말투로 풀어쓴 설명'",
+          "section 7 (7. qualitative interview): missing '왜 이 ...에서 중요한지'",
+          "section 7 (7. qualitative interview): missing '자주 헷갈리는 포인트'",
+          "section 8 (8. heterogeneity): missing '한국어 개념명'",
+          "section 8 (8. heterogeneity): missing 'Original English term'",
+          "section 8 (8. heterogeneity): missing '정확한 한 줄 정의'",
+          "section 8 (8. heterogeneity): missing '학생 말투로 풀어쓴 설명'",
+          "section 8 (8. heterogeneity): missing '왜 이 ...에서 중요한지'",
+          "section 8 (8. heterogeneity): missing '자주 헷갈리는 포인트'"
+        ],
+        "warnings": [],
+        "metrics": {
+          "word_count": 197,
+          "section_count": 8,
+          "sub_section_count": 0,
+          "bullet_count": 16,
+          "concept_count": 8
+        }
+      },
+      "pitfalls": {
+        "status": "schema_pass",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 164,
+          "section_count": 5,
+          "sub_section_count": 0,
+          "bullet_count": 15
+        }
+      },
+      "review_sheet": {
+        "status": "schema_pass",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 198,
+          "section_count": 3,
+          "sub_section_count": 0,
+          "bullet_count": 13
+        }
+      },
+      "professor_prep": {
+        "status": "schema_fail",
+        "errors": [
+          "professor-prep needs at least 15 cards",
+          "card 1 is missing title",
+          "card 2 is missing title",
+          "card 3 is missing title",
+          "card 4 is missing title",
+          "card 5 is missing title",
+          "card 6 is missing title",
+          "card 7 is missing title",
+          "card 8 is missing title"
+        ],
+        "warnings": [],
+        "metrics": {
+          "card_count": 8
+        }
+      },
+      "quiz_ox": {
+        "status": "schema_fail",
+        "errors": [
+          "quiz-ox item 1 contains unresolved particle template",
+          "quiz-ox item 2 contains unresolved particle template",
+          "quiz-ox item 3 contains unresolved particle template",
+          "quiz-ox item 4 contains unresolved particle template",
+          "quiz-ox item 5 contains unresolved particle template",
+          "quiz-ox item 6 contains unresolved particle template",
+          "quiz-ox item 7 contains unresolved particle template",
+          "quiz-ox item 8 contains unresolved particle template"
+        ],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_short": {
+        "status": "schema_fail",
+        "errors": [
+          "quiz-short item 1 contains unresolved particle template",
+          "quiz-short item 2 contains unresolved particle template",
+          "quiz-short item 3 contains unresolved particle template",
+          "quiz-short item 4 contains unresolved particle template",
+          "quiz-short item 5 contains unresolved particle template",
+          "quiz-short item 6 contains unresolved particle template",
+          "quiz-short item 7 contains unresolved particle template",
+          "quiz-short item 8 contains unresolved particle template"
+        ],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_mcq": {
+        "status": "schema_fail",
+        "errors": [
+          "quiz-mcq uses the same answer position for every item"
+        ],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      }
+    },
+    "source_page_results": {
+      "full": {
+        "status": "schema_pass",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 7813,
+          "section_count": 10,
+          "sub_section_count": 0,
+          "bullet_count": 0,
+          "level2_heading_count": 10,
+          "level3_heading_count": 0,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 92,
+          "level2_section_count": 10,
+          "empty_level2_sections": [],
+          "last_level2_title": "Page 10"
+        }
+      },
+      "translation": {
+        "status": "schema_fail",
+        "errors": [
+          "content is too short (<200 words)",
+          "translation is suspiciously short relative to full text",
+          "translation is missing second-level sections relative to the original text"
+        ],
+        "warnings": [],
+        "metrics": {
+          "word_count": 162,
+          "section_count": 5,
+          "sub_section_count": 0,
+          "bullet_count": 0,
+          "full_word_count": 7813,
+          "translation_ratio": 0.021,
+          "level2_heading_count": 5,
+          "level3_heading_count": 0,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 5,
+          "level2_section_count": 5,
+          "empty_level2_sections": [],
+          "last_level2_title": "의의",
+          "full_level2_heading_count": 10,
+          "full_level3_heading_count": 0,
+          "full_level4_heading_count": 0,
+          "full_figure_count": 0,
+          "original_reveal_enabled": false,
+          "reveal_entry_count": 0
         }
       },
       "summary": {
@@ -256,7 +488,7 @@
     "stage2": {
       "status": "partial",
       "notes": [
-        "translation: content is too short (<200 words); translation is suspiciously short relative to full text"
+        "translation: content is too short (<200 words); translation is suspiciously short relative to full text; translation is missing second-level sections relative to the original text"
       ]
     },
     "stage3": {
@@ -272,7 +504,7 @@
     "reading": {
       "status": "partial",
       "notes": [
-        "translation: content is too short (<200 words); translation is suspiciously short relative to full text",
+        "translation: content is too short (<200 words); translation is suspiciously short relative to full text; translation is missing second-level sections relative to the original text",
         "concepts: section 1 (1. retirement village): missing '한국어 개념명'; section 1 (1. retirement village): missing 'Original English term'; section 1 (1. retirement village): missing '정확한 한 줄 정의'; section 1 (1. retirement village): missing '학생 말투로 풀어쓴 설명'; section 1 (1. retirement village): missing '왜 이 ...에서 중요한지'; section 1 (1. retirement village): missing '자주 헷갈리는 포인트'; section 2 (2. independence): missing '한국어 개념명'; section 2 (2. independence): missing 'Original English term'; section 2 (2. independence): missing '정확한 한 줄 정의'; section 2 (2. independence): missing '학생 말투로 풀어쓴 설명'; section 2 (2. independence): missing '왜 이 ...에서 중요한지'; section 2 (2. independence): missing '자주 헷갈리는 포인트'; section 3 (3. dependence): missing '한국어 개념명'; section 3 (3. dependence): missing 'Original English term'; section 3 (3. dependence): missing '정확한 한 줄 정의'; section 3 (3. dependence): missing '학생 말투로 풀어쓴 설명'; section 3 (3. dependence): missing '왜 이 ...에서 중요한지'; section 3 (3. dependence): missing '자주 헷갈리는 포인트'; section 4 (4. othering): missing '한국어 개념명'; section 4 (4. othering): missing 'Original English term'; section 4 (4. othering): missing '정확한 한 줄 정의'; section 4 (4. othering): missing '학생 말투로 풀어쓴 설명'; section 4 (4. othering): missing '왜 이 ...에서 중요한지'; section 4 (4. othering): missing '자주 헷갈리는 포인트'; section 5 (5. prolonged midlife): missing '한국어 개념명'; section 5 (5. prolonged midlife): missing 'Original English term'; section 5 (5. prolonged midlife): missing '정확한 한 줄 정의'; section 5 (5. prolonged midlife): missing '학생 말투로 풀어쓴 설명'; section 5 (5. prolonged midlife): missing '왜 이 ...에서 중요한지'; section 5 (5. prolonged midlife): missing '자주 헷갈리는 포인트'; section 6 (6. independent living community): missing '한국어 개념명'; section 6 (6. independent living community): missing 'Original English term'; section 6 (6. independent living community): missing '정확한 한 줄 정의'; section 6 (6. independent living community): missing '학생 말투로 풀어쓴 설명'; section 6 (6. independent living community): missing '왜 이 ...에서 중요한지'; section 6 (6. independent living community): missing '자주 헷갈리는 포인트'; section 7 (7. qualitative interview): missing '한국어 개념명'; section 7 (7. qualitative interview): missing 'Original English term'; section 7 (7. qualitative interview): missing '정확한 한 줄 정의'; section 7 (7. qualitative interview): missing '학생 말투로 풀어쓴 설명'; section 7 (7. qualitative interview): missing '왜 이 ...에서 중요한지'; section 7 (7. qualitative interview): missing '자주 헷갈리는 포인트'; section 8 (8. heterogeneity): missing '한국어 개념명'; section 8 (8. heterogeneity): missing 'Original English term'; section 8 (8. heterogeneity): missing '정확한 한 줄 정의'; section 8 (8. heterogeneity): missing '학생 말투로 풀어쓴 설명'; section 8 (8. heterogeneity): missing '왜 이 ...에서 중요한지'; section 8 (8. heterogeneity): missing '자주 헷갈리는 포인트'",
         "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
         "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
@@ -283,7 +515,7 @@
   },
   "workflow_status": "partial",
   "workflow_notes": [
-    "translation: content is too short (<200 words); translation is suspiciously short relative to full text",
+    "translation: content is too short (<200 words); translation is suspiciously short relative to full text; translation is missing second-level sections relative to the original text",
     "concepts: section 1 (1. retirement village): missing '한국어 개념명'; section 1 (1. retirement village): missing 'Original English term'; section 1 (1. retirement village): missing '정확한 한 줄 정의'; section 1 (1. retirement village): missing '학생 말투로 풀어쓴 설명'; section 1 (1. retirement village): missing '왜 이 ...에서 중요한지'; section 1 (1. retirement village): missing '자주 헷갈리는 포인트'; section 2 (2. independence): missing '한국어 개념명'; section 2 (2. independence): missing 'Original English term'; section 2 (2. independence): missing '정확한 한 줄 정의'; section 2 (2. independence): missing '학생 말투로 풀어쓴 설명'; section 2 (2. independence): missing '왜 이 ...에서 중요한지'; section 2 (2. independence): missing '자주 헷갈리는 포인트'; section 3 (3. dependence): missing '한국어 개념명'; section 3 (3. dependence): missing 'Original English term'; section 3 (3. dependence): missing '정확한 한 줄 정의'; section 3 (3. dependence): missing '학생 말투로 풀어쓴 설명'; section 3 (3. dependence): missing '왜 이 ...에서 중요한지'; section 3 (3. dependence): missing '자주 헷갈리는 포인트'; section 4 (4. othering): missing '한국어 개념명'; section 4 (4. othering): missing 'Original English term'; section 4 (4. othering): missing '정확한 한 줄 정의'; section 4 (4. othering): missing '학생 말투로 풀어쓴 설명'; section 4 (4. othering): missing '왜 이 ...에서 중요한지'; section 4 (4. othering): missing '자주 헷갈리는 포인트'; section 5 (5. prolonged midlife): missing '한국어 개념명'; section 5 (5. prolonged midlife): missing 'Original English term'; section 5 (5. prolonged midlife): missing '정확한 한 줄 정의'; section 5 (5. prolonged midlife): missing '학생 말투로 풀어쓴 설명'; section 5 (5. prolonged midlife): missing '왜 이 ...에서 중요한지'; section 5 (5. prolonged midlife): missing '자주 헷갈리는 포인트'; section 6 (6. independent living community): missing '한국어 개념명'; section 6 (6. independent living community): missing 'Original English term'; section 6 (6. independent living community): missing '정확한 한 줄 정의'; section 6 (6. independent living community): missing '학생 말투로 풀어쓴 설명'; section 6 (6. independent living community): missing '왜 이 ...에서 중요한지'; section 6 (6. independent living community): missing '자주 헷갈리는 포인트'; section 7 (7. qualitative interview): missing '한국어 개념명'; section 7 (7. qualitative interview): missing 'Original English term'; section 7 (7. qualitative interview): missing '정확한 한 줄 정의'; section 7 (7. qualitative interview): missing '학생 말투로 풀어쓴 설명'; section 7 (7. qualitative interview): missing '왜 이 ...에서 중요한지'; section 7 (7. qualitative interview): missing '자주 헷갈리는 포인트'; section 8 (8. heterogeneity): missing '한국어 개념명'; section 8 (8. heterogeneity): missing 'Original English term'; section 8 (8. heterogeneity): missing '정확한 한 줄 정의'; section 8 (8. heterogeneity): missing '학생 말투로 풀어쓴 설명'; section 8 (8. heterogeneity): missing '왜 이 ...에서 중요한지'; section 8 (8. heterogeneity): missing '자주 헷갈리는 포인트'",
     "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
     "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",

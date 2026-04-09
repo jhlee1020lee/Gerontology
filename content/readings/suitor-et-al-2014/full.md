@@ -2,7 +2,7 @@
 
 > source: `source_pdfs/Suitor et al., 2014.pdf`
 
-## Page 1
+## Abstract and Introduction
 
 © The Author 2013. Published by Oxford University Press on behalf of The Gerontological Society of America.
 All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.
@@ -96,16 +96,7 @@ from 450 adult children nested within 214 later-
 life families in which the offspring reported that
 their mothers needed care within 2 years prior to
 the interview.
-The Gerontologist
-
-Cite journal as: The Gerontologist Vol. 54, No. 4, 580–588
-doi:10.1093/geront/gnt065 Advance Access publication June 27, 2013
-580 The Gerontologist
-
-## Page 2
-
-Within-Family Differences in Sibling Tension
-During Caregiving
+## Within-Family Differences in Sibling Tension During Caregiving
 The role of social support in moderating stress
 
 following life events and status transitions has long
@@ -174,9 +165,7 @@ als who had provided care to their mothers for a
 recent health event or chronic condition would
 report greater tension with siblings than would
 those who had not provided care.
-Perceptions of Favoritism and Sibling Tension
-
-During Caregiving
+## Perceptions of Favoritism and Sibling Tension During Caregiving
 We propose that perceptions of parental favor-
 
 itism will also play a role in sibling relations dur-
@@ -211,10 +200,6 @@ other siblings as the preferred offspring (Boll et al.,
 2005; Gilligan et al., in press; Suitor et al., 2009).
 Indeed, perceived favoritism specifically regarding
 filial responsibility had similar effects on sibling
-Vol. 54, No. 4, 2014 581
-
-## Page 3
-
 tension regardless of whether the respondent
 perceived him or herself as the favored or unfavored
 child (Boll et al., 2003, 2005). This pattern found
@@ -263,7 +248,7 @@ hypothesis—that the association between recent
 caregiving and sibling tension will be stronger
 when adult children perceive their mothers as
 favoring particular offspring as future caregivers.
-Methods
+## Methods
 
 The data used in the present analyses were col-
 
@@ -287,7 +272,7 @@ use data from the 450 adult children nested within
 reported that their mothers needed assistance for
 a serious illness, injury, or disability at some point
 within 2 years prior to the T2 interview.
-Procedures
+**Procedures**
 
 Massachusetts city and town lists were used
 
@@ -322,10 +307,6 @@ been married at T1; they were also more likely to
 be Black.
 Following the interview, mothers were asked for
 contact information for their adult children; 81%
-582 The Gerontologist
-
-## Page 4
-
 of the mothers provided contact information—
 a rate higher than typically found in studies of
 multiple generations (Kalmijn & Liefbroer, 2011;
@@ -350,9 +331,9 @@ injury, or disability at some point within 2 years
 prior to the T2 interview.
 Table 1 presents demographic information for
 the adult children in this subsample.
-Measures
+**Measures**
 
-Sibling Tension
+**Sibling Tension**
 
 To create the measure of sibling tension, we com-
 
@@ -365,7 +346,7 @@ very often (5), fairly often, sometimes, rarely, and
 never (1). The range of the sibling tension scale was
 
 3–15 ( M = 6.13; SD = 2.38); Cronbach’s alpha = .76.
-Independent Variables
+**Independent Variables**
 
 To create the caregiving measure, we used the
 
@@ -437,16 +418,12 @@ Married 62
 Nonmarried 38
 Provided care to mom at T2 63.1
 Child perceived mother favored a child at T2 85.3
-Vol. 54, No. 4, 2014 583
-
-## Page 5
-
 Adult children who perceived that their mothers
 preferred particular offspring as caregivers were
 somewhat more likely to report that their mothers
 had limitations to their daily activities than were
 those who did not (64% vs 72%; p < .05).
-Control Variables
+**Control Variables**
 
 Family Level Characteristics.— Race was meas-
 
@@ -472,7 +449,7 @@ Adult Child Characteristics.— Gender was coded
 as married = 1 and not married = 0. Age at T2 was
 age at T1 plus 7 (the number of years between
 interviews).
-Plan of Analysis
+**Plan of Analysis**
 
 Because the adult children were nested within
 
@@ -483,7 +460,7 @@ ducted using SPSS version 21. Listwise deletion
 was used to handle missing data because there
 were no more than 5% missing on any variable in
 the analysis (cf. Allison, 2010).
-Results
+## Results
 
 As shown in Model 1 of Table 2, both having
 
@@ -536,10 +513,6 @@ BIC 1,971.123 1,965.864
 Notes: AIC = Akaike information criterion; BIC = Bayesian information criterion.
 
 * p < .05, ** p < .01.
-584 The Gerontologist
-
-## Page 6
-
 to their mothers and perceived that their mothers
 preferred a particular child as her future caregiver.
 To be certain that these findings were not affected
@@ -573,7 +546,7 @@ care were associated with sibling tension indepen-
 dently, and that the effects of caregiving on sibling
 tension were greater when perceptions of favorit-
 ism were also present.
-Discussion and Conclusion
+## Discussion and Conclusion
 
 Studies of later-life families have demonstrated
 
@@ -647,10 +620,6 @@ effects of favoritism on psychological well-being
 have shown the same pattern across the life course
 (Pillemer, Suitor, Pardo, & Henderson, 2010;
 Suitor et al., 2008).
-Vol. 54, No. 4, 2014 585
-
-## Page 7
-
 Two important questions for future research
 are the roles that children’s personality traits and
 early relations with siblings may play in both sib-
@@ -684,7 +653,7 @@ they prefer. Thus, the findings shed new light on the
 conditions under which siblings are more likely to
 experience high levels of tension when their parents
 encounter major health events and require care.
-Implications for Practice
+## Implications for Practice
 
 These findings have important implications
 
@@ -751,7 +720,9 @@ with families, acknowledging that noncaregiving
 siblings may experience the relationships as
 relatively harmonious, whereas the caregiver
 experiences them as stressful and tense.
-Funding
+## Funding and Acknowledgments
+
+**Funding**
 
 This project was supported by grants from the National Institute
 on Aging (RO1 AG18869-01, 2RO1 AG18869-04 to J. J. Suitor and
@@ -760,15 +731,11 @@ K. Johnson also wish to acknowledge support from the Center on Aging
 and the Life Course at Purdue University. K. Pillemer also acknowledges
 support from an Edward R. Roybal Center grant from the National
 Institute on Aging (1 P50 AG11711-01).
-586 The Gerontologist
-
-## Page 8
-
-Acknowledgments
+**Acknowledgments**
 We would like to thank Paul Allison for his helpful suggestions regard-
 ing the data analysis and Mary Ellen Colten and her colleagues at the
 University of Massachusetts, Boston for collecting the data for the project.
-References
+## References
 
 AARP. (2011). When siblings disagree about what’s best for mom and dad.
 Retrieved from http://www.aarp.org/relationships/caregiving-resource-
@@ -915,10 +882,6 @@ Suitor, J. J., Sechrist, J., Plikuhn, M., Pardo, S., Gilligan, M., & Pillemer, K
 (2009). The role of perceived maternal favoritism in sibling relations in
 midlife. Journal of Marriage & Family , 71 , 1026–1038. doi:10.1111/
 j.1741-3737.2009.00650.x
-Vol. 54, No. 4, 2014 587
-
-## Page 9
-
 Suitor, J. J., Sechrist, J., Plikuhn, M., Pardo, S., & Pillemer, K. (2008).
 Within-family differences in parent-child relations across the life
 course. Current Directions in Psychological Science , 17 , 334–338.
@@ -937,4 +900,3 @@ Wright, J. D., & Marsden, P. V. (2010). Survey research and social science:
 History, current practice, and future prospects. In V. Peter, D. Marsden,
 & J. Wright (Eds.), Handbook of survey research (pp. 3–26). Bingley,
 England: Emerald Group.
-588 The Gerontologist

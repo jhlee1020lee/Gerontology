@@ -21,12 +21,12 @@
     "translation": "approved",
     "summary": "approved",
     "concepts": "approved",
-    "pitfalls": "schema_fail",
-    "review_sheet": "schema_fail",
+    "pitfalls": "approved",
+    "review_sheet": "approved",
     "professor_prep": "approved",
-    "quiz_ox": "schema_fail",
-    "quiz_short": "schema_fail",
-    "quiz_mcq": "schema_fail",
+    "quiz_ox": "approved",
+    "quiz_short": "approved",
+    "quiz_mcq": "approved",
     "index": "approved"
   },
   "content_dir": "content/readings/park-mcdonough-2013",
@@ -47,15 +47,27 @@
       "translation",
       "summary",
       "concepts",
+      "professor-prep",
       "pitfalls",
       "review-sheet",
-      "professor-prep",
       "quiz-ox",
       "quiz-short",
       "quiz-mcq"
     ],
+    "approved_page_hashes": {
+      "full": "85af88e0644ec922e0e074db726f5c0b90c74790",
+      "translation": "67301327a6682b820737834dc3a6ff4bda1ecc76",
+      "summary": "a8fd10b0556eda83a9358e7a86891f6af9bc48d5",
+      "concepts": "2fccef29ae95ccfe412dba2a4398404aca32718c",
+      "professor-prep": "5ebee08ff0eaa490ea3a6814f5b3cd0a429eb302",
+      "pitfalls": "49125a60d4f633b7fd14c7f6bda7c3155c97fb60",
+      "review-sheet": "4eb384afb4095e0b5552a158b1ca53c21627cfd6",
+      "quiz-ox": "ef4abd3ac3611165679a7458dc5cea90a623a8c4",
+      "quiz-short": "2c4e2daeef0297179d2d3c3de0d66244227629c3",
+      "quiz-mcq": "a9a322b340f1dc7f516df0143c5e86ab318741da"
+    },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-06",
+    "reviewed_at": "2026-04-09",
     "notes": [
       "Validated against schema and built artifacts.",
       "설명 영상은 추후 업로드 예정으로 별도 보강한다."
@@ -63,7 +75,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T00:10:06.686Z",
+    "updated_at": "2026-04-09T04:21:54.645Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -84,7 +96,15 @@
           "word_count": 4342,
           "section_count": 7,
           "sub_section_count": 10,
-          "bullet_count": 43
+          "bullet_count": 43,
+          "level2_heading_count": 7,
+          "level3_heading_count": 10,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 24,
+          "level2_section_count": 7,
+          "empty_level2_sections": [],
+          "last_level2_title": "References"
         }
       },
       "translation": {
@@ -97,7 +117,21 @@
           "sub_section_count": 10,
           "bullet_count": 43,
           "full_word_count": 4342,
-          "translation_ratio": 0.862
+          "translation_ratio": 0.862,
+          "level2_heading_count": 7,
+          "level3_heading_count": 10,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 32,
+          "level2_section_count": 7,
+          "empty_level2_sections": [],
+          "last_level2_title": "참고문헌",
+          "full_level2_heading_count": 7,
+          "full_level3_heading_count": 10,
+          "full_level4_heading_count": 0,
+          "full_figure_count": 0,
+          "original_reveal_enabled": false,
+          "reveal_entry_count": 0
         }
       },
       "summary": {
@@ -126,35 +160,25 @@
         }
       },
       "pitfalls": {
-        "status": "schema_fail",
-        "errors": [
-          "pitfalls page contains generic coaching phrase instead of reading-specific confusion: /교수님 스타일에서는 한국 맥락 연결이 중요하다/",
-          "pitfalls page contains generic coaching phrase instead of reading-specific confusion: /AI처럼 들리기 쉽다/",
-          "pitfalls page contains generic coaching phrase instead of reading-specific confusion: /영문 읽기/",
-          "pitfalls page contains generic coaching phrase instead of reading-specific confusion: /번역만 보고 가면/",
-          "pitfalls page contains unresolved particle template such as '은(는)' or '와(과)'"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 204,
+          "word_count": 316,
           "section_count": 5,
           "sub_section_count": 0,
           "bullet_count": 15
         }
       },
       "review_sheet": {
-        "status": "schema_fail",
-        "errors": [
-          "review sheet contains placeholder study instruction instead of actual content: /이 부분을 한 문장으로 다시 말할 수 있어야 한다/",
-          "review sheet contains placeholder study instruction instead of actual content: /이 용어가 왜 중요한지 바로 설명할 수 있어야 한다/",
-          "review sheet contains placeholder study instruction instead of actual content: /한 문장으로 다시 말할 수 있어야 한다/"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 199,
-          "section_count": 3,
+          "word_count": 299,
+          "section_count": 4,
           "sub_section_count": 0,
-          "bullet_count": 14
+          "bullet_count": 18
         }
       },
       "professor_prep": {
@@ -166,92 +190,151 @@
         }
       },
       "quiz_ox": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-ox item 1 explanation is too generic: /보여 주는 핵심 축이다\\.?$/",
-          "quiz-ox item 1 contains unresolved particle template",
-          "quiz-ox item 3 contains unresolved particle template",
-          "quiz-ox item 4 explanation is too generic: /보여 주는 핵심 축이다\\.?$/",
-          "quiz-ox item 4 contains unresolved particle template",
-          "quiz-ox item 6 contains unresolved particle template",
-          "quiz-ox item 7 explanation is too generic: /보여 주는 핵심 축이다\\.?$/",
-          "quiz-ox item 7 contains unresolved particle template",
-          "quiz-ox item 9 contains unresolved particle template",
-          "quiz-ox item 10 explanation is too generic: /보여 주는 핵심 축이다\\.?$/",
-          "quiz-ox item 10 contains unresolved particle template",
-          "quiz-ox item 11 contains unresolved particle template"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
           "item_count": 15
         }
       },
       "quiz_short": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-short item 1 contains unresolved particle template",
-          "quiz-short item 1 leaks the accepted answer in the question",
-          "quiz-short item 2 contains unresolved particle template",
-          "quiz-short item 2 leaks the accepted answer in the question",
-          "quiz-short item 3 contains unresolved particle template",
-          "quiz-short item 3 leaks the accepted answer in the question",
-          "quiz-short item 4 contains unresolved particle template",
-          "quiz-short item 4 leaks the accepted answer in the question",
-          "quiz-short item 5 contains unresolved particle template",
-          "quiz-short item 5 leaks the accepted answer in the question",
-          "quiz-short item 6 contains unresolved particle template",
-          "quiz-short item 6 leaks the accepted answer in the question",
-          "quiz-short item 7 contains unresolved particle template",
-          "quiz-short item 7 leaks the accepted answer in the question",
-          "quiz-short item 8 contains unresolved particle template",
-          "quiz-short item 8 leaks the accepted answer in the question",
-          "quiz-short item 9 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/",
-          "quiz-short item 9 contains unresolved particle template",
-          "quiz-short item 10 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/",
-          "quiz-short item 10 contains unresolved particle template",
-          "quiz-short item 11 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/",
-          "quiz-short item 11 contains unresolved particle template",
-          "quiz-short item 12 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/",
-          "quiz-short item 12 contains unresolved particle template",
-          "quiz-short item 13 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/",
-          "quiz-short item 13 contains unresolved particle template",
-          "quiz-short contains duplicate or near-duplicate questions (1)"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
           "item_count": 15
         }
       },
       "quiz_mcq": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-mcq item 1 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/",
-          "quiz-mcq item 1 contains unresolved particle template",
-          "quiz-mcq item 2 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/",
-          "quiz-mcq item 2 contains unresolved particle template",
-          "quiz-mcq item 3 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/",
-          "quiz-mcq item 3 contains unresolved particle template",
-          "quiz-mcq item 4 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/",
-          "quiz-mcq item 4 contains unresolved particle template",
-          "quiz-mcq item 5 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/",
-          "quiz-mcq item 5 contains unresolved particle template",
-          "quiz-mcq item 6 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/",
-          "quiz-mcq item 6 contains unresolved particle template",
-          "quiz-mcq item 7 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/",
-          "quiz-mcq item 7 contains unresolved particle template",
-          "quiz-mcq item 7 needs at least 3 options",
-          "quiz-mcq item 8 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/",
-          "quiz-mcq item 8 contains unresolved particle template",
-          "quiz-mcq item 8 needs at least 3 options",
-          "quiz-mcq item 13 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/",
-          "quiz-mcq item 13 contains unresolved particle template",
-          "quiz-mcq item 14 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/",
-          "quiz-mcq item 14 contains unresolved particle template",
-          "quiz-mcq item 15 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/",
-          "quiz-mcq item 15 contains unresolved particle template",
-          "quiz-mcq contains duplicate or near-duplicate prompts (3)",
-          "quiz-mcq uses the same answer position for every item"
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      }
+    },
+    "source_page_results": {
+      "full": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 4342,
+          "section_count": 7,
+          "sub_section_count": 10,
+          "bullet_count": 43,
+          "level2_heading_count": 7,
+          "level3_heading_count": 10,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 24,
+          "level2_section_count": 7,
+          "empty_level2_sections": [],
+          "last_level2_title": "References"
+        }
+      },
+      "translation": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 3742,
+          "section_count": 7,
+          "sub_section_count": 10,
+          "bullet_count": 43,
+          "full_word_count": 4342,
+          "translation_ratio": 0.862,
+          "level2_heading_count": 7,
+          "level3_heading_count": 10,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 32,
+          "level2_section_count": 7,
+          "empty_level2_sections": [],
+          "last_level2_title": "참고문헌",
+          "full_level2_heading_count": 7,
+          "full_level3_heading_count": 10,
+          "full_level4_heading_count": 0,
+          "full_figure_count": 0,
+          "original_reveal_enabled": false,
+          "reveal_entry_count": 0
+        }
+      },
+      "summary": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [
+          "summary should include a dedicated implication, conclusion, or class-facing section"
         ],
+        "metrics": {
+          "word_count": 439,
+          "section_count": 4,
+          "sub_section_count": 0,
+          "bullet_count": 16
+        }
+      },
+      "concepts": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 833,
+          "section_count": 8,
+          "sub_section_count": 0,
+          "bullet_count": 48,
+          "concept_count": 8
+        }
+      },
+      "pitfalls": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 316,
+          "section_count": 5,
+          "sub_section_count": 0,
+          "bullet_count": 15
+        }
+      },
+      "review_sheet": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 299,
+          "section_count": 4,
+          "sub_section_count": 0,
+          "bullet_count": 18
+        }
+      },
+      "professor_prep": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "card_count": 16
+        }
+      },
+      "quiz_ox": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_short": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_mcq": {
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
           "item_count": 15
@@ -267,34 +350,16 @@
       "notes": []
     },
     "stage3": {
-      "status": "partial",
-      "notes": [
-        "pitfalls: pitfalls page contains generic coaching phrase instead of reading-specific confusion: /교수님 스타일에서는 한국 맥락 연결이 중요하다/; pitfalls page contains generic coaching phrase instead of reading-specific confusion: /AI처럼 들리기 쉽다/; pitfalls page contains generic coaching phrase instead of reading-specific confusion: /영문 읽기/; pitfalls page contains generic coaching phrase instead of reading-specific confusion: /번역만 보고 가면/; pitfalls page contains unresolved particle template such as '은(는)' or '와(과)'",
-        "review-sheet: review sheet contains placeholder study instruction instead of actual content: /이 부분을 한 문장으로 다시 말할 수 있어야 한다/; review sheet contains placeholder study instruction instead of actual content: /이 용어가 왜 중요한지 바로 설명할 수 있어야 한다/; review sheet contains placeholder study instruction instead of actual content: /한 문장으로 다시 말할 수 있어야 한다/",
-        "quiz-ox: quiz-ox item 1 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 1 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 4 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 7 contains unresolved particle template; quiz-ox item 9 contains unresolved particle template; quiz-ox item 10 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 10 contains unresolved particle template; quiz-ox item 11 contains unresolved particle template",
-        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 1 leaks the accepted answer in the question; quiz-short item 2 contains unresolved particle template; quiz-short item 2 leaks the accepted answer in the question; quiz-short item 3 contains unresolved particle template; quiz-short item 3 leaks the accepted answer in the question; quiz-short item 4 contains unresolved particle template; quiz-short item 4 leaks the accepted answer in the question; quiz-short item 5 contains unresolved particle template; quiz-short item 5 leaks the accepted answer in the question; quiz-short item 6 contains unresolved particle template; quiz-short item 6 leaks the accepted answer in the question; quiz-short item 7 contains unresolved particle template; quiz-short item 7 leaks the accepted answer in the question; quiz-short item 8 contains unresolved particle template; quiz-short item 8 leaks the accepted answer in the question; quiz-short item 9 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 9 contains unresolved particle template; quiz-short item 10 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 10 contains unresolved particle template; quiz-short item 11 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 11 contains unresolved particle template; quiz-short item 12 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 12 contains unresolved particle template; quiz-short item 13 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 13 contains unresolved particle template; quiz-short contains duplicate or near-duplicate questions (1)",
-        "quiz-mcq: quiz-mcq item 1 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 1 contains unresolved particle template; quiz-mcq item 2 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 2 contains unresolved particle template; quiz-mcq item 3 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 3 contains unresolved particle template; quiz-mcq item 4 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 4 contains unresolved particle template; quiz-mcq item 5 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 5 contains unresolved particle template; quiz-mcq item 6 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 6 contains unresolved particle template; quiz-mcq item 7 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 7 contains unresolved particle template; quiz-mcq item 7 needs at least 3 options; quiz-mcq item 8 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 8 contains unresolved particle template; quiz-mcq item 8 needs at least 3 options; quiz-mcq item 13 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-mcq item 13 contains unresolved particle template; quiz-mcq item 14 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-mcq item 14 contains unresolved particle template; quiz-mcq item 15 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-mcq item 15 contains unresolved particle template; quiz-mcq contains duplicate or near-duplicate prompts (3); quiz-mcq uses the same answer position for every item"
-      ]
+      "status": "approved",
+      "notes": []
     },
     "reading": {
-      "status": "partial",
-      "notes": [
-        "pitfalls: pitfalls page contains generic coaching phrase instead of reading-specific confusion: /교수님 스타일에서는 한국 맥락 연결이 중요하다/; pitfalls page contains generic coaching phrase instead of reading-specific confusion: /AI처럼 들리기 쉽다/; pitfalls page contains generic coaching phrase instead of reading-specific confusion: /영문 읽기/; pitfalls page contains generic coaching phrase instead of reading-specific confusion: /번역만 보고 가면/; pitfalls page contains unresolved particle template such as '은(는)' or '와(과)'",
-        "review-sheet: review sheet contains placeholder study instruction instead of actual content: /이 부분을 한 문장으로 다시 말할 수 있어야 한다/; review sheet contains placeholder study instruction instead of actual content: /이 용어가 왜 중요한지 바로 설명할 수 있어야 한다/; review sheet contains placeholder study instruction instead of actual content: /한 문장으로 다시 말할 수 있어야 한다/",
-        "quiz-ox: quiz-ox item 1 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 1 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 4 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 7 contains unresolved particle template; quiz-ox item 9 contains unresolved particle template; quiz-ox item 10 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 10 contains unresolved particle template; quiz-ox item 11 contains unresolved particle template",
-        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 1 leaks the accepted answer in the question; quiz-short item 2 contains unresolved particle template; quiz-short item 2 leaks the accepted answer in the question; quiz-short item 3 contains unresolved particle template; quiz-short item 3 leaks the accepted answer in the question; quiz-short item 4 contains unresolved particle template; quiz-short item 4 leaks the accepted answer in the question; quiz-short item 5 contains unresolved particle template; quiz-short item 5 leaks the accepted answer in the question; quiz-short item 6 contains unresolved particle template; quiz-short item 6 leaks the accepted answer in the question; quiz-short item 7 contains unresolved particle template; quiz-short item 7 leaks the accepted answer in the question; quiz-short item 8 contains unresolved particle template; quiz-short item 8 leaks the accepted answer in the question; quiz-short item 9 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 9 contains unresolved particle template; quiz-short item 10 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 10 contains unresolved particle template; quiz-short item 11 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 11 contains unresolved particle template; quiz-short item 12 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 12 contains unresolved particle template; quiz-short item 13 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 13 contains unresolved particle template; quiz-short contains duplicate or near-duplicate questions (1)",
-        "quiz-mcq: quiz-mcq item 1 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 1 contains unresolved particle template; quiz-mcq item 2 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 2 contains unresolved particle template; quiz-mcq item 3 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 3 contains unresolved particle template; quiz-mcq item 4 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 4 contains unresolved particle template; quiz-mcq item 5 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 5 contains unresolved particle template; quiz-mcq item 6 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 6 contains unresolved particle template; quiz-mcq item 7 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 7 contains unresolved particle template; quiz-mcq item 7 needs at least 3 options; quiz-mcq item 8 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 8 contains unresolved particle template; quiz-mcq item 8 needs at least 3 options; quiz-mcq item 13 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-mcq item 13 contains unresolved particle template; quiz-mcq item 14 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-mcq item 14 contains unresolved particle template; quiz-mcq item 15 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-mcq item 15 contains unresolved particle template; quiz-mcq contains duplicate or near-duplicate prompts (3); quiz-mcq uses the same answer position for every item"
-      ]
+      "status": "approved",
+      "notes": []
     }
   },
-  "workflow_status": "partial",
-  "workflow_notes": [
-    "pitfalls: pitfalls page contains generic coaching phrase instead of reading-specific confusion: /교수님 스타일에서는 한국 맥락 연결이 중요하다/; pitfalls page contains generic coaching phrase instead of reading-specific confusion: /AI처럼 들리기 쉽다/; pitfalls page contains generic coaching phrase instead of reading-specific confusion: /영문 읽기/; pitfalls page contains generic coaching phrase instead of reading-specific confusion: /번역만 보고 가면/; pitfalls page contains unresolved particle template such as '은(는)' or '와(과)'",
-    "review-sheet: review sheet contains placeholder study instruction instead of actual content: /이 부분을 한 문장으로 다시 말할 수 있어야 한다/; review sheet contains placeholder study instruction instead of actual content: /이 용어가 왜 중요한지 바로 설명할 수 있어야 한다/; review sheet contains placeholder study instruction instead of actual content: /한 문장으로 다시 말할 수 있어야 한다/",
-    "quiz-ox: quiz-ox item 1 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 1 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 4 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 7 contains unresolved particle template; quiz-ox item 9 contains unresolved particle template; quiz-ox item 10 explanation is too generic: /보여 주는 핵심 축이다\\.?$/; quiz-ox item 10 contains unresolved particle template; quiz-ox item 11 contains unresolved particle template",
-    "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 1 leaks the accepted answer in the question; quiz-short item 2 contains unresolved particle template; quiz-short item 2 leaks the accepted answer in the question; quiz-short item 3 contains unresolved particle template; quiz-short item 3 leaks the accepted answer in the question; quiz-short item 4 contains unresolved particle template; quiz-short item 4 leaks the accepted answer in the question; quiz-short item 5 contains unresolved particle template; quiz-short item 5 leaks the accepted answer in the question; quiz-short item 6 contains unresolved particle template; quiz-short item 6 leaks the accepted answer in the question; quiz-short item 7 contains unresolved particle template; quiz-short item 7 leaks the accepted answer in the question; quiz-short item 8 contains unresolved particle template; quiz-short item 8 leaks the accepted answer in the question; quiz-short item 9 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 9 contains unresolved particle template; quiz-short item 10 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 10 contains unresolved particle template; quiz-short item 11 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 11 contains unresolved particle template; quiz-short item 12 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 12 contains unresolved particle template; quiz-short item 13 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-short item 13 contains unresolved particle template; quiz-short contains duplicate or near-duplicate questions (1)",
-    "quiz-mcq: quiz-mcq item 1 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 1 contains unresolved particle template; quiz-mcq item 2 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 2 contains unresolved particle template; quiz-mcq item 3 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 3 contains unresolved particle template; quiz-mcq item 4 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 4 contains unresolved particle template; quiz-mcq item 5 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 5 contains unresolved particle template; quiz-mcq item 6 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 6 contains unresolved particle template; quiz-mcq item 7 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 7 contains unresolved particle template; quiz-mcq item 7 needs at least 3 options; quiz-mcq item 8 explanation is too generic: /이 읽기(?:의)? 핵심 용어다\\.?$/; quiz-mcq item 8 contains unresolved particle template; quiz-mcq item 8 needs at least 3 options; quiz-mcq item 13 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-mcq item 13 contains unresolved particle template; quiz-mcq item 14 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-mcq item 14 contains unresolved particle template; quiz-mcq item 15 explanation is too generic: /읽기 구조를 잡는 핵심 축이다\\.?$/; quiz-mcq item 15 contains unresolved particle template; quiz-mcq contains duplicate or near-duplicate prompts (3); quiz-mcq uses the same answer position for every item"
-  ],
+  "workflow_status": "approved",
+  "workflow_notes": [],
   "shared_page_bundle": null,
   "shared_page_keys": [],
   "pdf_visibility": "public",

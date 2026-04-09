@@ -2,18 +2,24 @@
 
 > 자동 생성 파일입니다. `node scripts/build_site.js`를 실행하면 함께 갱신됩니다.
 
-- 마지막 갱신: 2026-04-09-11:31:22 KST
+- 마지막 갱신: 2026-04-09-14:41:45 KST
 - 전체 읽기: 27
-- 승인 완료: 3
-- 미승인/검토 필요: 24
+- 승인 완료: 9
+- 미승인/검토 필요: 18
 
 ## 승인 완료
 
 | 순서 | 날짜 | slug | 제목 |
 | --- | --- | --- | --- |
 | 6 | 3/24 | hulur-et-al-2019 | Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment |
+| 8 | 3/31 | kerrigan-2018 | 12 Innovations That Could Make Reverse Aging a Reality |
+| 9 | 3/31 | olshansky-carnes-2019 | Inconvenient Truths About Human Longevity |
 | 10 | 4/02 | ch06-gerontology | 심리적 노화 I : 인지적 변화 |
+| 11 | 4/07 | park-mcdonough-2013 | The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research |
 | 12 | 4/09 | ch07-gerontology | 심리적 노화 II : 성격 및 정서 |
+| 13 | 4/14 | wagner-et-al-2016 | Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories |
+| 14 | 4/21 | ch08-gerontology | 사회적 노화 I: 중노년기 세대관계 및 친족관계 |
+| 15 | 4/23 | suitor-et-al-2014 | Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings |
 
 ## 미승인 / 검토 필요
 
@@ -25,12 +31,6 @@
 | 4 | 3/17 | ch03-gerontology | 미승인 | 수동 검토 | 승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 핵심 요약, 핵심 개념 |
 | 5 | 3/19 | ch04-gerontology | 미승인 | 수동 검토 | 승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 핵심 요약, 핵심 개념 |
 | 7 | 3/26 | ch05-gerontology | 미승인 | 승인 | 승인 | 미승인 | 승인 | 객관식 퀴즈 |
-| 8 | 3/31 | kerrigan-2018 | 미승인 | 승인 | 승인 | 미승인 | 승인 | 객관식 퀴즈 |
-| 9 | 3/31 | olshansky-carnes-2019 | 미승인 | 승인 | 승인 | 미승인 | 승인 | 객관식 퀴즈 |
-| 11 | 4/07 | park-mcdonough-2013 | 미승인 | 승인 | 승인 | 미승인 | 승인 | 헷갈리는 포인트, 시험 직전 정리, OX 퀴즈, 단답형 퀴즈 |
-| 13 | 4/14 | wagner-et-al-2016 | 미승인 | 수동 검토 | 수동 검토 | 미승인 | 선택 사항 | Stage 1 수동 승인, Stage 2 수동 승인, 전체 글, 한국어 번역 |
-| 14 | 4/21 | ch08-gerontology | 미승인 | 수동 검토 | 승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 핵심 요약, 핵심 개념 |
-| 15 | 4/23 | suitor-et-al-2014 | 미승인 | 수동 검토 | 미승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 한국어 번역, 핵심 요약 |
 | 16 | 4/28 | ch09-gerontology | 미승인 | 수동 검토 | 승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 핵심 요약, 핵심 개념 |
 | 17 | 4/30 | ch10-gerontology | 미승인 | 수동 검토 | 승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 핵심 요약, 핵심 개념 |
 | 18 | 5/07 | blieszner-2014 | 미승인 | 수동 검토 | 미승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 한국어 번역, 핵심 요약 |

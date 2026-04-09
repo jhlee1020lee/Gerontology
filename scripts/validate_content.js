@@ -1,3 +1,4 @@
+const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 const { normalizeTranslationOriginalRevealConfig, parseMarkdownDocument, resolveTranslationAlignment } = require("./translation_original_reveal");
@@ -65,6 +66,23 @@ const QUIZ_TRIVIAL_EXPLANATION_PATTERNS = [
 ];
 
 const UNRESOLVED_PARTICLE_PATTERN = /은\(는\)|는\(은\)|와\(과\)|과\(와\)|이\(가\)|가\(이\)|을\(를\)|를\(을\)|로\(으로\)|으로\(로\)/;
+const INCOMPLETE_FULL_PATTERNS = [
+  /stage\s*1\s*pass/i,
+  /현재\s*원문/,
+  /현재\s*추출/,
+  /다음\s*패스/,
+  /끝단\s*qa/i,
+  /이어서\s*진행/,
+];
+const INCOMPLETE_TRANSLATION_PATTERNS = [
+  /stage\s*2\s*pass/i,
+  /현재\s*번역/,
+  /다음\s*패스/,
+  /끝단\s*qa/i,
+  /이어서\s*진행/,
+  /번역본이다/,
+  /부록.?참고문헌.*다음\s*패스/,
+];
 
 function readText(filePath) {
   return fs.readFileSync(filePath, "utf8").replace(/^\uFEFF/, "");
@@ -208,6 +226,18 @@ function countHtmlClass(html, className) {
   return classAttrs.filter((value) => value.split(/\s+/).includes(className)).length;
 }
 
+function builtPageFilename(pageKey) {
+  return `${pageKey}.html`;
+}
+
+function hasBuiltPlaceholderContent(html) {
+  const value = String(html || "");
+  return value.includes("<h2>업로드 예정입니다.</h2>")
+    || value.includes("<h2>임시 안내 페이지</h2>")
+    || countHtmlClass(value, "upload-placeholder") > 0
+    || countHtmlClass(value, "article-placeholder") > 0;
+}
+
 function applyArtifactErrorsToPageResult(result, artifactErrors = []) {
   if (!artifactErrors.length) {
     return result;
@@ -297,10 +327,18 @@ function sharedPageSourcePath(rootDir, reading, pageKey) {
 
 function normalizeManualReview(value) {
   const manual = value && typeof value === "object" ? value : {};
+  const approvedPageHashes = manual.approved_page_hashes && typeof manual.approved_page_hashes === "object"
+    ? Object.fromEntries(
+      Object.entries(manual.approved_page_hashes)
+        .map(([pageKey, hash]) => [toText(pageKey), toText(hash)])
+        .filter(([pageKey, hash]) => pageKey && hash)
+    )
+    : {};
   return {
     approved_pages: Array.isArray(manual.approved_pages)
       ? manual.approved_pages.map((item) => toText(item)).filter(Boolean)
       : [],
+    approved_page_hashes: approvedPageHashes,
     reviewer: toText(manual.reviewer),
     reviewed_at: toText(manual.reviewed_at) || null,
     notes: Array.isArray(manual.notes) ? manual.notes.map((item) => toText(item)).filter(Boolean) : [],
@@ -308,8 +346,15 @@ function normalizeManualReview(value) {
   };
 }
 
-function withApproval(pageKey, baseStatus, manualReview) {
-  if (baseStatus === PAGE_STATUS.SCHEMA_PASS && manualReview.approved_pages.includes(pageKey)) {
+function withApproval(pageKey, baseResult, manualReview) {
+  const baseStatus = baseResult?.status;
+  const sourceHash = toText(baseResult?.source_hash);
+  const storedHash = toText(manualReview?.approved_page_hashes?.[pageKey]);
+  if (
+    baseStatus === PAGE_STATUS.SCHEMA_PASS
+    && manualReview.approved_pages.includes(pageKey)
+    && (!storedHash || !sourceHash || storedHash === sourceHash)
+  ) {
     return PAGE_STATUS.APPROVED;
   }
   return baseStatus;
@@ -336,6 +381,88 @@ function baseMarkdownChecks(text, minWords) {
     errors.push(`content is too short (<${minWords} words)`);
   }
   return { errors, warnings, metrics };
+}
+
+function parseLongFormStructure(text) {
+  const document = parseMarkdownDocument(text, {
+    skipFirstTitleHeading: true,
+    collectFrontmatter: true,
+  });
+  const blocks = Array.isArray(document?.blocks) ? document.blocks : [];
+  const levelCounts = { 2: 0, 3: 0, 4: 0 };
+  const sections = [];
+  let currentLevelTwoSection = null;
+
+  blocks.forEach((block) => {
+    if (block.type === "heading") {
+      if (levelCounts[block.level] !== undefined) {
+        levelCounts[block.level] += 1;
+      }
+      if (block.level === 2) {
+        currentLevelTwoSection = {
+          title: toText(block.text),
+          content_block_count: 0,
+          prose_block_count: 0,
+          figure_count: 0,
+        };
+        sections.push(currentLevelTwoSection);
+      }
+      return;
+    }
+    if (!currentLevelTwoSection) {
+      return;
+    }
+    currentLevelTwoSection.content_block_count += 1;
+    if (block.type === "figure") {
+      currentLevelTwoSection.figure_count += 1;
+    }
+    if (block.type === "paragraph" || block.type === "list" || block.type === "quote" || block.type === "code") {
+      currentLevelTwoSection.prose_block_count += 1;
+    }
+  });
+
+  const emptySections = sections.filter((section) => section.content_block_count === 0);
+  return {
+    level2_heading_count: levelCounts[2],
+    level3_heading_count: levelCounts[3],
+    level4_heading_count: levelCounts[4],
+    figure_count: blocks.filter((block) => block.type === "figure").length,
+    paragraph_count: blocks.filter((block) => block.type === "paragraph").length,
+    level2_section_count: sections.length,
+    empty_level2_sections: emptySections.map((section) => section.title || "untitled"),
+    last_level2_title: sections.length ? sections[sections.length - 1].title : "",
+  };
+}
+
+function addIncompleteProgressErrors(errors, text, patterns, label) {
+  patterns.forEach((pattern) => {
+    if (pattern.test(text)) {
+      errors.push(`${label} contains incomplete pass or progress-note text: ${pattern}`);
+    }
+  });
+}
+
+function applyLongFormCoverageChecks(errors, targetMetrics, sourceMetrics, label) {
+  if (!sourceMetrics || !targetMetrics) {
+    return;
+  }
+  if (sourceMetrics.level2_heading_count > 0 && targetMetrics.level2_heading_count < sourceMetrics.level2_heading_count) {
+    errors.push(`${label} is missing second-level sections relative to the original text`);
+  }
+  const minimumLevelThreeCount = Math.ceil(sourceMetrics.level3_heading_count * 0.75);
+  if (sourceMetrics.level3_heading_count > 0 && targetMetrics.level3_heading_count < minimumLevelThreeCount) {
+    errors.push(`${label} is missing third-level sections relative to the original text`);
+  }
+  const minimumLevelFourCount = Math.ceil(sourceMetrics.level4_heading_count * 0.75);
+  if (sourceMetrics.level4_heading_count > 0 && targetMetrics.level4_heading_count < minimumLevelFourCount) {
+    errors.push(`${label} is missing fourth-level sections relative to the original text`);
+  }
+  if (targetMetrics.figure_count !== sourceMetrics.figure_count) {
+    errors.push(`${label} is missing figure/table assets relative to the original text`);
+  }
+  if (targetMetrics.empty_level2_sections.length) {
+    errors.push(`${label} contains empty second-level sections: ${targetMetrics.empty_level2_sections.join(", ")}`);
+  }
 }
 
 function validateSummaryMarkdown(text) {
@@ -454,6 +581,12 @@ function validateFullMarkdown(text) {
     return missingResult();
   }
   const { errors, warnings, metrics } = baseMarkdownChecks(text, 400);
+  const structure = parseLongFormStructure(text);
+  Object.assign(metrics, structure);
+  addIncompleteProgressErrors(errors, text, INCOMPLETE_FULL_PATTERNS, "full text");
+  if (structure.level2_heading_count > 0 && structure.empty_level2_sections.length) {
+    errors.push(`full text contains empty second-level sections: ${structure.empty_level2_sections.join(", ")}`);
+  }
   return makeResult(errors.length ? PAGE_STATUS.SCHEMA_FAIL : PAGE_STATUS.SCHEMA_PASS, errors, warnings, metrics);
 }
 
@@ -462,6 +595,9 @@ function validateTranslationMarkdown(rootDir, reading, existingMeta, text, fullT
     return missingResult();
   }
   const { errors, warnings, metrics } = baseMarkdownChecks(text, 200);
+  if (!fullText) {
+    errors.push("translation cannot be validated because full text is missing or empty");
+  }
   const fullWords = wordCount(fullText);
   if (fullWords) {
     metrics.full_word_count = fullWords;
@@ -469,6 +605,19 @@ function validateTranslationMarkdown(rootDir, reading, existingMeta, text, fullT
     if (metrics.translation_ratio < 0.25) {
       errors.push("translation is suspiciously short relative to full text");
     }
+  }
+  const translationStructure = parseLongFormStructure(text);
+  Object.assign(metrics, translationStructure);
+  addIncompleteProgressErrors(errors, text, INCOMPLETE_TRANSLATION_PATTERNS, "translation");
+  if (fullText) {
+    const fullStructure = parseLongFormStructure(fullText);
+    metrics.full_level2_heading_count = fullStructure.level2_heading_count;
+    metrics.full_level3_heading_count = fullStructure.level3_heading_count;
+    metrics.full_level4_heading_count = fullStructure.level4_heading_count;
+    metrics.full_figure_count = fullStructure.figure_count;
+    applyLongFormCoverageChecks(errors, translationStructure, fullStructure, "translation");
+  } else if (translationStructure.empty_level2_sections.length) {
+    errors.push(`translation contains empty second-level sections: ${translationStructure.empty_level2_sections.join(", ")}`);
   }
   const revealValidation = validateTranslationOriginalReveal(rootDir, reading, existingMeta, text, fullText);
   errors.push(...revealValidation.errors);
@@ -646,6 +795,13 @@ function validateLandingVideo(rootDir, reading, existingMeta = {}, options = {})
   return makeResult(status, errors, warnings, metrics);
 }
 
+function sourceHashForPath(filePath) {
+  if (!filePath || !fs.existsSync(filePath)) {
+    return "";
+  }
+  return crypto.createHash("sha1").update(readText(filePath), "utf8").digest("hex");
+}
+
 function contentPathForPage(rootDir, reading, pageKey) {
   const sharedPath = sharedPageSourcePath(rootDir, reading, pageKey);
   if (sharedPath) {
@@ -681,7 +837,7 @@ function contentPathForPage(rootDir, reading, pageKey) {
   return path.join(contentDir, `${pageKey}.json`);
 }
 
-function validatePage(rootDir, reading, pageKey, manualReview, existingMeta = {}) {
+function validatePage(rootDir, reading, pageKey, existingMeta = {}) {
   if (pageKey === "translation" && reading.language !== "en") {
     return makeResult(PAGE_STATUS.NOT_APPLICABLE, [], [], {});
   }
@@ -689,6 +845,7 @@ function validatePage(rootDir, reading, pageKey, manualReview, existingMeta = {}
   if (!fs.existsSync(sourcePath)) {
     return missingResult();
   }
+  const sourceHash = sourceHashForPath(sourcePath);
   if (ARTICLE_PAGE_KEYS.has(pageKey)) {
     const text = readText(sourcePath);
     let result;
@@ -707,19 +864,55 @@ function validatePage(rootDir, reading, pageKey, manualReview, existingMeta = {}
     } else {
       result = validateFullMarkdown(text);
     }
-    return { ...result, status: withApproval(pageKey, result.status, manualReview) };
+    return { ...result, source_hash: sourceHash };
   }
   if (pageKey === "professor-prep") {
     const payload = loadJson(sourcePath);
     const result = validateProfessorPrepJson(payload);
-    return { ...result, status: withApproval(pageKey, result.status, manualReview) };
+    return { ...result, source_hash: sourceHash };
   }
   if (QUIZ_PAGE_KEYS.has(pageKey)) {
     const payload = loadJson(sourcePath);
     const result = validateQuizPayload(pageKey, payload);
-    return { ...result, status: withApproval(pageKey, result.status, manualReview) };
+    return { ...result, source_hash: sourceHash };
   }
   return missingResult();
+}
+
+function sanitizeManualReviewApprovals(manualReview, basePageResults) {
+  const approvedPages = [];
+  const approvedPageHashes = { ...manualReview.approved_page_hashes };
+
+  manualReview.approved_pages.forEach((pageKey) => {
+    const result = basePageResults[pageKey];
+    if (!result || result.status !== PAGE_STATUS.SCHEMA_PASS) {
+      delete approvedPageHashes[pageKey];
+      return;
+    }
+    const sourceHash = toText(result.source_hash);
+    const storedHash = toText(approvedPageHashes[pageKey]);
+    if (storedHash && sourceHash && storedHash !== sourceHash) {
+      delete approvedPageHashes[pageKey];
+      return;
+    }
+    approvedPages.push(pageKey);
+    if (sourceHash) {
+      approvedPageHashes[pageKey] = sourceHash;
+    }
+  });
+
+  return {
+    ...manualReview,
+    approved_pages: approvedPages,
+    approved_page_hashes: approvedPageHashes,
+  };
+}
+
+function applyManualApproval(pageKey, result, manualReview) {
+  return {
+    ...result,
+    status: withApproval(pageKey, result, manualReview),
+  };
 }
 
 function isPassingStatus(status) {
@@ -741,8 +934,9 @@ function stageStatusFromPages(pageResults, requiredKeys, options = {}) {
     hasFailure = true;
     notes.push(...options.extraNotes);
   }
+  const uniqueNotes = Array.from(new Set(notes));
   if (hasFailure) {
-    return { status: READING_STATUS.PARTIAL, notes };
+    return { status: READING_STATUS.PARTIAL, notes: uniqueNotes };
   }
   const allApproved = requiredKeys.every((key) => pageResults[key] && pageResults[key].status === PAGE_STATUS.APPROVED);
   if (allApproved) {
@@ -797,26 +991,53 @@ function validateBuildArtifacts(rootDir, reading, existingMeta = {}, pageResults
       translationErrors.push(`missing built page: docs/readings/${reading.slug}/translation.html`);
     }
   }
+  Object.entries(pageResults).forEach(([pageKey, result]) => {
+    if (result?.status !== PAGE_STATUS.APPROVED) {
+      return;
+    }
+    if (pageKey === "translation" && reading.language !== "en") {
+      return;
+    }
+    const htmlPath = path.join(readingDir, builtPageFilename(pageKey));
+    if (!fs.existsSync(htmlPath)) {
+      return;
+    }
+    const html = readText(htmlPath);
+    if (hasBuiltPlaceholderContent(html)) {
+      const message = `approved page still renders placeholder content: docs/readings/${reading.slug}/${builtPageFilename(pageKey)}`;
+      errors.push(message);
+      if (pageKey === "translation") {
+        translationErrors.push(message);
+      }
+    }
+  });
   return { errors: [...errors, ...translationErrors], translationErrors, page_count: requiredPages.length };
 }
 
 function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = {}) {
-  const manualReview = normalizeManualReview(existingMeta.manual_review);
+  const rawManualReview = normalizeManualReview(existingMeta.manual_review);
   const landing = validateLandingVideo(rootDir, reading, existingMeta, options);
-  const pageResults = {
-    full: validatePage(rootDir, reading, "full", manualReview, existingMeta),
-    translation: validatePage(rootDir, reading, "translation", manualReview, existingMeta),
-    summary: validatePage(rootDir, reading, "summary", manualReview, existingMeta),
-    concepts: validatePage(rootDir, reading, "concepts", manualReview, existingMeta),
-    pitfalls: validatePage(rootDir, reading, "pitfalls", manualReview, existingMeta),
-    "review-sheet": validatePage(rootDir, reading, "review-sheet", manualReview, existingMeta),
-    "professor-prep": validatePage(rootDir, reading, "professor-prep", manualReview, existingMeta),
-    "quiz-ox": validatePage(rootDir, reading, "quiz-ox", manualReview, existingMeta),
-    "quiz-short": validatePage(rootDir, reading, "quiz-short", manualReview, existingMeta),
-    "quiz-mcq": validatePage(rootDir, reading, "quiz-mcq", manualReview, existingMeta),
+  const basePageResults = {
+    full: validatePage(rootDir, reading, "full", existingMeta),
+    translation: validatePage(rootDir, reading, "translation", existingMeta),
+    summary: validatePage(rootDir, reading, "summary", existingMeta),
+    concepts: validatePage(rootDir, reading, "concepts", existingMeta),
+    pitfalls: validatePage(rootDir, reading, "pitfalls", existingMeta),
+    "review-sheet": validatePage(rootDir, reading, "review-sheet", existingMeta),
+    "professor-prep": validatePage(rootDir, reading, "professor-prep", existingMeta),
+    "quiz-ox": validatePage(rootDir, reading, "quiz-ox", existingMeta),
+    "quiz-short": validatePage(rootDir, reading, "quiz-short", existingMeta),
+    "quiz-mcq": validatePage(rootDir, reading, "quiz-mcq", existingMeta),
   };
+  const manualReview = sanitizeManualReviewApprovals(rawManualReview, basePageResults);
   const sourcePageResults = Object.fromEntries(
-    Object.entries(pageResults).map(([pageKey, result]) => [
+    Object.entries(basePageResults).map(([pageKey, result]) => [
+      pageKey,
+      applyManualApproval(pageKey, result, manualReview),
+    ])
+  );
+  const pageResults = Object.fromEntries(
+    Object.entries(sourcePageResults).map(([pageKey, result]) => [
       pageKey,
       {
         ...result,
@@ -828,7 +1049,6 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
   );
 
   const stage1Extra = [];
-  const stage2Extra = [];
   const requireBuiltArtifacts = Boolean(
     options.requireBuiltArtifacts
     || shouldRequireTranslationOriginalRevealBuild(reading, existingMeta, pageResults)
@@ -837,9 +1057,6 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
     const artifactResult = validateBuildArtifacts(rootDir, reading, existingMeta, pageResults);
     if (artifactResult.errors.length) {
       stage1Extra.push(...artifactResult.errors.filter((message) => message.includes("public pdf")));
-      if (reading.language === "en") {
-        stage2Extra.push(...artifactResult.errors.filter((message) => message.includes("translation")));
-      }
     }
     if (artifactResult.translationErrors.length) {
       pageResults.translation = applyArtifactErrorsToPageResult(pageResults.translation, artifactResult.translationErrors);
@@ -847,7 +1064,7 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
   }
   const stage1 = stageStatusFromPages(pageResults, STAGE1_PAGE_KEYS, { extraNotes: stage1Extra });
   const stage2Required = reading.language === "en" ? STAGE2_PAGE_KEYS : [];
-  const stage2 = stageStatusFromPages(pageResults, stage2Required, { extraNotes: stage2Extra });
+  const stage2 = stageStatusFromPages(pageResults, stage2Required);
   const stage3 = stageStatusFromPages(pageResults, STAGE3_PAGE_KEYS);
 
   let readingStatus = READING_STATUS.PARTIAL;
@@ -877,6 +1094,7 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
   );
   contentStatus.index = landing.status;
 
+  const dedupedReadingNotes = Array.from(new Set(readingNotes));
   const validationStatus = {
     updated_at: new Date().toISOString(),
     require_built_artifacts: requireBuiltArtifacts,
@@ -913,7 +1131,7 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
     stage3,
     reading: {
       status: readingStatus,
-      notes: readingNotes,
+      notes: dedupedReadingNotes,
     },
   };
 
@@ -922,7 +1140,7 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
     content_status: contentStatus,
     validation_status: validationStatus,
     workflow_status: readingStatus,
-    workflow_notes: readingNotes,
+    workflow_notes: dedupedReadingNotes,
   };
 }
 
@@ -968,7 +1186,7 @@ function renderCliReport(results) {
 }
 
 function parseArgs(argv) {
-  const args = { slug: null, json: false, requireBuiltArtifacts: false };
+  const args = { slug: null, json: false, requireBuiltArtifacts: true };
   for (let index = 0; index < argv.length; index += 1) {
     const token = argv[index];
     if (token === "--slug") {
@@ -978,6 +1196,8 @@ function parseArgs(argv) {
       args.json = true;
     } else if (token === "--require-built-artifacts") {
       args.requireBuiltArtifacts = true;
+    } else if (token === "--source-only") {
+      args.requireBuiltArtifacts = false;
     }
   }
   return args;

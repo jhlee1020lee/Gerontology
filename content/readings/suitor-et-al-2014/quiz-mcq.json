@@ -1,186 +1,186 @@
 {
   "title": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings 객관식 퀴즈",
-  "instructions": "보기 4개 중 가장 맞는 답을 고르고, 설명으로 왜 맞는지 확인하세요.",
+  "instructions": "보기 4개 중 가장 적절한 답을 고르고 설명으로 근거를 확인하세요.",
   "items": [
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 같은 가족 안에서도 자녀별 경험과 관계가 다를 수 있다는 관점이다.",
+      "prompt": "같은 가족 안에서도 자녀별 경험과 위치 차이를 따로 보아야 한다는 관점은 무엇인가?",
       "options": [
         "within-family differences",
         "sibling tension",
-        "maternal favoritism",
-        "caregiving"
+        "caregiving",
+        "later-life family"
       ],
       "answer": "within-family differences",
-      "explanation": "within-family differences: 형제 중 누가 돌봄을 맡고 누가 선호된다고 느끼는지 구분하게 한다.",
+      "explanation": "이 논문은 가족 평균이 아니라 가족 안 자녀별 차이를 보는 관점에서 출발한다.",
       "source": "이론적 배경"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 형제 사이의 갈등, 비난, 요구, 불편한 감정이 높아진 상태를 뜻한다.",
+      "prompt": "형제 사이의 비난, 다툼, 과도한 요구를 묶어 측정한 결과변수는 무엇인가?",
       "options": [
-        "sibling tension",
         "maternal favoritism",
-        "caregiving",
+        "sibling tension",
+        "multilevel analysis",
         "future caregiver favoritism"
       ],
       "answer": "sibling tension",
-      "explanation": "sibling tension: 이 연구의 핵심 종속변수다.",
-      "source": "문제의식"
+      "explanation": "형제 긴장은 이 연구의 핵심 종속변수다.",
+      "source": "연구방법"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 어머니가 특정 자녀를 더 선호한다고 인식되는 상태를 뜻한다.",
+      "prompt": "어머니가 특정 자녀를 더 선호한다고 지각하는 경험을 가리키는 개념은 무엇인가?",
       "options": [
+        "caregiving",
+        "relational equity",
         "maternal favoritism",
-        "caregiving",
-        "future caregiver favoritism",
-        "relational equity"
-      ],
-      "answer": "maternal favoritism",
-      "explanation": "maternal favoritism: 객관적 사실 여부보다 인식된 편애가 관계를 해친다는 점이 중요하다.",
-      "source": "이론적 배경"
-    },
-    {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 부모의 건강 저하 이후 실제 돌봄을 제공하는 역할 수행을 말한다.",
-      "options": [
-        "caregiving",
-        "future caregiver favoritism",
-        "relational equity",
-        "multilevel analysis"
-      ],
-      "answer": "caregiving",
-      "explanation": "caregiving: 역할 부담과 형제 갈등의 연결을 보여 주는 직접 변수다.",
-      "source": "연구설계"
-    },
-    {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 어머니가 앞으로 누가 주돌봄자가 되기를 바란다고 느끼는 편애 인식이다.",
-      "options": [
-        "future caregiver favoritism",
-        "relational equity",
-        "multilevel analysis",
         "later-life family"
       ],
-      "answer": "future caregiver favoritism",
-      "explanation": "future caregiver favoritism: 현재 역할뿐 아니라 미래 기대도 갈등을 만든다는 점을 드러낸다.",
+      "answer": "maternal favoritism",
+      "explanation": "논문은 실제 사실보다 인식된 편애가 관계에 미치는 영향을 본다.",
       "source": "이론적 배경"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 사람들은 관계에서 자신이 공정하게 대우받는지에 민감하다는 관점이다.",
+      "prompt": "가족 안에 자녀가 중첩된 구조를 고려해 사용한 분석 방법은 무엇인가?",
       "options": [
-        "relational equity",
-        "multilevel analysis",
-        "later-life family",
-        "within-family differences"
-      ],
-      "answer": "relational equity",
-      "explanation": "relational equity: 선호받는 자녀도, 소외된 자녀도 모두 긴장을 느낄 수 있다는 해석을 지지한다.",
-      "source": "이론적 배경"
-    },
-    {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 개인이 가족에 속한 중첩 구조를 고려해 분석하는 방법이다.",
-      "options": [
-        "multilevel analysis",
-        "later-life family",
+        "future caregiver favoritism",
+        "sibling tension",
         "within-family differences",
-        "sibling tension"
+        "multilevel analysis"
       ],
       "answer": "multilevel analysis",
-      "explanation": "multilevel analysis: 같은 가족 안 개인 차이와 가족 간 차이를 동시에 보기 위해 필요했다.",
+      "explanation": "450명의 성인자녀가 214가족에 속해 있으므로 다층분석이 필요했다.",
       "source": "연구방법"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 노년기 부모와 성인자녀가 포함된 가족 맥락을 가리킨다.",
+      "prompt": "이 논문이 분석한 가족 수는 얼마인가?",
       "options": [
+        "214",
+        "420",
+        "450",
+        "566"
+      ],
+      "answer": "214",
+      "explanation": "최종 분석 표본은 214가족이었다.",
+      "source": "연구방법"
+    },
+    {
+      "prompt": "이 논문이 분석한 성인자녀 수는 얼마인가?",
+      "options": [
+        "214",
+        "566",
+        "450",
+        "78"
+      ],
+      "answer": "450",
+      "explanation": "자녀 표본은 450명이었다.",
+      "source": "연구방법"
+    },
+    {
+      "prompt": "최근 어머니를 실제로 돌본 자녀에게서 더 높게 나타난 결과는 무엇인가?",
+      "options": [
+        "relational equity",
         "later-life family",
-        "within-family differences",
-        "sibling tension",
-        "maternal favoritism"
-      ],
-      "answer": "later-life family",
-      "explanation": "later-life family: 노년기 가족이 돌봄과 긴장이 겹치는 중요한 장임을 드러낸다.",
-      "source": "문제의식"
-    },
-    {
-      "prompt": "이 논문이 분석한 later-life family 수는?",
-      "options": [
-        "214 families",
-        "450 adult children",
-        "sibling tension",
-        "mother"
-      ],
-      "answer": "214 families",
-      "explanation": "214개 later-life family를 분석했다.",
-      "source": "연구방법"
-    },
-    {
-      "prompt": "분석에 포함된 성인자녀 수는?",
-      "options": [
-        "450 adult children",
-        "sibling tension",
-        "mother",
-        "future caregiver"
-      ],
-      "answer": "450 adult children",
-      "explanation": "450명의 성인자녀 자료를 사용했다.",
-      "source": "연구방법"
-    },
-    {
-      "prompt": "돌봄 수행과 편애 인식의 결합이 가장 강하게 예측한 것은?",
-      "options": [
-        "sibling tension",
-        "mother",
-        "future caregiver",
-        "perception"
+        "future caregiver favoritism",
+        "sibling tension"
       ],
       "answer": "sibling tension",
-      "explanation": "상호작용 효과는 형제 긴장을 가장 크게 높였다.",
-      "source": "주요 결과"
+      "explanation": "돌봄 수행은 형제 긴장을 높이는 주요 예측변수였다.",
+      "source": "연구결과"
     },
     {
-      "prompt": "논문의 편애 인식은 누구를 기준으로 측정되었는가?",
+      "prompt": "미래 돌봄자에 대한 편애 인식이 함께 존재할 때 특히 커진 것은 무엇인가?",
       "options": [
+        "형제 긴장",
+        "가족 규모",
+        "응답자 연령",
+        "인종 차이"
+      ],
+      "answer": "형제 긴장",
+      "explanation": "상호작용 결과는 돌봄과 편애 인식이 함께 있을 때 형제 긴장이 가장 커진다는 점을 보여 준다.",
+      "source": "연구결과"
+    },
+    {
+      "prompt": "편애 인식은 어느 부모를 기준으로 측정되었는가?",
+      "options": [
+        "father",
+        "both parents",
         "mother",
-        "future caregiver",
-        "perception",
-        "감정"
+        "oldest sibling"
       ],
       "answer": "mother",
-      "explanation": "논문은 maternal favoritism을 다루므로 어머니 중심 분석이다.",
-      "source": "문제의식"
+      "explanation": "이 논문은 maternal favoritism, 즉 어머니 기준 편애 인식을 다룬다.",
+      "source": "연구방법"
     },
     {
-      "prompt": "편애 인식이 특히 측정한 것은 누구에 대한 선호였는가?",
+      "prompt": "이 논문에서 관계의 공정성 감각을 설명하는 이론적 배경은 무엇인가?",
       "options": [
-        "future caregiver",
-        "perception",
-        "감정",
-        "214 families"
+        "caregiving burden",
+        "relational equity",
+        "advanced directives",
+        "terminal decline"
       ],
-      "answer": "future caregiver",
-      "explanation": "미래의 주돌봄자 선호 인식이 핵심이다.",
+      "answer": "relational equity",
+      "explanation": "관계적 공정성은 선호된 자녀와 비선호 자녀 모두 긴장을 느낄 수 있음을 설명한다.",
       "source": "이론적 배경"
     },
     {
-      "prompt": "형제 긴장을 높이는 데 특히 중요하게 작동한 것은?",
+      "prompt": "저자들이 결과를 재확인했을 때 중요했던 점은 무엇인가?",
       "options": [
-        "perception",
-        "감정",
-        "214 families",
-        "450 adult children"
+        "선호된 사람이 자신인지 다른 형제인지가 결과를 크게 바꾸었다",
+        "돌봄 수행은 아무 효과가 없었다",
+        "누가 선호되었는지보다 편애 인식의 존재 자체가 중요했다",
+        "기혼 여부가 가장 큰 설명변수였다"
       ],
-      "answer": "perception",
-      "explanation": "편애가 실제로 존재하는지보다 인식된 편애가 관계에 큰 영향을 준다.",
-      "source": "의미"
+      "answer": "누가 선호되었는지보다 편애 인식의 존재 자체가 중요했다",
+      "explanation": "자신이 선호되었다고 느끼는 경우와 다른 형제가 선호되었다고 느끼는 경우의 차이는 크지 않았다.",
+      "source": "연구결과"
     },
     {
-      "prompt": "이 논문이 제안하는 개입 초점으로 가장 적절한 것은?",
+      "prompt": "통제변수 중 형제 긴장을 낮게 보고한 집단 특성은 무엇이었는가?",
       "options": [
-        "감정",
-        "214 families",
-        "450 adult children",
-        "sibling tension"
+        "daughter",
+        "married",
+        "nonwhite",
+        "older age"
       ],
-      "answer": "감정",
-      "explanation": "돌봄 갈등은 정서와 인식의 문제이기도 하다.",
-      "source": "의미"
+      "answer": "married",
+      "explanation": "분석에서 기혼 자녀는 비혼 자녀보다 형제 긴장을 낮게 보고했다.",
+      "source": "연구결과"
+    },
+    {
+      "prompt": "이 논문이 실천적으로 제안하는 방향으로 가장 적절한 것은 무엇인가?",
+      "options": [
+        "돌봄은 개인 책임이므로 가족 갈등은 개입하지 않는다",
+        "노동 분담표만 만들면 충분하다",
+        "편애 인식과 감정 조정을 함께 다룬다",
+        "부모의 의료비만 늘린다"
+      ],
+      "answer": "편애 인식과 감정 조정을 함께 다룬다",
+      "explanation": "저자들은 실천 현장에서 편애 인식이 가족 상호작용과 의사결정에 미치는 영향을 살펴봐야 한다고 본다.",
+      "source": "실천적 함의"
+    },
+    {
+      "prompt": "이 연구의 해석 범위를 제한하는 점으로 가장 적절한 것은 무엇인가?",
+      "options": [
+        "모든 부모를 동일하게 다뤘다",
+        "아버지 중심 자료였다",
+        "어머니 중심 자료라 일반화에 주의가 필요하다",
+        "형제자매 자료가 전혀 없었다"
+      ],
+      "answer": "어머니 중심 자료라 일반화에 주의가 필요하다",
+      "explanation": "분석은 어머니의 돌봄 필요와 어머니 기준 편애 인식을 중심으로 이루어졌다.",
+      "source": "한계"
+    },
+    {
+      "prompt": "이 논문을 한국 가족 맥락에 연결할 때 가장 적절한 질문은 무엇인가?",
+      "options": [
+        "부모 돌봄 갈등이 인정과 차별 감각과 어떻게 얽히는가",
+        "노년기 가족에서는 형제갈등이 사라지는가",
+        "돌봄은 오직 경제력만으로 설명되는가",
+        "편애 인식은 연구할 필요가 없는가"
+      ],
+      "answer": "부모 돌봄 갈등이 인정과 차별 감각과 어떻게 얽히는가",
+      "explanation": "저자들의 논리는 한국의 장남 책임, 딸 간병, 인정 문제와도 바로 연결된다.",
+      "source": "한국 연결"
     }
   ]
 }

@@ -58,9 +58,18 @@
       "review-sheet",
       "professor-prep",
       "quiz-ox",
-      "quiz-short",
-      "quiz-mcq"
+      "quiz-short"
     ],
+    "approved_page_hashes": {
+      "full": "1d6f3798d6a56d3123061a359f44a389f95f08e1",
+      "summary": "c028441dd974f7b19832e27d3c3eda5d50d24177",
+      "concepts": "9a4489109c586b3fd819b9ef9935fe0821ba93bd",
+      "pitfalls": "7e1bd8bdcf6573d87c8087dcbf8eea4dfaac21df",
+      "review-sheet": "e48747c27c0579029243eeb34c6c12b0c0615a52",
+      "professor-prep": "dce730f14ce38a2a40093c70d0b34f3237b8e1b7",
+      "quiz-ox": "2b9f732b5b0be788e08e87c4156c73043ec0fc26",
+      "quiz-short": "73d3e5688f26034ae23aac4ba6b03760d49bc312"
+    },
     "reviewer": "codex",
     "reviewed_at": "2026-03-22",
     "notes": [
@@ -69,7 +78,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T00:10:06.482Z",
+    "updated_at": "2026-04-09T04:21:54.151Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -90,7 +99,121 @@
           "word_count": 4317,
           "section_count": 3,
           "sub_section_count": 9,
-          "bullet_count": 0
+          "bullet_count": 0,
+          "level2_heading_count": 3,
+          "level3_heading_count": 9,
+          "level4_heading_count": 12,
+          "figure_count": 9,
+          "paragraph_count": 43,
+          "level2_section_count": 3,
+          "empty_level2_sections": [],
+          "last_level2_title": "노년기의 신체적 변화"
+        }
+      },
+      "translation": {
+        "status": "not_applicable",
+        "errors": [],
+        "warnings": [],
+        "metrics": {}
+      },
+      "summary": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 425,
+          "section_count": 4,
+          "sub_section_count": 5,
+          "bullet_count": 24
+        }
+      },
+      "concepts": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 1051,
+          "section_count": 13,
+          "sub_section_count": 0,
+          "bullet_count": 78,
+          "concept_count": 13
+        }
+      },
+      "pitfalls": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 563,
+          "section_count": 8,
+          "sub_section_count": 0,
+          "bullet_count": 32
+        }
+      },
+      "review_sheet": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 294,
+          "section_count": 5,
+          "sub_section_count": 0,
+          "bullet_count": 25
+        }
+      },
+      "professor_prep": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "card_count": 17
+        }
+      },
+      "quiz_ox": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_short": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_mcq": {
+        "status": "schema_fail",
+        "errors": [
+          "quiz-mcq uses the same answer position for every item"
+        ],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      }
+    },
+    "source_page_results": {
+      "full": {
+        "status": "approved",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 4317,
+          "section_count": 3,
+          "sub_section_count": 9,
+          "bullet_count": 0,
+          "level2_heading_count": 3,
+          "level3_heading_count": 9,
+          "level4_heading_count": 12,
+          "figure_count": 9,
+          "paragraph_count": 43,
+          "level2_section_count": 3,
+          "empty_level2_sections": [],
+          "last_level2_title": "노년기의 신체적 변화"
         }
       },
       "translation": {

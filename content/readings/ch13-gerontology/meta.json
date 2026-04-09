@@ -46,13 +46,14 @@
   "notebooklm_video_poster": null,
   "manual_review": {
     "approved_pages": [],
+    "approved_page_hashes": {},
     "reviewer": "",
     "reviewed_at": null,
     "notes": [],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T00:10:06.556Z",
+    "updated_at": "2026-04-09T04:21:54.266Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -75,7 +76,198 @@
           "word_count": 7322,
           "section_count": 25,
           "sub_section_count": 0,
+          "bullet_count": 11,
+          "level2_heading_count": 25,
+          "level3_heading_count": 0,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 610,
+          "level2_section_count": 25,
+          "empty_level2_sections": [],
+          "last_level2_title": "Page 25"
+        }
+      },
+      "translation": {
+        "status": "not_applicable",
+        "errors": [],
+        "warnings": [],
+        "metrics": {}
+      },
+      "summary": {
+        "status": "schema_pass",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 158,
+          "section_count": 3,
+          "sub_section_count": 4,
           "bullet_count": 11
+        }
+      },
+      "concepts": {
+        "status": "schema_fail",
+        "errors": [
+          "section 1 (1. 활동적 노화): missing '한국어 개념명'",
+          "section 1 (1. 활동적 노화): missing 'Original English term'",
+          "section 1 (1. 활동적 노화): missing '정확한 한 줄 정의'",
+          "section 1 (1. 활동적 노화): missing '학생 말투로 풀어쓴 설명'",
+          "section 1 (1. 활동적 노화): missing '왜 이 ...에서 중요한지'",
+          "section 1 (1. 활동적 노화): missing '자주 헷갈리는 포인트'",
+          "section 2 (2. 성공적 노화): missing '한국어 개념명'",
+          "section 2 (2. 성공적 노화): missing 'Original English term'",
+          "section 2 (2. 성공적 노화): missing '정확한 한 줄 정의'",
+          "section 2 (2. 성공적 노화): missing '학생 말투로 풀어쓴 설명'",
+          "section 2 (2. 성공적 노화): missing '왜 이 ...에서 중요한지'",
+          "section 2 (2. 성공적 노화): missing '자주 헷갈리는 포인트'",
+          "section 3 (3. 생산적 활동): missing '한국어 개념명'",
+          "section 3 (3. 생산적 활동): missing 'Original English term'",
+          "section 3 (3. 생산적 활동): missing '정확한 한 줄 정의'",
+          "section 3 (3. 생산적 활동): missing '학생 말투로 풀어쓴 설명'",
+          "section 3 (3. 생산적 활동): missing '왜 이 ...에서 중요한지'",
+          "section 3 (3. 생산적 활동): missing '자주 헷갈리는 포인트'",
+          "section 4 (4. 인생참여): missing '한국어 개념명'",
+          "section 4 (4. 인생참여): missing 'Original English term'",
+          "section 4 (4. 인생참여): missing '정확한 한 줄 정의'",
+          "section 4 (4. 인생참여): missing '학생 말투로 풀어쓴 설명'",
+          "section 4 (4. 인생참여): missing '왜 이 ...에서 중요한지'",
+          "section 4 (4. 인생참여): missing '자주 헷갈리는 포인트'",
+          "section 5 (5. 참여): missing '한국어 개념명'",
+          "section 5 (5. 참여): missing 'Original English term'",
+          "section 5 (5. 참여): missing '정확한 한 줄 정의'",
+          "section 5 (5. 참여): missing '학생 말투로 풀어쓴 설명'",
+          "section 5 (5. 참여): missing '왜 이 ...에서 중요한지'",
+          "section 5 (5. 참여): missing '자주 헷갈리는 포인트'",
+          "section 6 (6. 3D 관점): missing '한국어 개념명'",
+          "section 6 (6. 3D 관점): missing 'Original English term'",
+          "section 6 (6. 3D 관점): missing '정확한 한 줄 정의'",
+          "section 6 (6. 3D 관점): missing '학생 말투로 풀어쓴 설명'",
+          "section 6 (6. 3D 관점): missing '왜 이 ...에서 중요한지'",
+          "section 6 (6. 3D 관점): missing '자주 헷갈리는 포인트'",
+          "section 7 (7. 질병과 장애 회피): missing '한국어 개념명'",
+          "section 7 (7. 질병과 장애 회피): missing 'Original English term'",
+          "section 7 (7. 질병과 장애 회피): missing '정확한 한 줄 정의'",
+          "section 7 (7. 질병과 장애 회피): missing '학생 말투로 풀어쓴 설명'",
+          "section 7 (7. 질병과 장애 회피): missing '왜 이 ...에서 중요한지'",
+          "section 7 (7. 질병과 장애 회피): missing '자주 헷갈리는 포인트'",
+          "section 8 (8. 높은 기능 유지): missing '한국어 개념명'",
+          "section 8 (8. 높은 기능 유지): missing 'Original English term'",
+          "section 8 (8. 높은 기능 유지): missing '정확한 한 줄 정의'",
+          "section 8 (8. 높은 기능 유지): missing '학생 말투로 풀어쓴 설명'",
+          "section 8 (8. 높은 기능 유지): missing '왜 이 ...에서 중요한지'",
+          "section 8 (8. 높은 기능 유지): missing '자주 헷갈리는 포인트'"
+        ],
+        "warnings": [],
+        "metrics": {
+          "word_count": 216,
+          "section_count": 8,
+          "sub_section_count": 0,
+          "bullet_count": 16,
+          "concept_count": 8
+        }
+      },
+      "pitfalls": {
+        "status": "schema_pass",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 155,
+          "section_count": 5,
+          "sub_section_count": 0,
+          "bullet_count": 15
+        }
+      },
+      "review_sheet": {
+        "status": "schema_pass",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 197,
+          "section_count": 3,
+          "sub_section_count": 0,
+          "bullet_count": 13
+        }
+      },
+      "professor_prep": {
+        "status": "schema_fail",
+        "errors": [
+          "professor-prep needs at least 15 cards",
+          "card 1 is missing title",
+          "card 2 is missing title",
+          "card 3 is missing title",
+          "card 4 is missing title",
+          "card 5 is missing title",
+          "card 6 is missing title",
+          "card 7 is missing title",
+          "card 8 is missing title"
+        ],
+        "warnings": [],
+        "metrics": {
+          "card_count": 8
+        }
+      },
+      "quiz_ox": {
+        "status": "schema_fail",
+        "errors": [
+          "quiz-ox item 1 contains unresolved particle template",
+          "quiz-ox item 2 contains unresolved particle template",
+          "quiz-ox item 3 contains unresolved particle template",
+          "quiz-ox item 4 contains unresolved particle template",
+          "quiz-ox item 5 contains unresolved particle template",
+          "quiz-ox item 6 contains unresolved particle template",
+          "quiz-ox item 7 contains unresolved particle template",
+          "quiz-ox item 8 contains unresolved particle template"
+        ],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_short": {
+        "status": "schema_fail",
+        "errors": [
+          "quiz-short item 1 contains unresolved particle template",
+          "quiz-short item 2 contains unresolved particle template",
+          "quiz-short item 3 contains unresolved particle template",
+          "quiz-short item 4 contains unresolved particle template",
+          "quiz-short item 5 contains unresolved particle template",
+          "quiz-short item 6 contains unresolved particle template",
+          "quiz-short item 7 contains unresolved particle template",
+          "quiz-short item 8 contains unresolved particle template"
+        ],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      },
+      "quiz_mcq": {
+        "status": "schema_fail",
+        "errors": [
+          "quiz-mcq uses the same answer position for every item"
+        ],
+        "warnings": [],
+        "metrics": {
+          "item_count": 15
+        }
+      }
+    },
+    "source_page_results": {
+      "full": {
+        "status": "schema_pass",
+        "errors": [],
+        "warnings": [],
+        "metrics": {
+          "word_count": 7322,
+          "section_count": 25,
+          "sub_section_count": 0,
+          "bullet_count": 11,
+          "level2_heading_count": 25,
+          "level3_heading_count": 0,
+          "level4_heading_count": 0,
+          "figure_count": 0,
+          "paragraph_count": 610,
+          "level2_section_count": 25,
+          "empty_level2_sections": [],
+          "last_level2_title": "Page 25"
         }
       },
       "translation": {

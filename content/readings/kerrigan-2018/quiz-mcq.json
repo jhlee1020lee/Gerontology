@@ -17,8 +17,8 @@
     {
       "prompt": "돌연변이 mtDNA 사례에서 증가시킨 활동으로 가장 알맞은 것은?",
       "options": [
-        "mitophagy",
         "telomerase",
+        "mitophagy",
         "glycolysis",
         "apoptosis only"
       ],
@@ -29,9 +29,9 @@
     {
       "prompt": "연구 방법이 거의 공개되지 않은 비밀스러운 스타트업 사례로 가장 알맞은 것은?",
       "options": [
-        "Rejuvenate Bio",
         "NAD+",
         "THC",
+        "Rejuvenate Bio",
         "Young Blood"
       ],
       "answer": "Rejuvenate Bio",
@@ -41,10 +41,10 @@
     {
       "prompt": "노쇠세포를 선택적으로 줄이는 약물 조합으로 가장 알맞은 것은?",
       "options": [
-        "dasatinib + quercetin",
         "NAD+ + THC",
         "rapamycin + lamin",
-        "resveratrol + plasma"
+        "resveratrol + plasma",
+        "dasatinib + quercetin"
       ],
       "answer": "dasatinib + quercetin",
       "explanation": "다섯 번째 사례는 다사티닙과 케르세틴 조합을 senolytic drugs의 예로 제시한다.",
@@ -65,8 +65,8 @@
     {
       "prompt": "젊은 쥐의 혈액이 늙은 쥐의 뇌에서 neuron과 stem cell production을 자극했다고 설명하는 사례는?",
       "options": [
-        "Young Blood",
         "THC",
+        "Young Blood",
         "Gene Deletion",
         "Stem Cell Technology"
       ],
@@ -77,9 +77,9 @@
     {
       "prompt": "쥐의 물에 넣어 세포와 조직의 젊은 수준 회복 가능성을 보여 준 분자는 무엇인가?",
       "options": [
-        "NAD+",
         "THC",
         "mtDNA",
+        "NAD+",
         "lamin"
       ],
       "answer": "NAD+",
@@ -89,10 +89,10 @@
     {
       "prompt": "저용량, non-intoxicating dose를 4주 동안 투여한 사례로 가장 알맞은 것은?",
       "options": [
-        "THC",
         "rapamycin",
         "dasatinib",
-        "Rejuvenate Bio"
+        "Rejuvenate Bio",
+        "THC"
       ],
       "answer": "THC",
       "explanation": "열 번째 사례는 THC의 저용량 4주 투여를 설명한다.",
@@ -113,8 +113,8 @@
     {
       "prompt": "238개 유전자와 60% 수명 증가가 함께 언급되는 사례는 무엇인가?",
       "options": [
-        "Gene Deletion",
         "Young Blood",
+        "Gene Deletion",
         "Stem Cell Technology",
         "Synthetic Peptides"
       ],
@@ -125,9 +125,9 @@
     {
       "prompt": "이 글 전체를 읽을 때 가장 먼저 붙잡아야 할 해석 원칙으로 가장 알맞은 것은?",
       "options": [
-        "각 기술의 작동 기전과 근거 수준을 같이 본다.",
         "기술 이름을 많이 외울수록 이해가 깊어진다.",
         "기사 제목이 강하면 인간 적용도 가까운 편이다.",
+        "각 기술의 작동 기전과 근거 수준을 같이 본다.",
         "상업적 사례와 논문 사례는 같은 무게로 읽는다."
       ],
       "answer": "각 기술의 작동 기전과 근거 수준을 같이 본다.",
@@ -137,13 +137,13 @@
     {
       "prompt": "이 글을 '연구 지도'처럼 읽어야 하는 가장 큰 이유는 무엇인가?",
       "options": [
-        "사례마다 표적과 근거 수준이 제각각이기 때문이다.",
         "모든 사례가 이미 인간 치료로 승인됐기 때문이다.",
         "모든 사례가 같은 메커니즘을 공유하기 때문이다.",
-        "수치 정보가 거의 없기 때문이다."
+        "수치 정보가 거의 없기 때문이다.",
+        "사례마다 표적과 근거 수준이 제각각이기 때문이다."
       ],
       "answer": "사례마다 표적과 근거 수준이 제각각이기 때문이다.",
-      "explanation": "기사의 핵심은 heterogeneous interventions를 한데 보여 준다는 점이다.",
+      "explanation": "기사의 핵심은 이질적인 개입 아이디어를 한데 모아 보여 준다는 데 있다.",
       "source": "핵심 요약"
     },
     {
@@ -161,8 +161,8 @@
     {
       "prompt": "다음 중 기사에 직접 등장하지 않는 기술은 무엇인가?",
       "options": [
-        "telomerase activation",
         "young blood",
+        "telomerase activation",
         "rapamycin",
         "gene deletion"
       ],
@@ -173,9 +173,9 @@
     {
       "prompt": "이 글의 가장 안전한 결론으로 가장 알맞은 것은?",
       "options": [
-        "역노화 연구는 흥미롭지만 아직 대부분 전임상 단계다.",
         "역노화는 이미 인간에게서 광범위하게 실현됐다.",
         "모든 사례는 수명 연장보다 인지 개선만 목표로 한다.",
+        "역노화 연구는 흥미롭지만 아직 대부분 전임상 단계다.",
         "기사는 과학보다 상업 광고가 중심이다."
       ],
       "answer": "역노화 연구는 흥미롭지만 아직 대부분 전임상 단계다.",

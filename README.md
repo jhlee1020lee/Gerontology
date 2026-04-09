@@ -65,6 +65,7 @@ Common authored source files in a reading folder include:
 - Treat extraction, translation, study-package pages, and lecture-recording analysis as separate stages.
 - Keep `full.html` as full original text and `translation.html` as full Korean translation for English readings.
 - Use the long-form reading layout only on `full.html` and `translation.html`; keep summary, quiz, review, and professor-prep pages on their lighter page templates.
+- Some approved English `translation.html` pages may also expose per-paragraph original-text reveal using `translation_alignment.json`; treat the detailed rules and approval gate as part of [CONTENT_RULES.md](CONTENT_RULES.md), not README policy.
 - Use `summary.html` as the only summarized page.
 - Validate each stage before moving to the next one.
 - Never do a full-reading all-at-once batch; if a pass starts spanning multiple stages, page families, or context limits, split it again before continuing.

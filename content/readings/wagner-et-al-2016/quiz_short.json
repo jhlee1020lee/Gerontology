@@ -3,141 +3,156 @@
   "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
   "items": [
     {
-      "question": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories에서 핵심적으로 붙잡아야 하는 용어는? end-of-life development과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "분석에 사용된 Berlin Aging Study 사망자 표본 수는 얼마인가?",
       "accepted_answers": [
-        "end-of-life development"
+        "463",
+        "463명"
       ],
-      "answer_type": "term",
-      "explanation": "end-of-life development은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "answer_type": "number",
+      "explanation": "이 연구는 BASE의 사망자 463명을 대상으로 말기 성격 발달을 분석했다.",
+      "source": "방법"
     },
     {
-      "question": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories에서 핵심적으로 붙잡아야 하는 용어는? mean-level trajectory과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "기초시점 평균연령은 몇 세였는가?",
       "accepted_answers": [
-        "mean-level trajectory"
+        "85.9",
+        "85.9세"
       ],
-      "answer_type": "term",
-      "explanation": "mean-level trajectory은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "answer_type": "number",
+      "explanation": "표본의 기초시점 평균연령은 85.9세로 매우 높은 연령대였다.",
+      "source": "초록"
     },
     {
-      "question": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories에서 핵심적으로 붙잡아야 하는 용어는? time to death과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "마지막 10년 동안 평균적으로 상승한 성격 특성은 무엇인가?",
       "accepted_answers": [
-        "time to death"
-      ],
-      "answer_type": "term",
-      "explanation": "time to death은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories에서 핵심적으로 붙잡아야 하는 용어는? neuroticism과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
+        "신경증",
         "neuroticism"
       ],
       "answer_type": "term",
-      "explanation": "neuroticism은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "세 특성 가운데 평균적으로 상승한 것은 신경증이었다.",
+      "source": "결과"
     },
     {
-      "question": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories에서 핵심적으로 붙잡아야 하는 용어는? extraversion과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "마지막 10년 동안 평균적으로 감소한 특성 하나를 답하라.",
       "accepted_answers": [
-        "extraversion"
-      ],
-      "answer_type": "term",
-      "explanation": "extraversion은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories에서 핵심적으로 붙잡아야 하는 용어는? openness과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
+        "외향성",
+        "extraversion",
+        "개방성",
         "openness"
       ],
       "answer_type": "term",
-      "explanation": "openness은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "외향성과 개방성은 둘 다 삶의 말기에 평균적으로 감소했다.",
+      "source": "결과"
     },
     {
-      "question": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories에서 핵심적으로 붙잡아야 하는 용어는? perceived control과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "연령과 구분해 넣은 죽음 관련 시간 변수는 무엇인가?",
       "accepted_answers": [
-        "perceived control"
+        "time to death",
+        "죽음까지 남은 시간"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "이 연구는 연령과 별도로 time to death를 넣어 말기 발달을 봤다.",
+      "source": "서론"
+    },
+    {
+      "question": "분석한 Big Five 특성 가운데 경험에 대한 열림을 가리키는 특성은 무엇인가?",
+      "accepted_answers": [
+        "개방성",
+        "openness"
       ],
       "answer_type": "term",
-      "explanation": "perceived control은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "개방성은 논문이 다룬 세 특성 가운데 하나다.",
       "source": "핵심 개념"
     },
     {
-      "question": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories에서 핵심적으로 붙잡아야 하는 용어는? loneliness과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "높을수록 개방성과 연결된 인지 관련 변수는 무엇인가?",
       "accepted_answers": [
+        "인지 수행",
+        "cognitive performance"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "더 높은 인지 수행은 더 높은 개방성과 연결되었다.",
+      "source": "결과"
+    },
+    {
+      "question": "외향성과 개방성의 높은 수준과 연결된 통제 관련 자원은 무엇인가?",
+      "accepted_answers": [
+        "개인적 통제감",
+        "personal control"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "개인적 통제감은 외향성과 개방성의 높은 수준과 관련됐다.",
+      "source": "결과"
+    },
+    {
+      "question": "신경증과 연결된 사회적 정서 변수는 무엇인가?",
+      "accepted_answers": [
+        "외로움",
         "loneliness"
       ],
       "answer_type": "term",
-      "explanation": "loneliness은(는) 이 읽기에서 핵심 용어다.",
+      "explanation": "외로움이 클수록 신경증 수준이 더 높았다.",
+      "source": "결과"
+    },
+    {
+      "question": "외향성과 개방성의 높은 수준과 연결된 사회 참여 변수는 무엇인가?",
+      "accepted_answers": [
+        "사회활동",
+        "social activity"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "사회활동은 외향성과 개방성의 높은 수준과 연결되었다.",
+      "source": "결과"
+    },
+    {
+      "question": "이 연구가 사용한 종단 추적 기간은 최대 몇 년인가?",
+      "accepted_answers": [
+        "13",
+        "13년"
+      ],
+      "answer_type": "number",
+      "explanation": "저자들은 최대 13년 자료를 사용해 삶의 말기 궤적을 추적했다.",
+      "source": "방법"
+    },
+    {
+      "question": "끝까지 남은 참여자들이 더 건강하고 기능이 좋았을 가능성을 가리키는 개념은 무엇인가?",
+      "accepted_answers": [
+        "선택효과",
+        "selectivity"
+      ],
+      "answer_type": "term",
+      "explanation": "논문은 종단표본이 긍정적으로 선택됐을 가능성을 중요한 한계로 다룬다.",
+      "source": "논의"
+    },
+    {
+      "question": "BASE에서 측정되지 않아 이번 분석에 포함되지 못한 Big Five 특성 하나를 답하라.",
+      "accepted_answers": [
+        "친화성",
+        "성실성"
+      ],
+      "answer_type": "term",
+      "explanation": "저자들은 BASE에 세 특성만 있어서 친화성과 성실성을 다루지 못했다고 밝혔다.",
+      "source": "논의"
+    },
+    {
+      "question": "말기 성격 발달을 떠받치는 핵심 자원으로 논문이 강조한 사회 영역은 무엇인가?",
+      "accepted_answers": [
+        "사회적 포괄",
+        "social inclusion"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "저자들은 사회적 포괄을 매우 일관된 자원 가운데 하나로 보았다.",
+      "source": "결과"
+    },
+    {
+      "question": "세 특성의 집단 평균 변화 방향을 가리키는 표현은 무엇인가?",
+      "accepted_answers": [
+        "평균수준 궤적",
+        "mean-level trajectory"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "논문은 성격 특성의 mean-level trajectory를 중심으로 말기 발달을 분석했다.",
       "source": "핵심 개념"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "연구문제"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "연구문제은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "자료와 표본"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "자료와 표본은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "성격 궤적"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "성격 궤적은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "자원과 위험"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "자원과 위험은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "말기 발달"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "말기 발달은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 제1저자 성을 한 단어로 답하시오.",
-      "accepted_answers": [
-        "Wagner"
-      ],
-      "answer_type": "person",
-      "explanation": "제1저자 성은 발표 기본 정보다.",
-      "source": "메타데이터"
-    },
-    {
-      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
-      "accepted_answers": [
-        "article",
-        "논문",
-        "기사"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "영문 읽기는 article 또는 기사/논문 자료다.",
-      "source": "메타데이터"
     }
   ]
 }

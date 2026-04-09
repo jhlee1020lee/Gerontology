@@ -248,10 +248,13 @@ Stage 2 is valid only if all of the following are true:
 - Stage 2 Pass 1-3 are all complete, contiguous, and merged into one readable `한국어 번역` (`translation`) body
 - photos, tables, figures, and graphs from the source reading are present in `한국어 번역` (`translation`) as direct image inserts where applicable
 - reading-hub links work
+- If `translation original reveal` is enabled for the reading, `content/readings/<slug>/translation_alignment.json` exists, matches the reading slug, and publishes at least one `verified` entry
+- If `translation original reveal` is enabled for the reading, the built `docs/readings/<slug>/translation.html` output includes the reveal marker and built reveal wrapper counts that exactly match the published alignment entry count
 
 Failure handling:
 - If `한국어 번역` (`translation`) is not a complete full translation, the reading is not complete.
 - If any Stage 2 pass is missing, compressed, or patchy, the reading is not complete.
+- If enabled reveal alignment is missing, invalid, stale, or built-artifact counts do not match, Stage 2 is not complete.
 - Such readings must be marked `partial` or `blocked`, not done.
 
 ### 5.3 Stage 3 validation
@@ -307,6 +310,8 @@ Additional QA expectations:
 - `partial` means required work is still missing, patchy, or under active rework. Use this for normal incompleteness.
 - `manual_review_required` means the structural and staging checks are complete enough for human review, but approval has not been granted yet.
 - `blocked` means work cannot continue without an external dependency, policy decision, or explicit manual intervention. Do not use `blocked` for ordinary incompleteness.
+- Store source-only page approval in `source_page_results` and artifact-inclusive publish status in `page_results`.
+- Builders may gate optional reading features from `source_page_results`, but final page, stage, and reading approval must follow the artifact-inclusive `page_results`.
 - If a page family is only `schema_pass`, do not promote the containing stage or reading to `approved`.
 - If Stage 1, Stage 2, or Stage 3 is waiting on manual review after structural completion, prefer `manual_review_required` over `partial`.
 - Automation should stop after the first reading whose `reading_status` is not `approved`.
@@ -548,6 +553,26 @@ Bad expansions inside the template:
 - Keep translation navigation static and build-time generated, using the translated heading structure as the TOC source.
 - Exclude frontmatter, backmatter (`참고문헌`, `출판 이력`, and equivalents), and table/figure labels from the TOC.
 - When a translated page already supplies Korean table/figure explanation immediately around the asset, do not repeat the original English figcaption in the visible reading flow.
+
+#### Translation Original Reveal
+- `translation original reveal` is an optional translation-stage enhancement, not a standalone page family.
+- Allow it only on English readings and only on `translation.html`.
+- Do not spread it to `full.html`, summary pages, quiz pages, `review-sheet`, or `professor-prep`.
+- Store reveal data in `content/readings/<slug>/translation_alignment.json`; do not embed bilingual reveal markup directly into `translation.md`.
+- Alignment entries must include stable identifiers plus `status`, `unit`, `ko_anchor`, and `en_anchor`.
+- Anchors may use explicit locators such as heading-path locators or `flat_index`, but they must resolve to one stable block only.
+- Publish only `verified` reveal entries.
+- Supported reveal units are `paragraph`, `sentence_group`, and `context_block` only.
+- Use `paragraph` only when the Korean paragraph corresponds to the full referenced original block.
+- Use `sentence_group` only when a smaller, exact subset of the referenced original block can be shown accurately.
+- Use `context_block` when exact smaller matching is not reliable and the UI should show the referenced original block as reading context.
+- If sentence-level precision is uncertain, downgrade to `context_block`; do not fake sentence-by-sentence precision.
+- Treat `context_block` as a safe context disclosure mode, not as a claim of one-to-one sentence alignment.
+- Use click/tap-friendly built-time `details` / `summary` disclosure as the default interaction; do not rely on hover-only reveal behavior.
+- Reveal summary wording must reflect precision level, clearly distinguishing full-block correspondence, partial correspondence, and context-only disclosure.
+- Keep reveal behavior inside the same long-form reading shell used by `translation.html`.
+- `References`, `Publication History`, and similar backmatter are low-priority reveal targets; omit them by default, and if they are included for a specific reading, use `context_block` only.
+- If `full.md` paragraph boundaries, block order, or figure placement change, update the same reading's `translation_alignment.json` in the same pass and rebuild before approval.
 
 ### 10.5 핵심 개념
 For each major concept, include:
