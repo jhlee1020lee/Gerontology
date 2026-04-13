@@ -1,0 +1,391 @@
+{
+  "version": 2,
+  "reading_slug": "suitor-et-al-2014",
+  "page": "translation",
+  "entries": [
+    {
+      "id": "intro-overview-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 1,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 9
+      }
+    },
+    {
+      "id": "abstract-results-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 2,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 9
+      }
+    },
+    {
+      "id": "intro-stress-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 4,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 11
+      }
+    },
+    {
+      "id": "intro-focus-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 5,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 11
+      }
+    },
+    {
+      "id": "within-family-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 7,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 14
+      }
+    },
+    {
+      "id": "within-family-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 8,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 14
+      }
+    },
+    {
+      "id": "caregiving-hypothesis-p0",
+      "status": "draft",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 8,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 15
+      }
+    },
+    {
+      "id": "favoritism-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 10,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 18
+      }
+    },
+    {
+      "id": "favoritism-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 11,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 18
+      }
+    },
+    {
+      "id": "relational-equity-p0",
+      "status": "draft",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 11,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 18
+      }
+    },
+    {
+      "id": "favoritism-hypothesis-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 12,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 18
+      }
+    },
+    {
+      "id": "interaction-hypothesis-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 13,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 18
+      }
+    },
+    {
+      "id": "methods-design-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 15,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 22
+      }
+    },
+    {
+      "id": "methods-sample-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 19,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 22
+      }
+    },
+    {
+      "id": "methods-procedure-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 17,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 24
+      }
+    },
+    {
+      "id": "methods-sibling-tension-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 22,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 27
+      }
+    },
+    {
+      "id": "methods-favoritism-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 25,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 30
+      }
+    },
+    {
+      "id": "results-measures-recap-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 26,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 30
+      }
+    },
+    {
+      "id": "results-main-effects-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 35,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 41
+      }
+    },
+    {
+      "id": "results-interaction-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 36,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 41
+      }
+    },
+    {
+      "id": "results-favored-child-p0",
+      "status": "draft",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 36,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 49
+      }
+    },
+    {
+      "id": "results-controls-p0",
+      "status": "draft",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 35,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 41
+      }
+    },
+    {
+      "id": "discussion-stress-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 41,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 52
+      }
+    },
+    {
+      "id": "discussion-contribution-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 42,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 53
+      }
+    },
+    {
+      "id": "discussion-favoritism-direction-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 43,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 53
+      }
+    },
+    {
+      "id": "discussion-future-research-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 44,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 53
+      }
+    },
+    {
+      "id": "discussion-balance-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 45,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 53
+      }
+    },
+    {
+      "id": "implications-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 47,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 56
+      }
+    },
+    {
+      "id": "implications-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 48,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 57
+      }
+    },
+    {
+      "id": "implications-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 49,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 57
+      }
+    },
+    {
+      "id": "funding-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 52,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 60
+      }
+    },
+    {
+      "id": "acknowledgments-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 54,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 60
+      }
+    }
+  ]
+}

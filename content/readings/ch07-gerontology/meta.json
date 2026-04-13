@@ -49,8 +49,8 @@
       "summary",
       "concepts",
       "pitfalls",
-      "review-sheet",
       "professor-prep",
+      "review-sheet",
       "quiz-ox",
       "quiz-short",
       "quiz-mcq"
@@ -60,8 +60,8 @@
       "summary": "cc486f7d76e9536ab6d6857dd91583d3f5b9b3a5",
       "concepts": "b90d9928b2afd0f1e20db93522f44846cb1dad7e",
       "pitfalls": "70ad08eab9d46f1ada49615806e69074a60487ec",
+      "professor-prep": "a6e538f40b2533c874b5f608a844e4a5c2eda225",
       "review-sheet": "95cbd8150de4a1c93668ab8c3e31df5d96fce868",
-      "professor-prep": "d7434750f853d7cd4c96ead5da3a361a5a56323d",
       "quiz-ox": "575d1e0d299a07ee8ed5a51a180c3d2b7b18e5d3",
       "quiz-short": "c87a8acf1a1149e561e17defcfda90cbc6ae71a3",
       "quiz-mcq": "0c469ebb4242a063c74847a7cc1f71cb49728125"
@@ -71,12 +71,13 @@
     "notes": [
       "Reviewed Chapter 7 full text against the extracted pages, corrected the obvious OCR/page-break carryovers, and kept the inserted figure assets in place.",
       "Verified the Stage 3 bundle contents and normalized quiz_short so all 15 short-answer items stay within the short-answer rules and avoid range-style answers.",
-      "NotebookLM landing video is still optional and not uploaded, so the reading unlocks to approved study pages rather than the landing video page."
+      "NotebookLM landing video is still optional and not uploaded, so the reading unlocks to approved study pages rather than the landing video page.",
+      "2026-04-11에 2026-04-09 강의 보정본을 근거로 lecture-workflow bundle을 만들고, 교수님 구술 대비 카드 5개를 partial refresh한 뒤 재검증 및 재승인을 마쳤다."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T04:21:54.176Z",
+    "updated_at": "2026-04-13T06:00:24.967Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",

@@ -88,7 +88,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T04:21:54.379Z",
+    "updated_at": "2026-04-13T06:00:25.198Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -143,6 +143,9 @@
           "full_level3_heading_count": 11,
           "full_level4_heading_count": 5,
           "full_figure_count": 10,
+          "full_reference_word_count": 2524,
+          "translation_reference_word_count": 2522,
+          "translation_reference_ratio": 0.999,
           "original_reveal_enabled": true,
           "reveal_entry_count": 75
         }
@@ -268,6 +271,9 @@
           "full_level3_heading_count": 11,
           "full_level4_heading_count": 5,
           "full_figure_count": 10,
+          "full_reference_word_count": 2524,
+          "translation_reference_word_count": 2522,
+          "translation_reference_ratio": 0.999,
           "original_reveal_enabled": true,
           "reveal_entry_count": 75
         }

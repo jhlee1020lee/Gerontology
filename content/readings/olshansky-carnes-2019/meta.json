@@ -41,6 +41,11 @@
   "notebooklm_video_url": "assets/videos/olshansky-carnes-2019/notebooklm.mp4",
   "notebooklm_video_note": null,
   "notebooklm_video_poster": null,
+  "translation_original_reveal": {
+    "enabled": true,
+    "alignment_file": "translation_alignment.json",
+    "mode": "details"
+  },
   "manual_review": {
     "approved_pages": [
       "full",
@@ -74,7 +79,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T04:21:54.569Z",
+    "updated_at": "2026-04-13T06:00:25.287Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -129,8 +134,11 @@
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,
           "full_figure_count": 1,
-          "original_reveal_enabled": false,
-          "reveal_entry_count": 0
+          "full_reference_word_count": 1028,
+          "translation_reference_word_count": 1028,
+          "translation_reference_ratio": 1,
+          "original_reveal_enabled": true,
+          "reveal_entry_count": 31
         }
       },
       "summary": {
@@ -254,8 +262,11 @@
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,
           "full_figure_count": 1,
-          "original_reveal_enabled": false,
-          "reveal_entry_count": 0
+          "full_reference_word_count": 1028,
+          "translation_reference_word_count": 1028,
+          "translation_reference_ratio": 1,
+          "original_reveal_enabled": true,
+          "reveal_entry_count": 31
         }
       },
       "summary": {

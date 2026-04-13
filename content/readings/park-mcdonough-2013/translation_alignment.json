@@ -1,0 +1,379 @@
+{
+  "version": 2,
+  "reading_slug": "park-mcdonough-2013",
+  "page": "translation",
+  "entries": [
+    {
+      "id": "abstract-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 1,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 1
+      }
+    },
+    {
+      "id": "keywords-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 2,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 2
+      }
+    },
+    {
+      "id": "introduction-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 4,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 4
+      }
+    },
+    {
+      "id": "introduction-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 5,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 5
+      }
+    },
+    {
+      "id": "introduction-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 6,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 6
+      }
+    },
+    {
+      "id": "limited-resource-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 9,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 9
+      }
+    },
+    {
+      "id": "limited-resource-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 10,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 10
+      }
+    },
+    {
+      "id": "speed-processing-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 12,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 12
+      }
+    },
+    {
+      "id": "speed-processing-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 13,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 13
+      }
+    },
+    {
+      "id": "dedifferentiation-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 15,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 15
+      }
+    },
+    {
+      "id": "dedifferentiation-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 16,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 16
+      }
+    },
+    {
+      "id": "theories-summary-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 18,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 18
+      }
+    },
+    {
+      "id": "theories-summary-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 19,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 19
+      }
+    },
+    {
+      "id": "neuroimaging-overview-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 21,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 21
+      }
+    },
+    {
+      "id": "neuroimaging-overview-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 22,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 21
+      }
+    },
+    {
+      "id": "prefrontal-activity-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 24,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 23
+      }
+    },
+    {
+      "id": "prefrontal-activity-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 25,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 23
+      }
+    },
+    {
+      "id": "task-difficulty-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 27,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 25
+      }
+    },
+    {
+      "id": "task-difficulty-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 28,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 25
+      }
+    },
+    {
+      "id": "implicit-memory-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 30,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 27
+      }
+    },
+    {
+      "id": "implicit-memory-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 31,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 27
+      }
+    },
+    {
+      "id": "frontal-posterior-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 33,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 29
+      }
+    },
+    {
+      "id": "frontal-posterior-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 34,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 29
+      }
+    },
+    {
+      "id": "connectivity-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 36,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 31
+      }
+    },
+    {
+      "id": "connectivity-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 37,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 31
+      }
+    },
+    {
+      "id": "specialization-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 39,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 33
+      }
+    },
+    {
+      "id": "specialization-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 40,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 33
+      }
+    },
+    {
+      "id": "conclusion-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 42,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 35
+      }
+    },
+    {
+      "id": "conclusion-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 43,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 36
+      }
+    },
+    {
+      "id": "conclusion-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 44,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 37
+      }
+    },
+    {
+      "id": "conflicts-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 46,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 39
+      }
+    }
+  ]
+}

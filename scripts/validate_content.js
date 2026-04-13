@@ -153,6 +153,10 @@ function splitLevelTwoSections(markdown) {
   });
 }
 
+function findReferenceSection(sections = []) {
+  return sections.find((section) => /^(references?|참고문헌)$/i.test(toText(section?.title).trim()));
+}
+
 function statusKeyForPage(pageKey) {
   return pageKey.replace(/-/g, "_");
 }
@@ -602,8 +606,8 @@ function validateTranslationMarkdown(rootDir, reading, existingMeta, text, fullT
   if (fullWords) {
     metrics.full_word_count = fullWords;
     metrics.translation_ratio = Number((metrics.word_count / fullWords).toFixed(3));
-    if (metrics.translation_ratio < 0.25) {
-      errors.push("translation is suspiciously short relative to full text");
+    if (metrics.translation_ratio < 0.5) {
+      errors.push("translation is suspiciously short relative to full text (minimum ratio: 0.5)");
     }
   }
   const translationStructure = parseLongFormStructure(text);
@@ -611,11 +615,31 @@ function validateTranslationMarkdown(rootDir, reading, existingMeta, text, fullT
   addIncompleteProgressErrors(errors, text, INCOMPLETE_TRANSLATION_PATTERNS, "translation");
   if (fullText) {
     const fullStructure = parseLongFormStructure(fullText);
+    const translationSections = splitLevelTwoSections(text);
+    const fullSections = splitLevelTwoSections(fullText);
     metrics.full_level2_heading_count = fullStructure.level2_heading_count;
     metrics.full_level3_heading_count = fullStructure.level3_heading_count;
     metrics.full_level4_heading_count = fullStructure.level4_heading_count;
     metrics.full_figure_count = fullStructure.figure_count;
     applyLongFormCoverageChecks(errors, translationStructure, fullStructure, "translation");
+    const fullReferenceSection = findReferenceSection(fullSections);
+    const translationReferenceSection = findReferenceSection(translationSections);
+    if (fullReferenceSection) {
+      const fullReferenceWords = wordCount(fullReferenceSection.body);
+      metrics.full_reference_word_count = fullReferenceWords;
+      if (!translationReferenceSection) {
+        errors.push("translation is missing the references section");
+      } else {
+        const translationReferenceWords = wordCount(translationReferenceSection.body);
+        metrics.translation_reference_word_count = translationReferenceWords;
+        if (fullReferenceWords >= 200) {
+          metrics.translation_reference_ratio = Number((translationReferenceWords / fullReferenceWords).toFixed(3));
+          if (metrics.translation_reference_ratio < 0.8) {
+            errors.push("translation references section is suspiciously short relative to the original references");
+          }
+        }
+      }
+    }
   } else if (translationStructure.empty_level2_sections.length) {
     errors.push(`translation contains empty second-level sections: ${translationStructure.empty_level2_sections.join(", ")}`);
   }

@@ -2,32 +2,21 @@
 
 > source: `source_pdfs/Leggett et al., 2020.pdf`
 
-## Page 1
-
-Article
-Journal of Aging and Health
-
-2020, Vol. 32(7 – 8) 871 – 879
-© The Author(s) 2019
-Article reuse guidelines:
-sagepub.com/journals-permissions
-DOI: 10.1177/0898264319860975
-journals.sagepub.com/home/jah
-Till Death Do Us Part: Intersecting Health
-
-and Spousal Dementia Caregiving on
-
-Caregiver Mortality
-
 Amanda N. Leggett, PhD
 
-1
- , Amanda J. Sonnega, PhD
-1
-, and
+Amanda J. Sonnega, PhD
+
 Matthew C. Lohman, PhD
-2
-Abstract
+
+University of Michigan, Ann Arbor, USA
+
+University of South Carolina, Columbia, USA
+
+Corresponding Author:
+Amanda N. Leggett, Program for Positive Aging, Department of Psychiatry, University of Michigan, Rachel Upjohn Building, 4250 Plymouth Rd., Ann Arbor, MI 48109, USA.
+Email: leggetta@med.umich.edu
+
+## Abstract
 
 Objective : We consider whether it is the healthiest dementia caregivers who experience a mortality bene fi t and whether
 a protective association is consistent for leading causes of mortality. Method : Using the Health and Retirement study (2000-
@@ -38,9 +27,9 @@ relative to noncaregivers, dementia caregivers had reduced mortality, with this 
 rated health. The protective effect of dementia caregiver status was consistent across death by heart disease, cancer, and
 cerebrovascular disease. Discussion : These fi ndings add to a growing body of literature suggesting that caregiving may provide
 a mortality bene fi t and a reason to maintain health.
-Keywords
+Keywords: mortality, dementia caregiving, self-rated health
 
-mortality, dementia caregiving, self-rated health
+## Introduction
 Despite favorable trends in dementia risk (Langa, 2015), the
 
 rapid growth in the elderly population in the United States
@@ -71,7 +60,8 @@ bene fi ts to individuals and society of caring for PLWD. This
 study is the fi rst to investigate mortality risks, all-cause and
 leading causes of death, for caregivers of PLWD in a national
 sample of older U.S. adults.
-Caregiving and Mortality
+
+### Caregiving and Mortality
 
 Stress is commonly reported by caregivers of PLWD (e.g.,
 
@@ -83,18 +73,6 @@ outcomes offer mixed results, with some suggesting that it is
 the effects of stress broadly as opposed to caregiving spe-
 ci fi cally that impacts mortality (Fredman et al., 2010;
 Pinquart & S¨ orensen, 2007; Schulz & Beach, 1999). Yet, an
-1
-
-University of Michigan, Ann Arbor, USA
-2
-University of South Carolina, Columbia, USA
-Corresponding Author:
-Amanda N. Leggett, Program for Positive Aging, Department of
-Psychiatry, University of Michigan, Rachel Upjohn Building, 4250 Plymouth
-Rd., Ann Arbor, MI 48109, USA.
-Email: leggetta@med.umich.edu
-
-## Page 2
 
 increasing number of studies are fi nding lower mortality risk
 among caregivers in spite of increased stress and depression
@@ -132,7 +110,8 @@ caregiving takes its toll. This is important because the
 activity of caregiving may promote health maintenance
 even among those in the poorest health to enable them to
 continue in their caregiver role.
-Leading Causes of Death and Mortality
+
+### Leading Causes of Death and Mortality
 
 Another limitation of prior studies is a focus on all-cause
 
@@ -179,9 +158,10 @@ varies by level of self-rated health (Hypothesis 1). We also
 hypothesize that caregiving will have less bene fi t for
 leading causes of mortality related to the stress process
 (e.g., cardiovascular disease) (Hypothesis 2).
-Method
 
-Sample
+## Method
+
+### Sample
 
 Our sample consisted of 10,650 married adults drawn from
 
@@ -207,9 +187,6 @@ proxy, the proxy respondent would indicate this information.
 Dementia status was identi fi ed following the Langa-Weir
 classi fi cation cut points of normal, cognitively impaired but
 not demented, and demented based on tests of immediate and
-872 Journal of Aging and Health 32(7 – 8)
-
-## Page 3
 
 delayed recall, working memory, speed of mental processing
 (Crimmins, Kim, Langa, & Weir, 2011; Langa, Weir, Kabeto,
@@ -223,9 +200,12 @@ Aging (NIA U01AG0097) and housed at the University of
 Michigan Institute for Social Research. All participants
 provided written informed consent, and the study was ap-
 proved by the UM Institutional Review Board.
-Measures
 
-Outcome. HRS determines mortality status through a link-
+### Measures
+
+#### Outcome
+
+HRS determines mortality status through a link-
 
 age with the National Death Index (NDI), a national da-
 tabase which includes information on cause and date of
@@ -235,7 +215,10 @@ dementia) to the NDI reported date of death for all-cause
 mortality (Hypothesis 1) and for three speci fi c causes of
 death: heart disease, cancer, and cerebrovascular disease
 (Hypothesis 2).
-Effect modi fi er. Self-reported health status was a ranking of
+
+#### Effect Modifier
+
+Self-reported health status was a ranking of
 
 fi ve health categories: excellent, very good, good, fair or poor.
 For Hypothesis 1, we evaluated the intersection of self-rated
@@ -250,12 +233,18 @@ and dementia caregiver in poor health. The referent category
 was noncaregivers with excellent self-reported health. For
 Hypothesis 2, dementia caregiver status was the exposure of
 interest.
-Demographic covariates. We included controls for age, gender,
+
+#### Demographic Covariates
+
+We included controls for age, gender,
 
 race (White/Black/Other), and widowed, namely, whether the
 respondent was widowed over the course of the follow-up
 period.
-Health covariates. Other health factors known to be associated
+
+#### Health Covariates
+
+Other health factors known to be associated
 
 with mortality were controlled, including a history of
 smoking, depressive symptoms, and activities of daily living
@@ -277,7 +266,8 @@ getting in and out of bed, and walking across a room (Wallace
 ticipant ’ s initial wave of data in the case of noncaregivers, and
 from the fi rst reported wave of dementia caregiving or
 nondementia caregiving.
-Data Analysis
+
+### Data Analysis
 
 Sample characteristics were estimated for the full sample,
 
@@ -322,11 +312,8 @@ Analytical sample weights were used to account for the
 complex sample design and nonresponse, except in the latter
 set of models because the SVY module in STATA is not
 available for competing risk models.
-Leggett et al. 873
 
-## Page 4
-
-Results
+## Results
 In this large population-based sample of older adults, 8.6%
 
 ( n = 917) reported having served as a dementia caregiver.
@@ -377,7 +364,8 @@ compared with the referent of noncaregivers in excellent
 health, the hazard of death for noncaregivers in poor
 health was 4.78, whereas for dementia caregivers in poor
 health it was 1.51).
-Table 1. Sample Characteristics ( N = 10,650).
+
+### Table 1. Sample Characteristics (N = 10,650)
 
 Total sample Noncaregiver Nondementia caregiver Dementia caregiver
 
@@ -412,9 +400,6 @@ a
 10.26 10.18 10.34 10.34
 a
 Note that survival time is bounded by 12-year follow-up with the majority of participants surviving over this period.
-874 Journal of Aging and Health 32(7 – 8)
-
-## Page 5
 
 In addition, results of the competing risks analyses (Hy-
 pothesis 2) showed that, controlling for demographic and
@@ -422,7 +407,10 @@ health characteristics, the protective association of dementia
 care was consistent for heart disease (HR = 0.77, CI = [0.59,
 0.99]), cancer (HR = 0.79, CI = [0.59, 1.05]), and cerebro-
 vascular disease (HR = 0.69; CI = [0.36, 1.30]) mortality.
-Discussion
+
+### Table 2. Hazard Ratios for the Interaction Between Provision of Dementia Care and Levels of Self-Rated Health Predicting All-Cause Mortality
+
+## Discussion
 
 Considering married adults from the nationally representative
 
@@ -445,53 +433,6 @@ pression faced by many caregivers for PLWD, which would
 seemingly translate into a greater risk of death (Cuijpers,
 2005; Pinquart & S¨ orensen, 2006). Prior work has shown that
 caregivers have increased risk for a number of chronic health
-Table 2. Hazard Ratios for the Interaction Between Provision of Dementia Care and Levels of Self-Rated Health Predicting All-Cause
-
-Mortality.
-Model 1 Model 2
-
-HR 95% CI HR 95% CI
-
-Age
-
-51-64 (ref.) — — — —
-65-74 3.13 [2.48, 3.95] 3.18 [2.52, 4.02]
-75-84 8.44 [7.45, 9.56] 8.51 [7.38, 9.81]
-85+ 19.27 [17.31, 21.44] 18.97 [16.42, 21.92]
-Female 1.18 [1.02, 1.37] 1.10 [0.96, 1.26]
-Black 0.90 [0.73, 1.11] 0.88 [0.71, 1.10]
-Other 0.88 [0.60, 1.29] 0.79 [0.53, 1.18]
-Smoking history 1.50 [1.38, 1.63] 1.51 [1.35, 1.70]
-Depressive symptoms 1.03 [0.99, 1.06] 1.03 [1.00, 1.07]
-ADL limitations 1.19 [1.13, 1.26] 1.15 [1.05, 1.25]
-Widowed 0.42 [0.39, 0.45] 0.40 [0.36, 0.43]
-Self-rated health
-Excellent (ref.) — — — —
-Very good 1.16 [0.83, 1.63] — —
-Good 1.70 [1.37, 2.12] — —
-Fair 2.71 [2.04, 3.61] — —
-Poor 3.74 [2.52, 5.57] — —
-Caregiving status
-Non caregiver — — — —
-Dementia caregiver 0.71 [0.63, 0.80] — —
-Nondementia caregiver 0.74 [0.62, 0.89] — —
-Self-rated health by caregiver status
-Noncaregiver excellent health — — — —
-Noncaregiver very good health — — 1.35 [1.04, 1.75]
-Noncaregiver good health — — 1.69 [1.26, 2.27]
-Noncaregiver fair health — — 3.00 [1.96, 4.59]
-Noncaregiver poor health — — 4.78 [2.79, 8.19]
-Dementia caregiver excellent health — — 1.23 [0.79, 1.94]
-Dementia caregiver very good health — — 0.72 [0.47, 1.12]
-Dementia caregiver good health — — 1.98 [1.40, 2.81]
-Dementia caregiver fair health — — 2.18 [1.65, 2.88]
-Dementia caregiver poor health — — 1.51 [0.85, 2.70]
-Note. Model 1 n = 10,650, Model 2 excluding other caregivers n = 8,758; results are adjusted for all other covariates in the model. HR = hazard ratios; CI =
-
-con fi dence interval; ADL = activities of daily living.
-Leggett et al. 875
-
-## Page 6
 
 conditions associated with mortality such as cardiovascular
 disease (O ’ Reilly et al., 2015). And while research has shown
@@ -566,7 +507,8 @@ increase the CIs), the hazards still suggest a protective effect.
 This suggests that the caregiving effect is not solely asso-
 ciated with stress-related causes of death but applies more
 broadly.
-Limitations
+
+### Limitations
 
 While the current study uses national, longitudinal data of
 
@@ -585,15 +527,10 @@ attrited from the population.
 Furthermore, while self-reported health is an imperfect
 proxy for actual health, there was good variability in the
 sample using this item and our controlling for ADLs accounts
-Figure 1. Model estimated hazard ratio of death comparing
 
-dementia caregivers and noncaregivers, strati fi ed by self-rated
-health.
-Note. Reference category is noncaregivers with the same level of self-
-reported health.
-876 Journal of Aging and Health 32(7 – 8)
+### Figure 1. Model estimated hazard ratio of death comparing dementia caregivers and noncaregivers, strati fi ed by self-rated health
 
-## Page 7
+Note. Reference category is noncaregivers with the same level of self-reported health.
 
 for functional ability. As chronic medical conditions are collinear
 with mortality (e.g., cardiovascular disease is perfectly related to
@@ -618,6 +555,9 @@ have less follow-up time relative to married participants,
 potentially resulting in an arti fi cially lower risk of mortality.
 Future work should consider this effect in greater detail and
 over varying lengths of follow-up.
+
+### Conclusion
+
 In conclusion, these fi ndings add to a growing body of
 literature suggesting that caregiving may provide a mortality
 bene fi t. We uniquely fi nd that this protective association
@@ -628,11 +568,13 @@ PLWD but also emphasize the bene fi ts and growth that may
 result from a care role in later life. Maintaining activity and
 well-being in spite of declining health may be life-extending
 for both care partners.
-Declaration of Con fl icting Interests
+
+## Declaration of Conflicting Interests
 
 The authors declared no potential con fl icts of interest with respect to
 the research, authorship, and/or publication of this article.
-Funding
+
+## Funding
 
 The authors disclosed receipt of the following fi nancial support for
 the research, authorship, and/or publication of this article: Support
@@ -642,10 +584,12 @@ development award from the NIA (K01AG056557). Health and
 Retirement Study (HRS) is funded by the National Institute on
 Aging (NIA U01AG0097) and housed at the University of Michigan
 (UM) Institute for Social Research.
-ORCID iD
+
+## ORCID iD
 
 Amanda N. Leggett  https://orcid.org/0000-0001-7895-3862
-References
+
+## References
 
 Alzheimer ’ s Association. (2017). Alzheimer ’ s disease facts and
 fi gures. Alzheimer ’ s & Dementia , 13 , 325-373.
@@ -709,9 +653,6 @@ related stress in elderly women: Results of caregiver-study
 of osteoporotic fractures. Journal of the American Geri-
 atrics Society , 58 , 937-943. doi:10.1111/j.1532-5415.2010.
 02808.x
-Leggett et al. 877
-
-## Page 8
 
 Fredman, L., Lyons, J. G., Cauley, J. A., Hochberg, M., & Applebaum,
 K. M. (2015). The relationship between caregiving and mortality
@@ -834,9 +775,6 @@ American Medical Association , 282 , 2215-2219.
 Stef fi ck, D. E. (2000). Documentation of affective functioning
 measures in the Health and Retirement Study . Retrieved from
 http://hrsonline.isr.umich.edu/docs/userg/dr-005.pdf
-878 Journal of Aging and Health 32(7 – 8)
-
-## Page 9
 
 Tan, E. J., Xue, Q.-L., Li, T., Carlson, M. C., & Fried, L. P. (2006).
 Volunteering: A physical activity intervention for older adults —
@@ -857,4 +795,3 @@ Miller, E. M., & Langa, K. M. (2010). Depression among older
 adults in the United States and England. The American Journal
 of Geriatric Psychiatry , 18 , 1036-1044. doi:10.1097/JGP.
 0b013e3181dba6d2.
-Leggett et al. 879

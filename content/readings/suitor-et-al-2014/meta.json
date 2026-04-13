@@ -21,7 +21,7 @@
   ],
   "content_status": {
     "full": "approved",
-    "translation": "approved",
+    "translation": "schema_fail",
     "summary": "approved",
     "concepts": "approved",
     "pitfalls": "approved",
@@ -44,6 +44,11 @@
   "notebooklm_video_url": null,
   "notebooklm_video_note": null,
   "notebooklm_video_poster": null,
+  "translation_original_reveal": {
+    "enabled": true,
+    "alignment_file": "translation_alignment.json",
+    "mode": "details"
+  },
   "manual_review": {
     "approved_pages": [
       "full",
@@ -59,7 +64,7 @@
     ],
     "approved_page_hashes": {
       "full": "055c04b64be16d921eca736292601b565b5f7087",
-      "translation": "e808cb47ddd5a748b6cff4581843c3f74758b7c4",
+      "translation": "7b47d0216eb31f10d39d7b155121c6c32b293725",
       "summary": "6c48f32440146030454e367a1054866f5fe11511",
       "concepts": "28fe17e0eb82191d4d1db69403a4cb9ec226203e",
       "pitfalls": "33d38b150af508892b6613731e86382001756c63",
@@ -70,17 +75,18 @@
       "quiz-mcq": "1d733659b45f450f1e36f9d38df28cee58b2ed30"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-09",
+    "reviewed_at": "2026-04-10",
     "notes": [
       "Reworked the original-text page so it follows topic-based section headings instead of raw page-number breaks.",
-      "Expanded the Korean translation to a full long-form reading page with matching section coverage.",
+      "Replaced the compressed Korean translation with a full long-form translation and restored the full reference list.",
+      "Realigned translation original reveal entries to the rewritten translation body.",
       "Rebuilt concepts, professor-prep, and all three quiz families to match current schema and reading-specific content."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T05:41:44.299Z",
-    "require_built_artifacts": false,
+    "updated_at": "2026-04-13T06:00:25.336Z",
+    "require_built_artifacts": true,
     "landing": {
       "status": "schema_pass",
       "errors": [],
@@ -114,21 +120,26 @@
         }
       },
       "translation": {
-        "status": "approved",
-        "errors": [],
+        "status": "schema_fail",
+        "errors": [
+          "built translation original reveal segment count mismatch: expected 28, found 0 in docs/readings/suitor-et-al-2014/translation.html",
+          "built translation original reveal body count mismatch: expected 28, found 0 in docs/readings/suitor-et-al-2014/translation.html",
+          "built translation original reveal summary count mismatch: expected 28 in docs/readings/suitor-et-al-2014/translation.html",
+          "approved page still renders placeholder content: docs/readings/suitor-et-al-2014/translation.html"
+        ],
         "warnings": [],
         "metrics": {
-          "word_count": 1622,
+          "word_count": 4542,
           "section_count": 9,
-          "sub_section_count": 0,
-          "bullet_count": 0,
+          "sub_section_count": 7,
+          "bullet_count": 78,
           "full_word_count": 6438,
-          "translation_ratio": 0.252,
+          "translation_ratio": 0.705,
           "level2_heading_count": 9,
-          "level3_heading_count": 0,
-          "level4_heading_count": 0,
+          "level3_heading_count": 5,
+          "level4_heading_count": 3,
           "figure_count": 0,
-          "paragraph_count": 33,
+          "paragraph_count": 35,
           "level2_section_count": 9,
           "empty_level2_sections": [],
           "last_level2_title": "참고문헌",
@@ -136,8 +147,11 @@
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,
           "full_figure_count": 0,
-          "original_reveal_enabled": false,
-          "reveal_entry_count": 0
+          "full_reference_word_count": 1424,
+          "translation_reference_word_count": 1374,
+          "translation_reference_ratio": 0.965,
+          "original_reveal_enabled": true,
+          "reveal_entry_count": 28
         }
       },
       "summary": {
@@ -243,17 +257,17 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 1622,
+          "word_count": 4542,
           "section_count": 9,
-          "sub_section_count": 0,
-          "bullet_count": 0,
+          "sub_section_count": 7,
+          "bullet_count": 78,
           "full_word_count": 6438,
-          "translation_ratio": 0.252,
+          "translation_ratio": 0.705,
           "level2_heading_count": 9,
-          "level3_heading_count": 0,
-          "level4_heading_count": 0,
+          "level3_heading_count": 5,
+          "level4_heading_count": 3,
           "figure_count": 0,
-          "paragraph_count": 33,
+          "paragraph_count": 35,
           "level2_section_count": 9,
           "empty_level2_sections": [],
           "last_level2_title": "참고문헌",
@@ -261,8 +275,11 @@
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,
           "full_figure_count": 0,
-          "original_reveal_enabled": false,
-          "reveal_entry_count": 0
+          "full_reference_word_count": 1424,
+          "translation_reference_word_count": 1374,
+          "translation_reference_ratio": 0.965,
+          "original_reveal_enabled": true,
+          "reveal_entry_count": 28
         }
       },
       "summary": {
@@ -348,20 +365,26 @@
       "notes": []
     },
     "stage2": {
-      "status": "approved",
-      "notes": []
+      "status": "partial",
+      "notes": [
+        "translation: built translation original reveal segment count mismatch: expected 28, found 0 in docs/readings/suitor-et-al-2014/translation.html; built translation original reveal body count mismatch: expected 28, found 0 in docs/readings/suitor-et-al-2014/translation.html; built translation original reveal summary count mismatch: expected 28 in docs/readings/suitor-et-al-2014/translation.html; approved page still renders placeholder content: docs/readings/suitor-et-al-2014/translation.html"
+      ]
     },
     "stage3": {
       "status": "approved",
       "notes": []
     },
     "reading": {
-      "status": "approved",
-      "notes": []
+      "status": "partial",
+      "notes": [
+        "translation: built translation original reveal segment count mismatch: expected 28, found 0 in docs/readings/suitor-et-al-2014/translation.html; built translation original reveal body count mismatch: expected 28, found 0 in docs/readings/suitor-et-al-2014/translation.html; built translation original reveal summary count mismatch: expected 28 in docs/readings/suitor-et-al-2014/translation.html; approved page still renders placeholder content: docs/readings/suitor-et-al-2014/translation.html"
+      ]
     }
   },
-  "workflow_status": "approved",
-  "workflow_notes": [],
+  "workflow_status": "partial",
+  "workflow_notes": [
+    "translation: built translation original reveal segment count mismatch: expected 28, found 0 in docs/readings/suitor-et-al-2014/translation.html; built translation original reveal body count mismatch: expected 28, found 0 in docs/readings/suitor-et-al-2014/translation.html; built translation original reveal summary count mismatch: expected 28 in docs/readings/suitor-et-al-2014/translation.html; approved page still renders placeholder content: docs/readings/suitor-et-al-2014/translation.html"
+  ],
   "shared_page_bundle": null,
   "shared_page_keys": [],
   "pdf_visibility": "none",

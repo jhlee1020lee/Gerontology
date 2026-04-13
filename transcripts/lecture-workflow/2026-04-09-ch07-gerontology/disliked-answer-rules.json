@@ -1,0 +1,80 @@
+{
+  "class_date": "2026-04-09",
+  "reading_slug": "ch07-gerontology",
+  "rules": [
+    {
+      "anti_pattern": "Explain socioemotional selectivity as if older adults narrow relationships only because they are tired, weak, or socially withdrawing.",
+      "reason": "The professor directly rejects that decline-only interpretation and replaces it with the limited-time perception frame.",
+      "transcript_evidence": [
+        "line 164",
+        "line 176",
+        "line 179"
+      ],
+      "priority": "high"
+    },
+    {
+      "anti_pattern": "Say personality is either completely fixed or completely rewritten by one life event.",
+      "reason": "The lecture pushes students toward a layered answer: stable tendencies remain, but expression, adaptation, and some mean-level changes still matter.",
+      "transcript_evidence": [
+        "line 118",
+        "line 340",
+        "line 358",
+        "line 433",
+        "line 439"
+      ],
+      "priority": "high"
+    },
+    {
+      "anti_pattern": "Present SOC as a generic positive mindset or as proof that older adults can do the same things they did when younger.",
+      "reason": "The professor defines SOC under real decline, loss, and compensation rather than under youthful continuity.",
+      "transcript_evidence": [
+        "line 244",
+        "line 250",
+        "line 262"
+      ],
+      "priority": "high"
+    },
+    {
+      "anti_pattern": "Use the Type A story as colorful trivia without explaining the long-run behavior pathway that links personality to health outcomes.",
+      "reason": "The chair anecdote is used to motivate mechanism, not to replace mechanism.",
+      "transcript_evidence": [
+        "line 280",
+        "line 289",
+        "line 292",
+        "line 298"
+      ],
+      "priority": "high"
+    },
+    {
+      "anti_pattern": "Treat Levinson's midlife-crisis theory as universal truth without mentioning the sample and cohort limitations.",
+      "reason": "The professor spends substantial time explaining why the theory was influential yet empirically narrow and heavily criticized.",
+      "transcript_evidence": [
+        "line 403",
+        "line 415",
+        "line 424"
+      ],
+      "priority": "high"
+    },
+    {
+      "anti_pattern": "Say old age simply becomes happier by itself without naming the motivational shift and selectivity logic behind the result.",
+      "reason": "The lecture explicitly rejects automatic-happiness wording and asks for the theory that explains the pattern.",
+      "transcript_evidence": [
+        "line 134",
+        "line 137",
+        "line 319"
+      ],
+      "priority": "medium"
+    },
+    {
+      "anti_pattern": "Give a theory list answer that names Erikson, Loevinger, Levinson, or OCEAN without saying what distinction the professor is trying to test.",
+      "reason": "The professor's follow-up style asks for the point of the distinction, not just a label recital.",
+      "transcript_evidence": [
+        "line 106",
+        "line 236",
+        "line 376",
+        "line 391"
+      ],
+      "priority": "medium"
+    }
+  ]
+}

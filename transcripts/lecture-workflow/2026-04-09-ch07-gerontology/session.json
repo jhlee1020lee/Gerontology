@@ -1,0 +1,18 @@
+{
+  "class_date": "2026-04-09",
+  "reading_slug": "ch07-gerontology",
+  "source_audio": "../../../source_audio/class-recordings/2026-04-09-ch07-gerontology-class-recording.m4a",
+  "source_stt": "../../class-stt/2026-04-09-ch07-gerontology-class-stt.txt",
+  "source_pdf": "../../../source_pdfs/[CH7]Gerontology.pdf",
+  "stage1_full": "../../../content/readings/ch07-gerontology/full.md",
+  "workflow_status": {
+    "transcript": "complete",
+    "stt_correction": "approved",
+    "pdf_grounded_correction": "approved",
+    "question_extraction": "approved",
+    "preferred_answer_rule_extraction": "approved",
+    "disliked_answer_rule_extraction": "approved",
+    "limited_answer_generation": "approved",
+    "review_and_expansion": "approved"
+  }
+}

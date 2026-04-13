@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "reading_slug": "kerrigan-2018",
+  "page": "translation",
+  "entries": [
+    {
+      "id": "stem-cell-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 1,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 1
+      }
+    },
+    {
+      "id": "mtdna-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 4,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 4
+      }
+    },
+    {
+      "id": "splicing-factors-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 7,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 7
+      }
+    },
+    {
+      "id": "rejuvenate-bio-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 10,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 10
+      }
+    },
+    {
+      "id": "senolytic-drugs-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 13,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 13
+      }
+    },
+    {
+      "id": "synthetic-peptides-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 16,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 16
+      }
+    },
+    {
+      "id": "smoothing-cells-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 19,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 19
+      }
+    },
+    {
+      "id": "young-blood-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 22,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 22
+      }
+    },
+    {
+      "id": "anti-aging-pills-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 25,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 25
+      }
+    },
+    {
+      "id": "cannabis-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 28,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 28
+      }
+    },
+    {
+      "id": "anti-aging-bacteria-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 31,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 31
+      }
+    },
+    {
+      "id": "gene-deletion-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 34,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 34
+      }
+    }
+  ]
+}

@@ -1,158 +1,172 @@
 {
   "title": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories 단답형 퀴즈",
-  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "instructions": "선지 없이, 한 용어나 한 짧은 구 또는 한 숫자로 바로 답한다.",
   "items": [
     {
-      "question": "분석에 사용된 Berlin Aging Study 사망자 표본 수는 얼마인가?",
+      "question": "연령과 구분해 넣은 죽음 관련 시간 지표는 무엇인가?",
       "accepted_answers": [
-        "463",
-        "463명"
+        "time to death",
+        "죽음까지 남은 시간",
+        "사망까지 남은 시간"
       ],
-      "answer_type": "number",
-      "explanation": "이 연구는 BASE의 사망자 463명을 대상으로 말기 성격 발달을 분석했다.",
-      "source": "방법"
+      "answer_type": "short_phrase",
+      "explanation": "이 논문은 같은 고령자라도 임종까지 남은 시간이 다를 수 있다고 보고, 연령과 별도의 시간 축을 함께 넣어 말기 발달을 분석했다.",
+      "source": "서론"
     },
     {
-      "question": "기초시점 평균연령은 몇 세였는가?",
-      "accepted_answers": [
-        "85.9",
-        "85.9세"
-      ],
-      "answer_type": "number",
-      "explanation": "표본의 기초시점 평균연령은 85.9세로 매우 높은 연령대였다.",
-      "source": "초록"
-    },
-    {
-      "question": "마지막 10년 동안 평균적으로 상승한 성격 특성은 무엇인가?",
+      "question": "죽음이 가까워질수록 증가 기울기가 더 가팔라진 성격 특성은 무엇인가?",
       "accepted_answers": [
         "신경증",
         "neuroticism"
       ],
       "answer_type": "term",
-      "explanation": "세 특성 가운데 평균적으로 상승한 것은 신경증이었다.",
+      "explanation": "세 특성 가운데 death proximity와 가장 직접적으로 연결된 기울기 결과는 신경증 증가였다.",
       "source": "결과"
     },
     {
-      "question": "마지막 10년 동안 평균적으로 감소한 특성 하나를 답하라.",
+      "question": "삶의 마지막 10년 동안 함께 감소한 두 성격 특성을 함께 답하라.",
       "accepted_answers": [
-        "외향성",
-        "extraversion",
-        "개방성",
-        "openness"
-      ],
-      "answer_type": "term",
-      "explanation": "외향성과 개방성은 둘 다 삶의 말기에 평균적으로 감소했다.",
-      "source": "결과"
-    },
-    {
-      "question": "연령과 구분해 넣은 죽음 관련 시간 변수는 무엇인가?",
-      "accepted_answers": [
-        "time to death",
-        "죽음까지 남은 시간"
+        "외향성과 개방성",
+        "개방성과 외향성",
+        "extraversion and openness",
+        "openness and extraversion"
       ],
       "answer_type": "short_phrase",
-      "explanation": "이 연구는 연령과 별도로 time to death를 넣어 말기 발달을 봤다.",
-      "source": "서론"
+      "explanation": "외향성과 개방성은 둘 다 마지막 10년 동안 약 0.5 SD씩 감소했다. 신경증과 반대 방향이라는 점이 핵심이다.",
+      "source": "결과"
     },
     {
-      "question": "분석한 Big Five 특성 가운데 경험에 대한 열림을 가리키는 특성은 무엇인가?",
+      "question": "병 개수보다 더 직접적으로 외향성과 개방성 감소에 붙은 건강 지표는 무엇인가?",
       "accepted_answers": [
-        "개방성",
-        "openness"
+        "장애",
+        "disability",
+        "기능 제한"
       ],
       "answer_type": "term",
-      "explanation": "개방성은 논문이 다룬 세 특성 가운데 하나다.",
-      "source": "핵심 개념"
+      "explanation": "의사 진단 동반질환 수보다 실제 기능 제한을 뜻하는 장애가 외향성과 개방성 하강에 더 직접적으로 연결됐다.",
+      "source": "결과"
     },
     {
-      "question": "높을수록 개방성과 연결된 인지 관련 변수는 무엇인가?",
+      "question": "동반질환 수와 외향성 감소의 관련이 나타난 대략적 연령 기준은 몇 세인가?",
+      "accepted_answers": [
+        "83",
+        "83세"
+      ],
+      "answer_type": "number",
+      "explanation": "동반질환 수 효과는 모든 연령에서 보인 것이 아니라 대략 83세 이후 외향성 감소에서만 제한적으로 나타났다.",
+      "source": "결과"
+    },
+    {
+      "question": "장애와 개방성 감소의 부정적 관련이 특히 강했던 생애말 구간은 몇 년 이내인가?",
+      "accepted_answers": [
+        "7",
+        "7년",
+        "마지막 7년"
+      ],
+      "answer_type": "number",
+      "explanation": "장애가 많을수록 개방성 감소가 더 가팔라지는 효과는 생애 마지막 7년 안에서 특히 두드러졌다.",
+      "source": "결과"
+    },
+    {
+      "question": "높을수록 개방성 수준과 연결된 인지 자원은 무엇인가?",
       "accepted_answers": [
         "인지 수행",
         "cognitive performance"
       ],
       "answer_type": "short_phrase",
-      "explanation": "더 높은 인지 수행은 더 높은 개방성과 연결되었다.",
+      "explanation": "인지 수행은 개방성과는 예상한 방향으로 연결됐다. 더 높은 인지 수행일수록 개방성 수준이 더 높았다.",
       "source": "결과"
     },
     {
-      "question": "외향성과 개방성의 높은 수준과 연결된 통제 관련 자원은 무엇인가?",
+      "question": "예상과 달리 평균 이상 인지 수행 집단에서 더 가팔라진 것은 무엇인가?",
+      "accepted_answers": [
+        "외향성 감소",
+        "더 가파른 외향성 감소"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "논문이 예상 밖 결과로 강조한 것은 높은 인지 수행이 외향성 유지가 아니라 더 가파른 외향성 감소와 연결됐다는 점이다.",
+      "source": "결과"
+    },
+    {
+      "question": "외향성과 개방성의 더 높은 수준과 연결된 통제 자원은 무엇인가?",
       "accepted_answers": [
         "개인적 통제감",
+        "개인 통제감",
         "personal control"
       ],
       "answer_type": "short_phrase",
-      "explanation": "개인적 통제감은 외향성과 개방성의 높은 수준과 관련됐다.",
+      "explanation": "통제감은 한 덩어리가 아니다. 개인적 통제감은 외향성과 개방성의 높은 수준을 뒷받침하는 자원으로 읽힌다.",
       "source": "결과"
     },
     {
-      "question": "신경증과 연결된 사회적 정서 변수는 무엇인가?",
+      "question": "죽음이 가까울수록 더 높은 개방성과도 예외적으로 연결된 통제 변수는 무엇인가?",
+      "accepted_answers": [
+        "타인 통제감",
+        "타인 통제",
+        "others' control",
+        "other-directed control"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "타인 통제감은 신경증과도 연결되지만, 말기에는 타인의 도움과 지지가 자원처럼 작동할 수 있음을 보여 주는 예외 결과가 개방성에서 나왔다.",
+      "source": "결과"
+    },
+    {
+      "question": "사회활동과 달리 신경증과 직접 연결된 사회정서 변수는 무엇인가?",
       "accepted_answers": [
         "외로움",
-        "loneliness"
+        "정서적 외로움",
+        "loneliness",
+        "emotional loneliness"
       ],
       "answer_type": "term",
-      "explanation": "외로움이 클수록 신경증 수준이 더 높았다.",
+      "explanation": "사회적 포괄은 하나가 아니다. 사회활동은 외향성·개방성에, 외로움은 신경증에 더 직접적으로 붙는다.",
       "source": "결과"
     },
     {
-      "question": "외향성과 개방성의 높은 수준과 연결된 사회 참여 변수는 무엇인가?",
-      "accepted_answers": [
-        "사회활동",
-        "social activity"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "사회활동은 외향성과 개방성의 높은 수준과 연결되었다.",
-      "source": "결과"
-    },
-    {
-      "question": "이 연구가 사용한 종단 추적 기간은 최대 몇 년인가?",
+      "question": "외로움과 신경증의 관련이 유지된 대략적 시점은 사망 몇 년 전부터인가?",
       "accepted_answers": [
         "13",
-        "13년"
+        "13년",
+        "약 13년",
+        "13년 전"
       ],
       "answer_type": "number",
-      "explanation": "저자들은 최대 13년 자료를 사용해 삶의 말기 궤적을 추적했다.",
-      "source": "방법"
-    },
-    {
-      "question": "끝까지 남은 참여자들이 더 건강하고 기능이 좋았을 가능성을 가리키는 개념은 무엇인가?",
-      "accepted_answers": [
-        "선택효과",
-        "selectivity"
-      ],
-      "answer_type": "term",
-      "explanation": "논문은 종단표본이 긍정적으로 선택됐을 가능성을 중요한 한계로 다룬다.",
-      "source": "논의"
-    },
-    {
-      "question": "BASE에서 측정되지 않아 이번 분석에 포함되지 못한 Big Five 특성 하나를 답하라.",
-      "accepted_answers": [
-        "친화성",
-        "성실성"
-      ],
-      "answer_type": "term",
-      "explanation": "저자들은 BASE에 세 특성만 있어서 친화성과 성실성을 다루지 못했다고 밝혔다.",
-      "source": "논의"
-    },
-    {
-      "question": "말기 성격 발달을 떠받치는 핵심 자원으로 논문이 강조한 사회 영역은 무엇인가?",
-      "accepted_answers": [
-        "사회적 포괄",
-        "social inclusion"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "저자들은 사회적 포괄을 매우 일관된 자원 가운데 하나로 보았다.",
+      "explanation": "외로움-신경증 관련은 단지 임종 직전만의 현상이 아니라 사망 약 13년 전부터 유지되는 패턴으로 제시됐다.",
       "source": "결과"
     },
     {
-      "question": "세 특성의 집단 평균 변화 방향을 가리키는 표현은 무엇인가?",
+      "question": "연령과 죽음근접성 효과가 약해진 최종모형을 이 읽기에서는 무엇이라고 부르는가?",
       "accepted_answers": [
-        "평균수준 궤적",
-        "mean-level trajectory"
+        "fully conditional model",
+        "완전 조건모형"
       ],
       "answer_type": "short_phrase",
-      "explanation": "논문은 성격 특성의 mean-level trajectory를 중심으로 말기 발달을 분석했다.",
-      "source": "핵심 개념"
+      "explanation": "이 논문을 끝까지 읽을 때 중요한 전환점은 자원·위험요인을 함께 넣은 fully conditional model에서 해석의 무게중심이 이동한다는 점이다.",
+      "source": "논의"
+    },
+    {
+      "question": "끝까지 남은 참여자들이 더 건강하고 기능이 좋아 결과가 덜 부정적으로 보일 수 있는 표본 문제를 무엇이라 하는가?",
+      "accepted_answers": [
+        "긍정적 선택효과",
+        "선택효과",
+        "positive selectivity",
+        "selectivity"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "외향성과 개방성에서는 누가 종단 끝까지 남았는지가 결과 해석을 바꿀 수 있기 때문에 선택효과를 같이 붙여 읽어야 한다.",
+      "source": "논의"
+    },
+    {
+      "question": "최종 해석에서 죽음 자체보다 더 직접적인 설명으로 부상한 것은 무엇인가?",
+      "accepted_answers": [
+        "자원 가용성",
+        "자원과 위험요인",
+        "resource availability",
+        "resource/risk factors"
+      ],
+      "answer_type": "short_phrase",
+      "explanation": "fully conditional model 이후 이 논문은 age나 death proximity 그 자체보다 건강, 인지, 통제감, 사회적 포괄 같은 자원과 위험요인의 가용성을 더 직접적 설명으로 읽는다.",
+      "source": "논의"
     }
   ]
 }

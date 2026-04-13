@@ -19,8 +19,8 @@
     "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
   ],
   "content_status": {
-    "full": "schema_pass",
-    "translation": "schema_fail",
+    "full": "approved",
+    "translation": "approved",
     "summary": "schema_pass",
     "concepts": "schema_fail",
     "pitfalls": "schema_pass",
@@ -44,15 +44,25 @@
   "notebooklm_video_note": null,
   "notebooklm_video_poster": null,
   "manual_review": {
-    "approved_pages": [],
-    "approved_page_hashes": {},
-    "reviewer": "",
-    "reviewed_at": null,
-    "notes": [],
+    "approved_pages": [
+      "full",
+      "translation"
+    ],
+    "approved_page_hashes": {
+      "full": "9446be643fbc5d9a49a60936c344b1bb55f58549",
+      "translation": "5f4810122208c9eac3ea42a5a6054e4775b5ad03"
+    },
+    "reviewer": "codex",
+    "reviewed_at": "2026-04-11",
+    "notes": [
+      "Reworked full.md from page-based headings into article sections and manually spot-checked section order.",
+      "Stage 2 restart uses chunked full-translation passes from full.md; the prior short translation is not approved.",
+      "Validated full and translation source files after the chunked translation rebuild."
+    ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T04:21:54.523Z",
+    "updated_at": "2026-04-13T06:00:25.265Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -68,51 +78,50 @@
     },
     "page_results": {
       "full": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 6624,
+          "word_count": 6240,
           "section_count": 9,
-          "sub_section_count": 0,
+          "sub_section_count": 10,
           "bullet_count": 0,
           "level2_heading_count": 9,
-          "level3_heading_count": 0,
-          "level4_heading_count": 0,
+          "level3_heading_count": 7,
+          "level4_heading_count": 4,
           "figure_count": 0,
-          "paragraph_count": 61,
+          "paragraph_count": 52,
           "level2_section_count": 9,
           "empty_level2_sections": [],
-          "last_level2_title": "Page 9"
+          "last_level2_title": "References"
         }
       },
       "translation": {
-        "status": "schema_fail",
-        "errors": [
-          "content is too short (<200 words)",
-          "translation is suspiciously short relative to full text",
-          "translation is missing second-level sections relative to the original text"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 159,
-          "section_count": 5,
-          "sub_section_count": 0,
+          "word_count": 4884,
+          "section_count": 9,
+          "sub_section_count": 10,
           "bullet_count": 0,
-          "full_word_count": 6624,
-          "translation_ratio": 0.024,
-          "level2_heading_count": 5,
-          "level3_heading_count": 0,
-          "level4_heading_count": 0,
+          "full_word_count": 6240,
+          "translation_ratio": 0.783,
+          "level2_heading_count": 9,
+          "level3_heading_count": 7,
+          "level4_heading_count": 4,
           "figure_count": 0,
-          "paragraph_count": 5,
-          "level2_section_count": 5,
+          "paragraph_count": 114,
+          "level2_section_count": 9,
           "empty_level2_sections": [],
-          "last_level2_title": "의의와 한계",
+          "last_level2_title": "참고문헌",
           "full_level2_heading_count": 9,
-          "full_level3_heading_count": 0,
-          "full_level4_heading_count": 0,
+          "full_level3_heading_count": 7,
+          "full_level4_heading_count": 4,
           "full_figure_count": 0,
+          "full_reference_word_count": 1618,
+          "translation_reference_word_count": 1449,
+          "translation_reference_ratio": 0.896,
           "original_reveal_enabled": false,
           "reveal_entry_count": 0
         }
@@ -277,51 +286,50 @@
     },
     "source_page_results": {
       "full": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 6624,
+          "word_count": 6240,
           "section_count": 9,
-          "sub_section_count": 0,
+          "sub_section_count": 10,
           "bullet_count": 0,
           "level2_heading_count": 9,
-          "level3_heading_count": 0,
-          "level4_heading_count": 0,
+          "level3_heading_count": 7,
+          "level4_heading_count": 4,
           "figure_count": 0,
-          "paragraph_count": 61,
+          "paragraph_count": 52,
           "level2_section_count": 9,
           "empty_level2_sections": [],
-          "last_level2_title": "Page 9"
+          "last_level2_title": "References"
         }
       },
       "translation": {
-        "status": "schema_fail",
-        "errors": [
-          "content is too short (<200 words)",
-          "translation is suspiciously short relative to full text",
-          "translation is missing second-level sections relative to the original text"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 159,
-          "section_count": 5,
-          "sub_section_count": 0,
+          "word_count": 4884,
+          "section_count": 9,
+          "sub_section_count": 10,
           "bullet_count": 0,
-          "full_word_count": 6624,
-          "translation_ratio": 0.024,
-          "level2_heading_count": 5,
-          "level3_heading_count": 0,
-          "level4_heading_count": 0,
+          "full_word_count": 6240,
+          "translation_ratio": 0.783,
+          "level2_heading_count": 9,
+          "level3_heading_count": 7,
+          "level4_heading_count": 4,
           "figure_count": 0,
-          "paragraph_count": 5,
-          "level2_section_count": 5,
+          "paragraph_count": 114,
+          "level2_section_count": 9,
           "empty_level2_sections": [],
-          "last_level2_title": "의의와 한계",
+          "last_level2_title": "참고문헌",
           "full_level2_heading_count": 9,
-          "full_level3_heading_count": 0,
-          "full_level4_heading_count": 0,
+          "full_level3_heading_count": 7,
+          "full_level4_heading_count": 4,
           "full_figure_count": 0,
+          "full_reference_word_count": 1618,
+          "translation_reference_word_count": 1449,
+          "translation_reference_ratio": 0.896,
           "original_reveal_enabled": false,
           "reveal_entry_count": 0
         }
@@ -485,14 +493,12 @@
       }
     },
     "stage1": {
-      "status": "manual_review_required",
+      "status": "approved",
       "notes": []
     },
     "stage2": {
-      "status": "partial",
-      "notes": [
-        "translation: content is too short (<200 words); translation is suspiciously short relative to full text; translation is missing second-level sections relative to the original text"
-      ]
+      "status": "approved",
+      "notes": []
     },
     "stage3": {
       "status": "partial",
@@ -507,7 +513,6 @@
     "reading": {
       "status": "partial",
       "notes": [
-        "translation: content is too short (<200 words); translation is suspiciously short relative to full text; translation is missing second-level sections relative to the original text",
         "concepts: section 1 (1. dementia caregiving): missing '한국어 개념명'; section 1 (1. dementia caregiving): missing 'Original English term'; section 1 (1. dementia caregiving): missing '정확한 한 줄 정의'; section 1 (1. dementia caregiving): missing '학생 말투로 풀어쓴 설명'; section 1 (1. dementia caregiving): missing '왜 이 ...에서 중요한지'; section 1 (1. dementia caregiving): missing '자주 헷갈리는 포인트'; section 2 (2. self-rated health): missing '한국어 개념명'; section 2 (2. self-rated health): missing 'Original English term'; section 2 (2. self-rated health): missing '정확한 한 줄 정의'; section 2 (2. self-rated health): missing '학생 말투로 풀어쓴 설명'; section 2 (2. self-rated health): missing '왜 이 ...에서 중요한지'; section 2 (2. self-rated health): missing '자주 헷갈리는 포인트'; section 3 (3. mortality benefit): missing '한국어 개념명'; section 3 (3. mortality benefit): missing 'Original English term'; section 3 (3. mortality benefit): missing '정확한 한 줄 정의'; section 3 (3. mortality benefit): missing '학생 말투로 풀어쓴 설명'; section 3 (3. mortality benefit): missing '왜 이 ...에서 중요한지'; section 3 (3. mortality benefit): missing '자주 헷갈리는 포인트'; section 4 (4. Healthy Caregiver Hypothesis): missing '한국어 개념명'; section 4 (4. Healthy Caregiver Hypothesis): missing 'Original English term'; section 4 (4. Healthy Caregiver Hypothesis): missing '정확한 한 줄 정의'; section 4 (4. Healthy Caregiver Hypothesis): missing '학생 말투로 풀어쓴 설명'; section 4 (4. Healthy Caregiver Hypothesis): missing '왜 이 ...에서 중요한지'; section 4 (4. Healthy Caregiver Hypothesis): missing '자주 헷갈리는 포인트'; section 5 (5. Cox survival model): missing '한국어 개념명'; section 5 (5. Cox survival model): missing 'Original English term'; section 5 (5. Cox survival model): missing '정확한 한 줄 정의'; section 5 (5. Cox survival model): missing '학생 말투로 풀어쓴 설명'; section 5 (5. Cox survival model): missing '왜 이 ...에서 중요한지'; section 5 (5. Cox survival model): missing '자주 헷갈리는 포인트'; section 6 (6. all-cause mortality): missing '한국어 개념명'; section 6 (6. all-cause mortality): missing 'Original English term'; section 6 (6. all-cause mortality): missing '정확한 한 줄 정의'; section 6 (6. all-cause mortality): missing '학생 말투로 풀어쓴 설명'; section 6 (6. all-cause mortality): missing '왜 이 ...에서 중요한지'; section 6 (6. all-cause mortality): missing '자주 헷갈리는 포인트'; section 7 (7. cause-specific mortality): missing '한국어 개념명'; section 7 (7. cause-specific mortality): missing 'Original English term'; section 7 (7. cause-specific mortality): missing '정확한 한 줄 정의'; section 7 (7. cause-specific mortality): missing '학생 말투로 풀어쓴 설명'; section 7 (7. cause-specific mortality): missing '왜 이 ...에서 중요한지'; section 7 (7. cause-specific mortality): missing '자주 헷갈리는 포인트'; section 8 (8. interaction): missing '한국어 개념명'; section 8 (8. interaction): missing 'Original English term'; section 8 (8. interaction): missing '정확한 한 줄 정의'; section 8 (8. interaction): missing '학생 말투로 풀어쓴 설명'; section 8 (8. interaction): missing '왜 이 ...에서 중요한지'; section 8 (8. interaction): missing '자주 헷갈리는 포인트'",
         "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
         "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
@@ -518,7 +523,6 @@
   },
   "workflow_status": "partial",
   "workflow_notes": [
-    "translation: content is too short (<200 words); translation is suspiciously short relative to full text; translation is missing second-level sections relative to the original text",
     "concepts: section 1 (1. dementia caregiving): missing '한국어 개념명'; section 1 (1. dementia caregiving): missing 'Original English term'; section 1 (1. dementia caregiving): missing '정확한 한 줄 정의'; section 1 (1. dementia caregiving): missing '학생 말투로 풀어쓴 설명'; section 1 (1. dementia caregiving): missing '왜 이 ...에서 중요한지'; section 1 (1. dementia caregiving): missing '자주 헷갈리는 포인트'; section 2 (2. self-rated health): missing '한국어 개념명'; section 2 (2. self-rated health): missing 'Original English term'; section 2 (2. self-rated health): missing '정확한 한 줄 정의'; section 2 (2. self-rated health): missing '학생 말투로 풀어쓴 설명'; section 2 (2. self-rated health): missing '왜 이 ...에서 중요한지'; section 2 (2. self-rated health): missing '자주 헷갈리는 포인트'; section 3 (3. mortality benefit): missing '한국어 개념명'; section 3 (3. mortality benefit): missing 'Original English term'; section 3 (3. mortality benefit): missing '정확한 한 줄 정의'; section 3 (3. mortality benefit): missing '학생 말투로 풀어쓴 설명'; section 3 (3. mortality benefit): missing '왜 이 ...에서 중요한지'; section 3 (3. mortality benefit): missing '자주 헷갈리는 포인트'; section 4 (4. Healthy Caregiver Hypothesis): missing '한국어 개념명'; section 4 (4. Healthy Caregiver Hypothesis): missing 'Original English term'; section 4 (4. Healthy Caregiver Hypothesis): missing '정확한 한 줄 정의'; section 4 (4. Healthy Caregiver Hypothesis): missing '학생 말투로 풀어쓴 설명'; section 4 (4. Healthy Caregiver Hypothesis): missing '왜 이 ...에서 중요한지'; section 4 (4. Healthy Caregiver Hypothesis): missing '자주 헷갈리는 포인트'; section 5 (5. Cox survival model): missing '한국어 개념명'; section 5 (5. Cox survival model): missing 'Original English term'; section 5 (5. Cox survival model): missing '정확한 한 줄 정의'; section 5 (5. Cox survival model): missing '학생 말투로 풀어쓴 설명'; section 5 (5. Cox survival model): missing '왜 이 ...에서 중요한지'; section 5 (5. Cox survival model): missing '자주 헷갈리는 포인트'; section 6 (6. all-cause mortality): missing '한국어 개념명'; section 6 (6. all-cause mortality): missing 'Original English term'; section 6 (6. all-cause mortality): missing '정확한 한 줄 정의'; section 6 (6. all-cause mortality): missing '학생 말투로 풀어쓴 설명'; section 6 (6. all-cause mortality): missing '왜 이 ...에서 중요한지'; section 6 (6. all-cause mortality): missing '자주 헷갈리는 포인트'; section 7 (7. cause-specific mortality): missing '한국어 개념명'; section 7 (7. cause-specific mortality): missing 'Original English term'; section 7 (7. cause-specific mortality): missing '정확한 한 줄 정의'; section 7 (7. cause-specific mortality): missing '학생 말투로 풀어쓴 설명'; section 7 (7. cause-specific mortality): missing '왜 이 ...에서 중요한지'; section 7 (7. cause-specific mortality): missing '자주 헷갈리는 포인트'; section 8 (8. interaction): missing '한국어 개념명'; section 8 (8. interaction): missing 'Original English term'; section 8 (8. interaction): missing '정확한 한 줄 정의'; section 8 (8. interaction): missing '학생 말투로 풀어쓴 설명'; section 8 (8. interaction): missing '왜 이 ...에서 중요한지'; section 8 (8. interaction): missing '자주 헷갈리는 포인트'",
     "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
     "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",

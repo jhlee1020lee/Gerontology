@@ -1,0 +1,88 @@
+{
+  "class_date": "2026-04-09",
+  "reading_slug": "ch07-gerontology",
+  "rules": [
+    {
+      "rule": "When answering about personality change, separate stable core tendency from changing expression, self-development, or mean-level trend.",
+      "reason": "The professor repeatedly resists all-or-nothing answers and pushes students to specify the level of change they mean.",
+      "transcript_evidence": [
+        "line 61",
+        "line 118",
+        "line 340",
+        "line 358",
+        "line 439"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "For socioemotional selectivity, open with limited-time perception rather than energy loss, frailty, or passive withdrawal.",
+      "reason": "The professor explicitly rejects decline-only explanations and reframes the theory around motivational change tied to time perception.",
+      "transcript_evidence": [
+        "line 152",
+        "line 164",
+        "line 176",
+        "line 179"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "When explaining the SOC model, tie it to handling decline, loss, and reduced resources rather than saying older adults can simply do everything as before.",
+      "reason": "The lecture frames SOC as a strategy for successful aging under real constraint, not as empty optimism.",
+      "transcript_evidence": [
+        "line 244",
+        "line 250",
+        "line 256",
+        "line 262"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "If you mention personality and health, connect the trait to repeated behavior over decades and then to the health outcome.",
+      "reason": "The professor accepts the personality-health link only when it is explained through accumulated behavior and not as a magical one-step effect.",
+      "transcript_evidence": [
+        "line 289",
+        "line 292",
+        "line 298",
+        "line 301",
+        "line 307"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "For stage theories, say what each theorist adds and where the empirical limit lies, especially for Levinson.",
+      "reason": "The lecture praises insight but immediately asks about sample, cohort, and evidence strength.",
+      "transcript_evidence": [
+        "line 367",
+        "line 376",
+        "line 382",
+        "line 403",
+        "line 415",
+        "line 424"
+      ],
+      "priority": "high"
+    },
+    {
+      "rule": "Use the exact names and English terms when they matter: OCEAN, neuroticism, socioemotional selectivity theory, SOC, Erikson, Loevinger, Levinson, and Paul Baltes.",
+      "reason": "This session repeatedly turned on precise terminology, and fuzzy paraphrase would weaken oral answers immediately.",
+      "transcript_evidence": [
+        "line 134",
+        "line 230",
+        "line 343",
+        "line 367",
+        "line 382"
+      ],
+      "priority": "medium"
+    },
+    {
+      "rule": "If you say a point was interesting or surprising, state what prior assumption changed and tie it back to the chapter immediately.",
+      "reason": "The stronger student moments in this class worked because they named the intuition they had first and then corrected it with the reading's logic.",
+      "transcript_evidence": [
+        "line 127",
+        "line 134",
+        "line 316",
+        "line 319"
+      ],
+      "priority": "medium"
+    }
+  ]
+}

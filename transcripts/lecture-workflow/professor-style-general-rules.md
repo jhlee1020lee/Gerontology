@@ -42,6 +42,8 @@
    - what limitation or alternative explanation remains
 11. When the topic is multidimensional, explain the domain-specific pattern instead of reducing everything to one score or one tendency.
 12. If the answer includes a personal reaction or example, tie it back to the text immediately so it still sounds like a reading answer rather than free association.
+13. Prefer student-answer frames that show how the reading was approached, for example `저는 이 글을 X와 Y를 구분해서 읽었습니다` or `처음에는 A라고 생각했는데 읽고 나서는 B가 더 중요하다고 봤습니다`, when approved lecture evidence supports that shape.
+14. Do not disguise a paper summary as a reading answer by simply adding first-person phrasing; the answer should foreground the distinction, changed expectation, or reading angle first.
 
 ## Professor-Wide Likely Follow-Up Patterns
 
@@ -67,6 +69,7 @@
 - Treating related variables as interchangeable when the paper distinguishes them
 - Reporting only the conclusion of a paper without showing how the study worked
 - Giving a personal opinion that is not tied back to the text
+- Rewriting the article summary into first-person Korean without showing what the student first noticed or how the reading changed the student's interpretation
 
 ## Use Rule
 

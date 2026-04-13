@@ -1,0 +1,68 @@
+{
+  "class_date": "2026-04-09",
+  "reading_slug": "ch07-gerontology",
+  "cards": [
+    {
+      "title": "이 장에서 성격은 변하는지 안정적인지 어떻게 답할 것인가",
+      "answer_30s": "저는 이 질문에 둘 중 하나만 고르지 않고 수준을 나눠서 답하겠습니다. 장은 5요인처럼 비교적 안정적인 성격특성을 보여 주면서도, 자아발달이나 정서조절 방식, 적응 방식은 성인기 이후에도 계속 달라질 수 있다고 설명합니다. 그래서 핵심은 성격의 core tendency와 표현 방식, 그리고 평균수준 변화와 순위안정성을 구분해서 읽는 데 있다고 보겠습니다.",
+      "evidence_refs": [
+        "transcript: line 118",
+        "transcript: line 340",
+        "transcript: line 358",
+        "transcript: line 439",
+        "pdf: ch07-gerontology 성격의 변화",
+        "pdf: ch07-gerontology 성격의 안정성"
+      ],
+      "status": "draft"
+    },
+    {
+      "title": "사회정서선택이론을 어떻게 설명할 것인가",
+      "answer_30s": "사회정서선택이론의 핵심은 노인이 기력이 없어서 인간관계를 줄인다는 게 아니라, 남아 있는 시간이 제한적이라고 인식할수록 정서적으로 중요한 관계와 경험에 더 집중하게 된다는 데 있습니다. 교수님도 학생 예시를 써서 서울대에 남은 시간이 적다고 느끼면 새로운 관계를 넓히기보다 중요한 사람에게 집중한다고 설명하셨습니다. 그래서 이 이론은 쇠퇴 설명이 아니라 시간 인식에 따른 동기 변화 이론으로 읽어야 합니다.",
+      "evidence_refs": [
+        "transcript: line 152",
+        "transcript: line 176",
+        "transcript: line 179",
+        "transcript: line 188",
+        "pdf: ch07-gerontology 노년기 정서조절"
+      ],
+      "status": "draft"
+    },
+    {
+      "title": "SOC 모델이 왜 노년기 적응의 핵심인지",
+      "answer_30s": "SOC 모델이 중요한 이유는 성공적 노화를 젊을 때처럼 다 유지하는 상태로 보지 않고, 쇠퇴와 상실이 있어도 무엇을 선택하고 어떻게 최적화하며 부족한 기능을 무엇으로 보상할지를 설명해 주기 때문입니다. 교수님도 인지나 건강은 어느 정도 떨어질 수밖에 없다고 하면서, 그 조건에서 기능을 유지하는 전략을 찾는 게 핵심이라고 하셨습니다. 그래서 이 모델은 노년기 적응을 체념이 아니라 재구성의 과정으로 읽게 해 줍니다.",
+      "evidence_refs": [
+        "transcript: line 244",
+        "transcript: line 250",
+        "transcript: line 256",
+        "transcript: line 262",
+        "pdf: ch07-gerontology Baltes와 Baltes의 SOC 모델"
+      ],
+      "status": "draft"
+    },
+    {
+      "title": "성격과 건강의 연결을 어떻게 답할 것인가",
+      "answer_30s": "이 장은 성격이 단순 기질이 아니라 장기적인 건강행동과 연결될 수 있다고 읽게 합니다. 교수님도 Type A 이야기와 이후의 성격-건강 연구를 연결하면서, 어떤 특성은 수십 년 동안 특정 행동양식을 만들고 그 누적이 심혈관 위험이나 건강결과로 나타난다고 설명하셨습니다. 그래서 답할 때는 성격이 곧바로 병을 만든다고 말하기보다, 성격이 행동 패턴을 만들고 그 패턴이 장기적으로 건강에 영향을 준다고 설명하는 게 맞습니다.",
+      "evidence_refs": [
+        "transcript: line 280",
+        "transcript: line 292",
+        "transcript: line 298",
+        "transcript: line 307",
+        "pdf: ch07-gerontology 건강과 성격특성"
+      ],
+      "status": "draft"
+    },
+    {
+      "title": "이 수업에서 단계이론을 어떻게 읽었는지",
+      "answer_30s": "저는 이 수업에서 단계이론을 외워야 할 정답 체계라기보다, 어떤 통찰을 주는지와 어떤 한계가 있는지를 같이 봐야 하는 틀로 읽었습니다. 에릭슨은 전 생애 과업이라는 통찰이 있고, 레빙거는 자아발달의 복잡성을 보여 주지만, 레빈슨은 중년기 전환을 흥미롭게 설명하면서도 백인 중산층 남성 40명이라는 표본 한계가 큽니다. 그래서 교수님은 이론 이름만 말하는 답보다 무엇이 통찰이고 무엇이 약한 근거인지 구분하는 답을 더 원하신다고 봤습니다.",
+      "evidence_refs": [
+        "transcript: line 367",
+        "transcript: line 376",
+        "transcript: line 382",
+        "transcript: line 403",
+        "transcript: line 415",
+        "pdf: ch07-gerontology 발달모델: 단계이론적 접근"
+      ],
+      "status": "draft"
+    }
+  ]
+}

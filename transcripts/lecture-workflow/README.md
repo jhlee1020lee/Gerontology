@@ -31,6 +31,7 @@ This folder stores derived lecture-recording workflow artifacts after raw files 
 | 2026-03-19 | `ch04-gerontology` | `2026-03-19-ch04-gerontology/` |
 | 2026-03-24 | `hulur-et-al-2019` | `2026-03-24-hulur-et-al-2019/` |
 | 2026-03-26 | `ch05-gerontology` | `2026-03-26-ch05-gerontology/` |
+| 2026-04-09 | `ch07-gerontology` | `2026-04-09-ch07-gerontology/` |
 
 ## Working notes
 

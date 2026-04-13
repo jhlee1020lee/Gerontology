@@ -1,0 +1,130 @@
+{
+  "class_date": "2026-04-09",
+  "reading_slug": "ch07-gerontology",
+  "items": [
+    {
+      "question": "Why did the professor say socioemotional selectivity is not about low energy or simple withdrawal?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 152",
+        "line 158",
+        "line 164",
+        "line 176",
+        "line 179"
+      ],
+      "pdf_evidence": [
+        "ch07-gerontology 노년기 정서조절",
+        "ch07-gerontology 사회정서선택성"
+      ],
+      "notes": "Likely when a student says older adults narrow relationships because they get tired or lose social interest."
+    },
+    {
+      "question": "How can socioemotional selectivity apply to students as well as older adults?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 170",
+        "line 173",
+        "line 188"
+      ],
+      "pdf_evidence": [
+        "ch07-gerontology 노년기 정서조절"
+      ],
+      "notes": "The professor explicitly used the limited-time perception frame beyond old age."
+    },
+    {
+      "question": "Why is the SOC model important in gerontology rather than just a generic coping slogan?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 236",
+        "line 242",
+        "line 248",
+        "line 254"
+      ],
+      "pdf_evidence": [
+        "ch07-gerontology Baltes와 Baltes의 SOC 모델",
+        "ch07-gerontology 노년기 적응"
+      ],
+      "notes": "Likely when a student can name selection, optimization, compensation but cannot explain why the model matters for aging."
+    },
+    {
+      "question": "What is the better question: does experience change personality, or does personality channel people into certain experiences?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 76",
+        "line 88",
+        "line 100",
+        "line 118",
+        "line 433",
+        "line 436"
+      ],
+      "pdf_evidence": [
+        "ch07-gerontology 맥락적 모델: 생애사건 접근",
+        "ch07-gerontology 성격의 변화와 안정성"
+      ],
+      "notes": "This is one of the clearest professor-style distinction questions in the session."
+    },
+    {
+      "question": "What does it mean to say personality is stable if some traits still show age-related change?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 325",
+        "line 340",
+        "line 358",
+        "line 361",
+        "line 439"
+      ],
+      "pdf_evidence": [
+        "ch07-gerontology 성격의 변화",
+        "ch07-gerontology 성격의 안정성"
+      ],
+      "notes": "Likely when a student collapses rank-order stability and mean-level change into one vague claim."
+    },
+    {
+      "question": "Why did the professor use the Type A chair story, and what is the real mechanism claim behind it?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 280",
+        "line 289",
+        "line 292",
+        "line 298"
+      ],
+      "pdf_evidence": [
+        "ch07-gerontology 건강과 성격특성"
+      ],
+      "notes": "Likely when a student remembers the anecdote but not the long-term behavioral pathway from trait to health outcome."
+    },
+    {
+      "question": "What is the difference between Erikson, Loevinger, and Levinson in this chapter, and which one gets the strongest criticism in lecture?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 61",
+        "line 376",
+        "line 382",
+        "line 403",
+        "line 415",
+        "line 424"
+      ],
+      "pdf_evidence": [
+        "ch07-gerontology 발달모델: 단계이론적 접근",
+        "ch07-gerontology 자아발달"
+      ],
+      "notes": "The professor repeatedly distinguishes useful insight from weak empirical grounding."
+    },
+    {
+      "question": "Why is older adulthood not described here as automatic decline in emotion or happiness?",
+      "question_type": "oral-follow-up",
+      "transcript_evidence": [
+        "line 134",
+        "line 137",
+        "line 176",
+        "line 179",
+        "line 319"
+      ],
+      "pdf_evidence": [
+        "ch07-gerontology 정서의 변화",
+        "ch07-gerontology 노년기 정서조절"
+      ],
+      "notes": "Likely when a student speaks as if aging simply means more fear, sadness, and social loss."
+    }
+  ]
+}

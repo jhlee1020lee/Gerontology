@@ -43,6 +43,11 @@
   "notebooklm_video_url": null,
   "notebooklm_video_note": null,
   "notebooklm_video_poster": null,
+  "translation_original_reveal": {
+    "enabled": true,
+    "alignment_file": "translation_alignment.json",
+    "mode": "details"
+  },
   "manual_review": {
     "approved_pages": [
       "full",
@@ -58,27 +63,42 @@
     ],
     "approved_page_hashes": {
       "full": "57e222a8c863379ec0ec7a571ba5ad3278ef51b2",
-      "translation": "78fe513f40f480a16b8bf9a70c7cebc5a0936def",
-      "summary": "de995b661dc2445e40ac18362b6deebbc14c8048",
-      "concepts": "0ae7e6174fc66eaad044d31e5b83a5bfb9f963ea",
-      "pitfalls": "55bf507e75683746a6d7f12457ea44f04a5ffce4",
-      "review-sheet": "4af27a647c08e06204259be6e49187d062c72999",
-      "professor-prep": "87493f0a17db89f2131c0fc4907d33193524b42f",
-      "quiz-ox": "02ca16f400bf3f81c236da91cb1c9055095f4b2e",
-      "quiz-short": "1837c8b1f2f9297d346ab396671aa3611149ee36",
-      "quiz-mcq": "22ab392fcfcfe310ac76e2fac83ef903ba6e842e"
+      "professor-prep": "beb1d7f60af0315a01fd160d1a5ecf5cd8f61f36",
+      "translation": "74532678a931620e2beb29ccf9262e0c7a8e13bc",
+      "summary": "7eaf2635ea7d64fe5a5810e4bf0348e850896982",
+      "concepts": "656c33c2d31711a72580fc331644f192b8052d4d",
+      "pitfalls": "c1f7c04eee7a3819f18d025d5b53c2ea78234a31",
+      "review-sheet": "5f947a298e4063f8075a1b43e67d675bfa7ad42f",
+      "quiz-ox": "0df2f5ab1c731f10879a5473a6526ab06d132eb9",
+      "quiz-short": "851989bb2879d3474dcfdb0a32d29501461ae9ad",
+      "quiz-mcq": "2970d231389705dd7fbf20c7bcc72d70f23843ce"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-09",
+    "reviewed_at": "2026-04-13",
     "notes": [
       "Validated source files and built artifacts for the reading pages.",
       "Reworked the original-text page into topic-based sections and removed the translation progress-note carryover.",
-      "NotebookLM landing video remains optional and can be uploaded later without blocking approval."
+      "NotebookLM landing video remains optional and can be uploaded later without blocking approval.",
+      "Restored the missing references and appendix in the translation and revalidated the built artifacts.",
+      "2026-04-10에 한국어 번역을 폐기하고 full.md 기준으로 처음부터 다시 시작했다.",
+      "2026-04-11에 translation.md를 청크 단위로 재번역하고 참고문헌을 복구해 source-only schema를 통과시켰다.",
+      "2026-04-11에 참고문헌 뒷부분도 추가 병합해 말미 누락을 더 줄였다.",
+      "2026-04-13에 translation.md 말미의 Appendix Table A1-A3와 출판 이력을 한국어로 복구하고 translation_alignment.json을 확장해 부록/출판 이력 원문 펼침도 다시 연결했다.",
+      "2026-04-13에 원문 펼침 라벨을 더 명확하게 바꾸고, 같은 원문 블록 안에서도 문단 대응 범위에 맞춰 더 잘게 나누도록 공통 규칙과 빌드 동작을 정리했다.",
+      "2026-04-11에 다음주 화요일(2026-04-14) 수업 reading 파일럿으로 객관식 퀴즈를 5+5+5 마이크로청크 방식으로 전면 재작성하고 검증 및 재승인을 마쳤다.",
+      "2026-04-11에 다음주 화요일(2026-04-14) 수업 대비용으로 시험 직전 정리와 교수님 구술 대비를 읽기 근거 기준으로 다시 조여 숫자 앵커와 대비쌍을 보강하고 재승인했다.",
+      "2026-04-11에 translation_alignment.json을 추가하고 번역 페이지에서 문단별 원문 펼침을 활성화했다.",
+      "2026-04-11에 사용자 지시로 읽기 답변 준비 소스를 비우고 이후 재작성 대기 상태로 되돌렸다.",
+      "2026-04-11에 학생 답변형 구술 프레임으로 professor_prep.json을 15개 카드까지 재구성하고 수동 승인했다.",
+      "2026-04-13 재검증에서 translation.md 본문 누락과 translation.html 원문 펼침 매핑 오류가 추가 확인되어 translation 페이지 승인을 해제하고 재작업 대상으로 다시 열었다.",
+      "2026-04-13에 서론·논의·한계 파트의 누락 번역을 복구하고 표/그림 캡션·주 설명을 보강했으며, 원문 펼침은 초록 말미·서론 중반·결과·논의·부록 표 구간을 문단 대응 기준으로 다시 고정했다.",
+      "2026-04-13에 번역 페이지의 5단계 제목을 publish-safe 구조로 정리하고 정렬 파일에서 제목용 reveal 엔트리를 비활성화한 뒤 재검증 및 재승인을 진행했다.",
+      "2026-04-13에 사용자가 2026-04-14 reading의 summary, concepts, pitfalls, review-sheet, quiz-ox, quiz-short, quiz-mcq 재작성본을 승인해 수동 승인 목록에 반영했다."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-09T05:05:35.341Z",
+    "updated_at": "2026-04-13T09:28:28.543Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "schema_pass",
@@ -117,26 +137,26 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 4975,
-          "section_count": 5,
-          "sub_section_count": 14,
+          "word_count": 11978,
+          "section_count": 8,
+          "sub_section_count": 13,
           "bullet_count": 0,
           "full_word_count": 15682,
-          "translation_ratio": 0.317,
-          "level2_heading_count": 5,
-          "level3_heading_count": 14,
-          "level4_heading_count": 14,
+          "translation_ratio": 0.764,
+          "level2_heading_count": 8,
+          "level3_heading_count": 13,
+          "level4_heading_count": 19,
           "figure_count": 0,
-          "paragraph_count": 82,
-          "level2_section_count": 5,
+          "paragraph_count": 236,
+          "level2_section_count": 8,
           "empty_level2_sections": [],
-          "last_level2_title": "논의",
+          "last_level2_title": "부록",
           "full_level2_heading_count": 5,
           "full_level3_heading_count": 1,
           "full_level4_heading_count": 0,
           "full_figure_count": 0,
-          "original_reveal_enabled": false,
-          "reveal_entry_count": 0
+          "original_reveal_enabled": true,
+          "reveal_entry_count": 122
         }
       },
       "summary": {
@@ -144,10 +164,10 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 501,
-          "section_count": 4,
-          "sub_section_count": 5,
-          "bullet_count": 24
+          "word_count": 616,
+          "section_count": 5,
+          "sub_section_count": 3,
+          "bullet_count": 26
         }
       },
       "concepts": {
@@ -155,11 +175,11 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 887,
-          "section_count": 9,
+          "word_count": 1221,
+          "section_count": 12,
           "sub_section_count": 0,
-          "bullet_count": 54,
-          "concept_count": 9
+          "bullet_count": 72,
+          "concept_count": 12
         }
       },
       "pitfalls": {
@@ -167,10 +187,10 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 331,
-          "section_count": 5,
+          "word_count": 774,
+          "section_count": 7,
           "sub_section_count": 0,
-          "bullet_count": 15
+          "bullet_count": 42
         }
       },
       "review_sheet": {
@@ -178,10 +198,10 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 200,
-          "section_count": 4,
+          "word_count": 498,
+          "section_count": 6,
           "sub_section_count": 0,
-          "bullet_count": 14
+          "bullet_count": 31
         }
       },
       "professor_prep": {
@@ -189,7 +209,7 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 17
+          "card_count": 15
         }
       },
       "quiz_ox": {
@@ -242,26 +262,26 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 4975,
-          "section_count": 5,
-          "sub_section_count": 14,
+          "word_count": 11978,
+          "section_count": 8,
+          "sub_section_count": 13,
           "bullet_count": 0,
           "full_word_count": 15682,
-          "translation_ratio": 0.317,
-          "level2_heading_count": 5,
-          "level3_heading_count": 14,
-          "level4_heading_count": 14,
+          "translation_ratio": 0.764,
+          "level2_heading_count": 8,
+          "level3_heading_count": 13,
+          "level4_heading_count": 19,
           "figure_count": 0,
-          "paragraph_count": 82,
-          "level2_section_count": 5,
+          "paragraph_count": 236,
+          "level2_section_count": 8,
           "empty_level2_sections": [],
-          "last_level2_title": "논의",
+          "last_level2_title": "부록",
           "full_level2_heading_count": 5,
           "full_level3_heading_count": 1,
           "full_level4_heading_count": 0,
           "full_figure_count": 0,
-          "original_reveal_enabled": false,
-          "reveal_entry_count": 0
+          "original_reveal_enabled": true,
+          "reveal_entry_count": 122
         }
       },
       "summary": {
@@ -269,10 +289,10 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 501,
-          "section_count": 4,
-          "sub_section_count": 5,
-          "bullet_count": 24
+          "word_count": 616,
+          "section_count": 5,
+          "sub_section_count": 3,
+          "bullet_count": 26
         }
       },
       "concepts": {
@@ -280,11 +300,11 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 887,
-          "section_count": 9,
+          "word_count": 1221,
+          "section_count": 12,
           "sub_section_count": 0,
-          "bullet_count": 54,
-          "concept_count": 9
+          "bullet_count": 72,
+          "concept_count": 12
         }
       },
       "pitfalls": {
@@ -292,10 +312,10 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 331,
-          "section_count": 5,
+          "word_count": 774,
+          "section_count": 7,
           "sub_section_count": 0,
-          "bullet_count": 15
+          "bullet_count": 42
         }
       },
       "review_sheet": {
@@ -303,10 +323,10 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 200,
-          "section_count": 4,
+          "word_count": 498,
+          "section_count": 6,
           "sub_section_count": 0,
-          "bullet_count": 14
+          "bullet_count": 31
         }
       },
       "professor_prep": {
@@ -314,7 +334,7 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 17
+          "card_count": 15
         }
       },
       "quiz_ox": {

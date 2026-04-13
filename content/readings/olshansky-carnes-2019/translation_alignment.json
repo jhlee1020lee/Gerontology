@@ -1,0 +1,379 @@
+{
+  "version": 2,
+  "reading_slug": "olshansky-carnes-2019",
+  "page": "translation",
+  "entries": [
+    {
+      "id": "abstract-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 1,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 1
+      }
+    },
+    {
+      "id": "keywords-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 3,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 3
+      }
+    },
+    {
+      "id": "intro-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 4,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 4
+      }
+    },
+    {
+      "id": "intro-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 5,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 5
+      }
+    },
+    {
+      "id": "ceiling-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 7,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 7
+      }
+    },
+    {
+      "id": "ceiling-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 8,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 8
+      }
+    },
+    {
+      "id": "ceiling-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 9,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 9
+      }
+    },
+    {
+      "id": "ceiling-p3",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 10,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 10
+      }
+    },
+    {
+      "id": "ceiling-p4",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 11,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 11
+      }
+    },
+    {
+      "id": "ceiling-p5",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 12,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 12
+      }
+    },
+    {
+      "id": "ceiling-p6",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 13,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 13
+      }
+    },
+    {
+      "id": "ceiling-p7",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 14,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 14
+      }
+    },
+    {
+      "id": "ceiling-p8",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 15,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 15
+      }
+    },
+    {
+      "id": "ceiling-p9",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 16,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 16
+      }
+    },
+    {
+      "id": "ceiling-p10",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 17,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 17
+      }
+    },
+    {
+      "id": "ceiling-p11",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 18,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 18
+      }
+    },
+    {
+      "id": "ceiling-p12",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 19,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 19
+      }
+    },
+    {
+      "id": "table-note-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 22,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 22
+      }
+    },
+    {
+      "id": "ceiling-p13",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 23,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 23
+      }
+    },
+    {
+      "id": "biodemography-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 25,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 25
+      }
+    },
+    {
+      "id": "biodemography-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 26,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 26
+      }
+    },
+    {
+      "id": "biodemography-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 27,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 27
+      }
+    },
+    {
+      "id": "biodemography-p3",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 28,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 28
+      }
+    },
+    {
+      "id": "future-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 30,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 30
+      }
+    },
+    {
+      "id": "future-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 31,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 31
+      }
+    },
+    {
+      "id": "future-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 32,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 32
+      }
+    },
+    {
+      "id": "future-p3",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 33,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 33
+      }
+    },
+    {
+      "id": "future-p4",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 34,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 34
+      }
+    },
+    {
+      "id": "funding-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 36,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 36
+      }
+    },
+    {
+      "id": "conflict-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 38,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 38
+      }
+    },
+    {
+      "id": "references-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 40,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 40
+      }
+    }
+  ]
+}
