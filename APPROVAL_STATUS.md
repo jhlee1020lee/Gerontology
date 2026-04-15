@@ -2,15 +2,16 @@
 
 > 자동 생성 파일입니다. `node scripts/build_site.js`를 실행하면 함께 갱신됩니다.
 
-- 마지막 갱신: 2026-04-13-18:28:29 KST
+- 마지막 갱신: 2026-04-15-20:44:00 KST
 - 전체 읽기: 27
-- 승인 완료: 8
-- 미승인/검토 필요: 19
+- 승인 완료: 9
+- 미승인/검토 필요: 18
 
 ## 승인 완료
 
 | 순서 | 날짜 | slug | 제목 |
 | --- | --- | --- | --- |
+| 3 | 3/12 | beck-2016 | When Are You Really an Adult? |
 | 6 | 3/24 | hulur-et-al-2019 | Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment |
 | 8 | 3/31 | kerrigan-2018 | 12 Innovations That Could Make Reverse Aging a Reality |
 | 9 | 3/31 | olshansky-carnes-2019 | Inconvenient Truths About Human Longevity |
@@ -26,7 +27,6 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 3/05 | ch01-gerontology | 미승인 | 승인 | 승인 | 미승인 | 승인 | 핵심 요약, 핵심 개념, 헷갈리는 포인트, 시험 직전 정리 |
 | 2 | 3/10 | ch02-gerontology | 미승인 | 수동 검토 | 승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 핵심 요약, 핵심 개념 |
-| 3 | 3/12 | beck-2016 | 미승인 | 승인 | 미승인 | 미승인 | 선택 사항 | 한국어 번역, 핵심 요약, 핵심 개념, 헷갈리는 포인트 |
 | 4 | 3/17 | ch03-gerontology | 미승인 | 수동 검토 | 승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 핵심 요약, 핵심 개념 |
 | 5 | 3/19 | ch04-gerontology | 미승인 | 수동 검토 | 승인 | 미승인 | 선택 사항 | Stage 1 수동 승인, 전체 글, 핵심 요약, 핵심 개념 |
 | 7 | 3/26 | ch05-gerontology | 미승인 | 승인 | 승인 | 미승인 | 승인 | 객관식 퀴즈 |

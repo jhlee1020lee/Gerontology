@@ -21,12 +21,14 @@ When docs conflict on detailed policy, follow [CONTENT_RULES.md](CONTENT_RULES.m
 - `source_audio/`: source/input lecture recordings
 - `source_pdfs/`: source/input PDFs when available
 - `scripts/`: build and validation utilities
+- `workspace/`: task notes, batch-memory files, draft media, and scratch artifacts that should not clutter the repo root
 - `docs/`: final generated static site output and deployable public assets
 
 Common authored files in a reading folder include:
 
 - `meta.json`
 - `full.md`
+- `stage1_work_log.md` when Stage 1 spans multiple sessions or contributors
 - `summary.md`
 - `translation.md` for English readings
 - `translation_alignment.json` for approved reveal-enabled English translations
@@ -37,6 +39,8 @@ Common authored files in a reading folder include:
 - `review-sheet.md`
 - `professor_prep.json`
 - quiz source JSON files for OX, short-answer, and MCQ pages
+
+A reusable Stage 1 extraction log template lives at [workspace/notes/stage1_work_log.template.md](workspace/notes/stage1_work_log.template.md).
 
 Lecture-workflow bundles live under:
 
@@ -50,6 +54,8 @@ Lecture-workflow bundles live under:
 - Use the long-form reading layout only on `full.html` and `translation.html`.
 - Use `summary.html` as the only summarized page.
 - Never do a full-reading all-at-once batch.
+- For Stage 1, keep the public pass model at `Pass 1 / Pass 2 / Pass 3`, but do the real extraction and cleanup work in smaller micro-chunks and merge them in source order.
+- If Stage 1 spans multiple sessions, keep `stage1_work_log.md` with chunk coverage, source-only QA status, and remaining work.
 - For Stage 2, keep the public pass model at `Pass 1 / Pass 2 / Pass 3`, but do the real translation work in smaller micro-chunks and merge them in source order.
 - `source words` for Stage 2 chunk sizing means words from the current normalized `full.md`, not raw PDF OCR.
 - If Stage 2 spans multiple sessions, keep `translation_work_log.md` with chunk coverage, source-only QA status, and remaining work.
@@ -65,7 +71,7 @@ Use [CONTENT_RULES.md](CONTENT_RULES.md) for:
 - exact Stage 1 / Stage 2 / Stage 3 rules
 - workflow-only rules vs machine-enforced gates
 - validation thresholds and status meanings
-- Stage 3 micro-chunk thresholds and manual checkpoints
+- Stage 1 / Stage 2 / Stage 3 micro-chunk thresholds and manual checkpoints
 - lecture-recording workflow, evidence hierarchy, and professor-prep rules
 - homepage ordering and syllabus date conflict handling
 

@@ -87,6 +87,19 @@ Stage 1 content meaning:
   - Pass 1: front third extraction
   - Pass 2: middle third extraction
   - Pass 3: final third extraction plus end-to-end extraction QA
+- Internal Stage 1 generation must use smaller micro-chunks whenever a full pass would be too large, too OCR-noisy, too figure-heavy, or too unstable to extract and clean safely in one shot.
+- `source span` for Stage 1 chunking means contiguous source PDF/text coverage that will merge into one stable source-order region of `full.md`; do not use arbitrary token windows that cross section boundaries.
+- Default Stage 1 micro-chunk sizes:
+  - standard article or review prose: `300-700` cleaned output words or `1-3` dense source paragraphs/blocks
+  - OCR-noisy or scan-heavy prose: `200-450` cleaned output words or `1-2` dense source paragraphs/blocks
+  - chapter-like prose with short paragraphs: `400-800` cleaned output words or `2-4` short source paragraphs/blocks
+  - tables, figure-caption runs, appendices, references, and publication-history backmatter: one coherent block at a time
+- Hard cap: do not extract or clean more than `900` cleaned output words in one Stage 1 micro-chunk; if a chunk still feels unstable, split it again before merging.
+- Handle `references`, appendices, table regions, figure-label runs, and other backmatter as separate micro-chunks; never wave them through as “later cleanup” once the pass is being presented as complete.
+- When Stage 1 work spans more than one session, pass, or contributor, keep `content/readings/<slug>/stage1_work_log.md` as a workflow log. Record planned pass coverage, micro-chunk IDs/ranges, special table/figure/backmatter chunks, source-order merge status, source-only QA status, and remaining work.
+- Merge each completed micro-chunk into `full.md` in source order before moving to the next micro-chunk.
+- After each merged micro-chunk, do a PDF/source-order spot check and run `node scripts/validate_content.js --slug <slug> --source-only` before declaring that chunk stable.
+- Do not present a Stage 1 pass as complete until every micro-chunk inside that pass has been merged and checked in order.
 - Explanation videos may be added later as landing-page enhancements, but they are not part of Stage 1 completion or validation.
 - `전체 글` must contain the full original text only.
 - `전체 글` must not use summary-style rewriting, compression, or a clean-overview substitute.
@@ -296,6 +309,7 @@ Stage 1 is valid only if all of the following are true:
 
 - Translation completeness is not part of Stage 1. It is validated only in Stage 2.
 - Stage 1 Pass 1-3 are all complete, contiguous, and merged into one readable `전체 글` (`full`) body
+- if `content/readings/<slug>/stage1_work_log.md` is used, the log shows no unmerged or unchecked micro-chunks for the approved Stage 1 body
 - `전체 글` (`full`) contains the full original text, preserving section order and the readable full body
 - photos, tables, figures, and graphs from the source reading are present in `전체 글` as direct image inserts where applicable
 - deployable PDF path exists when public PDF access is supported

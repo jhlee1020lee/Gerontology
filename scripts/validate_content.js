@@ -26,6 +26,7 @@ const NOTEBOOKLM_VIDEO_CANDIDATES = ["notebooklm.mp4", "notebooklm.webm", "noteb
 const STAGE1_PAGE_KEYS = ["full"];
 const STAGE2_PAGE_KEYS = ["translation"];
 const STAGE3_PAGE_KEYS = ["summary", "concepts", "pitfalls", "review-sheet", "professor-prep", "quiz-ox", "quiz-short", "quiz-mcq"];
+const ALL_PAGE_KEYS = ["full", "translation", "summary", "concepts", "pitfalls", "review-sheet", "professor-prep", "quiz-ox", "quiz-short", "quiz-mcq"];
 const SHORT_ANSWER_TYPES = new Set(["term", "person", "number", "short_phrase"]);
 
 const SUMMARY_BANNED_PATTERNS = [
@@ -159,6 +160,21 @@ function findReferenceSection(sections = []) {
 
 function statusKeyForPage(pageKey) {
   return pageKey.replace(/-/g, "_");
+}
+function normalizeEnabledPageKeys(rawKeys, language) {
+  const fallback = ALL_PAGE_KEYS.filter((key) => language === "en" || key !== "translation");
+  if (!Array.isArray(rawKeys)) {
+    return fallback;
+  }
+  const allowed = new Set(fallback);
+  const selected = rawKeys.map((item) => toText(item)).filter((item) => allowed.has(item));
+  return selected.length ? fallback.filter((key) => selected.includes(key)) : fallback;
+}
+function enabledPageKeys(reading, existingMeta = {}) {
+  return normalizeEnabledPageKeys(reading.enabled_page_keys || existingMeta.enabled_page_keys, reading.language);
+}
+function isPageEnabledForReading(reading, pageKey, existingMeta = {}) {
+  return enabledPageKeys(reading, existingMeta).includes(pageKey);
 }
 
 function isEnglishLike(value) {
@@ -862,6 +878,9 @@ function contentPathForPage(rootDir, reading, pageKey) {
 }
 
 function validatePage(rootDir, reading, pageKey, existingMeta = {}) {
+  if (!isPageEnabledForReading(reading, pageKey, existingMeta)) {
+    return makeResult(PAGE_STATUS.NOT_APPLICABLE, [], [], {});
+  }
   if (pageKey === "translation" && reading.language !== "en") {
     return makeResult(PAGE_STATUS.NOT_APPLICABLE, [], [], {});
   }
@@ -973,10 +992,7 @@ function validateBuildArtifacts(rootDir, reading, existingMeta = {}, pageResults
   const errors = [];
   const translationErrors = [];
   const readingDir = path.join(rootDir, "docs", "readings", reading.slug);
-  const requiredPages = ["index.html", "full.html", "summary.html", "concepts.html", "pitfalls.html", "review-sheet.html", "professor-prep.html", "quiz-ox.html", "quiz-short.html", "quiz-mcq.html"];
-  if (reading.language === "en") {
-    requiredPages.splice(3, 0, "translation.html");
-  }
+  const requiredPages = ["index.html", ...enabledPageKeys(reading, existingMeta).map((pageKey) => builtPageFilename(pageKey))];
   requiredPages.forEach((file) => {
     if (!fs.existsSync(path.join(readingDir, file))) {
       const message = `missing built page: docs/readings/${reading.slug}/${file}`;
@@ -1086,10 +1102,12 @@ function buildValidationSnapshot(rootDir, reading, existingMeta = {}, options = 
       pageResults.translation = applyArtifactErrorsToPageResult(pageResults.translation, artifactResult.translationErrors);
     }
   }
-  const stage1 = stageStatusFromPages(pageResults, STAGE1_PAGE_KEYS, { extraNotes: stage1Extra });
-  const stage2Required = reading.language === "en" ? STAGE2_PAGE_KEYS : [];
+  const enabledKeys = enabledPageKeys(reading, existingMeta);
+  const stage1Required = STAGE1_PAGE_KEYS.filter((key) => enabledKeys.includes(key));
+  const stage1 = stageStatusFromPages(pageResults, stage1Required, { extraNotes: stage1Extra });
+  const stage2Required = reading.language === "en" ? STAGE2_PAGE_KEYS.filter((key) => enabledKeys.includes(key)) : [];
   const stage2 = stageStatusFromPages(pageResults, stage2Required);
-  const stage3 = stageStatusFromPages(pageResults, STAGE3_PAGE_KEYS);
+  const stage3 = stageStatusFromPages(pageResults, STAGE3_PAGE_KEYS.filter((key) => enabledKeys.includes(key)));
 
   let readingStatus = READING_STATUS.PARTIAL;
   const readingNotes = [];

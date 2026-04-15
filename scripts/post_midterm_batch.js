@@ -13,10 +13,11 @@ const {
 
 const ROOT_DIR = path.resolve(__dirname, "..");
 const MANIFEST_PATH = path.join(ROOT_DIR, "manifest", "readings.json");
-const STATUS_PATH = path.join(ROOT_DIR, "Status.md");
-const PLAN_PATH = path.join(ROOT_DIR, "Plan.md");
-const PROMPT_PATH = path.join(ROOT_DIR, "Prompt.md");
-const FAILURE_LOG_PATH = path.join(ROOT_DIR, "FailureLog.md");
+const WORKSPACE_OPS_DIR = path.join(ROOT_DIR, "workspace", "ops");
+const STATUS_PATH = path.join(WORKSPACE_OPS_DIR, "Status.md");
+const PLAN_PATH = path.join(WORKSPACE_OPS_DIR, "Plan.md");
+const PROMPT_PATH = path.join(WORKSPACE_OPS_DIR, "Prompt.md");
+const FAILURE_LOG_PATH = path.join(WORKSPACE_OPS_DIR, "FailureLog.md");
 const SITE_INDEX_PATH = path.join(ROOT_DIR, "docs", "index.html");
 const DEFAULT_FOLLOWUPS = [
   "그게 뭐야?",
@@ -744,7 +745,7 @@ function renderPlan() {
     "   - run schema validation and write `content_status` / `workflow_status`",
     "   - stop unless the reading reaches `approved`",
     "6. If validation returns `manual_review_required`, `partial`, or `blocked`:",
-    "   - write the exact reason to `Status.md` and `FailureLog.md` when needed",
+    "   - write the exact reason to `workspace/ops/Status.md` and `workspace/ops/FailureLog.md` when needed",
     "   - hand off to manual review or source-data fixes before moving on",
     "7. Finish with a full rebuild and concise batch summary.",
     ""
@@ -881,10 +882,10 @@ async function main() {
       blocked,
       stopped_at: stoppedAt,
       files_changed: [
-        "Prompt.md",
-        "Plan.md",
-        "Status.md",
-        "FailureLog.md",
+        "workspace/ops/Prompt.md",
+        "workspace/ops/Plan.md",
+        "workspace/ops/Status.md",
+        "workspace/ops/FailureLog.md",
         "manifest/readings.json",
         "scripts/post_midterm_batch.js",
         "scripts/post_midterm_specs.js",
@@ -941,10 +942,10 @@ async function main() {
     completed,
     blocked,
     files_changed: [
-      "Prompt.md",
-      "Plan.md",
-      "Status.md",
-      "FailureLog.md",
+      "workspace/ops/Prompt.md",
+      "workspace/ops/Plan.md",
+      "workspace/ops/Status.md",
+      "workspace/ops/FailureLog.md",
       "manifest/readings.json",
       "scripts/post_midterm_batch.js",
       "scripts/post_midterm_specs.js",

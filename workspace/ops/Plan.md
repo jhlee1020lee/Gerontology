@@ -26,8 +26,8 @@ Execution sequence:
 5. After each reading:
    - rebuild `docs`
    - verify required page files exist
-   - update `Status.md`
+   - update `workspace/ops/Status.md`
 6. If a source PDF is missing or extraction quality is too poor:
-   - log the exact blocker to `FailureLog.md`
+   - log the exact blocker to `workspace/ops/FailureLog.md`
    - continue with the next target reading
 7. Finish with a full rebuild and concise batch summary.

@@ -48,6 +48,15 @@ Maintain a static study website for gerontology course readings that is previewe
 - `APPROVAL_STATUS.md` is generated output only; never hand-edit it.
 - If source content changes, old approval hashes are stale. Re-run validation and re-record approval instead of carrying it forward.
 
+## Stage 1 Extraction Checklist
+- `전체 글` must be full original text, not summary, cleanup-only overview, or patchwork extraction.
+- Keep the public pass model at `Pass 1 / Pass 2 / Pass 3`.
+- Do the actual extraction and cleanup in smaller micro-chunks and merge them in source order.
+- Split OCR-noisy regions, tables, figure-caption runs, appendices, references, and other backmatter into separate micro-chunks.
+- If Stage 1 spans multiple sessions or contributors, keep `content/readings/<slug>/stage1_work_log.md` with chunk ranges, source-only QA status, and remaining work.
+- Use `node scripts/validate_content.js --slug <slug> --source-only` for in-progress chunk QA.
+- If extraction is incomplete, patchy, or under rewrite, mark `partial`. Use `blocked` only for an actual external blocker.
+
 ## Stage 2 Translation Checklist
 - `한국어 번역` must be full translation, not summary, excerpt, or patchwork.
 - Keep the public pass model at `Pass 1 / Pass 2 / Pass 3`.
@@ -109,6 +118,7 @@ Maintain a static study website for gerontology course readings that is previewe
 ## See CONTENT_RULES.md For
 - exact stage rules and page-family requirements
 - machine-enforced validator gates and status meanings
+- Stage 1 micro-chunk thresholds and extraction work-log rules
 - Stage 2 micro-chunk thresholds and reveal rules
 - Stage 3 micro-chunk thresholds, checkpoints, and work-log rules
 - lecture-recording workflow, evidence hierarchy, and professor-prep guidance

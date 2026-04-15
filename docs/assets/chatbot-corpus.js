@@ -1,6 +1,6 @@
 window.AA_CHATBOT_CORPUS={
-  "generated_at": "2026-04-13T09:28:28.863Z",
-  "chunk_count": 913,
+  "generated_at": "2026-04-15T11:43:59.949Z",
+  "chunk_count": 977,
   "chunks": [
     {
       "id": "chatbot-00001",
@@ -2293,247 +2293,951 @@ window.AA_CHATBOT_CORPUS={
     {
       "id": "chatbot-00209",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "overview",
       "pageLabel": "읽기 개요",
       "href": "readings/beck-2016/index.html",
-      "text": "성인 이행을 법, 생물학, 사회역할, 책임의 관점에서 재검토하는 The Atlantic 기사.",
-      "searchText": "when do you become an adult? 읽기 개요 성인 이행을 법, 생물학, 사회역할, 책임의 관점에서 재검토하는 the atlantic 기사.",
+      "text": "성인 이행을 법, 생물학, 사회 역할, 책임의 관점에서 다시 묻는 The Atlantic 기사.",
+      "searchText": "when are you really an adult? 읽기 개요 성인 이행을 법, 생물학, 사회 역할, 책임의 관점에서 다시 묻는 the atlantic 기사.",
       "order": 1
     },
     {
       "id": "chatbot-00210",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "When Are You Really an Adult?\n\nCleaned reading text for the beck-2016 slug.\nSource: Julie Beck, The Atlantic, January 5, 2016.\nSource PDF: source_pdfs/Beck, 2016.pdf\n\nIntroduction\n\nJulie Beck opens by challenging the idea that adulthood arrives through a neat, universal threshold. She begins with a story that sounds very modern: a well-educated young person graduates, moves back in with parents, tries one path, abandons it, drifts through temporary work, and only later finds a calling. The figure is Henry David Thoreau. The point is immediate and strategic. If even Thoreau spent years moving between dependence and independence, then the supposedly stable passage into adulthood may be less timeless than people imagine.",
-      "searchText": "when do you become an adult? 원문 읽기 when are you really an adult?\n\ncleaned reading text for the beck-2016 slug.\nsource: julie beck, the atlantic, january 5, 2016.\nsource pdf: source_pdfs/beck, 2016.pdf\n\nintroduction\n\njulie beck opens by challenging the idea that adulthood arrives through a neat, universal threshold. she begins with a story that sounds very modern: a well-educated young person graduates, moves back in with parents, tries one path, abandons it, drifts through temporary work, and only later finds a calling. the figure is henry david thoreau. the point is immediate and strategic. if even thoreau spent years moving between dependence and independence, then the supposedly stable passage into adulthood may be less timeless than people imagine.",
+      "text": "When Are You Really an Adult?\n\nBy Julie Beck\n\nJanuary 5, 2016\n\nIn an age when the line between childhood and adulthood is blurrier than ever, what is it that makes people grown up?\n\nA young woman faces a mirror with animated images of a very young girl, a young woman, and an elderly woman.\n\nIt would probably be fair to call Henry \"aimless.\" After he graduated from Harvard, he moved back in with his parents, a boomerang kid straight out of a trend piece about the travails of young adults.\n\nDespite graduating into a recession, Henry managed to land a teaching job, but two weeks in, he decided it wasn't for him and quit. It took him a while to find his calling-he worked in his father's pencil factory, as a door-to-door magazine salesman, took on other teaching and tutoring gigs, and even spent a brief stint shoveling manure before finding some success with his true passion: writing.",
+      "searchText": "when are you really an adult? 원문 읽기 when are you really an adult?\n\nby julie beck\n\njanuary 5, 2016\n\nin an age when the line between childhood and adulthood is blurrier than ever, what is it that makes people grown up?\n\na young woman faces a mirror with animated images of a very young girl, a young woman, and an elderly woman.\n\nit would probably be fair to call henry \"aimless.\" after he graduated from harvard, he moved back in with his parents, a boomerang kid straight out of a trend piece about the travails of young adults.\n\ndespite graduating into a recession, henry managed to land a teaching job, but two weeks in, he decided it wasn't for him and quit. it took him a while to find his calling-he worked in his father's pencil factory, as a door-to-door magazine salesman, took on other teaching and tutoring gigs, and even spent a brief stint shoveling manure before finding some success with his true passion: writing.",
       "order": 1
     },
     {
       "id": "chatbot-00211",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "The article argues that many people still use a familiar cluster of markers to define adulthood: leaving home, securing a job, marrying, having children, and running an independent household. Yet those markers have never lined up neatly for everyone, and they certainly do not line up neatly now. Beck frames the central question not as \"What age is adulthood?\" but as something more difficult: what actually makes a person grown up when law, biology, culture, and personal experience all point in different directions?\n\nThe Myth of the Smooth Transition",
-      "searchText": "when do you become an adult? 원문 읽기 the article argues that many people still use a familiar cluster of markers to define adulthood: leaving home, securing a job, marrying, having children, and running an independent household. yet those markers have never lined up neatly for everyone, and they certainly do not line up neatly now. beck frames the central question not as \"what age is adulthood?\" but as something more difficult: what actually makes a person grown up when law, biology, culture, and personal experience all point in different directions?\n\nthe myth of the smooth transition",
+      "text": "Henry published his first book, A Week on the Concord and Merrimack Rivers, when he was 31 years old, after 12 years of changing jobs and bouncing back and forth between his parents' home, living on his own, and crashing with a buddy, who believed in his potential. \"[He] is a scholar & a poet & as full of buds of promise as a young apple tree,\" his friend wrote, and eventually was proven right. He may have floundered during young adulthood, but Henry David Thoreau turned out pretty okay. (The buddy he crashed with, for the record, was Ralph Waldo Emerson.)",
+      "searchText": "when are you really an adult? 원문 읽기 henry published his first book, a week on the concord and merrimack rivers, when he was 31 years old, after 12 years of changing jobs and bouncing back and forth between his parents' home, living on his own, and crashing with a buddy, who believed in his potential. \"[he] is a scholar & a poet & as full of buds of promise as a young apple tree,\" his friend wrote, and eventually was proven right. he may have floundered during young adulthood, but henry david thoreau turned out pretty okay. (the buddy he crashed with, for the record, was ralph waldo emerson.)",
       "order": 2
     },
     {
       "id": "chatbot-00212",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "One of Beck's key historical points is that people often imagine the past as a period when adulthood arrived early and cleanly. Historians such as Steven Mintz complicate that picture. For most of history, and outside of the unusual post-World War II decades, the transition was uneven. Young adults could move in and out of dependence, work unstable jobs, delay marriage, or return home. The brief era in which many people could achieve what Beck calls \"Leave It to Beaver adulthood\" in their late teens or early twenties was not the eternal norm. It was the anomaly.",
-      "searchText": "when do you become an adult? 원문 읽기 one of beck's key historical points is that people often imagine the past as a period when adulthood arrived early and cleanly. historians such as steven mintz complicate that picture. for most of history, and outside of the unusual post-world war ii decades, the transition was uneven. young adults could move in and out of dependence, work unstable jobs, delay marriage, or return home. the brief era in which many people could achieve what beck calls \"leave it to beaver adulthood\" in their late teens or early twenties was not the eternal norm. it was the anomaly.",
+      "text": "And his path was not atypical of the 19th century, at least for a white man in the United States. Young people often went through periods of independence interspersed with periods of dependence. If that seems surprising, it's only because of the \"myth that the transition to adulthood was more seamless and smoother in the past,\" writes Steven Mintz, a professor of history at the University of Texas at Austin, in his history of adulthood, The Prime of Life.\n\nIn fact, if you think of the transition to \"adulthood\" as a collection of markers-getting a job, moving away from your parents, getting married, and having kids-for most of history, with the exception of the 1950s and '60s, people did not become adults any kind of predictable way.",
+      "searchText": "when are you really an adult? 원문 읽기 and his path was not atypical of the 19th century, at least for a white man in the united states. young people often went through periods of independence interspersed with periods of dependence. if that seems surprising, it's only because of the \"myth that the transition to adulthood was more seamless and smoother in the past,\" writes steven mintz, a professor of history at the university of texas at austin, in his history of adulthood, the prime of life.\n\nin fact, if you think of the transition to \"adulthood\" as a collection of markers-getting a job, moving away from your parents, getting married, and having kids-for most of history, with the exception of the 1950s and '60s, people did not become adults any kind of predictable way.",
       "order": 3
     },
     {
       "id": "chatbot-00213",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "That matters because much of today's panic about delayed adulthood depends on a false baseline. If people assume that earlier generations became adults in a fixed, disciplined sequence, then contemporary life looks like decline. But if the historical record is messier, then the present begins to look less like failure and more like variation.\n\nBeck also brings in the emotional texture of modern uncertainty. One reader writes that at twenty-eight she sometimes feels adult and often does not. She has debt, uncertainty, comparison anxiety, and the sense that adulthood is both demanded and withheld. Another line from that reader captures the mood of the article: \"My ducks are not in a row, they are wandering.\"\n\nAdulthood as a Social Construct With Real Effects",
-      "searchText": "when do you become an adult? 원문 읽기 that matters because much of today's panic about delayed adulthood depends on a false baseline. if people assume that earlier generations became adults in a fixed, disciplined sequence, then contemporary life looks like decline. but if the historical record is messier, then the present begins to look less like failure and more like variation.\n\nbeck also brings in the emotional texture of modern uncertainty. one reader writes that at twenty-eight she sometimes feels adult and often does not. she has debt, uncertainty, comparison anxiety, and the sense that adulthood is both demanded and withheld. another line from that reader captures the mood of the article: \"my ducks are not in a row, they are wandering.\"\n\nadulthood as a social construct with real effects",
+      "text": "And yet these are still the venerated markers of adulthood today, and when people take too long to acquire them, or eschew them all together, it becomes a reason to lament that no one is a grown-up. While bemoaning the habits and values of the youths is the eternal right of the olds, many young adults do still feel like kids trying on their parents' shoes.",
+      "searchText": "when are you really an adult? 원문 읽기 and yet these are still the venerated markers of adulthood today, and when people take too long to acquire them, or eschew them all together, it becomes a reason to lament that no one is a grown-up. while bemoaning the habits and values of the youths is the eternal right of the olds, many young adults do still feel like kids trying on their parents' shoes.",
       "order": 4
     },
     {
       "id": "chatbot-00214",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "Beck stresses that adulthood is socially constructed, but she is careful not to mean \"imaginary.\" Social categories have consequences. They determine who can vote, who can drink, who is legally responsible, who can join the military, and who is trusted with social roles. The difficulty is that these boundaries do not agree with one another.\n\nIn the United States, legal adulthood usually begins at eighteen, but many rights and restrictions do not match that age. You can vote at eighteen, drink at twenty-one, see adult films at seventeen, and in some circumstances work for pay long before any of those thresholds. Laurence Steinberg notes that chronological age is not a very good measure of maturity, but it remains administratively necessary. Society cannot realistically conduct an individualized maturity exam for every consequential decision.",
-      "searchText": "when do you become an adult? 원문 읽기 beck stresses that adulthood is socially constructed, but she is careful not to mean \"imaginary.\" social categories have consequences. they determine who can vote, who can drink, who is legally responsible, who can join the military, and who is trusted with social roles. the difficulty is that these boundaries do not agree with one another.\n\nin the united states, legal adulthood usually begins at eighteen, but many rights and restrictions do not match that age. you can vote at eighteen, drink at twenty-one, see adult films at seventeen, and in some circumstances work for pay long before any of those thresholds. laurence steinberg notes that chronological age is not a very good measure of maturity, but it remains administratively necessary. society cannot realistically conduct an individualized maturity exam for every consequential decision.",
+      "text": "\"I think there is a really hard transition [between childhood and adulthood],\" says Kelly Williams Brown, author of the book Adulting: How to Become a Grown-Up in 468 Easy(ish) Steps, and its preceding blog, in which she gives tips for navigating adult life. \"It's not just hard for Millennials; I think it was hard for Gen Xers, I think it was hard for Baby Boomers. All of a sudden you're out in the world, and you have this insane array of options, but you don't know which you should take. There's all these things your mom and dad told you, presumably, and yet you're living like a feral wolf who doesn't have toilet paper, who's using Arby's napkins instead.\"",
+      "searchText": "when are you really an adult? 원문 읽기 \"i think there is a really hard transition [between childhood and adulthood],\" says kelly williams brown, author of the book adulting: how to become a grown-up in 468 easy(ish) steps, and its preceding blog, in which she gives tips for navigating adult life. \"it's not just hard for millennials; i think it was hard for gen xers, i think it was hard for baby boomers. all of a sudden you're out in the world, and you have this insane array of options, but you don't know which you should take. there's all these things your mom and dad told you, presumably, and yet you're living like a feral wolf who doesn't have toilet paper, who's using arby's napkins instead.\"",
       "order": 5
     },
     {
       "id": "chatbot-00215",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "This mismatch produces one of the article's central tensions: adulthood is both practical and unstable. Institutions need a line, but human development does not offer one cleanly.\n\nBiological Adulthood Is Not Simple Either\n\nIf legal adulthood is inconsistent, maybe biology can help. Beck examines that possibility and finds the same ambiguity there. Puberty marks sexual maturity, but puberty itself begins across a broad age range. Skeletal maturity also unfolds unevenly. Some bones finish development in early adolescence, while the clavicle can mature well into the twenties or even later.",
-      "searchText": "when do you become an adult? 원문 읽기 this mismatch produces one of the article's central tensions: adulthood is both practical and unstable. institutions need a line, but human development does not offer one cleanly.\n\nbiological adulthood is not simple either\n\nif legal adulthood is inconsistent, maybe biology can help. beck examines that possibility and finds the same ambiguity there. puberty marks sexual maturity, but puberty itself begins across a broad age range. skeletal maturity also unfolds unevenly. some bones finish development in early adolescence, while the clavicle can mature well into the twenties or even later.",
+      "text": "Age alone does not an adult make. But what does? In the United States, people are getting married and having kids later in life, but those are just optional trappings of adulthood, not the thing itself. Psychologists talk of a period of prolonged adolescence, or emerging adulthood, that lasts into the 20s, but when have you emerged? What makes you finally, really an adult?\n\nI set out to try to answer this to the best of my ability, but just to warn you up front: There is either no answer, or a variety of complex and multifaceted answers. Or, as Mintz put it, \"rather than a messy explanation, you're offering a postmodern explanation.\" Because the view from the top is so blurry, I put out a call to readers to tell me when they felt they became grown-ups (if indeed, they ever did), and I've included some of their responses to show some of the threads as well as the tapestry. Allons-y.\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 age alone does not an adult make. but what does? in the united states, people are getting married and having kids later in life, but those are just optional trappings of adulthood, not the thing itself. psychologists talk of a period of prolonged adolescence, or emerging adulthood, that lasts into the 20s, but when have you emerged? what makes you finally, really an adult?\n\ni set out to try to answer this to the best of my ability, but just to warn you up front: there is either no answer, or a variety of complex and multifaceted answers. or, as mintz put it, \"rather than a messy explanation, you're offering a postmodern explanation.\" because the view from the top is so blurry, i put out a call to readers to tell me when they felt they became grown-ups (if indeed, they ever did), and i've included some of their responses to show some of the threads as well as the tapestry. allons-y.\n\n---",
       "order": 6
     },
     {
       "id": "chatbot-00216",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "Anthropologists and human biologists cited in the article caution against assuming a single biological finish line. Noel Cameron emphasizes that development is continuous and variable. Even practices that try to assign age precisely, such as dental or wrist X-rays used in some asylum contexts, are limited and unreliable. Biological development varies with environment, health, and socioeconomic conditions.\n\nThe conclusion is not that biology is irrelevant. Rather, it cannot settle the question by itself. There is no magical bodily moment at which the organism announces: adult achieved.\n\nCeremonies, School, and the Long Transition",
-      "searchText": "when do you become an adult? 원문 읽기 anthropologists and human biologists cited in the article caution against assuming a single biological finish line. noel cameron emphasizes that development is continuous and variable. even practices that try to assign age precisely, such as dental or wrist x-rays used in some asylum contexts, are limited and unreliable. biological development varies with environment, health, and socioeconomic conditions.\n\nthe conclusion is not that biology is irrelevant. rather, it cannot settle the question by itself. there is no magical bodily moment at which the organism announces: adult achieved.\n\nceremonies, school, and the long transition",
+      "text": "\"Becoming an adult\" is more of an elusive, sort of abstract concept than I'd thought when I was younger. I just assumed you'd get to a certain age and everything would make sense. Bless my young little heart, I had no idea!\nAt 28, I can say that sometimes I feel like an adult and a lot of the time, I don't. Being a Millennial and trying to adult is wildly disorienting. I can't figure out if I'm supposed to start a non-profit, get another degree, develop a wildly profitable entrepreneurial venture, or somehow travel the world and make it look effortless online. Mostly it just looks like taking a job that won't ever pay off my student debt in a field that is not the one that I studied. Then, if I hold myself to the traditional ideal of what it means to be an adult, I'm also not nailing it. I am unmarried, and not settled into a long term, financially stable career. Recognizing that I'm",
+      "searchText": "when are you really an adult? 원문 읽기 \"becoming an adult\" is more of an elusive, sort of abstract concept than i'd thought when i was younger. i just assumed you'd get to a certain age and everything would make sense. bless my young little heart, i had no idea!\nat 28, i can say that sometimes i feel like an adult and a lot of the time, i don't. being a millennial and trying to adult is wildly disorienting. i can't figure out if i'm supposed to start a non-profit, get another degree, develop a wildly profitable entrepreneurial venture, or somehow travel the world and make it look effortless online. mostly it just looks like taking a job that won't ever pay off my student debt in a field that is not the one that i studied. then, if i hold myself to the traditional ideal of what it means to be an adult, i'm also not nailing it. i am unmarried, and not settled into a long term, financially stable career. recognizing that i'm",
       "order": 7
     },
     {
       "id": "chatbot-00217",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "Cultures often stage adulthood through rituals: quinceaA+-eras, bar or bat mitzvahs, confirmations, graduations, and other public transitions. Beck argues that these rituals still matter symbolically, but in modern societies they rarely complete the transformation on their own. A thirteen-year-old after a bat mitzvah is not suddenly independent. A high-school or college graduate may feel newly launched, but graduation seldom delivers a finished adult life.\n\nSchooling has in fact extended the transition. Beck points out that educational reforms created an institutional ladder in which young people move through age-graded systems for longer periods. College intensifies that delay by offering more structured time before stable family and work roles are assumed. From one angle, this looks like postponement. From another, it looks like a socially recognized period of exploration.",
-      "searchText": "when do you become an adult? 원문 읽기 cultures often stage adulthood through rituals: quinceaa+-eras, bar or bat mitzvahs, confirmations, graduations, and other public transitions. beck argues that these rituals still matter symbolically, but in modern societies they rarely complete the transformation on their own. a thirteen-year-old after a bat mitzvah is not suddenly independent. a high-school or college graduate may feel newly launched, but graduation seldom delivers a finished adult life.\n\nschooling has in fact extended the transition. beck points out that educational reforms created an institutional ladder in which young people move through age-graded systems for longer periods. college intensifies that delay by offering more structured time before stable family and work roles are assumed. from one angle, this looks like postponement. from another, it looks like a socially recognized period of exploration.",
+      "text": "holding myself to an unrealistic standard considering the economic climate and the fact that dating as a Millennial is exhausting, it's unfair to judge myself, but I confess I fall into the trap of comparison often enough. Sometimes because I simply desire those things for myself, and sometimes because Instagram.\nMy ducks are not in a row, they are wandering.\n-Maria Eleusiniotis\n\n---\n\nAdulthood is a social construct. For that matter, so is childhood. But like all social constructs, they have real consequences. They determine who is legally responsible for their actions and who is not, what roles people are allowed to assume in society, how people view each other, and how they view themselves. But even in the realms where it should be easiest to define the difference-law, physical development-adulthood defies simplicity.",
+      "searchText": "when are you really an adult? 원문 읽기 holding myself to an unrealistic standard considering the economic climate and the fact that dating as a millennial is exhausting, it's unfair to judge myself, but i confess i fall into the trap of comparison often enough. sometimes because i simply desire those things for myself, and sometimes because instagram.\nmy ducks are not in a row, they are wandering.\n-maria eleusiniotis\n\n---\n\nadulthood is a social construct. for that matter, so is childhood. but like all social constructs, they have real consequences. they determine who is legally responsible for their actions and who is not, what roles people are allowed to assume in society, how people view each other, and how they view themselves. but even in the realms where it should be easiest to define the difference-law, physical development-adulthood defies simplicity.",
       "order": 8
     },
     {
       "id": "chatbot-00218",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "The Brain and Why the Early Twenties Feel So Turbulent\n\nBeck then turns to neuroscience, not to produce a final answer, but to sharpen the problem. Steinberg explains that many high-level reasoning abilities reach adult levels by around sixteen. Teenagers can reason logically in calm conditions. What continues to mature later are the systems that integrate cognition, emotion, impulse, and context. Connections involving the prefrontal cortex and limbic systems keep developing into the early twenties.\n\nThis helps explain why someone can think capably and still behave impulsively, especially in emotionally charged settings. It also helps explain why the law has acknowledged developmental differences between juveniles and adults in criminal sentencing.",
-      "searchText": "when do you become an adult? 원문 읽기 the brain and why the early twenties feel so turbulent\n\nbeck then turns to neuroscience, not to produce a final answer, but to sharpen the problem. steinberg explains that many high-level reasoning abilities reach adult levels by around sixteen. teenagers can reason logically in calm conditions. what continues to mature later are the systems that integrate cognition, emotion, impulse, and context. connections involving the prefrontal cortex and limbic systems keep developing into the early twenties.\n\nthis helps explain why someone can think capably and still behave impulsively, especially in emotionally charged settings. it also helps explain why the law has acknowledged developmental differences between juveniles and adults in criminal sentencing.",
+      "text": "In the United States, you can't drink until you are 21, but legal adulthood, along with voting and the ability to join the military, comes at age 18. Or does it? You're allowed to watch adult movies at 17. And kids can hold a job as young as 14, depending on state restrictions, and can often deliver newspapers, babysit, or work for their parents even younger than that.\n\n\"Chronological age is not a particularly good indicator [of maturity], but it's something we need to do for practical purposes,\" says Laurence Steinberg, the distinguished university professor of psychology at Temple University. \"We all know people who are 21 or 22 years old who are very wise and mature, but we also know people who are very immature and very reckless. We're not going to start giving people maturity tests to decide whether they can buy alcohol or not.\"",
+      "searchText": "when are you really an adult? 원문 읽기 in the united states, you can't drink until you are 21, but legal adulthood, along with voting and the ability to join the military, comes at age 18. or does it? you're allowed to watch adult movies at 17. and kids can hold a job as young as 14, depending on state restrictions, and can often deliver newspapers, babysit, or work for their parents even younger than that.\n\n\"chronological age is not a particularly good indicator [of maturity], but it's something we need to do for practical purposes,\" says laurence steinberg, the distinguished university professor of psychology at temple university. \"we all know people who are 21 or 22 years old who are very wise and mature, but we also know people who are very immature and very reckless. we're not going to start giving people maturity tests to decide whether they can buy alcohol or not.\"",
       "order": 9
     },
     {
       "id": "chatbot-00219",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "Still, Beck resists letting neuroscience become destiny. Steinberg himself argues that maturity depends on the task. A person may be ready for one form of responsibility before another. The article uses this to undercut any single biological age rule. Brain development offers insight, not a definitive social verdict.\n\nEmerging Adulthood and the Experience of Flailing\n\nOne of the most influential frameworks in the article comes from Jeffrey Jensen Arnett's idea of emerging adulthood. This is the period, typically after adolescence and before settled adult roles, in which people explore identity, work, intimacy, and life direction. Beck treats the concept seriously while also acknowledging its critics.",
-      "searchText": "when do you become an adult? 원문 읽기 still, beck resists letting neuroscience become destiny. steinberg himself argues that maturity depends on the task. a person may be ready for one form of responsibility before another. the article uses this to undercut any single biological age rule. brain development offers insight, not a definitive social verdict.\n\nemerging adulthood and the experience of flailing\n\none of the most influential frameworks in the article comes from jeffrey jensen arnett's idea of emerging adulthood. this is the period, typically after adolescence and before settled adult roles, in which people explore identity, work, intimacy, and life direction. beck treats the concept seriously while also acknowledging its critics.",
+      "text": "One way to measure adulthood might be the maturity of the body-surely there should be a point at which you stop physically developing, when you are officially an \"adult\" organism?\n\nThat depends, though, on what measure you choose. Humans are sexually mature after puberty, but puberty can start anywhere between ages 8 and 13 for girls and between ages 9 and 14 for boys, and still be considered \"normal,\" according to the National Institute of Child Health and Human Development.",
+      "searchText": "when are you really an adult? 원문 읽기 one way to measure adulthood might be the maturity of the body-surely there should be a point at which you stop physically developing, when you are officially an \"adult\" organism?\n\nthat depends, though, on what measure you choose. humans are sexually mature after puberty, but puberty can start anywhere between ages 8 and 13 for girls and between ages 9 and 14 for boys, and still be considered \"normal,\" according to the national institute of child health and human development.",
       "order": 10
     },
     {
       "id": "chatbot-00220",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "The phrase resonates because it names a lived experience many readers recognize: uncertainty, experimentation, and instability. Beck describes the ages from the late teens through the mid-twenties as a time of \"flailing,\" borrowing a professor's warning that many people between twenty-two and twenty-five will feel miserable and directionless. The word is harsh, but it captures the article's realism. Many people do not step neatly from adolescence into grounded adulthood. They wobble.\n\nYet Beck does not frame that wobbling as pure failure. Research discussed in the piece suggests that identity exploration can feel bad in the short term while still serving a developmental function. Anthony Burrow's work links commitment and purpose with well-being, but exploration remains part of the path toward identity. Beck's formulation is memorable: the flailing is not fun, but it matters.",
-      "searchText": "when do you become an adult? 원문 읽기 the phrase resonates because it names a lived experience many readers recognize: uncertainty, experimentation, and instability. beck describes the ages from the late teens through the mid-twenties as a time of \"flailing,\" borrowing a professor's warning that many people between twenty-two and twenty-five will feel miserable and directionless. the word is harsh, but it captures the article's realism. many people do not step neatly from adolescence into grounded adulthood. they wobble.\n\nyet beck does not frame that wobbling as pure failure. research discussed in the piece suggests that identity exploration can feel bad in the short term while still serving a developmental function. anthony burrow's work links commitment and purpose with well-being, but exploration remains part of the path toward identity. beck's formulation is memorable: the flailing is not fun, but it matters.",
+      "text": "That's a wide age range, and even if it weren't, just because you've reached sexual maturity doesn't mean you've stopped growing. For centuries, skeletal development has been a measure of maturity. Under the United Kingdom's 1833 Factory Act, the emergence of the second molar (the adult version of which usually shows up between the ages of 11 and 13) was accepted as proof that a child was old enough to work in a factory. Today, both dental and wrist X-rays are used to determine the age of refugee children seeking asylum-but both are unreliable.",
+      "searchText": "when are you really an adult? 원문 읽기 that's a wide age range, and even if it weren't, just because you've reached sexual maturity doesn't mean you've stopped growing. for centuries, skeletal development has been a measure of maturity. under the united kingdom's 1833 factory act, the emergence of the second molar (the adult version of which usually shows up between the ages of 11 and 13) was accepted as proof that a child was old enough to work in a factory. today, both dental and wrist x-rays are used to determine the age of refugee children seeking asylum-but both are unreliable.",
       "order": 11
     },
     {
       "id": "chatbot-00221",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "The Big Three Criteria\n\nAcross countries, Arnett finds that people tend to rank three criteria highly when asked what makes someone an adult:\n\ntaking responsibility for yourself\nmaking independent decisions\nbecoming financially independent\n\nBeck treats these as especially revealing because they are less ceremonial and less publicly visible than marriage, parenthood, or homeownership. Two of them are inward and subjective. You can measure income and dependence to some extent, but responsibility and independent judgment are partly matters of self-understanding and conduct.",
-      "searchText": "when do you become an adult? 원문 읽기 the big three criteria\n\nacross countries, arnett finds that people tend to rank three criteria highly when asked what makes someone an adult:\n\ntaking responsibility for yourself\nmaking independent decisions\nbecoming financially independent\n\nbeck treats these as especially revealing because they are less ceremonial and less publicly visible than marriage, parenthood, or homeownership. two of them are inward and subjective. you can measure income and dependence to some extent, but responsibility and independent judgment are partly matters of self-understanding and conduct.",
+      "text": "Skeletal maturity depends on what part of the skeleton you're examining. For example, wisdom teeth typically emerge between 17 and 21, and Noel Cameron, a professor of human biology at Loughborough University, in the U.K., says the bones of the hand and wrist, often used to determine age, mature at different rates. The carpals of the hand are fully developed at 13 or 14, and the other bones-radius, ulna, metacarpals, and phalanges-complete development from 15 to 18. The final bone in the body to mature-the collarbone-does so between 25 and 35. And environmental and socioeconomic factors can affect the rate of bone development, Cameron says, so refugees seeking asylum from developing countries may also tend to be late bloomers.\n\n\"Chronological age is not a biological marker,\" Cameron says. \"There's a continuum to all normal biological processes.\"\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 skeletal maturity depends on what part of the skeleton you're examining. for example, wisdom teeth typically emerge between 17 and 21, and noel cameron, a professor of human biology at loughborough university, in the u.k., says the bones of the hand and wrist, often used to determine age, mature at different rates. the carpals of the hand are fully developed at 13 or 14, and the other bones-radius, ulna, metacarpals, and phalanges-complete development from 15 to 18. the final bone in the body to mature-the collarbone-does so between 25 and 35. and environmental and socioeconomic factors can affect the rate of bone development, cameron says, so refugees seeking asylum from developing countries may also tend to be late bloomers.\n\n\"chronological age is not a biological marker,\" cameron says. \"there's a continuum to all normal biological processes.\"\n\n---",
       "order": 12
     },
     {
       "id": "chatbot-00222",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "The article shows how these criteria reshape the discussion. Traditional markers still matter socially, but many people no longer believe they define adulthood on their own. This helps explain why someone may be married and employed yet still feel unfinished, while someone else may feel deeply adult without hitting every conventional milestone.\n\nIdentity, Purpose, and Intimacy\n\nBeck draws on Erik Erikson's developmental framework to show how the issues of identity and intimacy stretch across these years. Adolescence centers on discovering who you are; young adulthood emphasizes building close, enduring ties. That developmental overlap helps explain why the twenties often feel emotionally contradictory: freedom and loneliness, possibility and instability, self-construction and relational pressure.",
-      "searchText": "when do you become an adult? 원문 읽기 the article shows how these criteria reshape the discussion. traditional markers still matter socially, but many people no longer believe they define adulthood on their own. this helps explain why someone may be married and employed yet still feel unfinished, while someone else may feel deeply adult without hitting every conventional milestone.\n\nidentity, purpose, and intimacy\n\nbeck draws on erik erikson's developmental framework to show how the issues of identity and intimacy stretch across these years. adolescence centers on discovering who you are; young adulthood emphasizes building close, enduring ties. that developmental overlap helps explain why the twenties often feel emotionally contradictory: freedom and loneliness, possibility and instability, self-construction and relational pressure.",
+      "text": "I don't think I've become an adult just yet. I'm a 21 year-old American student who lives almost entirely off of my parent's welfare. For the last several years, I've felt a pressure-it might be a biological or a social pressure-to get out from under the yoke of my parents' financial assistance. I feel that only when I'm able to support myself financially will I be a true \"adult.\" Some of the traditional markers of adulthood (turning 18, turning 21) have come and gone without me feeling any more adult-y, and I don't think that marriage would make me feel grown up unless it was accompanied by financial independence. Money really matters because past a certain age it is the main determiner of what you can and cannot do. And I guess to me the freedom to choose all \"the things\" in your life is what makes someone an adult.\n-Stephen Grapes\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 i don't think i've become an adult just yet. i'm a 21 year-old american student who lives almost entirely off of my parent's welfare. for the last several years, i've felt a pressure-it might be a biological or a social pressure-to get out from under the yoke of my parents' financial assistance. i feel that only when i'm able to support myself financially will i be a true \"adult.\" some of the traditional markers of adulthood (turning 18, turning 21) have come and gone without me feeling any more adult-y, and i don't think that marriage would make me feel grown up unless it was accompanied by financial independence. money really matters because past a certain age it is the main determiner of what you can and cannot do. and i guess to me the freedom to choose all \"the things\" in your life is what makes someone an adult.\n-stephen grapes\n\n---",
       "order": 13
     },
     {
       "id": "chatbot-00223",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "The article even turns to Taylor Swift's lyric from \"22\" as a surprisingly concise description of emerging adulthood: being \"happy, free, confused, and lonely at the same time.\" Beck uses the line not as a joke but as a compact summary of a developmental condition. The period can be expansive and disorienting at once.\n\nTraditional Markers Still Matter, But They Are Not Enough\n\nBeck never says that marriage, work, and parenthood are meaningless. In fact, she shows that these roles still matter tremendously because they reorganize responsibility and because other people often recognize adulthood through them. Taking on adult roles can change self-perception and social perception simultaneously.",
-      "searchText": "when do you become an adult? 원문 읽기 the article even turns to taylor swift's lyric from \"22\" as a surprisingly concise description of emerging adulthood: being \"happy, free, confused, and lonely at the same time.\" beck uses the line not as a joke but as a compact summary of a developmental condition. the period can be expansive and disorienting at once.\n\ntraditional markers still matter, but they are not enough\n\nbeck never says that marriage, work, and parenthood are meaningless. in fact, she shows that these roles still matter tremendously because they reorganize responsibility and because other people often recognize adulthood through them. taking on adult roles can change self-perception and social perception simultaneously.",
+      "text": "So bodily transitions are of little help in defining adulthood's boundaries. What about cultural transitions? People go into coming-of-age ceremonies like a quinceanera, a bar mitzvah, or a Catholic confirmation and emerge as adults. In theory. In practice, in today's society, a 13-year-old girl is still her parents' dependent after her bat mitzvah. She may have more responsibility in her synagogue, but it's only one step on the long path to adulthood, not a fast track. The idea of a coming-of-age ceremony suggests there's a switch that can be flipped with the right momentous occasion to trigger it.",
+      "searchText": "when are you really an adult? 원문 읽기 so bodily transitions are of little help in defining adulthood's boundaries. what about cultural transitions? people go into coming-of-age ceremonies like a quinceanera, a bar mitzvah, or a catholic confirmation and emerge as adults. in theory. in practice, in today's society, a 13-year-old girl is still her parents' dependent after her bat mitzvah. she may have more responsibility in her synagogue, but it's only one step on the long path to adulthood, not a fast track. the idea of a coming-of-age ceremony suggests there's a switch that can be flipped with the right momentous occasion to trigger it.",
       "order": 14
     },
     {
       "id": "chatbot-00224",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "But she also argues that the power of those markers is contingent and historical. Robert Havighurst's mid-twentieth-century developmental tasks for adulthood centered on finding a mate, starting a family, raising children, and running a household. Those tasks reflected a specific economic and cultural moment. The postwar boom made them unusually attainable. As wages, marriage timing, and educational demands changed, the pace of entry into those roles changed too.\n\nThe result is that people still inherit the symbolism of the old markers without always having the social conditions that once made them easy to reach.\n\nParenthood, Caregiving, and Responsibility for Others\n\nIf any theme in the article comes closest to a transformative threshold, it is responsibility for another person. Beck says the most common reader response to the question of becoming adult was simple: when I had children.",
-      "searchText": "when do you become an adult? 원문 읽기 but she also argues that the power of those markers is contingent and historical. robert havighurst's mid-twentieth-century developmental tasks for adulthood centered on finding a mate, starting a family, raising children, and running a household. those tasks reflected a specific economic and cultural moment. the postwar boom made them unusually attainable. as wages, marriage timing, and educational demands changed, the pace of entry into those roles changed too.\n\nthe result is that people still inherit the symbolism of the old markers without always having the social conditions that once made them easy to reach.\n\nparenthood, caregiving, and responsibility for others\n\nif any theme in the article comes closest to a transformative threshold, it is responsibility for another person. beck says the most common reader response to the question of becoming adult was simple: when i had children.",
+      "text": "High-school and college graduations are ceremonies designed to flip the switch, or flip the tassel, for sometimes hundreds of people at once. But not only do people rarely graduate right into a fully formed adult life, graduations are far from universal experiences. And secondary and higher education have actually played a large role in expanding the transitory period between childhood and adulthood.",
+      "searchText": "when are you really an adult? 원문 읽기 high-school and college graduations are ceremonies designed to flip the switch, or flip the tassel, for sometimes hundreds of people at once. but not only do people rarely graduate right into a fully formed adult life, graduations are far from universal experiences. and secondary and higher education have actually played a large role in expanding the transitory period between childhood and adulthood.",
       "order": 15
     },
     {
       "id": "chatbot-00225",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "Parenthood is powerful because it intensifies all three of Arnett's criteria at once. It demands responsibility, decision-making, and practical independence. It also makes adulthood visible to others. One reader describes the shock of driving home from the hospital with a premature newborn and realizing that no one else was in charge anymore. The sensation is overwhelming precisely because the responsibility is total and immediate.\n\nCaregiving appears in another form as well: caring for aging parents. Readers describe the painful role reversal involved in managing illness, relocation, and small deceptions for a parent with dementia. Beck treats these moments as adult not because they are glamorous, but because they force moral and emotional accountability. Adulthood in the article is often quiet, burdensome, and intimate.",
-      "searchText": "when do you become an adult? 원문 읽기 parenthood is powerful because it intensifies all three of arnett's criteria at once. it demands responsibility, decision-making, and practical independence. it also makes adulthood visible to others. one reader describes the shock of driving home from the hospital with a premature newborn and realizing that no one else was in charge anymore. the sensation is overwhelming precisely because the responsibility is total and immediate.\n\ncaregiving appears in another form as well: caring for aging parents. readers describe the painful role reversal involved in managing illness, relocation, and small deceptions for a parent with dementia. beck treats these moments as adult not because they are glamorous, but because they force moral and emotional accountability. adulthood in the article is often quiet, burdensome, and intimate.",
+      "text": "During the 19th century, a wave of education reform in the U.S. left behind a messy patchwork of schools and in-home education for public elementary schools and high schools with classrooms divided by age. And by 1918, every state had compulsory attendance laws. According to Mintz, these reforms were intended \"to construct an institutional ladder for all youth that would allow them to attain adulthood through instructed steps.\" Today's efforts to expand access to college have a similar aim in mind.\n\nThe establishment of a sort of institutionalized transition time, when people are in school until they're 21 or 22, corresponds pretty well with what scientists know about how the brain matures.",
+      "searchText": "when are you really an adult? 원문 읽기 during the 19th century, a wave of education reform in the u.s. left behind a messy patchwork of schools and in-home education for public elementary schools and high schools with classrooms divided by age. and by 1918, every state had compulsory attendance laws. according to mintz, these reforms were intended \"to construct an institutional ladder for all youth that would allow them to attain adulthood through instructed steps.\" today's efforts to expand access to college have a similar aim in mind.\n\nthe establishment of a sort of institutionalized transition time, when people are in school until they're 21 or 22, corresponds pretty well with what scientists know about how the brain matures.",
       "order": 16
     },
     {
       "id": "chatbot-00226",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "Kelly Williams Brown captures Beck's broader conclusion when she says adulthood is not a grand public gesture. It is often simply the cumulative practice of taking care of people, taking care of things, and taking care of yourself.\n\nPrivilege and Unequal Paths Into Adulthood\n\nA crucial late move in the article is Beck's attention to privilege. The freedom to experiment, delay, move across the country, take parental support, or spend years exploring identity is not evenly distributed. Some people are pushed into adult roles early through economic pressure, immigration, family labor, parent care, or early parenthood. Others are granted more time and safety to explore.",
-      "searchText": "when do you become an adult? 원문 읽기 kelly williams brown captures beck's broader conclusion when she says adulthood is not a grand public gesture. it is often simply the cumulative practice of taking care of people, taking care of things, and taking care of yourself.\n\nprivilege and unequal paths into adulthood\n\na crucial late move in the article is beck's attention to privilege. the freedom to experiment, delay, move across the country, take parental support, or spend years exploring identity is not evenly distributed. some people are pushed into adult roles early through economic pressure, immigration, family labor, parent care, or early parenthood. others are granted more time and safety to explore.",
+      "text": "At about age 22 or 23, the brain is pretty much done developing, according to Steinberg, who studies adolescence and brain development. That's not to say you can't keep learning-you can! Neuroscientists are discovering that the brain is still \"plastic\"-malleable, changeable-throughout life. But adult plasticity is different from developmental plasticity, when the brain is still developing new circuits, and pruning away unnecessary ones. Adult plasticity still allows for modifications to the brain, but at that point, the neural structures aren't going to change.\n\n\"It's like the difference between remodeling your house and redecorating it,\" Steinberg says.",
+      "searchText": "when are you really an adult? 원문 읽기 at about age 22 or 23, the brain is pretty much done developing, according to steinberg, who studies adolescence and brain development. that's not to say you can't keep learning-you can! neuroscientists are discovering that the brain is still \"plastic\"-malleable, changeable-throughout life. but adult plasticity is different from developmental plasticity, when the brain is still developing new circuits, and pruning away unnecessary ones. adult plasticity still allows for modifications to the brain, but at that point, the neural structures aren't going to change.\n\n\"it's like the difference between remodeling your house and redecorating it,\" steinberg says.",
       "order": 17
     },
     {
       "id": "chatbot-00227",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "Burrow points out that there is privilege not only in prolonged education or geographic mobility, but also in having the luxury to decide when different adult responsibilities will be taken on. Beck therefore rejects any universal timetable. Some people are adults long before they are ready. Others are allowed a long runway.\n\nThis is one of the article's most important sociological insights: arguments about adulthood are never only about psychology. They are also about class, family structure, labor markets, institutions, and unequal room to choose.\n\nWhy People Resist the Word \"Adult\"",
-      "searchText": "when do you become an adult? 원문 읽기 burrow points out that there is privilege not only in prolonged education or geographic mobility, but also in having the luxury to decide when different adult responsibilities will be taken on. beck therefore rejects any universal timetable. some people are adults long before they are ready. others are allowed a long runway.\n\nthis is one of the article's most important sociological insights: arguments about adulthood are never only about psychology. they are also about class, family structure, labor markets, institutions, and unequal room to choose.\n\nwhy people resist the word \"adult\"",
+      "text": "Plenty of brain functions are mature before this point, though. The brain's executive functions-logical reasoning, planning, and other high-order thinking-are at \"adult levels of maturity by age 16 or so,\" Steinberg says. So a 16-year-old, on average, should do just as well on a logic test as someone older.\n\nBoris Sosnovyy / Shutterstock / svetography / stevecuk / Fotolia / Paul Spella / The Atlantic\n\nWhat takes a little longer to develop are the connections between areas like the prefrontal cortex, that regulate thinking, and the limbic system, where emotions largely stem from, as well as biological drives you could call \"the four Fs-fight, flight, feeding, and ffff ... fooling around,\" says James Griffin, the deputy chief of the NICHD's Child Development and Behavior Branch.",
+      "searchText": "when are you really an adult? 원문 읽기 plenty of brain functions are mature before this point, though. the brain's executive functions-logical reasoning, planning, and other high-order thinking-are at \"adult levels of maturity by age 16 or so,\" steinberg says. so a 16-year-old, on average, should do just as well on a logic test as someone older.\n\nboris sosnovyy / shutterstock / svetography / stevecuk / fotolia / paul spella / the atlantic\n\nwhat takes a little longer to develop are the connections between areas like the prefrontal cortex, that regulate thinking, and the limbic system, where emotions largely stem from, as well as biological drives you could call \"the four fs-fight, flight, feeding, and ffff ... fooling around,\" says james griffin, the deputy chief of the nichd's child development and behavior branch.",
       "order": 18
     },
     {
       "id": "chatbot-00228",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "Beck closes by noting that adulthood is not always desirable in cultural imagination. Independence can become loneliness. Responsibility can become stress. Literature and popular culture often portray adult life as anxious, compromised, and estranged. If so, then saying \"I don't feel like an adult\" may reflect not only uncertainty about maturity but ambivalence about the life stage itself.\n\nWilliams Brown describes adulthood as accepting that no one else will automatically fix your life: if you do not buy toilet paper, there will be no toilet paper; if your relationship or job is wrong, no hidden adult authority is going to descend and repair it for you. Steven Mintz, by contrast, argues for reclaiming adulthood as something worth valuing: not early marriage or old social scripts, but knowledge, experience, sophistication, and a fuller acceptance of reality.",
-      "searchText": "when do you become an adult? 원문 읽기 beck closes by noting that adulthood is not always desirable in cultural imagination. independence can become loneliness. responsibility can become stress. literature and popular culture often portray adult life as anxious, compromised, and estranged. if so, then saying \"i don't feel like an adult\" may reflect not only uncertainty about maturity but ambivalence about the life stage itself.\n\nwilliams brown describes adulthood as accepting that no one else will automatically fix your life: if you do not buy toilet paper, there will be no toilet paper; if your relationship or job is wrong, no hidden adult authority is going to descend and repair it for you. steven mintz, by contrast, argues for reclaiming adulthood as something worth valuing: not early marriage or old social scripts, but knowledge, experience, sophistication, and a fuller acceptance of reality.",
+      "text": "Until those connections are fully established, people tend to be less able to control their impulses. This is part of the reason why the Supreme Court decided to put limits on life sentences for juveniles. \"Developments in psychology and brain science continue to show fundamental differences between juvenile and adult minds,\" the Court wrote in its 2010 decision. \"For example, parts of the brain involved in behavior control continue to mature through late adolescence ... Juveniles are more capable of change than are adults, and their actions are less likely to be evidence of 'irretrievably depraved character' than are the actions of adults.\"",
+      "searchText": "when are you really an adult? 원문 읽기 until those connections are fully established, people tend to be less able to control their impulses. this is part of the reason why the supreme court decided to put limits on life sentences for juveniles. \"developments in psychology and brain science continue to show fundamental differences between juvenile and adult minds,\" the court wrote in its 2010 decision. \"for example, parts of the brain involved in behavior control continue to mature through late adolescence ... juveniles are more capable of change than are adults, and their actions are less likely to be evidence of 'irretrievably depraved character' than are the actions of adults.\"",
       "order": 19
     },
     {
       "id": "chatbot-00229",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "Beck does not declare one final definition. Instead, she gathers the legal, biological, historical, psychological, and personal evidence and shows why a single decisive answer fails.\n\nConclusion\n\nThe article's final image is that adulthood resembles an Impressionist painting. From far away, you can make out a general picture. Up close, it becomes countless irregular strokes. That metaphor captures Beck's conclusion better than any formula. Adulthood can be legislated in part and studied in part, but never fully standardized. Social norms matter, but personal values matter too. Traditional milestones retain force, but they are not universal gates. Responsibility, independence, purpose, recognition, care for others, and self-acceptance all contribute, but none alone settles the matter.",
-      "searchText": "when do you become an adult? 원문 읽기 beck does not declare one final definition. instead, she gathers the legal, biological, historical, psychological, and personal evidence and shows why a single decisive answer fails.\n\nconclusion\n\nthe article's final image is that adulthood resembles an impressionist painting. from far away, you can make out a general picture. up close, it becomes countless irregular strokes. that metaphor captures beck's conclusion better than any formula. adulthood can be legislated in part and studied in part, but never fully standardized. social norms matter, but personal values matter too. traditional milestones retain force, but they are not universal gates. responsibility, independence, purpose, recognition, care for others, and self-acceptance all contribute, but none alone settles the matter.",
+      "text": "Still, Steinberg says, the question of maturity is dependent on the task at hand. For example, with their fully developed logical reasoning, Steinberg sees no reason 16-year-olds shouldn't be able to vote, even if other aspects of their brain are still maturing. \"You don't need to be six feet tall to reach a shelf that's five feet off the ground,\" he says. \"I think you'd be hard-pressed to say there are any particular abilities that develop after age 16 that are necessary to make an informed vote. Adolescents won't make any dumber [voting] decisions than adults will by the time they're that age.\"\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 still, steinberg says, the question of maturity is dependent on the task at hand. for example, with their fully developed logical reasoning, steinberg sees no reason 16-year-olds shouldn't be able to vote, even if other aspects of their brain are still maturing. \"you don't need to be six feet tall to reach a shelf that's five feet off the ground,\" he says. \"i think you'd be hard-pressed to say there are any particular abilities that develop after age 16 that are necessary to make an informed vote. adolescents won't make any dumber [voting] decisions than adults will by the time they're that age.\"\n\n---",
       "order": 20
     },
     {
       "id": "chatbot-00230",
       "slug": "beck-2016",
-      "readingTitle": "When Do You Become an Adult?",
+      "readingTitle": "When Are You Really an Adult?",
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/beck-2016/full.html",
-      "text": "In the end, Beck's answer is not that adulthood begins at a single age or after a single event. It is that adulthood is assembled across roles, relationships, responsibilities, and interpretations. There is no one path, no one switch, and no one final test. There are only many different ways a life becomes answerable to itself and to others.",
-      "searchText": "when do you become an adult? 원문 읽기 in the end, beck's answer is not that adulthood begins at a single age or after a single event. it is that adulthood is assembled across roles, relationships, responsibilities, and interpretations. there is no one path, no one switch, and no one final test. there are only many different ways a life becomes answerable to itself and to others.",
+      "text": "I'm an OB/GYN and watch women struggle through many life changes. I see my late teen and early 20s patients acting more grown up, and thinking they \"know it all.\" I see my patients learning to be new moms, and wishing they had a guidebook, feeling lost. I see women go through divorce and try to find themselves afterwards. I see them trying to hold onto youth during menopause and after. As a result I have been reflecting [on] this very topic, \"becoming an adult,\" for a while.\nI am a mom, have 3 elementary school aged kids, married (unhappily unfortunately), and I still feel like I'm growing up. My spouse cheated on me-that was a wake up call. I started asking myself, \"What do YOU want?\", \"What makes YOU happy?\" I think like many people I had gone along [in] life not questioning many things along the way. As a 40-year-old woman, I feel like this is the time I'm becoming an adult-it's now,",
+      "searchText": "when are you really an adult? 원문 읽기 i'm an ob/gyn and watch women struggle through many life changes. i see my late teen and early 20s patients acting more grown up, and thinking they \"know it all.\" i see my patients learning to be new moms, and wishing they had a guidebook, feeling lost. i see women go through divorce and try to find themselves afterwards. i see them trying to hold onto youth during menopause and after. as a result i have been reflecting [on] this very topic, \"becoming an adult,\" for a while.\ni am a mom, have 3 elementary school aged kids, married (unhappily unfortunately), and i still feel like i'm growing up. my spouse cheated on me-that was a wake up call. i started asking myself, \"what do you want?\", \"what makes you happy?\" i think like many people i had gone along [in] life not questioning many things along the way. as a 40-year-old woman, i feel like this is the time i'm becoming an adult-it's now,",
       "order": 21
     },
     {
       "id": "chatbot-00231",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "but it hasn't completely happened yet. During my marital conflicts I started therapy (wish I had done this in my 20s). It's now that I'm learning, really learning, who I am. I don't know if I will stay married, I don't know how that will look for my kids or for me down the line. I suspect that if I leave, then I will feel like an adult, because then I did something for ME.\nI think the answer to \"when do you become an adult\" has to do with when you finally have acceptance of yourself. My patients who are trying to stop time through menopause don't seem like adults even though they are in their mid-40s, mid-50s. My patients who seem secure through any of life struggles, those are the women who seem like adults. They still have a young soul but roll with all the changes, accepting the undesirable changes in their bodies, accepting the lack of sleep with their children, accepting the things",
+      "searchText": "when are you really an adult? 원문 읽기 but it hasn't completely happened yet. during my marital conflicts i started therapy (wish i had done this in my 20s). it's now that i'm learning, really learning, who i am. i don't know if i will stay married, i don't know how that will look for my kids or for me down the line. i suspect that if i leave, then i will feel like an adult, because then i did something for me.\ni think the answer to \"when do you become an adult\" has to do with when you finally have acceptance of yourself. my patients who are trying to stop time through menopause don't seem like adults even though they are in their mid-40s, mid-50s. my patients who seem secure through any of life struggles, those are the women who seem like adults. they still have a young soul but roll with all the changes, accepting the undesirable changes in their bodies, accepting the lack of sleep with their children, accepting the things",
+      "order": 22
+    },
+    {
+      "id": "chatbot-00232",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "they cannot change.\n-Anonymous\n\n---\n\nIn college, I had a writing professor who I think fancied himself a bit of a provocateur-at any rate he was always trying to drop truth bombs on us. Most of them bounced right off, but there was one that cratered me. I don't remember what precipitated this, but during one class, he just paused and pronounced, \"Between the ages of 22 and 25, you will be miserable. Sorry. If you're like most people, you will flail.\"\n\nAnd it is this word, flailing, that has stuck with me in the years since, that I've rubbed like a mental worry stone whenever the life I want is escaping my reach. Flailing is an apt description of what happens for many people at these ages.",
+      "searchText": "when are you really an adult? 원문 읽기 they cannot change.\n-anonymous\n\n---\n\nin college, i had a writing professor who i think fancied himself a bit of a provocateur-at any rate he was always trying to drop truth bombs on us. most of them bounced right off, but there was one that cratered me. i don't remember what precipitated this, but during one class, he just paused and pronounced, \"between the ages of 22 and 25, you will be miserable. sorry. if you're like most people, you will flail.\"\n\nand it is this word, flailing, that has stuck with me in the years since, that i've rubbed like a mental worry stone whenever the life i want is escaping my reach. flailing is an apt description of what happens for many people at these ages.",
+      "order": 23
+    },
+    {
+      "id": "chatbot-00233",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "The difficulty many 18-to-25-year-olds had in answering \"Are you an adult?\" led Jeffrey Jensen Arnett in the late '90s to lump those ages into a new life stage he called \"emerging adulthood.\" Emerging adulthood is a vague, transitory time between adolescence and true adulthood. It's so vague that Jensen Arnett, a research professor of psychology at Clark University, says he sometimes uses 25 as the upper boundary, and sometimes 29. While he thinks adolescence clearly ends at 18, when people typically leave high school and their parents' homes, and are legally recognized as adults, one leaves emerging adulthood ... whenever one is ready.",
+      "searchText": "when are you really an adult? 원문 읽기 the difficulty many 18-to-25-year-olds had in answering \"are you an adult?\" led jeffrey jensen arnett in the late '90s to lump those ages into a new life stage he called \"emerging adulthood.\" emerging adulthood is a vague, transitory time between adolescence and true adulthood. it's so vague that jensen arnett, a research professor of psychology at clark university, says he sometimes uses 25 as the upper boundary, and sometimes 29. while he thinks adolescence clearly ends at 18, when people typically leave high school and their parents' homes, and are legally recognized as adults, one leaves emerging adulthood ... whenever one is ready.",
+      "order": 24
+    },
+    {
+      "id": "chatbot-00234",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "This vagueness has led to some disagreement over whether emerging adulthood is really a distinct life stage. Steinberg, for one, doesn't think so. \"I'm not a proponent of emerging adulthood as a separate stage of life,\" he says. \"I find it more helpful to think about adolescence as having been lengthened.\" In his book Age of Opportunity, he defines adolescence as starting at puberty and ending at the taking on of adult roles. He writes that in the 19th century, for girls, the time between their first period and their wedding was around five years. In 2010 it was 15 years, thanks to the age of menarche (first period) going down, and the age of marriage going up.",
+      "searchText": "when are you really an adult? 원문 읽기 this vagueness has led to some disagreement over whether emerging adulthood is really a distinct life stage. steinberg, for one, doesn't think so. \"i'm not a proponent of emerging adulthood as a separate stage of life,\" he says. \"i find it more helpful to think about adolescence as having been lengthened.\" in his book age of opportunity, he defines adolescence as starting at puberty and ending at the taking on of adult roles. he writes that in the 19th century, for girls, the time between their first period and their wedding was around five years. in 2010 it was 15 years, thanks to the age of menarche (first period) going down, and the age of marriage going up.",
+      "order": 25
+    },
+    {
+      "id": "chatbot-00235",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Other critics of the emerging-adulthood concept write that just because the years between 18 and 25 (or is it 29?) are a transitional time, that doesn't mean they represent a separate developmental stage. \"There might be changes in living conditions, but human development is not synonymous with simple changes,\" reads one study.\n\n\"Little has been added to the literature that could not have been researched using the older terms, late adolescence or early adulthood,\" writes the sociologist James Cote in another critique.\n\n\"I mainly think this discussion about what we should call people that age is a distraction,\" Steinberg says. \"What's really important is that the transition into adult roles is taking longer and longer.\" There are now, for many people, several years when they are free of their parents, out of school, but not tied to spouses or children.",
+      "searchText": "when are you really an adult? 원문 읽기 other critics of the emerging-adulthood concept write that just because the years between 18 and 25 (or is it 29?) are a transitional time, that doesn't mean they represent a separate developmental stage. \"there might be changes in living conditions, but human development is not synonymous with simple changes,\" reads one study.\n\n\"little has been added to the literature that could not have been researched using the older terms, late adolescence or early adulthood,\" writes the sociologist james cote in another critique.\n\n\"i mainly think this discussion about what we should call people that age is a distraction,\" steinberg says. \"what's really important is that the transition into adult roles is taking longer and longer.\" there are now, for many people, several years when they are free of their parents, out of school, but not tied to spouses or children.",
+      "order": 26
+    },
+    {
+      "id": "chatbot-00236",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Part of the reason for this may be because being a spouse or a parent seem to be less valued as necessary gateways to adulthood.\n\nOver the course of his research on this, Jensen Arnett has zeroed in on what he calls \"the Big Three\" criteria for becoming an adult, the things people rank as what they most need to be a grown-up: taking responsibility for yourself, making independent decisions, and becoming financially independent. These three criteria have been ranked highly not just in the U.S. but in many other countries as well, including China, Greece, Israel, India, and Argentina. But some cultures add their own values to the list. In China, for example, people highly valued being able to financially support their parents, and in India people valued the ability to keep their family physically safe.",
+      "searchText": "when are you really an adult? 원문 읽기 part of the reason for this may be because being a spouse or a parent seem to be less valued as necessary gateways to adulthood.\n\nover the course of his research on this, jensen arnett has zeroed in on what he calls \"the big three\" criteria for becoming an adult, the things people rank as what they most need to be a grown-up: taking responsibility for yourself, making independent decisions, and becoming financially independent. these three criteria have been ranked highly not just in the u.s. but in many other countries as well, including china, greece, israel, india, and argentina. but some cultures add their own values to the list. in china, for example, people highly valued being able to financially support their parents, and in india people valued the ability to keep their family physically safe.",
+      "order": 27
+    },
+    {
+      "id": "chatbot-00237",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Of the Big Three, two are internal, subjective markers. You can measure financial independence, but are you otherwise independent and responsible? That's something you have to decide for yourself. When the developmental psychologist Erik Erikson outlined his influential stages of psychosocial development, each had its own central question to be (hopefully) answered during that time period. In adolescence, the question is one of identity-discovering the true self and where it fits into the world. In young adulthood, Erikson says, attention turns to intimacy and the development of friendships and romantic relationships.",
+      "searchText": "when are you really an adult? 원문 읽기 of the big three, two are internal, subjective markers. you can measure financial independence, but are you otherwise independent and responsible? that's something you have to decide for yourself. when the developmental psychologist erik erikson outlined his influential stages of psychosocial development, each had its own central question to be (hopefully) answered during that time period. in adolescence, the question is one of identity-discovering the true self and where it fits into the world. in young adulthood, erikson says, attention turns to intimacy and the development of friendships and romantic relationships.",
+      "order": 28
+    },
+    {
+      "id": "chatbot-00238",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Anthony Burrow, an assistant professor of human development at Cornell University, studies the question of whether young adults feel like they have purpose in life. He and his colleagues found in a study that purpose was associated with well-being among college students. In Burrow's study, commitment to a purpose was associated with higher life satisfaction and positive feelings. They also measured identity and purpose exploration, having people rate statements like \"I am seeking a purpose or mission for my life.\" Both kinds of exploration significantly predicted feeling worse and less satisfied. But other research has identified exploration as a step on the path to forming an identity, and people who've committed to an identity are more likely to see themselves as adults.\n\nIn other words, the flailing isn't fun, but it matters.",
+      "searchText": "when are you really an adult? 원문 읽기 anthony burrow, an assistant professor of human development at cornell university, studies the question of whether young adults feel like they have purpose in life. he and his colleagues found in a study that purpose was associated with well-being among college students. in burrow's study, commitment to a purpose was associated with higher life satisfaction and positive feelings. they also measured identity and purpose exploration, having people rate statements like \"i am seeking a purpose or mission for my life.\" both kinds of exploration significantly predicted feeling worse and less satisfied. but other research has identified exploration as a step on the path to forming an identity, and people who've committed to an identity are more likely to see themselves as adults.\n\nin other words, the flailing isn't fun, but it matters.",
+      "order": 29
+    },
+    {
+      "id": "chatbot-00239",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "The late teen years and early 20s are probably the best time to explore, because life tends to fill up with commitments as you age. \"In midlife, because of family demands, because of work demands, not only are people likely exploring who they are less, [but] if they do it may come at a bigger cost,\" Burrow says. \"If you are still looking to resolve an identity in midlife, because you haven't been able to do it yet, not only are you probably rare, it probably is coming at a bigger cost, a bigger toll-either physiologically, psychologically, or socially-than it would, that same amount of exploration, when you're younger.\"\n\nJensen Arnett sums it up in the words of Taylor Swift, the bard of emerging adults, specifically her song \"22.\" \"[She] was right,\" he says. \"'We're happy, free, confused, and lonely at the same time.' It's a brilliant insight.\"\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 the late teen years and early 20s are probably the best time to explore, because life tends to fill up with commitments as you age. \"in midlife, because of family demands, because of work demands, not only are people likely exploring who they are less, [but] if they do it may come at a bigger cost,\" burrow says. \"if you are still looking to resolve an identity in midlife, because you haven't been able to do it yet, not only are you probably rare, it probably is coming at a bigger cost, a bigger toll-either physiologically, psychologically, or socially-than it would, that same amount of exploration, when you're younger.\"\n\njensen arnett sums it up in the words of taylor swift, the bard of emerging adults, specifically her song \"22.\" \"[she] was right,\" he says. \"'we're happy, free, confused, and lonely at the same time.' it's a brilliant insight.\"\n\n---",
+      "order": 30
+    },
+    {
+      "id": "chatbot-00240",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Let me preface by saying I'm revolted by people in their late 30s and 40s saying they feel like children, haven't \"found themselves,\" or don't know what they want to do when they \"grow up.\"\nI went to medical school in my early 20s. By the age of 26 I was an intern in San Francisco during the lingering shadow of HIV/AIDS. Early in the year I was called to the bedside of a man younger than I am now late at night. His partner was at the bedside, clearly a long relationship, the man clearly had HIV as well. I told him his partner was dead.\nThat year my fellow residents and I told every sort of relative that someone had died: spouse, child, parent, sibling, or friend. We told people they had cancer, HIV. We stayed in the hospital for 36 hour shifts. By the start I was an adult and treated as such. We weren't coddled or protected. And we could do it. We were young, and sometimes it showed, but",
+      "searchText": "when are you really an adult? 원문 읽기 let me preface by saying i'm revolted by people in their late 30s and 40s saying they feel like children, haven't \"found themselves,\" or don't know what they want to do when they \"grow up.\"\ni went to medical school in my early 20s. by the age of 26 i was an intern in san francisco during the lingering shadow of hiv/aids. early in the year i was called to the bedside of a man younger than i am now late at night. his partner was at the bedside, clearly a long relationship, the man clearly had hiv as well. i told him his partner was dead.\nthat year my fellow residents and i told every sort of relative that someone had died: spouse, child, parent, sibling, or friend. we told people they had cancer, hiv. we stayed in the hospital for 36 hour shifts. by the start i was an adult and treated as such. we weren't coddled or protected. and we could do it. we were young, and sometimes it showed, but",
+      "order": 31
+    },
+    {
+      "id": "chatbot-00241",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "none of us were children. I suppose it helped that we were all living in a big city on our modest salaries, no longer medical students.\nSo that's when I felt like an adult. The question of when a tree becomes a tree and no longer a sapling is obviously impossible to determine. Same with any slow and gradual process. All I can say is that the adult potential was there, ready to grow up and be responsible and accountable. I think personal industry, devotion to something bigger than oneself, part of a historical process, and peers who grow with you all play roles.\nWithout focus, work, hardship, or a pathway with other humans, I can imagine someone still believing they are a child at 35-45: I meet them sometimes! And it is horrific.\n-Anonymous\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 none of us were children. i suppose it helped that we were all living in a big city on our modest salaries, no longer medical students.\nso that's when i felt like an adult. the question of when a tree becomes a tree and no longer a sapling is obviously impossible to determine. same with any slow and gradual process. all i can say is that the adult potential was there, ready to grow up and be responsible and accountable. i think personal industry, devotion to something bigger than oneself, part of a historical process, and peers who grow with you all play roles.\nwithout focus, work, hardship, or a pathway with other humans, i can imagine someone still believing they are a child at 35-45: i meet them sometimes! and it is horrific.\n-anonymous\n\n---",
+      "order": 32
+    },
+    {
+      "id": "chatbot-00242",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "For each of life's stages, according to the 20th-century education researcher Robert Havighurst, there is a list of \"developmental tasks\" to be accomplished. Unlike the individualistic criteria people report today, his developmental tasks for adulthood were very concrete: Finding a mate, learning to live with a partner, starting a family, raising children, beginning an occupation, running a home. These are the traditional adult roles, the components of what I've been calling \"Leave it to Beaver adulthood,\" the things Millennials are all-too-often criticized for not doing and not valuing.\n\n\"It's hilarious to me that you use Leave it to Beaver markers,\" Jensen Arnett said to me. \"I remember Leave it to Beaver, but I'm willing to bet it was off TV for about 30 years before you were born.\" (I've seen reruns.)",
+      "searchText": "when are you really an adult? 원문 읽기 for each of life's stages, according to the 20th-century education researcher robert havighurst, there is a list of \"developmental tasks\" to be accomplished. unlike the individualistic criteria people report today, his developmental tasks for adulthood were very concrete: finding a mate, learning to live with a partner, starting a family, raising children, beginning an occupation, running a home. these are the traditional adult roles, the components of what i've been calling \"leave it to beaver adulthood,\" the things millennials are all-too-often criticized for not doing and not valuing.\n\n\"it's hilarious to me that you use leave it to beaver markers,\" jensen arnett said to me. \"i remember leave it to beaver, but i'm willing to bet it was off tv for about 30 years before you were born.\" (i've seen reruns.)",
+      "order": 33
+    },
+    {
+      "id": "chatbot-00243",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Havighurst developed his theory during the '40s and '50s, and in his selection of these tasks, he was truly a product of his time. The economic boom that came after World War II made Leave It to Beaver adulthood more attainable than it had ever been, even for very young adults. There were enough jobs available for young men, Mintz writes, that they sometimes didn't need a high-school diploma to get a job that could support a family. And social mores of the time strongly favored marriage over unmarried cohabitation hence: job, spouse, house, kids.",
+      "searchText": "when are you really an adult? 원문 읽기 havighurst developed his theory during the '40s and '50s, and in his selection of these tasks, he was truly a product of his time. the economic boom that came after world war ii made leave it to beaver adulthood more attainable than it had ever been, even for very young adults. there were enough jobs available for young men, mintz writes, that they sometimes didn't need a high-school diploma to get a job that could support a family. and social mores of the time strongly favored marriage over unmarried cohabitation hence: job, spouse, house, kids.",
+      "order": 34
+    },
+    {
+      "id": "chatbot-00244",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "But this was a historical anomaly. \"Except for the brief period following World War II, it was unusual for the young to achieve the markers of full adult status before their mid- or late twenties,\" Mintz writes. As we saw with young Henry Thoreau, successful adults were often floundering minnows first. The past wasn't populated by uber-responsible adults who roamed the moors wearing three-piece suits, looking over their spectacles and saying \"Hm, yes, quite,\" at some tax returns until today's youths killed them off through laziness and slang. Young men would seek their fortunes, fail, and come back home; young women migrated to cities looking for work at even higher rates than men did in the 19th century. And in order to get married, some men used to have to wait for their fathers to die first, so they could get their inheritance. At least today's delayed marriages are for less morbid",
+      "searchText": "when are you really an adult? 원문 읽기 but this was a historical anomaly. \"except for the brief period following world war ii, it was unusual for the young to achieve the markers of full adult status before their mid- or late twenties,\" mintz writes. as we saw with young henry thoreau, successful adults were often floundering minnows first. the past wasn't populated by uber-responsible adults who roamed the moors wearing three-piece suits, looking over their spectacles and saying \"hm, yes, quite,\" at some tax returns until today's youths killed them off through laziness and slang. young men would seek their fortunes, fail, and come back home; young women migrated to cities looking for work at even higher rates than men did in the 19th century. and in order to get married, some men used to have to wait for their fathers to die first, so they could get their inheritance. at least today's delayed marriages are for less morbid",
+      "order": 35
+    },
+    {
+      "id": "chatbot-00245",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "reasons.\n\ngillmar / stockyimages / FashionStock / Shutterstock / Paul Spella / The Atlantic\n\nThe golden age of easy adulthood didn't last long. Starting in the 1960s, the marriage age began to rise again and secondary education became more and more necessary for a middle-class income. Even if people still value Leave it to Beaver markers, they take time to achieve.",
+      "searchText": "when are you really an adult? 원문 읽기 reasons.\n\ngillmar / stockyimages / fashionstock / shutterstock / paul spella / the atlantic\n\nthe golden age of easy adulthood didn't last long. starting in the 1960s, the marriage age began to rise again and secondary education became more and more necessary for a middle-class income. even if people still value leave it to beaver markers, they take time to achieve.",
+      "order": 36
+    },
+    {
+      "id": "chatbot-00246",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "\"I've come to kind of think that a lot of the animosity comes from just the fact that things have changed so fast,\" Jensen Arnett says. \"When people who are in their 50s, 60s, 70s now look at today's emerging adults, they compare them to the yardstick that applied when they were in their 20s, and find them wanting. But to me that's, ironically, kind of narcissistic, frankly, because that's one of the criticisms that's been made of emerging adults, that they're narcissistic, but to me it's just the egocentricity of their elders.\"",
+      "searchText": "when are you really an adult? 원문 읽기 \"i've come to kind of think that a lot of the animosity comes from just the fact that things have changed so fast,\" jensen arnett says. \"when people who are in their 50s, 60s, 70s now look at today's emerging adults, they compare them to the yardstick that applied when they were in their 20s, and find them wanting. but to me that's, ironically, kind of narcissistic, frankly, because that's one of the criticisms that's been made of emerging adults, that they're narcissistic, but to me it's just the egocentricity of their elders.\"",
+      "order": 37
+    },
+    {
+      "id": "chatbot-00247",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Many young people, Jensen Arnett says, still want these things-to establish careers, to get married, to have kids. (Or some combination thereof.) They just don't see them as the defining traits of adulthood. Unfortunately, not all of society has caught up, and older generations may not recognize the young as adults without these markers. A big part of being an adult is people treating you like one, and taking on these roles can help you convince others-and yourself-that you're responsible.",
+      "searchText": "when are you really an adult? 원문 읽기 many young people, jensen arnett says, still want these things-to establish careers, to get married, to have kids. (or some combination thereof.) they just don't see them as the defining traits of adulthood. unfortunately, not all of society has caught up, and older generations may not recognize the young as adults without these markers. a big part of being an adult is people treating you like one, and taking on these roles can help you convince others-and yourself-that you're responsible.",
+      "order": 38
+    },
+    {
+      "id": "chatbot-00248",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "With adulthood as with life, people may often end up defining themselves by what they lack. In her 20s, Williams Brown, the author of Adulting, was focused mainly on her career, purposefully so. But she still found herself looking wistfully to her friends who were getting married and having kids. \"It was still really hard to look at something that I did want, and do want, that other people had and I didn't,\" she says. \"Even though I knew full well the reason I didn't have that was due to my own decisions.\"\n\nWilliams Brown is now 31, and just a little more than a week before we spoke, she got married. Did she feel different, more adult, having achieved this big milestone? I asked.",
+      "searchText": "when are you really an adult? 원문 읽기 with adulthood as with life, people may often end up defining themselves by what they lack. in her 20s, williams brown, the author of adulting, was focused mainly on her career, purposefully so. but she still found herself looking wistfully to her friends who were getting married and having kids. \"it was still really hard to look at something that i did want, and do want, that other people had and i didn't,\" she says. \"even though i knew full well the reason i didn't have that was due to my own decisions.\"\n\nwilliams brown is now 31, and just a little more than a week before we spoke, she got married. did she feel different, more adult, having achieved this big milestone? i asked.",
+      "order": 39
+    },
+    {
+      "id": "chatbot-00249",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "\"I really thought it would feel mostly the same, because my husband and I have been together for almost four years now, and we've lived together for a good portion of that,\" she says. \"Emotionally ... it just feels a little more permanent. He said the other day that it makes him feel both young and old. Young in that it's a new chapter, and old in that for a lot of people, the question of who you want to spend your life with is a pretty central question for your 20s and 30s, and having settled that does feel really big and momentous.\"\n\n\"But,\" she adds, \"there's still a bunch of dirty dishes in my sink.\"\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 \"i really thought it would feel mostly the same, because my husband and i have been together for almost four years now, and we've lived together for a good portion of that,\" she says. \"emotionally ... it just feels a little more permanent. he said the other day that it makes him feel both young and old. young in that it's a new chapter, and old in that for a lot of people, the question of who you want to spend your life with is a pretty central question for your 20s and 30s, and having settled that does feel really big and momentous.\"\n\n\"but,\" she adds, \"there's still a bunch of dirty dishes in my sink.\"\n\n---",
+      "order": 40
+    },
+    {
+      "id": "chatbot-00250",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "I think I only truly felt like an adult driving home from George Washington University hospital, sitting in the back seat of our Honda Accord with our tiny, premature daughter. While my husband drove more carefully than he ever had before, I couldn't take my eyes off of her ... I worried that she seemed much too small for her car seat, that she might suddenly stop breathing, or her little head could tip over. I think we both couldn't believe that we were now in charge, by ourselves, of this teeny, tiny human. Armed with our What to Expect the First Year bible, we were totally responsible for this baby's existence, and it felt enormously overwhelming, and so grownup. Suddenly there was someone else to think of and consider in every decision you made.\n-Deb Bissen\nI am 53, and one moment stands out in my mind. It was around 2009, when my mother had to move from one assisted living facility",
+      "searchText": "when are you really an adult? 원문 읽기 i think i only truly felt like an adult driving home from george washington university hospital, sitting in the back seat of our honda accord with our tiny, premature daughter. while my husband drove more carefully than he ever had before, i couldn't take my eyes off of her ... i worried that she seemed much too small for her car seat, that she might suddenly stop breathing, or her little head could tip over. i think we both couldn't believe that we were now in charge, by ourselves, of this teeny, tiny human. armed with our what to expect the first year bible, we were totally responsible for this baby's existence, and it felt enormously overwhelming, and so grownup. suddenly there was someone else to think of and consider in every decision you made.\n-deb bissen\ni am 53, and one moment stands out in my mind. it was around 2009, when my mother had to move from one assisted living facility",
+      "order": 41
+    },
+    {
+      "id": "chatbot-00251",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "to another. She was suffering from Alzheimer's at the time, so in a nutshell, I had to lie to her to get her in the car. The new facility had a lock-down unit, which was then the only practical option for her. It was not the first time I had told her a \"white lie\" in order to get her to do something, the way you might tell a child. But it was the only time I can recall when she realized I had lied to her, and had tricked her into leaving her apartment. She gave me a look of realization that I will never forget. I was once married, but never had children. I suppose if I had ever had children, I would have \"become an adult\" at some point during the parenting experience. Maybe there are certain \"micro-betrayals\" that go along with being responsible for someone. I don't know. I prefer to remain ignorant about that. My mother died in 2013.\n-Anonymous\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 to another. she was suffering from alzheimer's at the time, so in a nutshell, i had to lie to her to get her in the car. the new facility had a lock-down unit, which was then the only practical option for her. it was not the first time i had told her a \"white lie\" in order to get her to do something, the way you might tell a child. but it was the only time i can recall when she realized i had lied to her, and had tricked her into leaving her apartment. she gave me a look of realization that i will never forget. i was once married, but never had children. i suppose if i had ever had children, i would have \"become an adult\" at some point during the parenting experience. maybe there are certain \"micro-betrayals\" that go along with being responsible for someone. i don't know. i prefer to remain ignorant about that. my mother died in 2013.\n-anonymous\n\n---",
+      "order": 42
+    },
+    {
+      "id": "chatbot-00252",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Of all adulthood's many responsibilities, the one I hear most often cited as transformative is parenthood. Of the responses readers sent in about their adult transitions, the most common answer was \"When I had children.\"\n\nIt's not that you can't be an adult unless you have kids. But for people who do, it often seems to be that flip-the-switch moment. In Jensen Arnett's original 1998 interviews, if people had children, \"having a child was mentioned more often than any other criterion as a marker of their own transition,\" he writes.\n\nSeveral readers mentioned their newfound responsibility for someone else as the defining factor, the next step up from the Big Three's \"taking responsibility for yourself.\"",
+      "searchText": "when are you really an adult? 원문 읽기 of all adulthood's many responsibilities, the one i hear most often cited as transformative is parenthood. of the responses readers sent in about their adult transitions, the most common answer was \"when i had children.\"\n\nit's not that you can't be an adult unless you have kids. but for people who do, it often seems to be that flip-the-switch moment. in jensen arnett's original 1998 interviews, if people had children, \"having a child was mentioned more often than any other criterion as a marker of their own transition,\" he writes.\n\nseveral readers mentioned their newfound responsibility for someone else as the defining factor, the next step up from the big three's \"taking responsibility for yourself.\"",
+      "order": 43
+    },
+    {
+      "id": "chatbot-00253",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "\"I really felt like an adult when I held my child in my arms for the first time,\" Matthew, a reader, said. \"Before this event, I felt like an adult on and off throughout my 20s and early 30s, but never really had a grasp of the thing.\"\n\nIf adulthood is, as Burrow says \"the negotiation of feeling accountable and responsible with the other lens of people endorsing and validating that view,\" having children is one thing that seems to both make you feel like an adult, and get other people to believe you are one. The twin forces of identity and purpose, he says, are \"really important currency in our current society,\" and while kids may certainly give you both, there are plenty of other ways to find them.",
+      "searchText": "when are you really an adult? 원문 읽기 \"i really felt like an adult when i held my child in my arms for the first time,\" matthew, a reader, said. \"before this event, i felt like an adult on and off throughout my 20s and early 30s, but never really had a grasp of the thing.\"\n\nif adulthood is, as burrow says \"the negotiation of feeling accountable and responsible with the other lens of people endorsing and validating that view,\" having children is one thing that seems to both make you feel like an adult, and get other people to believe you are one. the twin forces of identity and purpose, he says, are \"really important currency in our current society,\" and while kids may certainly give you both, there are plenty of other ways to find them.",
+      "order": 44
+    },
+    {
+      "id": "chatbot-00254",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "\"There's a lot of things that cause people to further their growing up,\" Williams Brown says, \"And I think kids can be a shorthand for that.\" Taking care of sick parents is something else that readers mentioned often-a jarring role reversal that may be its own kind of shorthand.\n\nBut things that can be written in shorthand can be written in longhand as well. There doesn't need to be a single moment, a tipping point. Most change is gradual.\n\n\"Being an adult is not about grand gestures, and it's not about stuff that you can post on Facebook,\" Williams Brown says. \"It's a quiet thing.\"\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 \"there's a lot of things that cause people to further their growing up,\" williams brown says, \"and i think kids can be a shorthand for that.\" taking care of sick parents is something else that readers mentioned often-a jarring role reversal that may be its own kind of shorthand.\n\nbut things that can be written in shorthand can be written in longhand as well. there doesn't need to be a single moment, a tipping point. most change is gradual.\n\n\"being an adult is not about grand gestures, and it's not about stuff that you can post on facebook,\" williams brown says. \"it's a quiet thing.\"\n\n---",
+      "order": 45
+    },
+    {
+      "id": "chatbot-00255",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "For a long time, I've been waiting for that \"I am an adult\" feeling. I am 27 years old, married, living on my own, and employed as a manager at a successful hotel company. I expected all of these things, age, marriage, career, to trigger the feeling.\nLooking back, I think I was asking the wrong question. I don't think I spent a lot of time as a child or teenager. I have worked since I was 13 and I worked with other kids my age. Our parents were immigrants who made little more than us. We were our families' translators since childhood. Utilities and banks have heard my prepubescent voice as my mother/father/etc.\nI think for some of us, we reached adulthood before we realized it.\n-Anonymous\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 for a long time, i've been waiting for that \"i am an adult\" feeling. i am 27 years old, married, living on my own, and employed as a manager at a successful hotel company. i expected all of these things, age, marriage, career, to trigger the feeling.\nlooking back, i think i was asking the wrong question. i don't think i spent a lot of time as a child or teenager. i have worked since i was 13 and i worked with other kids my age. our parents were immigrants who made little more than us. we were our families' translators since childhood. utilities and banks have heard my prepubescent voice as my mother/father/etc.\ni think for some of us, we reached adulthood before we realized it.\n-anonymous\n\n---",
+      "order": 46
+    },
+    {
+      "id": "chatbot-00256",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "With all this ambiguity and subjectivity around when a person is really an adult, Griffin of the NICHD suggests another way of thinking about it: \"I'd almost want you to consider reversing your question,\" he told me. \"When are you really a child?\"\n\nThese adult roles that everyone's so worried about being taken on too late, what about people who have kids at 15? Who have to care for sick parents as children, or who lose them at a young age? Circumstances sometimes thrust people into adult roles before they're ready.\n\n\"I have interviewed many people who'll say, 'Oh, I was an adult a long time ago,'\" Jensen Arnett says. \"It almost always is connected to taking on responsibilities much earlier than most people do.\" Do those people experience emerging adulthood?",
+      "searchText": "when are you really an adult? 원문 읽기 with all this ambiguity and subjectivity around when a person is really an adult, griffin of the nichd suggests another way of thinking about it: \"i'd almost want you to consider reversing your question,\" he told me. \"when are you really a child?\"\n\nthese adult roles that everyone's so worried about being taken on too late, what about people who have kids at 15? who have to care for sick parents as children, or who lose them at a young age? circumstances sometimes thrust people into adult roles before they're ready.\n\n\"i have interviewed many people who'll say, 'oh, i was an adult a long time ago,'\" jensen arnett says. \"it almost always is connected to taking on responsibilities much earlier than most people do.\" do those people experience emerging adulthood?",
+      "order": 47
+    },
+    {
+      "id": "chatbot-00257",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "\"Ever present and important to me is there is a privilege in this,\" Burrow says. The privilege at play here is not only who can afford to go to college, and have institutionalized exploratory time, but also in who has the luxury to decide when they'll take on different adult roles, and the time to think about it. This can play out in either direction-someone may have the ability to move across the country to live alone and pursue their dream job, or someone may have the ability to say they're just going to take money from their parents for a bit while they figure things out. Both are privileges.",
+      "searchText": "when are you really an adult? 원문 읽기 \"ever present and important to me is there is a privilege in this,\" burrow says. the privilege at play here is not only who can afford to go to college, and have institutionalized exploratory time, but also in who has the luxury to decide when they'll take on different adult roles, and the time to think about it. this can play out in either direction-someone may have the ability to move across the country to live alone and pursue their dream job, or someone may have the ability to say they're just going to take money from their parents for a bit while they figure things out. both are privileges.",
+      "order": 48
+    },
+    {
+      "id": "chatbot-00258",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Adulthood's responsibilities can definitely be thrust upon you, and if the world is treating someone as an adult before they feel like one, that can be challenging. But a study done by Rachel Sumner, a student of Burrow's, found no difference in overall levels of purpose between adults who went to college and adults who didn't, which suggests that particular privilege isn't necessary for someone to find purpose.\n\nIn his chapter on social class, Jensen Arnett writes, \"We can state that there are likely to be many emerging adulthoods-many forms the experience of this life stage can take.\" From a critic's perspective, you could say that if emerging adulthood can be many things, then it is nothing in particular. But it's not for me to answer that. What is clear is that there's no one path to adulthood.\n\n---",
+      "searchText": "when are you really an adult? 원문 읽기 adulthood's responsibilities can definitely be thrust upon you, and if the world is treating someone as an adult before they feel like one, that can be challenging. but a study done by rachel sumner, a student of burrow's, found no difference in overall levels of purpose between adults who went to college and adults who didn't, which suggests that particular privilege isn't necessary for someone to find purpose.\n\nin his chapter on social class, jensen arnett writes, \"we can state that there are likely to be many emerging adulthoods-many forms the experience of this life stage can take.\" from a critic's perspective, you could say that if emerging adulthood can be many things, then it is nothing in particular. but it's not for me to answer that. what is clear is that there's no one path to adulthood.\n\n---",
+      "order": 49
+    },
+    {
+      "id": "chatbot-00259",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "I do not like the word \"adult.\" I find this to be synonymous with \"death.\" You are saying goodbye to your life force and the self. It seems most see being an adult as behaving in a more reserved way and as St. Paul says, putting \"away childish things;\" losing our passion.\n-Anonymous\nA close friend's father said to me, \"You never really grew up, did you?\" I was shocked; I am 56, married, well-traveled with a masters degree and a stable career. What field did THAT comment come from? I wondered. I had to consider for quite a while before I understood his train of thought; I have never had children (by choice), therefore I must still be one myself.\nI disagree with his vision; I see myself as an adult. After all, my students are a fraction of my age, my marriage is rocky, my hair has begun to grey, and I pay all my own bills: ergo I am an adult. My knees hurt, I worry about retirement, my",
+      "searchText": "when are you really an adult? 원문 읽기 i do not like the word \"adult.\" i find this to be synonymous with \"death.\" you are saying goodbye to your life force and the self. it seems most see being an adult as behaving in a more reserved way and as st. paul says, putting \"away childish things;\" losing our passion.\n-anonymous\na close friend's father said to me, \"you never really grew up, did you?\" i was shocked; i am 56, married, well-traveled with a masters degree and a stable career. what field did that comment come from? i wondered. i had to consider for quite a while before i understood his train of thought; i have never had children (by choice), therefore i must still be one myself.\ni disagree with his vision; i see myself as an adult. after all, my students are a fraction of my age, my marriage is rocky, my hair has begun to grey, and i pay all my own bills: ergo i am an adult. my knees hurt, i worry about retirement, my",
+      "order": 50
+    },
+    {
+      "id": "chatbot-00260",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "parents are elderly and frail, and I now drive when we go places together; therefore I must be an adult.\nAdulthood is like a fish glittering in the water; you know it's swimming around there and you can reach out and maybe touch it, but to catch it would destroy everything. And the moments when you do catch it-when you have to attend a brother-in-law's funeral or euthanize a paralyzed pet-you grasp it and you do it fully and well but you long to toss it back in the pond, blast David Bowie, and sit on the grass contentedly, watching adulthood glint in the sunlight. Then lean back and sigh, relieved that-for today, at least-it doesn't concern you.\n-Anonymous\n\n---\n\nBeing an adult isn't always a desirable thing. Independence can become loneliness. Responsibility can become stress.",
+      "searchText": "when are you really an adult? 원문 읽기 parents are elderly and frail, and i now drive when we go places together; therefore i must be an adult.\nadulthood is like a fish glittering in the water; you know it's swimming around there and you can reach out and maybe touch it, but to catch it would destroy everything. and the moments when you do catch it-when you have to attend a brother-in-law's funeral or euthanize a paralyzed pet-you grasp it and you do it fully and well but you long to toss it back in the pond, blast david bowie, and sit on the grass contentedly, watching adulthood glint in the sunlight. then lean back and sigh, relieved that-for today, at least-it doesn't concern you.\n-anonymous\n\n---\n\nbeing an adult isn't always a desirable thing. independence can become loneliness. responsibility can become stress.",
+      "order": 51
+    },
+    {
+      "id": "chatbot-00261",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Mintz writes that adulthood has been devalued in culture in some ways. \"Adults, we are repeatedly told, lead anxious lives of quiet desperation,\" he writes. \"The classic post-World War II novels of adulthood by Saul Bellow, Mary McCarthy, Philip Roth, and John Updike, among others, are tales of shattered dreams, unfulfilled ambitions, broken marriages, workplace alienation, and family estrangement.\" He compares those to 19th-century bildungsromans, coming-of-age novels, in which people wanted to become adults. Maybe an ambivalence over whether someone feels like an adult is partially an ambivalence over whether they even want to be an adult.",
+      "searchText": "when are you really an adult? 원문 읽기 mintz writes that adulthood has been devalued in culture in some ways. \"adults, we are repeatedly told, lead anxious lives of quiet desperation,\" he writes. \"the classic post-world war ii novels of adulthood by saul bellow, mary mccarthy, philip roth, and john updike, among others, are tales of shattered dreams, unfulfilled ambitions, broken marriages, workplace alienation, and family estrangement.\" he compares those to 19th-century bildungsromans, coming-of-age novels, in which people wanted to become adults. maybe an ambivalence over whether someone feels like an adult is partially an ambivalence over whether they even want to be an adult.",
+      "order": 52
+    },
+    {
+      "id": "chatbot-00262",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "Williams Brown breaks down the lessons she's learned about adulthood into three categories: \"taking care of people, taking care of things, and taking care of yourself.\" There's an exhausting element to that: \"If I do not buy toilet paper, then I will not have toilet paper,\" she says. \"If I am unhappy with my life, my job, my relationship, nobody is going to come fix that for me.\"\n\n\"We live in a youth culture that believes life goes downhill after 26 or so,\" Mintz says. But he sees inspiration, and possibility, in old Hollywood visions of adulthood, in Cary Grant and Katherine Hepburn. \"When I argue that we need to reclaim adulthood, I don't mean a 1950s version of early marriage and early entry into a career,\" he says. \"What I do mean is it's better to be knowing than unknowing. It's better to be experienced than inexperienced. It's better to be sophisticated than callow.\"",
+      "searchText": "when are you really an adult? 원문 읽기 williams brown breaks down the lessons she's learned about adulthood into three categories: \"taking care of people, taking care of things, and taking care of yourself.\" there's an exhausting element to that: \"if i do not buy toilet paper, then i will not have toilet paper,\" she says. \"if i am unhappy with my life, my job, my relationship, nobody is going to come fix that for me.\"\n\n\"we live in a youth culture that believes life goes downhill after 26 or so,\" mintz says. but he sees inspiration, and possibility, in old hollywood visions of adulthood, in cary grant and katherine hepburn. \"when i argue that we need to reclaim adulthood, i don't mean a 1950s version of early marriage and early entry into a career,\" he says. \"what i do mean is it's better to be knowing than unknowing. it's better to be experienced than inexperienced. it's better to be sophisticated than callow.\"",
+      "order": 53
+    },
+    {
+      "id": "chatbot-00263",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "That's what adulthood means for Mintz. For Williams Brown, it's that \"I am really and truly only in charge of myself. I am not in charge of trying to make life other than what it is.\"",
+      "searchText": "when are you really an adult? 원문 읽기 that's what adulthood means for mintz. for williams brown, it's that \"i am really and truly only in charge of myself. i am not in charge of trying to make life other than what it is.\"",
+      "order": 54
+    },
+    {
+      "id": "chatbot-00264",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/beck-2016/full.html",
+      "text": "What adulthood means in a society is an ocean fed by too many rivers to count. It can be legislated, but not completely. Science can advance understanding of maturity, but it can't get us all the way there. Social norms change, people opt out of traditional roles, or are forced to take them on way too soon. You can track the trends, but trends have little bearing on what one person wants and values. Society can only define a life stage so far; individuals still have to do a lot of the defining themselves. Adulthood altogether is an Impressionist painting-if you stand far enough away, you can see a blurry picture, but if you press your nose to it, it's millions of tiny strokes. Imperfect, irregular, but indubitably part of a greater whole.",
+      "searchText": "when are you really an adult? 원문 읽기 what adulthood means in a society is an ocean fed by too many rivers to count. it can be legislated, but not completely. science can advance understanding of maturity, but it can't get us all the way there. social norms change, people opt out of traditional roles, or are forced to take them on way too soon. you can track the trends, but trends have little bearing on what one person wants and values. society can only define a life stage so far; individuals still have to do a lot of the defining themselves. adulthood altogether is an impressionist painting-if you stand far enough away, you can see a blurry picture, but if you press your nose to it, it's millions of tiny strokes. imperfect, irregular, but indubitably part of a greater whole.",
+      "order": 55
+    },
+    {
+      "id": "chatbot-00265",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "언제 비로소 어른이 되는가?\n\nJulie Beck\n\n2016년 1월 5일\n\n어린 시절과 성인기의 경계가 그 어느 때보다 흐릿한 시대에, 사람을 정말 어른으로 만드는 것은 무엇일까?\n\n거울을 바라보는 젊은 여성과 아주 어린 소녀, 젊은 여성, 노년 여성의 이미지가 겹쳐 보이는 장면\n\n헨리를 \"방향을 못 잡은 사람\"이라고 불러도 아주 틀린 말은 아닐 것이다. 하버드를 졸업한 뒤 그는 부모 집으로 다시 들어갔고, 젊은 성인들의 고단함을 다루는 트렌드 기사에 바로 나올 법한 전형적인 부메랑 키드가 되었다.\n\n불황 속에서 졸업했지만 헨리는 교사 일을 구하는 데는 성공했다. 하지만 일을 시작한 지 2주 만에 그 일은 자기 길이 아니라고 판단하고 그만두었다. 이후 그는 꽤 오랫동안 자신의 소명을 찾아 헤맸다. 아버지의 연필 공장에서 일했고, 잡지 방문판매원도 했으며, 다른 교사 일과 과외도 맡았고, 잠깐이나마 거름을 퍼 나르는 일까지 했다. 그러다가 마침내 자신이 진정으로 열정을 느끼는 글쓰기에서 어느 정도 성공을 거두었다.\n\n헨리가 첫 책 《A Week on the Concord and Merrimack Rivers》를 낸 것은 서른한 살 때였다. 그는 12년 동안 직업을 바꾸고, 부모 집과 자취 생활 사이를 오가고, 자신의 가능성을 믿어 준 친구 집에 얹혀 지내기도 했다. 그 친구는 그를 두고 \"[그는] 학자이자 시인이며, 어린 사과나무처럼 가능성의 싹을 가득 품고 있다\"고 썼고, 결국 그 말은 맞는 말로 드러났다. 젊은 성인기 동안 헤매기는 했지만, 헨리 데이비드 소로는 결국 꽤 잘 풀린 셈이다. (참고로 그가 얹혀 살던 그 친구는 랠프 월도 에머슨이었다.)",
+      "searchText": "when are you really an adult? 번역본 읽기 언제 비로소 어른이 되는가?\n\njulie beck\n\n2016년 1월 5일\n\n어린 시절과 성인기의 경계가 그 어느 때보다 흐릿한 시대에, 사람을 정말 어른으로 만드는 것은 무엇일까?\n\n거울을 바라보는 젊은 여성과 아주 어린 소녀, 젊은 여성, 노년 여성의 이미지가 겹쳐 보이는 장면\n\n헨리를 \"방향을 못 잡은 사람\"이라고 불러도 아주 틀린 말은 아닐 것이다. 하버드를 졸업한 뒤 그는 부모 집으로 다시 들어갔고, 젊은 성인들의 고단함을 다루는 트렌드 기사에 바로 나올 법한 전형적인 부메랑 키드가 되었다.\n\n불황 속에서 졸업했지만 헨리는 교사 일을 구하는 데는 성공했다. 하지만 일을 시작한 지 2주 만에 그 일은 자기 길이 아니라고 판단하고 그만두었다. 이후 그는 꽤 오랫동안 자신의 소명을 찾아 헤맸다. 아버지의 연필 공장에서 일했고, 잡지 방문판매원도 했으며, 다른 교사 일과 과외도 맡았고, 잠깐이나마 거름을 퍼 나르는 일까지 했다. 그러다가 마침내 자신이 진정으로 열정을 느끼는 글쓰기에서 어느 정도 성공을 거두었다.\n\n헨리가 첫 책 《a week on the concord and merrimack rivers》를 낸 것은 서른한 살 때였다. 그는 12년 동안 직업을 바꾸고, 부모 집과 자취 생활 사이를 오가고, 자신의 가능성을 믿어 준 친구 집에 얹혀 지내기도 했다. 그 친구는 그를 두고 \"[그는] 학자이자 시인이며, 어린 사과나무처럼 가능성의 싹을 가득 품고 있다\"고 썼고, 결국 그 말은 맞는 말로 드러났다. 젊은 성인기 동안 헤매기는 했지만, 헨리 데이비드 소로는 결국 꽤 잘 풀린 셈이다. (참고로 그가 얹혀 살던 그 친구는 랠프 월도 에머슨이었다.)",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00266",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "그리고 적어도 19세기 미국의 백인 남성에게 그의 경로는 특별히 예외적인 것도 아니었다. 젊은 사람들은 종종 독립의 시기와 의존의 시기를 번갈아 겪었다. 이것이 낯설게 느껴진다면, 그것은 과거의 성인기 이행이 더 매끈하고 더 순탄했다는 \"신화\" 때문일 뿐이라고 텍사스대학교 오스틴 캠퍼스의 역사학자 Steven Mintz는 자신의 성인기 역사서 《The Prime of Life》에서 쓴다.\n\n사실 성인기로의 이행을 직업 갖기, 부모에게서 독립하기, 결혼하기, 아이 낳기 같은 표지들의 묶음으로 본다면, 1950년대와 1960년대를 예외로 하고는 역사상 대부분의 사람들은 결코 예측 가능한 방식으로 어른이 되지 않았다.\n\n그런데도 오늘날 여전히 이런 것들이 성인기의 권위 있는 표지로 남아 있다. 그래서 누군가 그것들을 너무 늦게 획득하거나 아예 모두 거부하면, \"요즘은 다들 어른이 안 된다\"는 탄식이 곧바로 나온다. 젊은 세대의 습관과 가치관을 한탄하는 것은 나이 든 세대의 오래된 권리이기도 하지만, 많은 젊은 성인들이 실제로도 부모 신발을 신어 보는 아이처럼 느끼고 있는 것 역시 사실이다.",
+      "searchText": "when are you really an adult? 번역본 읽기 그리고 적어도 19세기 미국의 백인 남성에게 그의 경로는 특별히 예외적인 것도 아니었다. 젊은 사람들은 종종 독립의 시기와 의존의 시기를 번갈아 겪었다. 이것이 낯설게 느껴진다면, 그것은 과거의 성인기 이행이 더 매끈하고 더 순탄했다는 \"신화\" 때문일 뿐이라고 텍사스대학교 오스틴 캠퍼스의 역사학자 steven mintz는 자신의 성인기 역사서 《the prime of life》에서 쓴다.\n\n사실 성인기로의 이행을 직업 갖기, 부모에게서 독립하기, 결혼하기, 아이 낳기 같은 표지들의 묶음으로 본다면, 1950년대와 1960년대를 예외로 하고는 역사상 대부분의 사람들은 결코 예측 가능한 방식으로 어른이 되지 않았다.\n\n그런데도 오늘날 여전히 이런 것들이 성인기의 권위 있는 표지로 남아 있다. 그래서 누군가 그것들을 너무 늦게 획득하거나 아예 모두 거부하면, \"요즘은 다들 어른이 안 된다\"는 탄식이 곧바로 나온다. 젊은 세대의 습관과 가치관을 한탄하는 것은 나이 든 세대의 오래된 권리이기도 하지만, 많은 젊은 성인들이 실제로도 부모 신발을 신어 보는 아이처럼 느끼고 있는 것 역시 사실이다.",
+      "order": 2
+    },
+    {
+      "id": "chatbot-00267",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "\"어린 시절과 성인기 사이에는 정말 힘든 전환이 있다고 생각해요.\" 성인 생활을 헤쳐 나가는 팁을 전하는 블로그와 그 연장선에 있는 책 《Adulting: How to Become a Grown-Up in 468 Easy(ish) Steps》의 저자 Kelly Williams Brown은 이렇게 말한다. \"이건 밀레니얼 세대만 힘든 게 아니에요. X세대도 힘들었고, 베이비붐 세대도 힘들었다고 생각해요. 갑자기 세상 한복판에 던져지면 선택지는 엄청나게 많아지는데, 그중 무엇을 골라야 하는지는 모르잖아요. 분명 엄마 아빠에게 들은 온갖 말들이 있는데도 실제로는 화장지도 없이 아비스 냅킨이나 갖다 쓰는 들늑대처럼 살고 있는 거죠.\"\n\n나이만 먹는다고 어른이 되는 것은 아니다. 그렇다면 무엇이 사람을 어른으로 만드는가? 미국에서는 사람들이 더 늦은 나이에 결혼하고 아이를 낳고 있지만, 그것들은 성인기의 선택적 장식물일 뿐이지 성인기 그 자체는 아니다. 심리학자들은 20대까지 이어지는 장기화된 청소년기, 혹은 \"성인진입기(emerging adulthood)\"를 말한다. 하지만 도대체 언제 그 단계에서 벗어나는가? 사람을 마침내, 정말로 어른으로 만드는 것은 무엇일까?\n\n나는 이 질문에 내가 할 수 있는 최선의 방식으로 답해 보려고 했다. 다만 미리 경고하자면 답은 없거나, 혹은 매우 복잡하고 다층적인 여러 답들뿐이다. Mintz의 표현을 빌리면, \"뒤죽박죽인 설명이라기보다 포스트모던한 설명\"이다. 위에서 내려다본 풍경이 워낙 흐릿하기 때문에, 나는 독자들에게 자신이 언제 어른이 되었다고 느꼈는지(정말 그런 순간이 있었다면) 보내 달라고 요청했다. 이 글에는 그 응답들 중 일부를 실었다. 여러 가닥의 실과, 그것이 짜 내는 전체 무늬를 함께 보여 주기 위해서다. 자, 출발해 보자.",
+      "searchText": "when are you really an adult? 번역본 읽기 \"어린 시절과 성인기 사이에는 정말 힘든 전환이 있다고 생각해요.\" 성인 생활을 헤쳐 나가는 팁을 전하는 블로그와 그 연장선에 있는 책 《adulting: how to become a grown-up in 468 easy(ish) steps》의 저자 kelly williams brown은 이렇게 말한다. \"이건 밀레니얼 세대만 힘든 게 아니에요. x세대도 힘들었고, 베이비붐 세대도 힘들었다고 생각해요. 갑자기 세상 한복판에 던져지면 선택지는 엄청나게 많아지는데, 그중 무엇을 골라야 하는지는 모르잖아요. 분명 엄마 아빠에게 들은 온갖 말들이 있는데도 실제로는 화장지도 없이 아비스 냅킨이나 갖다 쓰는 들늑대처럼 살고 있는 거죠.\"\n\n나이만 먹는다고 어른이 되는 것은 아니다. 그렇다면 무엇이 사람을 어른으로 만드는가? 미국에서는 사람들이 더 늦은 나이에 결혼하고 아이를 낳고 있지만, 그것들은 성인기의 선택적 장식물일 뿐이지 성인기 그 자체는 아니다. 심리학자들은 20대까지 이어지는 장기화된 청소년기, 혹은 \"성인진입기(emerging adulthood)\"를 말한다. 하지만 도대체 언제 그 단계에서 벗어나는가? 사람을 마침내, 정말로 어른으로 만드는 것은 무엇일까?\n\n나는 이 질문에 내가 할 수 있는 최선의 방식으로 답해 보려고 했다. 다만 미리 경고하자면 답은 없거나, 혹은 매우 복잡하고 다층적인 여러 답들뿐이다. mintz의 표현을 빌리면, \"뒤죽박죽인 설명이라기보다 포스트모던한 설명\"이다. 위에서 내려다본 풍경이 워낙 흐릿하기 때문에, 나는 독자들에게 자신이 언제 어른이 되었다고 느꼈는지(정말 그런 순간이 있었다면) 보내 달라고 요청했다. 이 글에는 그 응답들 중 일부를 실었다. 여러 가닥의 실과, 그것이 짜 내는 전체 무늬를 함께 보여 주기 위해서다. 자, 출발해 보자.",
+      "order": 3
+    },
+    {
+      "id": "chatbot-00268",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "\"어른이 된다\"는 건 내가 어릴 때 생각했던 것보다 훨씬 더 붙잡기 어려운, 일종의 추상적인 개념이더라고요. 어느 정도 나이가 되면 모든 게 저절로 이해될 거라고만 생각했어요. 어린 시절의 저를 축복해 주고 싶네요. 저는 정말 아무것도 몰랐거든요!\n지금 스물여덟인 저는, 어떤 때는 내가 어른 같고 또 많은 시간에는 전혀 그렇지 않다고 말할 수 있어요. 밀레니얼 세대로서 \"어른답게\" 산다는 건 몹시도 혼란스러워요. 비영리단체를 시작해야 하는 건지, 학위를 하나 더 따야 하는 건지, 대박 나는 창업 아이템을 만들어야 하는 건지, 아니면 전 세계를 여행하면서 그 모든 과정을 온라인에서 아무렇지도 않은 듯 보이게 만들어야 하는 건지 도무지 모르겠어요. 실제 삶은 그저 내가 전공한 분야도 아닌 곳에서 학자금 대출도 다 못 갚을 것 같은 직장을 잡는 모습에 더 가까워요. 게다가 제가 생각하는 전통적인 \"어른\"의 기준으로 저 자신을 재보면, 그 기준도 제대로 못 맞추고 있어요. 저는 미혼이고, 오래 지속되면서도 경제적으로 안정적인 커리어에 안착하지도 못했어요. 경제 상황이 이렇고, 밀레니얼 세대에게 연애가 얼마나 고된 일인지 생각하면 저를 그렇게 평가하는 건 불공정하다는 걸 알면서도, 저는 꽤 자주 비교의 함정에 빠져요. 어떤 때는 정말로 그 삶을 원해서이고, 또 어떤 때는 인스타그램 때문이죠.\n제 삶은 가지런히 정리돼 있는 게 아니라 여기저기 흩어져 떠도는 상태예요.\n-Maria Eleusiniotis",
+      "searchText": "when are you really an adult? 번역본 읽기 \"어른이 된다\"는 건 내가 어릴 때 생각했던 것보다 훨씬 더 붙잡기 어려운, 일종의 추상적인 개념이더라고요. 어느 정도 나이가 되면 모든 게 저절로 이해될 거라고만 생각했어요. 어린 시절의 저를 축복해 주고 싶네요. 저는 정말 아무것도 몰랐거든요!\n지금 스물여덟인 저는, 어떤 때는 내가 어른 같고 또 많은 시간에는 전혀 그렇지 않다고 말할 수 있어요. 밀레니얼 세대로서 \"어른답게\" 산다는 건 몹시도 혼란스러워요. 비영리단체를 시작해야 하는 건지, 학위를 하나 더 따야 하는 건지, 대박 나는 창업 아이템을 만들어야 하는 건지, 아니면 전 세계를 여행하면서 그 모든 과정을 온라인에서 아무렇지도 않은 듯 보이게 만들어야 하는 건지 도무지 모르겠어요. 실제 삶은 그저 내가 전공한 분야도 아닌 곳에서 학자금 대출도 다 못 갚을 것 같은 직장을 잡는 모습에 더 가까워요. 게다가 제가 생각하는 전통적인 \"어른\"의 기준으로 저 자신을 재보면, 그 기준도 제대로 못 맞추고 있어요. 저는 미혼이고, 오래 지속되면서도 경제적으로 안정적인 커리어에 안착하지도 못했어요. 경제 상황이 이렇고, 밀레니얼 세대에게 연애가 얼마나 고된 일인지 생각하면 저를 그렇게 평가하는 건 불공정하다는 걸 알면서도, 저는 꽤 자주 비교의 함정에 빠져요. 어떤 때는 정말로 그 삶을 원해서이고, 또 어떤 때는 인스타그램 때문이죠.\n제 삶은 가지런히 정리돼 있는 게 아니라 여기저기 흩어져 떠도는 상태예요.\n-maria eleusiniotis",
+      "order": 4
+    },
+    {
+      "id": "chatbot-00269",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "성인기는 사회적 구성물이다. 더 나아가 어린 시절 역시 사회적 구성물이다. 하지만 모든 사회적 구성물이 그렇듯, 그것은 실제 결과를 낳는다. 누가 자신의 행동에 법적 책임을 지는지, 누가 사회에서 어떤 역할을 맡을 수 있는지, 사람들이 서로를 어떻게 보는지, 또 자신을 어떻게 이해하는지를 규정한다. 그런데 차이를 가장 쉽게 정의할 수 있을 것처럼 보이는 영역, 즉 법과 신체 발달의 영역에서조차 성인기는 단순하게 정의되지 않는다.\n\n미국에서는 스물한 살이 되어야 술을 마실 수 있지만, 법적 성인, 투표권, 군 입대 가능 연령은 열여덟 살이다. 정말 그럴까? 성인 영화를 보는 것은 열일곱 살부터 가능하다. 또 주마다 제한은 다르지만 열네 살부터 일할 수도 있고, 신문 배달이나 베이비시팅, 부모 일을 돕는 일은 그보다 더 어린 나이에도 할 수 있는 경우가 많다.\n\n\"연령 자체는 [성숙함의] 썩 좋은 지표가 아니에요. 하지만 실용적인 이유 때문에 우리는 그런 기준을 쓸 수밖에 없죠.\" 템플대학교 심리학과의 저명한 교수 Laurence Steinberg는 이렇게 말한다. \"우리는 아주 지혜롭고 성숙한 스물한 살, 스물두 살도 알고 있고, 동시에 매우 미성숙하고 무모한 사람들도 알아요. 누가 술을 살 수 있는지 결정하려고 일일이 성숙도 검사를 하지는 않을 테니까요.\"\n\n성인기를 가늠하는 한 가지 방법은 몸의 성숙도일 수 있다. 신체 발달이 공식적으로 끝나는 어떤 지점, 즉 생물학적으로 \"성체\"가 되는 시점이 분명 있을 것 같지 않은가?\n\n하지만 그것도 무엇을 기준으로 보느냐에 달려 있다. 국립아동보건인간발달연구소에 따르면 인간은 사춘기 이후 성적으로 성숙하지만, 사춘기는 여자아이의 경우 8세에서 13세 사이, 남자아이의 경우 9세에서 14세 사이 어디에서 시작되어도 \"정상\" 범주에 들어간다.",
+      "searchText": "when are you really an adult? 번역본 읽기 성인기는 사회적 구성물이다. 더 나아가 어린 시절 역시 사회적 구성물이다. 하지만 모든 사회적 구성물이 그렇듯, 그것은 실제 결과를 낳는다. 누가 자신의 행동에 법적 책임을 지는지, 누가 사회에서 어떤 역할을 맡을 수 있는지, 사람들이 서로를 어떻게 보는지, 또 자신을 어떻게 이해하는지를 규정한다. 그런데 차이를 가장 쉽게 정의할 수 있을 것처럼 보이는 영역, 즉 법과 신체 발달의 영역에서조차 성인기는 단순하게 정의되지 않는다.\n\n미국에서는 스물한 살이 되어야 술을 마실 수 있지만, 법적 성인, 투표권, 군 입대 가능 연령은 열여덟 살이다. 정말 그럴까? 성인 영화를 보는 것은 열일곱 살부터 가능하다. 또 주마다 제한은 다르지만 열네 살부터 일할 수도 있고, 신문 배달이나 베이비시팅, 부모 일을 돕는 일은 그보다 더 어린 나이에도 할 수 있는 경우가 많다.\n\n\"연령 자체는 [성숙함의] 썩 좋은 지표가 아니에요. 하지만 실용적인 이유 때문에 우리는 그런 기준을 쓸 수밖에 없죠.\" 템플대학교 심리학과의 저명한 교수 laurence steinberg는 이렇게 말한다. \"우리는 아주 지혜롭고 성숙한 스물한 살, 스물두 살도 알고 있고, 동시에 매우 미성숙하고 무모한 사람들도 알아요. 누가 술을 살 수 있는지 결정하려고 일일이 성숙도 검사를 하지는 않을 테니까요.\"\n\n성인기를 가늠하는 한 가지 방법은 몸의 성숙도일 수 있다. 신체 발달이 공식적으로 끝나는 어떤 지점, 즉 생물학적으로 \"성체\"가 되는 시점이 분명 있을 것 같지 않은가?\n\n하지만 그것도 무엇을 기준으로 보느냐에 달려 있다. 국립아동보건인간발달연구소에 따르면 인간은 사춘기 이후 성적으로 성숙하지만, 사춘기는 여자아이의 경우 8세에서 13세 사이, 남자아이의 경우 9세에서 14세 사이 어디에서 시작되어도 \"정상\" 범주에 들어간다.",
+      "order": 5
+    },
+    {
+      "id": "chatbot-00270",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "이 범위는 무척 넓다. 그리고 설령 그렇지 않다고 해도, 성적으로 성숙해졌다고 해서 성장이 끝난 것은 아니다. 수세기 동안 골격 발달은 성숙의 기준으로 여겨져 왔다. 영국의 1833년 공장법 아래에서는 두 번째 큰어금니가 나온 것이 아이가 공장에서 일할 만큼 컸다는 증거로 받아들여졌는데, 성인 치열의 그 치아는 보통 11세에서 13세 사이에 나온다. 오늘날에도 망명을 신청한 난민 아동의 나이를 판단할 때 치과 엑스레이와 손목 엑스레이가 쓰이지만, 둘 다 신뢰할 만하지 않다.\n\n골격 성숙은 골격의 어느 부위를 보느냐에 따라 다르다. 예를 들어 사랑니는 보통 17세에서 21세 사이에 나오며, 영국 Loughborough University의 인간생물학 교수 Noel Cameron은 나이 판단에 자주 쓰이는 손과 손목뼈도 각각 다른 속도로 성숙한다고 말한다. 손목뼈(carpals)는 13세나 14세에 완전히 발달하지만, 다른 뼈들, 즉 요골, 척골, 중수골, 지골은 15세에서 18세에 걸쳐 발달을 마친다. 몸에서 가장 늦게 성숙하는 뼈인 쇄골은 25세에서 35세 사이에야 완성된다. 게다가 Cameron은 환경적 요인과 사회경제적 요인도 뼈 발달 속도에 영향을 준다고 말한다. 따라서 개발도상국에서 온 망명 신청 난민들은 성숙이 늦은 편일 수도 있다.\n\n\"연령은 생물학적 표지가 아닙니다.\" Cameron은 말한다. \"모든 정상적인 생물학적 과정은 연속선 위에 있어요.\"",
+      "searchText": "when are you really an adult? 번역본 읽기 이 범위는 무척 넓다. 그리고 설령 그렇지 않다고 해도, 성적으로 성숙해졌다고 해서 성장이 끝난 것은 아니다. 수세기 동안 골격 발달은 성숙의 기준으로 여겨져 왔다. 영국의 1833년 공장법 아래에서는 두 번째 큰어금니가 나온 것이 아이가 공장에서 일할 만큼 컸다는 증거로 받아들여졌는데, 성인 치열의 그 치아는 보통 11세에서 13세 사이에 나온다. 오늘날에도 망명을 신청한 난민 아동의 나이를 판단할 때 치과 엑스레이와 손목 엑스레이가 쓰이지만, 둘 다 신뢰할 만하지 않다.\n\n골격 성숙은 골격의 어느 부위를 보느냐에 따라 다르다. 예를 들어 사랑니는 보통 17세에서 21세 사이에 나오며, 영국 loughborough university의 인간생물학 교수 noel cameron은 나이 판단에 자주 쓰이는 손과 손목뼈도 각각 다른 속도로 성숙한다고 말한다. 손목뼈(carpals)는 13세나 14세에 완전히 발달하지만, 다른 뼈들, 즉 요골, 척골, 중수골, 지골은 15세에서 18세에 걸쳐 발달을 마친다. 몸에서 가장 늦게 성숙하는 뼈인 쇄골은 25세에서 35세 사이에야 완성된다. 게다가 cameron은 환경적 요인과 사회경제적 요인도 뼈 발달 속도에 영향을 준다고 말한다. 따라서 개발도상국에서 온 망명 신청 난민들은 성숙이 늦은 편일 수도 있다.\n\n\"연령은 생물학적 표지가 아닙니다.\" cameron은 말한다. \"모든 정상적인 생물학적 과정은 연속선 위에 있어요.\"",
+      "order": 6
+    },
+    {
+      "id": "chatbot-00271",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "저는 아직 어른이 되지 않았다고 생각해요. 저는 스물한 살 미국인 학생이고, 거의 전적으로 부모님의 경제적 지원에 의존해 살고 있어요. 지난 몇 년 동안 저는 부모님의 경제적 보호 아래에서 벗어나야 한다는 압박을 느껴 왔어요. 그게 생물학적 압박인지 사회적 압박인지는 모르겠지만요. 저는 경제적으로 자립할 수 있을 때에야 비로소 진짜 \"어른\"이 될 거라고 느껴요. 전통적인 성인기의 표지들, 이를테면 18세가 되는 것, 21세가 되는 것은 이미 지나갔지만 저는 그때마다 조금도 더 어른 같아지지 않았어요. 그리고 결혼 역시 경제적 독립이 함께하지 않는다면 저를 어른처럼 느끼게 하지는 못할 것 같아요. 돈은 정말 중요해요. 어떤 나이를 지나고 나면 돈이야말로 내가 무엇을 할 수 있고 무엇을 할 수 없는지를 가장 크게 결정하니까요. 그리고 제게는 내 삶의 모든 \"선택들\"을 스스로 고를 수 있는 자유가 사람을 어른으로 만드는 것 같아요.\n-Stephen Grapes\n\n그렇다면 신체적 전환만으로는 성인기의 경계를 정의하는 데 거의 도움이 되지 않는다. 문화적 전환은 어떨까? 사람들은 킨세아녜라, 바르미츠바, 가톨릭 견진성사 같은 성인식에 들어갔다가 어른으로 나온다. 적어도 이론상으로는 그렇다. 하지만 현실의 오늘날 사회에서 열세 살 소녀는 바트미츠바를 치렀다고 해서 곧바로 부모로부터 독립한 사람이 되지 않는다. 회당 안에서 더 많은 책임을 맡게 될 수는 있지만, 그것은 성인기로 가는 긴 길의 한 단계일 뿐이지 빠른 지름길이 아니다. 성인식이라는 개념은 어떤 중대한 순간만 있으면 스위치를 딱 켤 수 있다는 상상을 품고 있다.",
+      "searchText": "when are you really an adult? 번역본 읽기 저는 아직 어른이 되지 않았다고 생각해요. 저는 스물한 살 미국인 학생이고, 거의 전적으로 부모님의 경제적 지원에 의존해 살고 있어요. 지난 몇 년 동안 저는 부모님의 경제적 보호 아래에서 벗어나야 한다는 압박을 느껴 왔어요. 그게 생물학적 압박인지 사회적 압박인지는 모르겠지만요. 저는 경제적으로 자립할 수 있을 때에야 비로소 진짜 \"어른\"이 될 거라고 느껴요. 전통적인 성인기의 표지들, 이를테면 18세가 되는 것, 21세가 되는 것은 이미 지나갔지만 저는 그때마다 조금도 더 어른 같아지지 않았어요. 그리고 결혼 역시 경제적 독립이 함께하지 않는다면 저를 어른처럼 느끼게 하지는 못할 것 같아요. 돈은 정말 중요해요. 어떤 나이를 지나고 나면 돈이야말로 내가 무엇을 할 수 있고 무엇을 할 수 없는지를 가장 크게 결정하니까요. 그리고 제게는 내 삶의 모든 \"선택들\"을 스스로 고를 수 있는 자유가 사람을 어른으로 만드는 것 같아요.\n-stephen grapes\n\n그렇다면 신체적 전환만으로는 성인기의 경계를 정의하는 데 거의 도움이 되지 않는다. 문화적 전환은 어떨까? 사람들은 킨세아녜라, 바르미츠바, 가톨릭 견진성사 같은 성인식에 들어갔다가 어른으로 나온다. 적어도 이론상으로는 그렇다. 하지만 현실의 오늘날 사회에서 열세 살 소녀는 바트미츠바를 치렀다고 해서 곧바로 부모로부터 독립한 사람이 되지 않는다. 회당 안에서 더 많은 책임을 맡게 될 수는 있지만, 그것은 성인기로 가는 긴 길의 한 단계일 뿐이지 빠른 지름길이 아니다. 성인식이라는 개념은 어떤 중대한 순간만 있으면 스위치를 딱 켤 수 있다는 상상을 품고 있다.",
+      "order": 7
+    },
+    {
+      "id": "chatbot-00272",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "고등학교와 대학교 졸업식은 때로 수백 명의 사람들을 한꺼번에 성인기로 넘겨 보내는, 말하자면 스위치를 켜거나 학사모 술을 넘기는 의례다. 하지만 현실에서 사람들은 졸업하자마자 완성된 어른의 삶으로 곧장 들어가는 일이 드물다. 게다가 졸업 자체가 보편적인 경험도 아니다. 그리고 중등교육과 고등교육은 오히려 어린 시절과 성인기 사이의 과도기를 길게 늘리는 데 큰 역할을 해 왔다.\n\n19세기 미국의 교육개혁 물결은 여기저기 흩어져 있던 학교와 가정교육의 뒤얽힌 체계를 연령별 학급을 갖춘 공립 초등학교와 고등학교 체제로 바꾸어 놓았다. 그리고 1918년이 되자 모든 주가 의무교육법을 시행했다. Mintz에 따르면 이러한 개혁은 \"모든 젊은이들이 교육된 단계들을 거쳐 성인기에 도달하도록 하는 제도적 사다리를 만들기 위한 것\"이었다. 오늘날 대학 접근성을 확대하려는 시도 역시 비슷한 목적을 갖고 있다.\n\n사람들이 스물한 살, 스물두 살까지 학교에 머무르는 이런 제도화된 전환기의 형성은 뇌가 어떻게 성숙하는지에 대해 과학자들이 알고 있는 내용과도 꽤 잘 들어맞는다.\n\n청소년기와 뇌 발달을 연구하는 Steinberg에 따르면, 대략 스물두세 살 무렵이면 뇌 발달은 거의 끝난다. 그렇다고 해서 더 이상 배울 수 없다는 뜻은 아니다. 배울 수 있다. 신경과학자들은 뇌가 평생 동안 여전히 \"가소적(plastic)\"이라는 사실, 즉 변형 가능하고 변화 가능하다는 사실을 발견하고 있다. 다만 성인기의 가소성은 뇌가 새로운 회로를 만들고 불필요한 회로를 쳐내는 발달기 가소성과는 다르다. 성인기의 가소성 역시 뇌를 수정할 수 있게 하지만, 그 시점이 되면 신경 구조 자체가 새로 바뀌지는 않는다.\n\n\"집을 리모델링하는 것과 인테리어만 다시 하는 것의 차이라고 보면 됩니다.\" Steinberg는 이렇게 말한다.",
+      "searchText": "when are you really an adult? 번역본 읽기 고등학교와 대학교 졸업식은 때로 수백 명의 사람들을 한꺼번에 성인기로 넘겨 보내는, 말하자면 스위치를 켜거나 학사모 술을 넘기는 의례다. 하지만 현실에서 사람들은 졸업하자마자 완성된 어른의 삶으로 곧장 들어가는 일이 드물다. 게다가 졸업 자체가 보편적인 경험도 아니다. 그리고 중등교육과 고등교육은 오히려 어린 시절과 성인기 사이의 과도기를 길게 늘리는 데 큰 역할을 해 왔다.\n\n19세기 미국의 교육개혁 물결은 여기저기 흩어져 있던 학교와 가정교육의 뒤얽힌 체계를 연령별 학급을 갖춘 공립 초등학교와 고등학교 체제로 바꾸어 놓았다. 그리고 1918년이 되자 모든 주가 의무교육법을 시행했다. mintz에 따르면 이러한 개혁은 \"모든 젊은이들이 교육된 단계들을 거쳐 성인기에 도달하도록 하는 제도적 사다리를 만들기 위한 것\"이었다. 오늘날 대학 접근성을 확대하려는 시도 역시 비슷한 목적을 갖고 있다.\n\n사람들이 스물한 살, 스물두 살까지 학교에 머무르는 이런 제도화된 전환기의 형성은 뇌가 어떻게 성숙하는지에 대해 과학자들이 알고 있는 내용과도 꽤 잘 들어맞는다.\n\n청소년기와 뇌 발달을 연구하는 steinberg에 따르면, 대략 스물두세 살 무렵이면 뇌 발달은 거의 끝난다. 그렇다고 해서 더 이상 배울 수 없다는 뜻은 아니다. 배울 수 있다. 신경과학자들은 뇌가 평생 동안 여전히 \"가소적(plastic)\"이라는 사실, 즉 변형 가능하고 변화 가능하다는 사실을 발견하고 있다. 다만 성인기의 가소성은 뇌가 새로운 회로를 만들고 불필요한 회로를 쳐내는 발달기 가소성과는 다르다. 성인기의 가소성 역시 뇌를 수정할 수 있게 하지만, 그 시점이 되면 신경 구조 자체가 새로 바뀌지는 않는다.\n\n\"집을 리모델링하는 것과 인테리어만 다시 하는 것의 차이라고 보면 됩니다.\" steinberg는 이렇게 말한다.",
+      "order": 8
+    },
+    {
+      "id": "chatbot-00273",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "물론 그 이전에도 이미 성숙한 뇌 기능은 많다. Steinberg에 따르면 논리적 추론, 계획 수립, 기타 고차원적 사고를 담당하는 뇌의 실행기능은 \"대략 16세쯤이면 성인 수준의 성숙도\"에 도달한다. 그래서 평균적으로 보면 16세 청소년도 논리 시험에서는 더 나이 많은 사람만큼 잘할 수 있어야 한다.\n\nBoris Sosnovyy / Shutterstock / svetography / stevecuk / Fotolia / Paul Spella / The Atlantic\n\n조금 더 오래 걸려 발달하는 것은 생각을 조절하는 전전두엽과 감정이 주로 비롯되는 변연계 사이의 연결이다. NICHD 아동발달행동분과의 부책임자인 James Griffin의 표현을 빌리면, 여기에는 \"네 가지 F-fight, flight, feeding, 그리고 ffff ... fooling around\"라고 부를 수 있는 생물학적 충동도 함께 걸려 있다.\n\n이 연결이 완전히 자리 잡기 전까지 사람들은 충동을 통제하는 능력이 상대적으로 떨어지는 경향이 있다. 이것이 대법원이 미성년자에게 종신형을 부과하는 데 제한을 둔 이유 중 하나다. 대법원은 2010년 판결문에서 이렇게 썼다. \"심리학과 뇌과학의 발전은 청소년의 정신과 성인의 정신 사이에 근본적인 차이가 있음을 계속해서 보여 주고 있다. 예를 들어 행동 통제와 관련된 뇌 영역은 청소년기 후반까지 계속 성숙한다. ... 청소년은 성인보다 변화 가능성이 더 크며, 그들의 행동은 성인의 행동만큼 '돌이킬 수 없을 정도로 타락한 성격'의 증거로 보기 어렵다.\"",
+      "searchText": "when are you really an adult? 번역본 읽기 물론 그 이전에도 이미 성숙한 뇌 기능은 많다. steinberg에 따르면 논리적 추론, 계획 수립, 기타 고차원적 사고를 담당하는 뇌의 실행기능은 \"대략 16세쯤이면 성인 수준의 성숙도\"에 도달한다. 그래서 평균적으로 보면 16세 청소년도 논리 시험에서는 더 나이 많은 사람만큼 잘할 수 있어야 한다.\n\nboris sosnovyy / shutterstock / svetography / stevecuk / fotolia / paul spella / the atlantic\n\n조금 더 오래 걸려 발달하는 것은 생각을 조절하는 전전두엽과 감정이 주로 비롯되는 변연계 사이의 연결이다. nichd 아동발달행동분과의 부책임자인 james griffin의 표현을 빌리면, 여기에는 \"네 가지 f-fight, flight, feeding, 그리고 ffff ... fooling around\"라고 부를 수 있는 생물학적 충동도 함께 걸려 있다.\n\n이 연결이 완전히 자리 잡기 전까지 사람들은 충동을 통제하는 능력이 상대적으로 떨어지는 경향이 있다. 이것이 대법원이 미성년자에게 종신형을 부과하는 데 제한을 둔 이유 중 하나다. 대법원은 2010년 판결문에서 이렇게 썼다. \"심리학과 뇌과학의 발전은 청소년의 정신과 성인의 정신 사이에 근본적인 차이가 있음을 계속해서 보여 주고 있다. 예를 들어 행동 통제와 관련된 뇌 영역은 청소년기 후반까지 계속 성숙한다. ... 청소년은 성인보다 변화 가능성이 더 크며, 그들의 행동은 성인의 행동만큼 '돌이킬 수 없을 정도로 타락한 성격'의 증거로 보기 어렵다.\"",
+      "order": 9
+    },
+    {
+      "id": "chatbot-00274",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "그럼에도 Steinberg는 성숙의 문제는 결국 어떤 과제를 두고 보느냐에 따라 달라진다고 말한다. 예컨대 논리적 추론 능력은 이미 충분히 발달해 있기 때문에, 다른 뇌 기능이 아직 성숙 중이라 하더라도 16세 청소년에게 투표권을 주지 말아야 할 이유는 없다고 그는 본다. 그는 이렇게 말한다. \"지면에서 5피트 높이에 있는 선반에 닿기 위해 꼭 키가 6피트일 필요는 없어요. 16세 이후에야 발달하는 능력 가운데, 정보에 근거한 투표를 하는 데 반드시 필요한 능력이 무엇인지 말하려면 상당히 곤란할 겁니다. 청소년들은 그 나이가 되면 성인보다 더 멍청한 투표 결정을 하지는 않을 거예요.\"",
+      "searchText": "when are you really an adult? 번역본 읽기 그럼에도 steinberg는 성숙의 문제는 결국 어떤 과제를 두고 보느냐에 따라 달라진다고 말한다. 예컨대 논리적 추론 능력은 이미 충분히 발달해 있기 때문에, 다른 뇌 기능이 아직 성숙 중이라 하더라도 16세 청소년에게 투표권을 주지 말아야 할 이유는 없다고 그는 본다. 그는 이렇게 말한다. \"지면에서 5피트 높이에 있는 선반에 닿기 위해 꼭 키가 6피트일 필요는 없어요. 16세 이후에야 발달하는 능력 가운데, 정보에 근거한 투표를 하는 데 반드시 필요한 능력이 무엇인지 말하려면 상당히 곤란할 겁니다. 청소년들은 그 나이가 되면 성인보다 더 멍청한 투표 결정을 하지는 않을 거예요.\"",
+      "order": 10
+    },
+    {
+      "id": "chatbot-00275",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "저는 산부인과 의사로 일하면서 여성들이 삶의 여러 변화를 힘겹게 지나가는 모습을 봅니다. 10대 후반과 20대 초반의 환자들이 한층 어른스럽게 행동하면서도 스스로는 모든 걸 안다고 여기는 모습도 봐요. 새엄마가 되는 법을 배워 가며 안내서라도 있었으면 하고, 막막해하는 환자들도 봅니다. 이혼을 겪고 난 뒤 다시 자기 자신을 찾으려 애쓰는 여성들도 보고요. 폐경기와 그 이후에도 젊음을 붙들려는 모습도 봅니다. 그래서 저는 한동안 바로 이 주제, \"어른이 된다는 것\"을 곱씹어 왔어요.\n저는 엄마이고, 초등학생 아이가 셋 있으며, 결혼도 했지만 안타깝게도 행복하지는 않아요. 그런데도 여전히 내가 자라고 있는 것처럼 느껴집니다. 배우자의 외도는 정신이 번쩍 드는 계기였어요. 저는 스스로에게 \"너는 무엇을 원하니?\", \"무엇이 너를 행복하게 하니?\"라고 묻기 시작했죠. 저를 포함해 많은 사람들이 살아가면서 중간중간 많은 것들을 묻지 않은 채 그냥 지나친다고 생각해요. 마흔 살인 지금, 저는 바로 이 시기가 내가 어른이 되어 가는 때라고 느껴요. 바로 지금이지만, 아직 완전히 다 된 것은 아니죠. 결혼생활의 갈등 속에서 저는 상담 치료를 시작했어요(이십 대 때 했더라면 좋았을 텐데요). 지금에서야 저는 내가 누구인지 정말로 배우고 있어요. 내가 결혼생활을 유지할지, 그 일이 앞으로 아이들에게나 제게 어떤 모습으로 다가올지는 모르겠어요. 다만 제가 떠난다면, 그때는 어른이 되었다고 느낄 것 같아요. 그건 그때 내가 나 자신을 위해 무언가를 한 셈이 되기 때문이에요.\n제 생각에 \"언제 어른이 되는가\"라는 질문의 답은 결국 마침내 자기 자신을 받아들이게 되는 때와 관련이 있어요. 폐경기를 겪으면서도 시간을 멈추려 애쓰는 제 환자들은 40대 중후반, 50대 중반이어도 어른처럼 보이지 않아요. 반면 삶의",
+      "searchText": "when are you really an adult? 번역본 읽기 저는 산부인과 의사로 일하면서 여성들이 삶의 여러 변화를 힘겹게 지나가는 모습을 봅니다. 10대 후반과 20대 초반의 환자들이 한층 어른스럽게 행동하면서도 스스로는 모든 걸 안다고 여기는 모습도 봐요. 새엄마가 되는 법을 배워 가며 안내서라도 있었으면 하고, 막막해하는 환자들도 봅니다. 이혼을 겪고 난 뒤 다시 자기 자신을 찾으려 애쓰는 여성들도 보고요. 폐경기와 그 이후에도 젊음을 붙들려는 모습도 봅니다. 그래서 저는 한동안 바로 이 주제, \"어른이 된다는 것\"을 곱씹어 왔어요.\n저는 엄마이고, 초등학생 아이가 셋 있으며, 결혼도 했지만 안타깝게도 행복하지는 않아요. 그런데도 여전히 내가 자라고 있는 것처럼 느껴집니다. 배우자의 외도는 정신이 번쩍 드는 계기였어요. 저는 스스로에게 \"너는 무엇을 원하니?\", \"무엇이 너를 행복하게 하니?\"라고 묻기 시작했죠. 저를 포함해 많은 사람들이 살아가면서 중간중간 많은 것들을 묻지 않은 채 그냥 지나친다고 생각해요. 마흔 살인 지금, 저는 바로 이 시기가 내가 어른이 되어 가는 때라고 느껴요. 바로 지금이지만, 아직 완전히 다 된 것은 아니죠. 결혼생활의 갈등 속에서 저는 상담 치료를 시작했어요(이십 대 때 했더라면 좋았을 텐데요). 지금에서야 저는 내가 누구인지 정말로 배우고 있어요. 내가 결혼생활을 유지할지, 그 일이 앞으로 아이들에게나 제게 어떤 모습으로 다가올지는 모르겠어요. 다만 제가 떠난다면, 그때는 어른이 되었다고 느낄 것 같아요. 그건 그때 내가 나 자신을 위해 무언가를 한 셈이 되기 때문이에요.\n제 생각에 \"언제 어른이 되는가\"라는 질문의 답은 결국 마침내 자기 자신을 받아들이게 되는 때와 관련이 있어요. 폐경기를 겪으면서도 시간을 멈추려 애쓰는 제 환자들은 40대 중후반, 50대 중반이어도 어른처럼 보이지 않아요. 반면 삶의",
+      "order": 11
+    },
+    {
+      "id": "chatbot-00276",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "어떤 시련 속에서도 단단해 보이는 환자들이 있는데, 그런 여성들이 제게는 어른처럼 보여요. 그들은 여전히 젊은 영혼을 지니고 있지만, 몸의 달갑지 않은 변화도 받아들이고, 아이 때문에 잠이 부족한 현실도 받아들이고, 바꿀 수 없는 것들도 받아들이며 모든 변화를 감당해 냅니다.\n-Anonymous\n\n대학 시절 내 글쓰기 교수 가운데 한 명은 스스로를 약간은 도발가라고 여겼던 것 같다. 어쨌든 그는 늘 우리에게 진실 폭탄을 떨어뜨리려 했다. 대부분은 그냥 튕겨 나갔지만, 하나는 나를 정통으로 맞혔다. 무슨 계기로 그런 말이 나왔는지는 기억나지 않지만, 어느 수업 시간에 그는 잠시 멈추더니 단언했다. \"너희는 스물두 살에서 스물다섯 살 사이에 비참할 거야. 미안하지만, 대부분 사람들처럼 허우적거리게 될 거다.\"\n\n그리고 바로 그 단어, \"허우적거림(flailing)\"이 그 뒤 여러 해 동안 내 머릿속에 남았다. 내가 바라는 삶이 손에 닿지 않을 때마다, 나는 그 말을 마음속 근심돌처럼 매만져 왔다. 허우적거림은 바로 그 나이대 많은 이들에게 실제로 일어나는 일을 정확히 묘사하는 말이다.",
+      "searchText": "when are you really an adult? 번역본 읽기 어떤 시련 속에서도 단단해 보이는 환자들이 있는데, 그런 여성들이 제게는 어른처럼 보여요. 그들은 여전히 젊은 영혼을 지니고 있지만, 몸의 달갑지 않은 변화도 받아들이고, 아이 때문에 잠이 부족한 현실도 받아들이고, 바꿀 수 없는 것들도 받아들이며 모든 변화를 감당해 냅니다.\n-anonymous\n\n대학 시절 내 글쓰기 교수 가운데 한 명은 스스로를 약간은 도발가라고 여겼던 것 같다. 어쨌든 그는 늘 우리에게 진실 폭탄을 떨어뜨리려 했다. 대부분은 그냥 튕겨 나갔지만, 하나는 나를 정통으로 맞혔다. 무슨 계기로 그런 말이 나왔는지는 기억나지 않지만, 어느 수업 시간에 그는 잠시 멈추더니 단언했다. \"너희는 스물두 살에서 스물다섯 살 사이에 비참할 거야. 미안하지만, 대부분 사람들처럼 허우적거리게 될 거다.\"\n\n그리고 바로 그 단어, \"허우적거림(flailing)\"이 그 뒤 여러 해 동안 내 머릿속에 남았다. 내가 바라는 삶이 손에 닿지 않을 때마다, 나는 그 말을 마음속 근심돌처럼 매만져 왔다. 허우적거림은 바로 그 나이대 많은 이들에게 실제로 일어나는 일을 정확히 묘사하는 말이다.",
+      "order": 12
+    },
+    {
+      "id": "chatbot-00277",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "열여덟 살에서 스물다섯 살 사이의 많은 이들이 \"당신은 어른입니까?\"라는 질문에 선뜻 답하지 못했다는 사실은 Jeffrey Jensen Arnett로 하여금 1990년대 후반 이 연령대를 자신이 \"성인진입기(emerging adulthood)\"라고 부른 새로운 생애 단계로 묶게 했다. 성인진입기는 청소년기와 진짜 성인기 사이에 있는 모호한 과도기다. 얼마나 모호하냐면, Clark University의 심리학 연구교수인 Jensen Arnett는 어떤 때는 그 상한선을 25세로 잡고, 어떤 때는 29세로 잡기도 한다. 그는 청소년기가 보통 사람들이 고등학교를 마치고 부모의 집을 떠나며 법적으로 성인으로 인정받는 18세에 분명 끝난다고 본다. 하지만 성인진입기는 ... 각자가 준비되었을 때 끝난다.\n\n이런 모호함 때문에 성인진입기가 정말 하나의 독립된 생애 단계인지에 대한 이견도 생겼다. Steinberg는 대표적인 비판자다. 그는 \"저는 성인진입기를 별개의 생애 단계라고 보는 입장이 아니에요\"라고 말한다. \"차라리 청소년기가 길어졌다고 생각하는 편이 더 도움이 된다고 봅니다.\" 그는 자신의 책 《Age of Opportunity》에서 청소년기를 사춘기부터 성인 역할을 떠맡기 시작할 때까지로 정의한다. 그는 19세기 소녀들의 경우 첫 초경에서 결혼까지의 기간이 약 5년이었지만, 초경 연령은 낮아지고 결혼 연령은 높아진 덕분에 2010년에는 그 기간이 15년이 되었다고 쓴다.\n\n성인진입기 개념의 다른 비판자들은, 18세에서 25세 사이의 시기(아니면 29세까지인가?)가 과도기라는 사실만으로 그것이 곧 별도의 발달 단계를 뜻하는 것은 아니라고 말한다. 어느 연구는 \"생활 조건에는 변화가 있을 수 있지만, 인간 발달은 그런 단순한 변화와 동의어가 아니다\"라고 적고 있다.",
+      "searchText": "when are you really an adult? 번역본 읽기 열여덟 살에서 스물다섯 살 사이의 많은 이들이 \"당신은 어른입니까?\"라는 질문에 선뜻 답하지 못했다는 사실은 jeffrey jensen arnett로 하여금 1990년대 후반 이 연령대를 자신이 \"성인진입기(emerging adulthood)\"라고 부른 새로운 생애 단계로 묶게 했다. 성인진입기는 청소년기와 진짜 성인기 사이에 있는 모호한 과도기다. 얼마나 모호하냐면, clark university의 심리학 연구교수인 jensen arnett는 어떤 때는 그 상한선을 25세로 잡고, 어떤 때는 29세로 잡기도 한다. 그는 청소년기가 보통 사람들이 고등학교를 마치고 부모의 집을 떠나며 법적으로 성인으로 인정받는 18세에 분명 끝난다고 본다. 하지만 성인진입기는 ... 각자가 준비되었을 때 끝난다.\n\n이런 모호함 때문에 성인진입기가 정말 하나의 독립된 생애 단계인지에 대한 이견도 생겼다. steinberg는 대표적인 비판자다. 그는 \"저는 성인진입기를 별개의 생애 단계라고 보는 입장이 아니에요\"라고 말한다. \"차라리 청소년기가 길어졌다고 생각하는 편이 더 도움이 된다고 봅니다.\" 그는 자신의 책 《age of opportunity》에서 청소년기를 사춘기부터 성인 역할을 떠맡기 시작할 때까지로 정의한다. 그는 19세기 소녀들의 경우 첫 초경에서 결혼까지의 기간이 약 5년이었지만, 초경 연령은 낮아지고 결혼 연령은 높아진 덕분에 2010년에는 그 기간이 15년이 되었다고 쓴다.\n\n성인진입기 개념의 다른 비판자들은, 18세에서 25세 사이의 시기(아니면 29세까지인가?)가 과도기라는 사실만으로 그것이 곧 별도의 발달 단계를 뜻하는 것은 아니라고 말한다. 어느 연구는 \"생활 조건에는 변화가 있을 수 있지만, 인간 발달은 그런 단순한 변화와 동의어가 아니다\"라고 적고 있다.",
+      "order": 13
+    },
+    {
+      "id": "chatbot-00278",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "사회학자 James Cote도 다른 비판 글에서 \"이전 용어인 청소년기 후반이나 초기 성인기를 써도 충분히 연구할 수 있었던 것 외에 문헌에 새로 더해진 것은 거의 없다\"고 쓴다.\n\n\"저는 사실 이 나이대 사람들을 뭐라고 불러야 하는지를 둘러싼 논의가 주의를 다른 데로 돌리는 일이라고 생각해요.\" Steinberg는 이렇게 말한다. \"정말 중요한 건 성인 역할로 들어가는 전환이 점점 더 오래 걸리고 있다는 점이죠.\" 오늘날 많은 사람들에게는 부모에게서는 벗어났고 학교도 마쳤지만, 배우자나 자녀에게는 아직 묶여 있지 않은 몇 해의 시간이 존재한다.\n\n이런 변화의 일부 이유는, 배우자나 부모가 되는 일이 더 이상 성인기로 들어가는 필수 관문으로 예전만큼 중시되지 않기 때문일 수 있다.\n\nJensen Arnett는 이 문제를 연구하면서 사람들이 어른이 되기 위해 가장 필요하다고 꼽는 세 가지 기준, 그가 \"빅 쓰리(Big Three)\"라고 부르는 기준에 주목해 왔다. 즉 스스로 책임을 지는 것, 독립적으로 결정을 내리는 것, 그리고 경제적으로 독립하는 것이다. 이 세 기준은 미국뿐 아니라 중국, 그리스, 이스라엘, 인도, 아르헨티나 등 많은 다른 나라들에서도 높게 평가되었다. 다만 일부 문화권은 여기에 저마다의 가치를 덧붙였다. 예를 들어 중국에서는 부모를 경제적으로 부양할 수 있는 능력을 높이 평가했고, 인도에서는 가족의 신체적 안전을 지킬 수 있는 능력을 중요하게 여겼다.",
+      "searchText": "when are you really an adult? 번역본 읽기 사회학자 james cote도 다른 비판 글에서 \"이전 용어인 청소년기 후반이나 초기 성인기를 써도 충분히 연구할 수 있었던 것 외에 문헌에 새로 더해진 것은 거의 없다\"고 쓴다.\n\n\"저는 사실 이 나이대 사람들을 뭐라고 불러야 하는지를 둘러싼 논의가 주의를 다른 데로 돌리는 일이라고 생각해요.\" steinberg는 이렇게 말한다. \"정말 중요한 건 성인 역할로 들어가는 전환이 점점 더 오래 걸리고 있다는 점이죠.\" 오늘날 많은 사람들에게는 부모에게서는 벗어났고 학교도 마쳤지만, 배우자나 자녀에게는 아직 묶여 있지 않은 몇 해의 시간이 존재한다.\n\n이런 변화의 일부 이유는, 배우자나 부모가 되는 일이 더 이상 성인기로 들어가는 필수 관문으로 예전만큼 중시되지 않기 때문일 수 있다.\n\njensen arnett는 이 문제를 연구하면서 사람들이 어른이 되기 위해 가장 필요하다고 꼽는 세 가지 기준, 그가 \"빅 쓰리(big three)\"라고 부르는 기준에 주목해 왔다. 즉 스스로 책임을 지는 것, 독립적으로 결정을 내리는 것, 그리고 경제적으로 독립하는 것이다. 이 세 기준은 미국뿐 아니라 중국, 그리스, 이스라엘, 인도, 아르헨티나 등 많은 다른 나라들에서도 높게 평가되었다. 다만 일부 문화권은 여기에 저마다의 가치를 덧붙였다. 예를 들어 중국에서는 부모를 경제적으로 부양할 수 있는 능력을 높이 평가했고, 인도에서는 가족의 신체적 안전을 지킬 수 있는 능력을 중요하게 여겼다.",
+      "order": 14
+    },
+    {
+      "id": "chatbot-00279",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "빅 쓰리 가운데 둘은 내적이고 주관적인 표지다. 경제적 독립은 측정할 수 있지만, 그 밖의 의미에서 당신이 독립적이고 책임 있는 사람인지는 결국 스스로 판단할 수밖에 없다. 발달심리학자 Erik Erikson이 영향력 있는 심리사회적 발달 단계 이론을 제시했을 때, 각 단계에는 그 시기에 답해야 할 핵심 질문이 있었다. 청소년기의 질문은 정체성, 곧 진짜 자아를 발견하고 그것이 세상 어디에 들어맞는지 찾는 일이다. Erikson에 따르면 젊은 성인기에는 관심이 친밀성과 우정, 연애 관계를 발달시키는 일로 옮겨 간다.\n\nCornell University의 인간발달학 조교수 Anthony Burrow는 젊은 성인들이 삶의 목적을 느끼는지라는 질문을 연구한다. 그와 동료들은 한 연구에서 목적의식이 대학생들의 안녕감과 관련되어 있음을 발견했다. Burrow의 연구에서 어떤 목적에 헌신하고 있다는 감각은 더 높은 삶의 만족도와 더 많은 긍정적 감정과 연결되었다. 연구진은 또한 사람들에게 \"나는 내 삶의 목적이나 사명을 찾고 있다\" 같은 문장을 평가하게 하여 정체성 탐색과 목적 탐색도 측정했다. 두 종류의 탐색 모두 기분이 더 나쁘고 만족감이 더 낮을 것을 유의하게 예측했다. 그러나 다른 연구들은 탐색을 정체성 형성으로 가는 길목의 한 단계로 보며, 어떤 정체성에 헌신한 사람일수록 자신을 어른으로 볼 가능성이 더 높다고 말한다.\n\n다르게 말하면, 허우적거림은 즐겁지 않지만 중요하다.",
+      "searchText": "when are you really an adult? 번역본 읽기 빅 쓰리 가운데 둘은 내적이고 주관적인 표지다. 경제적 독립은 측정할 수 있지만, 그 밖의 의미에서 당신이 독립적이고 책임 있는 사람인지는 결국 스스로 판단할 수밖에 없다. 발달심리학자 erik erikson이 영향력 있는 심리사회적 발달 단계 이론을 제시했을 때, 각 단계에는 그 시기에 답해야 할 핵심 질문이 있었다. 청소년기의 질문은 정체성, 곧 진짜 자아를 발견하고 그것이 세상 어디에 들어맞는지 찾는 일이다. erikson에 따르면 젊은 성인기에는 관심이 친밀성과 우정, 연애 관계를 발달시키는 일로 옮겨 간다.\n\ncornell university의 인간발달학 조교수 anthony burrow는 젊은 성인들이 삶의 목적을 느끼는지라는 질문을 연구한다. 그와 동료들은 한 연구에서 목적의식이 대학생들의 안녕감과 관련되어 있음을 발견했다. burrow의 연구에서 어떤 목적에 헌신하고 있다는 감각은 더 높은 삶의 만족도와 더 많은 긍정적 감정과 연결되었다. 연구진은 또한 사람들에게 \"나는 내 삶의 목적이나 사명을 찾고 있다\" 같은 문장을 평가하게 하여 정체성 탐색과 목적 탐색도 측정했다. 두 종류의 탐색 모두 기분이 더 나쁘고 만족감이 더 낮을 것을 유의하게 예측했다. 그러나 다른 연구들은 탐색을 정체성 형성으로 가는 길목의 한 단계로 보며, 어떤 정체성에 헌신한 사람일수록 자신을 어른으로 볼 가능성이 더 높다고 말한다.\n\n다르게 말하면, 허우적거림은 즐겁지 않지만 중요하다.",
+      "order": 15
+    },
+    {
+      "id": "chatbot-00280",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "십 대 후반과 20대 초반은 아마 탐색하기에 가장 좋은 시기일 것이다. 나이가 들수록 삶은 여러 책임으로 채워지기 때문이다. Burrow는 이렇게 말한다. \"중년에는 가족에 대한 요구도 있고 일에 대한 요구도 있기 때문에, 사람들은 자신이 누구인지 덜 탐색할 가능성이 높을 뿐 아니라, 설령 탐색한다 해도 그 대가가 더 클 수 있어요. 중년에 이르러서도 아직 정체성 문제를 해결하려 한다면, 아직 그걸 해내지 못했기 때문이라면, 당신은 아마 드문 경우일 뿐 아니라 그만큼 더 큰 비용, 더 큰 부담을 치르고 있을 가능성이 커요. 생리적으로든 심리적으로든 사회적으로든 말이죠. 젊을 때 같은 정도의 탐색을 하는 것보다요.\"\n\nJensen Arnett는 이 점을 성인진입기 세대의 시인인 Taylor Swift의 노래 \"22\"를 빌려 요약한다. 그는 이렇게 말한다. \"그녀 말이 맞아요. '우리는 동시에 행복하고, 자유롭고, 혼란스럽고, 외롭다.' 정말 놀라운 통찰이죠.\"",
+      "searchText": "when are you really an adult? 번역본 읽기 십 대 후반과 20대 초반은 아마 탐색하기에 가장 좋은 시기일 것이다. 나이가 들수록 삶은 여러 책임으로 채워지기 때문이다. burrow는 이렇게 말한다. \"중년에는 가족에 대한 요구도 있고 일에 대한 요구도 있기 때문에, 사람들은 자신이 누구인지 덜 탐색할 가능성이 높을 뿐 아니라, 설령 탐색한다 해도 그 대가가 더 클 수 있어요. 중년에 이르러서도 아직 정체성 문제를 해결하려 한다면, 아직 그걸 해내지 못했기 때문이라면, 당신은 아마 드문 경우일 뿐 아니라 그만큼 더 큰 비용, 더 큰 부담을 치르고 있을 가능성이 커요. 생리적으로든 심리적으로든 사회적으로든 말이죠. 젊을 때 같은 정도의 탐색을 하는 것보다요.\"\n\njensen arnett는 이 점을 성인진입기 세대의 시인인 taylor swift의 노래 \"22\"를 빌려 요약한다. 그는 이렇게 말한다. \"그녀 말이 맞아요. '우리는 동시에 행복하고, 자유롭고, 혼란스럽고, 외롭다.' 정말 놀라운 통찰이죠.\"",
+      "order": 16
+    },
+    {
+      "id": "chatbot-00281",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "먼저 말해 두자면, 30대 후반이나 40대 사람들이 자기는 아직 아이 같다고 느낀다거나, 아직도 \"자기 자신을 찾지 못했다\", 커서 뭘 하고 싶은지 모르겠다고 말하는 걸 보면 저는 정말 질색이에요.\n저는 20대 초반에 의대에 갔고, 스물여섯 살이 되던 해에는 HIV/AIDS의 긴 그림자가 여전히 드리워져 있던 샌프란시스코에서 인턴으로 일하고 있었어요. 그해 초 어느 늦은 밤, 지금의 저보다 더 어린 한 남성의 병상으로 호출을 받았죠. 그의 곁에는 오래 함께해 온 게 분명한 파트너가 있었고, 그 남성 역시 HIV 감염자임이 분명해 보였어요. 저는 그에게 파트너가 죽었다고 말해야 했어요.\n그해 저와 동료 레지던트들은 온갖 종류의 가족들에게 누군가가 죽었다는 사실을 전했어요. 배우자, 자녀, 부모, 형제자매, 친구에게요. 암이라는 소식도 전했고 HIV라는 소식도 전했죠. 우리는 36시간씩 병원에 붙들려 있었어요. 그 시점에서 저는 이미 어른이었고, 주변도 저를 그렇게 대했어요. 우리는 애지중지 보호받지도 않았고 감싸지지도 않았죠. 그리고 그 일을 해낼 수 있었어요. 우리는 젊었고, 때로는 그 젊음이 드러나기도 했지만, 그 누구도 아이는 아니었어요. 우리가 모두 큰 도시에서 빠듯한 월급으로 살고 있었고 더는 의대생이 아니었다는 점도 한몫했을 거예요.\n그래서 저는 그때 스스로를 어른이라고 느꼈어요. 언제 묘목이 나무가 되어 더 이상 묘목이 아니게 되는지를 묻는 건 분명 답할 수 없는 질문이죠. 천천히, 점진적으로 일어나는 변화는 다 그래요. 제가 말할 수 있는 것은, 어른이 되어 책임을 지고 감당할 잠재력은 이미 거기에 있었고, 그것이 자라났다는 것뿐이에요. 저는 성실함, 자신보다 더 큰 어떤 것에 대한 헌신, 자신이 더 큰 역사적 흐름의 일부라는 감각, 그리고 함께 성장해 가는 또래들이 모두",
+      "searchText": "when are you really an adult? 번역본 읽기 먼저 말해 두자면, 30대 후반이나 40대 사람들이 자기는 아직 아이 같다고 느낀다거나, 아직도 \"자기 자신을 찾지 못했다\", 커서 뭘 하고 싶은지 모르겠다고 말하는 걸 보면 저는 정말 질색이에요.\n저는 20대 초반에 의대에 갔고, 스물여섯 살이 되던 해에는 hiv/aids의 긴 그림자가 여전히 드리워져 있던 샌프란시스코에서 인턴으로 일하고 있었어요. 그해 초 어느 늦은 밤, 지금의 저보다 더 어린 한 남성의 병상으로 호출을 받았죠. 그의 곁에는 오래 함께해 온 게 분명한 파트너가 있었고, 그 남성 역시 hiv 감염자임이 분명해 보였어요. 저는 그에게 파트너가 죽었다고 말해야 했어요.\n그해 저와 동료 레지던트들은 온갖 종류의 가족들에게 누군가가 죽었다는 사실을 전했어요. 배우자, 자녀, 부모, 형제자매, 친구에게요. 암이라는 소식도 전했고 hiv라는 소식도 전했죠. 우리는 36시간씩 병원에 붙들려 있었어요. 그 시점에서 저는 이미 어른이었고, 주변도 저를 그렇게 대했어요. 우리는 애지중지 보호받지도 않았고 감싸지지도 않았죠. 그리고 그 일을 해낼 수 있었어요. 우리는 젊었고, 때로는 그 젊음이 드러나기도 했지만, 그 누구도 아이는 아니었어요. 우리가 모두 큰 도시에서 빠듯한 월급으로 살고 있었고 더는 의대생이 아니었다는 점도 한몫했을 거예요.\n그래서 저는 그때 스스로를 어른이라고 느꼈어요. 언제 묘목이 나무가 되어 더 이상 묘목이 아니게 되는지를 묻는 건 분명 답할 수 없는 질문이죠. 천천히, 점진적으로 일어나는 변화는 다 그래요. 제가 말할 수 있는 것은, 어른이 되어 책임을 지고 감당할 잠재력은 이미 거기에 있었고, 그것이 자라났다는 것뿐이에요. 저는 성실함, 자신보다 더 큰 어떤 것에 대한 헌신, 자신이 더 큰 역사적 흐름의 일부라는 감각, 그리고 함께 성장해 가는 또래들이 모두",
+      "order": 17
+    },
+    {
+      "id": "chatbot-00282",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "역할을 한다고 생각해요.\n집중할 목표도, 일도, 고난도, 다른 사람들과 함께 걷는 길도 없다면, 서른다섯에서 마흔다섯이 되어서도 자신을 아이라고 믿는 사람이 있을 수 있다고 생각해요. 실제로 저는 그런 사람들을 가끔 만나거든요. 그리고 그건 끔찍해요.\n-Anonymous\n\n20세기 교육연구자 Robert Havighurst에 따르면 인생의 각 단계에는 완수해야 할 \"발달 과업\" 목록이 있다. 오늘날 사람들이 말하는 개인주의적 기준과 달리, 그가 말한 성인기의 발달 과업은 매우 구체적이었다. 배우자 찾기, 파트너와 함께 사는 법 배우기, 가족 꾸리기, 자녀 키우기, 직업 시작하기, 가정 꾸려 나가기. 이것들은 전통적인 성인 역할이며, 내가 여기서 \"Leave it to Beaver식 성인기\"라고 불러 온 것의 구성 요소들이다. 그리고 밀레니얼 세대가 그런 일들을 하지도 않고, 가치 있게 여기지도 않는다고 자주 비판받는 바로 그 항목들이기도 하다.\n\n\"당신이 Leave it to Beaver식 잣대를 꺼내는 게 저는 너무 웃겨요.\" Jensen Arnett는 내게 이렇게 말했다. \"저도 Leave it to Beaver를 기억하긴 하지만, 당신이 태어나기 거의 30년 전쯤에는 이미 TV에서 사라졌을 거라고 장담할게요.\" (물론 재방송은 봤다.)",
+      "searchText": "when are you really an adult? 번역본 읽기 역할을 한다고 생각해요.\n집중할 목표도, 일도, 고난도, 다른 사람들과 함께 걷는 길도 없다면, 서른다섯에서 마흔다섯이 되어서도 자신을 아이라고 믿는 사람이 있을 수 있다고 생각해요. 실제로 저는 그런 사람들을 가끔 만나거든요. 그리고 그건 끔찍해요.\n-anonymous\n\n20세기 교육연구자 robert havighurst에 따르면 인생의 각 단계에는 완수해야 할 \"발달 과업\" 목록이 있다. 오늘날 사람들이 말하는 개인주의적 기준과 달리, 그가 말한 성인기의 발달 과업은 매우 구체적이었다. 배우자 찾기, 파트너와 함께 사는 법 배우기, 가족 꾸리기, 자녀 키우기, 직업 시작하기, 가정 꾸려 나가기. 이것들은 전통적인 성인 역할이며, 내가 여기서 \"leave it to beaver식 성인기\"라고 불러 온 것의 구성 요소들이다. 그리고 밀레니얼 세대가 그런 일들을 하지도 않고, 가치 있게 여기지도 않는다고 자주 비판받는 바로 그 항목들이기도 하다.\n\n\"당신이 leave it to beaver식 잣대를 꺼내는 게 저는 너무 웃겨요.\" jensen arnett는 내게 이렇게 말했다. \"저도 leave it to beaver를 기억하긴 하지만, 당신이 태어나기 거의 30년 전쯤에는 이미 tv에서 사라졌을 거라고 장담할게요.\" (물론 재방송은 봤다.)",
+      "order": 18
+    },
+    {
+      "id": "chatbot-00283",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "Havighurst는 1940년대와 1950년대에 이 이론을 발전시켰고, 그런 과업들을 고른 방식만 봐도 그는 철저히 자기 시대의 산물이었다. 제2차 세계대전 이후의 경제 호황은 Leave It to Beaver식 성인기를 이전 어느 때보다도, 심지어 아주 젊은 성인들에게조차 더 손쉽게 달성 가능한 것으로 만들었다. Mintz에 따르면 당시 젊은 남성들에게는 일자리가 충분해서, 때로는 고등학교 졸업장조차 없이도 가족을 부양할 수 있는 직업을 얻을 수 있었다. 게다가 그 시절의 사회 규범은 미혼 동거보다 결혼을 훨씬 더 강하게 선호했다. 그러니 직업, 배우자, 집, 아이라는 공식이 따라왔다.\n\n하지만 그것은 역사적 예외였다. Mintz는 \"제2차 세계대전 직후의 짧은 시기를 제외하면, 젊은이들이 20대 중반이나 후반이 되기 전에 완전한 성인 지위의 표지들을 달성하는 일은 흔치 않았다\"고 쓴다. 앞서 본 젊은 시절의 Henry Thoreau처럼, 훗날 성공한 어른들도 처음에는 허우적대는 잔챙이였던 경우가 많았다. 과거가 세 조각 양복을 입고 황야를 돌아다니다가 안경 너머로 세금 신고서를 내려다보며 \"흠, 그렇군, 아주 좋네\" 같은 소리나 하던 초책임형 어른들로 가득했던 것은 아니다. 그런 어른들이 있다가 오늘날의 청년들이 게으름과 속어로 다 쓸어버린 것도 아니고 말이다. 젊은 남자들은 한밑천 잡으러 나갔다가 실패하고 집으로 돌아오곤 했다. 젊은 여성들도 19세기에 남성 못지않게, 아니 그보다 더 높은 비율로 일자리를 찾아 도시로 이동했다. 그리고 어떤 남성들은 결혼하기 위해 아버지가 먼저 죽어 유산을 남길 때까지 기다려야 했다. 적어도 오늘날 결혼이 늦어지는 이유는 그보다는 덜 섬뜩하다.",
+      "searchText": "when are you really an adult? 번역본 읽기 havighurst는 1940년대와 1950년대에 이 이론을 발전시켰고, 그런 과업들을 고른 방식만 봐도 그는 철저히 자기 시대의 산물이었다. 제2차 세계대전 이후의 경제 호황은 leave it to beaver식 성인기를 이전 어느 때보다도, 심지어 아주 젊은 성인들에게조차 더 손쉽게 달성 가능한 것으로 만들었다. mintz에 따르면 당시 젊은 남성들에게는 일자리가 충분해서, 때로는 고등학교 졸업장조차 없이도 가족을 부양할 수 있는 직업을 얻을 수 있었다. 게다가 그 시절의 사회 규범은 미혼 동거보다 결혼을 훨씬 더 강하게 선호했다. 그러니 직업, 배우자, 집, 아이라는 공식이 따라왔다.\n\n하지만 그것은 역사적 예외였다. mintz는 \"제2차 세계대전 직후의 짧은 시기를 제외하면, 젊은이들이 20대 중반이나 후반이 되기 전에 완전한 성인 지위의 표지들을 달성하는 일은 흔치 않았다\"고 쓴다. 앞서 본 젊은 시절의 henry thoreau처럼, 훗날 성공한 어른들도 처음에는 허우적대는 잔챙이였던 경우가 많았다. 과거가 세 조각 양복을 입고 황야를 돌아다니다가 안경 너머로 세금 신고서를 내려다보며 \"흠, 그렇군, 아주 좋네\" 같은 소리나 하던 초책임형 어른들로 가득했던 것은 아니다. 그런 어른들이 있다가 오늘날의 청년들이 게으름과 속어로 다 쓸어버린 것도 아니고 말이다. 젊은 남자들은 한밑천 잡으러 나갔다가 실패하고 집으로 돌아오곤 했다. 젊은 여성들도 19세기에 남성 못지않게, 아니 그보다 더 높은 비율로 일자리를 찾아 도시로 이동했다. 그리고 어떤 남성들은 결혼하기 위해 아버지가 먼저 죽어 유산을 남길 때까지 기다려야 했다. 적어도 오늘날 결혼이 늦어지는 이유는 그보다는 덜 섬뜩하다.",
+      "order": 19
+    },
+    {
+      "id": "chatbot-00284",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "gillmar / stockyimages / FashionStock / Shutterstock / Paul Spella / The Atlantic\n\n쉽게 어른이 될 수 있었던 황금기는 오래가지 않았다. 1960년대부터 결혼 연령은 다시 올라가기 시작했고, 중산층 소득을 얻기 위해서는 중등교육 이상의 학력이 점점 더 필요해졌다. 사람들이 여전히 Leave it to Beaver식 표지들을 가치 있게 여긴다 해도, 그것들을 달성하는 데는 시간이 걸린다.\n\n\"저는 그 적대감의 상당 부분이 세상이 너무 빨리 바뀌었다는 사실에서 오는 것 같아요.\" Jensen Arnett는 이렇게 말한다. \"지금 50대, 60대, 70대인 사람들이 오늘날의 성인진입기 세대를 볼 때, 자기들이 20대였을 때 적용되던 잣대로 그들을 재고는 기대에 못 미친다고 느끼죠. 그런데 저는 그게 역설적으로 꽤 자기중심적이라고 생각해요. 성인진입기 세대가 자기애적이라는 비판을 많이 받지만, 제게는 오히려 그 윗세대의 자기중심성처럼 보여요.\"\n\nJensen Arnett에 따르면 많은 젊은이들은 여전히 이런 것들을 원한다. 커리어를 세우고, 결혼하고, 아이를 낳는 것 말이다. 혹은 그중 몇 가지의 조합을 말이다. 다만 그들은 그런 것들을 성인기의 결정적 속성으로 보지 않을 뿐이다. 문제는 사회 전체가 아직 그 지점까지 따라오지 못했다는 것이다. 나이 든 세대는 그런 표지들 없이는 젊은 사람을 어른으로 인정하지 않을 수 있다. 어른이 된다는 것의 큰 부분은 결국 다른 사람들이 나를 어른처럼 대하는 데 있고, 이런 역할을 맡는 일은 다른 사람들뿐 아니라 나 자신에게도 내가 책임감 있는 사람임을 납득시키는 데 도움이 될 수 있다.",
+      "searchText": "when are you really an adult? 번역본 읽기 gillmar / stockyimages / fashionstock / shutterstock / paul spella / the atlantic\n\n쉽게 어른이 될 수 있었던 황금기는 오래가지 않았다. 1960년대부터 결혼 연령은 다시 올라가기 시작했고, 중산층 소득을 얻기 위해서는 중등교육 이상의 학력이 점점 더 필요해졌다. 사람들이 여전히 leave it to beaver식 표지들을 가치 있게 여긴다 해도, 그것들을 달성하는 데는 시간이 걸린다.\n\n\"저는 그 적대감의 상당 부분이 세상이 너무 빨리 바뀌었다는 사실에서 오는 것 같아요.\" jensen arnett는 이렇게 말한다. \"지금 50대, 60대, 70대인 사람들이 오늘날의 성인진입기 세대를 볼 때, 자기들이 20대였을 때 적용되던 잣대로 그들을 재고는 기대에 못 미친다고 느끼죠. 그런데 저는 그게 역설적으로 꽤 자기중심적이라고 생각해요. 성인진입기 세대가 자기애적이라는 비판을 많이 받지만, 제게는 오히려 그 윗세대의 자기중심성처럼 보여요.\"\n\njensen arnett에 따르면 많은 젊은이들은 여전히 이런 것들을 원한다. 커리어를 세우고, 결혼하고, 아이를 낳는 것 말이다. 혹은 그중 몇 가지의 조합을 말이다. 다만 그들은 그런 것들을 성인기의 결정적 속성으로 보지 않을 뿐이다. 문제는 사회 전체가 아직 그 지점까지 따라오지 못했다는 것이다. 나이 든 세대는 그런 표지들 없이는 젊은 사람을 어른으로 인정하지 않을 수 있다. 어른이 된다는 것의 큰 부분은 결국 다른 사람들이 나를 어른처럼 대하는 데 있고, 이런 역할을 맡는 일은 다른 사람들뿐 아니라 나 자신에게도 내가 책임감 있는 사람임을 납득시키는 데 도움이 될 수 있다.",
+      "order": 20
+    },
+    {
+      "id": "chatbot-00285",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "삶에서가 그렇듯 성인기에서도 사람들은 종종 자신에게 없는 것을 통해 자신을 규정하게 된다. 20대의 Williams Brown은 의도적으로 커리어에 주로 집중하고 있었다. 하지만 친구들이 결혼하고 아이를 낳는 모습을 볼 때면 여전히 애틋한 부러움이 들었다고 한다. 그녀는 이렇게 말한다. \"제가 원했고 지금도 원하는 것을 다른 사람들은 가지고 있는데 저는 갖지 못했다는 사실을 바라보는 건 여전히 정말 힘들었어요. 제가 그것을 갖지 못한 이유가 전적으로 제 선택 때문이라는 걸 너무나 잘 알고 있었는데도요.\"\n\nWilliams Brown은 이제 서른한 살이고, 우리가 이야기를 나누기 불과 일주일 조금 전에 결혼했다. 이런 큰 이정표를 이루고 나니 정말 더 어른 같아졌을까? 나는 그렇게 물었다.\n\n\"대체로 거의 똑같을 거라고 정말 생각했어요. 남편과는 벌써 거의 4년째 함께했고, 그중 꽤 긴 기간을 같이 살았으니까요.\" 그녀는 이렇게 말한다. \"감정적으로는 ... 그냥 조금 더 영속적인 느낌이 들어요. 남편이 며칠 전에 그러더라고요. 결혼이 자신을 동시에 젊게도, 늙게도 느끼게 한다고요. 새로운 장이 열렸다는 점에서는 젊게 느껴지고, 또 많은 사람들에게 20대와 30대에 누구와 평생을 함께 보낼지를 정하는 문제는 아주 중심적인 질문인데, 그 문제를 일단락지었다는 사실은 정말 크고 중대한 느낌을 준다는 거죠.\"\n\n\"하지만,\" 그녀는 덧붙인다. \"제 싱크대에는 여전히 더러운 접시가 수북이 쌓여 있어요.\"",
+      "searchText": "when are you really an adult? 번역본 읽기 삶에서가 그렇듯 성인기에서도 사람들은 종종 자신에게 없는 것을 통해 자신을 규정하게 된다. 20대의 williams brown은 의도적으로 커리어에 주로 집중하고 있었다. 하지만 친구들이 결혼하고 아이를 낳는 모습을 볼 때면 여전히 애틋한 부러움이 들었다고 한다. 그녀는 이렇게 말한다. \"제가 원했고 지금도 원하는 것을 다른 사람들은 가지고 있는데 저는 갖지 못했다는 사실을 바라보는 건 여전히 정말 힘들었어요. 제가 그것을 갖지 못한 이유가 전적으로 제 선택 때문이라는 걸 너무나 잘 알고 있었는데도요.\"\n\nwilliams brown은 이제 서른한 살이고, 우리가 이야기를 나누기 불과 일주일 조금 전에 결혼했다. 이런 큰 이정표를 이루고 나니 정말 더 어른 같아졌을까? 나는 그렇게 물었다.\n\n\"대체로 거의 똑같을 거라고 정말 생각했어요. 남편과는 벌써 거의 4년째 함께했고, 그중 꽤 긴 기간을 같이 살았으니까요.\" 그녀는 이렇게 말한다. \"감정적으로는 ... 그냥 조금 더 영속적인 느낌이 들어요. 남편이 며칠 전에 그러더라고요. 결혼이 자신을 동시에 젊게도, 늙게도 느끼게 한다고요. 새로운 장이 열렸다는 점에서는 젊게 느껴지고, 또 많은 사람들에게 20대와 30대에 누구와 평생을 함께 보낼지를 정하는 문제는 아주 중심적인 질문인데, 그 문제를 일단락지었다는 사실은 정말 크고 중대한 느낌을 준다는 거죠.\"\n\n\"하지만,\" 그녀는 덧붙인다. \"제 싱크대에는 여전히 더러운 접시가 수북이 쌓여 있어요.\"",
+      "order": 21
+    },
+    {
+      "id": "chatbot-00286",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "제가 진정으로 어른이라고 느낀 순간은 George Washington University 병원에서 집으로 돌아오던 길이었던 것 같아요. 아주 작고 미숙하게 태어난 딸을 태우고, 저는 혼다 어코드 뒷좌석에 앉아 있었죠. 남편은 그 어느 때보다 조심스럽게 운전했고, 저는 아이에게서 눈을 뗄 수가 없었어요. 아이가 카시트에 비해 너무 작아 보였고, 갑자기 숨을 멈출 것 같기도 했고, 작은 머리가 툭 꺾일 것 같기도 했거든요. 이제 이렇게 작디작은 인간 하나를 우리 둘이서, 오롯이 우리 힘으로 책임져야 한다는 사실을 우리 둘 다 믿기 어려웠던 것 같아요. 《What to Expect the First Year》를 성경처럼 끼고 다녔지만, 우리는 이 아기의 존재 전체에 대해 전적으로 책임을 지고 있었고, 그건 엄청나게 벅차면서도 아주 어른 같은 느낌이었어요. 갑자기 내 모든 결정에서 먼저 생각하고 고려해야 하는 다른 누군가가 생긴 거죠.\n-Deb Bissen\n저는 쉰세 살이고, 지금도 선명하게 떠오르는 한 장면이 있어요. 2009년쯤, 어머니를 한 생활보조시설에서 다른 시설로 옮겨야 했던 때예요. 당시 어머니는 알츠하이머를 앓고 계셨고, 한마디로 말해 저는 어머니를 차에 태우기 위해 거짓말을 해야 했어요. 새 시설에는 폐쇄 병동이 있었고, 그때로서는 그것이 어머니에게 유일하게 현실적인 선택지였죠. 뭔가를 하시게 하려고 어린아이에게 하듯 \"선의의 거짓말\"을 한 것이 그때가 처음은 아니었어요. 하지만 제가 어머니를 속여 아파트를 떠나게 만들었다는 사실을 어머니가 알아차리고, 자신이 속았음을 깨달은 건 제가 기억하기로는 그때가 유일했어요. 그때 어머니가 저를 바라보던 표정을 저는 절대 잊지 못할 거예요. 저는 한때 결혼했지만 아이는 한 번도 가져 본 적이 없어요. 만약 아이가 있었다면, 아마 양육의",
+      "searchText": "when are you really an adult? 번역본 읽기 제가 진정으로 어른이라고 느낀 순간은 george washington university 병원에서 집으로 돌아오던 길이었던 것 같아요. 아주 작고 미숙하게 태어난 딸을 태우고, 저는 혼다 어코드 뒷좌석에 앉아 있었죠. 남편은 그 어느 때보다 조심스럽게 운전했고, 저는 아이에게서 눈을 뗄 수가 없었어요. 아이가 카시트에 비해 너무 작아 보였고, 갑자기 숨을 멈출 것 같기도 했고, 작은 머리가 툭 꺾일 것 같기도 했거든요. 이제 이렇게 작디작은 인간 하나를 우리 둘이서, 오롯이 우리 힘으로 책임져야 한다는 사실을 우리 둘 다 믿기 어려웠던 것 같아요. 《what to expect the first year》를 성경처럼 끼고 다녔지만, 우리는 이 아기의 존재 전체에 대해 전적으로 책임을 지고 있었고, 그건 엄청나게 벅차면서도 아주 어른 같은 느낌이었어요. 갑자기 내 모든 결정에서 먼저 생각하고 고려해야 하는 다른 누군가가 생긴 거죠.\n-deb bissen\n저는 쉰세 살이고, 지금도 선명하게 떠오르는 한 장면이 있어요. 2009년쯤, 어머니를 한 생활보조시설에서 다른 시설로 옮겨야 했던 때예요. 당시 어머니는 알츠하이머를 앓고 계셨고, 한마디로 말해 저는 어머니를 차에 태우기 위해 거짓말을 해야 했어요. 새 시설에는 폐쇄 병동이 있었고, 그때로서는 그것이 어머니에게 유일하게 현실적인 선택지였죠. 뭔가를 하시게 하려고 어린아이에게 하듯 \"선의의 거짓말\"을 한 것이 그때가 처음은 아니었어요. 하지만 제가 어머니를 속여 아파트를 떠나게 만들었다는 사실을 어머니가 알아차리고, 자신이 속았음을 깨달은 건 제가 기억하기로는 그때가 유일했어요. 그때 어머니가 저를 바라보던 표정을 저는 절대 잊지 못할 거예요. 저는 한때 결혼했지만 아이는 한 번도 가져 본 적이 없어요. 만약 아이가 있었다면, 아마 양육의",
+      "order": 22
+    },
+    {
+      "id": "chatbot-00287",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "어느 순간엔가 \"어른이 되었을\"지도 모르겠죠. 어쩌면 누군가를 책임진다는 일에는 일종의 \"작은 배신들\"이 따라오는지도 몰라요. 잘은 모르겠지만, 저는 차라리 그 점에 대해서는 모르고 지내는 편이 낫다고 생각해요. 어머니는 2013년에 돌아가셨어요.\n-Anonymous\n\n성인기의 수많은 책임 가운데, 내가 가장 자주 변화의 계기로 듣는 것은 부모가 되는 일이다. 독자들이 보내 준 \"내가 어른이 되었다고 느낀 순간\" 응답 가운데 가장 흔한 답은 \"아이를 가졌을 때\"였다.\n\n아이를 가져야만 어른이 되는 것은 아니다. 하지만 아이를 갖는 사람들에게 그것은 종종 바로 그 \"스위치가 탁 켜지는 순간\"처럼 보인다. Jensen Arnett가 1998년에 진행한 초기 인터뷰에서도 아이가 있는 사람들은 \"아이를 갖는 것\"을 자기 자신의 전환을 보여 주는 표지로 다른 어떤 기준보다 더 자주 언급했다고 그는 쓴다.\n\n몇몇 독자들은 다른 누군가에 대한 새롭게 생긴 책임감을 결정적 요소로 꼽았다. 이는 빅 쓰리 가운데 \"자기 자신에 대한 책임\"보다 한 단계 더 나아간 것이다.\n\n\"저는 처음으로 아이를 품에 안았을 때 정말 어른이 되었다고 느꼈어요.\" 독자 Matthew는 이렇게 말했다. \"그 전에도 20대와 30대 초반 내내 어떤 때는 어른 같고 어떤 때는 아니었지만, 그게 정확히 뭔지 제대로 손에 잡히지는 않았거든요.\"",
+      "searchText": "when are you really an adult? 번역본 읽기 어느 순간엔가 \"어른이 되었을\"지도 모르겠죠. 어쩌면 누군가를 책임진다는 일에는 일종의 \"작은 배신들\"이 따라오는지도 몰라요. 잘은 모르겠지만, 저는 차라리 그 점에 대해서는 모르고 지내는 편이 낫다고 생각해요. 어머니는 2013년에 돌아가셨어요.\n-anonymous\n\n성인기의 수많은 책임 가운데, 내가 가장 자주 변화의 계기로 듣는 것은 부모가 되는 일이다. 독자들이 보내 준 \"내가 어른이 되었다고 느낀 순간\" 응답 가운데 가장 흔한 답은 \"아이를 가졌을 때\"였다.\n\n아이를 가져야만 어른이 되는 것은 아니다. 하지만 아이를 갖는 사람들에게 그것은 종종 바로 그 \"스위치가 탁 켜지는 순간\"처럼 보인다. jensen arnett가 1998년에 진행한 초기 인터뷰에서도 아이가 있는 사람들은 \"아이를 갖는 것\"을 자기 자신의 전환을 보여 주는 표지로 다른 어떤 기준보다 더 자주 언급했다고 그는 쓴다.\n\n몇몇 독자들은 다른 누군가에 대한 새롭게 생긴 책임감을 결정적 요소로 꼽았다. 이는 빅 쓰리 가운데 \"자기 자신에 대한 책임\"보다 한 단계 더 나아간 것이다.\n\n\"저는 처음으로 아이를 품에 안았을 때 정말 어른이 되었다고 느꼈어요.\" 독자 matthew는 이렇게 말했다. \"그 전에도 20대와 30대 초반 내내 어떤 때는 어른 같고 어떤 때는 아니었지만, 그게 정확히 뭔지 제대로 손에 잡히지는 않았거든요.\"",
+      "order": 23
+    },
+    {
+      "id": "chatbot-00288",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "Burrow의 말처럼 성인기란 \"스스로를 책임 있는 존재, 책임을 져야 하는 존재로 느끼는 감각과, 타인들이 그 관점을 지지하고 확인해 주는 시선 사이의 조율\"이라면, 아이를 갖는 일은 나 자신을 어른처럼 느끼게 만들면서 동시에 다른 사람들도 나를 어른이라고 믿게 만드는 사건이기도 하다. 그는 정체성과 목적이라는 두 힘이 \"현대 사회에서 정말 중요한 자원\"이라고 말한다. 아이는 분명 그 둘을 모두 줄 수 있지만, 그것들을 얻는 다른 길도 충분히 많다.\n\n\"사람들을 더 성장하게 만드는 것들은 정말 많아요.\" Williams Brown은 이렇게 말한다. \"그리고 저는 아이가 그걸 압축해서 보여 주는 일종의 약식 표지가 될 수 있다고 생각해요.\" 아픈 부모를 돌보는 일 역시 독자들이 자주 언급한 또 다른 사례였다. 이것 역시 역할이 뒤바뀌는 충격적인 경험으로, 그 나름의 약식 표지가 될 수 있다.\n\n하지만 약식으로 쓸 수 있는 일은 길게 풀어 쓸 수도 있다. 반드시 단 하나의 순간, 단 하나의 전환점이 있어야 하는 것은 아니다. 대부분의 변화는 점진적이다.\n\n\"어른이 된다는 건 거창한 제스처가 아니에요. 페이스북에 올릴 만한 일이기도 하지 않고요.\" Williams Brown은 이렇게 말한다. \"그건 조용한 일이에요.\"",
+      "searchText": "when are you really an adult? 번역본 읽기 burrow의 말처럼 성인기란 \"스스로를 책임 있는 존재, 책임을 져야 하는 존재로 느끼는 감각과, 타인들이 그 관점을 지지하고 확인해 주는 시선 사이의 조율\"이라면, 아이를 갖는 일은 나 자신을 어른처럼 느끼게 만들면서 동시에 다른 사람들도 나를 어른이라고 믿게 만드는 사건이기도 하다. 그는 정체성과 목적이라는 두 힘이 \"현대 사회에서 정말 중요한 자원\"이라고 말한다. 아이는 분명 그 둘을 모두 줄 수 있지만, 그것들을 얻는 다른 길도 충분히 많다.\n\n\"사람들을 더 성장하게 만드는 것들은 정말 많아요.\" williams brown은 이렇게 말한다. \"그리고 저는 아이가 그걸 압축해서 보여 주는 일종의 약식 표지가 될 수 있다고 생각해요.\" 아픈 부모를 돌보는 일 역시 독자들이 자주 언급한 또 다른 사례였다. 이것 역시 역할이 뒤바뀌는 충격적인 경험으로, 그 나름의 약식 표지가 될 수 있다.\n\n하지만 약식으로 쓸 수 있는 일은 길게 풀어 쓸 수도 있다. 반드시 단 하나의 순간, 단 하나의 전환점이 있어야 하는 것은 아니다. 대부분의 변화는 점진적이다.\n\n\"어른이 된다는 건 거창한 제스처가 아니에요. 페이스북에 올릴 만한 일이기도 하지 않고요.\" williams brown은 이렇게 말한다. \"그건 조용한 일이에요.\"",
+      "order": 24
+    },
+    {
+      "id": "chatbot-00289",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "오랫동안 저는 \"나는 어른이다\"라는 느낌을 기다려 왔어요. 저는 스물일곱 살이고, 결혼했고, 독립해서 살고 있으며, 성공한 호텔 회사에서 매니저로 일하고 있어요. 저는 나이, 결혼, 직업 같은 것들이 그 느낌을 자동으로 불러올 거라고 기대했죠.\n뒤돌아보면, 저는 질문을 잘못하고 있었던 것 같아요. 저는 어린 시절이나 청소년기를 그렇게 오래 보내지 못했다고 생각해요. 저는 열세 살부터 일했고 또래 아이들과 함께 일했어요. 우리 부모님은 이민자였고, 우리보다 조금 더 버는 정도였죠. 우리는 어린 시절부터 가족의 통역사였어요. 전기회사와 은행은 사춘기 전 제 목소리로 제 어머니나 아버지인 척 말하는 걸 들어 왔죠.\n어떤 사람들은 자신도 모르는 사이에 이미 성인기에 들어가 버린 것 같아요.\n-Anonymous\n\n---\n\n언제 사람이 정말 어른이 되는가를 둘러싼 이 모든 모호함과 주관성 앞에서, NICHD의 Griffin은 다른 방식으로 생각해 보자고 제안한다. 그는 내게 이렇게 말했다. \"차라리 질문을 뒤집어 보는 게 어떨까요? '언제 당신은 정말 아이인가?'라고요.\"\n\n사람들이 너무 늦게 맡는다고 걱정하는 그 성인 역할들을 생각해 보자. 열다섯 살에 아이를 갖는 사람은 어떤가? 어린 나이에 아픈 부모를 돌봐야 하거나, 어린 나이에 부모를 잃는 사람은 어떤가? 상황은 때로 사람들이 준비되기도 전에 그들을 성인 역할 속으로 밀어 넣는다.\n\n\"저는 '아, 나는 훨씬 오래전에 이미 어른이었어요'라고 말하는 사람들을 많이 인터뷰했어요.\" Jensen Arnett는 이렇게 말한다. \"거의 언제나 그것은 대부분의 사람들보다 훨씬 이른 시기에 책임을 떠맡았던 경험과 연결되어 있죠.\" 그렇다면 그런 사람들도 성인진입기를 경험하는 걸까?",
+      "searchText": "when are you really an adult? 번역본 읽기 오랫동안 저는 \"나는 어른이다\"라는 느낌을 기다려 왔어요. 저는 스물일곱 살이고, 결혼했고, 독립해서 살고 있으며, 성공한 호텔 회사에서 매니저로 일하고 있어요. 저는 나이, 결혼, 직업 같은 것들이 그 느낌을 자동으로 불러올 거라고 기대했죠.\n뒤돌아보면, 저는 질문을 잘못하고 있었던 것 같아요. 저는 어린 시절이나 청소년기를 그렇게 오래 보내지 못했다고 생각해요. 저는 열세 살부터 일했고 또래 아이들과 함께 일했어요. 우리 부모님은 이민자였고, 우리보다 조금 더 버는 정도였죠. 우리는 어린 시절부터 가족의 통역사였어요. 전기회사와 은행은 사춘기 전 제 목소리로 제 어머니나 아버지인 척 말하는 걸 들어 왔죠.\n어떤 사람들은 자신도 모르는 사이에 이미 성인기에 들어가 버린 것 같아요.\n-anonymous\n\n---\n\n언제 사람이 정말 어른이 되는가를 둘러싼 이 모든 모호함과 주관성 앞에서, nichd의 griffin은 다른 방식으로 생각해 보자고 제안한다. 그는 내게 이렇게 말했다. \"차라리 질문을 뒤집어 보는 게 어떨까요? '언제 당신은 정말 아이인가?'라고요.\"\n\n사람들이 너무 늦게 맡는다고 걱정하는 그 성인 역할들을 생각해 보자. 열다섯 살에 아이를 갖는 사람은 어떤가? 어린 나이에 아픈 부모를 돌봐야 하거나, 어린 나이에 부모를 잃는 사람은 어떤가? 상황은 때로 사람들이 준비되기도 전에 그들을 성인 역할 속으로 밀어 넣는다.\n\n\"저는 '아, 나는 훨씬 오래전에 이미 어른이었어요'라고 말하는 사람들을 많이 인터뷰했어요.\" jensen arnett는 이렇게 말한다. \"거의 언제나 그것은 대부분의 사람들보다 훨씬 이른 시기에 책임을 떠맡았던 경험과 연결되어 있죠.\" 그렇다면 그런 사람들도 성인진입기를 경험하는 걸까?",
+      "order": 25
+    },
+    {
+      "id": "chatbot-00290",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "\"이 문제에서 제게 늘 중요하게 남아 있는 건, 여기에 분명 특권이 작동한다는 점이에요.\" Burrow는 이렇게 말한다. 여기서 말하는 특권은 단지 누가 대학에 갈 여유가 있고, 제도적으로 보장된 탐색의 시간을 누릴 수 있는가만을 뜻하지 않는다. 누가 어떤 성인 역할을 언제 맡을지 스스로 결정할 여유를 가지는가, 그리고 그것을 찬찬히 생각해 볼 시간을 가지는가의 문제이기도 하다. 이 특권은 양쪽 방향으로 나타날 수 있다. 어떤 사람은 나라 반대편으로 이사해 혼자 살며 꿈의 직업을 좇을 수 있는 능력을 가질 수 있고, 또 어떤 사람은 한동안 부모 돈을 받으면서 자신이 뭘 원하는지 천천히 생각해 보겠다고 말할 수 있는 능력을 가질 수 있다. 둘 다 특권이다.\n\n성인기의 책임은 분명 당신에게 갑자기 떠넘겨질 수 있다. 그리고 세상이 어떤 사람을, 그가 아직 스스로를 그렇게 느끼기도 전에 어른으로 대하고 있다면, 그것은 힘든 일일 수 있다. 하지만 Burrow의 제자인 Rachel Sumner가 진행한 연구에 따르면, 대학에 간 성인과 그렇지 않은 성인 사이에 전반적 목적의식 수준에는 차이가 없었다. 이는 바로 그 특정한 특권이 목적의식을 찾는 데 반드시 필요한 것은 아니라는 점을 시사한다.\n\n사회계급을 다룬 자신의 장에서 Jensen Arnett는 이렇게 쓴다. \"성인진입기에는 여러 가지 형태가 있을 가능성이 높다고 말할 수 있다. 이 생애 단계의 경험은 다양한 모습으로 나타날 수 있다.\" 비판적인 입장에서 보면, 성인진입기가 너무 많은 것을 뜻할 수 있다면 결국 아무것도 특별히 뜻하지 않는다고 말할 수도 있다. 하지만 그 답을 내가 내릴 일은 아니다. 분명한 것은 어른이 되는 길이 하나만 있는 것은 아니라는 사실이다.",
+      "searchText": "when are you really an adult? 번역본 읽기 \"이 문제에서 제게 늘 중요하게 남아 있는 건, 여기에 분명 특권이 작동한다는 점이에요.\" burrow는 이렇게 말한다. 여기서 말하는 특권은 단지 누가 대학에 갈 여유가 있고, 제도적으로 보장된 탐색의 시간을 누릴 수 있는가만을 뜻하지 않는다. 누가 어떤 성인 역할을 언제 맡을지 스스로 결정할 여유를 가지는가, 그리고 그것을 찬찬히 생각해 볼 시간을 가지는가의 문제이기도 하다. 이 특권은 양쪽 방향으로 나타날 수 있다. 어떤 사람은 나라 반대편으로 이사해 혼자 살며 꿈의 직업을 좇을 수 있는 능력을 가질 수 있고, 또 어떤 사람은 한동안 부모 돈을 받으면서 자신이 뭘 원하는지 천천히 생각해 보겠다고 말할 수 있는 능력을 가질 수 있다. 둘 다 특권이다.\n\n성인기의 책임은 분명 당신에게 갑자기 떠넘겨질 수 있다. 그리고 세상이 어떤 사람을, 그가 아직 스스로를 그렇게 느끼기도 전에 어른으로 대하고 있다면, 그것은 힘든 일일 수 있다. 하지만 burrow의 제자인 rachel sumner가 진행한 연구에 따르면, 대학에 간 성인과 그렇지 않은 성인 사이에 전반적 목적의식 수준에는 차이가 없었다. 이는 바로 그 특정한 특권이 목적의식을 찾는 데 반드시 필요한 것은 아니라는 점을 시사한다.\n\n사회계급을 다룬 자신의 장에서 jensen arnett는 이렇게 쓴다. \"성인진입기에는 여러 가지 형태가 있을 가능성이 높다고 말할 수 있다. 이 생애 단계의 경험은 다양한 모습으로 나타날 수 있다.\" 비판적인 입장에서 보면, 성인진입기가 너무 많은 것을 뜻할 수 있다면 결국 아무것도 특별히 뜻하지 않는다고 말할 수도 있다. 하지만 그 답을 내가 내릴 일은 아니다. 분명한 것은 어른이 되는 길이 하나만 있는 것은 아니라는 사실이다.",
+      "order": 26
+    },
+    {
+      "id": "chatbot-00291",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "저는 \"어른\"이라는 단어를 좋아하지 않아요. 제게 그 말은 거의 \"죽음\"과 동의어예요. 어른이 된다는 건 생명력과 자아에 작별을 고하는 것처럼 느껴지거든요. 많은 사람들이 어른이 된다는 것을 더 점잖게 행동하고, 바울이 말했듯 \"어린아이의 일을 버리는 것\"으로 이해하는 것 같아요. 다시 말해 열정을 잃는 일이죠.\n-Anonymous\n친한 친구의 아버지가 한 번 제게 \"넌 정말 자라지 않았구나, 그렇지?\"라고 말한 적이 있어요. 저는 충격을 받았어요. 저는 쉰여섯 살이고, 결혼도 했고, 여행도 많이 다녔고, 석사학위도 있고, 안정적인 직업도 있어요. 도대체 저 말은 무슨 엉뚱한 데서 나온 거지? 하고 생각했죠. 한참 생각한 끝에야 그분의 논리를 이해했어요. 저는 아이를 낳지 않았고(선택적으로), 그러니 여전히 나 자신도 아이일 거라고 본 거죠.\n하지만 저는 그분의 시각에 동의하지 않아요. 저는 스스로를 어른이라고 생각해요. 제 학생들은 제 나이의 일부에 불과하고, 제 결혼생활은 흔들리고 있고, 머리카락은 희어지기 시작했고, 저는 제 모든 청구서를 스스로 내요. 그러니 저는 어른이죠. 무릎이 아프고, 은퇴를 걱정하고, 부모는 늙고 약해졌고, 이제 함께 어디를 갈 때면 제가 운전해요. 그러니 저는 분명 어른일 수밖에 없죠.\n성인기는 물속에서 반짝이는 물고기 같아요. 거기 어딘가 헤엄치고 있다는 건 알 수 있고, 손을 뻗어 어쩌면 잠깐 만질 수도 있어요. 하지만 그걸 붙잡아 버리면 모든 게 망가질 것 같아요. 그리고 정말로 그 물고기를 붙잡게 되는 순간들, 예를 들어 처남의 장례식에 참석해야 하거나 마비된 반려동물을 안락사시켜야 할 때면, 당신은 그것을 붙잡고 온전히, 제대로 감당하죠. 하지만 동시에 그 물고기를 다시 연못에 던져 넣고, David Bowie를 크게 틀고, 잔디 위에",
+      "searchText": "when are you really an adult? 번역본 읽기 저는 \"어른\"이라는 단어를 좋아하지 않아요. 제게 그 말은 거의 \"죽음\"과 동의어예요. 어른이 된다는 건 생명력과 자아에 작별을 고하는 것처럼 느껴지거든요. 많은 사람들이 어른이 된다는 것을 더 점잖게 행동하고, 바울이 말했듯 \"어린아이의 일을 버리는 것\"으로 이해하는 것 같아요. 다시 말해 열정을 잃는 일이죠.\n-anonymous\n친한 친구의 아버지가 한 번 제게 \"넌 정말 자라지 않았구나, 그렇지?\"라고 말한 적이 있어요. 저는 충격을 받았어요. 저는 쉰여섯 살이고, 결혼도 했고, 여행도 많이 다녔고, 석사학위도 있고, 안정적인 직업도 있어요. 도대체 저 말은 무슨 엉뚱한 데서 나온 거지? 하고 생각했죠. 한참 생각한 끝에야 그분의 논리를 이해했어요. 저는 아이를 낳지 않았고(선택적으로), 그러니 여전히 나 자신도 아이일 거라고 본 거죠.\n하지만 저는 그분의 시각에 동의하지 않아요. 저는 스스로를 어른이라고 생각해요. 제 학생들은 제 나이의 일부에 불과하고, 제 결혼생활은 흔들리고 있고, 머리카락은 희어지기 시작했고, 저는 제 모든 청구서를 스스로 내요. 그러니 저는 어른이죠. 무릎이 아프고, 은퇴를 걱정하고, 부모는 늙고 약해졌고, 이제 함께 어디를 갈 때면 제가 운전해요. 그러니 저는 분명 어른일 수밖에 없죠.\n성인기는 물속에서 반짝이는 물고기 같아요. 거기 어딘가 헤엄치고 있다는 건 알 수 있고, 손을 뻗어 어쩌면 잠깐 만질 수도 있어요. 하지만 그걸 붙잡아 버리면 모든 게 망가질 것 같아요. 그리고 정말로 그 물고기를 붙잡게 되는 순간들, 예를 들어 처남의 장례식에 참석해야 하거나 마비된 반려동물을 안락사시켜야 할 때면, 당신은 그것을 붙잡고 온전히, 제대로 감당하죠. 하지만 동시에 그 물고기를 다시 연못에 던져 넣고, david bowie를 크게 틀고, 잔디 위에",
+      "order": 27
+    },
+    {
+      "id": "chatbot-00292",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "만족스럽게 앉아 햇빛 속에서 반짝이는 성인기를 그저 바라보고 싶어져요. 그리고 몸을 뒤로 젖히며 한숨을 쉬죠. 적어도 오늘만큼은, 그게 나와는 상관없는 일이라고 안도하면서요.\n-Anonymous\n\n어른이 된다는 것은 언제나 바람직한 일만은 아니다. 독립은 외로움이 될 수 있고, 책임은 스트레스가 될 수 있다.\n\nMintz는 문화 속에서 성인기의 가치가 어떤 면에서는 떨어졌다고 쓴다. 그는 \"우리는 반복해서, 어른들이 조용한 절망 속에서 불안한 삶을 산다고 듣는다\"고 말한다. \"Saul Bellow, Mary McCarthy, Philip Roth, John Updike 등의 제2차 세계대전 이후 성인기를 다룬 고전 소설들은 산산이 부서진 꿈, 이루지 못한 야망, 깨진 결혼생활, 일터에서의 소외, 가족과의 단절을 이야기한다.\" 그는 이것을 19세기의 성장소설, 즉 사람들이 어른이 되기를 원했던 시대의 coming-of-age 소설들과 비교한다. 누군가가 자신을 어른이라고 느끼는지 아닌지를 둘러싼 양가감정은, 어쩌면 그 사람이 정말 어른이 되고 싶어 하는지에 대한 양가감정의 일부일지도 모른다.\n\nWilliams Brown은 자신이 성인기에 대해 배운 교훈을 세 가지 범주로 나눈다. \"사람을 돌보는 것, 물건을 돌보는 것, 그리고 자기 자신을 돌보는 것\"이다. 여기에는 사람을 지치게 하는 요소도 있다. 그녀는 이렇게 말한다. \"내가 화장지를 사지 않으면, 우리 집엔 화장지가 없는 거예요. 내가 내 삶, 내 일, 내 관계에 만족하지 못한다고 해도, 누구도 와서 그걸 대신 고쳐 주지는 않아요.\"",
+      "searchText": "when are you really an adult? 번역본 읽기 만족스럽게 앉아 햇빛 속에서 반짝이는 성인기를 그저 바라보고 싶어져요. 그리고 몸을 뒤로 젖히며 한숨을 쉬죠. 적어도 오늘만큼은, 그게 나와는 상관없는 일이라고 안도하면서요.\n-anonymous\n\n어른이 된다는 것은 언제나 바람직한 일만은 아니다. 독립은 외로움이 될 수 있고, 책임은 스트레스가 될 수 있다.\n\nmintz는 문화 속에서 성인기의 가치가 어떤 면에서는 떨어졌다고 쓴다. 그는 \"우리는 반복해서, 어른들이 조용한 절망 속에서 불안한 삶을 산다고 듣는다\"고 말한다. \"saul bellow, mary mccarthy, philip roth, john updike 등의 제2차 세계대전 이후 성인기를 다룬 고전 소설들은 산산이 부서진 꿈, 이루지 못한 야망, 깨진 결혼생활, 일터에서의 소외, 가족과의 단절을 이야기한다.\" 그는 이것을 19세기의 성장소설, 즉 사람들이 어른이 되기를 원했던 시대의 coming-of-age 소설들과 비교한다. 누군가가 자신을 어른이라고 느끼는지 아닌지를 둘러싼 양가감정은, 어쩌면 그 사람이 정말 어른이 되고 싶어 하는지에 대한 양가감정의 일부일지도 모른다.\n\nwilliams brown은 자신이 성인기에 대해 배운 교훈을 세 가지 범주로 나눈다. \"사람을 돌보는 것, 물건을 돌보는 것, 그리고 자기 자신을 돌보는 것\"이다. 여기에는 사람을 지치게 하는 요소도 있다. 그녀는 이렇게 말한다. \"내가 화장지를 사지 않으면, 우리 집엔 화장지가 없는 거예요. 내가 내 삶, 내 일, 내 관계에 만족하지 못한다고 해도, 누구도 와서 그걸 대신 고쳐 주지는 않아요.\"",
+      "order": 28
+    },
+    {
+      "id": "chatbot-00293",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "\"우리는 스물여섯 살쯤부터 인생이 내리막이라고 믿는 청춘 문화 속에 살고 있어요.\" Mintz는 이렇게 말한다. 하지만 그는 Cary Grant와 Katherine Hepburn으로 대표되는 옛 할리우드식 성인기 상상 속에서 영감과 가능성을 본다. \"제가 우리가 성인기를 다시 회복해야 한다고 말할 때, 그것은 1950년대식 조기 결혼과 조기 취업을 뜻하는 게 아닙니다.\" 그는 이렇게 말한다. \"제가 말하고 싶은 것은, 모르는 것보다 아는 것이 낫고, 경험이 없는 것보다 경험이 있는 것이 낫고, 미숙한 것보다 세련된 것이 낫다는 점입니다.\"\n\nMintz에게 성인기의 의미는 그렇다. 반면 Williams Brown에게 그것은 \"내가 정말로, 진짜로 오직 나 자신만 책임지는 사람이라는 것. 그리고 삶을 원래 모습이 아닌 다른 어떤 것으로 바꾸려 드는 책임까지 내가 떠안고 있는 것은 아니라는 것\"이다.",
+      "searchText": "when are you really an adult? 번역본 읽기 \"우리는 스물여섯 살쯤부터 인생이 내리막이라고 믿는 청춘 문화 속에 살고 있어요.\" mintz는 이렇게 말한다. 하지만 그는 cary grant와 katherine hepburn으로 대표되는 옛 할리우드식 성인기 상상 속에서 영감과 가능성을 본다. \"제가 우리가 성인기를 다시 회복해야 한다고 말할 때, 그것은 1950년대식 조기 결혼과 조기 취업을 뜻하는 게 아닙니다.\" 그는 이렇게 말한다. \"제가 말하고 싶은 것은, 모르는 것보다 아는 것이 낫고, 경험이 없는 것보다 경험이 있는 것이 낫고, 미숙한 것보다 세련된 것이 낫다는 점입니다.\"\n\nmintz에게 성인기의 의미는 그렇다. 반면 williams brown에게 그것은 \"내가 정말로, 진짜로 오직 나 자신만 책임지는 사람이라는 것. 그리고 삶을 원래 모습이 아닌 다른 어떤 것으로 바꾸려 드는 책임까지 내가 떠안고 있는 것은 아니라는 것\"이다.",
+      "order": 29
+    },
+    {
+      "id": "chatbot-00294",
+      "slug": "beck-2016",
+      "readingTitle": "When Are You Really an Adult?",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/beck-2016/translation.html",
+      "text": "한 사회에서 성인기가 무엇을 뜻하는지는 셀 수 없이 많은 강이 흘러들어 이루는 바다와 같다. 법으로 규정할 수는 있지만 완전히 규정할 수는 없다. 과학은 성숙에 대한 이해를 진전시킬 수는 있지만, 우리를 끝까지 데려다주지는 못한다. 사회규범은 바뀌고, 사람들은 전통적 역할에서 이탈하기도 하며, 반대로 너무 이른 시기에 그런 역할을 떠맡도록 강요받기도 한다. 트렌드는 추적할 수 있지만, 트렌드는 한 개인이 무엇을 원하고 무엇을 가치 있게 여기는지와는 거의 상관이 없다. 사회는 어떤 생애 단계를 일정 정도까지만 정의할 수 있을 뿐이고, 나머지 많은 부분은 개인이 스스로 정의해야 한다. 성인기 전체는 인상파 그림과도 같다. 충분히 멀리 떨어져 서 있으면 흐릿한 큰 그림이 보이지만, 코를 바짝 들이대면 수백만 개의 작은 붓질밖에 보이지 않는다. 불완전하고, 불규칙하지만, 의심할 여지 없이 더 큰 전체의 일부인 붓질들 말이다.",
+      "searchText": "when are you really an adult? 번역본 읽기 한 사회에서 성인기가 무엇을 뜻하는지는 셀 수 없이 많은 강이 흘러들어 이루는 바다와 같다. 법으로 규정할 수는 있지만 완전히 규정할 수는 없다. 과학은 성숙에 대한 이해를 진전시킬 수는 있지만, 우리를 끝까지 데려다주지는 못한다. 사회규범은 바뀌고, 사람들은 전통적 역할에서 이탈하기도 하며, 반대로 너무 이른 시기에 그런 역할을 떠맡도록 강요받기도 한다. 트렌드는 추적할 수 있지만, 트렌드는 한 개인이 무엇을 원하고 무엇을 가치 있게 여기는지와는 거의 상관이 없다. 사회는 어떤 생애 단계를 일정 정도까지만 정의할 수 있을 뿐이고, 나머지 많은 부분은 개인이 스스로 정의해야 한다. 성인기 전체는 인상파 그림과도 같다. 충분히 멀리 떨어져 서 있으면 흐릿한 큰 그림이 보이지만, 코를 바짝 들이대면 수백만 개의 작은 붓질밖에 보이지 않는다. 불완전하고, 불규칙하지만, 의심할 여지 없이 더 큰 전체의 일부인 붓질들 말이다.",
+      "order": 30
+    },
+    {
+      "id": "chatbot-00295",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "overview",
@@ -2544,7 +3248,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00232",
+      "id": "chatbot-00296",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "summary",
@@ -2555,7 +3259,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00233",
+      "id": "chatbot-00297",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "summary",
@@ -2566,7 +3270,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00234",
+      "id": "chatbot-00298",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "summary",
@@ -2577,7 +3281,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00235",
+      "id": "chatbot-00299",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "summary",
@@ -2588,7 +3292,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00236",
+      "id": "chatbot-00300",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2599,7 +3303,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00237",
+      "id": "chatbot-00301",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2610,7 +3314,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00238",
+      "id": "chatbot-00302",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2621,7 +3325,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00239",
+      "id": "chatbot-00303",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2632,7 +3336,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00240",
+      "id": "chatbot-00304",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2643,7 +3347,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00241",
+      "id": "chatbot-00305",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2654,7 +3358,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00242",
+      "id": "chatbot-00306",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2665,7 +3369,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00243",
+      "id": "chatbot-00307",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2676,7 +3380,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00244",
+      "id": "chatbot-00308",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2687,7 +3391,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00245",
+      "id": "chatbot-00309",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2698,7 +3402,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00246",
+      "id": "chatbot-00310",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2709,7 +3413,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00247",
+      "id": "chatbot-00311",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2720,7 +3424,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00248",
+      "id": "chatbot-00312",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2731,7 +3435,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00249",
+      "id": "chatbot-00313",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2742,7 +3446,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00250",
+      "id": "chatbot-00314",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2753,7 +3457,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00251",
+      "id": "chatbot-00315",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2764,7 +3468,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00252",
+      "id": "chatbot-00316",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2775,7 +3479,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00253",
+      "id": "chatbot-00317",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2786,7 +3490,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00254",
+      "id": "chatbot-00318",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2797,7 +3501,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00255",
+      "id": "chatbot-00319",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2808,7 +3512,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00256",
+      "id": "chatbot-00320",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2819,7 +3523,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00257",
+      "id": "chatbot-00321",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2830,7 +3534,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00258",
+      "id": "chatbot-00322",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2841,7 +3545,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00259",
+      "id": "chatbot-00323",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2852,7 +3556,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00260",
+      "id": "chatbot-00324",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2863,7 +3567,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00261",
+      "id": "chatbot-00325",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2874,7 +3578,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00262",
+      "id": "chatbot-00326",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2885,7 +3589,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-00263",
+      "id": "chatbot-00327",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2896,7 +3600,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-00264",
+      "id": "chatbot-00328",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2907,7 +3611,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-00265",
+      "id": "chatbot-00329",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2918,7 +3622,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-00266",
+      "id": "chatbot-00330",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2929,7 +3633,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-00267",
+      "id": "chatbot-00331",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2940,7 +3644,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-00268",
+      "id": "chatbot-00332",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2951,7 +3655,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-00269",
+      "id": "chatbot-00333",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2962,7 +3666,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-00270",
+      "id": "chatbot-00334",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2973,7 +3677,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-00271",
+      "id": "chatbot-00335",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2984,7 +3688,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-00272",
+      "id": "chatbot-00336",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -2995,7 +3699,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-00273",
+      "id": "chatbot-00337",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3006,7 +3710,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-00274",
+      "id": "chatbot-00338",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3017,7 +3721,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-00275",
+      "id": "chatbot-00339",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3028,7 +3732,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-00276",
+      "id": "chatbot-00340",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3039,7 +3743,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-00277",
+      "id": "chatbot-00341",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3050,7 +3754,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-00278",
+      "id": "chatbot-00342",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3061,7 +3765,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-00279",
+      "id": "chatbot-00343",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3072,7 +3776,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-00280",
+      "id": "chatbot-00344",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3083,7 +3787,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-00281",
+      "id": "chatbot-00345",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3094,7 +3798,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-00282",
+      "id": "chatbot-00346",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3105,7 +3809,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-00283",
+      "id": "chatbot-00347",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3116,7 +3820,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-00284",
+      "id": "chatbot-00348",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3127,7 +3831,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-00285",
+      "id": "chatbot-00349",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3138,7 +3842,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-00286",
+      "id": "chatbot-00350",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3149,7 +3853,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-00287",
+      "id": "chatbot-00351",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3160,7 +3864,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-00288",
+      "id": "chatbot-00352",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3171,7 +3875,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-00289",
+      "id": "chatbot-00353",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3182,7 +3886,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-00290",
+      "id": "chatbot-00354",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3193,7 +3897,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-00291",
+      "id": "chatbot-00355",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3204,7 +3908,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-00292",
+      "id": "chatbot-00356",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3215,7 +3919,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-00293",
+      "id": "chatbot-00357",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3226,7 +3930,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-00294",
+      "id": "chatbot-00358",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3237,7 +3941,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-00295",
+      "id": "chatbot-00359",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3248,7 +3952,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-00296",
+      "id": "chatbot-00360",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3259,7 +3963,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-00297",
+      "id": "chatbot-00361",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3270,7 +3974,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-00298",
+      "id": "chatbot-00362",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3281,7 +3985,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-00299",
+      "id": "chatbot-00363",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3292,7 +3996,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-00300",
+      "id": "chatbot-00364",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3303,7 +4007,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-00301",
+      "id": "chatbot-00365",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3314,7 +4018,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-00302",
+      "id": "chatbot-00366",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3325,7 +4029,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-00303",
+      "id": "chatbot-00367",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3336,7 +4040,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-00304",
+      "id": "chatbot-00368",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3347,7 +4051,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 69
     },
     {
-      "id": "chatbot-00305",
+      "id": "chatbot-00369",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3358,7 +4062,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 70
     },
     {
-      "id": "chatbot-00306",
+      "id": "chatbot-00370",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3369,7 +4073,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 71
     },
     {
-      "id": "chatbot-00307",
+      "id": "chatbot-00371",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3380,7 +4084,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 72
     },
     {
-      "id": "chatbot-00308",
+      "id": "chatbot-00372",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3391,7 +4095,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 73
     },
     {
-      "id": "chatbot-00309",
+      "id": "chatbot-00373",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3402,7 +4106,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 74
     },
     {
-      "id": "chatbot-00310",
+      "id": "chatbot-00374",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3413,7 +4117,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 75
     },
     {
-      "id": "chatbot-00311",
+      "id": "chatbot-00375",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3424,7 +4128,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 76
     },
     {
-      "id": "chatbot-00312",
+      "id": "chatbot-00376",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3435,7 +4139,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 77
     },
     {
-      "id": "chatbot-00313",
+      "id": "chatbot-00377",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3446,7 +4150,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 78
     },
     {
-      "id": "chatbot-00314",
+      "id": "chatbot-00378",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3457,7 +4161,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 79
     },
     {
-      "id": "chatbot-00315",
+      "id": "chatbot-00379",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3468,7 +4172,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 80
     },
     {
-      "id": "chatbot-00316",
+      "id": "chatbot-00380",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3479,7 +4183,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 81
     },
     {
-      "id": "chatbot-00317",
+      "id": "chatbot-00381",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3490,7 +4194,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 82
     },
     {
-      "id": "chatbot-00318",
+      "id": "chatbot-00382",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3501,7 +4205,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 83
     },
     {
-      "id": "chatbot-00319",
+      "id": "chatbot-00383",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3512,7 +4216,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 84
     },
     {
-      "id": "chatbot-00320",
+      "id": "chatbot-00384",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3523,7 +4227,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 85
     },
     {
-      "id": "chatbot-00321",
+      "id": "chatbot-00385",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3534,7 +4238,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 86
     },
     {
-      "id": "chatbot-00322",
+      "id": "chatbot-00386",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -3545,7 +4249,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 87
     },
     {
-      "id": "chatbot-00323",
+      "id": "chatbot-00387",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3556,7 +4260,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00324",
+      "id": "chatbot-00388",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3567,7 +4271,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00325",
+      "id": "chatbot-00389",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3578,7 +4282,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00326",
+      "id": "chatbot-00390",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3589,7 +4293,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00327",
+      "id": "chatbot-00391",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3600,7 +4304,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00328",
+      "id": "chatbot-00392",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3611,7 +4315,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00329",
+      "id": "chatbot-00393",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3622,7 +4326,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00330",
+      "id": "chatbot-00394",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3633,7 +4337,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00331",
+      "id": "chatbot-00395",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3644,7 +4348,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00332",
+      "id": "chatbot-00396",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3655,7 +4359,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00333",
+      "id": "chatbot-00397",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3666,7 +4370,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00334",
+      "id": "chatbot-00398",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3677,7 +4381,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00335",
+      "id": "chatbot-00399",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3688,7 +4392,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00336",
+      "id": "chatbot-00400",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3699,7 +4403,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00337",
+      "id": "chatbot-00401",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3710,7 +4414,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00338",
+      "id": "chatbot-00402",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3721,7 +4425,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00339",
+      "id": "chatbot-00403",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3732,7 +4436,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00340",
+      "id": "chatbot-00404",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3743,7 +4447,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00341",
+      "id": "chatbot-00405",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3754,7 +4458,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00342",
+      "id": "chatbot-00406",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3765,7 +4469,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00343",
+      "id": "chatbot-00407",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3776,7 +4480,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00344",
+      "id": "chatbot-00408",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3787,7 +4491,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00345",
+      "id": "chatbot-00409",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3798,7 +4502,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00346",
+      "id": "chatbot-00410",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3809,7 +4513,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00347",
+      "id": "chatbot-00411",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3820,7 +4524,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00348",
+      "id": "chatbot-00412",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3831,7 +4535,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00349",
+      "id": "chatbot-00413",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3842,7 +4546,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-00350",
+      "id": "chatbot-00414",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3853,7 +4557,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-00351",
+      "id": "chatbot-00415",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3864,7 +4568,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-00352",
+      "id": "chatbot-00416",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3875,7 +4579,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-00353",
+      "id": "chatbot-00417",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3886,7 +4590,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-00354",
+      "id": "chatbot-00418",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3897,7 +4601,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-00355",
+      "id": "chatbot-00419",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3908,7 +4612,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-00356",
+      "id": "chatbot-00420",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3919,7 +4623,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-00357",
+      "id": "chatbot-00421",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3930,7 +4634,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-00358",
+      "id": "chatbot-00422",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3941,7 +4645,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-00359",
+      "id": "chatbot-00423",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3952,7 +4656,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-00360",
+      "id": "chatbot-00424",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3963,7 +4667,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-00361",
+      "id": "chatbot-00425",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3974,7 +4678,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-00362",
+      "id": "chatbot-00426",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3985,7 +4689,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-00363",
+      "id": "chatbot-00427",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -3996,7 +4700,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-00364",
+      "id": "chatbot-00428",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -4007,7 +4711,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-00365",
+      "id": "chatbot-00429",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -4018,7 +4722,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-00366",
+      "id": "chatbot-00430",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -4029,7 +4733,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-00367",
+      "id": "chatbot-00431",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -4040,7 +4744,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-00368",
+      "id": "chatbot-00432",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -4051,7 +4755,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00369",
+      "id": "chatbot-00433",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -4062,7 +4766,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00370",
+      "id": "chatbot-00434",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -4073,7 +4777,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00371",
+      "id": "chatbot-00435",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -4084,7 +4788,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00372",
+      "id": "chatbot-00436",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -4095,7 +4799,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00373",
+      "id": "chatbot-00437",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "pitfalls",
@@ -4106,7 +4810,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00374",
+      "id": "chatbot-00438",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "pitfalls",
@@ -4117,7 +4821,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00375",
+      "id": "chatbot-00439",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "pitfalls",
@@ -4128,7 +4832,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00376",
+      "id": "chatbot-00440",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "pitfalls",
@@ -4139,7 +4843,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00377",
+      "id": "chatbot-00441",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "review-sheet",
@@ -4150,7 +4854,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00378",
+      "id": "chatbot-00442",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "review-sheet",
@@ -4161,7 +4865,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00379",
+      "id": "chatbot-00443",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4172,7 +4876,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00380",
+      "id": "chatbot-00444",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4183,7 +4887,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00381",
+      "id": "chatbot-00445",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4194,7 +4898,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00382",
+      "id": "chatbot-00446",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4205,7 +4909,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00383",
+      "id": "chatbot-00447",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4216,7 +4920,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00384",
+      "id": "chatbot-00448",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4227,7 +4931,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00385",
+      "id": "chatbot-00449",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4238,7 +4942,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00386",
+      "id": "chatbot-00450",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4249,7 +4953,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00387",
+      "id": "chatbot-00451",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4260,7 +4964,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00388",
+      "id": "chatbot-00452",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4271,7 +4975,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00389",
+      "id": "chatbot-00453",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4282,7 +4986,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00390",
+      "id": "chatbot-00454",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4293,7 +4997,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00391",
+      "id": "chatbot-00455",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4304,7 +5008,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00392",
+      "id": "chatbot-00456",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4315,7 +5019,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00393",
+      "id": "chatbot-00457",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -4326,7 +5030,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00394",
+      "id": "chatbot-00458",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "overview",
@@ -4337,7 +5041,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00395",
+      "id": "chatbot-00459",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "summary",
@@ -4348,7 +5052,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00396",
+      "id": "chatbot-00460",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "summary",
@@ -4359,7 +5063,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00397",
+      "id": "chatbot-00461",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4370,7 +5074,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00398",
+      "id": "chatbot-00462",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4381,7 +5085,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00399",
+      "id": "chatbot-00463",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4392,7 +5096,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00400",
+      "id": "chatbot-00464",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4403,7 +5107,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00401",
+      "id": "chatbot-00465",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4414,7 +5118,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00402",
+      "id": "chatbot-00466",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4425,7 +5129,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00403",
+      "id": "chatbot-00467",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4436,7 +5140,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00404",
+      "id": "chatbot-00468",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4447,7 +5151,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00405",
+      "id": "chatbot-00469",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4458,7 +5162,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00406",
+      "id": "chatbot-00470",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4469,7 +5173,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00407",
+      "id": "chatbot-00471",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4480,7 +5184,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00408",
+      "id": "chatbot-00472",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4491,7 +5195,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00409",
+      "id": "chatbot-00473",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4502,7 +5206,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00410",
+      "id": "chatbot-00474",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4513,7 +5217,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00411",
+      "id": "chatbot-00475",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4524,7 +5228,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00412",
+      "id": "chatbot-00476",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -4535,7 +5239,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00413",
+      "id": "chatbot-00477",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -4546,7 +5250,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00414",
+      "id": "chatbot-00478",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -4557,7 +5261,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00415",
+      "id": "chatbot-00479",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -4568,7 +5272,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00416",
+      "id": "chatbot-00480",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -4579,7 +5283,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00417",
+      "id": "chatbot-00481",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -4590,7 +5294,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00418",
+      "id": "chatbot-00482",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -4601,7 +5305,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00419",
+      "id": "chatbot-00483",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -4612,7 +5316,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00420",
+      "id": "chatbot-00484",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -4623,7 +5327,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00421",
+      "id": "chatbot-00485",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -4634,7 +5338,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00422",
+      "id": "chatbot-00486",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -4645,7 +5349,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00423",
+      "id": "chatbot-00487",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -4656,7 +5360,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00424",
+      "id": "chatbot-00488",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -4667,7 +5371,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00425",
+      "id": "chatbot-00489",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -4678,7 +5382,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00426",
+      "id": "chatbot-00490",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "pitfalls",
@@ -4689,7 +5393,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00427",
+      "id": "chatbot-00491",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "pitfalls",
@@ -4700,7 +5404,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00428",
+      "id": "chatbot-00492",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "review-sheet",
@@ -4711,7 +5415,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00429",
+      "id": "chatbot-00493",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4722,7 +5426,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00430",
+      "id": "chatbot-00494",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4733,7 +5437,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00431",
+      "id": "chatbot-00495",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4744,7 +5448,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00432",
+      "id": "chatbot-00496",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4755,7 +5459,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00433",
+      "id": "chatbot-00497",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4766,7 +5470,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00434",
+      "id": "chatbot-00498",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4777,7 +5481,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00435",
+      "id": "chatbot-00499",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4788,7 +5492,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00436",
+      "id": "chatbot-00500",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4799,7 +5503,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00437",
+      "id": "chatbot-00501",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4810,7 +5514,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00438",
+      "id": "chatbot-00502",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4821,7 +5525,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00439",
+      "id": "chatbot-00503",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4832,7 +5536,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00440",
+      "id": "chatbot-00504",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4843,7 +5547,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00441",
+      "id": "chatbot-00505",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4854,7 +5558,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00442",
+      "id": "chatbot-00506",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4865,7 +5569,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00443",
+      "id": "chatbot-00507",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -4876,7 +5580,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00444",
+      "id": "chatbot-00508",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "overview",
@@ -4887,7 +5591,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00445",
+      "id": "chatbot-00509",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "summary",
@@ -4898,7 +5602,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00446",
+      "id": "chatbot-00510",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "summary",
@@ -4909,7 +5613,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00447",
+      "id": "chatbot-00511",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "summary",
@@ -4920,7 +5624,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00448",
+      "id": "chatbot-00512",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "summary",
@@ -4931,7 +5635,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00449",
+      "id": "chatbot-00513",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -4942,7 +5646,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00450",
+      "id": "chatbot-00514",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -4953,7 +5657,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00451",
+      "id": "chatbot-00515",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -4964,7 +5668,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00452",
+      "id": "chatbot-00516",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -4975,7 +5679,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00453",
+      "id": "chatbot-00517",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -4986,7 +5690,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00454",
+      "id": "chatbot-00518",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -4997,7 +5701,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00455",
+      "id": "chatbot-00519",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5008,7 +5712,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00456",
+      "id": "chatbot-00520",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5019,7 +5723,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00457",
+      "id": "chatbot-00521",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5030,7 +5734,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00458",
+      "id": "chatbot-00522",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5041,7 +5745,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00459",
+      "id": "chatbot-00523",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5052,7 +5756,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00460",
+      "id": "chatbot-00524",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5063,7 +5767,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00461",
+      "id": "chatbot-00525",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5074,7 +5778,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00462",
+      "id": "chatbot-00526",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5085,7 +5789,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00463",
+      "id": "chatbot-00527",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5096,7 +5800,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00464",
+      "id": "chatbot-00528",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5107,7 +5811,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00465",
+      "id": "chatbot-00529",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5118,7 +5822,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00466",
+      "id": "chatbot-00530",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5129,7 +5833,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00467",
+      "id": "chatbot-00531",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5140,7 +5844,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00468",
+      "id": "chatbot-00532",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5151,7 +5855,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00469",
+      "id": "chatbot-00533",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5162,7 +5866,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00470",
+      "id": "chatbot-00534",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5173,7 +5877,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00471",
+      "id": "chatbot-00535",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5184,7 +5888,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00472",
+      "id": "chatbot-00536",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5195,7 +5899,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00473",
+      "id": "chatbot-00537",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5206,7 +5910,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00474",
+      "id": "chatbot-00538",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5217,7 +5921,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00475",
+      "id": "chatbot-00539",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5228,7 +5932,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-00476",
+      "id": "chatbot-00540",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5239,7 +5943,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-00477",
+      "id": "chatbot-00541",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5250,7 +5954,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-00478",
+      "id": "chatbot-00542",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5261,7 +5965,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-00479",
+      "id": "chatbot-00543",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5272,7 +5976,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-00480",
+      "id": "chatbot-00544",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5283,7 +5987,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-00481",
+      "id": "chatbot-00545",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5294,7 +5998,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-00482",
+      "id": "chatbot-00546",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5305,7 +6009,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-00483",
+      "id": "chatbot-00547",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5316,7 +6020,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-00484",
+      "id": "chatbot-00548",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5327,7 +6031,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-00485",
+      "id": "chatbot-00549",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5338,7 +6042,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-00486",
+      "id": "chatbot-00550",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5349,7 +6053,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-00487",
+      "id": "chatbot-00551",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5360,7 +6064,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-00488",
+      "id": "chatbot-00552",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5371,7 +6075,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-00489",
+      "id": "chatbot-00553",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5382,7 +6086,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-00490",
+      "id": "chatbot-00554",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5393,7 +6097,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-00491",
+      "id": "chatbot-00555",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5404,7 +6108,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-00492",
+      "id": "chatbot-00556",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5415,7 +6119,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-00493",
+      "id": "chatbot-00557",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5426,7 +6130,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-00494",
+      "id": "chatbot-00558",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5437,7 +6141,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-00495",
+      "id": "chatbot-00559",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5448,7 +6152,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-00496",
+      "id": "chatbot-00560",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5459,7 +6163,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-00497",
+      "id": "chatbot-00561",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5470,7 +6174,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-00498",
+      "id": "chatbot-00562",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5481,7 +6185,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-00499",
+      "id": "chatbot-00563",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5492,7 +6196,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-00500",
+      "id": "chatbot-00564",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5503,7 +6207,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-00501",
+      "id": "chatbot-00565",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5514,7 +6218,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-00502",
+      "id": "chatbot-00566",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5525,7 +6229,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-00503",
+      "id": "chatbot-00567",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5536,7 +6240,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-00504",
+      "id": "chatbot-00568",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -5547,7 +6251,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-00505",
+      "id": "chatbot-00569",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5558,7 +6262,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00506",
+      "id": "chatbot-00570",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5569,7 +6273,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00507",
+      "id": "chatbot-00571",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5580,7 +6284,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00508",
+      "id": "chatbot-00572",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5591,7 +6295,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00509",
+      "id": "chatbot-00573",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5602,7 +6306,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00510",
+      "id": "chatbot-00574",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5613,7 +6317,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00511",
+      "id": "chatbot-00575",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5624,7 +6328,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00512",
+      "id": "chatbot-00576",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5635,7 +6339,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00513",
+      "id": "chatbot-00577",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5646,7 +6350,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00514",
+      "id": "chatbot-00578",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5657,7 +6361,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00515",
+      "id": "chatbot-00579",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5668,7 +6372,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00516",
+      "id": "chatbot-00580",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5679,7 +6383,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00517",
+      "id": "chatbot-00581",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5690,7 +6394,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00518",
+      "id": "chatbot-00582",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5701,7 +6405,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00519",
+      "id": "chatbot-00583",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5712,7 +6416,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00520",
+      "id": "chatbot-00584",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5723,7 +6427,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00521",
+      "id": "chatbot-00585",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5734,7 +6438,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00522",
+      "id": "chatbot-00586",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5745,7 +6449,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00523",
+      "id": "chatbot-00587",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5756,7 +6460,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00524",
+      "id": "chatbot-00588",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5767,7 +6471,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00525",
+      "id": "chatbot-00589",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5778,7 +6482,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00526",
+      "id": "chatbot-00590",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5789,7 +6493,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00527",
+      "id": "chatbot-00591",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5800,7 +6504,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00528",
+      "id": "chatbot-00592",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5811,7 +6515,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00529",
+      "id": "chatbot-00593",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5822,7 +6526,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00530",
+      "id": "chatbot-00594",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5833,7 +6537,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00531",
+      "id": "chatbot-00595",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5844,7 +6548,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-00532",
+      "id": "chatbot-00596",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5855,7 +6559,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-00533",
+      "id": "chatbot-00597",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5866,7 +6570,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-00534",
+      "id": "chatbot-00598",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5877,7 +6581,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-00535",
+      "id": "chatbot-00599",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -5888,7 +6592,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-00536",
+      "id": "chatbot-00600",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -5899,7 +6603,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00537",
+      "id": "chatbot-00601",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -5910,7 +6614,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00538",
+      "id": "chatbot-00602",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -5921,7 +6625,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00539",
+      "id": "chatbot-00603",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -5932,7 +6636,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00540",
+      "id": "chatbot-00604",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -5943,7 +6647,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00541",
+      "id": "chatbot-00605",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "pitfalls",
@@ -5954,7 +6658,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00542",
+      "id": "chatbot-00606",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "pitfalls",
@@ -5965,7 +6669,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00543",
+      "id": "chatbot-00607",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "pitfalls",
@@ -5976,7 +6680,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00544",
+      "id": "chatbot-00608",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "review-sheet",
@@ -5987,7 +6691,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00545",
+      "id": "chatbot-00609",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "review-sheet",
@@ -5998,7 +6702,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00546",
+      "id": "chatbot-00610",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6009,7 +6713,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00547",
+      "id": "chatbot-00611",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6020,7 +6724,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00548",
+      "id": "chatbot-00612",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6031,7 +6735,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00549",
+      "id": "chatbot-00613",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6042,7 +6746,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00550",
+      "id": "chatbot-00614",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6053,7 +6757,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00551",
+      "id": "chatbot-00615",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6064,7 +6768,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00552",
+      "id": "chatbot-00616",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6075,7 +6779,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00553",
+      "id": "chatbot-00617",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6086,7 +6790,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00554",
+      "id": "chatbot-00618",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6097,7 +6801,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00555",
+      "id": "chatbot-00619",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6108,7 +6812,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00556",
+      "id": "chatbot-00620",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6119,7 +6823,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00557",
+      "id": "chatbot-00621",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6130,7 +6834,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00558",
+      "id": "chatbot-00622",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6141,7 +6845,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00559",
+      "id": "chatbot-00623",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6152,7 +6856,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00560",
+      "id": "chatbot-00624",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -6163,7 +6867,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00561",
+      "id": "chatbot-00625",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "overview",
@@ -6174,7 +6878,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00562",
+      "id": "chatbot-00626",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "summary",
@@ -6185,7 +6889,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00563",
+      "id": "chatbot-00627",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "summary",
@@ -6196,7 +6900,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00564",
+      "id": "chatbot-00628",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6207,7 +6911,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00565",
+      "id": "chatbot-00629",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6218,7 +6922,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00566",
+      "id": "chatbot-00630",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6229,7 +6933,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00567",
+      "id": "chatbot-00631",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6240,7 +6944,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00568",
+      "id": "chatbot-00632",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6251,7 +6955,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00569",
+      "id": "chatbot-00633",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6262,7 +6966,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00570",
+      "id": "chatbot-00634",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6273,7 +6977,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00571",
+      "id": "chatbot-00635",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6284,7 +6988,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00572",
+      "id": "chatbot-00636",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6295,7 +6999,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00573",
+      "id": "chatbot-00637",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6306,7 +7010,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00574",
+      "id": "chatbot-00638",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6317,7 +7021,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00575",
+      "id": "chatbot-00639",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6328,7 +7032,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00576",
+      "id": "chatbot-00640",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6339,7 +7043,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00577",
+      "id": "chatbot-00641",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6350,7 +7054,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00578",
+      "id": "chatbot-00642",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6361,7 +7065,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00579",
+      "id": "chatbot-00643",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6372,7 +7076,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00580",
+      "id": "chatbot-00644",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6383,7 +7087,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00581",
+      "id": "chatbot-00645",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6394,7 +7098,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00582",
+      "id": "chatbot-00646",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6405,7 +7109,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00583",
+      "id": "chatbot-00647",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6416,7 +7120,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00584",
+      "id": "chatbot-00648",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6427,7 +7131,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00585",
+      "id": "chatbot-00649",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6438,7 +7142,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00586",
+      "id": "chatbot-00650",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6449,7 +7153,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00587",
+      "id": "chatbot-00651",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6460,7 +7164,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00588",
+      "id": "chatbot-00652",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6471,7 +7175,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00589",
+      "id": "chatbot-00653",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6482,7 +7186,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00590",
+      "id": "chatbot-00654",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6493,7 +7197,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-00591",
+      "id": "chatbot-00655",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6504,7 +7208,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-00592",
+      "id": "chatbot-00656",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6515,7 +7219,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-00593",
+      "id": "chatbot-00657",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6526,7 +7230,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-00594",
+      "id": "chatbot-00658",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6537,7 +7241,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-00595",
+      "id": "chatbot-00659",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6548,7 +7252,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-00596",
+      "id": "chatbot-00660",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6559,7 +7263,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-00597",
+      "id": "chatbot-00661",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6570,7 +7274,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-00598",
+      "id": "chatbot-00662",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6581,7 +7285,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-00599",
+      "id": "chatbot-00663",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6592,7 +7296,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-00600",
+      "id": "chatbot-00664",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6603,7 +7307,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-00601",
+      "id": "chatbot-00665",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6614,7 +7318,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-00602",
+      "id": "chatbot-00666",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6625,7 +7329,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-00603",
+      "id": "chatbot-00667",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6636,7 +7340,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-00604",
+      "id": "chatbot-00668",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6647,7 +7351,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-00605",
+      "id": "chatbot-00669",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6658,7 +7362,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-00606",
+      "id": "chatbot-00670",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6669,7 +7373,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-00607",
+      "id": "chatbot-00671",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6680,7 +7384,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-00608",
+      "id": "chatbot-00672",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -6691,7 +7395,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-00609",
+      "id": "chatbot-00673",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6702,7 +7406,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00610",
+      "id": "chatbot-00674",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6713,7 +7417,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00611",
+      "id": "chatbot-00675",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6724,7 +7428,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00612",
+      "id": "chatbot-00676",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6735,7 +7439,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00613",
+      "id": "chatbot-00677",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6746,7 +7450,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00614",
+      "id": "chatbot-00678",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6757,7 +7461,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00615",
+      "id": "chatbot-00679",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6768,7 +7472,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00616",
+      "id": "chatbot-00680",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6779,7 +7483,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00617",
+      "id": "chatbot-00681",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6790,7 +7494,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00618",
+      "id": "chatbot-00682",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6801,7 +7505,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00619",
+      "id": "chatbot-00683",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6812,7 +7516,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00620",
+      "id": "chatbot-00684",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6823,7 +7527,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00621",
+      "id": "chatbot-00685",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6834,7 +7538,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00622",
+      "id": "chatbot-00686",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6845,7 +7549,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00623",
+      "id": "chatbot-00687",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6856,7 +7560,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00624",
+      "id": "chatbot-00688",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6867,7 +7571,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00625",
+      "id": "chatbot-00689",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6878,7 +7582,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00626",
+      "id": "chatbot-00690",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6889,7 +7593,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00627",
+      "id": "chatbot-00691",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6900,7 +7604,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00628",
+      "id": "chatbot-00692",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6911,7 +7615,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00629",
+      "id": "chatbot-00693",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6922,7 +7626,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00630",
+      "id": "chatbot-00694",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6933,7 +7637,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00631",
+      "id": "chatbot-00695",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6944,7 +7648,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00632",
+      "id": "chatbot-00696",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6955,7 +7659,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00633",
+      "id": "chatbot-00697",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6966,7 +7670,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00634",
+      "id": "chatbot-00698",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -6977,7 +7681,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00635",
+      "id": "chatbot-00699",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -6988,7 +7692,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00636",
+      "id": "chatbot-00700",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -6999,7 +7703,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00637",
+      "id": "chatbot-00701",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -7010,7 +7714,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00638",
+      "id": "chatbot-00702",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -7021,7 +7725,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00639",
+      "id": "chatbot-00703",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -7032,7 +7736,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00640",
+      "id": "chatbot-00704",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "pitfalls",
@@ -7043,7 +7747,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00641",
+      "id": "chatbot-00705",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "pitfalls",
@@ -7054,7 +7758,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00642",
+      "id": "chatbot-00706",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "review-sheet",
@@ -7065,7 +7769,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00643",
+      "id": "chatbot-00707",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "review-sheet",
@@ -7076,7 +7780,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00644",
+      "id": "chatbot-00708",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7087,7 +7791,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00645",
+      "id": "chatbot-00709",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7098,7 +7802,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00646",
+      "id": "chatbot-00710",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7109,7 +7813,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00647",
+      "id": "chatbot-00711",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7120,7 +7824,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00648",
+      "id": "chatbot-00712",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7131,7 +7835,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00649",
+      "id": "chatbot-00713",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7142,7 +7846,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00650",
+      "id": "chatbot-00714",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7153,7 +7857,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00651",
+      "id": "chatbot-00715",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7164,7 +7868,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00652",
+      "id": "chatbot-00716",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7175,7 +7879,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00653",
+      "id": "chatbot-00717",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7186,7 +7890,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00654",
+      "id": "chatbot-00718",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7197,7 +7901,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00655",
+      "id": "chatbot-00719",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7208,7 +7912,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00656",
+      "id": "chatbot-00720",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7219,7 +7923,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00657",
+      "id": "chatbot-00721",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7230,7 +7934,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00658",
+      "id": "chatbot-00722",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7241,7 +7945,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00659",
+      "id": "chatbot-00723",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -7252,7 +7956,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00660",
+      "id": "chatbot-00724",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "overview",
@@ -7263,7 +7967,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00661",
+      "id": "chatbot-00725",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -7274,7 +7978,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00662",
+      "id": "chatbot-00726",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -7285,7 +7989,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00663",
+      "id": "chatbot-00727",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -7296,7 +8000,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00664",
+      "id": "chatbot-00728",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -7307,7 +8011,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00665",
+      "id": "chatbot-00729",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7318,7 +8022,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00666",
+      "id": "chatbot-00730",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7329,7 +8033,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00667",
+      "id": "chatbot-00731",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7340,7 +8044,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00668",
+      "id": "chatbot-00732",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7351,7 +8055,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00669",
+      "id": "chatbot-00733",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7362,7 +8066,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00670",
+      "id": "chatbot-00734",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7373,7 +8077,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00671",
+      "id": "chatbot-00735",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7384,7 +8088,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00672",
+      "id": "chatbot-00736",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7395,7 +8099,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00673",
+      "id": "chatbot-00737",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7406,7 +8110,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00674",
+      "id": "chatbot-00738",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7417,7 +8121,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00675",
+      "id": "chatbot-00739",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7428,7 +8132,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00676",
+      "id": "chatbot-00740",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7439,7 +8143,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00677",
+      "id": "chatbot-00741",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7450,7 +8154,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00678",
+      "id": "chatbot-00742",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7461,7 +8165,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00679",
+      "id": "chatbot-00743",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7472,7 +8176,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00680",
+      "id": "chatbot-00744",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7483,7 +8187,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00681",
+      "id": "chatbot-00745",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7494,7 +8198,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00682",
+      "id": "chatbot-00746",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7505,7 +8209,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00683",
+      "id": "chatbot-00747",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7516,7 +8220,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00684",
+      "id": "chatbot-00748",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7527,7 +8231,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00685",
+      "id": "chatbot-00749",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7538,7 +8242,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00686",
+      "id": "chatbot-00750",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7549,7 +8253,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00687",
+      "id": "chatbot-00751",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7560,7 +8264,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00688",
+      "id": "chatbot-00752",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7571,7 +8275,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00689",
+      "id": "chatbot-00753",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7582,7 +8286,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00690",
+      "id": "chatbot-00754",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7593,7 +8297,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00691",
+      "id": "chatbot-00755",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7604,7 +8308,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-00692",
+      "id": "chatbot-00756",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7615,7 +8319,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-00693",
+      "id": "chatbot-00757",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7626,7 +8330,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-00694",
+      "id": "chatbot-00758",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7637,7 +8341,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-00695",
+      "id": "chatbot-00759",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7648,7 +8352,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-00696",
+      "id": "chatbot-00760",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7659,7 +8363,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-00697",
+      "id": "chatbot-00761",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7670,7 +8374,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-00698",
+      "id": "chatbot-00762",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7681,7 +8385,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-00699",
+      "id": "chatbot-00763",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7692,7 +8396,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-00700",
+      "id": "chatbot-00764",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7703,7 +8407,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-00701",
+      "id": "chatbot-00765",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7714,7 +8418,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-00702",
+      "id": "chatbot-00766",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7725,7 +8429,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-00703",
+      "id": "chatbot-00767",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7736,7 +8440,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-00704",
+      "id": "chatbot-00768",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7747,7 +8451,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-00705",
+      "id": "chatbot-00769",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7758,7 +8462,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-00706",
+      "id": "chatbot-00770",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7769,7 +8473,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-00707",
+      "id": "chatbot-00771",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7780,7 +8484,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-00708",
+      "id": "chatbot-00772",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7791,7 +8495,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-00709",
+      "id": "chatbot-00773",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7802,7 +8506,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-00710",
+      "id": "chatbot-00774",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7813,7 +8517,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-00711",
+      "id": "chatbot-00775",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7824,7 +8528,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-00712",
+      "id": "chatbot-00776",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7835,7 +8539,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-00713",
+      "id": "chatbot-00777",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7846,7 +8550,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-00714",
+      "id": "chatbot-00778",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7857,7 +8561,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-00715",
+      "id": "chatbot-00779",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7868,7 +8572,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-00716",
+      "id": "chatbot-00780",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7879,7 +8583,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-00717",
+      "id": "chatbot-00781",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7890,7 +8594,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-00718",
+      "id": "chatbot-00782",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7901,7 +8605,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-00719",
+      "id": "chatbot-00783",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7912,7 +8616,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-00720",
+      "id": "chatbot-00784",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7923,7 +8627,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-00721",
+      "id": "chatbot-00785",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7934,7 +8638,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-00722",
+      "id": "chatbot-00786",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7945,7 +8649,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-00723",
+      "id": "chatbot-00787",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7956,7 +8660,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-00724",
+      "id": "chatbot-00788",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7967,7 +8671,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-00725",
+      "id": "chatbot-00789",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7978,7 +8682,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-00726",
+      "id": "chatbot-00790",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -7989,7 +8693,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-00727",
+      "id": "chatbot-00791",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8000,7 +8704,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-00728",
+      "id": "chatbot-00792",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8011,7 +8715,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-00729",
+      "id": "chatbot-00793",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8022,7 +8726,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-00730",
+      "id": "chatbot-00794",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8033,7 +8737,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-00731",
+      "id": "chatbot-00795",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8044,7 +8748,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-00732",
+      "id": "chatbot-00796",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8055,7 +8759,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-00733",
+      "id": "chatbot-00797",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8066,7 +8770,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 69
     },
     {
-      "id": "chatbot-00734",
+      "id": "chatbot-00798",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8077,7 +8781,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 70
     },
     {
-      "id": "chatbot-00735",
+      "id": "chatbot-00799",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8088,7 +8792,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 71
     },
     {
-      "id": "chatbot-00736",
+      "id": "chatbot-00800",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8099,7 +8803,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 72
     },
     {
-      "id": "chatbot-00737",
+      "id": "chatbot-00801",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8110,7 +8814,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 73
     },
     {
-      "id": "chatbot-00738",
+      "id": "chatbot-00802",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8121,7 +8825,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 74
     },
     {
-      "id": "chatbot-00739",
+      "id": "chatbot-00803",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8132,7 +8836,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 75
     },
     {
-      "id": "chatbot-00740",
+      "id": "chatbot-00804",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8143,7 +8847,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 76
     },
     {
-      "id": "chatbot-00741",
+      "id": "chatbot-00805",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8154,7 +8858,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 77
     },
     {
-      "id": "chatbot-00742",
+      "id": "chatbot-00806",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8165,7 +8869,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 78
     },
     {
-      "id": "chatbot-00743",
+      "id": "chatbot-00807",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8176,7 +8880,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 79
     },
     {
-      "id": "chatbot-00744",
+      "id": "chatbot-00808",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8187,7 +8891,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 80
     },
     {
-      "id": "chatbot-00745",
+      "id": "chatbot-00809",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8198,7 +8902,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 81
     },
     {
-      "id": "chatbot-00746",
+      "id": "chatbot-00810",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8209,7 +8913,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 82
     },
     {
-      "id": "chatbot-00747",
+      "id": "chatbot-00811",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8220,7 +8924,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 83
     },
     {
-      "id": "chatbot-00748",
+      "id": "chatbot-00812",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8231,7 +8935,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 84
     },
     {
-      "id": "chatbot-00749",
+      "id": "chatbot-00813",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8242,7 +8946,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 85
     },
     {
-      "id": "chatbot-00750",
+      "id": "chatbot-00814",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8253,7 +8957,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 86
     },
     {
-      "id": "chatbot-00751",
+      "id": "chatbot-00815",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8264,7 +8968,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 87
     },
     {
-      "id": "chatbot-00752",
+      "id": "chatbot-00816",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8275,7 +8979,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 88
     },
     {
-      "id": "chatbot-00753",
+      "id": "chatbot-00817",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8286,7 +8990,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 89
     },
     {
-      "id": "chatbot-00754",
+      "id": "chatbot-00818",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8297,7 +9001,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 90
     },
     {
-      "id": "chatbot-00755",
+      "id": "chatbot-00819",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8308,7 +9012,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 91
     },
     {
-      "id": "chatbot-00756",
+      "id": "chatbot-00820",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8319,7 +9023,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 92
     },
     {
-      "id": "chatbot-00757",
+      "id": "chatbot-00821",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8330,7 +9034,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 93
     },
     {
-      "id": "chatbot-00758",
+      "id": "chatbot-00822",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8341,7 +9045,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 94
     },
     {
-      "id": "chatbot-00759",
+      "id": "chatbot-00823",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8352,7 +9056,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 95
     },
     {
-      "id": "chatbot-00760",
+      "id": "chatbot-00824",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8363,7 +9067,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 96
     },
     {
-      "id": "chatbot-00761",
+      "id": "chatbot-00825",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8374,7 +9078,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 97
     },
     {
-      "id": "chatbot-00762",
+      "id": "chatbot-00826",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8385,7 +9089,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 98
     },
     {
-      "id": "chatbot-00763",
+      "id": "chatbot-00827",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8396,7 +9100,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 99
     },
     {
-      "id": "chatbot-00764",
+      "id": "chatbot-00828",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8407,7 +9111,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 100
     },
     {
-      "id": "chatbot-00765",
+      "id": "chatbot-00829",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8418,7 +9122,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 101
     },
     {
-      "id": "chatbot-00766",
+      "id": "chatbot-00830",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8429,7 +9133,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 102
     },
     {
-      "id": "chatbot-00767",
+      "id": "chatbot-00831",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8440,7 +9144,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 103
     },
     {
-      "id": "chatbot-00768",
+      "id": "chatbot-00832",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8451,7 +9155,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 104
     },
     {
-      "id": "chatbot-00769",
+      "id": "chatbot-00833",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8462,7 +9166,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 105
     },
     {
-      "id": "chatbot-00770",
+      "id": "chatbot-00834",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8473,7 +9177,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 106
     },
     {
-      "id": "chatbot-00771",
+      "id": "chatbot-00835",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8484,7 +9188,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 107
     },
     {
-      "id": "chatbot-00772",
+      "id": "chatbot-00836",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8495,7 +9199,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 108
     },
     {
-      "id": "chatbot-00773",
+      "id": "chatbot-00837",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8506,7 +9210,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 109
     },
     {
-      "id": "chatbot-00774",
+      "id": "chatbot-00838",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8517,7 +9221,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 110
     },
     {
-      "id": "chatbot-00775",
+      "id": "chatbot-00839",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8528,7 +9232,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 111
     },
     {
-      "id": "chatbot-00776",
+      "id": "chatbot-00840",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8539,7 +9243,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 112
     },
     {
-      "id": "chatbot-00777",
+      "id": "chatbot-00841",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8550,7 +9254,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 113
     },
     {
-      "id": "chatbot-00778",
+      "id": "chatbot-00842",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8561,7 +9265,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 114
     },
     {
-      "id": "chatbot-00779",
+      "id": "chatbot-00843",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8572,7 +9276,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 115
     },
     {
-      "id": "chatbot-00780",
+      "id": "chatbot-00844",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8583,7 +9287,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 116
     },
     {
-      "id": "chatbot-00781",
+      "id": "chatbot-00845",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8594,7 +9298,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 117
     },
     {
-      "id": "chatbot-00782",
+      "id": "chatbot-00846",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8605,7 +9309,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 118
     },
     {
-      "id": "chatbot-00783",
+      "id": "chatbot-00847",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8616,7 +9320,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 119
     },
     {
-      "id": "chatbot-00784",
+      "id": "chatbot-00848",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8627,7 +9331,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 120
     },
     {
-      "id": "chatbot-00785",
+      "id": "chatbot-00849",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8638,7 +9342,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 121
     },
     {
-      "id": "chatbot-00786",
+      "id": "chatbot-00850",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8649,7 +9353,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 122
     },
     {
-      "id": "chatbot-00787",
+      "id": "chatbot-00851",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8660,7 +9364,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 123
     },
     {
-      "id": "chatbot-00788",
+      "id": "chatbot-00852",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8671,7 +9375,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 124
     },
     {
-      "id": "chatbot-00789",
+      "id": "chatbot-00853",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8682,7 +9386,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 125
     },
     {
-      "id": "chatbot-00790",
+      "id": "chatbot-00854",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8693,7 +9397,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 126
     },
     {
-      "id": "chatbot-00791",
+      "id": "chatbot-00855",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8704,7 +9408,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 127
     },
     {
-      "id": "chatbot-00792",
+      "id": "chatbot-00856",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8715,7 +9419,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 128
     },
     {
-      "id": "chatbot-00793",
+      "id": "chatbot-00857",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8726,7 +9430,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 129
     },
     {
-      "id": "chatbot-00794",
+      "id": "chatbot-00858",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8737,7 +9441,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 130
     },
     {
-      "id": "chatbot-00795",
+      "id": "chatbot-00859",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8748,7 +9452,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00796",
+      "id": "chatbot-00860",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8759,7 +9463,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00797",
+      "id": "chatbot-00861",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8770,7 +9474,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00798",
+      "id": "chatbot-00862",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8781,7 +9485,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00799",
+      "id": "chatbot-00863",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8792,7 +9496,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00800",
+      "id": "chatbot-00864",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8803,7 +9507,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00801",
+      "id": "chatbot-00865",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8814,7 +9518,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00802",
+      "id": "chatbot-00866",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8825,7 +9529,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00803",
+      "id": "chatbot-00867",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8836,7 +9540,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00804",
+      "id": "chatbot-00868",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8847,7 +9551,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00805",
+      "id": "chatbot-00869",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8858,7 +9562,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00806",
+      "id": "chatbot-00870",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8869,7 +9573,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00807",
+      "id": "chatbot-00871",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8880,7 +9584,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00808",
+      "id": "chatbot-00872",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8891,7 +9595,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00809",
+      "id": "chatbot-00873",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8902,7 +9606,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00810",
+      "id": "chatbot-00874",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8913,7 +9617,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00811",
+      "id": "chatbot-00875",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8924,7 +9628,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00812",
+      "id": "chatbot-00876",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8935,7 +9639,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00813",
+      "id": "chatbot-00877",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8946,7 +9650,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00814",
+      "id": "chatbot-00878",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8957,7 +9661,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00815",
+      "id": "chatbot-00879",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8968,7 +9672,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00816",
+      "id": "chatbot-00880",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8979,7 +9683,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00817",
+      "id": "chatbot-00881",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -8990,7 +9694,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00818",
+      "id": "chatbot-00882",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9001,7 +9705,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00819",
+      "id": "chatbot-00883",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9012,7 +9716,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00820",
+      "id": "chatbot-00884",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9023,7 +9727,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00821",
+      "id": "chatbot-00885",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9034,7 +9738,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-00822",
+      "id": "chatbot-00886",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9045,7 +9749,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-00823",
+      "id": "chatbot-00887",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9056,7 +9760,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-00824",
+      "id": "chatbot-00888",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9067,7 +9771,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-00825",
+      "id": "chatbot-00889",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9078,7 +9782,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-00826",
+      "id": "chatbot-00890",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9089,7 +9793,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-00827",
+      "id": "chatbot-00891",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9100,7 +9804,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-00828",
+      "id": "chatbot-00892",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9111,7 +9815,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-00829",
+      "id": "chatbot-00893",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9122,7 +9826,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-00830",
+      "id": "chatbot-00894",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9133,7 +9837,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-00831",
+      "id": "chatbot-00895",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9144,7 +9848,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-00832",
+      "id": "chatbot-00896",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9155,7 +9859,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-00833",
+      "id": "chatbot-00897",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9166,7 +9870,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-00834",
+      "id": "chatbot-00898",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9177,7 +9881,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-00835",
+      "id": "chatbot-00899",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9188,7 +9892,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-00836",
+      "id": "chatbot-00900",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9199,7 +9903,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-00837",
+      "id": "chatbot-00901",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9210,7 +9914,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-00838",
+      "id": "chatbot-00902",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9221,7 +9925,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-00839",
+      "id": "chatbot-00903",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9232,7 +9936,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-00840",
+      "id": "chatbot-00904",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9243,7 +9947,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-00841",
+      "id": "chatbot-00905",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9254,7 +9958,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-00842",
+      "id": "chatbot-00906",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9265,7 +9969,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-00843",
+      "id": "chatbot-00907",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9276,7 +9980,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-00844",
+      "id": "chatbot-00908",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9287,7 +9991,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-00845",
+      "id": "chatbot-00909",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9298,7 +10002,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-00846",
+      "id": "chatbot-00910",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9309,7 +10013,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-00847",
+      "id": "chatbot-00911",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9320,7 +10024,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-00848",
+      "id": "chatbot-00912",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9331,7 +10035,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-00849",
+      "id": "chatbot-00913",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9342,7 +10046,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-00850",
+      "id": "chatbot-00914",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9353,7 +10057,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-00851",
+      "id": "chatbot-00915",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9364,7 +10068,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-00852",
+      "id": "chatbot-00916",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9375,7 +10079,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-00853",
+      "id": "chatbot-00917",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9386,7 +10090,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-00854",
+      "id": "chatbot-00918",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9397,7 +10101,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-00855",
+      "id": "chatbot-00919",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9408,7 +10112,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-00856",
+      "id": "chatbot-00920",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9419,7 +10123,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-00857",
+      "id": "chatbot-00921",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9430,7 +10134,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-00858",
+      "id": "chatbot-00922",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9441,7 +10145,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-00859",
+      "id": "chatbot-00923",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9452,7 +10156,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-00860",
+      "id": "chatbot-00924",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9463,7 +10167,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-00861",
+      "id": "chatbot-00925",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9474,7 +10178,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-00862",
+      "id": "chatbot-00926",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9485,7 +10189,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-00863",
+      "id": "chatbot-00927",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9496,7 +10200,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 69
     },
     {
-      "id": "chatbot-00864",
+      "id": "chatbot-00928",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9507,7 +10211,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 70
     },
     {
-      "id": "chatbot-00865",
+      "id": "chatbot-00929",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9518,7 +10222,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 71
     },
     {
-      "id": "chatbot-00866",
+      "id": "chatbot-00930",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9529,7 +10233,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 72
     },
     {
-      "id": "chatbot-00867",
+      "id": "chatbot-00931",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9540,7 +10244,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 73
     },
     {
-      "id": "chatbot-00868",
+      "id": "chatbot-00932",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9551,7 +10255,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 74
     },
     {
-      "id": "chatbot-00869",
+      "id": "chatbot-00933",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9562,7 +10266,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 75
     },
     {
-      "id": "chatbot-00870",
+      "id": "chatbot-00934",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9573,7 +10277,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 76
     },
     {
-      "id": "chatbot-00871",
+      "id": "chatbot-00935",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9584,7 +10288,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 77
     },
     {
-      "id": "chatbot-00872",
+      "id": "chatbot-00936",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9595,7 +10299,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 78
     },
     {
-      "id": "chatbot-00873",
+      "id": "chatbot-00937",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9606,7 +10310,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 79
     },
     {
-      "id": "chatbot-00874",
+      "id": "chatbot-00938",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9617,7 +10321,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 80
     },
     {
-      "id": "chatbot-00875",
+      "id": "chatbot-00939",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9628,7 +10332,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 81
     },
     {
-      "id": "chatbot-00876",
+      "id": "chatbot-00940",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9639,7 +10343,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 82
     },
     {
-      "id": "chatbot-00877",
+      "id": "chatbot-00941",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9650,7 +10354,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 83
     },
     {
-      "id": "chatbot-00878",
+      "id": "chatbot-00942",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9661,7 +10365,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 84
     },
     {
-      "id": "chatbot-00879",
+      "id": "chatbot-00943",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9672,7 +10376,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 85
     },
     {
-      "id": "chatbot-00880",
+      "id": "chatbot-00944",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9683,7 +10387,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 86
     },
     {
-      "id": "chatbot-00881",
+      "id": "chatbot-00945",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9694,7 +10398,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 87
     },
     {
-      "id": "chatbot-00882",
+      "id": "chatbot-00946",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -9705,7 +10409,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 88
     },
     {
-      "id": "chatbot-00883",
+      "id": "chatbot-00947",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -9716,7 +10420,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00884",
+      "id": "chatbot-00948",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -9727,7 +10431,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00885",
+      "id": "chatbot-00949",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -9738,7 +10442,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00886",
+      "id": "chatbot-00950",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -9749,7 +10453,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00887",
+      "id": "chatbot-00951",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -9760,7 +10464,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00888",
+      "id": "chatbot-00952",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -9771,7 +10475,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00889",
+      "id": "chatbot-00953",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -9782,7 +10486,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00890",
+      "id": "chatbot-00954",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -9793,7 +10497,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00891",
+      "id": "chatbot-00955",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -9804,7 +10508,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00892",
+      "id": "chatbot-00956",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -9815,7 +10519,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00893",
+      "id": "chatbot-00957",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -9826,7 +10530,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00894",
+      "id": "chatbot-00958",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -9837,7 +10541,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00895",
+      "id": "chatbot-00959",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -9848,7 +10552,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00896",
+      "id": "chatbot-00960",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -9859,7 +10563,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00897",
+      "id": "chatbot-00961",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -9870,7 +10574,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00898",
+      "id": "chatbot-00962",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -9881,7 +10585,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00899",
+      "id": "chatbot-00963",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9892,7 +10596,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00900",
+      "id": "chatbot-00964",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9903,7 +10607,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00901",
+      "id": "chatbot-00965",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9914,7 +10618,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00902",
+      "id": "chatbot-00966",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9925,7 +10629,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00903",
+      "id": "chatbot-00967",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9936,7 +10640,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00904",
+      "id": "chatbot-00968",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9947,7 +10651,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00905",
+      "id": "chatbot-00969",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9958,7 +10662,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00906",
+      "id": "chatbot-00970",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9969,7 +10673,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00907",
+      "id": "chatbot-00971",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9980,7 +10684,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00908",
+      "id": "chatbot-00972",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -9991,7 +10695,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00909",
+      "id": "chatbot-00973",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -10002,7 +10706,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00910",
+      "id": "chatbot-00974",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -10013,7 +10717,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00911",
+      "id": "chatbot-00975",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -10024,7 +10728,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00912",
+      "id": "chatbot-00976",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -10035,7 +10739,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00913",
+      "id": "chatbot-00977",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",

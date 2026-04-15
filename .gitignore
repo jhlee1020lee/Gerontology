@@ -1,0 +1,10 @@
+# Keep accidental exports and local shortcuts out of the repo root.
+/ChatGPT Image *.png
+/*.lnk
+/*.mp4
+/*.webm
+/h origin main
+/설명
+
+# Keep throwaway script probes out of the real scripts directory.
+/scripts/tmp_*.js

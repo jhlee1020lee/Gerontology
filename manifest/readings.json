@@ -546,8 +546,8 @@
                      },
                      {
                          "slug":  "beck-2016",
-                         "title":  "When Do You Become an Adult?",
-                         "subtitle":  "성인 이행을 법, 생물학, 사회역할, 책임의 관점에서 재검토하는 The Atlantic 기사.",
+                        "title":  "When Are You Really an Adult?",
+                        "subtitle":  "성인 이행을 법, 생물학, 사회 역할, 책임의 관점에서 다시 묻는 The Atlantic 기사.",
                          "authors":  [
                                          "Julie Beck"
                                      ],
@@ -564,10 +564,10 @@
                                       "Emerging Adulthood",
                                       "기사"
                                   ],
-                         "description":  "성인 이행을 법, 생물학, 사회역할, 책임의 관점에서 재검토하는 The Atlantic 기사.",
+                        "description":  "성인 이행을 법, 생물학, 사회 역할, 책임의 관점에서 다시 묻는 The Atlantic 기사.",
                          "metadata_status":  "complete",
                          "metadata_notes":  [
-                                                "기존 완료 콘텐츠를 유지하고 메타데이터만 정리했다."
+                                               "기존 Beck reading의 study content를 비우고 full/translation 중심으로 다시 정리했다."
                                             ],
                          "type":  "article",
                          "class_date":  "2026-03-12",
