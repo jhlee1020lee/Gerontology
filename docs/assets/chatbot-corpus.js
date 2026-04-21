@@ -1,6 +1,6 @@
 window.AA_CHATBOT_CORPUS={
-  "generated_at": "2026-04-21T01:14:54.814Z",
-  "chunk_count": 1041,
+  "generated_at": "2026-04-21T06:30:35.461Z",
+  "chunk_count": 1148,
   "chunks": [
     {
       "id": "chatbot-00001",
@@ -8661,6 +8661,1183 @@ window.AA_CHATBOT_CORPUS={
     },
     {
       "id": "chatbot-00788",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "overview",
+      "pageLabel": "읽기 개요",
+      "href": "readings/suitor-et-al-2014/index.html",
+      "text": "어머니 돌봄 상황에서 돌봄 수행과 편애 인식이 형제 긴장을 어떻게 높이는지 분석한 논문이다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 개요 어머니 돌봄 상황에서 돌봄 수행과 편애 인식이 형제 긴장을 어떻게 높이는지 분석한 논문이다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00789",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "summary",
+      "pageLabel": "핵심 요약",
+      "href": "readings/suitor-et-al-2014/summary.html",
+      "text": "핵심 요약\n\n한 줄 핵심\n\n이 논문은 부모 돌봄이 형제 긴장을 높이는 이유가 단순한 역할 부담만이 아니라, 누가 더 선호받는지에 대한 인식과 결합하기 때문이라고 주장한다.\n\n핵심 내용\n\n문제의식\n\n노년기 가족 연구는 부모 돌봄 이후 형제 긴장이 커진다는 점을 반복해서 보여 주었다.\n저자들은 특히 돌봄을 누가 맡는지와 부모의 편애 인식이 어떻게 함께 작동하는지 묻는다.\n\n이론적 배경\n\n형제는 부모가 돌봄을 필요로 할 때 지원자이자 스트레스 원천이 될 수 있다.\n상대적 박탈이 아니라, 누구든 불공평하다고 느끼면 관계가 나빠질 수 있다는 relational equity 관점이 중요하다.\n\n연구설계와 결과\n\n최근 2년 안에 어머니가 돌봄을 필요로 했던 214가족, 450명의 성인자녀 자료를 사용했다.\n돌봄 수행 자체와 미래 주돌봄자에 대한 편애 인식은 각각 형제 긴장을 높였고, 둘이 동시에 있을 때 효과가 더 컸다.\n\n의미\n\n부모 돌봄 갈등은 단순한 노동 분담 문제가 아니라 오래된 가족 내 차별 인식이 재활성화되는 장면이다.\n형제 지원체계를 설계할 때도 감정과 인식의 문제를 함께 다뤄야 한다.\n\n결론 정리\n\n돌봄 여부만으로는 형제 긴장을 충분히 설명할 수 없다.\n편애는 실제 편애보다도 그것을 어떻게 인식하는지가 중요하다.\n교수님 질문에는 돌봄, 편애 인식, 상호작용 효과를 세 문장으로 붙이면 된다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 핵심 요약 핵심 요약\n\n한 줄 핵심\n\n이 논문은 부모 돌봄이 형제 긴장을 높이는 이유가 단순한 역할 부담만이 아니라, 누가 더 선호받는지에 대한 인식과 결합하기 때문이라고 주장한다.\n\n핵심 내용\n\n문제의식\n\n노년기 가족 연구는 부모 돌봄 이후 형제 긴장이 커진다는 점을 반복해서 보여 주었다.\n저자들은 특히 돌봄을 누가 맡는지와 부모의 편애 인식이 어떻게 함께 작동하는지 묻는다.\n\n이론적 배경\n\n형제는 부모가 돌봄을 필요로 할 때 지원자이자 스트레스 원천이 될 수 있다.\n상대적 박탈이 아니라, 누구든 불공평하다고 느끼면 관계가 나빠질 수 있다는 relational equity 관점이 중요하다.\n\n연구설계와 결과\n\n최근 2년 안에 어머니가 돌봄을 필요로 했던 214가족, 450명의 성인자녀 자료를 사용했다.\n돌봄 수행 자체와 미래 주돌봄자에 대한 편애 인식은 각각 형제 긴장을 높였고, 둘이 동시에 있을 때 효과가 더 컸다.\n\n의미\n\n부모 돌봄 갈등은 단순한 노동 분담 문제가 아니라 오래된 가족 내 차별 인식이 재활성화되는 장면이다.\n형제 지원체계를 설계할 때도 감정과 인식의 문제를 함께 다뤄야 한다.\n\n결론 정리\n\n돌봄 여부만으로는 형제 긴장을 충분히 설명할 수 없다.\n편애는 실제 편애보다도 그것을 어떻게 인식하는지가 중요하다.\n교수님 질문에는 돌봄, 편애 인식, 상호작용 효과를 세 문장으로 붙이면 된다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00790",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Abstract and Introduction\n\n© The Author 2013. Published by Oxford University Press on behalf of The Gerontological Society of America.\nAll rights reserved. For permissions, please e-mail: journals.permissions@oup.com.\nJ. Jill Suitor, PhD,1; Megan Gilligan, PhD,2; Kaitlin Johnson, BA,1; and Karl Pillemer, PhD3\n\n1 Department of Sociology, Center on Aging and the Life Course, Purdue University, West Lafayette, Indiana.\n2 Department of Human Development and Family Studies, Iowa State University, Ames.\n3 Department of Human Development, Cornell University, Ithaca, New York.\n\nAddress correspondence to J. Jill Suitor, 700 W. State Street, Stone Hall, West Lafayette, IN 47907. E-mail: jsuitor@purdue.edu\n\nReceived April 12, 2013; Accepted May 17, 2013\n\nDecision Editor: Rachel Pruchno, PhD",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 abstract and introduction\n\n© the author 2013. published by oxford university press on behalf of the gerontological society of america.\nall rights reserved. for permissions, please e-mail: journals.permissions@oup.com.\nj. jill suitor, phd,1; megan gilligan, phd,2; kaitlin johnson, ba,1; and karl pillemer, phd3\n\n1 department of sociology, center on aging and the life course, purdue university, west lafayette, indiana.\n2 department of human development and family studies, iowa state university, ames.\n3 department of human development, cornell university, ithaca, new york.\n\naddress correspondence to j. jill suitor, 700 w. state street, stone hall, west lafayette, in 47907. e-mail: jsuitor@purdue.edu\n\nreceived april 12, 2013; accepted may 17, 2013\n\ndecision editor: rachel pruchno, phd",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00791",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Purpose: Studies of later-life families have revealed that sibling tension often increases in response to parents’ need for care. Both theory and research on within-family differences suggest that when parents’ health declines, sibling relations may be affected by which children assume care and whether siblings perceive that the parent favors some offspring over others. In the present study, we explore the ways in which these factors shape sibling tension both independently and in combination during caregiving.\n\nDesign and Methods: In this article, we use data collected from 450 adult children nested within 214 later-life families in which the offspring reported that their mothers needed care within 2 years prior to the interview.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 purpose: studies of later-life families have revealed that sibling tension often increases in response to parents’ need for care. both theory and research on within-family differences suggest that when parents’ health declines, sibling relations may be affected by which children assume care and whether siblings perceive that the parent favors some offspring over others. in the present study, we explore the ways in which these factors shape sibling tension both independently and in combination during caregiving.\n\ndesign and methods: in this article, we use data collected from 450 adult children nested within 214 later-life families in which the offspring reported that their mothers needed care within 2 years prior to the interview.",
+      "order": 2
+    },
+    {
+      "id": "chatbot-00792",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Results: Multilevel analyses demonstrated that providing care and perceiving favoritism regarding future caregiving were associated with sibling tension following mothers’ major health events. Further, the effects of caregiving on sibling tension were greater when perceptions of favoritism were also present.\n\nImplications: These findings shed new light on the conditions under which adult children are likely to experience high levels of sibling tension during caregiving. Understanding these processes is important because siblings are typically the individuals to whom caregivers are most likely to turn for support when assuming care of older parents, yet these relationships are often a major source of interpersonal stress.\n\nKey Words: Caregiver stress, Caregiving—informal, Intergenerational relationships, Parent/child relationships",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 results: multilevel analyses demonstrated that providing care and perceiving favoritism regarding future caregiving were associated with sibling tension following mothers’ major health events. further, the effects of caregiving on sibling tension were greater when perceptions of favoritism were also present.\n\nimplications: these findings shed new light on the conditions under which adult children are likely to experience high levels of sibling tension during caregiving. understanding these processes is important because siblings are typically the individuals to whom caregivers are most likely to turn for support when assuming care of older parents, yet these relationships are often a major source of interpersonal stress.\n\nkey words: caregiver stress, caregiving—informal, intergenerational relationships, parent/child relationships",
+      "order": 3
+    },
+    {
+      "id": "chatbot-00793",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Caregiving to older parents is a highly stressful role that increases risk to both psychological and\nphysical well-being (Marks, Lambert, Jun, & Song,\n2008; Perkins et al., 2012; Pinquart & Sorensen,\n2006). These outcomes have been found to be mod-\nerated by both the presence of social support and\nthe absence of interpersonal stress, particularly from\nhighly salient role partners (Atienza & Stephens,\n2000; Heru, Ryan, & Iqbal, 2004; Kang, 2006;\nKwak, Ingersoll-Dayton, & Kim, 2012). However,\nbecoming a caregiver is a transition that often\nincreases tension with the individuals who are most\nimportant in this context (Bookwala, 2009), and in\nparticular with siblings (Connidis & Kemp, 2008;\nDavey & Szinovacz, 2008; Gentry, 2001; Ingersoll-\nDayton, Neal, Ha, & Hammer, 2003; Lashewicz &\nKeating, 2009). It is therefore important to under-\nstand the conditions under which sibling relations",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 caregiving to older parents is a highly stressful role that increases risk to both psychological and\nphysical well-being (marks, lambert, jun, & song,\n2008; perkins et al., 2012; pinquart & sorensen,\n2006). these outcomes have been found to be mod-\nerated by both the presence of social support and\nthe absence of interpersonal stress, particularly from\nhighly salient role partners (atienza & stephens,\n2000; heru, ryan, & iqbal, 2004; kang, 2006;\nkwak, ingersoll-dayton, & kim, 2012). however,\nbecoming a caregiver is a transition that often\nincreases tension with the individuals who are most\nimportant in this context (bookwala, 2009), and in\nparticular with siblings (connidis & kemp, 2008;\ndavey & szinovacz, 2008; gentry, 2001; ingersoll-\ndayton, neal, ha, & hammer, 2003; lashewicz &\nkeating, 2009). it is therefore important to under-\nstand the conditions under which sibling relations",
+      "order": 4
+    },
+    {
+      "id": "chatbot-00794",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "are\nthe most likely to be problematic during caregiving.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 are\nthe most likely to be problematic during caregiving.",
+      "order": 5
+    },
+    {
+      "id": "chatbot-00795",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "In this article, we focus on factors that increase\nthe risk that siblings will experience high levels of\ntension in their relationship when their mothers\nare in need of care. We explore the ways in which\nthe provision of care and perceptions of parental\nfavoritism regarding care preferences intersect to\nincrease tension when mothers need assistance.\nTo investigate this question, we use data collected\nfrom 450 adult children nested within 214 later-\nlife families in which the offspring reported that\ntheir mothers needed care within 2 years prior to\nthe interview.\nWithin-Family Differences in Sibling Tension During Caregiving\nThe role of social support in moderating stress following life events and status transitions has long\nbeen a cornerstone of scholarship on caregiving\n(Pearlin, Mullan, Semple, & Skaff, 1990; Pearlin,\nPioli, & McLaughlin, 2001). This body of research\nhas demonstrated",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 in this article, we focus on factors that increase\nthe risk that siblings will experience high levels of\ntension in their relationship when their mothers\nare in need of care. we explore the ways in which\nthe provision of care and perceptions of parental\nfavoritism regarding care preferences intersect to\nincrease tension when mothers need assistance.\nto investigate this question, we use data collected\nfrom 450 adult children nested within 214 later-\nlife families in which the offspring reported that\ntheir mothers needed care within 2 years prior to\nthe interview.\nwithin-family differences in sibling tension during caregiving\nthe role of social support in moderating stress following life events and status transitions has long\nbeen a cornerstone of scholarship on caregiving\n(pearlin, mullan, semple, & skaff, 1990; pearlin,\npioli, & mclaughlin, 2001). this body of research\nhas demonstrated",
+      "order": 6
+    },
+    {
+      "id": "chatbot-00796",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "that emotional support from\nsignificant role partners provides a buffer from\nthe stresses of such events (Walen & Lachman,\n2000). However, the broader literature on support\nprocesses shows that even more important is the\nabsence of interpersonal stress, such as criticism,\nhigh demands, unwanted and unhelpful advice,\nand unmet needs for support (Okun & Keith,\n1998; Rook, 1998; Schuster, Kessler, & Aseltine,\n1990; Serido, Almeida, & Wethington, 2004).\nThis point is particularly relevant to interaction\nand relationship quality between siblings when\nparents require care because siblings often are a\nsource of both support and interpersonal stress\nduring this time (Connidis & Kemp, 2008; Gentry,\n2001; Lashewicz & Keating, 2009; Suitor &\nPillemer, 1996; Tolkacheva, van Groenou, & van\nTilburg, 2010). As shown by Suitor and Pillemer’s\n(1996) study of siblings’ relationships across the\nearly years",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 that emotional support from\nsignificant role partners provides a buffer from\nthe stresses of such events (walen & lachman,\n2000). however, the broader literature on support\nprocesses shows that even more important is the\nabsence of interpersonal stress, such as criticism,\nhigh demands, unwanted and unhelpful advice,\nand unmet needs for support (okun & keith,\n1998; rook, 1998; schuster, kessler, & aseltine,\n1990; serido, almeida, & wethington, 2004).\nthis point is particularly relevant to interaction\nand relationship quality between siblings when\nparents require care because siblings often are a\nsource of both support and interpersonal stress\nduring this time (connidis & kemp, 2008; gentry,\n2001; lashewicz & keating, 2009; suitor &\npillemer, 1996; tolkacheva, van groenou, & van\ntilburg, 2010). as shown by suitor and pillemer’s\n(1996) study of siblings’ relationships across the\nearly years",
+      "order": 7
+    },
+    {
+      "id": "chatbot-00797",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "of parental caregiving, although sup-\nport from sisters and brothers was greatly appreci-\nated, it was both overshadowed and undermined\nby the interpersonal stress emanating from these\nrelationships. Thus, it is important to understand\nwhat leads siblings to have high levels of tension in\ntheir relationships when parents need care because\neven high levels of positive interaction do not\nbuffer stress when they are accompanied by inter-\npersonal stress.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 of parental caregiving, although sup-\nport from sisters and brothers was greatly appreci-\nated, it was both overshadowed and undermined\nby the interpersonal stress emanating from these\nrelationships. thus, it is important to understand\nwhat leads siblings to have high levels of tension in\ntheir relationships when parents need care because\neven high levels of positive interaction do not\nbuffer stress when they are accompanied by inter-\npersonal stress.",
+      "order": 8
+    },
+    {
+      "id": "chatbot-00798",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "We begin with the premise that although sibling\ntension often exists in families in which parents\nneed care, the experience of such negative affect\nmay vary considerably within the sibship. We sug-\ngest that siblings who provide care are more likely\nto experience high levels of conflict, criticism, and\ndemands than are their brothers and sisters who\ndo not provide care. As already noted, a substantial\nbody of research has documented that caregiving\nto older parents is highly stressful and demand-\ning, with costs to both psychological and physi-\ncal well-being (Marks et al., 2008; Perkins et al.\n2012; Pinquart & Sorensen, 2006). Such conse-\nquences on well-being could be expected to lead\nto greater conflict in relationships with siblings, as\nhas been shown in the case of relations with other\nrole partners when assuming multiple demanding roles (Amato, Booth, Johnson, & Rogers,",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 we begin with the premise that although sibling\ntension often exists in families in which parents\nneed care, the experience of such negative affect\nmay vary considerably within the sibship. we sug-\ngest that siblings who provide care are more likely\nto experience high levels of conflict, criticism, and\ndemands than are their brothers and sisters who\ndo not provide care. as already noted, a substantial\nbody of research has documented that caregiving\nto older parents is highly stressful and demand-\ning, with costs to both psychological and physi-\ncal well-being (marks et al., 2008; perkins et al.\n2012; pinquart & sorensen, 2006). such conse-\nquences on well-being could be expected to lead\nto greater conflict in relationships with siblings, as\nhas been shown in the case of relations with other\nrole partners when assuming multiple demanding roles (amato, booth, johnson, & rogers,",
+      "order": 9
+    },
+    {
+      "id": "chatbot-00799",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "2007;\nBookwala, 2009; Robinson, Flowers, & Ng, 2006).\nFor example, spousal conflict has been shown to\nincrease when husbands’ or wives’ job stress or\nparenting responsibilities lower psychological well-\nbeing (Amato et al., 2007; Perry-Jenkins, Goldberg,\nPierce, & Sayer, 2007; Roxburgh, 2012). Further,\nstudies have found that the stress associated with\ncaregiving to older parents often increases marital\ntension (Bookwala, 2009; Suitor & Pillemer, 1996).\nOn these bases, we hypothesized that individuals\nwho had provided care to their mothers for a\nrecent health event or chronic condition would\nreport greater tension with siblings than would\nthose who had not provided care.\nPerceptions of Favoritism and Sibling Tension During Caregiving\nWe propose that perceptions of parental favoritism\nwill also play a role in sibling relations during\ncaregiving. A common theme in both popular\nand",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 2007;\nbookwala, 2009; robinson, flowers, & ng, 2006).\nfor example, spousal conflict has been shown to\nincrease when husbands’ or wives’ job stress or\nparenting responsibilities lower psychological well-\nbeing (amato et al., 2007; perry-jenkins, goldberg,\npierce, & sayer, 2007; roxburgh, 2012). further,\nstudies have found that the stress associated with\ncaregiving to older parents often increases marital\ntension (bookwala, 2009; suitor & pillemer, 1996).\non these bases, we hypothesized that individuals\nwho had provided care to their mothers for a\nrecent health event or chronic condition would\nreport greater tension with siblings than would\nthose who had not provided care.\nperceptions of favoritism and sibling tension during caregiving\nwe propose that perceptions of parental favoritism\nwill also play a role in sibling relations during\ncaregiving. a common theme in both popular\nand",
+      "order": 10
+    },
+    {
+      "id": "chatbot-00800",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "scholarly discussions of sibling relations and\ncaregiving is that serious declines in parents’ health\nreactivate long-buried conflicts among offspring\nregarding expressive and instrumental resources\n(Lashewicz & Keating, 2009; Suitor & Pillemer,\n1996). In fact, popular articles and self-help guides\non caregiving for parents often point to such renewed\nsibling rivalry as a major source of stress for adult\nchildren (AARP, 2011; Berman, 2005; Russo, 2010).\nHowever, research on within-family differences has\nshown that concerns regarding parental differential\ntreatment are common throughout the life course,\nrather than reemerging only when parents experience\ndeclines in health and increases in care needs\n(Suitor, Sechrist, Plikuhn, Pardo, & Pillemer, 2008).\nFurther, perceptions of parental differential\ntreatment have consequences for sibling relations\nin adulthood. In particular, studies have",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 scholarly discussions of sibling relations and\ncaregiving is that serious declines in parents’ health\nreactivate long-buried conflicts among offspring\nregarding expressive and instrumental resources\n(lashewicz & keating, 2009; suitor & pillemer,\n1996). in fact, popular articles and self-help guides\non caregiving for parents often point to such renewed\nsibling rivalry as a major source of stress for adult\nchildren (aarp, 2011; berman, 2005; russo, 2010).\nhowever, research on within-family differences has\nshown that concerns regarding parental differential\ntreatment are common throughout the life course,\nrather than reemerging only when parents experience\ndeclines in health and increases in care needs\n(suitor, sechrist, plikuhn, pardo, & pillemer, 2008).\nfurther, perceptions of parental differential\ntreatment have consequences for sibling relations\nin adulthood. in particular, studies have",
+      "order": 11
+    },
+    {
+      "id": "chatbot-00801",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "revealed\na pattern of higher tension and lower closeness\namong siblings when they perceived that their\nparents felt more emotional closeness for some\nsiblings than others (Boll, Ferring, & Filipp, 2003,\n2005; Gilligan, Suitor, & Pillemer, in press; Suitor\net al., 2009). Such tension appeared to emanate\nfrom perceptions of parental favoritism regardless\nof whether adult children perceived themselves or\nother siblings as the preferred offspring (Boll et al.,\n2005; Gilligan et al., in press; Suitor et al., 2009).\nIndeed, perceived favoritism specifically regarding\nfilial responsibility had similar effects on sibling\ntension regardless of whether the respondent\nperceived him or herself as the favored or unfavored\nchild (Boll et al., 2003, 2005). This pattern found\nin adulthood is consistent with research on the\nconsequences of parental favoritism on sibling\nrelations in childhood (Suitor et",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 revealed\na pattern of higher tension and lower closeness\namong siblings when they perceived that their\nparents felt more emotional closeness for some\nsiblings than others (boll, ferring, & filipp, 2003,\n2005; gilligan, suitor, & pillemer, in press; suitor\net al., 2009). such tension appeared to emanate\nfrom perceptions of parental favoritism regardless\nof whether adult children perceived themselves or\nother siblings as the preferred offspring (boll et al.,\n2005; gilligan et al., in press; suitor et al., 2009).\nindeed, perceived favoritism specifically regarding\nfilial responsibility had similar effects on sibling\ntension regardless of whether the respondent\nperceived him or herself as the favored or unfavored\nchild (boll et al., 2003, 2005). this pattern found\nin adulthood is consistent with research on the\nconsequences of parental favoritism on sibling\nrelations in childhood (suitor et",
+      "order": 12
+    },
+    {
+      "id": "chatbot-00802",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "al., 2008). Thus,\nconsistent with classic theories of relational equity\n(Walster, Walster, & Berscheid, 1978), regardless\nof whether adult children perceive that they are\noverbenefitted or underbenefitted, relative to their\nsiblings, perceptions of unequal treatment are\nassociated with poorer relationship quality.\nResearch on parental favoritism and sibling relations\nin adulthood has focused on these processes\nprior to parents’ need for care (Boll et al., 2005;\nSuitor et al., 2009). We hypothesize that such\nperceptions of favoritism will, in fact, be particularly\nstrong predictors of sibling relations when parents’\nhealth declines and they are in need of assistance.\nPrior to this point in the life course, interaction\nwith siblings is more voluntary and is unlikely\nto involve the intense decision-making processes\noften required when parents begin to need care\n(Aquilino, Arnett, & Tanner,",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 al., 2008). thus,\nconsistent with classic theories of relational equity\n(walster, walster, & berscheid, 1978), regardless\nof whether adult children perceive that they are\noverbenefitted or underbenefitted, relative to their\nsiblings, perceptions of unequal treatment are\nassociated with poorer relationship quality.\nresearch on parental favoritism and sibling relations\nin adulthood has focused on these processes\nprior to parents’ need for care (boll et al., 2005;\nsuitor et al., 2009). we hypothesize that such\nperceptions of favoritism will, in fact, be particularly\nstrong predictors of sibling relations when parents’\nhealth declines and they are in need of assistance.\nprior to this point in the life course, interaction\nwith siblings is more voluntary and is unlikely\nto involve the intense decision-making processes\noften required when parents begin to need care\n(aquilino, arnett, & tanner,",
+      "order": 13
+    },
+    {
+      "id": "chatbot-00803",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "2006; Conger &\nLittle, 2010). However, when parents experience\na serious health decline and siblings must come\ntogether to plan for their care, they are engaging\nin an unfamiliar yet very consequential process for\nwhich they have had little preparation. Such\ninteractions are difficult under any circumstances;\nhowever, they are likely to be much more problematic\nwhen members of the sibship perceive that their\nmothers prefer some offspring over others,\nparticularly regarding their future caregivers. Thus,\nwe hypothesized that adult children who perceived\ntheir mothers as favoring some children over others\nas caregivers would report the greatest tension\nin their relationships with their siblings, regardless\nof which child they believed was favored.\nFinally, we propose that when both responsibility\nfor caregiving and perceptions of favoritism are\npresent, adult children will report greater",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 2006; conger &\nlittle, 2010). however, when parents experience\na serious health decline and siblings must come\ntogether to plan for their care, they are engaging\nin an unfamiliar yet very consequential process for\nwhich they have had little preparation. such\ninteractions are difficult under any circumstances;\nhowever, they are likely to be much more problematic\nwhen members of the sibship perceive that their\nmothers prefer some offspring over others,\nparticularly regarding their future caregivers. thus,\nwe hypothesized that adult children who perceived\ntheir mothers as favoring some children over others\nas caregivers would report the greatest tension\nin their relationships with their siblings, regardless\nof which child they believed was favored.\nfinally, we propose that when both responsibility\nfor caregiving and perceptions of favoritism are\npresent, adult children will report greater",
+      "order": 14
+    },
+    {
+      "id": "chatbot-00804",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "tension\nwith their siblings than when only one of these\ntwo conditions is met. Therefore, we test a third\nhypothesis—that the association between recent\ncaregiving and sibling tension will be stronger\nwhen adult children perceive their mothers as\nfavoring particular offspring as future caregivers.\nMethods",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 tension\nwith their siblings than when only one of these\ntwo conditions is met. therefore, we test a third\nhypothesis—that the association between recent\ncaregiving and sibling tension will be stronger\nwhen adult children perceive their mothers as\nfavoring particular offspring as future caregivers.\nmethods",
+      "order": 15
+    },
+    {
+      "id": "chatbot-00805",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "The data used in the present analyses were collected\nas part of the Within-Family Differences\nStudy (WFDS). The design of the WFDS involved\nselecting a sample of mothers 65–75 years of age\nwith at least two living adult children and collecting\ndata from mothers regarding each of their\nchildren. (For a more detailed description of the\nWFDS design, see Gilligan et al., in press; Suitor,\nGilligan, & Pillemer, 2013, where portions of this\nsection have been published previously.) The first\nwave of interviews took place with 566 women\nbetween 2001 and 2003; the original study was\nexpanded to include a second wave of data collection\nfrom 2008 to 2011 at which time a total of\n420 mothers were interviewed. In this article, we\nuse data from the 450 adult children nested within\n214 later-life families in which the adult children\nreported that their mothers needed assistance for\na serious illness,",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 the data used in the present analyses were collected\nas part of the within-family differences\nstudy (wfds). the design of the wfds involved\nselecting a sample of mothers 65–75 years of age\nwith at least two living adult children and collecting\ndata from mothers regarding each of their\nchildren. (for a more detailed description of the\nwfds design, see gilligan et al., in press; suitor,\ngilligan, & pillemer, 2013, where portions of this\nsection have been published previously.) the first\nwave of interviews took place with 566 women\nbetween 2001 and 2003; the original study was\nexpanded to include a second wave of data collection\nfrom 2008 to 2011 at which time a total of\n420 mothers were interviewed. in this article, we\nuse data from the 450 adult children nested within\n214 later-life families in which the adult children\nreported that their mothers needed assistance for\na serious illness,",
+      "order": 16
+    },
+    {
+      "id": "chatbot-00806",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "injury, or disability at some point\nwithin 2 years prior to the T2 interview.\nProcedures",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 injury, or disability at some point\nwithin 2 years prior to the t2 interview.\nprocedures",
+      "order": 17
+    },
+    {
+      "id": "chatbot-00807",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Massachusetts city and town lists were used\nas the source of the original WFDS sample. With\nthe assistance of the Center for Survey Research\nat the University of Massachusetts, Boston, the\nresearchers drew a probability sample of women\nages 65–75 with two or more children from the\ngreater Boston area. The T1 sample consisted of\n566 mothers, which represented 61% of those who\nwere eligible for participation, a rate comparable\nwith that of similar surveys in the 2000s (Wright\n& Marsden, 2010).\nFor the follow-up study, the survey team\nattempted to contact each mother who participated\nin the original study. At T2, 420 mothers were\ninterviewed. Of the 146 mothers who participated\nat only T1, 78 had died between waves, 19 were\ntoo ill to be interviewed, 33 refused, and 16 could\nnot be reached. Thus, the 420 represent 86% of\nmothers who were living at T2. Comparisons\nbetween the mothers alive",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 massachusetts city and town lists were used\nas the source of the original wfds sample. with\nthe assistance of the center for survey research\nat the university of massachusetts, boston, the\nresearchers drew a probability sample of women\nages 65–75 with two or more children from the\ngreater boston area. the t1 sample consisted of\n566 mothers, which represented 61% of those who\nwere eligible for participation, a rate comparable\nwith that of similar surveys in the 2000s (wright\n& marsden, 2010).\nfor the follow-up study, the survey team\nattempted to contact each mother who participated\nin the original study. at t2, 420 mothers were\ninterviewed. of the 146 mothers who participated\nat only t1, 78 had died between waves, 19 were\ntoo ill to be interviewed, 33 refused, and 16 could\nnot be reached. thus, the 420 represent 86% of\nmothers who were living at t2. comparisons\nbetween the mothers alive",
+      "order": 18
+    },
+    {
+      "id": "chatbot-00808",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "at T2 who did and\nnot participate revealed that they differed on\nonly education and subjective health; those who\nparticipated were better educated and in better\nhealth at T1. Comparison of the T1 and T2 samples\nrevealed that the respondents differed on subjective\nhealth, educational attainment, marital status, and\nrace. Mothers who were not interviewed at T2 were\nless healthy, less educated, and less likely to have\nbeen married at T1; they were also more likely to\nbe Black.\nFollowing the interview, mothers were asked for\ncontact information for their adult children; 81%\nof the mothers provided contact information—\na rate higher than typically found in studies of\nmultiple generations (Kalmijn & Liefbroer, 2011;\nRossi & Rossi, 1990). Seventy-five percent of the\nadult children for whom contact information was\navailable agreed to participate, resulting in a final\nsample of 833 children",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 at t2 who did and\nnot participate revealed that they differed on\nonly education and subjective health; those who\nparticipated were better educated and in better\nhealth at t1. comparison of the t1 and t2 samples\nrevealed that the respondents differed on subjective\nhealth, educational attainment, marital status, and\nrace. mothers who were not interviewed at t2 were\nless healthy, less educated, and less likely to have\nbeen married at t1; they were also more likely to\nbe black.\nfollowing the interview, mothers were asked for\ncontact information for their adult children; 81%\nof the mothers provided contact information—\na rate higher than typically found in studies of\nmultiple generations (kalmijn & liefbroer, 2011;\nrossi & rossi, 1990). seventy-five percent of the\nadult children for whom contact information was\navailable agreed to participate, resulting in a final\nsample of 833 children",
+      "order": 19
+    },
+    {
+      "id": "chatbot-00809",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "nested within 277 families.\nAnalyses comparing mothers with no participating\nchildren and mothers who had at least one participating\nchild revealed no differences between\nthese two groups in terms of race, marital status,\neducation, age, or number of children, but that\ndaughters, marrieds, and those with higher education\nwere slightly more likely to participate, consistent\nwith other studies with multiple generations\n(Kalmijn & Liefbroer, 2011; Rossi & Rossi, 1990).\nThe analytic sample for this article is composed\nof 450 adult children nested within 214 later-life\nfamilies in which the adult children reported that\ntheir mothers needed assistance for a serious illness,\ninjury, or disability at some point within 2 years\nprior to the T2 interview.\nTable 1 presents demographic information for\nthe adult children in this subsample.\nMeasures\n\nSibling Tension",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 nested within 277 families.\nanalyses comparing mothers with no participating\nchildren and mothers who had at least one participating\nchild revealed no differences between\nthese two groups in terms of race, marital status,\neducation, age, or number of children, but that\ndaughters, marrieds, and those with higher education\nwere slightly more likely to participate, consistent\nwith other studies with multiple generations\n(kalmijn & liefbroer, 2011; rossi & rossi, 1990).\nthe analytic sample for this article is composed\nof 450 adult children nested within 214 later-life\nfamilies in which the adult children reported that\ntheir mothers needed assistance for a serious illness,\ninjury, or disability at some point within 2 years\nprior to the t2 interview.\ntable 1 presents demographic information for\nthe adult children in this subsample.\nmeasures\n\nsibling tension",
+      "order": 20
+    },
+    {
+      "id": "chatbot-00810",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "To create the measure of sibling tension, we combined\nthree items: (a) How often do your siblings\ncreate tensions/arguments with you? (b) How often\ndo your siblings make too many demands on you?\nand (c) How often do your siblings criticize you?\nThe response categories for the three variables were:\nvery often (5), fairly often, sometimes, rarely, and\nnever (1). The range of the sibling tension scale was\n3–15 (M = 6.13; SD = 2.38); Cronbach’s alpha = .76.\nIndependent Variables",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 to create the measure of sibling tension, we combined\nthree items: (a) how often do your siblings\ncreate tensions/arguments with you? (b) how often\ndo your siblings make too many demands on you?\nand (c) how often do your siblings criticize you?\nthe response categories for the three variables were:\nvery often (5), fairly often, sometimes, rarely, and\nnever (1). the range of the sibling tension scale was\n3–15 (m = 6.13; sd = 2.38); cronbach’s alpha = .76.\nindependent variables",
+      "order": 21
+    },
+    {
+      "id": "chatbot-00811",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "To create the caregiving measure, we used the\nrespondents’ responses to a series of questions\nregarding whether, in the past 2 years, he or she\nhad either provided care to the mother for a serious\nillness or injury, or whether she or he had helped\nthe mother with activities of daily living (ADLs),\nincluding light housework, shopping, eating, or\npersonal care. Each child was coded as: 0 = did not\nprovide care within the past 2 years, or 1 = provided\ncare for a recent illness or injury or provided\nhelp with ADLs in the past 2 years. More than one\nchild in the family could be identified as providing\ncare. Because the children are nested within families, we have used multilevel modeling, which takes\ninto account the absence of independence between siblings within families and allows for more than\none positive case at the family level.\nTo create the perceived parental favoritism\nmeasures,",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 to create the caregiving measure, we used the\nrespondents’ responses to a series of questions\nregarding whether, in the past 2 years, he or she\nhad either provided care to the mother for a serious\nillness or injury, or whether she or he had helped\nthe mother with activities of daily living (adls),\nincluding light housework, shopping, eating, or\npersonal care. each child was coded as: 0 = did not\nprovide care within the past 2 years, or 1 = provided\ncare for a recent illness or injury or provided\nhelp with adls in the past 2 years. more than one\nchild in the family could be identified as providing\ncare. because the children are nested within families, we have used multilevel modeling, which takes\ninto account the absence of independence between siblings within families and allows for more than\none positive case at the family level.\nto create the perceived parental favoritism\nmeasures,",
+      "order": 22
+    },
+    {
+      "id": "chatbot-00812",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "each offspring was asked the following\nquestion regarding their perceptions of their\nmothers’ favoritism regarding future caregiving:\n“If your mother became ill or disabled, and\nneeded help on a day-to-day basis, which of your\nsiblings would your mother prefer help her?”\nBecause previous research (Gilligan et al., in press;\nSuitor et al., 2009) has shown that the perception\nof any favoritism, rather than the particular\npattern (e.g., mother preferred the respondent or\nanother child), predicted sibling tension, we used\nthe children’s responses to create a dichotomous\nvariable: 0 = child does not perceive mother as\npreferring any particular offspring as her future\ncaregiver and 1 = child perceives that mother prefers\neither him/herself or another child as her caregiver.\nApproximately 14% (13.7) of the adult children\ndid not perceive their mothers as preferring any\noffspring over others as",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 each offspring was asked the following\nquestion regarding their perceptions of their\nmothers’ favoritism regarding future caregiving:\n“if your mother became ill or disabled, and\nneeded help on a day-to-day basis, which of your\nsiblings would your mother prefer help her?”\nbecause previous research (gilligan et al., in press;\nsuitor et al., 2009) has shown that the perception\nof any favoritism, rather than the particular\npattern (e.g., mother preferred the respondent or\nanother child), predicted sibling tension, we used\nthe children’s responses to create a dichotomous\nvariable: 0 = child does not perceive mother as\npreferring any particular offspring as her future\ncaregiver and 1 = child perceives that mother prefers\neither him/herself or another child as her caregiver.\napproximately 14% (13.7) of the adult children\ndid not perceive their mothers as preferring any\noffspring over others as",
+      "order": 23
+    },
+    {
+      "id": "chatbot-00813",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "future caregivers and 86%\nperceived that their mothers preferred particular\nchildren as their future caregivers (44% of the\nrespondents perceived that the mothers preferred\nthemselves and 42% perceived that their mothers\npreferred another offspring).\nt-Tests were conducted comparing offspring\nwho perceived that their mothers favored particular\nchildren as caregivers and those who did not. The\ngroups did not differ by age, gender, educational\nattainment, parental status, or number of living\nsiblings, although they did differ by mothers’ health.\nTable 1. Description of the Variables\n\nCharacteristics\n\nMean, SD,\n% (N = 450)\nEmployment (%)",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 future caregivers and 86%\nperceived that their mothers preferred particular\nchildren as their future caregivers (44% of the\nrespondents perceived that the mothers preferred\nthemselves and 42% perceived that their mothers\npreferred another offspring).\nt-tests were conducted comparing offspring\nwho perceived that their mothers favored particular\nchildren as caregivers and those who did not. the\ngroups did not differ by age, gender, educational\nattainment, parental status, or number of living\nsiblings, although they did differ by mothers’ health.\ntable 1. description of the variables\n\ncharacteristics\n\nmean, sd,\n% (n = 450)\nemployment (%)",
+      "order": 24
+    },
+    {
+      "id": "chatbot-00814",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Employed 79.3\nUnemployed 20.7\nSibling tension (SD) 6.1 (2.4)\nTotal number of siblings in family (SD) 4.3 (2.0)\nRace (%)\nWhite 72.9\nNot white 26.2\nAge in years (SD) 49.6 (5.8)\nMarital status (%)\nMarried 62\nNonmarried 38\nProvided care to mom at T2 63.1\nChild perceived mother favored a child at T2 85.3\nAdult children who perceived that their mothers\npreferred particular offspring as caregivers were\nsomewhat more likely to report that their mothers\nhad limitations to their daily activities than were\nthose who did not (64% vs 72%; p < .05).\nControl Variables",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 employed 79.3\nunemployed 20.7\nsibling tension (sd) 6.1 (2.4)\ntotal number of siblings in family (sd) 4.3 (2.0)\nrace (%)\nwhite 72.9\nnot white 26.2\nage in years (sd) 49.6 (5.8)\nmarital status (%)\nmarried 62\nnonmarried 38\nprovided care to mom at t2 63.1\nchild perceived mother favored a child at t2 85.3\nadult children who perceived that their mothers\npreferred particular offspring as caregivers were\nsomewhat more likely to report that their mothers\nhad limitations to their daily activities than were\nthose who did not (64% vs 72%; p < .05).\ncontrol variables",
+      "order": 25
+    },
+    {
+      "id": "chatbot-00815",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Family Level Characteristics.— Race was measured\nby asking the mothers to select from a card\nlisting several races and ethnicities (e.g., White,\nBlack, or African American, Hispanic or Latina,\nNative American, Asian). They were instructed\nthat they could choose more than one race or ethnicity.\nThe analytic sample for this article included\n149 mothers who identified themselves as White,\n57 who identified as Black, 3 as Asian, 3 as Native\nAmerican, 1 as Hispanic, and 1 as “other.” Based\non the literature on later-life families, which has\nshown greater filial responsibility in Black, Asian,\nand Hispanic than White families, we coded race\nas White = 1 and not White = 0. We measured family\nsize by asking mothers for the names of each of\ntheir children at T1, and asking them to confirm\nthis at T2.\nAdult Child Characteristics.— Gender was coded\n0 = son and 1 = daughter. Marital status was",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 family level characteristics.— race was measured\nby asking the mothers to select from a card\nlisting several races and ethnicities (e.g., white,\nblack, or african american, hispanic or latina,\nnative american, asian). they were instructed\nthat they could choose more than one race or ethnicity.\nthe analytic sample for this article included\n149 mothers who identified themselves as white,\n57 who identified as black, 3 as asian, 3 as native\namerican, 1 as hispanic, and 1 as “other.” based\non the literature on later-life families, which has\nshown greater filial responsibility in black, asian,\nand hispanic than white families, we coded race\nas white = 1 and not white = 0. we measured family\nsize by asking mothers for the names of each of\ntheir children at t1, and asking them to confirm\nthis at t2.\nadult child characteristics.— gender was coded\n0 = son and 1 = daughter. marital status was",
+      "order": 26
+    },
+    {
+      "id": "chatbot-00816",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "coded\nas married = 1 and not married = 0. Age at T2 was\nage at T1 plus 7 (the number of years between\ninterviews).\nPlan of Analysis\n\nBecause the adult children were nested within families, we used multilevel analyses, which\naccounts for nonindependence and allows for cor-\nrelated error structure. The analyses were con-\nducted using SPSS version 21. Listwise deletion\nwas used to handle missing data because there\nwere no more than 5% missing on any variable in\nthe analysis (cf. Allison, 2010).\nResults",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 coded\nas married = 1 and not married = 0. age at t2 was\nage at t1 plus 7 (the number of years between\ninterviews).\nplan of analysis\n\nbecause the adult children were nested within families, we used multilevel analyses, which\naccounts for nonindependence and allows for cor-\nrelated error structure. the analyses were con-\nducted using spss version 21. listwise deletion\nwas used to handle missing data because there\nwere no more than 5% missing on any variable in\nthe analysis (cf. allison, 2010).\nresults",
+      "order": 27
+    },
+    {
+      "id": "chatbot-00817",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "As shown in Model 1 of Table 2, both having\nprovided care to the mothers for a recent serious\nhealth event and perceiving that the mothers\npreferred a specific caregiver for future events\npredicted sibling tension. In fact, only one other\nvariable predicted sibling tension—siblings\nperceived less tension when they were married\nthan unmarried. Thus, our main effects hypotheses\nwere supported in that both caregiving and\nperceiving that the mother preferred a particular\nchild as her future caregiver were associated with\nhigh levels of sibling tension.\nThe findings presented in Model 2 of Table 2\nalso provide support for the hypothesis that the\nnegative effects of caregiving on perceived sibling\ntension are exacerbated by perceptions of favoritism\nregarding care. As shown in the last row of\nModel 2, adult children reported greater tension\nwith their siblings when they both provided care\nto",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 as shown in model 1 of table 2, both having\nprovided care to the mothers for a recent serious\nhealth event and perceiving that the mothers\npreferred a specific caregiver for future events\npredicted sibling tension. in fact, only one other\nvariable predicted sibling tension—siblings\nperceived less tension when they were married\nthan unmarried. thus, our main effects hypotheses\nwere supported in that both caregiving and\nperceiving that the mother preferred a particular\nchild as her future caregiver were associated with\nhigh levels of sibling tension.\nthe findings presented in model 2 of table 2\nalso provide support for the hypothesis that the\nnegative effects of caregiving on perceived sibling\ntension are exacerbated by perceptions of favoritism\nregarding care. as shown in the last row of\nmodel 2, adult children reported greater tension\nwith their siblings when they both provided care\nto",
+      "order": 28
+    },
+    {
+      "id": "chatbot-00818",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "their mothers and perceived that their mothers\npreferred a particular child as her future caregiver.\nTable 2. Mixed Model Results Predicting Sibling Tension ( n = 450 Adult Children Nested Within 214 Families)\n\nPredictors\n\nModel 1 Model 2\n\nB SE b SE\n\nFamily level characteristics\n\nFamily size −.09 0.07 −.10 0.07\nRace (nonwhite) .10 0.29 .08 0.29\nAdult child characteristics\nAge .01 0.02 .01 0.02\nDaughter −.15 0.21 −.15 0.21\nMarried −1.10 0.22 −1.08 0.22\nChild recently provided care .74 0.22 −.36 0.57\nChild perceives mother prefers a particular child as\nfuture caregiver\n.60 0.30 −.13 0.46\nChild perceives mother prefers a particular child as\n\nfuture caregiver × recently provided care\n— — 1.29 0.61\nLog likelihood 1,958.973 1,953.718\n\nAIC 1,962.973 1,957.718\nBIC 1,971.123 1,965.864\nNotes: AIC = Akaike information criterion; BIC = Bayesian information criterion.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 their mothers and perceived that their mothers\npreferred a particular child as her future caregiver.\ntable 2. mixed model results predicting sibling tension ( n = 450 adult children nested within 214 families)\n\npredictors\n\nmodel 1 model 2\n\nb se b se\n\nfamily level characteristics\n\nfamily size −.09 0.07 −.10 0.07\nrace (nonwhite) .10 0.29 .08 0.29\nadult child characteristics\nage .01 0.02 .01 0.02\ndaughter −.15 0.21 −.15 0.21\nmarried −1.10 0.22 −1.08 0.22\nchild recently provided care .74 0.22 −.36 0.57\nchild perceives mother prefers a particular child as\nfuture caregiver\n.60 0.30 −.13 0.46\nchild perceives mother prefers a particular child as\n\nfuture caregiver × recently provided care\n— — 1.29 0.61\nlog likelihood 1,958.973 1,953.718\n\naic 1,962.973 1,957.718\nbic 1,971.123 1,965.864\nnotes: aic = akaike information criterion; bic = bayesian information criterion.",
+      "order": 29
+    },
+    {
+      "id": "chatbot-00819",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "p < .05, p < .01.\nTo be certain that these findings were not affected\nby which child the sibling perceived that his or her\nmother preferred, we conducted a set of analyses\nin which we looked separately at whether the\nrespondent perceived that he or she was preferred,\nor perceived that his or her sibling was preferred.\nConsistent with the analyses reported in Table 2,\nproviding care to the mother and perceiving\nthat the mother preferred a particular child were\nassociated with higher sibling tension regardless\nof whether the respondent or another sibling was\npreferred. Further, the interactions for both “chose\nrespondent” and “chose other siblings” indicated\nthat greater sibling tension was present when\nadult children both provided care and perceived\nfavoritism regarding future care regardless of which\nchild was preferred. The differences between the\neffects of perceiving self versus",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 p < .05, p < .01.\nto be certain that these findings were not affected\nby which child the sibling perceived that his or her\nmother preferred, we conducted a set of analyses\nin which we looked separately at whether the\nrespondent perceived that he or she was preferred,\nor perceived that his or her sibling was preferred.\nconsistent with the analyses reported in table 2,\nproviding care to the mother and perceiving\nthat the mother preferred a particular child were\nassociated with higher sibling tension regardless\nof whether the respondent or another sibling was\npreferred. further, the interactions for both “chose\nrespondent” and “chose other siblings” indicated\nthat greater sibling tension was present when\nadult children both provided care and perceived\nfavoritism regarding future care regardless of which\nchild was preferred. the differences between the\neffects of perceiving self versus",
+      "order": 30
+    },
+    {
+      "id": "chatbot-00820",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "another sibling were\nsmall and not significant. Thus, taken together, the\npattern of findings was similar regardless of whether\nwe measured favoritism using only whether the\nchild perceived any favoritism, or whether we took\ninto account whether the respondent perceived\nthat she or he was chosen versus another sibling\nbeing chosen.\nIn sum, this set of analyses revealed that both\nproviding care and perceiving favoritism regarding\ncare were associated with sibling tension independently,\nand that the effects of caregiving on sibling\ntension were greater when perceptions of favoritism\nwere also present.\nDiscussion and Conclusion",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 another sibling were\nsmall and not significant. thus, taken together, the\npattern of findings was similar regardless of whether\nwe measured favoritism using only whether the\nchild perceived any favoritism, or whether we took\ninto account whether the respondent perceived\nthat she or he was chosen versus another sibling\nbeing chosen.\nin sum, this set of analyses revealed that both\nproviding care and perceiving favoritism regarding\ncare were associated with sibling tension independently,\nand that the effects of caregiving on sibling\ntension were greater when perceptions of favoritism\nwere also present.\ndiscussion and conclusion",
+      "order": 31
+    },
+    {
+      "id": "chatbot-00821",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Studies of later-life families have demonstrated\nthat serving as a caregiver to an older parent is\na role that is often highly stressful and can exact\na toll on physical and psychological well-being\n(Marks et al., 2008; Perkins et al., 2012; Pinquart\n& Sorensen, 2006). Similar to other demanding\nstatus transitions, detrimental consequences can\nbe moderated by the provision of social support,\nas well as by the absence of conflict and criticism\nfrom significant role partners (Atienza & Stephens,\n2000; Heru et al., 2004; Kang, 2006; Kwak et al.,\n2012). In the case of parental caregiving, siblings\nplay a central role in these processes; however,\nthey have been found to be a substantial source of\nstress as well as support (Connidis & Kemp, 2008;\nDavey & Szinovacz, 2008; Gentry, 2001; Ingersoll-Dayton\net al., 2003; Lashewicz & Keating, 2009;\nSuitor & Pillemer, 1996). Given the significance\nof",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 studies of later-life families have demonstrated\nthat serving as a caregiver to an older parent is\na role that is often highly stressful and can exact\na toll on physical and psychological well-being\n(marks et al., 2008; perkins et al., 2012; pinquart\n& sorensen, 2006). similar to other demanding\nstatus transitions, detrimental consequences can\nbe moderated by the provision of social support,\nas well as by the absence of conflict and criticism\nfrom significant role partners (atienza & stephens,\n2000; heru et al., 2004; kang, 2006; kwak et al.,\n2012). in the case of parental caregiving, siblings\nplay a central role in these processes; however,\nthey have been found to be a substantial source of\nstress as well as support (connidis & kemp, 2008;\ndavey & szinovacz, 2008; gentry, 2001; ingersoll-dayton\net al., 2003; lashewicz & keating, 2009;\nsuitor & pillemer, 1996). given the significance\nof",
+      "order": 32
+    },
+    {
+      "id": "chatbot-00822",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "reducing stress to family caregivers, it is important\nto examine under what circumstances sibling\nrelations are likely to be tense and conflictual. In\nthis article, we shed new light on this question by\nexploring the ways in which caregiving and perceptions\nof maternal favoritism combine to increase\nsibling tension.\nOur findings are consistent with prior research\nshowing that tension is greater when mothers have\ncare needs (Connidis & Kemp, 2008; Davey &\nSzinovacz, 2008; Gentry, 2001; Ingersoll-Dayton\net al., 2003; Lashewicz & Keating, 2009). However,\nthey go beyond previous studies by using a within-family\napproach that allowed us to compare sibling\nrelationship quality as reported by the adult children\nproviding care to that reported by noncaregiving\noffspring in the family. As we hypothesized, adult\nchildren who had provided care to their mothers\nfor a recent health event reported",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 reducing stress to family caregivers, it is important\nto examine under what circumstances sibling\nrelations are likely to be tense and conflictual. in\nthis article, we shed new light on this question by\nexploring the ways in which caregiving and perceptions\nof maternal favoritism combine to increase\nsibling tension.\nour findings are consistent with prior research\nshowing that tension is greater when mothers have\ncare needs (connidis & kemp, 2008; davey &\nszinovacz, 2008; gentry, 2001; ingersoll-dayton\net al., 2003; lashewicz & keating, 2009). however,\nthey go beyond previous studies by using a within-family\napproach that allowed us to compare sibling\nrelationship quality as reported by the adult children\nproviding care to that reported by noncaregiving\noffspring in the family. as we hypothesized, adult\nchildren who had provided care to their mothers\nfor a recent health event reported",
+      "order": 33
+    },
+    {
+      "id": "chatbot-00823",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "notably higher\ntension with their siblings than did those who did\nnot provide care. Based on recent findings that\nperceptions of parental favoritism predict sibling\ntension (Boll et al., 2003, 2005; Gilligan et al., in\npress; Suitor et al., 2009), we also hypothesized that\ncaregiving siblings would report the greatest tension\nwhen they perceived that their mothers favored\nparticular children as their future caregivers. This\nhypothesis was also confirmed by the multivariate\nanalysis. These findings are similar to those of\nKhodyakov and Carr (2009) regarding the effect of\nadvanced care planning on sibling relations. When\nadult children perceived that advanced directives\nhad been problematic, they reported lower sibling\nrelationship quality, whereas when parents selected\nsomeone besides the spouse or adult children as the\ndurable power of attorney for health care, sibling\nrelationship",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 notably higher\ntension with their siblings than did those who did\nnot provide care. based on recent findings that\nperceptions of parental favoritism predict sibling\ntension (boll et al., 2003, 2005; gilligan et al., in\npress; suitor et al., 2009), we also hypothesized that\ncaregiving siblings would report the greatest tension\nwhen they perceived that their mothers favored\nparticular children as their future caregivers. this\nhypothesis was also confirmed by the multivariate\nanalysis. these findings are similar to those of\nkhodyakov and carr (2009) regarding the effect of\nadvanced care planning on sibling relations. when\nadult children perceived that advanced directives\nhad been problematic, they reported lower sibling\nrelationship quality, whereas when parents selected\nsomeone besides the spouse or adult children as the\ndurable power of attorney for health care, sibling\nrelationship",
+      "order": 34
+    },
+    {
+      "id": "chatbot-00824",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "quality was higher.\nIt is noteworthy that the pattern of findings\nreported here were the same regardless of whether\nthe adult children perceived that their mothers preferred\nthem as caregivers or perceived that their\nmothers preferred other siblings. This finding is\nconsistent with the literature on favoritism and\nsibling relations, both in childhood and adulthood,\nwhich has shown that perceptions of any favoritism,\nregardless of which child is favored, predict\nsibling relationship quality (Boll et al., 2003, 2005;\nSuitor et al., 2008, 2009). Further, studies of the\neffects of favoritism on psychological well-being\nhave shown the same pattern across the life course\n(Pillemer, Suitor, Pardo, & Henderson, 2010;\nSuitor et al., 2008).\nTwo important questions for future research\nare the roles that children’s personality traits and\nearly relations with siblings may play in both",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 quality was higher.\nit is noteworthy that the pattern of findings\nreported here were the same regardless of whether\nthe adult children perceived that their mothers preferred\nthem as caregivers or perceived that their\nmothers preferred other siblings. this finding is\nconsistent with the literature on favoritism and\nsibling relations, both in childhood and adulthood,\nwhich has shown that perceptions of any favoritism,\nregardless of which child is favored, predict\nsibling relationship quality (boll et al., 2003, 2005;\nsuitor et al., 2008, 2009). further, studies of the\neffects of favoritism on psychological well-being\nhave shown the same pattern across the life course\n(pillemer, suitor, pardo, & henderson, 2010;\nsuitor et al., 2008).\ntwo important questions for future research\nare the roles that children’s personality traits and\nearly relations with siblings may play in both",
+      "order": 35
+    },
+    {
+      "id": "chatbot-00825",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "sibling\ninteraction patterns in adulthood and mothers’\npreferences for care. Specifically, it is possible that\nin some cases, adult children have a long-standing\nhistory of difficult relations with their siblings and\ntheir mothers, thus affecting both favoritism regarding\ncare and sibling tension decades later. Although\nthis pattern cannot be ruled out, previous research\n(Suitor, Gilligan, & Pillemer, in press) has shown\nthat mothers’ preferences for care are shaped by\nperceptions of similarity, gender, and proximity, and\nare not predicted by offspring’s present or previous\ndifficult behaviors. However, it is possible that\nsiblings’ personalities or early childhood behaviors\ncould affect current sibling tension. To address this\nquestion would require data on adult children’s personality\ntraits and behaviors in childhood, which are\nnot available in the WFDS data set. Addressing",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 sibling\ninteraction patterns in adulthood and mothers’\npreferences for care. specifically, it is possible that\nin some cases, adult children have a long-standing\nhistory of difficult relations with their siblings and\ntheir mothers, thus affecting both favoritism regarding\ncare and sibling tension decades later. although\nthis pattern cannot be ruled out, previous research\n(suitor, gilligan, & pillemer, in press) has shown\nthat mothers’ preferences for care are shaped by\nperceptions of similarity, gender, and proximity, and\nare not predicted by offspring’s present or previous\ndifficult behaviors. however, it is possible that\nsiblings’ personalities or early childhood behaviors\ncould affect current sibling tension. to address this\nquestion would require data on adult children’s personality\ntraits and behaviors in childhood, which are\nnot available in the wfds data set. addressing",
+      "order": 36
+    },
+    {
+      "id": "chatbot-00826",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "these\nquestions should be a priority in future research.\nTaken together, the findings suggest that the experiences\nof adult children who provide care differ\nfrom those of their noncaregiving siblings regarding\ntension in their relationships. Further, the likelihood\nof tension among siblings when mothers have experienced\na recent health event is greater when siblings\nperceive that their mothers prefer particular children\nas future caregivers, regardless of which child\nthey prefer. Thus, the findings shed new light on the\nconditions under which siblings are more likely to\nexperience high levels of tension when their parents\nencounter major health events and require care.\nImplications for Practice",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 these\nquestions should be a priority in future research.\ntaken together, the findings suggest that the experiences\nof adult children who provide care differ\nfrom those of their noncaregiving siblings regarding\ntension in their relationships. further, the likelihood\nof tension among siblings when mothers have experienced\na recent health event is greater when siblings\nperceive that their mothers prefer particular children\nas future caregivers, regardless of which child\nthey prefer. thus, the findings shed new light on the\nconditions under which siblings are more likely to\nexperience high levels of tension when their parents\nencounter major health events and require care.\nimplications for practice",
+      "order": 37
+    },
+    {
+      "id": "chatbot-00827",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "These findings have important implications\nfor adult siblings who are confronting the need\nfor parent care as well as practitioners working\nwith later-life families. In particular, the results\npresented here support calls to acknowledge the\ncomplexity and multiperspectivity of later-life\nfamilies and the degree to which they operate as\nsystems (Fingerman & Bermann, 2000; Pillemer\net al., 2007). Although the issue of favoritism has\nbeen studied extensively in younger families, only\nrecently have researchers begun to explore the\ncauses and consequences of this type of within-family\ndifferentiation among older parents and\ntheir adult children (Suitor et al., 2008). Further,\nonly one study to our knowledge has examined the\neffects of favoritism in a caregiving context (Suitor\net al., 2013). The present study demonstrates\nthat perceptions of parental favoritism regarding\ncare have a strong",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 these findings have important implications\nfor adult siblings who are confronting the need\nfor parent care as well as practitioners working\nwith later-life families. in particular, the results\npresented here support calls to acknowledge the\ncomplexity and multiperspectivity of later-life\nfamilies and the degree to which they operate as\nsystems (fingerman & bermann, 2000; pillemer\net al., 2007). although the issue of favoritism has\nbeen studied extensively in younger families, only\nrecently have researchers begun to explore the\ncauses and consequences of this type of within-family\ndifferentiation among older parents and\ntheir adult children (suitor et al., 2008). further,\nonly one study to our knowledge has examined the\neffects of favoritism in a caregiving context (suitor\net al., 2013). the present study demonstrates\nthat perceptions of parental favoritism regarding\ncare have a strong",
+      "order": 38
+    },
+    {
+      "id": "chatbot-00828",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "impact on sibling relations.\nProfessionals who counsel adult child caregivers\nmay find it useful to explore their perceptions\nof parental favoritism and how it affects family\ninteractions and decision making.\nAlthough we do not have definitive data to\nconfirm this issue, responses to open-ended questions\nin this study suggest possible avenues for the\neffects of parental favoritism during caregiving.\nFirst, individuals who believe that they are the preferred\ncaregivers can perceive that their efforts are\nunderappreciated or criticized by siblings whom\nthe mothers did not prefer as their caregivers. In\nfact, the caregivers in the present study reported\nthis as one of their most common sources of frustration\nwith their siblings. Second, siblings who\nperceive that they are not the preferred caregiver\nsometimes feel undervalued or disrespected by\nthe mother. Indeed, previous research has",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 impact on sibling relations.\nprofessionals who counsel adult child caregivers\nmay find it useful to explore their perceptions\nof parental favoritism and how it affects family\ninteractions and decision making.\nalthough we do not have definitive data to\nconfirm this issue, responses to open-ended questions\nin this study suggest possible avenues for the\neffects of parental favoritism during caregiving.\nfirst, individuals who believe that they are the preferred\ncaregivers can perceive that their efforts are\nunderappreciated or criticized by siblings whom\nthe mothers did not prefer as their caregivers. in\nfact, the caregivers in the present study reported\nthis as one of their most common sources of frustration\nwith their siblings. second, siblings who\nperceive that they are not the preferred caregiver\nsometimes feel undervalued or disrespected by\nthe mother. indeed, previous research has",
+      "order": 39
+    },
+    {
+      "id": "chatbot-00829",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "shown\nthat mothers reported that assistance from children\nwhom they did not prefer as their caregivers\noften fell short of their expectations (Suitor et al.,\n2013). From a clinical perspective, exploring such\nfeelings regarding the mother’s choice of caregiver\nmay be a fruitful topic when dealing with sibling\nrelationships.\nConsistent with this theme of complexity is\nthe finding that caregivers experience sibling\nrelationships differently from noncaregiving\nbrothers and sisters. The fact that caregivers\nreport substantially higher levels of tension than\ntheir siblings may constitute a form of “double\njeopardy” for them. When parents require\nassistance, the caregiver’s life becomes more\nstressful and demanding. It is precisely in this\nsituation when having supportive and conflict-free\nrelations with siblings is especially important,\nbut caregivers’ experience of greater conflict",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 shown\nthat mothers reported that assistance from children\nwhom they did not prefer as their caregivers\noften fell short of their expectations (suitor et al.,\n2013). from a clinical perspective, exploring such\nfeelings regarding the mother’s choice of caregiver\nmay be a fruitful topic when dealing with sibling\nrelationships.\nconsistent with this theme of complexity is\nthe finding that caregivers experience sibling\nrelationships differently from noncaregiving\nbrothers and sisters. the fact that caregivers\nreport substantially higher levels of tension than\ntheir siblings may constitute a form of “double\njeopardy” for them. when parents require\nassistance, the caregiver’s life becomes more\nstressful and demanding. it is precisely in this\nsituation when having supportive and conflict-free\nrelations with siblings is especially important,\nbut caregivers’ experience of greater conflict",
+      "order": 40
+    },
+    {
+      "id": "chatbot-00830",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "with\nsiblings may exacerbate the already stressful\nsituation. Awareness of this likely difference in\nexperiences can be of use to clinicians engaged\nwith families, acknowledging that noncaregiving\nsiblings may experience the relationships as\nrelatively harmonious, whereas the caregiver\nexperiences them as stressful and tense.\nFunding and Acknowledgments\n\nFunding",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 with\nsiblings may exacerbate the already stressful\nsituation. awareness of this likely difference in\nexperiences can be of use to clinicians engaged\nwith families, acknowledging that noncaregiving\nsiblings may experience the relationships as\nrelatively harmonious, whereas the caregiver\nexperiences them as stressful and tense.\nfunding and acknowledgments\n\nfunding",
+      "order": 41
+    },
+    {
+      "id": "chatbot-00831",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "This project was supported by grants from the National Institute\non Aging (RO1 AG18869-01, 2RO1 AG18869-04 to J. J. Suitor and\nK. Pillemer, Co-Principal Investigators). J. J. Suitor, M. Gilligan, and\nK. Johnson also wish to acknowledge support from the Center on Aging\nand the Life Course at Purdue University. K. Pillemer also acknowledges\nsupport from an Edward R. Roybal Center grant from the National\nInstitute on Aging (1 P50 AG11711-01).\nAcknowledgments*\nWe would like to thank Paul Allison for his helpful suggestions regarding\nthe data analysis and Mary Ellen Colten and her colleagues at the\nUniversity of Massachusetts, Boston for collecting the data for the project.\nReferences",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 this project was supported by grants from the national institute\non aging (ro1 ag18869-01, 2ro1 ag18869-04 to j. j. suitor and\nk. pillemer, co-principal investigators). j. j. suitor, m. gilligan, and\nk. johnson also wish to acknowledge support from the center on aging\nand the life course at purdue university. k. pillemer also acknowledges\nsupport from an edward r. roybal center grant from the national\ninstitute on aging (1 p50 ag11711-01).\nacknowledgments*\nwe would like to thank paul allison for his helpful suggestions regarding\nthe data analysis and mary ellen colten and her colleagues at the\nuniversity of massachusetts, boston for collecting the data for the project.\nreferences",
+      "order": 42
+    },
+    {
+      "id": "chatbot-00832",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "AARP. (2011). When siblings disagree about what’s best for mom and dad.\nRetrieved from http://www.aarp.org/relationships/caregiving-resource-center/info-12-2011/siblings-disagree-on-parents-care.html\nAllison, P. (2010). Missing data. In J. Wright & P. Marsden (Eds.), Handbook\nof survey research (pp. 631–658). Bingley, England: Emerald Group.\nAmato, P., Booth, A., Johnson, D. R., & Rogers, S. J. (2007). Alone together:\nHow marriage in America is changing. Cambridge, MA: Harvard.\nAquilino, W. S., Arnett, J. J., & Tanner, J. L. (2006). Family relationships\nand support systems in emerging adulthood. In J. J. Arnett & J. L.\nTanner (Eds.), Emerging adults in America: Coming of age in the 21st\ncentury (pp. 193–217). Washington, DC: American Psychological\nAssociation.\nAtienza, A. A., & Stephens, M. A. P. (2000). Social interactions at work and\nthe well-being of daughters involved in parent care.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 aarp. (2011). when siblings disagree about what’s best for mom and dad.\nretrieved from http://www.aarp.org/relationships/caregiving-resource-center/info-12-2011/siblings-disagree-on-parents-care.html\nallison, p. (2010). missing data. in j. wright & p. marsden (eds.), handbook\nof survey research (pp. 631–658). bingley, england: emerald group.\namato, p., booth, a., johnson, d. r., & rogers, s. j. (2007). alone together:\nhow marriage in america is changing. cambridge, ma: harvard.\naquilino, w. s., arnett, j. j., & tanner, j. l. (2006). family relationships\nand support systems in emerging adulthood. in j. j. arnett & j. l.\ntanner (eds.), emerging adults in america: coming of age in the 21st\ncentury (pp. 193–217). washington, dc: american psychological\nassociation.\natienza, a. a., & stephens, m. a. p. (2000). social interactions at work and\nthe well-being of daughters involved in parent care.",
+      "order": 43
+    },
+    {
+      "id": "chatbot-00833",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Journal of Applied\nGerontology , 19 , 243–263. doi:10.1177/073346480001900301\nBerman, C. (2005). Caring for yourself while caring for your aging parents:\nHow to help, how to survive. New York: Henry Holt.\nBoll, T., Ferring, D., & Filipp, S. H. (2003). Perceived parental differential\ntreatment in middle adulthood: Curvilinear relations with individuals’\nexperienced relationship quality to sibling and parents. Journal of\nFamily Psychology , 17 , 472–487. doi:10.1037/0893-3200.17.4.472\nBoll, T., Ferring, D., & Filipp, S. H. (2005). Effects of parental differential\ntreatment on relationship quality with siblings and parents:\nJustice evaluations as mediators. Social Justice Research , 18 , 155–182.\ndoi:10.1007/s11211-005-7367-2\nBookwala, J. (2009). The impact of parent care on marital quality and\nwell-being in adult daughters and sons. Journal of Gerontology: Social\nSciences , 64 , S339–S347.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 journal of applied\ngerontology , 19 , 243–263. doi:10.1177/073346480001900301\nberman, c. (2005). caring for yourself while caring for your aging parents:\nhow to help, how to survive. new york: henry holt.\nboll, t., ferring, d., & filipp, s. h. (2003). perceived parental differential\ntreatment in middle adulthood: curvilinear relations with individuals’\nexperienced relationship quality to sibling and parents. journal of\nfamily psychology , 17 , 472–487. doi:10.1037/0893-3200.17.4.472\nboll, t., ferring, d., & filipp, s. h. (2005). effects of parental differential\ntreatment on relationship quality with siblings and parents:\njustice evaluations as mediators. social justice research , 18 , 155–182.\ndoi:10.1007/s11211-005-7367-2\nbookwala, j. (2009). the impact of parent care on marital quality and\nwell-being in adult daughters and sons. journal of gerontology: social\nsciences , 64 , s339–s347.",
+      "order": 44
+    },
+    {
+      "id": "chatbot-00834",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "doi:10.1093/geronb/gbp018\nConger, K. J., & Little, W. M. (2010). Sibling relationships during the\ntransition to adulthood. Child Development Perspectives , 4 , 87–94.\ndoi:10.1111/j.1750-8606.2010.00123.x\nConnidis, I. A., & Kemp, C. L. (2008). Negotiating actual and anticipated\nparental support: Multiple sibling voices in three-generation\nfamilies. Journal of Aging Studies , 22 , 229–238. doi:10.1016/\nj.jaging.2007.06.002\nDavey, A., & Szinovacz, M. E. (2008). Division of care among adult\nchildren. In M.E. Szinovacz & A. Davey (Eds.), Caregiving contexts:\nCultural, familial, and societal implications (pp. 133–159). New York,\nNY: Springer.\nFingerman, K. L., & Bermann, E. (2000). Applications of family systems theory\nto the study of adulthood. International Journal of Aging & Human\nDevelopment , 51 , 5–29. doi:10.2190/7TF8-WB3F-TMWG-TT3K\nGentry, D. B. (2001). Resolving middle-age sibling",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 doi:10.1093/geronb/gbp018\nconger, k. j., & little, w. m. (2010). sibling relationships during the\ntransition to adulthood. child development perspectives , 4 , 87–94.\ndoi:10.1111/j.1750-8606.2010.00123.x\nconnidis, i. a., & kemp, c. l. (2008). negotiating actual and anticipated\nparental support: multiple sibling voices in three-generation\nfamilies. journal of aging studies , 22 , 229–238. doi:10.1016/\nj.jaging.2007.06.002\ndavey, a., & szinovacz, m. e. (2008). division of care among adult\nchildren. in m.e. szinovacz & a. davey (eds.), caregiving contexts:\ncultural, familial, and societal implications (pp. 133–159). new york,\nny: springer.\nfingerman, k. l., & bermann, e. (2000). applications of family systems theory\nto the study of adulthood. international journal of aging & human\ndevelopment , 51 , 5–29. doi:10.2190/7tf8-wb3f-tmwg-tt3k\ngentry, d. b. (2001). resolving middle-age sibling",
+      "order": 45
+    },
+    {
+      "id": "chatbot-00835",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "conflict regarding\nparent care. Conflict Resolution Quarterly , 19 , 31–47. doi:10.1002/\ncrq.3890190104\nGilligan, M., Suitor, J. J., & Pillemer, K. (in press). Differential effects of\nmothers’ and fathers’ favoritism on sibling relations in adulthood.\nJournal of Gerontology: Social Sciences . Advance online publication.\ndoi:10.1093/geronb/gbt039\nHeru, A. M., Ryan, C. E., & Iqbal, A. (2004). Family functioning in the\ncaregivers of patients with dementia. International Journal of Geriatric\nPsychiatry , 19 , 533–537. doi:10.1002/gps.1119\nIngersoll-Dayton, B., Neal, M. B., Ha, J., & Hammer, L. B. (2003).\nRedressing inequity in parent care among siblings. Journal of Marriage\nand Family , 65 , 201–212. doi:10.1111/j.1741-3737.2003.00201.x\nKalmijn, M., & Liefbroer, A. C. (2011). Nonresponse of secondary\nrespondents in multi-actor surveys: Determinants, consequences, and\npossible remedies.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 conflict regarding\nparent care. conflict resolution quarterly , 19 , 31–47. doi:10.1002/\ncrq.3890190104\ngilligan, m., suitor, j. j., & pillemer, k. (in press). differential effects of\nmothers’ and fathers’ favoritism on sibling relations in adulthood.\njournal of gerontology: social sciences . advance online publication.\ndoi:10.1093/geronb/gbt039\nheru, a. m., ryan, c. e., & iqbal, a. (2004). family functioning in the\ncaregivers of patients with dementia. international journal of geriatric\npsychiatry , 19 , 533–537. doi:10.1002/gps.1119\ningersoll-dayton, b., neal, m. b., ha, j., & hammer, l. b. (2003).\nredressing inequity in parent care among siblings. journal of marriage\nand family , 65 , 201–212. doi:10.1111/j.1741-3737.2003.00201.x\nkalmijn, m., & liefbroer, a. c. (2011). nonresponse of secondary\nrespondents in multi-actor surveys: determinants, consequences, and\npossible remedies.",
+      "order": 46
+    },
+    {
+      "id": "chatbot-00836",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Journal of Family Issues , 32 , 735–766. doi:10.1177/\n0192513X10390184\nKang, S. Y. (2006). Predictors of emotional strain among spouse and adult\nchild caregivers. Journal of Gerontological Social Work , 47 , 107–131.\ndoi:10.1300/J083v47n01_08\nKhodyakov, D., & Carr, D. (2009). The impact of late-life parental\ndeath on adult sibling relationships: Do parents’ advance directives\nhelp or hurt? Research on Aging , 31 , 495–519. doi:10.1177/\n0164027509337193\nKwak, M., Ingersoll-Dayton, B., & Kim, J. (2012). Family conflict from the\nperspective of adult child caregivers: The influence of gender. Journal\nof Social and Personal Relationships , 29 , 470–487. doi:10.1177/0265407511431188\nLashewicz, B., & Keating, N. (2009). Tensions among siblings in parent\ncare. European Journal of Ageing , 6 , 127–135. doi:10.1007/s10433-009-0109-9\nMarks, N. F., Lambert, J. D., Jun, H., & Song, J. (2008).",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 journal of family issues , 32 , 735–766. doi:10.1177/\n0192513x10390184\nkang, s. y. (2006). predictors of emotional strain among spouse and adult\nchild caregivers. journal of gerontological social work , 47 , 107–131.\ndoi:10.1300/j083v47n01_08\nkhodyakov, d., & carr, d. (2009). the impact of late-life parental\ndeath on adult sibling relationships: do parents’ advance directives\nhelp or hurt? research on aging , 31 , 495–519. doi:10.1177/\n0164027509337193\nkwak, m., ingersoll-dayton, b., & kim, j. (2012). family conflict from the\nperspective of adult child caregivers: the influence of gender. journal\nof social and personal relationships , 29 , 470–487. doi:10.1177/0265407511431188\nlashewicz, b., & keating, n. (2009). tensions among siblings in parent\ncare. european journal of ageing , 6 , 127–135. doi:10.1007/s10433-009-0109-9\nmarks, n. f., lambert, j. d., jun, h., & song, j. (2008).",
+      "order": 47
+    },
+    {
+      "id": "chatbot-00837",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Psychosocial\nmoderators of the effects of transitioning into filial caregiving on mental\nand physical health. Research on Aging , 30 , 358–389. doi:10.1177/\n0164027507312998\nOkun, M., & Keith, V. M. (1998). Effects of positive and negative social\nexchanges with various sources on depressive symptoms in younger\nand older adults. Journal of Gerontology: Social Sciences , 53 , S4–S20.\ndoi:10.1093/geronb/53B.1.P4\nPearlin, L. I., Mullan, J. T., Semple, S. J., & Skaff, M. M. (1990). Caregiving\nand the stress process: An overview of concepts and their measures.\nThe Gerontologist , 30 , 583–594. doi:10.1093/geront/30.5.583\nPearlin, L. I., Pioli, M. F., & McLaughlin, A. E. (2001). Caregiving by adult\nchildren: Involvement, role disruption, and health. In R.H. Binstock &\nL.K. George (Eds.), Handbook of aging and the social sciences (5th ed.,\npp. 238–254). San Diego, CA: Academic Press.\nPerkins,",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 psychosocial\nmoderators of the effects of transitioning into filial caregiving on mental\nand physical health. research on aging , 30 , 358–389. doi:10.1177/\n0164027507312998\nokun, m., & keith, v. m. (1998). effects of positive and negative social\nexchanges with various sources on depressive symptoms in younger\nand older adults. journal of gerontology: social sciences , 53 , s4–s20.\ndoi:10.1093/geronb/53b.1.p4\npearlin, l. i., mullan, j. t., semple, s. j., & skaff, m. m. (1990). caregiving\nand the stress process: an overview of concepts and their measures.\nthe gerontologist , 30 , 583–594. doi:10.1093/geront/30.5.583\npearlin, l. i., pioli, m. f., & mclaughlin, a. e. (2001). caregiving by adult\nchildren: involvement, role disruption, and health. in r.h. binstock &\nl.k. george (eds.), handbook of aging and the social sciences (5th ed.,\npp. 238–254). san diego, ca: academic press.\nperkins,",
+      "order": 48
+    },
+    {
+      "id": "chatbot-00838",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "M., Howard, V. G., Wadley, V. G., Crowe, M., Safford, M. M.,\nHaley, W. E., et al. (2012). Caregiving strain and all-cause mortality:\nEvidence from the REGARDS STUDY. Journal of Gerontology:\nPsychological Sciences and Social Sciences . doi:10.1093/geronb/gbs084\nPerry-Jenkins, M., Goldberg, A. E., Pierce, C. P., & Sayer, A. G. (2007).\nShift work, role overload, and the transition to parenthood. Journal\nof Marriage and the Family , 69 , 123–138. doi:10.1111/j.1741-3737.2006.00349.x\nPillemer, K., Suitor, J. J., Mock, S. E., Sabir, M., Pardo, T., & Sechrist,\nJ. (2007). Capturing the complexity of intergenerational relations:\nExploring ambivalence within later-life families. Journal of Social\nIssues , 63 , 775–791. doi:10.1111/j.1540-4560.2007.00536.x\nPillemer, K., Suitor, J. J., Pardo, S., & Henderson, C., Jr. (2010).\nMothers’ differentiation and depressive symptoms among adult",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 m., howard, v. g., wadley, v. g., crowe, m., safford, m. m.,\nhaley, w. e., et al. (2012). caregiving strain and all-cause mortality:\nevidence from the regards study. journal of gerontology:\npsychological sciences and social sciences . doi:10.1093/geronb/gbs084\nperry-jenkins, m., goldberg, a. e., pierce, c. p., & sayer, a. g. (2007).\nshift work, role overload, and the transition to parenthood. journal\nof marriage and the family , 69 , 123–138. doi:10.1111/j.1741-3737.2006.00349.x\npillemer, k., suitor, j. j., mock, s. e., sabir, m., pardo, t., & sechrist,\nj. (2007). capturing the complexity of intergenerational relations:\nexploring ambivalence within later-life families. journal of social\nissues , 63 , 775–791. doi:10.1111/j.1540-4560.2007.00536.x\npillemer, k., suitor, j. j., pardo, s., & henderson, c., jr. (2010).\nmothers’ differentiation and depressive symptoms among adult",
+      "order": 49
+    },
+    {
+      "id": "chatbot-00839",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "children.\nJournal of Marriage and Family , 72 , 333–345. doi:10.1111/\nj.1741-3737.2010.00703.x\nPinquart, M., & Sorensen, S. (2006). Gender differences in caregiver stressors,\nsocial resources, and health: An updated meta-analysis. Journal of\nGerontology: Social Sciences , 61 , S33–S45.\nRobinson, B. E., Flowers, C., & Ng, K. (2006). The relationship between\nworkaholism and marital disaffection: Husbands’ perspective. The\nFamily Journal , 14 , 213–220. doi:10.1177/1066480706287269\nRook, K. (1998). Investigating the positive and negative sides of personal\nrelationships: Through a lens darkly? In B. H. Spitzberg & W.\nR. Cupach (Eds.), The dark side of close relationships (pp. 369–393).\nMahwah, NJ: Erlbaum.\nRossi, A. S., & Rossi, P. H. (1990). Of human bonding: Parent child relations\nacross the life course. New York: Aldine de Gruyter.\nRoxburgh, S. (2012). Parental time pressures and",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 children.\njournal of marriage and family , 72 , 333–345. doi:10.1111/\nj.1741-3737.2010.00703.x\npinquart, m., & sorensen, s. (2006). gender differences in caregiver stressors,\nsocial resources, and health: an updated meta-analysis. journal of\ngerontology: social sciences , 61 , s33–s45.\nrobinson, b. e., flowers, c., & ng, k. (2006). the relationship between\nworkaholism and marital disaffection: husbands’ perspective. the\nfamily journal , 14 , 213–220. doi:10.1177/1066480706287269\nrook, k. (1998). investigating the positive and negative sides of personal\nrelationships: through a lens darkly? in b. h. spitzberg & w.\nr. cupach (eds.), the dark side of close relationships (pp. 369–393).\nmahwah, nj: erlbaum.\nrossi, a. s., & rossi, p. h. (1990). of human bonding: parent child relations\nacross the life course. new york: aldine de gruyter.\nroxburgh, s. (2012). parental time pressures and",
+      "order": 50
+    },
+    {
+      "id": "chatbot-00840",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "depression among married\ndual-earner parents. Journal of Family Issues , 33 , 1027–1053.\ndoi:10.1177/0192513X11425324\nRusso, F. (2010, February 1). When elder care brings back sibling tensions.\nTime Magazine . Retrieved from http://www.time.com/time/magazine/\narticle/0,9171,1955601,00.html\nSchuster, T. L., Kessler, R. C., & Aseltine, R. H., Jr. (1990). Supportive\ninteractions, negative interactions, and depressed mood. American\nJournal of Community Psychology , 18 , 423–438.\nSerido, J., Almeida, D. M., & Wethington, E. (2004). Chronic stressors and\ndaily hassles: Unique and interactive relationships with psychological\ndistress. Journal of Health and Social Behavior , 45 , 17–33. doi:10.1177/\n002214650404500102\nSuitor, J. J., Gilligan, M., & Pillemer, K. (in press). Continuity and change\nin mothers’ favoritism toward offspring in adulthood. Journal of\nMarriage and Family .\nSuitor, J. J.,",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 depression among married\ndual-earner parents. journal of family issues , 33 , 1027–1053.\ndoi:10.1177/0192513x11425324\nrusso, f. (2010, february 1). when elder care brings back sibling tensions.\ntime magazine . retrieved from http://www.time.com/time/magazine/\narticle/0,9171,1955601,00.html\nschuster, t. l., kessler, r. c., & aseltine, r. h., jr. (1990). supportive\ninteractions, negative interactions, and depressed mood. american\njournal of community psychology , 18 , 423–438.\nserido, j., almeida, d. m., & wethington, e. (2004). chronic stressors and\ndaily hassles: unique and interactive relationships with psychological\ndistress. journal of health and social behavior , 45 , 17–33. doi:10.1177/\n002214650404500102\nsuitor, j. j., gilligan, m., & pillemer, k. (in press). continuity and change\nin mothers’ favoritism toward offspring in adulthood. journal of\nmarriage and family .\nsuitor, j. j.,",
+      "order": 51
+    },
+    {
+      "id": "chatbot-00841",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "& Pillemer, K. (1996). Sources of support and interpersonal stress\nin the networks of married caregiving daughters: Findings from a 2-year\nlongitudinal study. Journal of Gerontology: Social Sciences , 51 , S297–S306.\ndoi:10.1093/geronb/51B.6.S297\nSuitor, J. J., Gilligan, M., & Pillemer, K. (2013). The role of violated caregiver\npreferences in psychological well-being when older mothers\nneed assistance. The Gerontologist , 53 , 388–396. doi:10.1093/geront/\ngns084\nSuitor, J. J., Sechrist, J., Plikuhn, M., Pardo, S., Gilligan, M., & Pillemer, K.\n(2009). The role of perceived maternal favoritism in sibling relations in\nmidlife. Journal of Marriage & Family , 71 , 1026–1038. doi:10.1111/\nj.1741-3737.2009.00650.x\nSuitor, J. J., Sechrist, J., Plikuhn, M., Pardo, S., & Pillemer, K. (2008).\nWithin-family differences in parent-child relations across the life\ncourse. Current Directions in",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 & pillemer, k. (1996). sources of support and interpersonal stress\nin the networks of married caregiving daughters: findings from a 2-year\nlongitudinal study. journal of gerontology: social sciences , 51 , s297–s306.\ndoi:10.1093/geronb/51b.6.s297\nsuitor, j. j., gilligan, m., & pillemer, k. (2013). the role of violated caregiver\npreferences in psychological well-being when older mothers\nneed assistance. the gerontologist , 53 , 388–396. doi:10.1093/geront/\ngns084\nsuitor, j. j., sechrist, j., plikuhn, m., pardo, s., gilligan, m., & pillemer, k.\n(2009). the role of perceived maternal favoritism in sibling relations in\nmidlife. journal of marriage & family , 71 , 1026–1038. doi:10.1111/\nj.1741-3737.2009.00650.x\nsuitor, j. j., sechrist, j., plikuhn, m., pardo, s., & pillemer, k. (2008).\nwithin-family differences in parent-child relations across the life\ncourse. current directions in",
+      "order": 52
+    },
+    {
+      "id": "chatbot-00842",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "full",
+      "pageLabel": "원문 읽기",
+      "href": "readings/suitor-et-al-2014/full.html",
+      "text": "Psychological Science , 17 , 334–338.\ndoi:10.1111/j.1467-8721.2008.00601.x\nTolkacheva, N., van Groenou, M. B., & van Tilburg, T. (2010). Sibling\ninfluence on care given by children to older parents. Research on\nAging , 32 , 739–759. doi:10.1177/0164027510383532\nWalen, H. R., & Lachman, M. E. (2000). Social support and strain from\npartner, family, and friends: Costs and benefits for men and women\nin adulthood. Journal of Social and Personal Relationships , 17 , 5–30.\ndoi:10.1177/0265407500171001\nWalster, E. H., Walster, G. W., & Berscheid, E. (1978). Equity: Theory and\nresearch. Boston: Allyn and Bacon.\nWright, J. D., & Marsden, P. V. (2010). Survey research and social science:\nHistory, current practice, and future prospects. In V. Peter, D. Marsden,\n& J. Wright (Eds.), Handbook of survey research (pp. 3–26). Bingley,\nEngland: Emerald Group.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 원문 읽기 psychological science , 17 , 334–338.\ndoi:10.1111/j.1467-8721.2008.00601.x\ntolkacheva, n., van groenou, m. b., & van tilburg, t. (2010). sibling\ninfluence on care given by children to older parents. research on\naging , 32 , 739–759. doi:10.1177/0164027510383532\nwalen, h. r., & lachman, m. e. (2000). social support and strain from\npartner, family, and friends: costs and benefits for men and women\nin adulthood. journal of social and personal relationships , 17 , 5–30.\ndoi:10.1177/0265407500171001\nwalster, e. h., walster, g. w., & berscheid, e. (1978). equity: theory and\nresearch. boston: allyn and bacon.\nwright, j. d., & marsden, p. v. (2010). survey research and social science:\nhistory, current practice, and future prospects. in v. peter, d. marsden,\n& j. wright (eds.), handbook of survey research (pp. 3–26). bingley,\nengland: emerald group.",
+      "order": 53
+    },
+    {
+      "id": "chatbot-00843",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings\n\nJ. Jill Suitor, Megan Gilligan, Kaitlin Johnson, Karl Pillemer\n\n© 저자 2013. The Gerontological Society of America를 대신하여 Oxford University Press가 발행했다.\n모든 권리 보유. 이용 허가 문의: journals.permissions@oup.com\nJournal of Gerontology: Social Sciences, 2014\n1 소속: Purdue University, Department of Sociology, Center on Aging and the Life Course, West Lafayette, Indiana\n2 소속: Iowa State University, Department of Human Development and Family Studies, Ames\n3 소속: Cornell University, Department of Human Development, Ithaca, New York\n교신저자: J. Jill Suitor, 700 W. State Street, Stone Hall, West Lafayette, IN 47907, jsuitor@purdue.edu\n투고일: 2013년 4월 12일\n게재승인일: 2013년 5월 17일\n편집책임자: Rachel Pruchno, PhD\n\n초록\n\n목적",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 caregiving, perceptions of maternal favoritism, and tension among siblings\n\nj. jill suitor, megan gilligan, kaitlin johnson, karl pillemer\n\n© 저자 2013. the gerontological society of america를 대신하여 oxford university press가 발행했다.\n모든 권리 보유. 이용 허가 문의: journals.permissions@oup.com\njournal of gerontology: social sciences, 2014\n1 소속: purdue university, department of sociology, center on aging and the life course, west lafayette, indiana\n2 소속: iowa state university, department of human development and family studies, ames\n3 소속: cornell university, department of human development, ithaca, new york\n교신저자: j. jill suitor, 700 w. state street, stone hall, west lafayette, in 47907, jsuitor@purdue.edu\n투고일: 2013년 4월 12일\n게재승인일: 2013년 5월 17일\n편집책임자: rachel pruchno, phd\n\n초록\n\n목적",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00844",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "후기 가족에 관한 연구는 부모가 돌봄을 필요로 하게 되면 형제자매 간 긴장이 종종 높아진다는 점을 보여 주었다. 가족 내 차이에 관한 이론과 연구는 부모의 건강이 악화될 때 형제관계가 누가 돌봄을 맡는지, 그리고 부모가 어떤 자녀를 다른 자녀보다 더 선호한다고 형제들이 인식하는지에 따라 영향을 받을 수 있음을 시사한다. 이 연구는 돌봄 상황에서 이러한 요인들이 각각 독립적으로, 그리고 결합된 형태로 형제 긴장을 어떻게 형성하는지를 살펴본다.\n\n설계 및 방법\n\n이 논문은 인터뷰 이전 2년 안에 어머니가 돌봄을 필요로 했다고 자녀가 보고한 214개 노년기 가족에 속한 성인자녀 450명의 자료를 사용한다.\n\n결과\n\n다층분석 결과, 어머니의 중대한 건강 사건 이후 실제로 돌봄을 제공한 경험과 미래 돌봄에 관한 편애를 인식한 경험은 모두 형제 긴장과 관련되어 있었다. 더 나아가 편애 인식이 함께 존재할 때 돌봄 수행이 형제 긴장에 미치는 효과는 더 커졌다.\n\n실천적 함의\n\n이 결과는 성인자녀가 돌봄 상황에서 언제 높은 수준의 형제 긴장을 경험할 가능성이 큰지를 새롭게 보여 준다. 이런 과정을 이해하는 일은 중요하다. 돌봄을 맡게 될 때 돌봄자가 가장 먼저 지지를 구하게 되는 대상은 대개 형제자매이지만, 동시에 그 관계가 주요한 대인 스트레스의 원천이 되기도 하기 때문이다.\n\n핵심어\n\n돌봄자 스트레스\n비공식 돌봄\n세대 간 관계\n부모-자녀 관계\n\n서론",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 후기 가족에 관한 연구는 부모가 돌봄을 필요로 하게 되면 형제자매 간 긴장이 종종 높아진다는 점을 보여 주었다. 가족 내 차이에 관한 이론과 연구는 부모의 건강이 악화될 때 형제관계가 누가 돌봄을 맡는지, 그리고 부모가 어떤 자녀를 다른 자녀보다 더 선호한다고 형제들이 인식하는지에 따라 영향을 받을 수 있음을 시사한다. 이 연구는 돌봄 상황에서 이러한 요인들이 각각 독립적으로, 그리고 결합된 형태로 형제 긴장을 어떻게 형성하는지를 살펴본다.\n\n설계 및 방법\n\n이 논문은 인터뷰 이전 2년 안에 어머니가 돌봄을 필요로 했다고 자녀가 보고한 214개 노년기 가족에 속한 성인자녀 450명의 자료를 사용한다.\n\n결과\n\n다층분석 결과, 어머니의 중대한 건강 사건 이후 실제로 돌봄을 제공한 경험과 미래 돌봄에 관한 편애를 인식한 경험은 모두 형제 긴장과 관련되어 있었다. 더 나아가 편애 인식이 함께 존재할 때 돌봄 수행이 형제 긴장에 미치는 효과는 더 커졌다.\n\n실천적 함의\n\n이 결과는 성인자녀가 돌봄 상황에서 언제 높은 수준의 형제 긴장을 경험할 가능성이 큰지를 새롭게 보여 준다. 이런 과정을 이해하는 일은 중요하다. 돌봄을 맡게 될 때 돌봄자가 가장 먼저 지지를 구하게 되는 대상은 대개 형제자매이지만, 동시에 그 관계가 주요한 대인 스트레스의 원천이 되기도 하기 때문이다.\n\n핵심어\n\n돌봄자 스트레스\n비공식 돌봄\n세대 간 관계\n부모-자녀 관계\n\n서론",
+      "order": 2
+    },
+    {
+      "id": "chatbot-00845",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "노부모를 돌보는 일은 심리적 안녕과 신체적 안녕 모두에 대한 위험을 높이는 매우 스트레스가 큰 역할이다. 선행연구는 이러한 결과가 사회적 지지의 존재와 대인 스트레스의 부재, 특히 매우 중요한 역할 파트너들로부터의 대인 스트레스 부재에 의해 완화된다는 점을 보여 주었다. 그러나 돌봄자가 되는 것은 이 맥락에서 가장 중요한 사람들과의 긴장을 오히려 높이는 전환이 되기도 하며, 특히 형제자매와의 긴장을 높인다. 따라서 돌봄 상황에서 어떤 조건일 때 형제관계가 가장 문제적으로 전개될 가능성이 큰지를 이해하는 것이 중요하다.\n\n이 논문은 어머니가 돌봄을 필요로 할 때 형제자매가 관계에서 높은 수준의 긴장을 경험하게 될 위험을 높이는 요인에 초점을 맞춘다. 연구진은 돌봄 제공과 돌봄 선호에 관한 부모 편애 인식이 어떻게 교차하여 긴장을 높이는지를 살펴본다. 이를 검증하기 위해, 인터뷰 이전 2년 안에 어머니가 돌봄을 필요로 했다고 자녀가 보고한 214개 노년기 가족에 속한 성인자녀 450명의 자료를 사용한다.\n\n돌봄 중 형제 긴장의 가족 내 차이",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 노부모를 돌보는 일은 심리적 안녕과 신체적 안녕 모두에 대한 위험을 높이는 매우 스트레스가 큰 역할이다. 선행연구는 이러한 결과가 사회적 지지의 존재와 대인 스트레스의 부재, 특히 매우 중요한 역할 파트너들로부터의 대인 스트레스 부재에 의해 완화된다는 점을 보여 주었다. 그러나 돌봄자가 되는 것은 이 맥락에서 가장 중요한 사람들과의 긴장을 오히려 높이는 전환이 되기도 하며, 특히 형제자매와의 긴장을 높인다. 따라서 돌봄 상황에서 어떤 조건일 때 형제관계가 가장 문제적으로 전개될 가능성이 큰지를 이해하는 것이 중요하다.\n\n이 논문은 어머니가 돌봄을 필요로 할 때 형제자매가 관계에서 높은 수준의 긴장을 경험하게 될 위험을 높이는 요인에 초점을 맞춘다. 연구진은 돌봄 제공과 돌봄 선호에 관한 부모 편애 인식이 어떻게 교차하여 긴장을 높이는지를 살펴본다. 이를 검증하기 위해, 인터뷰 이전 2년 안에 어머니가 돌봄을 필요로 했다고 자녀가 보고한 214개 노년기 가족에 속한 성인자녀 450명의 자료를 사용한다.\n\n돌봄 중 형제 긴장의 가족 내 차이",
+      "order": 3
+    },
+    {
+      "id": "chatbot-00846",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "삶의 사건과 지위 전환 뒤 스트레스를 조절하는 데 사회적 지지가 어떤 역할을 하는지는 오래전부터 돌봄 연구의 핵심 주제였다. 이 연구 흐름은 중요한 역할 파트너로부터 받는 정서적 지지가 그런 사건의 스트레스를 완충해 준다는 점을 보여 주었다. 그러나 지지 과정에 관한 더 넓은 문헌은, 비판, 과도한 요구, 원치 않거나 도움이 되지 않는 조언, 충족되지 않은 지지 욕구 같은 대인 스트레스가 없다는 사실이 오히려 더 중요하다고 본다. 이 점은 부모가 돌봄을 필요로 할 때 형제자매 사이의 상호작용과 관계의 질을 이해하는 데 특히 중요하다. 이 시기 형제자매는 지지의 원천이면서 동시에 대인 스트레스의 원천이 되기 때문이다. 부모 돌봄 초기 몇 년 동안 형제관계를 다룬 Suitor와 Pillemer(1996)의 연구가 보여 주듯, 자매와 형제로부터 받는 지지는 분명 크게 감사되는 것이었지만, 그러한 관계에서 나오는 대인 스트레스에 의해 압도되고 약화되기도 했다. 따라서 부모가 돌봄을 필요로 할 때 무엇이 형제자매 관계의 높은 긴장을 낳는지를 이해하는 일은 중요하다. 긍정적 상호작용이 매우 많더라도 대인 스트레스가 함께 존재하면 스트레스를 완충하지 못하기 때문이다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 삶의 사건과 지위 전환 뒤 스트레스를 조절하는 데 사회적 지지가 어떤 역할을 하는지는 오래전부터 돌봄 연구의 핵심 주제였다. 이 연구 흐름은 중요한 역할 파트너로부터 받는 정서적 지지가 그런 사건의 스트레스를 완충해 준다는 점을 보여 주었다. 그러나 지지 과정에 관한 더 넓은 문헌은, 비판, 과도한 요구, 원치 않거나 도움이 되지 않는 조언, 충족되지 않은 지지 욕구 같은 대인 스트레스가 없다는 사실이 오히려 더 중요하다고 본다. 이 점은 부모가 돌봄을 필요로 할 때 형제자매 사이의 상호작용과 관계의 질을 이해하는 데 특히 중요하다. 이 시기 형제자매는 지지의 원천이면서 동시에 대인 스트레스의 원천이 되기 때문이다. 부모 돌봄 초기 몇 년 동안 형제관계를 다룬 suitor와 pillemer(1996)의 연구가 보여 주듯, 자매와 형제로부터 받는 지지는 분명 크게 감사되는 것이었지만, 그러한 관계에서 나오는 대인 스트레스에 의해 압도되고 약화되기도 했다. 따라서 부모가 돌봄을 필요로 할 때 무엇이 형제자매 관계의 높은 긴장을 낳는지를 이해하는 일은 중요하다. 긍정적 상호작용이 매우 많더라도 대인 스트레스가 함께 존재하면 스트레스를 완충하지 못하기 때문이다.",
+      "order": 4
+    },
+    {
+      "id": "chatbot-00847",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "연구진은 부모가 돌봄을 필요로 하는 가족에서 형제 긴장이 흔히 존재하더라도, 그러한 부정적 정서의 경험은 같은 형제집단 안에서도 상당히 다를 수 있다는 점에서 출발한다. 연구진은 실제 돌봄을 제공하는 형제가 돌봄을 제공하지 않는 형제자매보다 더 높은 수준의 갈등, 비판, 요구를 경험할 가능성이 크다고 본다. 앞서 말했듯, 노부모를 돌보는 일은 심리적 안녕과 신체적 안녕 모두에 비용을 수반하는 매우 스트레스가 크고 부담이 큰 역할이라는 점이 이미 상당한 연구를 통해 제시되어 왔다. 이런 안녕 손상은 형제자매와의 관계에서 더 큰 갈등으로 이어질 수 있는데, 이는 여러 부담이 큰 역할을 동시에 맡을 때 다른 역할 파트너와의 관계에서도 관찰되는 패턴이다. 예를 들어 남편이나 아내의 직무 스트레스, 혹은 양육 책임이 심리적 안녕을 떨어뜨릴 때 부부 갈등이 증가한다는 연구가 있다. 또한 노부모 돌봄과 관련된 스트레스가 결혼 긴장을 높인다는 연구도 있었다. 이런 근거를 바탕으로 연구진은 최근 건강 사건이나 만성 상태와 관련해 어머니를 돌본 사람일수록 돌보지 않은 사람보다 형제자매와의 긴장을 더 크게 보고할 것이라고 가설을 세웠다.\n\n돌봄 상황에서의 편애 인식과 형제 긴장",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 연구진은 부모가 돌봄을 필요로 하는 가족에서 형제 긴장이 흔히 존재하더라도, 그러한 부정적 정서의 경험은 같은 형제집단 안에서도 상당히 다를 수 있다는 점에서 출발한다. 연구진은 실제 돌봄을 제공하는 형제가 돌봄을 제공하지 않는 형제자매보다 더 높은 수준의 갈등, 비판, 요구를 경험할 가능성이 크다고 본다. 앞서 말했듯, 노부모를 돌보는 일은 심리적 안녕과 신체적 안녕 모두에 비용을 수반하는 매우 스트레스가 크고 부담이 큰 역할이라는 점이 이미 상당한 연구를 통해 제시되어 왔다. 이런 안녕 손상은 형제자매와의 관계에서 더 큰 갈등으로 이어질 수 있는데, 이는 여러 부담이 큰 역할을 동시에 맡을 때 다른 역할 파트너와의 관계에서도 관찰되는 패턴이다. 예를 들어 남편이나 아내의 직무 스트레스, 혹은 양육 책임이 심리적 안녕을 떨어뜨릴 때 부부 갈등이 증가한다는 연구가 있다. 또한 노부모 돌봄과 관련된 스트레스가 결혼 긴장을 높인다는 연구도 있었다. 이런 근거를 바탕으로 연구진은 최근 건강 사건이나 만성 상태와 관련해 어머니를 돌본 사람일수록 돌보지 않은 사람보다 형제자매와의 긴장을 더 크게 보고할 것이라고 가설을 세웠다.\n\n돌봄 상황에서의 편애 인식과 형제 긴장",
+      "order": 5
+    },
+    {
+      "id": "chatbot-00848",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "연구진은 부모 편애에 대한 인식 역시 돌봄 상황의 형제관계에서 역할을 할 것이라고 본다. 형제관계와 돌봄에 관한 대중적 논의와 학술적 논의 모두에서 공통적으로 나타나는 주제는, 부모의 건강이 심각하게 악화되면 표현적 자원과 도구적 자원을 둘러싸고 자녀들 사이에 오랫동안 묻혀 있던 갈등이 다시 활성화된다는 점이다. 실제로 부모 돌봄을 다루는 대중 기사와 자기계발서는 이렇게 되살아난 형제 경쟁을 성인자녀에게 큰 스트레스 원인으로 제시하곤 한다. 그러나 가족 내 차이에 관한 연구는 부모의 차등대우에 대한 관심이 부모의 건강이 나빠지고 돌봄 필요가 커질 때에만 다시 나타나는 것이 아니라, 생애 전반에 걸쳐 흔하게 존재한다는 점을 보여 준다.\n\n더 나아가 부모의 차등대우에 대한 인식은 성인기의 형제관계에도 결과를 낳는다. 특히 부모가 어떤 자녀에게 다른 자녀보다 더 정서적 친밀감을 느낀다고 인식할 때 형제자매 사이에는 더 높은 긴장과 더 낮은 친밀감이 나타난다는 연구가 보고되었다. 이런 긴장은 성인자녀가 자신을 선호된 자녀로 보든 다른 형제를 선호된 자녀로 보든, 부모 편애 인식 자체에서 비롯되는 것으로 보였다. 실제로 부양 책임과 관련한 편애 인식도 마찬가지였는데, 응답자가 자신을 선호된 자녀로 인식하든 비선호 자녀로 인식하든 형제 긴장에 미치는 효과는 비슷했다. 이런 성인기 패턴은 부모 편애가 아동기 형제관계에 미치는 결과를 다룬 연구와도 일치한다. 따라서 고전적 관계적 공정성 이론이 말하듯, 성인자녀는 자신이 형제에 비해 과잉보상을 받는다고 느끼든 과소보상을 받는다고 느끼든, 불평등한 대우를 받는다고 인식하면 관계의 질이 더 낮아진다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 연구진은 부모 편애에 대한 인식 역시 돌봄 상황의 형제관계에서 역할을 할 것이라고 본다. 형제관계와 돌봄에 관한 대중적 논의와 학술적 논의 모두에서 공통적으로 나타나는 주제는, 부모의 건강이 심각하게 악화되면 표현적 자원과 도구적 자원을 둘러싸고 자녀들 사이에 오랫동안 묻혀 있던 갈등이 다시 활성화된다는 점이다. 실제로 부모 돌봄을 다루는 대중 기사와 자기계발서는 이렇게 되살아난 형제 경쟁을 성인자녀에게 큰 스트레스 원인으로 제시하곤 한다. 그러나 가족 내 차이에 관한 연구는 부모의 차등대우에 대한 관심이 부모의 건강이 나빠지고 돌봄 필요가 커질 때에만 다시 나타나는 것이 아니라, 생애 전반에 걸쳐 흔하게 존재한다는 점을 보여 준다.\n\n더 나아가 부모의 차등대우에 대한 인식은 성인기의 형제관계에도 결과를 낳는다. 특히 부모가 어떤 자녀에게 다른 자녀보다 더 정서적 친밀감을 느낀다고 인식할 때 형제자매 사이에는 더 높은 긴장과 더 낮은 친밀감이 나타난다는 연구가 보고되었다. 이런 긴장은 성인자녀가 자신을 선호된 자녀로 보든 다른 형제를 선호된 자녀로 보든, 부모 편애 인식 자체에서 비롯되는 것으로 보였다. 실제로 부양 책임과 관련한 편애 인식도 마찬가지였는데, 응답자가 자신을 선호된 자녀로 인식하든 비선호 자녀로 인식하든 형제 긴장에 미치는 효과는 비슷했다. 이런 성인기 패턴은 부모 편애가 아동기 형제관계에 미치는 결과를 다룬 연구와도 일치한다. 따라서 고전적 관계적 공정성 이론이 말하듯, 성인자녀는 자신이 형제에 비해 과잉보상을 받는다고 느끼든 과소보상을 받는다고 느끼든, 불평등한 대우를 받는다고 인식하면 관계의 질이 더 낮아진다.",
+      "order": 6
+    },
+    {
+      "id": "chatbot-00849",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "성인기 부모 편애와 형제관계를 다룬 연구는 주로 부모가 돌봄을 필요로 하기 이전의 과정을 다루어 왔다. 그러나 연구진은 부모의 건강이 악화되어 실제 도움이 필요해질 때 이런 편애 인식이 형제관계를 특히 강하게 예측할 것이라고 가정한다. 생애과정의 이 시점 이전에는 형제와의 상호작용이 더 자발적이며, 부모가 돌봄을 필요로 하기 시작할 때 자주 요구되는 것과 같은 강도 높은 의사결정 과정을 포함할 가능성이 낮다. 반면 부모가 심각한 건강 악화를 겪고 형제들이 돌봄 계획을 함께 세워야 할 때, 이들은 거의 준비되지 않은 낯설지만 매우 중대한 과정에 들어가게 된다. 이런 상호작용은 어떤 경우에도 어렵지만, 형제집단 구성원들이 어머니가 특히 미래 돌봄자와 관련해 일부 자녀를 다른 자녀보다 더 선호한다고 인식할 때 훨씬 더 문제적이 될 가능성이 높다. 따라서 연구진은 어머니가 돌봄자로서 일부 자녀를 다른 자녀보다 선호한다고 인식한 성인자녀일수록, 자신이 어느 자녀가 선호되었다고 믿는지와 무관하게, 형제자매 관계에서 가장 큰 긴장을 보고할 것이라고 가설을 세웠다.\n\n마지막으로 연구진은 돌봄 책임과 편애 인식이 동시에 존재할 때 성인자녀가 형제자매와 더 큰 긴장을 보고할 것이라고 보았다. 즉 두 조건 중 하나만 충족될 때보다 둘 다 충족될 때 긴장이 더 커질 것이라고 본 것이다. 따라서 세 번째 가설로, 최근 돌봄 제공과 형제 긴장 사이의 연관성은 성인자녀가 어머니가 특정 자녀를 미래 돌봄자로 선호한다고 인식할 때 더 강해질 것이라고 검증했다.\n\n연구방법",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 성인기 부모 편애와 형제관계를 다룬 연구는 주로 부모가 돌봄을 필요로 하기 이전의 과정을 다루어 왔다. 그러나 연구진은 부모의 건강이 악화되어 실제 도움이 필요해질 때 이런 편애 인식이 형제관계를 특히 강하게 예측할 것이라고 가정한다. 생애과정의 이 시점 이전에는 형제와의 상호작용이 더 자발적이며, 부모가 돌봄을 필요로 하기 시작할 때 자주 요구되는 것과 같은 강도 높은 의사결정 과정을 포함할 가능성이 낮다. 반면 부모가 심각한 건강 악화를 겪고 형제들이 돌봄 계획을 함께 세워야 할 때, 이들은 거의 준비되지 않은 낯설지만 매우 중대한 과정에 들어가게 된다. 이런 상호작용은 어떤 경우에도 어렵지만, 형제집단 구성원들이 어머니가 특히 미래 돌봄자와 관련해 일부 자녀를 다른 자녀보다 더 선호한다고 인식할 때 훨씬 더 문제적이 될 가능성이 높다. 따라서 연구진은 어머니가 돌봄자로서 일부 자녀를 다른 자녀보다 선호한다고 인식한 성인자녀일수록, 자신이 어느 자녀가 선호되었다고 믿는지와 무관하게, 형제자매 관계에서 가장 큰 긴장을 보고할 것이라고 가설을 세웠다.\n\n마지막으로 연구진은 돌봄 책임과 편애 인식이 동시에 존재할 때 성인자녀가 형제자매와 더 큰 긴장을 보고할 것이라고 보았다. 즉 두 조건 중 하나만 충족될 때보다 둘 다 충족될 때 긴장이 더 커질 것이라고 본 것이다. 따라서 세 번째 가설로, 최근 돌봄 제공과 형제 긴장 사이의 연관성은 성인자녀가 어머니가 특정 자녀를 미래 돌봄자로 선호한다고 인식할 때 더 강해질 것이라고 검증했다.\n\n연구방법",
+      "order": 7
+    },
+    {
+      "id": "chatbot-00850",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "이 분석에 사용된 자료는 Within-Family Differences Study(WFDS)에서 수집되었다. WFDS는 65세에서 75세 사이이면서 최소 두 명 이상의 살아 있는 성인자녀를 둔 어머니들을 표집해, 각 자녀 각각에 대한 정보를 어머니에게서 수집하는 설계로 이루어졌다. WFDS 설계에 대한 더 자세한 설명은 Gilligan 등(in press)과 Suitor, Gilligan, Pillemer(2013)를 참조할 수 있으며, 이 절의 일부 내용은 이전에 출판된 바 있다. 첫 번째 조사(T1)는 2001년부터 2003년 사이 566명의 여성을 대상으로 이루어졌고, 이후 연구는 2008년부터 2011년 사이의 두 번째 조사(T2)를 포함하도록 확장되어 총 420명의 어머니가 면접에 응했다. 이 논문은 T2 면접 이전 2년 안에 어머니가 심각한 질병, 부상, 장애 때문에 도움이 필요했다고 성인자녀가 보고한 214개 노년기 가족, 450명의 성인자녀 자료를 사용한다.\n\n절차\n\nWFDS의 원래 표본은 매사추세츠주의 시·읍 명부를 바탕으로 구성되었다. University of Massachusetts Boston의 Center for Survey Research의 지원을 받아, 연구진은 보스턴 대도시권에서 두 명 이상의 자녀를 둔 65세에서 75세 여성의 확률표본을 추출했다. T1 표본은 566명의 어머니로 이루어졌고, 이는 참여 자격이 있었던 사람들의 61%에 해당했다. 이 응답률은 2000년대 유사한 조사들과 비교해도 비슷한 수준이었다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 이 분석에 사용된 자료는 within-family differences study(wfds)에서 수집되었다. wfds는 65세에서 75세 사이이면서 최소 두 명 이상의 살아 있는 성인자녀를 둔 어머니들을 표집해, 각 자녀 각각에 대한 정보를 어머니에게서 수집하는 설계로 이루어졌다. wfds 설계에 대한 더 자세한 설명은 gilligan 등(in press)과 suitor, gilligan, pillemer(2013)를 참조할 수 있으며, 이 절의 일부 내용은 이전에 출판된 바 있다. 첫 번째 조사(t1)는 2001년부터 2003년 사이 566명의 여성을 대상으로 이루어졌고, 이후 연구는 2008년부터 2011년 사이의 두 번째 조사(t2)를 포함하도록 확장되어 총 420명의 어머니가 면접에 응했다. 이 논문은 t2 면접 이전 2년 안에 어머니가 심각한 질병, 부상, 장애 때문에 도움이 필요했다고 성인자녀가 보고한 214개 노년기 가족, 450명의 성인자녀 자료를 사용한다.\n\n절차\n\nwfds의 원래 표본은 매사추세츠주의 시·읍 명부를 바탕으로 구성되었다. university of massachusetts boston의 center for survey research의 지원을 받아, 연구진은 보스턴 대도시권에서 두 명 이상의 자녀를 둔 65세에서 75세 여성의 확률표본을 추출했다. t1 표본은 566명의 어머니로 이루어졌고, 이는 참여 자격이 있었던 사람들의 61%에 해당했다. 이 응답률은 2000년대 유사한 조사들과 비교해도 비슷한 수준이었다.",
+      "order": 8
+    },
+    {
+      "id": "chatbot-00851",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "추적조사에서는 원조사에 참여했던 모든 어머니에게 다시 연락을 시도했다. T2에서는 420명의 어머니가 면접에 응했다. T1에만 참여했던 146명 가운데 78명은 두 조사 사이에 사망했고, 19명은 건강이 너무 좋지 않아 면접할 수 없었으며, 33명은 거절했고, 16명은 연락이 닿지 않았다. 따라서 T2의 420명은 그 시점에 생존해 있던 어머니의 86%를 차지한다. T2 시점에 생존해 있었지만 참여한 어머니와 참여하지 않은 어머니를 비교한 결과, 두 집단은 교육 수준과 주관적 건강에서만 차이가 있었고, 참여한 어머니가 T1 시점에 더 교육 수준이 높고 건강도 더 좋았다. T1과 T2 표본을 비교하면 주관적 건강, 교육 수준, 혼인 상태, 인종에서도 차이가 있었다. T2에 면접하지 못한 어머니들은 T1 시점에 더 건강이 좋지 않았고, 교육수준이 낮았으며, 기혼일 가능성이 낮았고, 흑인일 가능성은 더 높았다.\n\n면접이 끝난 뒤 어머니들에게 성인자녀의 연락처를 요청했는데, 81%의 어머니가 연락처를 제공했다. 이는 다세대 연구에서 일반적으로 나타나는 수준보다 높은 편이다. 연락 가능한 자녀 가운데 75%가 참여에 동의해 최종적으로 277가족에 속한 833명의 자녀 표본이 구성되었다. 참여 자녀가 한 명도 없는 어머니와 최소 한 명 이상의 참여 자녀가 있는 어머니를 비교한 결과, 인종, 혼인상태, 교육, 연령, 자녀 수에서는 차이가 없었다. 그러나 실제로 참여한 성인자녀는 딸일 가능성, 기혼일 가능성, 교육 수준이 높을 가능성이 약간 더 높았으며, 이는 다른 다세대 연구와도 일치하는 패턴이었다. 이 논문의 분석 표본은 T2 면접 이전 2년 안에 어머니가 심각한 질병, 부상 또는 장애로 도움이 필요했다고 성인자녀가 보고한 214가족의 450명 성인자녀로 구성된다.\n\n측정\n\n형제 긴장",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 추적조사에서는 원조사에 참여했던 모든 어머니에게 다시 연락을 시도했다. t2에서는 420명의 어머니가 면접에 응했다. t1에만 참여했던 146명 가운데 78명은 두 조사 사이에 사망했고, 19명은 건강이 너무 좋지 않아 면접할 수 없었으며, 33명은 거절했고, 16명은 연락이 닿지 않았다. 따라서 t2의 420명은 그 시점에 생존해 있던 어머니의 86%를 차지한다. t2 시점에 생존해 있었지만 참여한 어머니와 참여하지 않은 어머니를 비교한 결과, 두 집단은 교육 수준과 주관적 건강에서만 차이가 있었고, 참여한 어머니가 t1 시점에 더 교육 수준이 높고 건강도 더 좋았다. t1과 t2 표본을 비교하면 주관적 건강, 교육 수준, 혼인 상태, 인종에서도 차이가 있었다. t2에 면접하지 못한 어머니들은 t1 시점에 더 건강이 좋지 않았고, 교육수준이 낮았으며, 기혼일 가능성이 낮았고, 흑인일 가능성은 더 높았다.\n\n면접이 끝난 뒤 어머니들에게 성인자녀의 연락처를 요청했는데, 81%의 어머니가 연락처를 제공했다. 이는 다세대 연구에서 일반적으로 나타나는 수준보다 높은 편이다. 연락 가능한 자녀 가운데 75%가 참여에 동의해 최종적으로 277가족에 속한 833명의 자녀 표본이 구성되었다. 참여 자녀가 한 명도 없는 어머니와 최소 한 명 이상의 참여 자녀가 있는 어머니를 비교한 결과, 인종, 혼인상태, 교육, 연령, 자녀 수에서는 차이가 없었다. 그러나 실제로 참여한 성인자녀는 딸일 가능성, 기혼일 가능성, 교육 수준이 높을 가능성이 약간 더 높았으며, 이는 다른 다세대 연구와도 일치하는 패턴이었다. 이 논문의 분석 표본은 t2 면접 이전 2년 안에 어머니가 심각한 질병, 부상 또는 장애로 도움이 필요했다고 성인자녀가 보고한 214가족의 450명 성인자녀로 구성된다.\n\n측정\n\n형제 긴장",
+      "order": 9
+    },
+    {
+      "id": "chatbot-00852",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "형제 긴장 척도는 세 문항을 합쳐 만들었다. 첫째, \"형제자매가 당신과 긴장이나 말다툼을 얼마나 자주 일으킵니까?\" 둘째, \"형제자매가 당신에게 너무 많은 요구를 한다고 느끼는 일이 얼마나 자주 있습니까?\" 셋째, \"형제자매가 당신을 얼마나 자주 비판합니까?\" 응답 범주는 매우 자주(5점), 꽤 자주, 가끔, 드물게, 전혀 없음(1점)이었다. 형제 긴장 척도의 범위는 3점에서 15점까지였고 평균은 6.13, 표준편차는 2.38, Cronbach's alpha는 .76이었다.\n\n독립변수\n\n돌봄 제공 변수는 지난 2년 동안 응답자가 어머니의 심각한 질병이나 부상과 관련해 돌봄을 제공했는지, 또는 가벼운 집안일, 장보기, 식사, 개인위생 돌봄 등 일상생활활동(ADLs)을 도왔는지를 묻는 일련의 질문에 대한 응답으로 구성했다. 각 자녀는 지난 2년 동안 돌봄을 제공하지 않았으면 0, 최근 질병이나 부상과 관련한 돌봄을 제공했거나 ADLs를 도왔으면 1로 코딩했다. 한 가족 안에서 둘 이상의 자녀가 돌봄 제공자로 분류될 수 있었다. 자녀들이 가족 안에 중첩되어 있기 때문에 연구진은 형제 사이의 비독립성을 고려하고 가족 수준에서 둘 이상의 긍정 사례가 존재할 수 있도록 다층모형을 사용했다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 형제 긴장 척도는 세 문항을 합쳐 만들었다. 첫째, \"형제자매가 당신과 긴장이나 말다툼을 얼마나 자주 일으킵니까?\" 둘째, \"형제자매가 당신에게 너무 많은 요구를 한다고 느끼는 일이 얼마나 자주 있습니까?\" 셋째, \"형제자매가 당신을 얼마나 자주 비판합니까?\" 응답 범주는 매우 자주(5점), 꽤 자주, 가끔, 드물게, 전혀 없음(1점)이었다. 형제 긴장 척도의 범위는 3점에서 15점까지였고 평균은 6.13, 표준편차는 2.38, cronbach's alpha는 .76이었다.\n\n독립변수\n\n돌봄 제공 변수는 지난 2년 동안 응답자가 어머니의 심각한 질병이나 부상과 관련해 돌봄을 제공했는지, 또는 가벼운 집안일, 장보기, 식사, 개인위생 돌봄 등 일상생활활동(adls)을 도왔는지를 묻는 일련의 질문에 대한 응답으로 구성했다. 각 자녀는 지난 2년 동안 돌봄을 제공하지 않았으면 0, 최근 질병이나 부상과 관련한 돌봄을 제공했거나 adls를 도왔으면 1로 코딩했다. 한 가족 안에서 둘 이상의 자녀가 돌봄 제공자로 분류될 수 있었다. 자녀들이 가족 안에 중첩되어 있기 때문에 연구진은 형제 사이의 비독립성을 고려하고 가족 수준에서 둘 이상의 긍정 사례가 존재할 수 있도록 다층모형을 사용했다.",
+      "order": 10
+    },
+    {
+      "id": "chatbot-00853",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "지각된 부모 편애 변수는 미래 돌봄과 관련한 어머니의 선호를 자녀가 어떻게 인식하는지를 통해 구성했다. 질문은 다음과 같았다. \"당신의 어머니가 아프거나 장애를 갖게 되어 일상적으로 도움이 필요하게 된다면, 형제자매 가운데 누구의 도움을 어머니가 가장 선호할 것 같습니까?\" 선행연구는 특정 편애의 방향보다 편애가 존재한다고 인식하는 사실 자체가 형제 긴장을 예측한다는 점을 보여 주었기 때문에, 연구진은 응답을 이분형 변수로 만들었다. 어머니가 미래 돌봄자로 어떤 특정 자녀도 더 선호하지 않는다고 인식하면 0, 자기 자신이든 다른 형제든 특정 자녀를 더 선호한다고 인식하면 1로 코딩했다. 성인자녀의 약 14%(13.7%)는 어머니가 미래 돌봄자와 관련해 특정 자녀를 더 선호하지 않는다고 보았고, 86%는 어머니가 특정 자녀를 선호한다고 인식했다. 그 가운데 44%는 어머니가 자신을 선호한다고 보았고, 42%는 다른 형제를 선호한다고 보았다.\n\nt-검정을 통해 미래 돌봄자에 대한 어머니의 편애를 인식한 자녀와 그렇지 않은 자녀를 비교한 결과, 두 집단은 연령, 성별, 교육수준, 부모 여부, 생존 형제 수에서는 차이가 없었지만 어머니의 건강 상태에서는 차이가 있었다. 어머니가 특정 자녀를 돌봄자로 선호한다고 인식한 자녀 집단은 그렇지 않은 집단보다 어머니가 일상활동에 제한을 갖고 있다고 보고할 가능성이 약간 더 높았는데, 비인식 집단은 64%, 인식 집단은 72%였다(p < .05).\n\n표 1. 변수 설명 (N = 450)\n\n표 1은 이 하위표본에 속한 성인자녀의 인구학적 정보를 제시한다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 지각된 부모 편애 변수는 미래 돌봄과 관련한 어머니의 선호를 자녀가 어떻게 인식하는지를 통해 구성했다. 질문은 다음과 같았다. \"당신의 어머니가 아프거나 장애를 갖게 되어 일상적으로 도움이 필요하게 된다면, 형제자매 가운데 누구의 도움을 어머니가 가장 선호할 것 같습니까?\" 선행연구는 특정 편애의 방향보다 편애가 존재한다고 인식하는 사실 자체가 형제 긴장을 예측한다는 점을 보여 주었기 때문에, 연구진은 응답을 이분형 변수로 만들었다. 어머니가 미래 돌봄자로 어떤 특정 자녀도 더 선호하지 않는다고 인식하면 0, 자기 자신이든 다른 형제든 특정 자녀를 더 선호한다고 인식하면 1로 코딩했다. 성인자녀의 약 14%(13.7%)는 어머니가 미래 돌봄자와 관련해 특정 자녀를 더 선호하지 않는다고 보았고, 86%는 어머니가 특정 자녀를 선호한다고 인식했다. 그 가운데 44%는 어머니가 자신을 선호한다고 보았고, 42%는 다른 형제를 선호한다고 보았다.\n\nt-검정을 통해 미래 돌봄자에 대한 어머니의 편애를 인식한 자녀와 그렇지 않은 자녀를 비교한 결과, 두 집단은 연령, 성별, 교육수준, 부모 여부, 생존 형제 수에서는 차이가 없었지만 어머니의 건강 상태에서는 차이가 있었다. 어머니가 특정 자녀를 돌봄자로 선호한다고 인식한 자녀 집단은 그렇지 않은 집단보다 어머니가 일상활동에 제한을 갖고 있다고 보고할 가능성이 약간 더 높았는데, 비인식 집단은 64%, 인식 집단은 72%였다(p < .05).\n\n표 1. 변수 설명 (n = 450)\n\n표 1은 이 하위표본에 속한 성인자녀의 인구학적 정보를 제시한다.",
+      "order": 11
+    },
+    {
+      "id": "chatbot-00854",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "취업 상태: 취업 79.3%, 비취업 20.7%\n형제 긴장: 평균 6.1, 표준편차 2.4\n가족 내 전체 형제 수: 평균 4.3, 표준편차 2.0\n인종: 백인 72.9%, 비백인 26.2%\n연령: 평균 49.6세, 표준편차 5.8\n혼인 상태: 기혼 62%, 비기혼 38%\nT2 시점에 어머니 돌봄 제공: 63.1%\nT2 시점에 어머니가 특정 자녀를 선호한다고 인식: 85.3%\n\n통제변수\n\n가족 수준 변수로는 인종과 가족 규모를 사용했다. 인종은 어머니에게 여러 인종·민족 범주가 적힌 카드를 제시하고 해당되는 범주를 선택하게 하는 방식으로 측정했다. 복수 선택도 가능했다. 분석 표본에는 자신을 백인이라고 응답한 어머니 149명, 흑인 57명, 아시아인 3명, 아메리카 원주민 3명, 히스패닉 1명, 기타 1명이 포함되었다. 후기 가족 연구에서 흑인, 아시아계, 히스패닉 가족이 백인 가족보다 더 강한 부양 책임을 보인다는 문헌을 근거로, 이 연구는 백인=1, 비백인=0으로 코딩했다. 가족 규모는 T1 시점에 모든 자녀의 이름을 묻고, T2에서 이를 다시 확인하는 방식으로 측정했다.\n\n성인자녀 수준 변수로는 성별, 혼인상태, 연령을 통제했다. 성별은 아들=0, 딸=1로 코딩했고, 혼인상태는 기혼=1, 비기혼=0으로 코딩했다. T2 시점 연령은 T1 연령에 두 조사 사이의 간격인 7년을 더해 계산했다.\n\n분석 계획\n\n성인자녀들이 가족 안에 중첩되어 있으므로 연구진은 비독립성과 상관오차 구조를 허용하는 다층분석을 사용했다. 분석은 SPSS 21 버전으로 수행되었다. 결측치는 어떤 변수에서도 5%를 넘지 않았기 때문에 listwise deletion 방식으로 처리했다.\n\n연구결과",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 취업 상태: 취업 79.3%, 비취업 20.7%\n형제 긴장: 평균 6.1, 표준편차 2.4\n가족 내 전체 형제 수: 평균 4.3, 표준편차 2.0\n인종: 백인 72.9%, 비백인 26.2%\n연령: 평균 49.6세, 표준편차 5.8\n혼인 상태: 기혼 62%, 비기혼 38%\nt2 시점에 어머니 돌봄 제공: 63.1%\nt2 시점에 어머니가 특정 자녀를 선호한다고 인식: 85.3%\n\n통제변수\n\n가족 수준 변수로는 인종과 가족 규모를 사용했다. 인종은 어머니에게 여러 인종·민족 범주가 적힌 카드를 제시하고 해당되는 범주를 선택하게 하는 방식으로 측정했다. 복수 선택도 가능했다. 분석 표본에는 자신을 백인이라고 응답한 어머니 149명, 흑인 57명, 아시아인 3명, 아메리카 원주민 3명, 히스패닉 1명, 기타 1명이 포함되었다. 후기 가족 연구에서 흑인, 아시아계, 히스패닉 가족이 백인 가족보다 더 강한 부양 책임을 보인다는 문헌을 근거로, 이 연구는 백인=1, 비백인=0으로 코딩했다. 가족 규모는 t1 시점에 모든 자녀의 이름을 묻고, t2에서 이를 다시 확인하는 방식으로 측정했다.\n\n성인자녀 수준 변수로는 성별, 혼인상태, 연령을 통제했다. 성별은 아들=0, 딸=1로 코딩했고, 혼인상태는 기혼=1, 비기혼=0으로 코딩했다. t2 시점 연령은 t1 연령에 두 조사 사이의 간격인 7년을 더해 계산했다.\n\n분석 계획\n\n성인자녀들이 가족 안에 중첩되어 있으므로 연구진은 비독립성과 상관오차 구조를 허용하는 다층분석을 사용했다. 분석은 spss 21 버전으로 수행되었다. 결측치는 어떤 변수에서도 5%를 넘지 않았기 때문에 listwise deletion 방식으로 처리했다.\n\n연구결과",
+      "order": 12
+    },
+    {
+      "id": "chatbot-00855",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "표 2의 모형 1에서 보듯이, 최근 어머니의 심각한 건강 사건과 관련해 돌봄을 제공한 경험과 어머니가 미래에 특정 자녀를 돌봄자로 선호한다고 인식하는 경험은 모두 형제 긴장을 예측했다. 실제로 형제 긴장을 예측한 다른 변수는 혼인상태 하나뿐이었는데, 기혼 자녀는 비기혼 자녀보다 형제 긴장을 덜 보고했다. 따라서 주효과 가설은 지지되었다. 즉 실제 돌봄 수행과 어머니의 특정 자녀 선호 인식이 모두 높은 형제 긴장과 관련되어 있었다.\n\n표 2의 모형 2는 돌봄에 관한 편애 인식이 있을 때 돌봄 수행이 형제 긴장에 미치는 부정적 영향이 더 커진다는 가설도 지지한다. 모형 2의 마지막 행이 보여 주듯, 성인자녀는 자신이 어머니를 실제로 돌보았고 동시에 어머니가 미래 돌봄자로 특정 자녀를 선호한다고 인식할 때 형제자매와의 긴장을 더 크게 보고했다. 연구진은 이러한 결과가 선호된 자녀가 누구인지에 따라 달라지는지 확인하기 위해, 응답자가 자기 자신이 선호되었다고 본 경우와 다른 형제가 선호되었다고 본 경우를 따로 나누어 분석했다. 그 결과 표 2의 분석과 마찬가지로, 응답자 자신이 선호되었다고 보든 다른 형제가 선호되었다고 보든, 어머니를 돌본 경험과 특정 자녀 선호 인식은 모두 더 높은 형제 긴장과 관련되어 있었다. 또한 두 경우의 상호작용 효과도 비슷하게 나타나, 돌봄을 제공하면서 동시에 미래 돌봄에 대한 편애를 인식한 경우 형제 긴장이 더 컸다. 자신이 선호되었다고 인식한 경우와 다른 형제가 선호되었다고 인식한 경우 사이의 차이는 작았고 통계적으로 유의하지 않았다. 즉, 어떤 방향의 편애였는지를 따지지 않고 편애 인식의 존재 여부만 측정하든, 혹은 자신이 선택되었는지 다른 형제가 선택되었는지를 구분해 측정하든, 결과 패턴은 유사했다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 표 2의 모형 1에서 보듯이, 최근 어머니의 심각한 건강 사건과 관련해 돌봄을 제공한 경험과 어머니가 미래에 특정 자녀를 돌봄자로 선호한다고 인식하는 경험은 모두 형제 긴장을 예측했다. 실제로 형제 긴장을 예측한 다른 변수는 혼인상태 하나뿐이었는데, 기혼 자녀는 비기혼 자녀보다 형제 긴장을 덜 보고했다. 따라서 주효과 가설은 지지되었다. 즉 실제 돌봄 수행과 어머니의 특정 자녀 선호 인식이 모두 높은 형제 긴장과 관련되어 있었다.\n\n표 2의 모형 2는 돌봄에 관한 편애 인식이 있을 때 돌봄 수행이 형제 긴장에 미치는 부정적 영향이 더 커진다는 가설도 지지한다. 모형 2의 마지막 행이 보여 주듯, 성인자녀는 자신이 어머니를 실제로 돌보았고 동시에 어머니가 미래 돌봄자로 특정 자녀를 선호한다고 인식할 때 형제자매와의 긴장을 더 크게 보고했다. 연구진은 이러한 결과가 선호된 자녀가 누구인지에 따라 달라지는지 확인하기 위해, 응답자가 자기 자신이 선호되었다고 본 경우와 다른 형제가 선호되었다고 본 경우를 따로 나누어 분석했다. 그 결과 표 2의 분석과 마찬가지로, 응답자 자신이 선호되었다고 보든 다른 형제가 선호되었다고 보든, 어머니를 돌본 경험과 특정 자녀 선호 인식은 모두 더 높은 형제 긴장과 관련되어 있었다. 또한 두 경우의 상호작용 효과도 비슷하게 나타나, 돌봄을 제공하면서 동시에 미래 돌봄에 대한 편애를 인식한 경우 형제 긴장이 더 컸다. 자신이 선호되었다고 인식한 경우와 다른 형제가 선호되었다고 인식한 경우 사이의 차이는 작았고 통계적으로 유의하지 않았다. 즉, 어떤 방향의 편애였는지를 따지지 않고 편애 인식의 존재 여부만 측정하든, 혹은 자신이 선택되었는지 다른 형제가 선택되었는지를 구분해 측정하든, 결과 패턴은 유사했다.",
+      "order": 13
+    },
+    {
+      "id": "chatbot-00856",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "요약하면, 이 분석은 실제 돌봄 수행과 돌봄에 대한 편애 인식이 각각 독립적으로 형제 긴장과 관련되어 있으며, 편애 인식이 함께 있을 때 돌봄 수행이 형제 긴장을 높이는 효과가 더 커진다는 점을 보여 주었다.\n\n표 2. 형제 긴장을 예측하는 혼합모형 결과 (450명, 214가족)\n\n가족 수준 특성\n가족 규모: 모형 1 B = -0.09, SE = 0.07; 모형 2 B = -0.10, SE = 0.07\n인종(비백인): 모형 1 B = 0.10, SE = 0.29; 모형 2 B = 0.08, SE = 0.29\n성인자녀 특성\n연령: 모형 1 B = 0.01, SE = 0.02; 모형 2 B = 0.01, SE = 0.02\n딸: 모형 1 B = -0.15, SE = 0.21; 모형 2 B = -0.15, SE = 0.21\n기혼: 모형 1 B = -1.10, SE = 0.22, ; 모형 2 B = -1.08, SE = 0.22\n최근 어머니 돌봄 제공: 모형 1 B = 0.74, SE = 0.22, ; 모형 2 B = -0.36, SE = 0.57\n어머니가 미래 돌봄자와 관련해 특정 자녀를 선호한다고 인식: 모형 1 B = 0.60, SE = 0.30, ; 모형 2 B = -0.13, SE = 0.46\n미래 돌봄자 편애 인식 × 최근 돌봄 제공: 모형 2 B = 1.29, SE = 0.61, \nLog likelihood: 모형 1 = 1,958.973; 모형 2 = 1,953.718\nAIC: 모형 1 = 1,962.973; 모형 2 = 1,957.718\nBIC: 모형 1 = 1,971.123; 모형 2 = 1,965.864\n주: AIC = Akaike information criterion, BIC = Bayesian information criterion\n p < .05, * p < .01",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 요약하면, 이 분석은 실제 돌봄 수행과 돌봄에 대한 편애 인식이 각각 독립적으로 형제 긴장과 관련되어 있으며, 편애 인식이 함께 있을 때 돌봄 수행이 형제 긴장을 높이는 효과가 더 커진다는 점을 보여 주었다.\n\n표 2. 형제 긴장을 예측하는 혼합모형 결과 (450명, 214가족)\n\n가족 수준 특성\n가족 규모: 모형 1 b = -0.09, se = 0.07; 모형 2 b = -0.10, se = 0.07\n인종(비백인): 모형 1 b = 0.10, se = 0.29; 모형 2 b = 0.08, se = 0.29\n성인자녀 특성\n연령: 모형 1 b = 0.01, se = 0.02; 모형 2 b = 0.01, se = 0.02\n딸: 모형 1 b = -0.15, se = 0.21; 모형 2 b = -0.15, se = 0.21\n기혼: 모형 1 b = -1.10, se = 0.22, ; 모형 2 b = -1.08, se = 0.22\n최근 어머니 돌봄 제공: 모형 1 b = 0.74, se = 0.22, ; 모형 2 b = -0.36, se = 0.57\n어머니가 미래 돌봄자와 관련해 특정 자녀를 선호한다고 인식: 모형 1 b = 0.60, se = 0.30, ; 모형 2 b = -0.13, se = 0.46\n미래 돌봄자 편애 인식 × 최근 돌봄 제공: 모형 2 b = 1.29, se = 0.61, \nlog likelihood: 모형 1 = 1,958.973; 모형 2 = 1,953.718\naic: 모형 1 = 1,962.973; 모형 2 = 1,957.718\nbic: 모형 1 = 1,971.123; 모형 2 = 1,965.864\n주: aic = akaike information criterion, bic = bayesian information criterion\n p < .05, * p < .01",
+      "order": 14
+    },
+    {
+      "id": "chatbot-00857",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "논의와 결론\n\n후기 가족 연구는 노부모의 돌봄자가 되는 것이 심리적·신체적 안녕 모두에 부담을 주는 높은 스트레스 역할임을 보여 주었다. 다른 요구가 큰 지위 전환과 마찬가지로, 이러한 부정적 결과는 사회적 지지의 제공과 중요한 역할 파트너들로부터의 갈등·비판 부재에 의해 완화될 수 있다. 부모 돌봄의 경우 형제자매는 이러한 과정에서 중심적인 역할을 하지만, 동시에 상당한 스트레스의 원천이 되기도 한다. 가족 돌봄자의 부담을 줄이는 것이 중요하다는 점을 고려하면, 어떤 조건에서 형제관계가 특히 긴장되고 갈등적으로 되는지를 살펴보는 일은 중요하다. 이 논문은 실제 돌봄 수행과 어머니 편애 인식이 결합하면서 형제 긴장을 높이는 방식을 탐색함으로써 이 질문에 새로운 빛을 비춘다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 논의와 결론\n\n후기 가족 연구는 노부모의 돌봄자가 되는 것이 심리적·신체적 안녕 모두에 부담을 주는 높은 스트레스 역할임을 보여 주었다. 다른 요구가 큰 지위 전환과 마찬가지로, 이러한 부정적 결과는 사회적 지지의 제공과 중요한 역할 파트너들로부터의 갈등·비판 부재에 의해 완화될 수 있다. 부모 돌봄의 경우 형제자매는 이러한 과정에서 중심적인 역할을 하지만, 동시에 상당한 스트레스의 원천이 되기도 한다. 가족 돌봄자의 부담을 줄이는 것이 중요하다는 점을 고려하면, 어떤 조건에서 형제관계가 특히 긴장되고 갈등적으로 되는지를 살펴보는 일은 중요하다. 이 논문은 실제 돌봄 수행과 어머니 편애 인식이 결합하면서 형제 긴장을 높이는 방식을 탐색함으로써 이 질문에 새로운 빛을 비춘다.",
+      "order": 15
+    },
+    {
+      "id": "chatbot-00858",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "연구 결과는 어머니가 돌봄을 필요로 할 때 형제 긴장이 커진다는 기존 연구와 일치한다. 그러나 이 연구는 같은 가족 안에서 실제로 돌봄을 제공한 자녀와 돌봄을 제공하지 않은 자녀를 비교할 수 있는 가족 내 접근을 사용함으로써 선행연구를 한 걸음 더 확장한다. 가설대로 최근 어머니를 돌본 성인자녀는 돌보지 않은 형제자매보다 형제 긴장을 더 높게 보고했다. 또한 선행연구가 부모 편애 인식이 형제 긴장을 예측한다고 보여 준 것에 근거해, 연구진은 돌봄을 수행하는 형제가 어머니가 미래 돌봄자로 특정 자녀를 선호한다고 인식할 때 가장 높은 긴장을 보고할 것이라고 예상했는데, 이 가설 역시 다변량 분석에서 확인되었다. 이러한 결과는 사전돌봄계획과 형제관계의 질을 다룬 Khodyakov와 Carr(2009)의 연구와도 닮아 있다. 부모의 사전지시가 문제적이었다고 인식될 때 성인자녀는 형제관계의 질을 더 낮게 보고했고, 배우자나 성인자녀가 아닌 다른 사람을 의료 의사결정 대리인으로 지정했을 때는 형제관계의 질이 더 높게 보고되었다.\n\n주목할 점은 이 논문에서 나타난 결과 패턴이, 성인자녀가 자신이 어머니에게 선호된 돌봄자라고 인식하든 다른 형제가 선호된다고 인식하든 동일했다는 사실이다. 이는 어떤 자녀가 선호되었는지와 상관없이 편애 인식 그 자체가 형제관계의 질을 예측한다는 아동기 및 성인기 편애 연구와 일치한다. 편애가 심리적 안녕에 미치는 영향 역시 생애 전반에 걸쳐 비슷한 방식으로 보고되어 왔다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 연구 결과는 어머니가 돌봄을 필요로 할 때 형제 긴장이 커진다는 기존 연구와 일치한다. 그러나 이 연구는 같은 가족 안에서 실제로 돌봄을 제공한 자녀와 돌봄을 제공하지 않은 자녀를 비교할 수 있는 가족 내 접근을 사용함으로써 선행연구를 한 걸음 더 확장한다. 가설대로 최근 어머니를 돌본 성인자녀는 돌보지 않은 형제자매보다 형제 긴장을 더 높게 보고했다. 또한 선행연구가 부모 편애 인식이 형제 긴장을 예측한다고 보여 준 것에 근거해, 연구진은 돌봄을 수행하는 형제가 어머니가 미래 돌봄자로 특정 자녀를 선호한다고 인식할 때 가장 높은 긴장을 보고할 것이라고 예상했는데, 이 가설 역시 다변량 분석에서 확인되었다. 이러한 결과는 사전돌봄계획과 형제관계의 질을 다룬 khodyakov와 carr(2009)의 연구와도 닮아 있다. 부모의 사전지시가 문제적이었다고 인식될 때 성인자녀는 형제관계의 질을 더 낮게 보고했고, 배우자나 성인자녀가 아닌 다른 사람을 의료 의사결정 대리인으로 지정했을 때는 형제관계의 질이 더 높게 보고되었다.\n\n주목할 점은 이 논문에서 나타난 결과 패턴이, 성인자녀가 자신이 어머니에게 선호된 돌봄자라고 인식하든 다른 형제가 선호된다고 인식하든 동일했다는 사실이다. 이는 어떤 자녀가 선호되었는지와 상관없이 편애 인식 그 자체가 형제관계의 질을 예측한다는 아동기 및 성인기 편애 연구와 일치한다. 편애가 심리적 안녕에 미치는 영향 역시 생애 전반에 걸쳐 비슷한 방식으로 보고되어 왔다.",
+      "order": 16
+    },
+    {
+      "id": "chatbot-00859",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "향후 연구에서는 두 가지 중요한 질문을 다루어야 한다. 첫째, 성인자녀의 성격 특성이 성인기의 형제 상호작용 패턴과 어머니의 돌봄 선호 모두에 어떤 역할을 하는가. 둘째, 어린 시절의 형제관계가 수십 년 뒤의 돌봄 선호와 형제 긴장에 어떤 영향을 미치는가. 어떤 경우에는 자녀가 형제나 어머니와 오랫동안 어려운 관계를 유지해 왔고, 그것이 훗날 편애 인식과 형제 긴장 모두에 영향을 줄 수 있다. 다만 선행연구는 어머니의 돌봄 선호가 자녀와의 유사성, 성별, 물리적 근접성에 의해 형성되며, 자녀의 현재 또는 과거의 문제행동으로는 설명되지 않는다고 보고했다. 그렇더라도 형제자매의 성격이나 어린 시절 행동이 현재의 형제 긴장에 영향을 줄 가능성은 있다. 이를 검증하려면 WFDS에는 없는 아동기 성격 및 행동 자료가 필요하므로, 향후 연구에서 우선적으로 다룰 필요가 있다.\n\n종합하면, 부모를 돌보는 성인자녀의 경험은 형제관계에서 돌봄을 제공하지 않는 형제자매의 경험과 다르다. 특히 어머니가 최근 건강 사건을 겪었고 형제들이 어머니가 특정 자녀를 미래 돌봄자로 선호한다고 인식할 때, 형제 긴장의 가능성은 더 커진다. 선호된 자녀가 누구인지는 중요하지 않았다. 따라서 이 연구는 부모가 심각한 건강 사건을 겪고 돌봄이 필요해졌을 때 어떤 조건에서 형제자매가 높은 수준의 긴장을 경험할 가능성이 큰지를 구체적으로 보여 준다.\n\n실천적 함의",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 향후 연구에서는 두 가지 중요한 질문을 다루어야 한다. 첫째, 성인자녀의 성격 특성이 성인기의 형제 상호작용 패턴과 어머니의 돌봄 선호 모두에 어떤 역할을 하는가. 둘째, 어린 시절의 형제관계가 수십 년 뒤의 돌봄 선호와 형제 긴장에 어떤 영향을 미치는가. 어떤 경우에는 자녀가 형제나 어머니와 오랫동안 어려운 관계를 유지해 왔고, 그것이 훗날 편애 인식과 형제 긴장 모두에 영향을 줄 수 있다. 다만 선행연구는 어머니의 돌봄 선호가 자녀와의 유사성, 성별, 물리적 근접성에 의해 형성되며, 자녀의 현재 또는 과거의 문제행동으로는 설명되지 않는다고 보고했다. 그렇더라도 형제자매의 성격이나 어린 시절 행동이 현재의 형제 긴장에 영향을 줄 가능성은 있다. 이를 검증하려면 wfds에는 없는 아동기 성격 및 행동 자료가 필요하므로, 향후 연구에서 우선적으로 다룰 필요가 있다.\n\n종합하면, 부모를 돌보는 성인자녀의 경험은 형제관계에서 돌봄을 제공하지 않는 형제자매의 경험과 다르다. 특히 어머니가 최근 건강 사건을 겪었고 형제들이 어머니가 특정 자녀를 미래 돌봄자로 선호한다고 인식할 때, 형제 긴장의 가능성은 더 커진다. 선호된 자녀가 누구인지는 중요하지 않았다. 따라서 이 연구는 부모가 심각한 건강 사건을 겪고 돌봄이 필요해졌을 때 어떤 조건에서 형제자매가 높은 수준의 긴장을 경험할 가능성이 큰지를 구체적으로 보여 준다.\n\n실천적 함의",
+      "order": 17
+    },
+    {
+      "id": "chatbot-00860",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "이 결과는 부모 돌봄에 직면한 성인 형제자매와 노년기 가족을 돕는 실천가 모두에게 중요한 함의를 갖는다. 특히 이 연구는 노년기 가족을 단순한 개인들의 합이 아니라 상호연결된 체계로 보아야 한다는 주장과, 그러한 가족이 얼마나 복잡하고 다중관점적인지를 인정해야 한다는 요구를 뒷받침한다. 편애 문제는 젊은 가족을 중심으로 오랫동안 연구되어 왔지만, 노부모와 성인자녀 사이의 가족 내 차등화 현상이 후기 가족에서 어떤 원인과 결과를 갖는지는 비교적 최근에야 본격적으로 탐색되기 시작했다. 더구나 연구진이 아는 한, 돌봄 맥락에서 편애의 효과를 다룬 연구는 단 한 편뿐이었다(Suitor et al., 2013). 이 논문은 돌봄과 관련한 부모 편애 인식이 형제관계에 강한 영향을 미친다는 점을 보여 준다. 따라서 성인자녀 돌봄자를 상담하는 전문가들은 부모 편애에 대한 자녀들의 인식, 그리고 그 인식이 가족 상호작용과 의사결정에 어떤 영향을 주는지를 탐색해 볼 필요가 있다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 이 결과는 부모 돌봄에 직면한 성인 형제자매와 노년기 가족을 돕는 실천가 모두에게 중요한 함의를 갖는다. 특히 이 연구는 노년기 가족을 단순한 개인들의 합이 아니라 상호연결된 체계로 보아야 한다는 주장과, 그러한 가족이 얼마나 복잡하고 다중관점적인지를 인정해야 한다는 요구를 뒷받침한다. 편애 문제는 젊은 가족을 중심으로 오랫동안 연구되어 왔지만, 노부모와 성인자녀 사이의 가족 내 차등화 현상이 후기 가족에서 어떤 원인과 결과를 갖는지는 비교적 최근에야 본격적으로 탐색되기 시작했다. 더구나 연구진이 아는 한, 돌봄 맥락에서 편애의 효과를 다룬 연구는 단 한 편뿐이었다(suitor et al., 2013). 이 논문은 돌봄과 관련한 부모 편애 인식이 형제관계에 강한 영향을 미친다는 점을 보여 준다. 따라서 성인자녀 돌봄자를 상담하는 전문가들은 부모 편애에 대한 자녀들의 인식, 그리고 그 인식이 가족 상호작용과 의사결정에 어떤 영향을 주는지를 탐색해 볼 필요가 있다.",
+      "order": 18
+    },
+    {
+      "id": "chatbot-00861",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "이 논문이 결정적 자료를 제시하지는 못하지만, 개방형 질문에 대한 응답은 돌봄 상황에서 부모 편애가 어떤 방식으로 작동하는지에 관한 몇 가지 가능성을 보여 준다. 첫째, 자신이 선호된 돌봄자라고 믿는 사람은, 어머니에게 선호받지 못한 형제들로부터 자신의 노력이 충분히 인정받지 못하거나 비판받는다고 느낄 수 있다. 실제로 이 연구의 돌봄자들은 이것을 형제자매와의 가장 흔한 좌절 원인 가운데 하나로 보고했다. 둘째, 자신이 선호된 돌봄자가 아니라고 생각하는 형제는 어머니로부터 저평가되거나 존중받지 못한다고 느낄 수 있다. 선행연구는 어머니가 선호하지 않았던 자녀의 돌봄이 종종 어머니 기대에 못 미친다고 어머니 스스로 보고했다는 사실도 보여 준다. 임상적으로 볼 때, 어머니의 돌봄자 선택이 형제관계에 어떤 감정을 불러일으키는지 탐색하는 일은 의미 있는 개입 지점이 될 수 있다.\n\n이 복잡성이라는 주제와 맞닿아 있는 또 하나의 발견은, 돌봄자가 비돌봄 형제자매와는 다른 방식으로 형제관계를 경험한다는 점이다. 연구진은 이를 돌봄자에게 일종의 \"이중의 위기(double jeopardy)\"가 될 수 있다고 본다. 부모가 도움이 필요해지면 돌봄자의 삶은 이미 더 스트레스가 크고 요구가 많아진다. 바로 그런 상황일수록 형제자매와의 지지적이고 갈등 없는 관계가 특히 중요하지만, 돌봄자는 오히려 형제와 더 큰 갈등을 경험해 기존 스트레스가 더 심해질 수 있다. 따라서 임상가와 실천가는 비돌봄 형제는 관계를 비교적 원만하다고 느끼는 반면, 실제 돌봄자는 같은 관계를 훨씬 더 스트레스가 크고 긴장된 것으로 경험할 수 있다는 점을 인식할 필요가 있다.\n\n연구비와 감사\n\n연구비",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 이 논문이 결정적 자료를 제시하지는 못하지만, 개방형 질문에 대한 응답은 돌봄 상황에서 부모 편애가 어떤 방식으로 작동하는지에 관한 몇 가지 가능성을 보여 준다. 첫째, 자신이 선호된 돌봄자라고 믿는 사람은, 어머니에게 선호받지 못한 형제들로부터 자신의 노력이 충분히 인정받지 못하거나 비판받는다고 느낄 수 있다. 실제로 이 연구의 돌봄자들은 이것을 형제자매와의 가장 흔한 좌절 원인 가운데 하나로 보고했다. 둘째, 자신이 선호된 돌봄자가 아니라고 생각하는 형제는 어머니로부터 저평가되거나 존중받지 못한다고 느낄 수 있다. 선행연구는 어머니가 선호하지 않았던 자녀의 돌봄이 종종 어머니 기대에 못 미친다고 어머니 스스로 보고했다는 사실도 보여 준다. 임상적으로 볼 때, 어머니의 돌봄자 선택이 형제관계에 어떤 감정을 불러일으키는지 탐색하는 일은 의미 있는 개입 지점이 될 수 있다.\n\n이 복잡성이라는 주제와 맞닿아 있는 또 하나의 발견은, 돌봄자가 비돌봄 형제자매와는 다른 방식으로 형제관계를 경험한다는 점이다. 연구진은 이를 돌봄자에게 일종의 \"이중의 위기(double jeopardy)\"가 될 수 있다고 본다. 부모가 도움이 필요해지면 돌봄자의 삶은 이미 더 스트레스가 크고 요구가 많아진다. 바로 그런 상황일수록 형제자매와의 지지적이고 갈등 없는 관계가 특히 중요하지만, 돌봄자는 오히려 형제와 더 큰 갈등을 경험해 기존 스트레스가 더 심해질 수 있다. 따라서 임상가와 실천가는 비돌봄 형제는 관계를 비교적 원만하다고 느끼는 반면, 실제 돌봄자는 같은 관계를 훨씬 더 스트레스가 크고 긴장된 것으로 경험할 수 있다는 점을 인식할 필요가 있다.\n\n연구비와 감사\n\n연구비",
+      "order": 19
+    },
+    {
+      "id": "chatbot-00862",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "이 연구는 National Institute on Aging의 연구비(RO1 AG18869-01, 2RO1 AG18869-04, J. J. Suitor와 K. Pillemer 공동책임연구자)의 지원을 받았다. J. J. Suitor, M. Gilligan, K. Johnson은 Purdue University의 Center on Aging and the Life Course의 지원에도 감사를 표했다. K. Pillemer는 National Institute on Aging의 Edward R. Roybal Center grant(1 P50 AG11711-01)의 지원도 받았다.\n\n감사\n\n연구진은 자료분석에 대해 유익한 조언을 준 Paul Allison과, 본 프로젝트 자료를 수집한 University of Massachusetts Boston의 Mary Ellen Colten 및 동료들에게 감사를 전했다.\n\n참고문헌",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 이 연구는 national institute on aging의 연구비(ro1 ag18869-01, 2ro1 ag18869-04, j. j. suitor와 k. pillemer 공동책임연구자)의 지원을 받았다. j. j. suitor, m. gilligan, k. johnson은 purdue university의 center on aging and the life course의 지원에도 감사를 표했다. k. pillemer는 national institute on aging의 edward r. roybal center grant(1 p50 ag11711-01)의 지원도 받았다.\n\n감사\n\n연구진은 자료분석에 대해 유익한 조언을 준 paul allison과, 본 프로젝트 자료를 수집한 university of massachusetts boston의 mary ellen colten 및 동료들에게 감사를 전했다.\n\n참고문헌",
+      "order": 20
+    },
+    {
+      "id": "chatbot-00863",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "AARP. (2011). When siblings disagree about what's best for mom and dad. Retrieved from http://www.aarp.org/relationships/caregiving-resource-center/info-12-2011/siblings-disagree-on-parents-care.html\nAllison, P. (2010). Missing data. In J. Wright & P. Marsden (Eds.), Handbook of survey research (pp. 631-658). Bingley, England: Emerald Group.\nAmato, P., Booth, A., Johnson, D. R., & Rogers, S. J. (2007). Alone together: How marriage in America is changing. Cambridge, MA: Harvard.\nAquilino, W. S., Arnett, J. J., & Tanner, J. L. (2006). Family relationships and support systems in emerging adulthood. In J. J. Arnett & J. L. Tanner (Eds.), Emerging adults in America: Coming of age in the 21st century (pp. 193-217). Washington, DC: American Psychological Association.\nAtienza, A. A., & Stephens, M. A. P. (2000). Social interactions at work and the well-being of daughters involved in parent care.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 aarp. (2011). when siblings disagree about what's best for mom and dad. retrieved from http://www.aarp.org/relationships/caregiving-resource-center/info-12-2011/siblings-disagree-on-parents-care.html\nallison, p. (2010). missing data. in j. wright & p. marsden (eds.), handbook of survey research (pp. 631-658). bingley, england: emerald group.\namato, p., booth, a., johnson, d. r., & rogers, s. j. (2007). alone together: how marriage in america is changing. cambridge, ma: harvard.\naquilino, w. s., arnett, j. j., & tanner, j. l. (2006). family relationships and support systems in emerging adulthood. in j. j. arnett & j. l. tanner (eds.), emerging adults in america: coming of age in the 21st century (pp. 193-217). washington, dc: american psychological association.\natienza, a. a., & stephens, m. a. p. (2000). social interactions at work and the well-being of daughters involved in parent care.",
+      "order": 21
+    },
+    {
+      "id": "chatbot-00864",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "Journal of Applied Gerontology, 19, 243-263. doi:10.1177/073346480001900301\nBerman, C. (2005). Caring for yourself while caring for your aging parents: How to help, how to survive. New York: Henry Holt.\nBoll, T., Ferring, D., & Filipp, S. H. (2003). Perceived parental differential treatment in middle adulthood: Curvilinear relations with individuals' experienced relationship quality to sibling and parents. Journal of Family Psychology, 17, 472-487. doi:10.1037/0893-3200.17.4.472\nBoll, T., Ferring, D., & Filipp, S. H. (2005). Effects of parental differential treatment on relationship quality with siblings and parents: Justice evaluations as mediators. Social Justice Research, 18, 155-182. doi:10.1007/s11211-005-7367-2\nBookwala, J. (2009). The impact of parent care on marital quality and well-being in adult daughters and sons. Journal of Gerontology: Social Sciences, 64, S339-S347.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 journal of applied gerontology, 19, 243-263. doi:10.1177/073346480001900301\nberman, c. (2005). caring for yourself while caring for your aging parents: how to help, how to survive. new york: henry holt.\nboll, t., ferring, d., & filipp, s. h. (2003). perceived parental differential treatment in middle adulthood: curvilinear relations with individuals' experienced relationship quality to sibling and parents. journal of family psychology, 17, 472-487. doi:10.1037/0893-3200.17.4.472\nboll, t., ferring, d., & filipp, s. h. (2005). effects of parental differential treatment on relationship quality with siblings and parents: justice evaluations as mediators. social justice research, 18, 155-182. doi:10.1007/s11211-005-7367-2\nbookwala, j. (2009). the impact of parent care on marital quality and well-being in adult daughters and sons. journal of gerontology: social sciences, 64, s339-s347.",
+      "order": 22
+    },
+    {
+      "id": "chatbot-00865",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "doi:10.1093/geronb/gbp018\nConger, K. J., & Little, W. M. (2010). Sibling relationships during the transition to adulthood. Child Development Perspectives, 4, 87-94. doi:10.1111/j.1750-8606.2010.00123.x\nConnidis, I. A., & Kemp, C. L. (2008). Negotiating actual and anticipated parental support: Multiple sibling voices in three-generation families. Journal of Aging Studies, 22, 229-238. doi:10.1016/j.jaging.2007.06.002\nDavey, A., & Szinovacz, M. E. (2008). Division of care among adult children. In M. E. Szinovacz & A. Davey (Eds.), Caregiving contexts: Cultural, familial, and societal implications (pp. 133-159). New York, NY: Springer.\nFingerman, K. L., & Bermann, E. (2000). Applications of family systems theory to the study of adulthood. International Journal of Aging & Human Development, 51, 5-29. doi:10.2190/7TF8-WB3F-TMWG-TT3K\nGentry, D. B. (2001). Resolving middle-age sibling conflict",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 doi:10.1093/geronb/gbp018\nconger, k. j., & little, w. m. (2010). sibling relationships during the transition to adulthood. child development perspectives, 4, 87-94. doi:10.1111/j.1750-8606.2010.00123.x\nconnidis, i. a., & kemp, c. l. (2008). negotiating actual and anticipated parental support: multiple sibling voices in three-generation families. journal of aging studies, 22, 229-238. doi:10.1016/j.jaging.2007.06.002\ndavey, a., & szinovacz, m. e. (2008). division of care among adult children. in m. e. szinovacz & a. davey (eds.), caregiving contexts: cultural, familial, and societal implications (pp. 133-159). new york, ny: springer.\nfingerman, k. l., & bermann, e. (2000). applications of family systems theory to the study of adulthood. international journal of aging & human development, 51, 5-29. doi:10.2190/7tf8-wb3f-tmwg-tt3k\ngentry, d. b. (2001). resolving middle-age sibling conflict",
+      "order": 23
+    },
+    {
+      "id": "chatbot-00866",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "regarding parent care. Conflict Resolution Quarterly, 19, 31-47. doi:10.1002/crq.3890190104\nGilligan, M., Suitor, J. J., & Pillemer, K. (in press). Differential effects of mothers' and fathers' favoritism on sibling relations in adulthood. Journal of Gerontology: Social Sciences. Advance online publication. doi:10.1093/geronb/gbt039\nHeru, A. M., Ryan, C. E., & Iqbal, A. (2004). Family functioning in the caregivers of patients with dementia. International Journal of Geriatric Psychiatry, 19, 533-537. doi:10.1002/gps.1119\nIngersoll-Dayton, B., Neal, M. B., Ha, J., & Hammer, L. B. (2003). Redressing inequity in parent care among siblings. Journal of Marriage and Family, 65, 201-212. doi:10.1111/j.1741-3737.2003.00201.x\nKalmijn, M., & Liefbroer, A. C. (2011). Nonresponse of secondary respondents in multi-actor surveys: Determinants, consequences, and possible remedies. Journal of Family",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 regarding parent care. conflict resolution quarterly, 19, 31-47. doi:10.1002/crq.3890190104\ngilligan, m., suitor, j. j., & pillemer, k. (in press). differential effects of mothers' and fathers' favoritism on sibling relations in adulthood. journal of gerontology: social sciences. advance online publication. doi:10.1093/geronb/gbt039\nheru, a. m., ryan, c. e., & iqbal, a. (2004). family functioning in the caregivers of patients with dementia. international journal of geriatric psychiatry, 19, 533-537. doi:10.1002/gps.1119\ningersoll-dayton, b., neal, m. b., ha, j., & hammer, l. b. (2003). redressing inequity in parent care among siblings. journal of marriage and family, 65, 201-212. doi:10.1111/j.1741-3737.2003.00201.x\nkalmijn, m., & liefbroer, a. c. (2011). nonresponse of secondary respondents in multi-actor surveys: determinants, consequences, and possible remedies. journal of family",
+      "order": 24
+    },
+    {
+      "id": "chatbot-00867",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "Issues, 32, 735-766. doi:10.1177/0192513X10390184\nKang, S. Y. (2006). Predictors of emotional strain among spouse and adult child caregivers. Journal of Gerontological Social Work, 47, 107-131. doi:10.1300/J083v47n01_08\nKhodyakov, D., & Carr, D. (2009). The impact of late-life parental death on adult sibling relationships: Do parents' advance directives help or hurt? Research on Aging, 31, 495-519. doi:10.1177/0164027509337193\nKwak, M., Ingersoll-Dayton, B., & Kim, J. (2012). Family conflict from the perspective of adult child caregivers: The influence of gender. Journal of Social and Personal Relationships, 29, 470-487. doi:10.1177/0265407511431188\nLashewicz, B., & Keating, N. (2009). Tensions among siblings in parent care. European Journal of Ageing, 6, 127-135. doi:10.1007/s10433-009-0109-9\nMarks, N. F., Lambert, J. D., Jun, H., & Song, J. (2008). Psychosocial moderators of the",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 issues, 32, 735-766. doi:10.1177/0192513x10390184\nkang, s. y. (2006). predictors of emotional strain among spouse and adult child caregivers. journal of gerontological social work, 47, 107-131. doi:10.1300/j083v47n01_08\nkhodyakov, d., & carr, d. (2009). the impact of late-life parental death on adult sibling relationships: do parents' advance directives help or hurt? research on aging, 31, 495-519. doi:10.1177/0164027509337193\nkwak, m., ingersoll-dayton, b., & kim, j. (2012). family conflict from the perspective of adult child caregivers: the influence of gender. journal of social and personal relationships, 29, 470-487. doi:10.1177/0265407511431188\nlashewicz, b., & keating, n. (2009). tensions among siblings in parent care. european journal of ageing, 6, 127-135. doi:10.1007/s10433-009-0109-9\nmarks, n. f., lambert, j. d., jun, h., & song, j. (2008). psychosocial moderators of the",
+      "order": 25
+    },
+    {
+      "id": "chatbot-00868",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "effects of transitioning into filial caregiving on mental and physical health. Research on Aging, 30, 358-389. doi:10.1177/0164027507312998\nOkun, M., & Keith, V. M. (1998). Effects of positive and negative social exchanges with various sources on depressive symptoms in younger and older adults. Journal of Gerontology: Social Sciences, 53, S4-S20. doi:10.1093/geronb/53B.1.P4\nPearlin, L. I., Mullan, J. T., Semple, S. J., & Skaff, M. M. (1990). Caregiving and the stress process: An overview of concepts and their measures. The Gerontologist, 30, 583-594. doi:10.1093/geront/30.5.583\nPearlin, L. I., Pioli, M. F., & McLaughlin, A. E. (2001). Caregiving by adult children: Involvement, role disruption, and health. In R. H. Binstock & L. K. George (Eds.), Handbook of aging and the social sciences (5th ed., pp. 238-254). San Diego, CA: Academic Press.\nPerkins, M., Howard, V. G., Wadley, V. G.,",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 effects of transitioning into filial caregiving on mental and physical health. research on aging, 30, 358-389. doi:10.1177/0164027507312998\nokun, m., & keith, v. m. (1998). effects of positive and negative social exchanges with various sources on depressive symptoms in younger and older adults. journal of gerontology: social sciences, 53, s4-s20. doi:10.1093/geronb/53b.1.p4\npearlin, l. i., mullan, j. t., semple, s. j., & skaff, m. m. (1990). caregiving and the stress process: an overview of concepts and their measures. the gerontologist, 30, 583-594. doi:10.1093/geront/30.5.583\npearlin, l. i., pioli, m. f., & mclaughlin, a. e. (2001). caregiving by adult children: involvement, role disruption, and health. in r. h. binstock & l. k. george (eds.), handbook of aging and the social sciences (5th ed., pp. 238-254). san diego, ca: academic press.\nperkins, m., howard, v. g., wadley, v. g.,",
+      "order": 26
+    },
+    {
+      "id": "chatbot-00869",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "Crowe, M., Safford, M. M., Haley, W. E., et al. (2012). Caregiving strain and all-cause mortality: Evidence from the REGARDS STUDY. Journal of Gerontology: Psychological Sciences and Social Sciences. doi:10.1093/geronb/gbs084\nPerry-Jenkins, M., Goldberg, A. E., Pierce, C. P., & Sayer, A. G. (2007). Shift work, role overload, and the transition to parenthood. Journal of Marriage and the Family, 69, 123-138. doi:10.1111/j.1741-3737.2006.00349.x\nPillemer, K., Suitor, J. J., Mock, S. E., Sabir, M., Pardo, T., & Sechrist, J. (2007). Capturing the complexity of intergenerational relations: Exploring ambivalence within later-life families. Journal of Social Issues, 63, 775-791. doi:10.1111/j.1540-4560.2007.00536.x\nPillemer, K., Suitor, J. J., Pardo, S., & Henderson, C., Jr. (2010). Mothers' differentiation and depressive symptoms among adult children. Journal of Marriage and Family, 72,",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 crowe, m., safford, m. m., haley, w. e., et al. (2012). caregiving strain and all-cause mortality: evidence from the regards study. journal of gerontology: psychological sciences and social sciences. doi:10.1093/geronb/gbs084\nperry-jenkins, m., goldberg, a. e., pierce, c. p., & sayer, a. g. (2007). shift work, role overload, and the transition to parenthood. journal of marriage and the family, 69, 123-138. doi:10.1111/j.1741-3737.2006.00349.x\npillemer, k., suitor, j. j., mock, s. e., sabir, m., pardo, t., & sechrist, j. (2007). capturing the complexity of intergenerational relations: exploring ambivalence within later-life families. journal of social issues, 63, 775-791. doi:10.1111/j.1540-4560.2007.00536.x\npillemer, k., suitor, j. j., pardo, s., & henderson, c., jr. (2010). mothers' differentiation and depressive symptoms among adult children. journal of marriage and family, 72,",
+      "order": 27
+    },
+    {
+      "id": "chatbot-00870",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "333-345. doi:10.1111/j.1741-3737.2010.00703.x\nPinquart, M., & Sorensen, S. (2006). Gender differences in caregiver stressors, social resources, and health: An updated meta-analysis. Journal of Gerontology: Social Sciences, 61, S33-S45.\nRobinson, B. E., Flowers, C., & Ng, K. (2006). The relationship between workaholism and marital disaffection: Husbands' perspective. The Family Journal, 14, 213-220. doi:10.1177/1066480706287269\nRook, K. (1998). Investigating the positive and negative sides of personal relationships: Through a lens darkly? In B. H. Spitzberg & W. R. Cupach (Eds.), The dark side of close relationships (pp. 369-393). Mahwah, NJ: Erlbaum.\nRossi, A. S., & Rossi, P. H. (1990). Of human bonding: Parent child relations across the life course. New York: Aldine de Gruyter.\nRoxburgh, S. (2012). Parental time pressures and depression among married dual-earner parents. Journal of",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 333-345. doi:10.1111/j.1741-3737.2010.00703.x\npinquart, m., & sorensen, s. (2006). gender differences in caregiver stressors, social resources, and health: an updated meta-analysis. journal of gerontology: social sciences, 61, s33-s45.\nrobinson, b. e., flowers, c., & ng, k. (2006). the relationship between workaholism and marital disaffection: husbands' perspective. the family journal, 14, 213-220. doi:10.1177/1066480706287269\nrook, k. (1998). investigating the positive and negative sides of personal relationships: through a lens darkly? in b. h. spitzberg & w. r. cupach (eds.), the dark side of close relationships (pp. 369-393). mahwah, nj: erlbaum.\nrossi, a. s., & rossi, p. h. (1990). of human bonding: parent child relations across the life course. new york: aldine de gruyter.\nroxburgh, s. (2012). parental time pressures and depression among married dual-earner parents. journal of",
+      "order": 28
+    },
+    {
+      "id": "chatbot-00871",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "Family Issues, 33, 1027-1053. doi:10.1177/0192513X11425324\nRusso, F. (2010, February 1). When elder care brings back sibling tensions. Time Magazine. Retrieved from http://www.time.com/time/magazine/article/0,9171,1955601,00.html\nSchuster, T. L., Kessler, R. C., & Aseltine, R. H., Jr. (1990). Supportive interactions, negative interactions, and depressed mood. American Journal of Community Psychology, 18, 423-438.\nSerido, J., Almeida, D. M., & Wethington, E. (2004). Chronic stressors and daily hassles: Unique and interactive relationships with psychological distress. Journal of Health and Social Behavior, 45, 17-32. doi:10.1177/002214650404500102\nSuitor, J. J., Gilligan, M., & Pillemer, K. (in press). Continuity and change in mothers' favoritism toward offspring in adulthood. Journal of Marriage and Family.\nSuitor, J. J., & Pillemer, K. (1996). Sources of support and interpersonal stress",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 family issues, 33, 1027-1053. doi:10.1177/0192513x11425324\nrusso, f. (2010, february 1). when elder care brings back sibling tensions. time magazine. retrieved from http://www.time.com/time/magazine/article/0,9171,1955601,00.html\nschuster, t. l., kessler, r. c., & aseltine, r. h., jr. (1990). supportive interactions, negative interactions, and depressed mood. american journal of community psychology, 18, 423-438.\nserido, j., almeida, d. m., & wethington, e. (2004). chronic stressors and daily hassles: unique and interactive relationships with psychological distress. journal of health and social behavior, 45, 17-32. doi:10.1177/002214650404500102\nsuitor, j. j., gilligan, m., & pillemer, k. (in press). continuity and change in mothers' favoritism toward offspring in adulthood. journal of marriage and family.\nsuitor, j. j., & pillemer, k. (1996). sources of support and interpersonal stress",
+      "order": 29
+    },
+    {
+      "id": "chatbot-00872",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "in the networks of married caregiving daughters: Findings from a 2-year longitudinal study. Journal of Gerontology: Social Sciences, 51, S297-S306. doi:10.1093/geronb/51B.6.S297\nSuitor, J. J., Gilligan, M., & Pillemer, K. (2013). The role of violated caregiver preferences in psychological well-being when older mothers need assistance. The Gerontologist, 53, 388-396. doi:10.1093/geront/gns084\nSuitor, J. J., Sechrist, J., Plikuhn, M., Pardo, S., Gilligan, M., & Pillemer, K. (2009). The role of perceived maternal favoritism in sibling relations in midlife. Journal of Marriage & Family, 71, 1026-1038. doi:10.1111/j.1741-3737.2009.00650.x\nSuitor, J. J., Sechrist, J., Plikuhn, M., Pardo, S., & Pillemer, K. (2008). Within-family differences in parent-child relations across the life course. Current Directions in Psychological Science, 17, 334-338. doi:10.1111/j.1467-8721.2008.00601.x\nTolkacheva,",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 in the networks of married caregiving daughters: findings from a 2-year longitudinal study. journal of gerontology: social sciences, 51, s297-s306. doi:10.1093/geronb/51b.6.s297\nsuitor, j. j., gilligan, m., & pillemer, k. (2013). the role of violated caregiver preferences in psychological well-being when older mothers need assistance. the gerontologist, 53, 388-396. doi:10.1093/geront/gns084\nsuitor, j. j., sechrist, j., plikuhn, m., pardo, s., gilligan, m., & pillemer, k. (2009). the role of perceived maternal favoritism in sibling relations in midlife. journal of marriage & family, 71, 1026-1038. doi:10.1111/j.1741-3737.2009.00650.x\nsuitor, j. j., sechrist, j., plikuhn, m., pardo, s., & pillemer, k. (2008). within-family differences in parent-child relations across the life course. current directions in psychological science, 17, 334-338. doi:10.1111/j.1467-8721.2008.00601.x\ntolkacheva,",
+      "order": 30
+    },
+    {
+      "id": "chatbot-00873",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/suitor-et-al-2014/translation.html",
+      "text": "N., van Groenou, M. B., & van Tilburg, T. (2010). Sibling influence on care given by children to older parents. Research on Aging, 32, 739-759. doi:10.1177/0164027510383532\nWalen, H. R., & Lachman, M. E. (2000). Social support and strain from partner, family, and friends: Costs and benefits for men and women in adulthood. Journal of Social and Personal Relationships, 17, 5-30. doi:10.1177/0265407500171001\nWalster, E. H., Walster, G. W., & Berscheid, E. (1978). Equity: Theory and research. Boston: Allyn and Bacon.\nWright, J. D., & Marsden, P. V. (2010). Survey research and social science: History, current practice, and future prospects. In V. Peter, D. Marsden, & J. Wright (Eds.), Handbook of survey research (pp. 3-26). Bingley, England: Emerald Group.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 번역본 읽기 n., van groenou, m. b., & van tilburg, t. (2010). sibling influence on care given by children to older parents. research on aging, 32, 739-759. doi:10.1177/0164027510383532\nwalen, h. r., & lachman, m. e. (2000). social support and strain from partner, family, and friends: costs and benefits for men and women in adulthood. journal of social and personal relationships, 17, 5-30. doi:10.1177/0265407500171001\nwalster, e. h., walster, g. w., & berscheid, e. (1978). equity: theory and research. boston: allyn and bacon.\nwright, j. d., & marsden, p. v. (2010). survey research and social science: history, current practice, and future prospects. in v. peter, d. marsden, & j. wright (eds.), handbook of survey research (pp. 3-26). bingley, england: emerald group.",
+      "order": 31
+    },
+    {
+      "id": "chatbot-00874",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "concepts",
+      "pageLabel": "핵심 개념",
+      "href": "readings/suitor-et-al-2014/concepts.html",
+      "text": "핵심 개념\n\n1. 가족 내 차이\n\n한국어 개념명: 가족 내 차이\nOriginal English term: within-family differences\n정확한 한 줄 정의: 같은 가족 안에서도 자녀별 경험, 역할, 부모와의 관계, 형제관계가 다르게 나타난다고 보는 관점이다.\n학생 말투로 풀어쓴 설명: 한 집안이라고 다 똑같이 느끼는 게 아니라, 누구는 돌봄을 많이 하고 누구는 덜 하고, 누구는 더 인정받는다고 느끼는지를 따로 봐야 한다는 말이다.\n왜 이 논문에서 중요한지: 이 논문은 가족 전체 평균이 아니라 형제자매 각각이 돌봄과 편애를 어떻게 경험하는지 봐야 형제 긴장을 설명할 수 있다고 주장한다.\n자주 헷갈리는 포인트: 가족 내 차이는 가족 해체를 뜻하는 말이 아니다. 같은 가족 안의 위치 차이를 분석단위로 삼는다는 뜻이다.\n\n2. 형제 긴장\n\n한국어 개념명: 형제 긴장\nOriginal English term: sibling tension\n정확한 한 줄 정의: 형제자매 사이에서 비난, 과도한 요구, 다툼 같은 부정적 상호작용이 높아진 상태를 뜻한다.\n학생 말투로 풀어쓴 설명: 서로 도와줘야 할 때인데 오히려 말싸움이 늘고, 요구가 많고, 관계가 뻣뻣해진 상태라고 보면 된다.\n왜 이 논문에서 중요한지: 형제 긴장은 이 논문의 핵심 종속변수이며, 돌봄과 편애 인식이 실제로 영향을 미치는 결과로 측정된다.\n자주 헷갈리는 포인트: 그냥 친하지 않다는 뜻이 아니다. 비판, 갈등, 요구가 명확히 높아지는 관계 상태를 말한다.\n\n3. 모성 편애 인식",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 핵심 개념 핵심 개념\n\n1. 가족 내 차이\n\n한국어 개념명: 가족 내 차이\noriginal english term: within-family differences\n정확한 한 줄 정의: 같은 가족 안에서도 자녀별 경험, 역할, 부모와의 관계, 형제관계가 다르게 나타난다고 보는 관점이다.\n학생 말투로 풀어쓴 설명: 한 집안이라고 다 똑같이 느끼는 게 아니라, 누구는 돌봄을 많이 하고 누구는 덜 하고, 누구는 더 인정받는다고 느끼는지를 따로 봐야 한다는 말이다.\n왜 이 논문에서 중요한지: 이 논문은 가족 전체 평균이 아니라 형제자매 각각이 돌봄과 편애를 어떻게 경험하는지 봐야 형제 긴장을 설명할 수 있다고 주장한다.\n자주 헷갈리는 포인트: 가족 내 차이는 가족 해체를 뜻하는 말이 아니다. 같은 가족 안의 위치 차이를 분석단위로 삼는다는 뜻이다.\n\n2. 형제 긴장\n\n한국어 개념명: 형제 긴장\noriginal english term: sibling tension\n정확한 한 줄 정의: 형제자매 사이에서 비난, 과도한 요구, 다툼 같은 부정적 상호작용이 높아진 상태를 뜻한다.\n학생 말투로 풀어쓴 설명: 서로 도와줘야 할 때인데 오히려 말싸움이 늘고, 요구가 많고, 관계가 뻣뻣해진 상태라고 보면 된다.\n왜 이 논문에서 중요한지: 형제 긴장은 이 논문의 핵심 종속변수이며, 돌봄과 편애 인식이 실제로 영향을 미치는 결과로 측정된다.\n자주 헷갈리는 포인트: 그냥 친하지 않다는 뜻이 아니다. 비판, 갈등, 요구가 명확히 높아지는 관계 상태를 말한다.\n\n3. 모성 편애 인식",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00875",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "concepts",
+      "pageLabel": "핵심 개념",
+      "href": "readings/suitor-et-al-2014/concepts.html",
+      "text": "한국어 개념명: 모성 편애 인식\nOriginal English term: maternal favoritism\n정확한 한 줄 정의: 어머니가 특정 자녀를 다른 자녀보다 더 선호한다고 지각하는 경험이다.\n학생 말투로 풀어쓴 설명: 실제로 편애가 있었는지보다, 자녀가 엄마가 누구를 더 편든다고 느끼는지가 핵심이라는 뜻이다.\n왜 이 논문에서 중요한지: 저자들은 편애 인식이 돌봄 상황에서 형제 긴장을 독립적으로 높이는 주요 요인이라고 본다.\n자주 헷갈리는 포인트: 객관적 사실 여부와 인식은 다르다. 이 논문은 객관적 편애를 판정하는 것이 아니라 지각된 편애를 본다.\n\n4. 돌봄 수행\n\n한국어 개념명: 돌봄 수행\nOriginal English term: caregiving\n정확한 한 줄 정의: 부모의 질병, 손상, 장애, 일상생활 지원 필요에 대응해 실제로 도움을 제공하는 역할 수행이다.\n학생 말투로 풀어쓴 설명: 그냥 관심을 가지는 수준이 아니라, 실제로 엄마를 챙기고 도와주는 일을 맡았느냐를 묻는 개념이다.\n왜 이 논문에서 중요한지: 최근 2년 안에 어머니를 돌본 경험이 있는 자녀가 형제 긴장을 더 강하게 보고하는지가 첫 번째 핵심 가설이다.\n자주 헷갈리는 포인트: 돌봄 수행은 감정적 걱정만 뜻하지 않는다. 실제 도움 제공 여부를 기준으로 코딩한 변수다.\n\n5. 미래 돌봄자 편애 인식",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 핵심 개념 한국어 개념명: 모성 편애 인식\noriginal english term: maternal favoritism\n정확한 한 줄 정의: 어머니가 특정 자녀를 다른 자녀보다 더 선호한다고 지각하는 경험이다.\n학생 말투로 풀어쓴 설명: 실제로 편애가 있었는지보다, 자녀가 엄마가 누구를 더 편든다고 느끼는지가 핵심이라는 뜻이다.\n왜 이 논문에서 중요한지: 저자들은 편애 인식이 돌봄 상황에서 형제 긴장을 독립적으로 높이는 주요 요인이라고 본다.\n자주 헷갈리는 포인트: 객관적 사실 여부와 인식은 다르다. 이 논문은 객관적 편애를 판정하는 것이 아니라 지각된 편애를 본다.\n\n4. 돌봄 수행\n\n한국어 개념명: 돌봄 수행\noriginal english term: caregiving\n정확한 한 줄 정의: 부모의 질병, 손상, 장애, 일상생활 지원 필요에 대응해 실제로 도움을 제공하는 역할 수행이다.\n학생 말투로 풀어쓴 설명: 그냥 관심을 가지는 수준이 아니라, 실제로 엄마를 챙기고 도와주는 일을 맡았느냐를 묻는 개념이다.\n왜 이 논문에서 중요한지: 최근 2년 안에 어머니를 돌본 경험이 있는 자녀가 형제 긴장을 더 강하게 보고하는지가 첫 번째 핵심 가설이다.\n자주 헷갈리는 포인트: 돌봄 수행은 감정적 걱정만 뜻하지 않는다. 실제 도움 제공 여부를 기준으로 코딩한 변수다.\n\n5. 미래 돌봄자 편애 인식",
+      "order": 2
+    },
+    {
+      "id": "chatbot-00876",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "concepts",
+      "pageLabel": "핵심 개념",
+      "href": "readings/suitor-et-al-2014/concepts.html",
+      "text": "한국어 개념명: 미래 돌봄자 편애 인식\nOriginal English term: future caregiver favoritism\n정확한 한 줄 정의: 어머니가 앞으로 특정 자녀가 자신을 돌보기를 더 바란다고 인식하는 것이다.\n학생 말투로 풀어쓴 설명: 엄마가 결국 누구를 주돌봄자로 찍고 있느냐에 대한 형제자매의 해석이라고 생각하면 된다.\n왜 이 논문에서 중요한지: 저자들은 현재 돌봄뿐 아니라 앞으로 누가 맡게 될지에 대한 기대와 편애 인식도 형제 긴장을 높인다고 본다.\n자주 헷갈리는 포인트: 현재 돌봄 수행과 같은 개념이 아니다. 실제 돌봄을 했는지와 미래 선호 인식은 분리된 변수다.\n\n6. 관계적 공정성\n\n한국어 개념명: 관계적 공정성\nOriginal English term: relational equity\n정확한 한 줄 정의: 사람들은 관계 안에서 자신이 다른 사람들과 비교해 공정하게 대우받는지에 민감하다는 이론적 관점이다.\n학생 말투로 풀어쓴 설명: 손해 본 사람만 서운한 게 아니라, 관계가 불공평하다고 느끼는 순간 누구라도 불편해질 수 있다는 생각이다.\n왜 이 논문에서 중요한지: 자신이 선호되었다고 느끼든 다른 형제가 선호되었다고 느끼든 모두 형제 긴장이 높아질 수 있다는 해석을 뒷받침한다.\n자주 헷갈리는 포인트: 공정성은 돈이나 노동량만의 문제가 아니다. 인정, 선택, 정서적 가치 부여도 포함된다.\n\n7. 다층분석",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 핵심 개념 한국어 개념명: 미래 돌봄자 편애 인식\noriginal english term: future caregiver favoritism\n정확한 한 줄 정의: 어머니가 앞으로 특정 자녀가 자신을 돌보기를 더 바란다고 인식하는 것이다.\n학생 말투로 풀어쓴 설명: 엄마가 결국 누구를 주돌봄자로 찍고 있느냐에 대한 형제자매의 해석이라고 생각하면 된다.\n왜 이 논문에서 중요한지: 저자들은 현재 돌봄뿐 아니라 앞으로 누가 맡게 될지에 대한 기대와 편애 인식도 형제 긴장을 높인다고 본다.\n자주 헷갈리는 포인트: 현재 돌봄 수행과 같은 개념이 아니다. 실제 돌봄을 했는지와 미래 선호 인식은 분리된 변수다.\n\n6. 관계적 공정성\n\n한국어 개념명: 관계적 공정성\noriginal english term: relational equity\n정확한 한 줄 정의: 사람들은 관계 안에서 자신이 다른 사람들과 비교해 공정하게 대우받는지에 민감하다는 이론적 관점이다.\n학생 말투로 풀어쓴 설명: 손해 본 사람만 서운한 게 아니라, 관계가 불공평하다고 느끼는 순간 누구라도 불편해질 수 있다는 생각이다.\n왜 이 논문에서 중요한지: 자신이 선호되었다고 느끼든 다른 형제가 선호되었다고 느끼든 모두 형제 긴장이 높아질 수 있다는 해석을 뒷받침한다.\n자주 헷갈리는 포인트: 공정성은 돈이나 노동량만의 문제가 아니다. 인정, 선택, 정서적 가치 부여도 포함된다.\n\n7. 다층분석",
+      "order": 3
+    },
+    {
+      "id": "chatbot-00877",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "concepts",
+      "pageLabel": "핵심 개념",
+      "href": "readings/suitor-et-al-2014/concepts.html",
+      "text": "한국어 개념명: 다층분석\nOriginal English term: multilevel analysis\n정확한 한 줄 정의: 개인이 가족이라는 상위 단위에 속해 있는 중첩 구조를 고려해 분석하는 통계 방법이다.\n학생 말투로 풀어쓴 설명: 형제자매는 서로 독립된 사람이 아니라 같은 가족 안에 묶여 있으니, 그 구조를 반영해서 분석한 것이다.\n왜 이 논문에서 중요한지: 450명의 성인자녀가 214가족 안에 묶여 있기 때문에 가족 내 개인 차이와 가족 간 차이를 동시에 보기 위해 필요했다.\n자주 헷갈리는 포인트: 표본 수가 크니까 쓰는 고급기법이 아니다. 자료구조가 중첩되어 있어서 필요한 방법이다.\n\n8. 후기 노년기 가족\n\n한국어 개념명: 후기 노년기 가족\nOriginal English term: later-life family\n정확한 한 줄 정의: 노년기의 부모와 이미 성인이 된 자녀들로 이루어진 가족 맥락을 뜻한다.\n학생 말투로 풀어쓴 설명: 어린 자녀를 키우는 가족이 아니라, 나이 든 부모와 성인자녀들이 다시 돌봄 문제로 얽히는 가족 장면을 말한다.\n왜 이 논문에서 중요한지: 이 연구는 부모 돌봄과 형제 긴장이 동시에 나타나는 장면을 후기 노년기 가족의 중요한 특징으로 본다.\n자주 헷갈리는 포인트: 나이 많은 부모만 뜻하는 말이 아니다. 성인자녀와의 관계를 포함한 가족 체계를 함께 보는 개념이다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 핵심 개념 한국어 개념명: 다층분석\noriginal english term: multilevel analysis\n정확한 한 줄 정의: 개인이 가족이라는 상위 단위에 속해 있는 중첩 구조를 고려해 분석하는 통계 방법이다.\n학생 말투로 풀어쓴 설명: 형제자매는 서로 독립된 사람이 아니라 같은 가족 안에 묶여 있으니, 그 구조를 반영해서 분석한 것이다.\n왜 이 논문에서 중요한지: 450명의 성인자녀가 214가족 안에 묶여 있기 때문에 가족 내 개인 차이와 가족 간 차이를 동시에 보기 위해 필요했다.\n자주 헷갈리는 포인트: 표본 수가 크니까 쓰는 고급기법이 아니다. 자료구조가 중첩되어 있어서 필요한 방법이다.\n\n8. 후기 노년기 가족\n\n한국어 개념명: 후기 노년기 가족\noriginal english term: later-life family\n정확한 한 줄 정의: 노년기의 부모와 이미 성인이 된 자녀들로 이루어진 가족 맥락을 뜻한다.\n학생 말투로 풀어쓴 설명: 어린 자녀를 키우는 가족이 아니라, 나이 든 부모와 성인자녀들이 다시 돌봄 문제로 얽히는 가족 장면을 말한다.\n왜 이 논문에서 중요한지: 이 연구는 부모 돌봄과 형제 긴장이 동시에 나타나는 장면을 후기 노년기 가족의 중요한 특징으로 본다.\n자주 헷갈리는 포인트: 나이 많은 부모만 뜻하는 말이 아니다. 성인자녀와의 관계를 포함한 가족 체계를 함께 보는 개념이다.",
+      "order": 4
+    },
+    {
+      "id": "chatbot-00878",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "pitfalls",
+      "pageLabel": "헷갈리는 포인트",
+      "href": "readings/suitor-et-al-2014/pitfalls.html",
+      "text": "헷갈리는 포인트\n\n1. 자주 틀리는 말\n오해: 부모 돌봄 갈등은 누가 더 많이 일했는지만 보면 설명된다.\n바로잡기: 편애 인식과 공정성 문제를 함께 봐야 한다.\n왜 중요한가: 이 논문의 핵심 추가 기여가 바로 여기에 있다.\n\n2. 자주 틀리는 말\n오해: 실제 편애가 확인되어야만 형제 긴장이 생긴다.\n바로잡기: 인식된 편애만으로도 긴장은 높아질 수 있다.\n왜 중요한가: 주관적 인식이 관계에 미치는 힘을 놓치면 논문이 약해진다.\n\n3. 자주 틀리는 말\n오해: 선호받지 못한 자녀만 긴장을 느낀다.\n바로잡기: 선호받는다고 느끼는 쪽도 공정성 문제 속에서 긴장을 경험할 수 있다.\n왜 중요한가: relational equity 관점과 연결된다.\n\n4. 자주 틀리는 말\n오해: 형제는 돌봄 상황에서 주로 지지망이므로 갈등은 부차적이다.\n바로잡기: 형제는 동시에 지지자이자 스트레스 원천이 될 수 있다.\n왜 중요한가: 논문의 문제의식 자체가 여기서 출발한다.\n\n5. 자주 틀리는 말\n오해: 이 논문은 미국 가족 이야기라 한국 가족과 연결할 필요가 없다.\n바로잡기: 부모 돌봄과 형제 갈등, 편애 인식은 한국 가족 질문에도 바로 연결된다.\n왜 중요한가: 교수님은 한국 현실 연결을 꼭 묻는다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 헷갈리는 포인트 헷갈리는 포인트\n\n1. 자주 틀리는 말\n오해: 부모 돌봄 갈등은 누가 더 많이 일했는지만 보면 설명된다.\n바로잡기: 편애 인식과 공정성 문제를 함께 봐야 한다.\n왜 중요한가: 이 논문의 핵심 추가 기여가 바로 여기에 있다.\n\n2. 자주 틀리는 말\n오해: 실제 편애가 확인되어야만 형제 긴장이 생긴다.\n바로잡기: 인식된 편애만으로도 긴장은 높아질 수 있다.\n왜 중요한가: 주관적 인식이 관계에 미치는 힘을 놓치면 논문이 약해진다.\n\n3. 자주 틀리는 말\n오해: 선호받지 못한 자녀만 긴장을 느낀다.\n바로잡기: 선호받는다고 느끼는 쪽도 공정성 문제 속에서 긴장을 경험할 수 있다.\n왜 중요한가: relational equity 관점과 연결된다.\n\n4. 자주 틀리는 말\n오해: 형제는 돌봄 상황에서 주로 지지망이므로 갈등은 부차적이다.\n바로잡기: 형제는 동시에 지지자이자 스트레스 원천이 될 수 있다.\n왜 중요한가: 논문의 문제의식 자체가 여기서 출발한다.\n\n5. 자주 틀리는 말\n오해: 이 논문은 미국 가족 이야기라 한국 가족과 연결할 필요가 없다.\n바로잡기: 부모 돌봄과 형제 갈등, 편애 인식은 한국 가족 질문에도 바로 연결된다.\n왜 중요한가: 교수님은 한국 현실 연결을 꼭 묻는다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00879",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "review-sheet",
+      "pageLabel": "시험 직전 정리",
+      "href": "readings/suitor-et-al-2014/review-sheet.html",
+      "text": "시험 직전 정리\n\n반드시 붙잡을 축\n\n문제의식: 노년기 가족 연구는 부모 돌봄 이후 형제 긴장이 커진다는 점을 반복해서 보여 주었다.\n이론적 배경: 형제는 부모가 돌봄을 필요로 할 때 지원자이자 스트레스 원천이 될 수 있다.\n연구설계와 결과: 최근 2년 안에 어머니가 돌봄을 필요로 했던 214가족, 450명의 성인자녀 자료를 사용했다.\n의미: 부모 돌봄 갈등은 단순한 노동 분담 문제가 아니라 오래된 가족 내 차별 인식이 재활성화되는 장면이다.\n\n핵심 용어 빠른 복습\n\nwithin-family differences: 같은 가족 안에서도 자녀별 경험과 관계가 다를 수 있다는 관점이다.\nsibling tension: 형제 사이의 갈등, 비난, 요구, 불편한 감정이 높아진 상태를 뜻한다.\nmaternal favoritism: 어머니가 특정 자녀를 더 선호한다고 인식되는 상태를 뜻한다.\ncaregiving: 부모의 건강 저하 이후 실제 돌봄을 제공하는 역할 수행을 말한다.\nfuture caregiver favoritism: 어머니가 앞으로 누가 주돌봄자가 되기를 바란다고 느끼는 편애 인식이다.\nrelational equity: 사람들은 관계에서 자신이 공정하게 대우받는지에 민감하다는 관점이다.\n\n교수님께 바로 할 문장\n\n이 논문의 핵심 주장을 한 문장으로 말해보라면? -> 부모 돌봄이 형제 긴장을 높이는 이유는 역할 부담만이 아니라 편애 인식이 함께 작동하기 때문입니다.\n왜 편애 인식이 그렇게 중요하다고 보나? -> 형제는 실제 자원 분배만이 아니라 공정하게 대우받는지에 매우 민감하기 때문입니다.\nwithin-family differences 관점이 왜 필요한가? -> 같은 가족 안에서도 자녀별 경험이 다르기 때문에 가족 전체 평균으로는 갈등을 설명할 수 없기 때문입니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 시험 직전 정리 시험 직전 정리\n\n반드시 붙잡을 축\n\n문제의식: 노년기 가족 연구는 부모 돌봄 이후 형제 긴장이 커진다는 점을 반복해서 보여 주었다.\n이론적 배경: 형제는 부모가 돌봄을 필요로 할 때 지원자이자 스트레스 원천이 될 수 있다.\n연구설계와 결과: 최근 2년 안에 어머니가 돌봄을 필요로 했던 214가족, 450명의 성인자녀 자료를 사용했다.\n의미: 부모 돌봄 갈등은 단순한 노동 분담 문제가 아니라 오래된 가족 내 차별 인식이 재활성화되는 장면이다.\n\n핵심 용어 빠른 복습\n\nwithin-family differences: 같은 가족 안에서도 자녀별 경험과 관계가 다를 수 있다는 관점이다.\nsibling tension: 형제 사이의 갈등, 비난, 요구, 불편한 감정이 높아진 상태를 뜻한다.\nmaternal favoritism: 어머니가 특정 자녀를 더 선호한다고 인식되는 상태를 뜻한다.\ncaregiving: 부모의 건강 저하 이후 실제 돌봄을 제공하는 역할 수행을 말한다.\nfuture caregiver favoritism: 어머니가 앞으로 누가 주돌봄자가 되기를 바란다고 느끼는 편애 인식이다.\nrelational equity: 사람들은 관계에서 자신이 공정하게 대우받는지에 민감하다는 관점이다.\n\n교수님께 바로 할 문장\n\n이 논문의 핵심 주장을 한 문장으로 말해보라면? -> 부모 돌봄이 형제 긴장을 높이는 이유는 역할 부담만이 아니라 편애 인식이 함께 작동하기 때문입니다.\n왜 편애 인식이 그렇게 중요하다고 보나? -> 형제는 실제 자원 분배만이 아니라 공정하게 대우받는지에 매우 민감하기 때문입니다.\nwithin-family differences 관점이 왜 필요한가? -> 같은 가족 안에서도 자녀별 경험이 다르기 때문에 가족 전체 평균으로는 갈등을 설명할 수 없기 때문입니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00880",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "이 논문의 핵심 주장\n저는 이 논문을 부모 돌봄 갈등을 단순한 노동 분담 문제가 아니라 형제 사이 공정성 인식의 문제로 읽었습니다. 실제 돌봄을 하는 자녀도 형제 긴장을 더 크게 느꼈고, 어머니가 특정 자녀를 더 선호한다는 인식이 있을 때 그 긴장이 더 커졌다는 점이 핵심입니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 이 논문의 핵심 주장\n저는 이 논문을 부모 돌봄 갈등을 단순한 노동 분담 문제가 아니라 형제 사이 공정성 인식의 문제로 읽었습니다. 실제 돌봄을 하는 자녀도 형제 긴장을 더 크게 느꼈고, 어머니가 특정 자녀를 더 선호한다는 인식이 있을 때 그 긴장이 더 커졌다는 점이 핵심입니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00881",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "왜 이 글이 중요하다고 봤는지\n중요한 이유는 형제자매를 돌봄 지원망으로만 보지 않고 스트레스와 갈등의 원천으로도 봤기 때문입니다. 부모가 아픈 상황에서 형제관계가 오히려 더 나빠질 수 있다는 점을 실증적으로 보여 줬다는 데 의미가 있습니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 왜 이 글이 중요하다고 봤는지\n중요한 이유는 형제자매를 돌봄 지원망으로만 보지 않고 스트레스와 갈등의 원천으로도 봤기 때문입니다. 부모가 아픈 상황에서 형제관계가 오히려 더 나빠질 수 있다는 점을 실증적으로 보여 줬다는 데 의미가 있습니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00882",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "within-family differences를 어떻게 읽었는지\n이 글에서 within-family differences는 같은 가족 안에서도 자녀별 경험이 다르다는 관점입니다. 누가 돌봄을 하고, 누가 선호받는다고 느끼고, 누가 배제감을 느끼는지를 따로 봐야 형제 긴장을 제대로 설명할 수 있다고 이해했습니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 within-family differences를 어떻게 읽었는지\n이 글에서 within-family differences는 같은 가족 안에서도 자녀별 경험이 다르다는 관점입니다. 누가 돌봄을 하고, 누가 선호받는다고 느끼고, 누가 배제감을 느끼는지를 따로 봐야 형제 긴장을 제대로 설명할 수 있다고 이해했습니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00883",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "형제 긴장을 어떻게 정의해야 하는지\n논문에서 형제 긴장은 그냥 친밀감이 낮다는 뜻이 아니라, 비난과 다툼, 과도한 요구가 높아지는 상태입니다. 그래서 이 연구는 형제관계의 따뜻함보다 갈등과 압박이 커지는 메커니즘을 보는 글이라고 정리할 수 있습니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 형제 긴장을 어떻게 정의해야 하는지\n논문에서 형제 긴장은 그냥 친밀감이 낮다는 뜻이 아니라, 비난과 다툼, 과도한 요구가 높아지는 상태입니다. 그래서 이 연구는 형제관계의 따뜻함보다 갈등과 압박이 커지는 메커니즘을 보는 글이라고 정리할 수 있습니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00884",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "편애 인식이 왜 그렇게 중요했는지\n이 글은 실제 편애보다 인식된 편애를 더 중요하게 봅니다. 부모가 정말 누구를 더 좋아했는지보다 자녀가 그렇게 느끼는 순간 관계의 공정성 감각이 깨지고 형제 긴장이 커진다는 점을 보여 주기 때문입니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 편애 인식이 왜 그렇게 중요했는지\n이 글은 실제 편애보다 인식된 편애를 더 중요하게 봅니다. 부모가 정말 누구를 더 좋아했는지보다 자녀가 그렇게 느끼는 순간 관계의 공정성 감각이 깨지고 형제 긴장이 커진다는 점을 보여 주기 때문입니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00885",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "관계적 공정성과 연결해서 설명\n이 논문은 relational equity 관점과 잘 맞습니다. 자신이 손해 봤다고 느낄 때만 문제가 생기는 게 아니라, 관계가 불공평하다고 느끼는 순간 누구든 불편해질 수 있어서, 선호된 자녀든 아니든 모두 긴장을 경험할 수 있다고 읽었습니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 관계적 공정성과 연결해서 설명\n이 논문은 relational equity 관점과 잘 맞습니다. 자신이 손해 봤다고 느낄 때만 문제가 생기는 게 아니라, 관계가 불공평하다고 느끼는 순간 누구든 불편해질 수 있어서, 선호된 자녀든 아니든 모두 긴장을 경험할 수 있다고 읽었습니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00886",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "자료 설계의 핵심\n방법론적으로는 214가족 안에 450명의 성인자녀가 들어 있는 중첩 구조가 중요했습니다. 그래서 가족 평균만 보는 게 아니라 같은 가족 안 자녀 차이와 가족 간 차이를 함께 보기 위해 다층분석을 썼다는 점이 설계의 핵심입니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 자료 설계의 핵심\n방법론적으로는 214가족 안에 450명의 성인자녀가 들어 있는 중첩 구조가 중요했습니다. 그래서 가족 평균만 보는 게 아니라 같은 가족 안 자녀 차이와 가족 간 차이를 함께 보기 위해 다층분석을 썼다는 점이 설계의 핵심입니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00887",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "표본을 한 문장으로 정리\n표본은 최근 2년 안에 어머니가 돌봄을 필요로 했다고 보고한 가족들만 추린 것으로, 214가족의 450명 성인자녀 자료입니다. 즉 어머니 돌봄이 실제 가족 안에서 긴장을 어떻게 바꾸는지 보기 위한 표본이라고 말하면 됩니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 표본을 한 문장으로 정리\n표본은 최근 2년 안에 어머니가 돌봄을 필요로 했다고 보고한 가족들만 추린 것으로, 214가족의 450명 성인자녀 자료입니다. 즉 어머니 돌봄이 실제 가족 안에서 긴장을 어떻게 바꾸는지 보기 위한 표본이라고 말하면 됩니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00888",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "주요 결과 1: 돌봄 수행\n첫 번째 결과는 최근 어머니를 실제로 돌본 자녀가 비돌봄 형제자매보다 더 큰 형제 긴장을 보고했다는 점입니다. 돌봄 자체가 역할 부담과 감정 소진을 통해 형제 갈등을 높이는 변수로 작동했다고 이해했습니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 주요 결과 1: 돌봄 수행\n첫 번째 결과는 최근 어머니를 실제로 돌본 자녀가 비돌봄 형제자매보다 더 큰 형제 긴장을 보고했다는 점입니다. 돌봄 자체가 역할 부담과 감정 소진을 통해 형제 갈등을 높이는 변수로 작동했다고 이해했습니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00889",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "주요 결과 2: 미래 돌봄자 편애 인식\n두 번째 결과는 어머니가 앞으로 특정 자녀를 주돌봄자로 더 선호한다고 인식한 경우 역시 형제 긴장이 높아졌다는 점입니다. 아직 실제 역할이 배정되지 않았더라도 기대와 인정의 방향이 갈등을 만든다는 해석이 가능합니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 주요 결과 2: 미래 돌봄자 편애 인식\n두 번째 결과는 어머니가 앞으로 특정 자녀를 주돌봄자로 더 선호한다고 인식한 경우 역시 형제 긴장이 높아졌다는 점입니다. 아직 실제 역할이 배정되지 않았더라도 기대와 인정의 방향이 갈등을 만든다는 해석이 가능합니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00890",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "상호작용 효과를 쉽게 말하기\n상호작용 효과는 돌봄 부담과 편애 인식이 따로가 아니라 서로를 증폭했다는 뜻입니다. 그래서 간병을 실제로 하는 자녀가 동시에 어머니가 특정 자녀를 더 선호한다고 느끼면 형제 긴장이 가장 높아졌다고 설명하면 됩니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 상호작용 효과를 쉽게 말하기\n상호작용 효과는 돌봄 부담과 편애 인식이 따로가 아니라 서로를 증폭했다는 뜻입니다. 그래서 간병을 실제로 하는 자녀가 동시에 어머니가 특정 자녀를 더 선호한다고 느끼면 형제 긴장이 가장 높아졌다고 설명하면 됩니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00891",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "누가 선호되었는지는 왜 덜 중요했는지\n흥미로운 점은 자신이 선호되었다고 느끼든 다른 형제가 선호되었다고 느끼든 결과 패턴이 거의 같았다는 것입니다. 결국 누가 선택되었느냐보다, 누군가 선택되었다는 인식 자체가 관계를 불편하게 만든다고 말할 수 있습니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 누가 선호되었는지는 왜 덜 중요했는지\n흥미로운 점은 자신이 선호되었다고 느끼든 다른 형제가 선호되었다고 느끼든 결과 패턴이 거의 같았다는 것입니다. 결국 누가 선택되었느냐보다, 누군가 선택되었다는 인식 자체가 관계를 불편하게 만든다고 말할 수 있습니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00892",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "이 논문의 한계\n한계는 어머니 중심 자료라는 점과, 자녀의 어린 시절 성격이나 기존 형제관계 같은 장기 요인을 충분히 넣지 못했다는 점입니다. 그래서 저는 이 연구를 강한 인과 증명이라기보다, 돌봄과 편애 인식이 결합할 때 갈등이 커진다는 중요한 패턴 제시로 봤습니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 이 논문의 한계\n한계는 어머니 중심 자료라는 점과, 자녀의 어린 시절 성격이나 기존 형제관계 같은 장기 요인을 충분히 넣지 못했다는 점입니다. 그래서 저는 이 연구를 강한 인과 증명이라기보다, 돌봄과 편애 인식이 결합할 때 갈등이 커진다는 중요한 패턴 제시로 봤습니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00893",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "실천적 함의를 어떻게 말할지\n실천적으로는 가족 돌봄 조정이 노동 분담만의 문제가 아니라 감정과 공정성 인식을 다루는 과정이어야 한다는 점이 중요합니다. 누가 얼마나 했는지뿐 아니라 왜 그렇게 결정되었는지 설명하고 조율하는 과정이 필요하다는 뜻입니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 실천적 함의를 어떻게 말할지\n실천적으로는 가족 돌봄 조정이 노동 분담만의 문제가 아니라 감정과 공정성 인식을 다루는 과정이어야 한다는 점이 중요합니다. 누가 얼마나 했는지뿐 아니라 왜 그렇게 결정되었는지 설명하고 조율하는 과정이 필요하다는 뜻입니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00894",
+      "slug": "suitor-et-al-2014",
+      "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "pageKey": "professor-prep",
+      "pageLabel": "읽기 답변 준비",
+      "href": "readings/suitor-et-al-2014/professor-prep.html",
+      "text": "한국 가족과 연결해서 말하기\n한국 맥락에서는 장남 책임, 딸 간병, 가까이 사는 자녀의 역할 같은 규범이 편애 인식과 쉽게 얽힌다고 연결할 수 있습니다. 그래서 이 논문은 한국 가족에서도 부모 돌봄 갈등을 이해할 때 인정과 차별 감각을 같이 봐야 한다는 근거로 사용할 수 있습니다.",
+      "searchText": "caregiving, perceptions of maternal favoritism, and tension among siblings 읽기 답변 준비 한국 가족과 연결해서 말하기\n한국 맥락에서는 장남 책임, 딸 간병, 가까이 사는 자녀의 역할 같은 규범이 편애 인식과 쉽게 얽힌다고 연결할 수 있습니다. 그래서 이 논문은 한국 가족에서도 부모 돌봄 갈등을 이해할 때 인정과 차별 감각을 같이 봐야 한다는 근거로 사용할 수 있습니다.",
+      "order": 1
+    },
+    {
+      "id": "chatbot-00895",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "overview",
@@ -8671,7 +9848,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00789",
+      "id": "chatbot-00896",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -8682,7 +9859,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00790",
+      "id": "chatbot-00897",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -8693,7 +9870,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00791",
+      "id": "chatbot-00898",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -8704,7 +9881,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00792",
+      "id": "chatbot-00899",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -8715,7 +9892,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00793",
+      "id": "chatbot-00900",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8726,7 +9903,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00794",
+      "id": "chatbot-00901",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8737,7 +9914,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00795",
+      "id": "chatbot-00902",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8748,7 +9925,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00796",
+      "id": "chatbot-00903",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8759,7 +9936,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00797",
+      "id": "chatbot-00904",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8770,7 +9947,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00798",
+      "id": "chatbot-00905",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8781,7 +9958,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00799",
+      "id": "chatbot-00906",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8792,7 +9969,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00800",
+      "id": "chatbot-00907",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8803,7 +9980,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00801",
+      "id": "chatbot-00908",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8814,7 +9991,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00802",
+      "id": "chatbot-00909",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8825,7 +10002,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00803",
+      "id": "chatbot-00910",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8836,7 +10013,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00804",
+      "id": "chatbot-00911",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8847,7 +10024,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00805",
+      "id": "chatbot-00912",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8858,7 +10035,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00806",
+      "id": "chatbot-00913",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8869,7 +10046,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00807",
+      "id": "chatbot-00914",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8880,7 +10057,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00808",
+      "id": "chatbot-00915",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8891,7 +10068,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00809",
+      "id": "chatbot-00916",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8902,7 +10079,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00810",
+      "id": "chatbot-00917",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8913,7 +10090,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00811",
+      "id": "chatbot-00918",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8924,7 +10101,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00812",
+      "id": "chatbot-00919",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8935,7 +10112,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00813",
+      "id": "chatbot-00920",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8946,7 +10123,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00814",
+      "id": "chatbot-00921",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8957,7 +10134,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00815",
+      "id": "chatbot-00922",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8968,7 +10145,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00816",
+      "id": "chatbot-00923",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8979,7 +10156,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00817",
+      "id": "chatbot-00924",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -8990,7 +10167,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00818",
+      "id": "chatbot-00925",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9001,7 +10178,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00819",
+      "id": "chatbot-00926",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9012,7 +10189,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-00820",
+      "id": "chatbot-00927",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9023,7 +10200,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-00821",
+      "id": "chatbot-00928",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9034,7 +10211,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-00822",
+      "id": "chatbot-00929",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9045,7 +10222,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-00823",
+      "id": "chatbot-00930",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9056,7 +10233,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-00824",
+      "id": "chatbot-00931",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9067,7 +10244,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-00825",
+      "id": "chatbot-00932",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9078,7 +10255,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-00826",
+      "id": "chatbot-00933",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9089,7 +10266,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-00827",
+      "id": "chatbot-00934",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9100,7 +10277,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-00828",
+      "id": "chatbot-00935",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9111,7 +10288,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-00829",
+      "id": "chatbot-00936",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9122,7 +10299,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-00830",
+      "id": "chatbot-00937",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9133,7 +10310,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-00831",
+      "id": "chatbot-00938",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9144,7 +10321,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-00832",
+      "id": "chatbot-00939",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9155,7 +10332,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-00833",
+      "id": "chatbot-00940",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9166,7 +10343,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-00834",
+      "id": "chatbot-00941",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9177,7 +10354,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-00835",
+      "id": "chatbot-00942",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9188,7 +10365,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-00836",
+      "id": "chatbot-00943",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9199,7 +10376,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-00837",
+      "id": "chatbot-00944",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9210,7 +10387,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-00838",
+      "id": "chatbot-00945",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9221,7 +10398,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-00839",
+      "id": "chatbot-00946",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9232,7 +10409,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-00840",
+      "id": "chatbot-00947",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9243,7 +10420,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-00841",
+      "id": "chatbot-00948",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9254,7 +10431,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-00842",
+      "id": "chatbot-00949",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9265,7 +10442,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-00843",
+      "id": "chatbot-00950",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9276,7 +10453,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-00844",
+      "id": "chatbot-00951",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9287,7 +10464,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-00845",
+      "id": "chatbot-00952",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9298,7 +10475,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-00846",
+      "id": "chatbot-00953",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9309,7 +10486,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-00847",
+      "id": "chatbot-00954",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9320,7 +10497,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-00848",
+      "id": "chatbot-00955",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9331,7 +10508,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-00849",
+      "id": "chatbot-00956",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9342,7 +10519,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-00850",
+      "id": "chatbot-00957",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9353,7 +10530,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-00851",
+      "id": "chatbot-00958",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9364,7 +10541,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-00852",
+      "id": "chatbot-00959",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9375,7 +10552,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-00853",
+      "id": "chatbot-00960",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9386,7 +10563,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-00854",
+      "id": "chatbot-00961",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9397,7 +10574,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-00855",
+      "id": "chatbot-00962",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9408,7 +10585,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-00856",
+      "id": "chatbot-00963",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9419,7 +10596,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-00857",
+      "id": "chatbot-00964",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9430,7 +10607,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-00858",
+      "id": "chatbot-00965",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9441,7 +10618,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-00859",
+      "id": "chatbot-00966",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9452,7 +10629,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-00860",
+      "id": "chatbot-00967",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9463,7 +10640,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-00861",
+      "id": "chatbot-00968",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9474,7 +10651,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 69
     },
     {
-      "id": "chatbot-00862",
+      "id": "chatbot-00969",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9485,7 +10662,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 70
     },
     {
-      "id": "chatbot-00863",
+      "id": "chatbot-00970",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9496,7 +10673,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 71
     },
     {
-      "id": "chatbot-00864",
+      "id": "chatbot-00971",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9507,7 +10684,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 72
     },
     {
-      "id": "chatbot-00865",
+      "id": "chatbot-00972",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9518,7 +10695,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 73
     },
     {
-      "id": "chatbot-00866",
+      "id": "chatbot-00973",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9529,7 +10706,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 74
     },
     {
-      "id": "chatbot-00867",
+      "id": "chatbot-00974",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9540,7 +10717,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 75
     },
     {
-      "id": "chatbot-00868",
+      "id": "chatbot-00975",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9551,7 +10728,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 76
     },
     {
-      "id": "chatbot-00869",
+      "id": "chatbot-00976",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9562,7 +10739,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 77
     },
     {
-      "id": "chatbot-00870",
+      "id": "chatbot-00977",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9573,7 +10750,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 78
     },
     {
-      "id": "chatbot-00871",
+      "id": "chatbot-00978",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9584,7 +10761,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 79
     },
     {
-      "id": "chatbot-00872",
+      "id": "chatbot-00979",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9595,7 +10772,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 80
     },
     {
-      "id": "chatbot-00873",
+      "id": "chatbot-00980",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9606,7 +10783,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 81
     },
     {
-      "id": "chatbot-00874",
+      "id": "chatbot-00981",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9617,7 +10794,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 82
     },
     {
-      "id": "chatbot-00875",
+      "id": "chatbot-00982",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9628,7 +10805,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 83
     },
     {
-      "id": "chatbot-00876",
+      "id": "chatbot-00983",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9639,7 +10816,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 84
     },
     {
-      "id": "chatbot-00877",
+      "id": "chatbot-00984",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9650,7 +10827,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 85
     },
     {
-      "id": "chatbot-00878",
+      "id": "chatbot-00985",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9661,7 +10838,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 86
     },
     {
-      "id": "chatbot-00879",
+      "id": "chatbot-00986",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9672,7 +10849,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 87
     },
     {
-      "id": "chatbot-00880",
+      "id": "chatbot-00987",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9683,7 +10860,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 88
     },
     {
-      "id": "chatbot-00881",
+      "id": "chatbot-00988",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9694,7 +10871,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 89
     },
     {
-      "id": "chatbot-00882",
+      "id": "chatbot-00989",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9705,7 +10882,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 90
     },
     {
-      "id": "chatbot-00883",
+      "id": "chatbot-00990",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9716,7 +10893,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 91
     },
     {
-      "id": "chatbot-00884",
+      "id": "chatbot-00991",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9727,7 +10904,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 92
     },
     {
-      "id": "chatbot-00885",
+      "id": "chatbot-00992",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9738,7 +10915,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 93
     },
     {
-      "id": "chatbot-00886",
+      "id": "chatbot-00993",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9749,7 +10926,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 94
     },
     {
-      "id": "chatbot-00887",
+      "id": "chatbot-00994",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9760,7 +10937,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 95
     },
     {
-      "id": "chatbot-00888",
+      "id": "chatbot-00995",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9771,7 +10948,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 96
     },
     {
-      "id": "chatbot-00889",
+      "id": "chatbot-00996",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9782,7 +10959,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 97
     },
     {
-      "id": "chatbot-00890",
+      "id": "chatbot-00997",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9793,7 +10970,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 98
     },
     {
-      "id": "chatbot-00891",
+      "id": "chatbot-00998",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9804,7 +10981,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 99
     },
     {
-      "id": "chatbot-00892",
+      "id": "chatbot-00999",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9815,7 +10992,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 100
     },
     {
-      "id": "chatbot-00893",
+      "id": "chatbot-01000",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9826,7 +11003,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 101
     },
     {
-      "id": "chatbot-00894",
+      "id": "chatbot-01001",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9837,7 +11014,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 102
     },
     {
-      "id": "chatbot-00895",
+      "id": "chatbot-01002",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9848,7 +11025,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 103
     },
     {
-      "id": "chatbot-00896",
+      "id": "chatbot-01003",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9859,7 +11036,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 104
     },
     {
-      "id": "chatbot-00897",
+      "id": "chatbot-01004",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9870,7 +11047,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 105
     },
     {
-      "id": "chatbot-00898",
+      "id": "chatbot-01005",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9881,7 +11058,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 106
     },
     {
-      "id": "chatbot-00899",
+      "id": "chatbot-01006",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9892,7 +11069,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 107
     },
     {
-      "id": "chatbot-00900",
+      "id": "chatbot-01007",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9903,7 +11080,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 108
     },
     {
-      "id": "chatbot-00901",
+      "id": "chatbot-01008",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9914,7 +11091,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 109
     },
     {
-      "id": "chatbot-00902",
+      "id": "chatbot-01009",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9925,7 +11102,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 110
     },
     {
-      "id": "chatbot-00903",
+      "id": "chatbot-01010",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9936,7 +11113,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 111
     },
     {
-      "id": "chatbot-00904",
+      "id": "chatbot-01011",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9947,7 +11124,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 112
     },
     {
-      "id": "chatbot-00905",
+      "id": "chatbot-01012",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9958,7 +11135,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 113
     },
     {
-      "id": "chatbot-00906",
+      "id": "chatbot-01013",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9969,7 +11146,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 114
     },
     {
-      "id": "chatbot-00907",
+      "id": "chatbot-01014",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9980,7 +11157,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 115
     },
     {
-      "id": "chatbot-00908",
+      "id": "chatbot-01015",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -9991,7 +11168,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 116
     },
     {
-      "id": "chatbot-00909",
+      "id": "chatbot-01016",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10002,7 +11179,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 117
     },
     {
-      "id": "chatbot-00910",
+      "id": "chatbot-01017",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10013,7 +11190,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 118
     },
     {
-      "id": "chatbot-00911",
+      "id": "chatbot-01018",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10024,7 +11201,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 119
     },
     {
-      "id": "chatbot-00912",
+      "id": "chatbot-01019",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10035,7 +11212,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 120
     },
     {
-      "id": "chatbot-00913",
+      "id": "chatbot-01020",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10046,7 +11223,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 121
     },
     {
-      "id": "chatbot-00914",
+      "id": "chatbot-01021",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10057,7 +11234,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 122
     },
     {
-      "id": "chatbot-00915",
+      "id": "chatbot-01022",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10068,7 +11245,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 123
     },
     {
-      "id": "chatbot-00916",
+      "id": "chatbot-01023",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10079,7 +11256,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 124
     },
     {
-      "id": "chatbot-00917",
+      "id": "chatbot-01024",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10090,7 +11267,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 125
     },
     {
-      "id": "chatbot-00918",
+      "id": "chatbot-01025",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10101,7 +11278,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 126
     },
     {
-      "id": "chatbot-00919",
+      "id": "chatbot-01026",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10112,7 +11289,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 127
     },
     {
-      "id": "chatbot-00920",
+      "id": "chatbot-01027",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10123,7 +11300,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 128
     },
     {
-      "id": "chatbot-00921",
+      "id": "chatbot-01028",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10134,7 +11311,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 129
     },
     {
-      "id": "chatbot-00922",
+      "id": "chatbot-01029",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -10145,7 +11322,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 130
     },
     {
-      "id": "chatbot-00923",
+      "id": "chatbot-01030",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10156,7 +11333,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-00924",
+      "id": "chatbot-01031",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10167,7 +11344,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-00925",
+      "id": "chatbot-01032",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10178,7 +11355,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-00926",
+      "id": "chatbot-01033",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10189,7 +11366,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-00927",
+      "id": "chatbot-01034",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10200,7 +11377,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-00928",
+      "id": "chatbot-01035",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10211,7 +11388,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-00929",
+      "id": "chatbot-01036",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10222,7 +11399,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-00930",
+      "id": "chatbot-01037",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10233,7 +11410,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-00931",
+      "id": "chatbot-01038",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10244,7 +11421,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-00932",
+      "id": "chatbot-01039",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10255,7 +11432,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-00933",
+      "id": "chatbot-01040",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10266,7 +11443,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-00934",
+      "id": "chatbot-01041",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10277,7 +11454,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-00935",
+      "id": "chatbot-01042",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10288,7 +11465,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-00936",
+      "id": "chatbot-01043",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10299,7 +11476,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-00937",
+      "id": "chatbot-01044",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10310,7 +11487,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-00938",
+      "id": "chatbot-01045",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10321,7 +11498,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-00939",
+      "id": "chatbot-01046",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10332,7 +11509,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-00940",
+      "id": "chatbot-01047",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10343,7 +11520,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-00941",
+      "id": "chatbot-01048",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10354,7 +11531,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-00942",
+      "id": "chatbot-01049",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10365,7 +11542,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-00943",
+      "id": "chatbot-01050",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10376,7 +11553,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-00944",
+      "id": "chatbot-01051",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10387,7 +11564,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-00945",
+      "id": "chatbot-01052",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10398,7 +11575,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-00946",
+      "id": "chatbot-01053",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10409,7 +11586,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-00947",
+      "id": "chatbot-01054",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10420,7 +11597,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-00948",
+      "id": "chatbot-01055",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10431,7 +11608,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-00949",
+      "id": "chatbot-01056",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10442,7 +11619,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-00950",
+      "id": "chatbot-01057",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10453,7 +11630,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-00951",
+      "id": "chatbot-01058",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10464,7 +11641,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-00952",
+      "id": "chatbot-01059",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10475,7 +11652,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-00953",
+      "id": "chatbot-01060",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10486,7 +11663,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-00954",
+      "id": "chatbot-01061",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10497,7 +11674,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-00955",
+      "id": "chatbot-01062",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10508,7 +11685,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-00956",
+      "id": "chatbot-01063",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10519,7 +11696,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-00957",
+      "id": "chatbot-01064",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10530,7 +11707,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-00958",
+      "id": "chatbot-01065",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10541,7 +11718,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-00959",
+      "id": "chatbot-01066",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10552,7 +11729,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-00960",
+      "id": "chatbot-01067",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10563,7 +11740,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-00961",
+      "id": "chatbot-01068",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10574,7 +11751,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-00962",
+      "id": "chatbot-01069",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10585,7 +11762,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-00963",
+      "id": "chatbot-01070",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10596,7 +11773,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-00964",
+      "id": "chatbot-01071",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10607,7 +11784,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-00965",
+      "id": "chatbot-01072",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10618,7 +11795,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-00966",
+      "id": "chatbot-01073",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10629,7 +11806,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-00967",
+      "id": "chatbot-01074",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10640,7 +11817,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-00968",
+      "id": "chatbot-01075",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10651,7 +11828,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-00969",
+      "id": "chatbot-01076",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10662,7 +11839,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-00970",
+      "id": "chatbot-01077",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10673,7 +11850,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-00971",
+      "id": "chatbot-01078",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10684,7 +11861,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-00972",
+      "id": "chatbot-01079",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10695,7 +11872,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-00973",
+      "id": "chatbot-01080",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10706,7 +11883,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-00974",
+      "id": "chatbot-01081",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10717,7 +11894,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-00975",
+      "id": "chatbot-01082",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10728,7 +11905,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-00976",
+      "id": "chatbot-01083",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10739,7 +11916,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-00977",
+      "id": "chatbot-01084",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10750,7 +11927,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-00978",
+      "id": "chatbot-01085",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10761,7 +11938,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-00979",
+      "id": "chatbot-01086",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10772,7 +11949,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-00980",
+      "id": "chatbot-01087",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10783,7 +11960,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-00981",
+      "id": "chatbot-01088",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10794,7 +11971,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-00982",
+      "id": "chatbot-01089",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10805,7 +11982,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-00983",
+      "id": "chatbot-01090",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10816,7 +11993,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-00984",
+      "id": "chatbot-01091",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10827,7 +12004,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-00985",
+      "id": "chatbot-01092",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10838,7 +12015,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-00986",
+      "id": "chatbot-01093",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10849,7 +12026,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-00987",
+      "id": "chatbot-01094",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10860,7 +12037,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-00988",
+      "id": "chatbot-01095",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10871,7 +12048,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-00989",
+      "id": "chatbot-01096",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10882,7 +12059,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-00990",
+      "id": "chatbot-01097",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10893,7 +12070,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-00991",
+      "id": "chatbot-01098",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10904,7 +12081,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 69
     },
     {
-      "id": "chatbot-00992",
+      "id": "chatbot-01099",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10915,7 +12092,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 70
     },
     {
-      "id": "chatbot-00993",
+      "id": "chatbot-01100",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10926,7 +12103,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 71
     },
     {
-      "id": "chatbot-00994",
+      "id": "chatbot-01101",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10937,7 +12114,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 72
     },
     {
-      "id": "chatbot-00995",
+      "id": "chatbot-01102",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10948,7 +12125,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 73
     },
     {
-      "id": "chatbot-00996",
+      "id": "chatbot-01103",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10959,7 +12136,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 74
     },
     {
-      "id": "chatbot-00997",
+      "id": "chatbot-01104",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10970,7 +12147,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 75
     },
     {
-      "id": "chatbot-00998",
+      "id": "chatbot-01105",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10981,7 +12158,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 76
     },
     {
-      "id": "chatbot-00999",
+      "id": "chatbot-01106",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -10992,7 +12169,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 77
     },
     {
-      "id": "chatbot-01000",
+      "id": "chatbot-01107",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11003,7 +12180,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 78
     },
     {
-      "id": "chatbot-01001",
+      "id": "chatbot-01108",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11014,7 +12191,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 79
     },
     {
-      "id": "chatbot-01002",
+      "id": "chatbot-01109",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11025,7 +12202,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 80
     },
     {
-      "id": "chatbot-01003",
+      "id": "chatbot-01110",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11036,7 +12213,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 81
     },
     {
-      "id": "chatbot-01004",
+      "id": "chatbot-01111",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11047,7 +12224,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 82
     },
     {
-      "id": "chatbot-01005",
+      "id": "chatbot-01112",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11058,7 +12235,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 83
     },
     {
-      "id": "chatbot-01006",
+      "id": "chatbot-01113",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11069,7 +12246,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 84
     },
     {
-      "id": "chatbot-01007",
+      "id": "chatbot-01114",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11080,7 +12257,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 85
     },
     {
-      "id": "chatbot-01008",
+      "id": "chatbot-01115",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11091,7 +12268,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 86
     },
     {
-      "id": "chatbot-01009",
+      "id": "chatbot-01116",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11102,7 +12279,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 87
     },
     {
-      "id": "chatbot-01010",
+      "id": "chatbot-01117",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -11113,7 +12290,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 88
     },
     {
-      "id": "chatbot-01011",
+      "id": "chatbot-01118",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -11124,7 +12301,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01012",
+      "id": "chatbot-01119",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -11135,7 +12312,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01013",
+      "id": "chatbot-01120",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -11146,7 +12323,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01014",
+      "id": "chatbot-01121",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -11157,7 +12334,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01015",
+      "id": "chatbot-01122",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -11168,7 +12345,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01016",
+      "id": "chatbot-01123",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -11179,7 +12356,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01017",
+      "id": "chatbot-01124",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -11190,7 +12367,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01018",
+      "id": "chatbot-01125",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -11201,7 +12378,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01019",
+      "id": "chatbot-01126",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -11212,7 +12389,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01020",
+      "id": "chatbot-01127",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -11223,7 +12400,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01021",
+      "id": "chatbot-01128",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -11234,7 +12411,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01022",
+      "id": "chatbot-01129",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -11245,7 +12422,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01023",
+      "id": "chatbot-01130",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -11256,7 +12433,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01024",
+      "id": "chatbot-01131",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -11267,7 +12444,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01025",
+      "id": "chatbot-01132",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -11278,7 +12455,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01026",
+      "id": "chatbot-01133",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -11289,7 +12466,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01027",
+      "id": "chatbot-01134",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11300,7 +12477,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01028",
+      "id": "chatbot-01135",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11311,7 +12488,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01029",
+      "id": "chatbot-01136",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11322,7 +12499,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01030",
+      "id": "chatbot-01137",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11333,7 +12510,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01031",
+      "id": "chatbot-01138",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11344,7 +12521,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01032",
+      "id": "chatbot-01139",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11355,7 +12532,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01033",
+      "id": "chatbot-01140",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11366,7 +12543,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01034",
+      "id": "chatbot-01141",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11377,7 +12554,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01035",
+      "id": "chatbot-01142",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11388,7 +12565,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01036",
+      "id": "chatbot-01143",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11399,7 +12576,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01037",
+      "id": "chatbot-01144",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11410,7 +12587,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01038",
+      "id": "chatbot-01145",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11421,7 +12598,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01039",
+      "id": "chatbot-01146",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11432,7 +12609,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01040",
+      "id": "chatbot-01147",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -11443,7 +12620,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01041",
+      "id": "chatbot-01148",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
