@@ -381,6 +381,8 @@ Additional QA expectations:
   - `answer_30s`
 - `교수님 구술 대비` (`professor-prep`) must first clear the `3` to `5` card draft checkpoint before expansion to the full published set.
 - `교수님 구술 대비` answers should be specific enough to survive at least one obvious follow-up from the professor-style list; cards that collapse under `What exactly do you mean?` are not approval-ready.
+- `교수님 구술 대비` is not approval-ready if it reads like a concept glossary, chapter summary, or neutral explanatory note set. If most cards could move into `concepts` with little change, reopen the page family.
+- A strong `교수님 구술 대비` set should include a mix of reading-thesis cards, contrast/distinction cards, changed-interpretation cards, and implication/policy cards rather than repeating only `X is Y` definition cards.
 - Quiz page families should test reading-specific distinctions, not only generic definition recall.
 - `pitfalls` and `review-sheet` are not allowed to stay at generic template level. They must name paper-specific traps, contrasts, ages, moderators, time windows, or effect-pattern distinctions that a student could actually be pressed on in follow-up questioning.
 - Different quiz families should complement each other instead of recycling the same fact set in multiple formats. Limited overlap for one or two anchor facts is acceptable, but broad duplication across `quiz-ox`, `quiz-short`, and `quiz-mcq` is a reopen reason.
@@ -813,9 +815,13 @@ This page should be built for follow-up defense.
 - Strong default opening frames include:
   - `저는 이 글을 X와 Y를 구분해서 읽었습니다`
   - `처음에는 A라고 생각했는데 읽고 나서는 B가 더 중요하다고 봤습니다`
+- Do not let the page collapse into concept-definition cards. A card that mainly answers `X란 무엇인가` without showing why that distinction mattered in reading the text is usually too weak for approval.
 - Do not publish cards that merely restate the article summary with `저는`, `이 글은`, or similar first-person wrappers unless the card also makes clear what distinction, changed expectation, or reading angle the student is foregrounding.
 - Do not use raw audio, raw STT, or uncorrected transcript fragments as publish-grade evidence for new cards.
 - Every `answer_30s` should include at least one concrete reading anchor such as a concept, variable, method, finding, limitation, year, age group, or comparison pair from the actual reading.
+- Prefer cards that open with the student's reading lens or changed interpretation before the definition. `저는 이 글을 ...로 읽었습니다` or `처음에는 ...라고 생각했는데` is usually stronger than starting with `X는 ...이다`.
+- Across a full published set, make sure multiple cards use concrete anchors such as statistics, role/type distinctions, named model dimensions, age groups, years, or Korean family/policy context rather than relying only on abstract labels.
+- If a finished card still sounds like it belongs on `concepts.md`, rewrite it until it becomes an oral answer with stance, comparison, or implication.
 - When refreshing from lecture evidence, first draft only `3` to `5` cards, review them against the approved bundle and the reading, and only then expand.
 - Default refresh mode is partial replacement of only the cards directly supported by the new approved lecture evidence.
 - Use a full-page rebuild only when the new lecture evidence changes the overall answer frame, likely follow-up pattern, preferred answer shape, evaluation emphasis, or recurring confusion map for that reading.

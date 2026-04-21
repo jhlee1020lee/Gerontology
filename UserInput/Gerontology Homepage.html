@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>성인발달과노화 — 홈 리디자인</title>
+<link rel="stylesheet" href="styles.css" />
+<script>
+  (() => {
+    try {
+      const t = localStorage.getItem("proto-theme");
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a class="brand-mark" href="#" aria-label="Home"><img src="assets/snu.png" alt="" /></a>
+    <div>
+      <p class="brand-title">2026-1 성인발달과노화</p>
+      <p class="brand-sub">읽기 사이트 · 홈 리디자인</p>
+    </div>
+  </div>
+  <div class="topbar-actions">
+    <span class="crumb" id="crumb"><b>홈</b></span>
+    <button class="ghost-btn" id="theme-toggle">다크 모드</button>
+  </div>
+</header>
+
+<main id="root"></main>
+
+<footer class="site-foot">
+  성인발달과노화 · 수업 자료 학습 공간 · prototype · 오늘 = 2026. 4. 21.
+</footer>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="data.js"></script>
+<script src="home.js"></script>
+<script src="reading.js"></script>
+
+<script>
+  // Theme toggle
+  const btn = document.getElementById("theme-toggle");
+  function applyTheme(t) {
+    document.documentElement.dataset.theme = t;
+    btn.textContent = t === "dark" ? "라이트 모드" : "다크 모드";
+    try { localStorage.setItem("proto-theme", t); } catch(e) {}
+  }
+  applyTheme(document.documentElement.dataset.theme || "light");
+  btn.addEventListener("click", () => {
+    const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    applyTheme(next);
+  });
+</script>
+
+<script type="text/babel">
+  const { useState, useEffect } = React;
+
+  function App() {
+    // Route: "home" or reading slug. Persist in localStorage.
+    const [route, setRoute] = useState(() => {
+      try { return localStorage.getItem("proto-route") || "home"; } catch(e) { return "home"; }
+    });
+    useEffect(() => {
+      try { localStorage.setItem("proto-route", route); } catch(e) {}
+      // Update crumb
+      const crumb = document.getElementById("crumb");
+      if (route === "home") {
+        crumb.innerHTML = "<b>홈</b>";
+      } else {
+        const r = window.READINGS.find(x => x.slug === route);
+        crumb.innerHTML = '<span class="sep">홈</span><span class="sep"> · </span><b>' + (r ? r.title : "") + '</b>';
+      }
+      window.scrollTo({ top: 0, behavior: "instant" });
+    }, [route]);
+
+    if (route === "home") {
+      return <Home onOpen={(slug) => setRoute(slug)} />;
+    }
+    return <ReadingDetail slug={route} onBack={() => setRoute("home")} />;
+  }
+
+  ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>

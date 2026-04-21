@@ -73,7 +73,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-15T11:43:58.976Z",
+    "updated_at": "2026-04-21T00:29:34.609Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "schema_pass",

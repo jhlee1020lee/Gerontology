@@ -38,7 +38,7 @@
   "reading_date": null,
   "sort_date": "2026-04-21",
   "display_date_label": "4/21",
-  "public_pdf": null,
+  "public_pdf": "pdfs/ch08-gerontology.pdf",
   "overview_hook": null,
   "classroom_points": [],
   "notebooklm_video_url": null,
@@ -57,27 +57,30 @@
       "quiz-mcq"
     ],
     "approved_page_hashes": {
-      "full": "68f7a25882c47e4857ae891d556adc69076f5c6f",
       "summary": "81cd6df42ccdeba3e224bd708edff0bb30005370",
       "concepts": "58ae5db7d4bb892bfc15d50e75e5a96aba9adfc0",
       "pitfalls": "6f2eeb7c53ba07aaeed9be16a754ec2a204a8f35",
       "review-sheet": "983153e3f7de5e10342c0993910f065bf2ba0351",
-      "professor-prep": "69ba5dc3137910e181dc1469c1f3a479875c9bff",
+      "professor-prep": "d9468bde1a48e0aac50415066bdd6bd277839781",
       "quiz-ox": "2979d0a1035864262d7b921fe0134886c02269ce",
       "quiz-short": "ff7a0970de2fab33c10f09461f3961b6c7a688f9",
-      "quiz-mcq": "675fc331a4b155221f8727d9b46b15c73136e1c2"
+      "quiz-mcq": "675fc331a4b155221f8727d9b46b15c73136e1c2",
+      "full": "f97f257f043e713ed727b845226927601a70b21e"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-09",
+    "reviewed_at": "2026-04-21",
     "notes": [
+      "Removed the remaining OCR marker line and cleaned obvious broken terms such as 성인자 녀, 징기적, 시회, 니타날, and modified extended family 표기 오류 in the Chapter 8 full text.",
+      "Restored the Chapter 8 full text figures and photo from the source PDF so the body-reading page now includes the chapter visuals inline.",
       "Reworked the Chapter 8 full text so the public page follows topic-based sections instead of raw page-number sectioning.",
       "Rebuilt the concepts page, professor-prep cards, and all three quiz families with reading-specific content and schema-compliant fields.",
+      "Rebuilt professor-prep into student-answer frames that foreground reading angles, changed interpretation, and concrete anchors such as relationship life expectancy, beanpole family, 2017 support/contact data, and sibling statistics.",
       "NotebookLM landing video is still optional and not uploaded, so approval covers the study pages rather than a required video landing page."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-13T06:00:24.979Z",
+    "updated_at": "2026-04-21T01:14:54.277Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -97,18 +100,19 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 7280,
+          "word_count": 7223,
           "section_count": 5,
           "sub_section_count": 13,
           "bullet_count": 0,
           "level2_heading_count": 5,
           "level3_heading_count": 13,
           "level4_heading_count": 0,
-          "figure_count": 0,
-          "paragraph_count": 615,
+          "figure_count": 5,
+          "paragraph_count": 605,
           "level2_section_count": 5,
           "empty_level2_sections": [],
-          "last_level2_title": "노년기 형제자매 관계"
+          "last_level2_title": "노년기 형제자매 관계",
+          "figure_label_line_count": 0
         }
       },
       "translation": {
@@ -167,7 +171,7 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 17
+          "card_count": 19
         }
       },
       "quiz_ox": {
@@ -201,18 +205,19 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 7280,
+          "word_count": 7223,
           "section_count": 5,
           "sub_section_count": 13,
           "bullet_count": 0,
           "level2_heading_count": 5,
           "level3_heading_count": 13,
           "level4_heading_count": 0,
-          "figure_count": 0,
-          "paragraph_count": 615,
+          "figure_count": 5,
+          "paragraph_count": 605,
           "level2_section_count": 5,
           "empty_level2_sections": [],
-          "last_level2_title": "노년기 형제자매 관계"
+          "last_level2_title": "노년기 형제자매 관계",
+          "figure_label_line_count": 0
         }
       },
       "translation": {
@@ -271,7 +276,7 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 17
+          "card_count": 19
         }
       },
       "quiz_ox": {
@@ -320,6 +325,17 @@
   "workflow_notes": [],
   "shared_page_bundle": null,
   "shared_page_keys": [],
-  "pdf_visibility": "none",
-  "landing_video_policy": "optional"
+  "pdf_visibility": "public",
+  "landing_video_policy": "optional",
+  "enabled_page_keys": [
+    "summary",
+    "full",
+    "concepts",
+    "pitfalls",
+    "quiz-ox",
+    "quiz-short",
+    "quiz-mcq",
+    "review-sheet",
+    "professor-prep"
+  ]
 }

@@ -44,6 +44,8 @@
 12. If the answer includes a personal reaction or example, tie it back to the text immediately so it still sounds like a reading answer rather than free association.
 13. Prefer student-answer frames that show how the reading was approached, for example `저는 이 글을 X와 Y를 구분해서 읽었습니다` or `처음에는 A라고 생각했는데 읽고 나서는 B가 더 중요하다고 봤습니다`, when approved lecture evidence supports that shape.
 14. Do not disguise a paper summary as a reading answer by simply adding first-person phrasing; the answer should foreground the distinction, changed expectation, or reading angle first.
+15. Do not let a full `professor-prep` set degrade into concept-glossary cards. If most cards sound like `X는 Y다` definitions, rebuild the set around reading angles and follow-up resistance.
+16. Across a set, vary the answer modes: thesis, contrast, changed interpretation, empirical anchor, and implication/policy connection should all appear when the reading supports them instead of repeating only definition cards.
 
 ## Professor-Wide Likely Follow-Up Patterns
 
@@ -70,9 +72,11 @@
 - Reporting only the conclusion of a paper without showing how the study worked
 - Giving a personal opinion that is not tied back to the text
 - Rewriting the article summary into first-person Korean without showing what the student first noticed or how the reading changed the student's interpretation
+- Producing a batch that could be pasted into `concepts.md` with little change
 
 ## Use Rule
 
 - Use this file as the default reusable guidance for future recordings and `professor-prep` drafts.
 - Still check each new recording for reading-specific changes in preferred angle, likely follow-ups, or disliked answer shapes.
 - Do not let this file replace the actual reading content; it only governs answer shape and follow-up prediction.
+- When no same-reading lecture bundle exists yet, prefer the strongest approved student-answer shape already published in the repo over neutral concept-summary prose.

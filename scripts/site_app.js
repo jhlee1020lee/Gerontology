@@ -254,19 +254,29 @@ function initHomeFilters(){
   const input=controls.querySelector("[data-reading-search]");
   const typeSelect=controls.querySelector("[data-reading-type]");
   const tagSelect=controls.querySelector("[data-reading-tag]");
+  const chips=Array.from(controls.querySelectorAll("[data-filter-chip]"));
   const grid=document.querySelector("[data-reading-grid]");
   const cards=Array.from(document.querySelectorAll("[data-reading-card]"));
   const empty=document.querySelector("[data-empty-state]");
 
+  const activeChipValue=()=>{
+    const chip=chips.find((item)=>item.classList.contains("is-active"));
+    return (chip?.dataset.filterValue||"").trim().toLowerCase();
+  };
+
   const apply=()=>{
     const query=(input?.value||"").trim().toLowerCase();
-    const type=(typeSelect?.value||"").trim().toLowerCase();
+    const type=(typeSelect?.value||activeChipValue()||"").trim().toLowerCase();
     const tag=(tagSelect?.value||"").trim().toLowerCase();
     const visible=cards.filter((card)=>{
       const search=(card.dataset.search||"").toLowerCase();
       const cardType=(card.dataset.type||"").toLowerCase();
+      const filterGroup=(card.dataset.filterGroup||"").toLowerCase();
       const tags=(card.dataset.tags||"").toLowerCase().split("||").filter(Boolean);
-      return (!query||search.includes(query))&&(!type||cardType===type)&&(!tag||tags.includes(tag));
+      const typeMatch=typeSelect
+        ? (!type||cardType===type)
+        : (!type||filterGroup===type);
+      return (!query||search.includes(query))&&typeMatch&&(!tag||tags.includes(tag));
     });
 
     cards.forEach((card)=>{card.hidden=!visible.includes(card);});
@@ -276,7 +286,32 @@ function initHomeFilters(){
 
   [input,typeSelect,tagSelect].forEach((element)=>element&&element.addEventListener("input",apply));
   [typeSelect,tagSelect].forEach((element)=>element&&element.addEventListener("change",apply));
+  chips.forEach((chip)=>{
+    chip.addEventListener("click",()=>{
+      chips.forEach((item)=>item.classList.toggle("is-active",item===chip));
+      apply();
+    });
+  });
   apply();
+}
+
+function initHomeRail(){
+  const rail=document.querySelector(".home-dashboard .rail");
+  if(!rail)return;
+  const media=window.matchMedia("(max-width: 1080px)");
+  const syncRail=(state)=>{
+    if(state.matches){
+      rail.removeAttribute("open");
+      return;
+    }
+    rail.setAttribute("open","");
+  };
+  syncRail(media);
+  if(typeof media.addEventListener==="function"){
+    media.addEventListener("change",syncRail);
+  }else if(typeof media.addListener==="function"){
+    media.addListener(syncRail);
+  }
 }
 
 function buildHomeChatbotCatalog(){
@@ -822,6 +857,7 @@ function initProfessorPrep(){
 document.addEventListener("DOMContentLoaded",()=>{
   initTheme();
   initGatedLinks();
+  initHomeRail();
   initHomeFilters();
   initHomeChatbot();
   initTabMenus();

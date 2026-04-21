@@ -454,6 +454,21 @@ function parseLongFormStructure(text) {
   };
 }
 
+function countStandaloneFigureLabelLines(text) {
+  return toText(text)
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .filter((line) => !line.startsWith("!["))
+    .filter((line) => {
+      const match = line.match(/(figure|table|그림|표)\s*[-–—:]?\s*\d+/iu);
+      if (!match) {
+        return false;
+      }
+      return match.index <= 12;
+    }).length;
+}
+
 function addIncompleteProgressErrors(errors, text, patterns, label) {
   patterns.forEach((pattern) => {
     if (pattern.test(text)) {
@@ -603,9 +618,13 @@ function validateFullMarkdown(text) {
   const { errors, warnings, metrics } = baseMarkdownChecks(text, 400);
   const structure = parseLongFormStructure(text);
   Object.assign(metrics, structure);
+  metrics.figure_label_line_count = countStandaloneFigureLabelLines(text);
   addIncompleteProgressErrors(errors, text, INCOMPLETE_FULL_PATTERNS, "full text");
   if (structure.level2_heading_count > 0 && structure.empty_level2_sections.length) {
     errors.push(`full text contains empty second-level sections: ${structure.empty_level2_sections.join(", ")}`);
+  }
+  if (metrics.figure_label_line_count > structure.figure_count) {
+    warnings.push("full text appears to contain standalone figure/table labels without matching direct image inserts");
   }
   return makeResult(errors.length ? PAGE_STATUS.SCHEMA_FAIL : PAGE_STATUS.SCHEMA_PASS, errors, warnings, metrics);
 }
@@ -628,6 +647,7 @@ function validateTranslationMarkdown(rootDir, reading, existingMeta, text, fullT
   }
   const translationStructure = parseLongFormStructure(text);
   Object.assign(metrics, translationStructure);
+  metrics.figure_label_line_count = countStandaloneFigureLabelLines(text);
   addIncompleteProgressErrors(errors, text, INCOMPLETE_TRANSLATION_PATTERNS, "translation");
   if (fullText) {
     const fullStructure = parseLongFormStructure(fullText);
@@ -658,6 +678,9 @@ function validateTranslationMarkdown(rootDir, reading, existingMeta, text, fullT
     }
   } else if (translationStructure.empty_level2_sections.length) {
     errors.push(`translation contains empty second-level sections: ${translationStructure.empty_level2_sections.join(", ")}`);
+  }
+  if (metrics.figure_label_line_count > translationStructure.figure_count) {
+    warnings.push("translation appears to contain standalone figure/table labels without matching direct image inserts");
   }
   const revealValidation = validateTranslationOriginalReveal(rootDir, reading, existingMeta, text, fullText);
   errors.push(...revealValidation.errors);

@@ -79,7 +79,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-13T06:00:25.287Z",
+    "updated_at": "2026-04-21T00:29:34.944Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -374,5 +374,17 @@
     "quiz-mcq"
   ],
   "pdf_visibility": "public",
-  "landing_video_policy": "optional"
+  "landing_video_policy": "optional",
+  "enabled_page_keys": [
+    "summary",
+    "full",
+    "translation",
+    "concepts",
+    "pitfalls",
+    "quiz-ox",
+    "quiz-short",
+    "quiz-mcq",
+    "review-sheet",
+    "professor-prep"
+  ]
 }

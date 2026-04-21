@@ -81,6 +81,9 @@ Maintain a static study website for gerontology course readings that is previewe
 - `summary` must keep the paper's final interpretation and major caveats, not just the easiest headline result.
 - `concepts` must cover the paper's main comparison frame rather than one convenient subset.
 - `pitfalls` and `review-sheet` must name paper-specific traps and effect patterns; generic study-guide prose is not approval-ready.
+- `professor-prep` must stay in `학생이 이 글을 어떻게 읽었는지` voice; if it reads like `핵심 개념`을 문장으로 늘인 설명문 or chapter-summary prose, reopen it.
+- Strong `professor-prep` cards foreground a distinction, changed expectation, or reading angle first, then anchor it with at least one concrete reading detail such as a term, statistic, role/type distinction, or Korean-context implication.
+- If most `professor-prep` cards could be pasted into `concepts.md` with little change, the page family is not approval-ready even when card count and validator checks pass.
 - Quiz families should complement each other instead of largely repeating the same fact set across OX, short-answer, and MCQ forms.
 - MCQ distractors must be plausible confusions from the reading, and explanations must rebut at least the most tempting wrong option.
 - Short-answer accepted answers should include obvious English-term variants when the reading itself uses them.
@@ -93,6 +96,7 @@ Maintain a static study website for gerontology course readings that is previewe
 - For lecture-informed `professor-prep` refresh, draft only `3` to `5` cards first and review them before expansion.
 - If approved lecture bundles include strong student-answer wording or reviewed `answer-candidates.json`, use that student-answer shape as the first template for future `교수님 구술 대비` rewrites.
 - Keep `교수님 구술 대비` in `학생이 이 글을 어떻게 읽었는지` voice; do not just turn the reading summary into first-person prose.
+- When no same-reading lecture bundle exists yet, prefer the strongest existing student-answer shape in the repo over neutral summary prose; do not fall back to concept-definition cards.
 - If new approved lecture evidence changes question frame, answer shape, recurring confusion, or quiz emphasis, reopen the affected page family and treat it as `partial` until rebuilt.
 
 ## Translation Original Reveal

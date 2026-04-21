@@ -98,7 +98,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-13T09:28:28.543Z",
+    "updated_at": "2026-04-21T00:29:35.193Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "schema_pass",
@@ -384,5 +384,17 @@
   "shared_page_bundle": null,
   "shared_page_keys": [],
   "pdf_visibility": "none",
-  "landing_video_policy": "optional"
+  "landing_video_policy": "optional",
+  "enabled_page_keys": [
+    "summary",
+    "full",
+    "translation",
+    "concepts",
+    "pitfalls",
+    "quiz-ox",
+    "quiz-short",
+    "quiz-mcq",
+    "review-sheet",
+    "professor-prep"
+  ]
 }
