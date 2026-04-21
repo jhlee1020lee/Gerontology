@@ -4,19 +4,7 @@
   "page": "translation",
   "entries": [
     {
-      "id": "intro-overview-p0",
-      "status": "verified",
-      "unit": "context_block",
-      "ko_anchor": {
-        "flat_index": 1,
-        "block_type": "paragraph"
-      },
-      "en_anchor": {
-        "flat_index": 9
-      }
-    },
-    {
-      "id": "abstract-results-p0",
+      "id": "abstract-purpose-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
@@ -24,11 +12,11 @@
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 9
+        "flat_index": 6
       }
     },
     {
-      "id": "intro-stress-p0",
+      "id": "abstract-methods-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
@@ -36,19 +24,55 @@
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 11
+        "flat_index": 7
       }
     },
     {
-      "id": "intro-focus-p0",
+      "id": "abstract-results-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 5,
+        "flat_index": 6,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 8
+      }
+    },
+    {
+      "id": "abstract-implications-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 8,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 9
+      }
+    },
+    {
+      "id": "intro-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 12,
         "block_type": "paragraph"
       },
       "en_anchor": {
         "flat_index": 11
+      }
+    },
+    {
+      "id": "intro-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 13,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 12
       }
     },
     {
@@ -56,19 +80,7 @@
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 7,
-        "block_type": "paragraph"
-      },
-      "en_anchor": {
-        "flat_index": 14
-      }
-    },
-    {
-      "id": "within-family-p1",
-      "status": "verified",
-      "unit": "context_block",
-      "ko_anchor": {
-        "flat_index": 8,
+        "flat_index": 15,
         "block_type": "paragraph"
       },
       "en_anchor": {
@@ -77,10 +89,10 @@
     },
     {
       "id": "caregiving-hypothesis-p0",
-      "status": "draft",
+      "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 8,
+        "flat_index": 16,
         "block_type": "paragraph"
       },
       "en_anchor": {
@@ -92,11 +104,11 @@
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 10,
+        "flat_index": 18,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 18
+        "flat_index": 17
       }
     },
     {
@@ -104,23 +116,11 @@
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 11,
+        "flat_index": 19,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 18
-      }
-    },
-    {
-      "id": "relational-equity-p0",
-      "status": "draft",
-      "unit": "context_block",
-      "ko_anchor": {
-        "flat_index": 11,
-        "block_type": "paragraph"
-      },
-      "en_anchor": {
-        "flat_index": 18
+        "flat_index": 17
       }
     },
     {
@@ -128,11 +128,11 @@
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 12,
+        "flat_index": 20,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 18
+        "flat_index": 17
       }
     },
     {
@@ -140,11 +140,11 @@
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 13,
+        "flat_index": 21,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 18
+        "flat_index": 17
       }
     },
     {
@@ -152,23 +152,11 @@
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 15,
+        "flat_index": 23,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 22
-      }
-    },
-    {
-      "id": "methods-sample-p0",
-      "status": "verified",
-      "unit": "context_block",
-      "ko_anchor": {
-        "flat_index": 19,
-        "block_type": "paragraph"
-      },
-      "en_anchor": {
-        "flat_index": 22
+        "flat_index": 19
       }
     },
     {
@@ -176,39 +164,15 @@
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 17,
-        "block_type": "paragraph"
-      },
-      "en_anchor": {
-        "flat_index": 24
-      }
-    },
-    {
-      "id": "methods-sibling-tension-p0",
-      "status": "verified",
-      "unit": "context_block",
-      "ko_anchor": {
-        "flat_index": 22,
-        "block_type": "paragraph"
-      },
-      "en_anchor": {
-        "flat_index": 27
-      }
-    },
-    {
-      "id": "methods-favoritism-p0",
-      "status": "verified",
-      "unit": "context_block",
-      "ko_anchor": {
         "flat_index": 25,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 30
+        "flat_index": 20
       }
     },
     {
-      "id": "results-measures-recap-p0",
+      "id": "methods-procedure-p1",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
@@ -216,71 +180,108 @@
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 30
+        "flat_index": 20
       }
     },
     {
-      "id": "results-main-effects-p0",
+      "id": "methods-sample-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 35,
+        "flat_index": 27,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 41
+        "flat_index": 20
       }
     },
     {
-      "id": "results-interaction-p0",
+      "id": "methods-sibling-tension-p0",
       "status": "verified",
       "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 30,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 22
+      }
+    },
+    {
+      "id": "methods-caregiving-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 32,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 23
+      }
+    },
+    {
+      "id": "methods-favoritism-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 33,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 23
+      }
+    },
+    {
+      "id": "methods-ttest-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 34,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 23
+      }
+    },
+    {
+      "id": "methods-table1-intro-p0",
+      "status": "verified",
+      "unit": "sentence_group",
+      "source_text": "Table 1 presents demographic information for the adult children in this subsample.",
       "ko_anchor": {
         "flat_index": 36,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 41
+        "flat_index": 20
       }
     },
     {
-      "id": "results-favored-child-p0",
-      "status": "draft",
-      "unit": "context_block",
-      "ko_anchor": {
-        "flat_index": 36,
-        "block_type": "paragraph"
-      },
-      "en_anchor": {
-        "flat_index": 49
-      }
-    },
-    {
-      "id": "results-controls-p0",
-      "status": "draft",
-      "unit": "context_block",
-      "ko_anchor": {
-        "flat_index": 35,
-        "block_type": "paragraph"
-      },
-      "en_anchor": {
-        "flat_index": 41
-      }
-    },
-    {
-      "id": "discussion-stress-p0",
+      "id": "methods-controls-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 41,
+        "flat_index": 39,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 52
+        "flat_index": 27
       }
     },
     {
-      "id": "discussion-contribution-p0",
+      "id": "methods-controls-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 40,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 27
+      }
+    },
+    {
+      "id": "methods-analysis-plan-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
@@ -288,23 +289,11 @@
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 53
+        "flat_index": 28
       }
     },
     {
-      "id": "discussion-favoritism-direction-p0",
-      "status": "verified",
-      "unit": "context_block",
-      "ko_anchor": {
-        "flat_index": 43,
-        "block_type": "paragraph"
-      },
-      "en_anchor": {
-        "flat_index": 53
-      }
-    },
-    {
-      "id": "discussion-future-research-p0",
+      "id": "results-main-effects-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
@@ -312,11 +301,11 @@
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 53
+        "flat_index": 30
       }
     },
     {
-      "id": "discussion-balance-p0",
+      "id": "results-favored-child-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
@@ -324,47 +313,47 @@
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 53
+        "flat_index": 38
       }
     },
     {
-      "id": "implications-p0",
+      "id": "results-summary-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 47,
+        "flat_index": 46,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 56
+        "flat_index": 38
       }
     },
     {
-      "id": "implications-p1",
+      "id": "discussion-stress-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 48,
+        "flat_index": 50,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 57
+        "flat_index": 40
       }
     },
     {
-      "id": "implications-p2",
+      "id": "discussion-contribution-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
-        "flat_index": 49,
+        "flat_index": 51,
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 57
+        "flat_index": 40
       }
     },
     {
-      "id": "funding-p0",
+      "id": "discussion-favoritism-direction-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
@@ -372,11 +361,23 @@
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 60
+        "flat_index": 40
       }
     },
     {
-      "id": "acknowledgments-p0",
+      "id": "discussion-future-research-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 53,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 40
+      }
+    },
+    {
+      "id": "discussion-balance-p0",
       "status": "verified",
       "unit": "context_block",
       "ko_anchor": {
@@ -384,7 +385,67 @@
         "block_type": "paragraph"
       },
       "en_anchor": {
-        "flat_index": 60
+        "flat_index": 40
+      }
+    },
+    {
+      "id": "implications-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 56,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 42
+      }
+    },
+    {
+      "id": "implications-p1",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 57,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 42
+      }
+    },
+    {
+      "id": "implications-p2",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 58,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 42
+      }
+    },
+    {
+      "id": "funding-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 61,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 45
+      }
+    },
+    {
+      "id": "acknowledgments-p0",
+      "status": "verified",
+      "unit": "context_block",
+      "ko_anchor": {
+        "flat_index": 63,
+        "block_type": "paragraph"
+      },
+      "en_anchor": {
+        "flat_index": 45
       }
     }
   ]
