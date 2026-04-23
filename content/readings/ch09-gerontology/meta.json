@@ -26,7 +26,7 @@
     "concepts": "approved",
     "pitfalls": "schema_pass",
     "review_sheet": "schema_pass",
-    "professor_prep": "schema_fail",
+    "professor_prep": "schema_pass",
     "quiz_ox": "schema_fail",
     "quiz_short": "schema_fail",
     "quiz_mcq": "schema_fail",
@@ -38,7 +38,7 @@
   "reading_date": null,
   "sort_date": "2026-04-28",
   "display_date_label": "4/28",
-  "public_pdf": null,
+  "public_pdf": "pdfs/ch09-gerontology.pdf",
   "overview_hook": null,
   "classroom_points": [],
   "notebooklm_video_url": null,
@@ -59,7 +59,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-23T00:35:55.780Z",
+    "updated_at": "2026-04-23T01:21:29.855Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -148,21 +148,11 @@
         }
       },
       "professor_prep": {
-        "status": "schema_fail",
-        "errors": [
-          "professor-prep needs at least 15 cards",
-          "card 1 is missing title",
-          "card 2 is missing title",
-          "card 3 is missing title",
-          "card 4 is missing title",
-          "card 5 is missing title",
-          "card 6 is missing title",
-          "card 7 is missing title",
-          "card 8 is missing title"
-        ],
+        "status": "schema_pass",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 8
+          "card_count": 19
         }
       },
       "quiz_ox": {
@@ -286,21 +276,11 @@
         }
       },
       "professor_prep": {
-        "status": "schema_fail",
-        "errors": [
-          "professor-prep needs at least 15 cards",
-          "card 1 is missing title",
-          "card 2 is missing title",
-          "card 3 is missing title",
-          "card 4 is missing title",
-          "card 5 is missing title",
-          "card 6 is missing title",
-          "card 7 is missing title",
-          "card 8 is missing title"
-        ],
+        "status": "schema_pass",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 8
+          "card_count": 19
         }
       },
       "quiz_ox": {
@@ -360,7 +340,6 @@
     "stage3": {
       "status": "partial",
       "notes": [
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
         "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
         "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template; quiz-short item 14 leaks the accepted answer in the question",
         "quiz-mcq: quiz-mcq uses the same answer position for every item"
@@ -369,7 +348,6 @@
     "reading": {
       "status": "partial",
       "notes": [
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
         "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
         "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template; quiz-short item 14 leaks the accepted answer in the question",
         "quiz-mcq: quiz-mcq uses the same answer position for every item"
@@ -378,14 +356,13 @@
   },
   "workflow_status": "partial",
   "workflow_notes": [
-    "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
     "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
     "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template; quiz-short item 14 leaks the accepted answer in the question",
     "quiz-mcq: quiz-mcq uses the same answer position for every item"
   ],
   "shared_page_bundle": null,
   "shared_page_keys": [],
-  "pdf_visibility": "none",
+  "pdf_visibility": "public",
   "landing_video_policy": "optional",
   "enabled_page_keys": [
     "summary",

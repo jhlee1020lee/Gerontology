@@ -876,7 +876,7 @@ function renderProfessorPrepDeckSection(prep,deck,options={}){const draft=option
   ${draftNote}
 </section>
 <section class="prep-card-list">
-  ${deck.map((card,index)=>renderProfessorPrepCard(card,index)).join("")}
+${deck.map((card,index)=>renderProfessorPrepCard(card,index)).join("")}
 </section>
 `;}
 function writePlaceholderSvg(reading,svgPath){const slug=escapeHtml(reading.slug);const title=escapeHtml(reading.title||reading.slug);const subtitle=escapeHtml(reading.subtitle||"파일명 기준으로 만든 임시 메타데이터입니다.");const dateLabel=escapeHtml(displayDateLabel(reading));const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
