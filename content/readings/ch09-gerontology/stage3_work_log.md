@@ -8,3 +8,12 @@
 - Evidence basis: `full.md` sections on 졸혼, 가족생활주기, 축소완료기, 결혼상태와 건강, 결혼의 질, 배우자 돌봄, 은퇴, 결혼만족도 U자형 논쟁, 황혼이혼, 사별, 재혼.
 - QA status: `schema_pass` after `node scripts/build_site.js --slug ch09-gerontology`; default validation still reports the reading as `partial` because other quiz families remain `schema_fail` and Stage 1 still needs manual review.
 - Reopen reasons: reopen if cards drift into neutral summary prose, if a same-reading lecture bundle changes the question frame, or if user review asks for more precise oral-answer wording.
+
+## 2026-04-23 - professor-prep quality pass
+
+- Chunk ID: professor-prep-quality-2026-04-23
+- Page family: professor-prep
+- Coverage: rewrote the 19-card set to make each answer start from a corrected reading angle or distinction, then anchor it with specific chapter evidence.
+- Evidence basis: family life cycle table values, marital status versus marital quality, suicide and mortality statistics, the three health-effect mechanisms, gendered spousal care, retirement, U-shaped satisfaction critique, split pension, gray divorce stigma, bereavement and anticipatory socialization, remarriage rates, and the 4/21 to 4/30 course sequence.
+- QA status: `schema_pass` after `node scripts/build_site.js --slug ch09-gerontology`; default validation remains `partial` due to unrelated quiz-family failures and Stage 1 manual review status.
+- Reopen reasons: reopen if a lecture bundle gives a different oral-question frame or if user review asks for shorter, more conversational versions.
