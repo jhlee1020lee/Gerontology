@@ -77,7 +77,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-21T00:29:34.388Z",
+    "updated_at": "2026-04-23T00:35:55.755Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -108,7 +108,8 @@
           "paragraph_count": 34,
           "level2_section_count": 6,
           "empty_level2_sections": [],
-          "last_level2_title": "노년기 적응"
+          "last_level2_title": "노년기 적응",
+          "figure_label_line_count": 1
         }
       },
       "translation": {
@@ -212,7 +213,8 @@
           "paragraph_count": 34,
           "level2_section_count": 6,
           "empty_level2_sections": [],
-          "last_level2_title": "노년기 적응"
+          "last_level2_title": "노년기 적응",
+          "figure_label_line_count": 1
         }
       },
       "translation": {

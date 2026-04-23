@@ -588,6 +588,7 @@ function pageByKey(reading,pageKey){return Array.isArray(reading.pages)?reading.
 function hasAvailablePage(reading,pageKey){const page=pageByKey(reading,pageKey);return Boolean(page&&page.available);}
 function hasApprovedSourcePage(reading,pageKey){const page=pageByKey(reading,pageKey);return Boolean(page&&isApprovedStatus(page.source_validation_status));}
 function localTodayIsoDate(){const now=new Date();const month=String(now.getMonth()+1).padStart(2,"0");const day=String(now.getDate()).padStart(2,"0");return `${now.getFullYear()}-${month}-${day}`;}
+function homeReferenceDate(siteMeta={},today=localTodayIsoDate()){const cutoff=publishCutoffDate(siteMeta);if(!cutoff)return today;return cutoff<today?cutoff:today;}
 function currentReadingSlug(readings,today=localTodayIsoDate()){const candidates=(Array.isArray(readings)?readings:[]).filter((reading)=>toText(reading.class_date)&&reading.class_date<=today).sort((a,b)=>b.class_date.localeCompare(a.class_date)||b.sequence-a.sequence);return candidates[0]?.slug||"";}
 function readingFilterGroup(reading){if(reading.type==="chapter"&&reading.language==="ko")return"textbook";if(reading.language==="en")return"english";return"other";}
 function readingProgress(reading){const read=Boolean(["summary","full","translation"].some((pageKey)=>hasAvailablePage(reading,pageKey)))?1:0;const concepts=hasAvailablePage(reading,"concepts")?1:0;const quizAvailableCount=["quiz-ox","quiz-short","quiz-mcq"].filter((pageKey)=>hasAvailablePage(reading,pageKey)).length;const prep=hasAvailablePage(reading,"professor-prep")?1:0;return{read,concepts,quiz:quizAvailableCount/3,prep,quiz_available_count:quizAvailableCount};}
@@ -596,10 +597,11 @@ function readingAuthorsDisplay(reading){return cardAuthorLabel(reading)||reading
 function homeReadingState(reading,currentSlug){if(reading.metadata_status!=="complete"||isReleaseLockedReading(reading)||!isAccessibleReading(reading))return"locked";if(reading.slug===currentSlug)return"current";return"ready";}
 function readingOverviewTarget(reading){return isAccessibleReading(reading)?"index.html":"";}
 function approvedPageTarget(reading,pageKey){return hasApprovedSourcePage(reading,pageKey)?pageByKey(reading,pageKey)?.filename||"":"";}
+function reviewReadyProfessorPrepTarget(reading){const page=pageByKey(reading,"professor-prep");return page&&page.available&&isReadyStatus(page.source_validation_status)?page.filename||"":"";}
 function firstApprovedPageTarget(reading,pageKeys){for(const pageKey of pageKeys){const target=approvedPageTarget(reading,pageKey);if(target)return target;}return"";}
 function readingStartTarget(reading){return firstApprovedPageTarget(reading,["full","translation","summary","concepts","pitfalls","review-sheet"])||readingOverviewTarget(reading);}
 function quizOverviewTarget(reading){return firstApprovedPageTarget(reading,["quiz-ox","quiz-short","quiz-mcq"]);}
-function prepTarget(reading){return approvedPageTarget(reading,"professor-prep");}
+function prepTarget(reading){return approvedPageTarget(reading,"professor-prep")||reviewReadyProfessorPrepTarget(reading);}
 function readingGateMessage(reading){if(isReleaseLockedReading(reading))return toText(reading.publish_cutoff_note)||"다시 점검한 뒤 공개합니다.";if(reading.metadata_status!=="complete")return"메타데이터 확인 후 공개합니다.";if(isBlockedReading(reading))return"이 읽기는 전체 승인 전이라 아직 공개되지 않습니다.";if(!isAccessibleReading(reading))return"준비중입니다.";return"준비중입니다.";}
 function metadataStatusHtml(status){return status==="complete"?'<span class="status ready">메타데이터 확인됨</span>':'<span class="status placeholder">메타데이터 확인 필요</span>';}
 function readingPageLabel(reading,page){
@@ -630,7 +632,7 @@ function prepareReadings(manifest,siteMeta={}){
       pages
     };
   });
-  const currentSlug=currentReadingSlug(prepared);
+  const currentSlug=currentReadingSlug(prepared,homeReferenceDate(siteMeta));
   return prepared.map((reading)=>{
     const progress=readingProgress(reading);
     const state=homeReadingState(reading,currentSlug);
@@ -777,6 +779,7 @@ function pageTabs(outputPath,reading,activeKey){
   const renderTab=(tab)=>{
     if(blocked||!accessible)return renderGatedTab(tab.label,isActiveTab(tab),readingGateMessage(reading));
     if(tab.key==="index"||tab.key==="quiz")return renderActiveTab(outputPath,tab,isActiveTab(tab));
+    if(tab.key==="professor-prep"&&isReadyStatus(tab.sourceStatus))return renderActiveTab(outputPath,tab,isActiveTab(tab));
     return isApprovedStatus(tab.sourceStatus)?renderActiveTab(outputPath,tab,isActiveTab(tab)):renderGatedTab(tab.label,isActiveTab(tab),"이 탭은 아직 공개되지 않았습니다.");
   };
   const hiddenMarkup=!hiddenTabs.length?"":`<details class="tab-more${hiddenActive?" has-active":""}" data-tab-more><summary class="tab-more-toggle" data-tab-more-toggle>더보기</summary><div class="tab-more-list" data-tab-more-list>${hiddenTabs.map((tab)=>renderTab(tab).replace("data-tab-link","data-tab-link data-tab-more-link")).join("")}</div></details>`;

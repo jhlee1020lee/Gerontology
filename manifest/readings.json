@@ -917,7 +917,8 @@
                          "kind":  "article pdf",
                          "source_filename":  "Suitor et al., 2014.pdf",
                          "source_pdf":  "source_pdfs/Suitor et al., 2014.pdf",
-                         "pdf_visibility":  "none",
+                         "pdf_visibility":  "public",
+                         "public_pdf":  "pdfs/suitor-et-al-2014.pdf",
                          "landing_video_policy":  "optional",
                          "content_dir":  "content/readings/suitor-et-al-2014",
                          "tags":  [

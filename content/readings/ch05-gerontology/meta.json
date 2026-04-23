@@ -78,7 +78,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-21T00:29:34.339Z",
+    "updated_at": "2026-04-23T00:35:55.727Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -107,7 +107,8 @@
           "paragraph_count": 43,
           "level2_section_count": 3,
           "empty_level2_sections": [],
-          "last_level2_title": "노년기의 신체적 변화"
+          "last_level2_title": "노년기의 신체적 변화",
+          "figure_label_line_count": 0
         }
       },
       "translation": {
@@ -213,7 +214,8 @@
           "paragraph_count": 43,
           "level2_section_count": 3,
           "empty_level2_sections": [],
-          "last_level2_title": "노년기의 신체적 변화"
+          "last_level2_title": "노년기의 신체적 변화",
+          "figure_label_line_count": 0
         }
       },
       "translation": {

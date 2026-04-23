@@ -447,6 +447,7 @@ Additional QA expectations:
 
 ## 6. Date / order rules
 - Homepage reading order and displayed dates must follow syllabus class-date order.
+- Homepage top featured reading should use the current publish window: compute the reference date as `min(today, publish_cutoff_date)` and then pick the most recent reading on or before that date.
 - Weekly class schedule is the primary truth source for dates.
 - If the reading appendix conflicts with the weekly schedule, prefer the weekly schedule.
 - Preserve the local source filename when a syllabus citation label differs from the local filename.

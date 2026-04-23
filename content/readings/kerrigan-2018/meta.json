@@ -78,7 +78,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-21T00:29:34.825Z",
+    "updated_at": "2026-04-23T00:35:56.221Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -107,7 +107,8 @@
           "paragraph_count": 12,
           "level2_section_count": 12,
           "empty_level2_sections": [],
-          "last_level2_title": "12. Gene Deletion: Deleting Selective Genes to Increase Lifespan"
+          "last_level2_title": "12. Gene Deletion: Deleting Selective Genes to Increase Lifespan",
+          "figure_label_line_count": 0
         }
       },
       "translation": {
@@ -129,6 +130,7 @@
           "level2_section_count": 12,
           "empty_level2_sections": [],
           "last_level2_title": "12. 유전자 삭제: 특정 유전자를 제거해 수명 늘리기",
+          "figure_label_line_count": 0,
           "full_level2_heading_count": 12,
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,
@@ -232,7 +234,8 @@
           "paragraph_count": 12,
           "level2_section_count": 12,
           "empty_level2_sections": [],
-          "last_level2_title": "12. Gene Deletion: Deleting Selective Genes to Increase Lifespan"
+          "last_level2_title": "12. Gene Deletion: Deleting Selective Genes to Increase Lifespan",
+          "figure_label_line_count": 0
         }
       },
       "translation": {
@@ -254,6 +257,7 @@
           "level2_section_count": 12,
           "empty_level2_sections": [],
           "last_level2_title": "12. 유전자 삭제: 특정 유전자를 제거해 수명 늘리기",
+          "figure_label_line_count": 0,
           "full_level2_heading_count": 12,
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,

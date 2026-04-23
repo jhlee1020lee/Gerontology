@@ -15,6 +15,7 @@ Maintain a static study website for gerontology course readings that is previewe
 - `docs/` is the only final build target.
 - Keep links relative so local preview and static hosting both work.
 - Homepage stays a YouTube-style card grid with one card per reading.
+- Homepage top featured reading follows the current publish window: use `min(today, publish_cutoff_date)` and show the most recent reading on or before that date.
 - `manifest/readings.json` remains the reading inventory/build source of truth.
 - Work from `content/readings/<slug>/`; do not collapse the repo to a sample subset.
 

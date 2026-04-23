@@ -38,7 +38,7 @@
   "reading_date": null,
   "sort_date": "2026-04-23",
   "display_date_label": "4/23",
-  "public_pdf": null,
+  "public_pdf": "pdfs/suitor-et-al-2014.pdf",
   "overview_hook": null,
   "classroom_points": [],
   "notebooklm_video_url": null,
@@ -69,13 +69,13 @@
       "concepts": "28fe17e0eb82191d4d1db69403a4cb9ec226203e",
       "pitfalls": "33d38b150af508892b6613731e86382001756c63",
       "review-sheet": "4f140cec78b0ee4fcadbd88293a48bbbdeb04201",
-      "professor-prep": "8c6ef403aef652c74e64111e7b558c11ef7ea932",
+      "professor-prep": "9d0399fe56150a5231f288ef4ad4d3791d72b892",
       "quiz-ox": "9498b82299ab52e704bdbb779834b37dccb8c93f",
       "quiz-short": "11bf946beb633dc7857cf91ed08054232be4909f",
       "quiz-mcq": "1d733659b45f450f1e36f9d38df28cee58b2ed30"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-21",
+    "reviewed_at": "2026-04-23",
     "notes": [
       "Reworked the original-text page so it follows topic-based section headings instead of raw page-number breaks.",
       "Replaced the compressed Korean translation with a full long-form translation and restored the full reference list.",
@@ -84,12 +84,13 @@
       "Ran a 2026-04-21 exactness pass on full.md and translation.md, cleaning top-matter structure, OCR residue, and a Table 2 coefficient typo in translation.",
       "2026-04-21 Stage 1 manual review: approved full after three-pass exactness re-review against the PDF.",
       "2026-04-21 Stage 1 approval refresh: tightened paragraph boundaries in full.md so translation reveal anchors match actual source paragraphs, then re-pinned the full hash.",
-      "2026-04-21 Stage 2 manual review: approved translation after restoring reveal coverage across all 37 translated paragraphs."
+      "2026-04-21 Stage 2 manual review: approved translation after restoring reveal coverage across all 37 translated paragraphs.",
+      "2026-04-23 Stage 3 professor-prep manual review: approved revised oral-prep cards aligned with the 4/21 answer style."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-21T06:30:34.834Z",
+    "updated_at": "2026-04-23T00:52:20.092Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "schema_pass",
@@ -392,7 +393,7 @@
   "workflow_notes": [],
   "shared_page_bundle": null,
   "shared_page_keys": [],
-  "pdf_visibility": "none",
+  "pdf_visibility": "public",
   "landing_video_policy": "optional",
   "enabled_page_keys": [
     "summary",

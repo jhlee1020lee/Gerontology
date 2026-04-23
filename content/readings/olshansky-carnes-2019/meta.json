@@ -79,7 +79,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-21T00:29:34.944Z",
+    "updated_at": "2026-04-23T00:35:56.370Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",
@@ -108,7 +108,8 @@
           "paragraph_count": 31,
           "level2_section_count": 8,
           "empty_level2_sections": [],
-          "last_level2_title": "References"
+          "last_level2_title": "References",
+          "figure_label_line_count": 1
         }
       },
       "translation": {
@@ -130,6 +131,7 @@
           "level2_section_count": 8,
           "empty_level2_sections": [],
           "last_level2_title": "참고문헌",
+          "figure_label_line_count": 1,
           "full_level2_heading_count": 8,
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,
@@ -236,7 +238,8 @@
           "paragraph_count": 31,
           "level2_section_count": 8,
           "empty_level2_sections": [],
-          "last_level2_title": "References"
+          "last_level2_title": "References",
+          "figure_label_line_count": 1
         }
       },
       "translation": {
@@ -258,6 +261,7 @@
           "level2_section_count": 8,
           "empty_level2_sections": [],
           "last_level2_title": "참고문헌",
+          "figure_label_line_count": 1,
           "full_level2_heading_count": 8,
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,
