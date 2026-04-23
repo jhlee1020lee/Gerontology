@@ -64,7 +64,7 @@
     ],
     "approved_page_hashes": {
       "full": "bd432d061a336a3b3f9cc4f1a31911894e5270e2",
-      "translation": "5ef81c9b5d7a19ce1bcb56a556fdf1098c03c7fb",
+      "translation": "da4f774634ad21b20b1cb3926cb09e3edadf5b87",
       "summary": "6c48f32440146030454e367a1054866f5fe11511",
       "concepts": "28fe17e0eb82191d4d1db69403a4cb9ec226203e",
       "pitfalls": "33d38b150af508892b6613731e86382001756c63",
@@ -85,12 +85,13 @@
       "2026-04-21 Stage 1 manual review: approved full after three-pass exactness re-review against the PDF.",
       "2026-04-21 Stage 1 approval refresh: tightened paragraph boundaries in full.md so translation reveal anchors match actual source paragraphs, then re-pinned the full hash.",
       "2026-04-21 Stage 2 manual review: approved translation after restoring reveal coverage across all 37 translated paragraphs.",
-      "2026-04-23 Stage 3 professor-prep manual review: approved revised oral-prep cards aligned with the 4/21 answer style."
+      "2026-04-23 Stage 3 professor-prep manual review: approved revised oral-prep cards aligned with the 4/21 answer style.",
+      "2026-04-23 Stage 2 reveal exactness refresh: split two translated paragraphs to match source order and pinned 39 sentence-group original reveal entries with no context-block fallbacks."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-23T00:52:20.092Z",
+    "updated_at": "2026-04-23T01:08:27.302Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "schema_pass",
@@ -144,7 +145,7 @@
           "level3_heading_count": 10,
           "level4_heading_count": 3,
           "figure_count": 0,
-          "paragraph_count": 37,
+          "paragraph_count": 39,
           "level2_section_count": 10,
           "empty_level2_sections": [],
           "last_level2_title": "참고문헌",
@@ -157,7 +158,7 @@
           "translation_reference_word_count": 1374,
           "translation_reference_ratio": 0.98,
           "original_reveal_enabled": true,
-          "reveal_entry_count": 37
+          "reveal_entry_count": 39
         }
       },
       "summary": {
@@ -278,7 +279,7 @@
           "level3_heading_count": 10,
           "level4_heading_count": 3,
           "figure_count": 0,
-          "paragraph_count": 37,
+          "paragraph_count": 39,
           "level2_section_count": 10,
           "empty_level2_sections": [],
           "last_level2_title": "참고문헌",
@@ -291,7 +292,7 @@
           "translation_reference_word_count": 1374,
           "translation_reference_ratio": 0.98,
           "original_reveal_enabled": true,
-          "reveal_entry_count": 37
+          "reveal_entry_count": 39
         }
       },
       "summary": {
