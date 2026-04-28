@@ -20,16 +20,16 @@
     "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
   ],
   "content_status": {
-    "full": "schema_pass",
+    "full": "approved",
     "translation": "not_applicable",
     "summary": "schema_pass",
     "concepts": "approved",
     "pitfalls": "schema_pass",
     "review_sheet": "schema_pass",
     "professor_prep": "schema_pass",
-    "quiz_ox": "schema_fail",
-    "quiz_short": "schema_fail",
-    "quiz_mcq": "schema_fail",
+    "quiz_ox": "not_applicable",
+    "quiz_short": "not_applicable",
+    "quiz_mcq": "not_applicable",
     "index": "schema_pass"
   },
   "content_dir": "content/readings/ch09-gerontology",
@@ -46,20 +46,23 @@
   "notebooklm_video_poster": null,
   "manual_review": {
     "approved_pages": [
+      "full",
       "concepts"
     ],
     "approved_page_hashes": {
+      "full": "da91e37cf234600e0c05113d565a49cffd2d1ed6",
       "concepts": "ae3b0d45c447836cfb2d1c9dbc3e8da4e6828711"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-10",
+    "reviewed_at": "2026-04-28",
     "notes": [
+      "Approved full.md for publication after spot-checking beginning, middle, and ending page spans against the chapter structure; validator still warns about figure/table labels without direct image inserts.",
       "Rebuilt and approved the concepts page with chapter-specific concept cards."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-23T01:28:47.997Z",
+    "updated_at": "2026-04-28T05:28:56.434Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -75,7 +78,7 @@
     },
     "page_results": {
       "full": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [
           "full text appears to contain standalone figure/table labels without matching direct image inserts"
@@ -156,54 +159,27 @@
         }
       },
       "quiz_ox": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-ox item 1 contains unresolved particle template",
-          "quiz-ox item 2 contains unresolved particle template",
-          "quiz-ox item 3 contains unresolved particle template",
-          "quiz-ox item 4 contains unresolved particle template",
-          "quiz-ox item 5 contains unresolved particle template",
-          "quiz-ox item 6 contains unresolved particle template",
-          "quiz-ox item 7 contains unresolved particle template",
-          "quiz-ox item 8 contains unresolved particle template"
-        ],
+        "status": "not_applicable",
+        "errors": [],
         "warnings": [],
-        "metrics": {
-          "item_count": 15
-        }
+        "metrics": {}
       },
       "quiz_short": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-short item 1 contains unresolved particle template",
-          "quiz-short item 2 contains unresolved particle template",
-          "quiz-short item 3 contains unresolved particle template",
-          "quiz-short item 4 contains unresolved particle template",
-          "quiz-short item 5 contains unresolved particle template",
-          "quiz-short item 6 contains unresolved particle template",
-          "quiz-short item 7 contains unresolved particle template",
-          "quiz-short item 8 contains unresolved particle template",
-          "quiz-short item 14 leaks the accepted answer in the question"
-        ],
+        "status": "not_applicable",
+        "errors": [],
         "warnings": [],
-        "metrics": {
-          "item_count": 15
-        }
+        "metrics": {}
       },
       "quiz_mcq": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-mcq uses the same answer position for every item"
-        ],
+        "status": "not_applicable",
+        "errors": [],
         "warnings": [],
-        "metrics": {
-          "item_count": 15
-        }
+        "metrics": {}
       }
     },
     "source_page_results": {
       "full": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [
           "full text appears to contain standalone figure/table labels without matching direct image inserts"
@@ -284,53 +260,26 @@
         }
       },
       "quiz_ox": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-ox item 1 contains unresolved particle template",
-          "quiz-ox item 2 contains unresolved particle template",
-          "quiz-ox item 3 contains unresolved particle template",
-          "quiz-ox item 4 contains unresolved particle template",
-          "quiz-ox item 5 contains unresolved particle template",
-          "quiz-ox item 6 contains unresolved particle template",
-          "quiz-ox item 7 contains unresolved particle template",
-          "quiz-ox item 8 contains unresolved particle template"
-        ],
+        "status": "not_applicable",
+        "errors": [],
         "warnings": [],
-        "metrics": {
-          "item_count": 15
-        }
+        "metrics": {}
       },
       "quiz_short": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-short item 1 contains unresolved particle template",
-          "quiz-short item 2 contains unresolved particle template",
-          "quiz-short item 3 contains unresolved particle template",
-          "quiz-short item 4 contains unresolved particle template",
-          "quiz-short item 5 contains unresolved particle template",
-          "quiz-short item 6 contains unresolved particle template",
-          "quiz-short item 7 contains unresolved particle template",
-          "quiz-short item 8 contains unresolved particle template",
-          "quiz-short item 14 leaks the accepted answer in the question"
-        ],
+        "status": "not_applicable",
+        "errors": [],
         "warnings": [],
-        "metrics": {
-          "item_count": 15
-        }
+        "metrics": {}
       },
       "quiz_mcq": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-mcq uses the same answer position for every item"
-        ],
+        "status": "not_applicable",
+        "errors": [],
         "warnings": [],
-        "metrics": {
-          "item_count": 15
-        }
+        "metrics": {}
       }
     },
     "stage1": {
-      "status": "manual_review_required",
+      "status": "approved",
       "notes": []
     },
     "stage2": {
@@ -338,28 +287,16 @@
       "notes": []
     },
     "stage3": {
-      "status": "partial",
-      "notes": [
-        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
-        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template; quiz-short item 14 leaks the accepted answer in the question",
-        "quiz-mcq: quiz-mcq uses the same answer position for every item"
-      ]
+      "status": "manual_review_required",
+      "notes": []
     },
     "reading": {
-      "status": "partial",
-      "notes": [
-        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
-        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template; quiz-short item 14 leaks the accepted answer in the question",
-        "quiz-mcq: quiz-mcq uses the same answer position for every item"
-      ]
+      "status": "manual_review_required",
+      "notes": []
     }
   },
-  "workflow_status": "partial",
-  "workflow_notes": [
-    "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
-    "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template; quiz-short item 14 leaks the accepted answer in the question",
-    "quiz-mcq: quiz-mcq uses the same answer position for every item"
-  ],
+  "workflow_status": "manual_review_required",
+  "workflow_notes": [],
   "shared_page_bundle": null,
   "shared_page_keys": [],
   "pdf_visibility": "public",
@@ -369,9 +306,6 @@
     "full",
     "concepts",
     "pitfalls",
-    "quiz-ox",
-    "quiz-short",
-    "quiz-mcq",
     "review-sheet",
     "professor-prep"
   ]
