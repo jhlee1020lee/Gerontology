@@ -3,49 +3,49 @@
   "instructions": "문장이 맞으면 O, 틀리면 X를 고른 뒤 바로 아래 설명으로 이유를 확인하세요.",
   "items": [
     {
-      "prompt": "dementia caregiving은(는) 치매가 있는 배우자를 돌보는 역할 수행을 뜻한다.",
+    "prompt": "배우자 치매돌봄(dementia caregiving)은 치매가 있는 배우자를 돌보는 역할 수행을 뜻한다.",
       "answer": "O",
       "explanation": "논문의 핵심 노출 변수다.",
       "source": "연구 질문"
     },
     {
-      "prompt": "self-rated health은(는) 개인이 스스로 평가한 건강 수준이다.",
+    "prompt": "자기평가 건강(self-rated health)은 개인이 스스로 평가한 건강 수준이다.",
       "answer": "O",
       "explanation": "논문에서 효과 수정자 역할을 하는 핵심 변수다.",
       "source": "방법"
     },
     {
-      "prompt": "mortality benefit은(는) 특정 역할이나 상태가 더 낮은 사망위험과 연결되는 현상이다.",
+    "prompt": "돌봄의 사망위험 감소 효과(mortality benefit)는 특정 역할이나 상태가 더 낮은 사망위험과 연결되는 현상이다.",
       "answer": "O",
       "explanation": "caregiving survival advantage를 설명하는 표현이다.",
       "source": "결과"
     },
     {
-      "prompt": "Healthy Caregiver Hypothesis은(는) 원래 건강한 사람이 돌봄 역할에 진입하거나 돌봄이 건강 유지를 촉진할 수 있다는 가설이다.",
+    "prompt": "건강한 돌봄자 가설(Healthy Caregiver Hypothesis)은 원래 건강한 사람이 돌봄 역할에 진입하거나 돌봄이 건강 유지를 촉진할 수 있다는 가설이다.",
       "answer": "O",
       "explanation": "논문이 직접 검토하려는 핵심 설명틀이다.",
       "source": "문제의식"
     },
     {
-      "prompt": "Cox survival model은(는) 시간에 따른 사망위험을 분석하는 생존모형이다.",
+    "prompt": "Cox 생존모형(Cox survival model)은 시간에 따른 사망위험을 분석하는 생존모형이다.",
       "answer": "O",
       "explanation": "논문의 핵심 분석방법이다.",
       "source": "방법"
     },
     {
-      "prompt": "all-cause mortality은(는) 특정 원인을 구분하지 않은 전체 사망을 뜻한다.",
+    "prompt": "전체 사망(all-cause mortality)은 특정 원인을 구분하지 않은 전체 사망을 뜻한다.",
       "answer": "O",
       "explanation": "논문의 첫 번째 결과 변수다.",
       "source": "방법"
     },
     {
-      "prompt": "cause-specific mortality은(는) 특정 원인별 사망을 따로 구분한 결과 변수다.",
+    "prompt": "원인별 사망(cause-specific mortality)은 특정 원인별 사망을 따로 구분한 결과 변수다.",
       "answer": "O",
       "explanation": "심장질환, 암, 뇌혈관질환 사망을 따로 본 이유를 설명한다.",
       "source": "방법"
     },
     {
-      "prompt": "interaction은(는) 한 변수의 효과가 다른 변수 수준에 따라 달라지는 현상이다.",
+    "prompt": "상호작용(interaction)은 한 변수의 효과가 다른 변수 수준에 따라 달라지는 현상이다.",
       "answer": "O",
       "explanation": "치매돌봄과 자기평가 건강의 교차효과를 읽는 핵심 개념이다.",
       "source": "결과"

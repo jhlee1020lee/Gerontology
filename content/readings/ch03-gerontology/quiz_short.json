@@ -1,142 +1,164 @@
 {
   "title": "노년학의 주요이론 및 관점 단답형 퀴즈",
-  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
   "items": [
     {
-      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 메타이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "개별 가설보다 넓게 노화와 인간발달을 어떤 렌즈로 볼지 정해 주는 상위 이론틀은 무엇인가?",
       "accepted_answers": [
-        "메타이론"
+        "메타이론",
+        "metatheory"
       ],
       "answer_type": "term",
-      "explanation": "메타이론은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "메타이론은 연구자가 무엇을 문제로 보고 어떤 설명을 선호할지 방향을 잡는 넓은 관점이다.",
+      "source": "메타이론"
     },
     {
-      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 기계론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "인간을 환경적 자극에 반응하는 기계처럼 보고 나이 관련 변화를 주로 양적 변화와 외적 경험의 결과로 설명하는 관점은 무엇인가?",
       "accepted_answers": [
-        "기계론"
+        "기계적 관점",
+        "mechanistic perspective"
       ],
       "answer_type": "term",
-      "explanation": "기계론은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "기계적 관점은 정보처리모델처럼 성인기 후반의 변화를 속도 저하나 기능 감소로 읽는 전통적 설명과 연결된다.",
+      "source": "기계적 관점"
     },
     {
-      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 맥락주의과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "인간을 일정한 발달 시간표와 질적 단계 변화를 따라 성장하고 성숙하는 존재로 보는 관점은 무엇인가?",
       "accepted_answers": [
-        "맥락주의"
+        "유기체적 관점",
+        "organismic perspective"
       ],
       "answer_type": "term",
-      "explanation": "맥락주의은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "유기체적 관점은 발달이 단순한 양적 누적이 아니라 단계적·질적 변화로 진행된다고 본다.",
+      "source": "유기체적 관점"
     },
     {
-      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 전생애발달과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "발달과 노화를 유전과 환경의 상호작용 속에서 이해하고, 사람과 환경이 서로를 바꾼다고 보는 관점은 무엇인가?",
       "accepted_answers": [
-        "전생애발달"
+        "맥락적 관점",
+        "contextual perspective"
       ],
       "answer_type": "term",
-      "explanation": "전생애발달은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "맥락적 관점은 최근 노년학에서 개인차와 사회역사적 조건을 함께 보게 하는 중심 관점이다.",
+      "source": "맥락적 관점"
     },
     {
-      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 생애과정 관점과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "각 단계마다 다른 과업과 능력이 있고 이전 단계 성취가 다음 단계의 바탕이 된다고 보는 대표적 8단계 생애주기 이론가는 누구인가?",
       "accepted_answers": [
-        "생애과정 관점"
+        "Erikson",
+        "에릭슨",
+        "Erikson의 8단계 생애주기 이론",
+        "에릭슨의 8단계 생애주기 이론"
       ],
       "answer_type": "term",
-      "explanation": "생애과정 관점은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "이 장은 Erikson의 8단계 생애주기 이론을 유기체적 관점의 대표 예로 든다.",
+      "source": "유기체적 관점"
     },
     {
-      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 탈관여이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "발달이 출생부터 죽음까지 이어지며 노년기에도 적응과 보상이 가능하다고 보는 모델은 무엇인가?",
       "accepted_answers": [
-        "탈관여이론"
+        "전생애발달 모델",
+        "life-span developmental model",
+        "life-span development"
       ],
       "answer_type": "term",
-      "explanation": "탈관여이론은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "전생애발달 모델은 노년기를 발달이 끝난 뒤 쇠퇴만 남은 시기로 보지 않는다.",
+      "source": "전생애발달 모델"
     },
     {
-      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 활동이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "Baltes의 모델에서 발달의 모든 시점에 함께 존재한다고 보는 두 방향은 무엇인가?",
       "accepted_answers": [
-        "활동이론"
-      ],
-      "answer_type": "term",
-      "explanation": "활동이론은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "노년학의 주요이론 및 관점에서 핵심적으로 붙잡아야 하는 용어는? 연속성이론과(와) 직접 연결된 설명을 떠올려 답하시오.",
-      "accepted_answers": [
-        "연속성이론"
-      ],
-      "answer_type": "term",
-      "explanation": "연속성이론은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "이론의 시선"
+        "획득과 상실",
+        "획득/상실",
+        "gains and losses"
       ],
       "answer_type": "short_phrase",
-      "explanation": "이론의 시선은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "explanation": "전생애발달 모델은 어느 시기든 성장과 감소가 함께 있으며 노년기에도 보상 가능성이 남아 있다고 본다.",
+      "source": "전생애발달 모델"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "훈련과 연습을 통해 노년기 능력도 어느 정도 개선될 수 있다는 발달의 속성은 무엇인가?",
       "accepted_answers": [
-        "메타이론"
+        "가소성",
+        "plasticity"
       ],
-      "answer_type": "short_phrase",
-      "explanation": "메타이론은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "answer_type": "term",
+      "explanation": "가소성은 노년기 변화를 고정된 쇠퇴로만 보지 않고 중재와 적응 가능성을 보게 한다.",
+      "source": "전생애발달 모델"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "개인의 삶을 역사적·문화적 상황과 사회가 규정한 역할 전환 속에서 전개되는 경로로 보는 관점은 무엇인가?",
       "accepted_answers": [
-        "전생애발달"
+        "생애과정 관점",
+        "life-course perspective",
+        "life course perspective"
       ],
-      "answer_type": "short_phrase",
-      "explanation": "전생애발달은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "answer_type": "term",
+      "explanation": "생애과정 관점은 개인적 시간, 사회적 시간, 역사적 시간을 함께 고려해 노화를 해석한다.",
+      "source": "생애과정 관점"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "사회적 시계가 결혼, 취업, 은퇴 같은 전환의 시기를 판단할 때 쓰는 두 대비 표현은 무엇인가?",
       "accepted_answers": [
-        "사회노년학"
+        "on-time/off-time",
+        "on-time과 off-time",
+        "온타임/오프타임"
       ],
       "answer_type": "short_phrase",
-      "explanation": "사회노년학은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "explanation": "생애과정 관점은 전환이 개인적 나이만이 아니라 사회적 기대와 역사적 조건 속에서 평가된다고 본다.",
+      "source": "생애과정 관점"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "나이 들며 사회적 역할에서 점차 물러나는 것을 자연스러운 적응 과정으로 설명한 고전 이론은 무엇인가?",
       "accepted_answers": [
-        "이론의 한계"
+        "탈관여이론",
+        "disengagement theory"
       ],
-      "answer_type": "short_phrase",
-      "explanation": "이론의 한계은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "answer_type": "term",
+      "explanation": "탈관여이론은 노년기 적응을 사회적 관계와 역할에서의 물러남으로 설명한다.",
+      "source": "초기 사회노년학 이론"
     },
     {
-      "question": "이 읽기의 장 번호를 짧게 답하시오.",
+      "question": "상실된 역할을 대체활동과 사회참여로 보완할수록 노년기 만족이 높다고 보는 고전 이론은 무엇인가?",
       "accepted_answers": [
-        "CH3"
+        "활동이론",
+        "activity theory"
       ],
-      "answer_type": "short_phrase",
-      "explanation": "교재 장 번호는 기본 구조 확인용이다.",
-      "source": "메타데이터"
+      "answer_type": "term",
+      "explanation": "활동이론은 노년기에도 역할과 참여를 유지하거나 대체하는 것이 적응에 중요하다고 본다.",
+      "source": "초기 사회노년학 이론"
     },
     {
-      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
+      "question": "이전 삶의 방식과 정체성을 이어 가는 것이 노년기 적응에 중요하다고 보는 고전 이론은 무엇인가?",
       "accepted_answers": [
-        "교재",
-        "chapter"
+        "연속성이론",
+        "continuity theory"
+      ],
+      "answer_type": "term",
+      "explanation": "연속성이론은 노년기 적응을 과거 생활양식과 정체성의 지속이라는 관점에서 설명한다.",
+      "source": "초기 사회노년학 이론"
+    },
+    {
+      "question": "초기 미시 이론들이 충분히 설명하지 못했다고 지적되는 더 큰 조건은 무엇인가?",
+      "accepted_answers": [
+        "사회구조·문화·역사 맥락",
+        "사회구조와 문화와 역사 맥락",
+        "구조·문화·역사 맥락"
       ],
       "answer_type": "short_phrase",
-      "explanation": "국문 장 자료는 교재 chapter다.",
-      "source": "메타데이터"
+      "explanation": "초기 사회노년학 이론들은 개인 적응을 설명하는 데 유용하지만 사회구조와 문화, 역사 맥락을 충분히 담지 못한다는 한계가 있다.",
+      "source": "초기 사회노년학 이론"
+    },
+    {
+      "question": "연령계층, 자원분배, 정책, 담론, 젠더와 권력관계 속에서 노화 경험을 설명하는 관점들은 무엇인가?",
+      "accepted_answers": [
+        "구조적·비판적 관점",
+        "구조적 비판적 관점",
+        "structural and critical perspectives"
+      ],
+      "answer_type": "term",
+      "explanation": "구조적·비판적 관점은 노년기 경험을 개인 선택만이 아니라 제도, 자원, 의미 구성, 권력관계 속에서 본다.",
+      "source": "구조적·비판적 관점"
     }
   ]
 }

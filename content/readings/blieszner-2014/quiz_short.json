@@ -3,149 +3,154 @@
   "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
   "items": [
     {
-      "question": "다음 설명에 해당하는 용어는? 애정, 동반성, 신뢰, 호혜성을 포함하는 자발적 관계다.",
-      "accepted_answers": [
-        "friendship"
-      ],
+      "question": "애정, 함께함, 신뢰, 호혜성을 포함하는 자발적 유대를 무엇이라고 하는가?",
+      "accepted_answers": ["friendship", "우정"],
       "answer_type": "term",
-      "explanation": "friendship은(는) 글 전체의 중심 개념이다.",
-      "source": "What Is Friendship?"
+      "explanation": "우정은 이 글 전체의 출발점이 되는 관계 개념이다.",
+      "source": "What Is Friendship?",
+      "evidence_segment_id": "THEORY-001",
+      "difficulty": "basic",
+      "misconception_targeted": "우정을 막연한 친밀감으로만 기억하는 오해"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? 가족처럼 주어진 것이 아니라 선택하고 유지하는 관계를 뜻한다.",
-      "accepted_answers": [
-        "voluntary tie"
-      ],
+      "question": "우정의 정의에 들어가는 '서로 주고받음'의 원리를 가리키는 영어 용어는?",
+      "accepted_answers": ["reciprocity", "호혜성"],
       "answer_type": "term",
-      "explanation": "voluntary tie은(는) 친구관계의 독특성을 가장 잘 보여 준다.",
-      "source": "Unique Features of Friend Ties"
+      "explanation": "reciprocity는 신뢰, 지지와 함께 우정의 핵심 요소로 제시된다.",
+      "source": "What Is Friendship?",
+      "evidence_segment_id": "THEORY-001",
+      "difficulty": "basic",
+      "misconception_targeted": "호혜성을 단순한 친절로만 보는 오해"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? 서로 주고받는 호혜성이 유지되는 관계 특성이다.",
-      "accepted_answers": [
-        "reciprocity"
-      ],
-      "answer_type": "term",
-      "explanation": "reciprocity은(는) 우정을 건강한 관계로 유지하는 핵심 원리다.",
-      "source": "What Is Friendship?"
+      "question": "우정은 자발적이어도 어떤 두 조건의 영향을 받는가? 한 가지 이상 쓰시오.",
+      "accepted_answers": ["만남의 기회", "사회 규범", "social norms", "people they meet"],
+      "answer_type": "short_phrase",
+      "explanation": "저자는 사람은 자신이 만난 사람하고만 친구가 될 수 있고, 자발적 관계도 사회 규범의 영향을 받는다고 말한다.",
+      "source": "What Is Friendship?",
+      "evidence_segment_id": "THEORY-002",
+      "difficulty": "medium",
+      "misconception_targeted": "자발성을 무제약으로 이해하는 오해"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? 함께 시간을 보내며 즐거움과 소속감을 주는 친구의 기능이다.",
-      "accepted_answers": [
-        "companionship"
-      ],
+      "question": "가족관계와 달리 평생 이어질 수 있고 새로 만들어질 수 있는 친밀한 관계는 무엇인가?",
+      "accepted_answers": ["friendship", "우정", "친구관계"],
       "answer_type": "term",
-      "explanation": "companionship은(는) 친구가 행복에 기여하는 직접 경로다.",
-      "source": "Worth of Friendship"
+      "explanation": "저자는 가족 역할과 대비해 우정이 일찍 시작되어 평생 지속될 수 있다고 설명한다.",
+      "source": "Unique Features of Friend Ties",
+      "evidence_segment_id": "THEORY-004",
+      "difficulty": "basic",
+      "misconception_targeted": "우정을 가족 역할과 같은 고정 관계로 보는 오해"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? 위로, 공감, 경청처럼 정서적 안정을 제공하는 도움이다.",
-      "accepted_answers": [
-        "emotional support"
-      ],
-      "answer_type": "term",
-      "explanation": "emotional support은(는) 친구가 외로움과 우울을 줄이는 핵심 기능이다.",
-      "source": "Relationships, Health, and Well-being"
+      "question": "친구가 대체로 또래라서 공유하기 쉬운 세 가지 중 하나를 쓰시오.",
+      "accepted_answers": ["태도", "가치", "관심사", "attitudes", "values", "interests"],
+      "answer_type": "short_phrase",
+      "explanation": "공유된 태도, 가치, 관심사는 우정의 발달과 지속을 강화한다.",
+      "source": "Unique Features of Friend Ties",
+      "evidence_segment_id": "THEORY-006",
+      "difficulty": "basic",
+      "misconception_targeted": "우정 지속을 감정만으로 설명하는 오해"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? 장보기, 이동 지원, 식사 나눔처럼 실질적으로 제공되는 도움이다.",
-      "accepted_answers": [
-        "instrumental help"
-      ],
+      "question": "우정의 유지 단계에서 중요하게 작동하는 의도적 과정은 무엇인가?",
+      "accepted_answers": ["friendship maintenance", "우정 유지", "유지 노력"],
       "answer_type": "term",
-      "explanation": "instrumental help은(는) 친구가 단순 정서 관계가 아니라 실용 자원임을 보여 준다.",
-      "source": "Relationships, Health, and Well-being"
+      "explanation": "우정은 연락, 자기노출, 신뢰, 갈등 해결 같은 노력을 통해 유지된다.",
+      "source": "Friendship Over the Lifespan",
+      "evidence_segment_id": "THEORY-009",
+      "difficulty": "medium",
+      "misconception_targeted": "오래된 우정은 저절로 유지된다는 오해"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? 외로움을 줄이기 위해 친구형성과 유지 기술을 강화하는 개입을 뜻한다.",
-      "accepted_answers": [
-        "loneliness intervention"
-      ],
+      "question": "친구가 장보기, 병원 이동, 식사 공유를 돕는 기능을 무엇이라 부를 수 있는가?",
+      "accepted_answers": ["instrumental help", "instrumental support", "도구적 도움", "도구적 지원"],
       "answer_type": "term",
-      "explanation": "loneliness intervention은(는) 우정을 실천적으로 활용할 수 있다는 점을 보여 준다.",
-      "source": "Implications for Professional Practice"
+      "explanation": "친구는 정서적 지지만이 아니라 실제 생활 과업도 도울 수 있다.",
+      "source": "Contributions of Friendship to Health and Well-Being",
+      "evidence_segment_id": "DISCUSSION-002",
+      "difficulty": "basic",
+      "misconception_targeted": "친구 역할을 정서적 위로로만 축소하는 오해"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? 친구관계를 지속하기 위한 의도적 노력과 기술을 뜻한다.",
-      "accepted_answers": [
-        "friendship maintenance"
-      ],
+      "question": "친구가 외로움과 우울을 완화할 수 있다고 설명할 때 원문이 쓴 짧은 표현은?",
+      "accepted_answers": ["just being there", "그저 곁에 있음", "곁에 있어 주는 것"],
+      "answer_type": "short_phrase",
+      "explanation": "저자는 친구가 서로의 삶에 관여하고 care를 보여 주는 것 자체가 중요하다고 설명한다.",
+      "source": "Contributions of Friendship to Health and Well-Being",
+      "evidence_segment_id": "DISCUSSION-003",
+      "difficulty": "medium",
+      "misconception_targeted": "동반성을 사소한 친목으로 보는 오해"
+    },
+    {
+      "question": "문제적 우정이 건강에 나쁜 방향으로 작동할 수 있는 이유 중 하나를 쓰시오.",
+      "accepted_answers": ["비호혜", "신뢰 배신", "원치 않는 조언", "건강 권고 방해", "betray trust", "unhelpful advice"],
+      "answer_type": "short_phrase",
+      "explanation": "친구가 지지를 호혜적으로 주지 못하거나 신뢰를 깨면 심리적 고통과 건강 악화로 이어질 수 있다.",
+      "source": "Contributions of Friendship to Health and Well-Being",
+      "evidence_segment_id": "DISCUSSION-004",
+      "difficulty": "medium",
+      "misconception_targeted": "우정은 항상 긍정적이라는 오해"
+    },
+    {
+      "question": "친구가 가족·전문 돌봄 제공자에게 제공할 수 있는 '잠시 숨 돌릴 도움'을 가리키는 영어 표현은?",
+      "accepted_answers": ["respite", "temporary respite", "임시 respite", "일시적 휴식"],
       "answer_type": "term",
-      "explanation": "friendship maintenance은(는) 우정은 자연발생적 관계가 아니라 관리되는 관계임을 드러낸다.",
-      "source": "Implications for Professional Practice"
+      "explanation": "친구는 강도 높은 돌봄을 전부 대체하기보다 가족과 전문 돌봄 제공자에게 일시적 휴식을 줄 수 있다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-005",
+      "difficulty": "hard",
+      "misconception_targeted": "친구를 가족 돌봄의 완전 대체물로 보는 오해"
+    },
+    {
+      "question": "방문, 전화, 이동 지원이 더 잘 일어나려면 돌봄계획에서 친구를 어떻게 해야 하는가?",
+      "accepted_answers": ["포함", "친구 포함", "include friends", "including friends"],
+      "answer_type": "short_phrase",
+      "explanation": "친구 지원은 care plan에 친구를 포함하는 일이 정상화될 때 더 잘 일어날 수 있다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-006",
+      "difficulty": "medium",
+      "misconception_targeted": "친구 도움을 즉흥적 호의로만 보는 오해"
+    },
+    {
+      "question": "거동 제한이나 지리적 거리에도 친구와 상호작용하게 해 주는 새 통로로 제시된 것은?",
+      "accepted_answers": ["인터넷", "소셜 미디어", "Internet", "social media"],
+      "answer_type": "term",
+      "explanation": "인터넷과 소셜 미디어는 집에 머무는 노인과 친구가 계속 상호작용할 기회를 제공한다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-007",
+      "difficulty": "basic",
+      "misconception_targeted": "노년기 우정 유지에서 기술을 배제하는 오해"
+    },
+    {
+      "question": "Stevens, Martina, Westerhof 프로그램은 몇 주 동안 진행되었는가?",
+      "accepted_answers": ["12", "12주", "twelve", "twelve weekly lessons"],
+      "answer_type": "number",
+      "explanation": "프로그램은 자존감, 관계 역량, 우정 형성·유지, 사회적 기술을 다루는 12주 수업이었다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-008",
+      "difficulty": "basic",
+      "misconception_targeted": "개입 내용을 막연한 친목으로만 기억하는 오해"
+    },
+    {
+      "question": "12주 개입에서 처치집단 여성들이 더 많이 보인 두 결과 중 하나를 쓰시오.",
+      "accepted_answers": ["새 친구 만들기", "기존 우정 개선", "made new friends", "improved existing friendships"],
+      "answer_type": "short_phrase",
+      "explanation": "우정 형성과 유지 지도를 받은 여성들은 새 친구 만들기와 기존 우정 개선을 더 많이 보였다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-009",
+      "difficulty": "medium",
+      "misconception_targeted": "개입 결과를 단순 만족감으로만 보는 오해"
     },
     {
       "question": "이 글의 저자는 누구인가?",
-      "accepted_answers": [
-        "Rosemary Blieszner",
-        "Blieszner"
-      ],
+      "accepted_answers": ["Rosemary Blieszner", "Blieszner", "로즈메리 블리즈너"],
       "answer_type": "person",
-      "explanation": "노년기 우정 연구를 정리한 글이다.",
-      "source": "표지 정보",
-      "mcq_prompt": "이 글의 저자로 맞는 사람은?"
-    },
-    {
-      "question": "친구를 설명할 때 글이 반복해서 언급하는 핵심 관계 원리 중 하나로 '서로 주고받음'을 뜻하는 말은?",
-      "accepted_answers": [
-        "reciprocity"
-      ],
-      "answer_type": "term",
-      "explanation": "호혜성은 우정 정의의 핵심이다.",
-      "source": "What Is Friendship?",
-      "mcq_prompt": "우정의 핵심 관계 원리로 가장 적절한 것은?"
-    },
-    {
-      "question": "친구가 장보기나 병원 이동을 도와주는 기능은 무엇이라 부를 수 있는가?",
-      "accepted_answers": [
-        "instrumental help"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "친구는 실질적 도움도 제공한다.",
-      "source": "Relationships, Health, and Well-being",
-      "mcq_prompt": "친구가 제공하는 실질적 도움을 가리키는 표현은?"
-    },
-    {
-      "question": "친구형성·유지 기술을 가르쳐 외로움을 낮추려는 개입을 무엇이라 부를 수 있는가?",
-      "accepted_answers": [
-        "loneliness intervention"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "글은 실제 프로그램 사례를 소개한다.",
-      "source": "Implications for Professional Practice",
-      "mcq_prompt": "외로움 완화를 위해 친구기술을 강화하는 개입은?"
-    },
-    {
-      "question": "가족보다 덜 의무적이어서 행복감과 더 강하게 연결될 수 있는 관계는 무엇인가?",
-      "accepted_answers": [
-        "friendship",
-        "friends"
-      ],
-      "answer_type": "term",
-      "explanation": "우정은 덜 의무적이어서 긍정 정서와 강하게 연결될 수 있다.",
-      "source": "Relationships, Health, and Well-being",
-      "mcq_prompt": "덜 의무적이어서 행복감에 더 크게 기여할 수 있는 관계는?"
-    },
-    {
-      "question": "친구를 계속 유지하려면 필요한 의도적 노력은 무엇이라 부를 수 있는가?",
-      "accepted_answers": [
-        "friendship maintenance"
-      ],
-      "answer_type": "term",
-      "explanation": "우정은 유지 기술이 필요한 관계다.",
-      "source": "Implications for Professional Practice",
-      "mcq_prompt": "친구관계를 지속하기 위한 노력을 가리키는 말은?"
-    },
-    {
-      "question": "이 글이 친구를 돌봄계획에 포함하라고 제안하는 이유는 친구가 어떤 자원일 수 있기 때문인가?",
-      "accepted_answers": [
-        "비공식 자원",
-        "informal resource"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "친구는 돌봄을 보완하는 비공식 자원이 될 수 있다.",
-      "source": "Implications for Professional Practice",
-      "mcq_prompt": "실천에서 친구를 더 활용해야 하는 이유로 가장 맞는 것은?"
+      "explanation": "저자는 버지니아공대 인간발달 분야 교수이자 노년학센터 부센터장으로 소개된다.",
+      "source": "Author note",
+      "evidence_segment_id": "DISCUSSION-011",
+      "difficulty": "basic",
+      "misconception_targeted": "읽기 자료의 저자와 근거 출처를 놓치는 오해"
     }
   ]
 }

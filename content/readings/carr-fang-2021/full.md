@@ -1,11 +1,6 @@
-# “We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia
+﻿# “We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia
 
 > source: `source_pdfs/Carr & Fang, 2021.pdf`
-
-## Page 1
-
-1
-The Gerontologist
 
 cite as: Gerontologist , 2022, Vol. XX, No. XX, 1–10
 https://doi.org/10.1093/geront/gnab164
@@ -35,7 +30,7 @@ Received: July 14, 2021; Editorial Decision Date: October 27, 2021
 
 Decision Editor: Barbara J. Bowers, PhD, RN, FAAN, FGSA
 
-Abstract
+## Abstract
 
 Background and Objectives: This study sought to qualitatively explore the lived experiences of 80 older people living in
 retirement villages across the United Kingdom and Australia. We focused on residents’ narratives around the themes of
@@ -50,6 +45,8 @@ a burden on them and were not suited to an “independent living community.”
 Discussion and Implications: Our findings are discussed in relation to the challenges such competing narratives create for
 retirement villages as living environments for a group of people who are far from homogenous.
 Keywords: Ageism, Othering, Qualitative, Retirement living
+
+## Introduction: Independent-Living Retirement Villages and Conflicting Needs
 
 It has been estimated that 3% of Australians older than
 
@@ -79,9 +76,6 @@ This is an Open Access article distributed under the terms of the Creative Commo
 
 unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
 
-## Page 2
-
-2 The Gerontologist, 2022, Vol. XX, No. XX
 the provision of assisted living or continued care on-site, a
 
 managed transition from independent living to care-home
@@ -105,7 +99,7 @@ villages for the older than 55 years group, offering on-site
 shared leisure activities and facilities, and access to an “in -
 dependent lifestyle” (we describe the villages in more depth
 in the Method section).
-Contrasting Needs in Retirement Villages
+## Contrasting Needs in Retirement Villages
 
 Wiles et al. (2012) argued that “[b]y treating place as a
 mere ‘container’ and ‘older people’ as a homogenous cate -
@@ -166,7 +160,7 @@ independence, and different reasons for moving to a retire -
 ment community. Nonetheless, this diverse group of older
 people often live alongside each other and are part of the
 same “retirement community.”
-The Current Study
+## The Current Study
 
 The current study draws upon a large qualitative study
 of 80 older people residing in independent living retire -
@@ -196,12 +190,9 @@ derstanding will be of importance in relation to better ac -
 commodating, integrating, and understanding the diverse
 and/or competing needs of residents within such villages.
 
-## Page 3
+## Method
 
-The Gerontologist , 2022, Vol. XX, No. XX 3
-Method
-
-Sample
+### Sample
 A total of 80 interviews were conducted in eight retire -
 ment villages across the United Kingdom and Australia.
 Four villages were selected from one operating company
@@ -267,7 +258,7 @@ for the management teams of villages in both the United
 Kingdom and Australia. Furthermore, permission was also
 gained from the local site managers at each of the eight
 participating villages.
-Interviews
+### Interviews
 
 All interviews were conducted in the participants’ homes
 independently by the eight researchers between October
@@ -307,14 +298,11 @@ to listen and to interrupt minimally. Several participants
 commented on the value of the interview for them—it pro -
 vided a welcome and (often) rare space for them to open up
 and feel genuinely “listened to.”
-Data Analysis
+### Data Analysis
 
 A thematic analysis ( Braun & Clarke, 2012 ) was conducted
 to interpret these rich data and an inductive approach was
 
-## Page 4
-
-4 The Gerontologist, 2022, Vol. XX, No. XX
 adopted. This method of analysis allowed for important
 
 messages about lived experiences and nuanced feelings in
@@ -342,7 +330,7 @@ conducted until a consensus was met. Upon the completion
 of coding, final codes were converted to a diagrammatic
 representation. Figures 1 and 2 display an early and later
 iteration of our coding processes in diagram form.
-Findings
+## Findings
 
 Approximately 15% ( n = 12) of interviewees (the
 “prompted by dependency group”) revealed that they had
@@ -388,9 +376,6 @@ Figure 1. An illustration of an early iteration in our coding process. Shaded bo
 
 search questions for this study. Codes we initially identified as interconnected are joined by arrows.
 
-## Page 5
-
-The Gerontologist , 2022, Vol. XX, No. XX 5
 themes: (a) remaining “independent and active,” (b)
 
 coping with increasing dependency needs, (c) conflicting
@@ -405,9 +390,9 @@ Theme 4 reveals the importance of “aging together” as a
 means of alleviating conflict within the villages. To pro -
 tect participants’ confidentiality, pseudonyms are used
 throughout.
-Remaining Independent and Active
+### Remaining Independent and Active
 
-Prolonging midlife
+### Prolonging midlife
 The retirement villages in our study were often branded
 by the organizations that developed and managed them as
 “older than 55 years active independent living” villages.
@@ -440,7 +425,7 @@ you’re not, so you can’t do that. Yes, I think we should
 set out to live life to the full and a place like this gives
 you the opportunity to continue to do that in your more
 mature years. (Steve, 81, UK)
-Future proofing
+### Future proofing
 
 This prolongation of midlife was often accompanied by
 an awareness that increasing dependency may be a future
@@ -473,9 +458,6 @@ Figure 2. An illustration of a later iteration of our coding process that reflec
 
 Here, we refine our codes related to independence/dependence/autonomy.
 
-## Page 6
-
-6 The Gerontologist, 2022, Vol. XX, No. XX
 Roger had moved to the village with his wife, Margaret,
 
 and told us that the village reflected a sort of safety mech -
@@ -487,9 +469,7 @@ cause if Margaret did die before me, in the future, there
 are a lot of people I know around here. I wouldn’t be
 particularly lonely. I would miss Margaret a hell of a lot,
 but I could exist, survive. (Roger, 73, UK)
-Rejecting being associated with the “old” and
-
-“dependent”
+### Rejecting being associated with the “old” and “dependent”
 In some residents (15%), from the predependency group,
 the desire to hold on to active, independent living was also
 accompanied by a rejection of the stereotypical idea of re -
@@ -517,7 +497,7 @@ The older people make you feel older. Yes. They can’t do
 
 as much …. We do help them, but we can’t be living our
 life around them. (Jane, 72, UK)
-Coping With Increasing Dependency Needs
+### Coping With Increasing Dependency Needs
 
 A smaller subset (15%) of people was prompted to move
 into retirement villages by direct experiences of increasing
@@ -561,9 +541,9 @@ I feel cared for. I feel safe and cared for and for me,
 that’s enough—to feel safe and cared for, right. The rest
 is up to me now and I’m doing the best I can. (Meg, 84,
 Australia)
-Conflicting Needs Within the Village
+### Conflicting Needs Within the Village
 
-“We are not carers!”
+### “We are not carers!”
 Perhaps the most powerful theme to emerge from our data
 set (in the sense that it reflected how the above needs of the
 different groups were interrelated and experienced in rela -
@@ -591,9 +571,6 @@ I don’t think the people [here] are vetted enough. I think
 the main criteria is you’ve got the money. I don’t neces -
 sarily think there ought to be MORE support—I think
 
-## Page 7
-
-The Gerontologist , 2022, Vol. XX, No. XX 7
 there ought to be LESS people who require support here.
 
 (Paul, 74, UK)
@@ -626,7 +603,7 @@ pendent life. We want to be in a community of people
 who are active and independent. We don’t want to have
 people who depend upon us for their daily lives. (Roy,
 72, UK)
-The other side of the coin
+### The other side of the coin
 
 The smaller percentage of residents in the “prompted
 by dependency group” (10%), who had moved in to
@@ -662,7 +639,7 @@ We’ve been disappointed in that sense. The care isn’t
 there that we thought was going to be there. I don’t
 think people here understand what dementia is all
 about. (Peter, 78, UK)
-Developing a Sense of Community
+### Developing a Sense of Community
 
 Despite the conflict of needs and the division captured
 above, some residents (35%) clearly articulated a sense
@@ -710,9 +687,6 @@ way round. I think maybe if we both get older and more
 connected here we would possibly become dependent
 on very close friends here. (Ralph, 72, UK)
 
-## Page 8
-
-8 The Gerontologist, 2022, Vol. XX, No. XX
 On the other hand, the residents (20%) in Australia had a
 
 significantly longer time aging together with others in the
@@ -727,7 +701,7 @@ munity] … we didn’t know so many people around us …
 but here [in the village] I can say I know everybody here.
 Interviewer: Does it feel like a community?
 Emma: Yes, it does. Yes. (Emma, 87, Australia)
-Discussion
+## Discussion
 
 In line with Wiles et al.’s (2012) argument, we took the
 position that older people living in retirement villages are
@@ -827,9 +801,6 @@ tain retirement villages and, thus, such villages play a role
 in “selling” and subsequently “reinforcing” an unrealistic
 and potentially discriminatory idea of growing old.
 
-## Page 9
-
-The Gerontologist , 2022, Vol. XX, No. XX 9
 Our data also raised the ethical issue of retirement
 
 villages “selling different ideals to different people.” The
@@ -887,21 +858,21 @@ inadequately recognize the diverse and conflicting needs
 of an extremely wide range of people and (b) are often
 so vaguely defined that they appear to offer “all things
 to all people.”
-Funding
+## Funding
 
 This project was supported by a research grant RE-ED1100 from
 Guild Living Ltd . The authors confirm that the funder played no
 role in the design, execution, analysis, and interpretation of data, or
 writing of the study.
-Conflict of Interest
+## Conflict of Interest
 
 None declared.
-Statement of Ethical Approval
+## Statement of Ethical Approval
 
 This study was approved by the Social Sciences Research Ethics
 Committee (SSREC) at the University of Bath (SSREC reference
 S19-052).
-Acknowledgments
+## Acknowledgments
 
 We would like to acknowledge the following people and organ -
 izations for their kind support of this project: (a) Prof. Malcolm
@@ -909,13 +880,13 @@ Johnson, (b) Guild Living, (c) Dr. Kate Barnett, (d) the research
 teams in the United Kingdom and Australia, (e) Life Care, Australia,
 (f) Inspired Villages Group, UK, and (g) the participants who kindly
 shared their thoughts, feelings, and experiences with us.
-Author Contributions
+## Author Contributions
 
 Both authors made a substantial contribution to (a) the conception
 and design and analysis and interpretation of data, (b) the drafting
 of all sections of the article, and (c) approval of the final version to
 be submitted for publication.
-References
+## References
 
 Associated Retirement Community Operators. (2018). Retirement
 communities fact pack. https://www.arcouk.org/resource/
@@ -941,9 +912,6 @@ Jenkins, K., Pienta, A. & Horgas, A. (2002). Activity and health-related
 quality of life in continuing care retirement communities. Research
 on Aging , 24 (1), 124–149. doi: 10.1177/0164027503024001008
 
-## Page 10
-
-10 The Gerontologist, 2022, Vol. XX, No. XX
 Johnson, M. (2013). Biography and generation: Spirituality and bio -
 
 graphical pain at the end of life in old age. In R. Silverstein (Ed.),
@@ -994,3 +962,4 @@ doi: 10.1016/j.jaging.2016.06.005
 Wiles, J. L., Leibing, A., Guberman, N., Reeve, J., & Allen, R. E.
 (2012). The meaning of “aging in place” to older people. The
 Gerontologist , 52 (3), 357–366. doi: 10.1093/geront/gnr098
+

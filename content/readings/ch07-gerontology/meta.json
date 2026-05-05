@@ -37,7 +37,7 @@
   "reading_date": null,
   "sort_date": "2026-04-09",
   "display_date_label": "4/09",
-  "public_pdf": null,
+  "public_pdf": "pdfs/ch07-gerontology.pdf",
   "overview_hook": null,
   "classroom_points": [],
   "notebooklm_video_url": null,
@@ -77,7 +77,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-23T00:35:55.755Z",
+    "updated_at": "2026-05-05T16:19:44.132Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -174,25 +174,76 @@
       "quiz_ox": {
         "status": "approved",
         "errors": [],
-        "warnings": [],
+        "warnings": [
+          "quiz-ox item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
+        ],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       },
       "quiz_short": {
         "status": "approved",
         "errors": [],
-        "warnings": [],
+        "warnings": [
+          "quiz-short item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
+        ],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       },
       "quiz_mcq": {
         "status": "approved",
         "errors": [],
-        "warnings": [],
+        "warnings": [
+          "quiz-mcq item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
+        ],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       }
     },
@@ -279,25 +330,76 @@
       "quiz_ox": {
         "status": "approved",
         "errors": [],
-        "warnings": [],
+        "warnings": [
+          "quiz-ox item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
+        ],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       },
       "quiz_short": {
         "status": "approved",
         "errors": [],
-        "warnings": [],
+        "warnings": [
+          "quiz-short item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
+        ],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       },
       "quiz_mcq": {
         "status": "approved",
         "errors": [],
-        "warnings": [],
+        "warnings": [
+          "quiz-mcq item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
+        ],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       }
     },
@@ -322,7 +424,7 @@
   "workflow_notes": [],
   "shared_page_bundle": null,
   "shared_page_keys": [],
-  "pdf_visibility": "none",
+  "pdf_visibility": "public",
   "landing_video_policy": "optional",
   "enabled_page_keys": [
     "summary",

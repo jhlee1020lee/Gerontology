@@ -3,49 +3,49 @@
   "instructions": "문장이 맞으면 O, 틀리면 X를 고른 뒤 바로 아래 설명으로 이유를 확인하세요.",
   "items": [
     {
-      "prompt": "retirement village은(는) 고령자를 위해 설계된 독립생활 중심 주거공동체를 뜻한다.",
+    "prompt": "은퇴촌(retirement village)은 고령자를 위해 설계된 독립생활 중심 주거공동체를 뜻한다.",
       "answer": "O",
       "explanation": "연구의 현장이다.",
       "source": "연구 질문"
     },
     {
-      "prompt": "independence은(는) 타인에게 크게 의존하지 않고 스스로 생활을 유지하려는 상태와 가치다.",
+    "prompt": "독립(independence)은 타인에게 크게 의존하지 않고 스스로 생활을 유지하려는 상태와 가치다.",
       "answer": "O",
       "explanation": "연구의 핵심 주제 중 하나다.",
       "source": "문제의식"
     },
     {
-      "prompt": "dependence은(는) 도움과 돌봄을 더 많이 필요로 하는 상태를 뜻한다.",
+    "prompt": "의존(dependence)은 도움과 돌봄을 더 많이 필요로 하는 상태를 뜻한다.",
       "answer": "O",
       "explanation": "independence와 충돌하는 두 번째 축이다.",
       "source": "문제의식"
     },
     {
-      "prompt": "othering은(는) 특정 집단을 '우리'와 다른 타자로 구분하고 거리 두는 과정이다.",
+    "prompt": "타자화(othering)는 특정 집단을 '우리'와 다른 타자로 구분하고 거리 두는 과정이다.",
       "answer": "O",
       "explanation": "논문의 핵심 결과를 설명하는 개념이다.",
       "source": "결과"
     },
     {
-      "prompt": "prolonged midlife은(는) 보다 젊고 독립적인 중년성을 오래 유지하려는 지향을 뜻한다.",
+    "prompt": "연장된 중년성(prolonged midlife)은 보다 젊고 독립적인 중년성을 오래 유지하려는 지향을 뜻한다.",
       "answer": "O",
       "explanation": "왜 일부 주민이 취약한 이웃을 부담으로 보는지 설명한다.",
       "source": "결과"
     },
     {
-      "prompt": "independent living community은(는) 돌봄시설이 아니라 독립적 생활을 전제로 운영되는 공동체를 뜻한다.",
+    "prompt": "독립생활 공동체(independent living community)는 돌봄시설이 아니라 독립적 생활을 전제로 운영되는 공동체를 뜻한다.",
       "answer": "O",
       "explanation": "공동체 규범이 어떻게 배제를 낳는지 보여 준다.",
       "source": "방법"
     },
     {
-      "prompt": "qualitative interview은(는) 참여자의 경험과 의미를 깊게 탐색하는 질적 면담 방법이다.",
+    "prompt": "질적 면담(qualitative interview)은 참여자의 경험과 의미를 깊게 탐색하는 질적 면담 방법이다.",
       "answer": "O",
       "explanation": "논문의 연구방법을 설명한다.",
       "source": "방법"
     },
     {
-      "prompt": "heterogeneity은(는) 집단 내부가 동질적이지 않고 다양하다는 특성을 뜻한다.",
+    "prompt": "이질성(heterogeneity)은 집단 내부가 동질적이지 않고 다양하다는 특성을 뜻한다.",
       "answer": "O",
       "explanation": "노년 공동체를 하나의 유형으로 보는 시각을 깨뜨린다.",
       "source": "의미"

@@ -17,6 +17,7 @@ const LANDING_TAB_LABEL="개요";
 const NOTEBOOKLM_VIDEO_CANDIDATES=["notebooklm.mp4","notebooklm.webm","notebooklm.mov","notebooklm.m4v"];
 const THUMBNAIL_SOURCE_CANDIDATES=["thumbnail.png","thumbnail.jpg","thumbnail.jpeg","thumbnail.webp","thumbnail.svg"];
 const READING_LAYOUT_PAGE_KEYS=new Set(["full","translation"]);
+const PRESERVED_DOC_MARKDOWN_DIRS=["guides","references"];
 
 const PAGE_DEFS=[
   {key:"summary",label:"핵심 요약",filename:"summary.html",type:"article",description:"읽기 전 전체 흐름을 빠르게 잡는 요약 페이지입니다."},
@@ -87,6 +88,9 @@ const PREP_TARGET_CARD_COUNT=12;
 
 function readText(filePath){return fs.readFileSync(filePath,"utf8").replace(/^\uFEFF/,"");}
 function writeText(filePath,text){fs.mkdirSync(path.dirname(filePath),{recursive:true});fs.writeFileSync(filePath,text,"utf8");}
+function collectMarkdownFiles(dirPath){if(!fs.existsSync(dirPath))return[];return fs.readdirSync(dirPath,{withFileTypes:true}).flatMap((entry)=>{const entryPath=path.join(dirPath,entry.name);if(entry.isDirectory())return collectMarkdownFiles(entryPath);return entry.isFile()&&entry.name.toLowerCase().endsWith(".md")?[entryPath]:[];});}
+function snapshotPreservedDocMarkdown(){return PRESERVED_DOC_MARKDOWN_DIRS.flatMap((dirName)=>{const baseDir=path.join(siteDir,dirName);return collectMarkdownFiles(baseDir).map((filePath)=>({relativePath:path.relative(siteDir,filePath),content:readText(filePath)}));});}
+function restorePreservedDocMarkdown(snapshot){(Array.isArray(snapshot)?snapshot:[]).forEach((entry)=>writeText(path.join(siteDir,entry.relativePath),entry.content));}
 function loadManifest(){return JSON.parse(readText(manifestPath));}
 function relHref(fromPath,toPath){return path.relative(path.dirname(fromPath),toPath).split(path.sep).join("/");}
 function escapeHtml(value){return String(value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\"/g,"&quot;").replace(/'/g,"&#39;");}
@@ -172,7 +176,7 @@ function extractReaderTocItems(html){
 function renderReaderToc(html){
   const items=extractReaderTocItems(html);
   if(!items.length)return `<p class="meta">본문 목차가 아직 없습니다.</p>`;
-  return items.map((item)=>`<a class="toc-link toc-h${item.level}" href="#${escapeHtml(item.id)}">${escapeHtml(item.text)}</a>`).join("");
+  return items.map((item)=>`<a class="toc-link toc-h${item.level}" href="#${escapeHtml(item.id)}" data-reader-toc-link>${escapeHtml(item.text)}</a>`).join("");
 }
 
 function isHiddenReaderFrontmatterLine(line){
@@ -472,7 +476,7 @@ function renderParsedArticleDocument(document,options={}){
     if(!blockHtml)return"";
     const reveal=revealByFlatIndex.get(flatIndex);
     if(!reveal||block.type!=="paragraph")return blockHtml;
-    return `<section class="translation-segment" data-segment-id="${escapeHtml(reveal.id)}" data-reveal-unit="${escapeHtml(reveal.unit||"paragraph")}">${blockHtml}<details class="source-reveal"><summary class="source-reveal-summary">${escapeHtml(revealSummaryLabel(reveal))}</summary><div class="source-reveal-body" lang="en">${renderRevealSourceHtml(reveal.sourceText)}</div></details></section>`;
+    return `<section class="translation-segment original-translation-pair source-segment-anchor" id="${escapeHtml(reveal.id)}" data-segment-id="${escapeHtml(reveal.id)}" data-reveal-unit="${escapeHtml(reveal.unit||"paragraph")}">${blockHtml}<details class="source-reveal original-toggle"><summary class="source-reveal-summary">${escapeHtml(revealSummaryLabel(reveal))}</summary><div class="source-reveal-body" lang="en">${renderRevealSourceHtml(reveal.sourceText)}</div></details></section>`;
   }).join("\n");
   return[frontmatterHtml,contentHtml].filter(Boolean).join("\n");
 }
@@ -503,7 +507,40 @@ function cleanQuestionLabel(value){return toText(value).replace(/[?？]\s*$/,"")
 function requireText(value,label,filePath){const text=toText(value);if(!text)throw new Error(`[invalid] ${fileLabel(filePath)}: ${label} is required`);return text;}
 function professorPrepAnswerText(card){return toText(card.answer_30s||card.answer||card.model_answer);}
 function usesLegacyProfessorPrepAnswer(card){return!toText(card.answer_30s)&&!!toText(card.answer||card.model_answer);}
-function loadQuiz(page,filePath){const payload=loadJson(filePath);if(!payload)return null;const items=Array.isArray(payload.items)?payload.items:[];if(!items.length)return null;if(page.key==="quiz-short"){if(items.length!==15)throw new Error(`[invalid] ${fileLabel(filePath)}: quiz_short.json must contain exactly 15 items`);const normalizedItems=items.map((item,index)=>{const question=requireText(item.question,`items[${index}].question`,filePath);const accepted_answers=textArray(item.accepted_answers);const answer_type=requireText(item.answer_type,`items[${index}].answer_type`,filePath);const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);const source=toText(item.source);if(!accepted_answers.length)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers must be a non-empty array`);if(!SHORT_ANSWER_TYPES.has(answer_type))throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].answer_type must be one of ${Array.from(SHORT_ANSWER_TYPES).join(", ")}`);accepted_answers.forEach((answer,answerIndex)=>{if(wordCount(answer)>7)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers[${answerIndex}] must stay under 8 words`);});return{question,accepted_answers,answer_type,explanation,source};});return{...payload,items:normalizedItems};}const normalizedItems=items.map((item,index)=>{const prompt=requireText(item.prompt,`items[${index}].prompt`,filePath);const answer=requireText(item.answer,`items[${index}].answer`,filePath);const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);const options=Array.isArray(item.options)?item.options.map((option)=>toText(option)).filter(Boolean):[];const source=toText(item.source);return{prompt,answer,explanation,options,source};});return{...payload,items:normalizedItems};}
+function loadQuiz(page,filePath){
+  const payload=loadJson(filePath);
+  if(!payload)return null;
+  const items=Array.isArray(payload.items)?payload.items:[];
+  if(!items.length)return null;
+  const normalizeEvidence=(item)=>({
+    source:toText(item.source),
+    evidence_segment_id:toText(item.evidence_segment_id),
+    difficulty:toText(item.difficulty),
+    misconception_targeted:toText(item.misconception_targeted)
+  });
+  if(page.key==="quiz-short"){
+    if(items.length!==15)throw new Error(`[invalid] ${fileLabel(filePath)}: quiz_short.json must contain exactly 15 items`);
+    const normalizedItems=items.map((item,index)=>{
+      const question=requireText(item.question,`items[${index}].question`,filePath);
+      const accepted_answers=textArray(item.accepted_answers);
+      const answer_type=requireText(item.answer_type,`items[${index}].answer_type`,filePath);
+      const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);
+      if(!accepted_answers.length)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers must be a non-empty array`);
+      if(!SHORT_ANSWER_TYPES.has(answer_type))throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].answer_type must be one of ${Array.from(SHORT_ANSWER_TYPES).join(", ")}`);
+      accepted_answers.forEach((answer,answerIndex)=>{if(wordCount(answer)>7)throw new Error(`[invalid] ${fileLabel(filePath)}: items[${index}].accepted_answers[${answerIndex}] must stay under 8 words`);});
+      return{question,accepted_answers,answer_type,explanation,...normalizeEvidence(item)};
+    });
+    return{...payload,items:normalizedItems};
+  }
+  const normalizedItems=items.map((item,index)=>{
+    const prompt=requireText(item.prompt,`items[${index}].prompt`,filePath);
+    const answer=requireText(item.answer,`items[${index}].answer`,filePath);
+    const explanation=requireText(item.explanation,`items[${index}].explanation`,filePath);
+    const options=Array.isArray(item.options)?item.options.map((option)=>toText(option)).filter(Boolean):[];
+    return{prompt,answer,explanation,options,...normalizeEvidence(item)};
+  });
+  return{...payload,items:normalizedItems};
+}
 function loadProfessorPrep(filePath){const payload=loadJson(filePath);if(!payload)return null;const cards=Array.isArray(payload.cards)?payload.cards:[];if(!cards.length)return null;const normalizedCards=cards.map((card,index)=>{if(!card||typeof card!=="object")throw new Error(`[invalid] ${fileLabel(filePath)}: cards[${index}] must be an object`);const fallbackTitle=cleanQuestionLabel(card.question);const title=requireText(card.title||fallbackTitle,`cards[${index}].title`,filePath);if(usesLegacyProfessorPrepAnswer(card))console.warn(`[legacy] ${fileLabel(filePath)}: cards[${index}] should rename answer/model_answer to answer_30s`);const answer_30s=requireText(professorPrepAnswerText(card),`cards[${index}].answer_30s`,filePath);return{title,answer_30s};});return{title:toText(payload.title)||"읽기 답변 준비",instructions:toText(payload.instructions)||"모든 답변은 '이 글을 어떻게 읽었는지'에 초점을 맞춘 30초 모델 답변입니다.",cards:normalizedCards};}
 function translateCommonText(text){return COMMON_TEXT_MAP[text]||text;}
 function loadReadingMeta(contentDir){const metaPath=path.join(rootDir,contentDir,"meta.json");const payload=loadJson(metaPath);return payload&&typeof payload==="object"?payload:{};}
@@ -588,8 +625,7 @@ function pageByKey(reading,pageKey){return Array.isArray(reading.pages)?reading.
 function hasAvailablePage(reading,pageKey){const page=pageByKey(reading,pageKey);return Boolean(page&&page.available);}
 function hasApprovedSourcePage(reading,pageKey){const page=pageByKey(reading,pageKey);return Boolean(page&&isApprovedStatus(page.source_validation_status));}
 function localTodayIsoDate(){const now=new Date();const month=String(now.getMonth()+1).padStart(2,"0");const day=String(now.getDate()).padStart(2,"0");return `${now.getFullYear()}-${month}-${day}`;}
-function homeReferenceDate(siteMeta={},today=localTodayIsoDate()){const cutoff=publishCutoffDate(siteMeta);if(!cutoff)return today;return cutoff<today?cutoff:today;}
-function currentReadingSlug(readings,today=localTodayIsoDate()){const candidates=(Array.isArray(readings)?readings:[]).filter((reading)=>toText(reading.class_date)&&reading.class_date<=today).sort((a,b)=>b.class_date.localeCompare(a.class_date)||b.sequence-a.sequence);return candidates[0]?.slug||"";}
+function currentReadingSlug(readings,today=localTodayIsoDate(),publishCutoff=""){const all=(Array.isArray(readings)?readings:[]).filter((reading)=>toText(reading.class_date)&&(!publishCutoff||reading.class_date<=publishCutoff));const upcoming=all.filter((reading)=>reading.class_date>=today).sort((a,b)=>a.class_date.localeCompare(b.class_date)||a.sequence-b.sequence);if(upcoming.length)return upcoming[0].slug;const referenceDate=publishCutoff&&publishCutoff<today?publishCutoff:today;const candidates=all.filter((reading)=>reading.class_date<=referenceDate).sort((a,b)=>b.class_date.localeCompare(a.class_date)||b.sequence-a.sequence);return candidates[0]?.slug||"";}
 function readingFilterGroup(reading){if(reading.type==="chapter"&&reading.language==="ko")return"textbook";if(reading.language==="en")return"english";return"other";}
 function readingProgress(reading){const read=Boolean(["summary","full","translation"].some((pageKey)=>hasAvailablePage(reading,pageKey)))?1:0;const concepts=hasAvailablePage(reading,"concepts")?1:0;const quizAvailableCount=["quiz-ox","quiz-short","quiz-mcq"].filter((pageKey)=>hasAvailablePage(reading,pageKey)).length;const prep=hasAvailablePage(reading,"professor-prep")?1:0;return{read,concepts,quiz:quizAvailableCount/3,prep,quiz_available_count:quizAvailableCount};}
 function completedProgressStageCount(progress){return["read","concepts","quiz","prep"].filter((key)=>Number(progress?.[key]||0)>=1).length;}
@@ -632,7 +668,7 @@ function prepareReadings(manifest,siteMeta={}){
       pages
     };
   });
-  const currentSlug=currentReadingSlug(prepared,homeReferenceDate(siteMeta));
+  const currentSlug=currentReadingSlug(prepared,localTodayIsoDate(),publishCutoffDate(siteMeta));
   return prepared.map((reading)=>{
     const progress=readingProgress(reading);
     const state=homeReadingState(reading,currentSlug);
@@ -666,8 +702,6 @@ function renderPdfActions(outputPath,reading,className="pdf-actions"){const href
 function readingPageHref(outputPath,reading,targetFilename){return relHref(outputPath,path.join(siteDir,"readings",reading.slug,targetFilename));}
 function renderActionLinkOrGate(outputPath,reading,label,targetFilename,className,message){if(targetFilename){return `<a class="${escapeHtml(className)}" href="${escapeHtml(readingPageHref(outputPath,reading,targetFilename))}">${escapeHtml(label)}</a>`;}return `<button class="${escapeHtml(`${className} is-disabled`)}" type="button" data-gated-link data-gated-message="${escapeHtml(message||readingGateMessage(reading))}">${escapeHtml(label)}</button>`;}
 function renderPdfDownloadAction(outputPath,reading,label,className="btn-ghost"){const href=pdfHref(outputPath,reading);if(href)return `<a class="${escapeHtml(className)}" href="${escapeHtml(href)}" download>${escapeHtml(label)}</a>`;return `<button class="${escapeHtml(`${className} is-disabled`)}" type="button" data-gated-link data-gated-message="${escapeHtml(pdfStatusText(reading))}">${escapeHtml(label)}</button>`;}
-function progressDotClass(value){if(value>=1)return" filled";if(value>0)return" partial";return"";}
-function renderProgressDots(progress){return `<div class="rcard-dots"><span class="rcard-dot${progressDotClass(progress.read)}"></span><span class="rcard-dot${progressDotClass(progress.concepts)}"></span><span class="rcard-dot${progressDotClass(progress.quiz)}"></span><span class="rcard-dot${progressDotClass(progress.prep)}"></span><span class="rcard-dot-label">${completedProgressStageCount(progress)}/4</span></div>`;}
 function progressSummaryItems(reading){return[{label:"읽기",value:reading.progress.read,detail:reading.progress.read>=1?"준비됨":"대기"},{label:"개념",value:reading.progress.concepts,detail:reading.progress.concepts>=1?"준비됨":"대기"},{label:"퀴즈",value:reading.progress.quiz,detail:`${reading.progress.quiz_available_count}/3 세트`},{label:"답변 대비",value:reading.progress.prep,detail:reading.progress.prep>=1?"준비됨":"대기"}];}
 function renderProgressGrid(reading){return `<div class="progress-grid">${progressSummaryItems(reading).map((item)=>`<article class="prog-item"><p class="k">${escapeHtml(item.label)}</p><div class="prog-bar${item.value<1&&item.value>0?" pale":""}"><span style="width:${escapeHtml(String(Math.max(0,Math.min(100,Math.round(item.value*100)))))}%"></span></div><p class="v">${escapeHtml(item.detail)}</p></article>`).join("")}</div>`;}
 function isExternalUrl(value){return /^https?:\/\//i.test(toText(value));}
@@ -705,6 +739,11 @@ function siteHeader(siteMeta,outputPath){const homeHref=relHref(outputPath,path.
       <p class="brand-title">2026-1 성인발달과노화</p>
     </div>
   </div>
+  <nav class="topbar-nav" aria-label="주요 메뉴">
+    <a href="${escapeHtml(`${homeHref}#weekly`)}">이번 주</a>
+    <a href="${escapeHtml(`${homeHref}#readings`)}">전체 읽기</a>
+    <a href="${escapeHtml(`${homeHref}#schedule`)}">읽기 일정</a>
+  </nav>
   <div class="topbar-actions">
     <button class="ghost-btn" type="button" data-theme-toggle>다크 모드</button>
   </div>
@@ -789,8 +828,37 @@ function renderBreadcrumbs(outputPath,reading,currentLabel=""){const homeHref=re
 function renderArticleMeta(reading,options={}){const bits=[options.pageLabel||"",reading.display_date,reading.type_label,options.includeLanguage?reading.language_label:"",reading.authors_label].filter(Boolean);return `<div class="article-meta-row">${bits.map((bit)=>`<span>${escapeHtml(bit)}</span>`).join("")}</div>`;}
 function renderArticleHeader(outputPath,reading,options){const currentLabel=options.breadcrumbLabel===undefined?(options.activeKey==="index"?"":options.label):options.breadcrumbLabel;return `<header class="article-header"><div class="article-header-top"><div class="article-header-copy">${renderBreadcrumbs(outputPath,reading,currentLabel)}<p class="section-kicker">${escapeHtml(readingSequenceLabel(reading.sequence))}</p><h1>${escapeHtml(reading.title)}</h1>${renderArticleMeta(reading,{pageLabel:options.metaPageLabel||"",includeLanguage:Boolean(options.includeLanguage)})}</div></div>${options.includePdf===false?"":renderPdfActions(outputPath,reading,"pdf-actions header-pdf-actions")}${pageTabs(outputPath,reading,options.activeKey)}</header>`;}
 function renderHomeRailItem(outputPath,reading){const target=readingOverviewTarget(reading);const content=target?`<a class="rail-reading ${escapeHtml(reading.state)}" href="${escapeHtml(readingPageHref(outputPath,reading,target))}">${escapeHtml(reading.title)}</a>`:`<button class="rail-reading ${escapeHtml(reading.state)}" type="button" data-gated-link data-gated-message="${escapeHtml(readingGateMessage(reading))}">${escapeHtml(reading.title)}</button>`;return `<li class="rail-item${reading.current_candidate?" is-current":""}${reading.state==="ready"?" is-done":""}"><span class="week-n">${escapeHtml(reading.display_date_label||displayDateLabel(reading))}</span><div class="rail-body"><div class="rail-date">${escapeHtml([reading.class_date||"",reading.type_label].filter(Boolean).join(" · "))}</div>${content}</div></li>`;}
-function renderHomeHero(outputPath,reading){if(!reading)return `<section class="hero"><div class="hero-body"><p class="hero-kicker">이번 주</p><h2>표시할 읽기가 아직 없습니다.</h2><p class="hook">수업 날짜가 지난 읽기가 생기면 이 영역에 자동으로 반영됩니다.</p></div></section>`;const overviewTarget=readingOverviewTarget(reading);const prepPageTarget=prepTarget(reading);return `<section class="hero"><div class="hero-body"><span class="hero-kicker"><span class="pulse"></span>이번 주 · ${escapeHtml(reading.display_date_label||displayDateLabel(reading))}</span><h2>${escapeHtml(reading.title)}</h2><p class="hook">${escapeHtml(reading.overview_hook||reading.subtitle||actionIntroText(reading))}</p><div class="hero-meta"><span class="chip strong">${escapeHtml(reading.type_label)}</span><span class="chip">${escapeHtml(reading.language_label)}</span><span class="chip">${escapeHtml(reading.authors_display)}</span>${(reading.tags||[]).slice(0,2).map((tag)=>`<span class="chip brand"># ${escapeHtml(tag)}</span>`).join("")}</div><div class="hero-cta-row">${renderActionLinkOrGate(outputPath,reading,"읽기",overviewTarget,"btn-primary")} ${renderActionLinkOrGate(outputPath,reading,"교수님 답변 대비",prepPageTarget,"btn-ghost","읽기 답변 준비는 아직 공개되지 않았습니다.")} ${renderPdfDownloadAction(outputPath,reading,"PDF 다운로드","btn-ghost")}</div></div></section>`;}
-function renderHomeCard(outputPath,reading){const target=readingOverviewTarget(reading);const clickable=Boolean(target);const tag=`${clickable?"a":"button"}`;const attrs=clickable?`class="card-link rcard${reading.state==="locked"?" is-locked":""}${reading.state==="current"?" is-current":""}" href="${escapeHtml(readingPageHref(outputPath,reading,target))}"`:`class="card-link rcard is-locked" type="button" data-gated-link data-gated-message="${escapeHtml(readingGateMessage(reading))}"`;const stateLabel=reading.state==="current"?"이번 주":reading.state==="ready"?"공개됨":"잠금";return `<article class="reading-card-shell" data-reading-card data-reading-slug="${escapeHtml(reading.slug)}" data-card-state="${escapeHtml(reading.state)}" data-search="${escapeHtml(searchBlob(reading))}" data-type="${escapeHtml(reading.type)}" data-filter-group="${escapeHtml(reading.filter_group)}" data-tags="${escapeHtml(reading.tags.map((tag)=>tag.toLowerCase()).join("||"))}" data-sort-date="${escapeHtml(reading.effective_sort_date||"")}" data-sequence="${reading.sequence}"><${tag} ${attrs}><div class="rcard-top"><span class="rcard-date card-date">${escapeHtml(reading.display_date_label||displayDateLabel(reading))}</span><span class="rcard-status ${escapeHtml(reading.state)}">${escapeHtml(stateLabel)}</span></div><h2 class="rcard-title title">${escapeHtml(reading.title)}</h2><p class="rcard-meta card-meta">${escapeHtml([reading.type_label,reading.language_label,reading.authors_display].filter(Boolean).join(" · "))}</p><p class="rcard-sub card-subtitle">${escapeHtml(reading.subtitle)}</p><div class="rcard-foot">${renderProgressDots(reading.progress)}<span class="rcard-arrow" aria-hidden="true">→</span></div></${tag}></article>`;}
+function renderHeroWorkspaceMockup(reading){
+  if(!reading)return "";
+  const tasks=progressSummaryItems(reading).map((item,index)=>{
+    const state=item.value>=1?"ready":item.value>0?"partial":"pending";
+    const accent=["purple","orange","teal","pink"][index%4];
+    return `<article class="workspace-task is-${escapeHtml(state)} accent-${escapeHtml(accent)}"><span>${escapeHtml(item.label)}</span><strong>${escapeHtml(item.detail)}</strong></article>`;
+  }).join("");
+  return `<div class="workspace-mockup-card" aria-hidden="true">
+    <div class="workspace-mockup-top"><span></span><span></span><span></span><strong>Gerontology HQ</strong></div>
+    <div class="workspace-mockup-body">
+      <div class="workspace-page-title"><span class="workspace-icon">N</span><div><p>이번 주 스터디 보드</p><strong>${escapeHtml(reading.title)}</strong></div></div>
+      <div class="workspace-board">${tasks}</div>
+    </div>
+  </div>`;
+}
+function renderHomeHero(outputPath,reading){
+  if(!reading)return `<section class="hero" id="weekly"><div class="hero-body"><p class="hero-kicker">이번 주</p><h2>표시할 읽기가 아직 없습니다.</h2><p class="hook">수업 날짜가 지난 읽기가 생기면 이 영역에 자동으로 반영됩니다.</p></div></section>`;
+  const overviewTarget=readingOverviewTarget(reading);
+  const prepPageTarget=prepTarget(reading);
+  return `<section class="hero" id="weekly"><div class="hero-body"><span class="hero-kicker"><span class="pulse"></span>이번 주 · ${escapeHtml(reading.display_date_label||displayDateLabel(reading))}</span><h2>${escapeHtml(reading.title)}</h2><p class="hook">${escapeHtml(reading.overview_hook||reading.subtitle||actionIntroText(reading))}</p><div class="hero-meta"><span class="chip strong">${escapeHtml(reading.type_label)}</span><span class="chip">${escapeHtml(reading.language_label)}</span><span class="chip">${escapeHtml(reading.authors_display)}</span>${(reading.tags||[]).slice(0,2).map((tag)=>`<span class="chip brand"># ${escapeHtml(tag)}</span>`).join("")}</div><div class="hero-cta-row">${renderActionLinkOrGate(outputPath,reading,"읽기",overviewTarget,"btn-primary")} ${renderActionLinkOrGate(outputPath,reading,"교수님 답변 대비",prepPageTarget,"btn-ghost","읽기 답변 준비는 아직 공개되지 않았습니다.")} ${renderPdfDownloadAction(outputPath,reading,"PDF 다운로드","btn-ghost")}</div></div>${renderHeroWorkspaceMockup(reading)}</section>`;
+}
+function renderHomeCard(outputPath,reading,thumbnailHref=""){
+  const target=readingOverviewTarget(reading);
+  const clickable=Boolean(target);
+  const tag=`${clickable?"a":"button"}`;
+  const attrs=clickable?`class="card-link rcard${reading.state==="locked"?" is-locked":""}${reading.state==="current"?" is-current":""}" href="${escapeHtml(readingPageHref(outputPath,reading,target))}"`:`class="card-link rcard is-locked" type="button" data-gated-link data-gated-message="${escapeHtml(readingGateMessage(reading))}"`;
+  const stateLabel=reading.state==="current"?"이번 주":reading.state==="ready"?"공개됨":"잠금";
+  const thumbnailSrc=thumbnailHref?resolveSiteAssetHref(outputPath,thumbnailHref):"";
+  const thumbnailMarkup=thumbnailSrc?`<div class="rcard-thumb"><img src="${escapeHtml(thumbnailSrc)}" alt="" loading="lazy" /><span class="rcard-status ${escapeHtml(reading.state)}">${escapeHtml(stateLabel)}</span><span class="rcard-date card-date">${escapeHtml(reading.display_date_label||displayDateLabel(reading))}</span></div>`:`<div class="rcard-thumb rcard-thumb-fallback"><span class="rcard-status ${escapeHtml(reading.state)}">${escapeHtml(stateLabel)}</span><span class="rcard-date card-date">${escapeHtml(reading.display_date_label||displayDateLabel(reading))}</span></div>`;
+  return `<article class="reading-card-shell" data-reading-card data-reading-slug="${escapeHtml(reading.slug)}" data-card-state="${escapeHtml(reading.state)}" data-search="${escapeHtml(searchBlob(reading))}" data-type="${escapeHtml(reading.type)}" data-filter-group="${escapeHtml(reading.filter_group)}" data-tags="${escapeHtml(reading.tags.map((tag)=>tag.toLowerCase()).join("||"))}" data-sort-date="${escapeHtml(reading.effective_sort_date||"")}" data-sequence="${reading.sequence}"><${tag} ${attrs}>${thumbnailMarkup}<div class="rcard-content"><h2 class="rcard-title title">${escapeHtml(reading.title)}</h2><p class="rcard-meta card-meta">${escapeHtml([reading.type_label,reading.language_label,reading.authors_display].filter(Boolean).join(" · "))}</p><p class="rcard-sub card-subtitle">${escapeHtml(reading.subtitle)}</p><div class="rcard-foot"><span class="rcard-arrow" aria-hidden="true">→</span></div></div></${tag}></article>`;
+}
 function renderOverviewPoints(reading){if(Array.isArray(reading.classroom_points)&&reading.classroom_points.length){return `<ol class="points-list">${reading.classroom_points.map((point,index)=>`<li><span class="n">${String(index+1).padStart(2,"0")}</span><span>${escapeHtml(point)}</span></li>`).join("")}</ol>`;}return"";}
 function renderOverviewQuickLinks(outputPath,reading){const links=[renderActionLinkOrGate(outputPath,reading,"본문 읽기",readingStartTarget(reading),"sub-link"),renderActionLinkOrGate(outputPath,reading,"교수님 답변 대비",prepTarget(reading),"sub-link","읽기 답변 준비는 아직 공개되지 않았습니다."),renderActionLinkOrGate(outputPath,reading,"퀴즈 풀기",quizOverviewTarget(reading),"sub-link","퀴즈는 아직 공개되지 않았습니다."),renderPdfDownloadAction(outputPath,reading,"PDF 다운로드","sub-link")];return `<div class="sub-link-list">${links.join("")}</div>`;}
 function renderReadingDetailHeader(outputPath,reading,options={}){const activeKey=options.activeKey||"index";const currentLabel=options.currentLabel!==undefined?options.currentLabel:(activeKey==="index"?"":"");return `<header class="article-header reading-detail-header"><div class="article-header-top reading-detail-top">${renderBreadcrumbs(outputPath,reading,currentLabel||"")}<p class="section-kicker">${escapeHtml(readingSequenceLabel(reading.sequence))}</p><div class="rdp-kicker"><span class="chip brand">${escapeHtml(reading.display_date_label||displayDateLabel(reading))}</span><span class="chip strong">${escapeHtml(reading.type_label)}</span><span class="chip">${escapeHtml(reading.language_label)}</span></div><h1 class="rdp-title">${escapeHtml(reading.title)}</h1><p class="rdp-authors">${escapeHtml([reading.authors_label,reading.year?String(reading.year):""].filter(Boolean).join(" · "))}</p>${reading.overview_hook?`<p class="rdp-hook">${escapeHtml(reading.overview_hook)}</p>`:""}<div class="hero-cta-row">${renderActionLinkOrGate(outputPath,reading,"읽기",readingStartTarget(reading),"btn-primary")} ${renderActionLinkOrGate(outputPath,reading,"교수님 답변 대비",prepTarget(reading),"btn-ghost","읽기 답변 준비는 아직 공개되지 않았습니다.")} ${renderPdfDownloadAction(outputPath,reading,"PDF 다운로드","btn-ghost")}</div></div>${pageTabs(outputPath,reading,activeKey)}</header>`;}
@@ -859,7 +927,7 @@ function renderPilotReaderAside(outputPath,reading,page,tocHtml){return `
   </section>
 </aside>
 `;}
-function renderReadingContentAside(outputPath,reading,page,tocHtml){return `<aside class="rpanel-side reader-detail-side" aria-label="${escapeHtml(page.label)} navigation"><section class="panel detail-side-panel reader-toc-panel"><p class="section-kicker">목차</p><h2>${escapeHtml(page.label)}</h2><div class="toc-list">${tocHtml||'<p class="meta">본문 목차가 아직 없습니다.</p>'}</div></section>${reading.tags&&reading.tags.length?`<section class="panel detail-side-panel"><p class="section-kicker">태그</p><h2>읽기 키워드</h2>${renderChipRow(reading.tags.map((tag)=>`# ${tag}`),"chip-row reading-tag-row")}</section>`:""}</aside>`;}
+function renderReadingContentAside(outputPath,reading,page,tocHtml){return `<aside class="rpanel-side reader-detail-side sticky-toc" aria-label="${escapeHtml(page.label)} navigation"><section class="panel detail-side-panel reader-toc-panel"><p class="section-kicker">목차</p><h2>${escapeHtml(page.label)}</h2><div class="toc-list">${tocHtml||'<p class="meta">본문 목차가 아직 없습니다.</p>'}</div></section>${reading.tags&&reading.tags.length?`<section class="panel detail-side-panel key-concept-callout"><p class="section-kicker">태그</p><h2>읽기 키워드</h2>${renderChipRow(reading.tags.map((tag)=>`# ${tag}`),"chip-row reading-tag-row")}</section>`:""}</aside>`;}
 function renderList(items){return `<ul>${items.map((item)=>`<li>${renderInline(item)}</li>`).join("")}</ul>`;}
 function renderChipRow(items,className="chip-row"){return `<div class="${escapeHtml(className)}">${items.map((item)=>`<span class="chip">${escapeHtml(item)}</span>`).join("")}</div>`;}
 function prepKeyword(card){return card.must_include_keywords[0]||"핵심 포인트";}
@@ -892,10 +960,10 @@ function writePlaceholderSvg(reading,svgPath){const slug=escapeHtml(reading.slug
 </svg>
 `;writeText(svgPath,svg);}
 function buildThumbnails(manifest,slugFilter=null){const thumbnailDir=path.join(siteDir,"assets","thumbnails");fs.mkdirSync(thumbnailDir,{recursive:true});const results={};for(const reading of manifest.readings){const sourceThumbnail=detectReadingThumbnailSource(reading.content_dir);if(sourceThumbnail){const extension=path.extname(sourceThumbnail).toLowerCase();const targetPath=path.join(thumbnailDir,`${reading.slug}${extension}`);fs.copyFileSync(sourceThumbnail,targetPath);results[reading.slug]=path.posix.join("assets","thumbnails",path.basename(targetPath));continue;}const svgPath=path.join(thumbnailDir,`${reading.slug}.svg`);if(!slugFilter||reading.slug===slugFilter||!fs.existsSync(svgPath))writePlaceholderSvg(reading,svgPath);results[reading.slug]=path.posix.join("assets","thumbnails",`${reading.slug}.svg`);}return results;}
-function buildIndex(siteMeta,readings,thumbnails){const outputPath=path.join(siteDir,"index.html");const sortedReadings=[...readings].sort((a,b)=>compareReadings(a,b,"chronological"));const currentReading=sortedReadings.find((reading)=>reading.current_candidate)||null;const cards=sortedReadings.map((reading)=>renderHomeCard(outputPath,reading)).join("");const railItems=sortedReadings.map((reading)=>renderHomeRailItem(outputPath,reading)).join("");const railToggleMeta=currentReading?`${currentReading.display_date_label||displayDateLabel(currentReading)} · ${currentReading.title}`:`총 ${sortedReadings.length}개`;const body=`
+function buildIndex(siteMeta,readings,thumbnails){const outputPath=path.join(siteDir,"index.html");const sortedReadings=[...readings].sort((a,b)=>compareReadings(a,b,"chronological"));const currentReading=sortedReadings.find((reading)=>reading.current_candidate)||null;const cards=sortedReadings.map((reading)=>renderHomeCard(outputPath,reading,thumbnails?.[reading.slug]||"")).join("");const railItems=sortedReadings.map((reading)=>renderHomeRailItem(outputPath,reading)).join("");const railToggleMeta=currentReading?`${currentReading.display_date_label||displayDateLabel(currentReading)} · ${currentReading.title}`:`총 ${sortedReadings.length}개`;const body=`
 ${siteHeader(siteMeta,outputPath)}
 <main class="home-shell home-dashboard" data-page-kind="home">
-  <details class="rail" aria-label="읽기 일정" open>
+  <details class="rail" id="schedule" aria-label="읽기 일정" open>
     <summary class="rail-toggle"><span class="rail-toggle-label">읽기 일정</span><span class="rail-toggle-meta">${escapeHtml(railToggleMeta)}</span></summary>
     <div class="rail-panel">
       <p class="rail-label">읽기 일정</p>
@@ -904,7 +972,7 @@ ${siteHeader(siteMeta,outputPath)}
   </details>
   <div class="home-main">
     ${renderHomeHero(outputPath,currentReading)}
-    <section>
+    <section id="readings">
       <div class="section-head">
         <h3>전체 읽기</h3>
         <span class="count">${sortedReadings.length}개</span>
@@ -940,49 +1008,63 @@ ${siteHeader(siteMeta,outputPath)}
   </div>
 </main>
 `;writeText(outputPath,renderDocument(siteMeta,outputPath,reading.title,body,reading.description,`data-page-kind="landing" data-reading-slug="${escapeHtml(reading.slug)}"`,reading.language==="en"?"en":"ko"));}
-function buildArticle(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const text=loadMarkdown(page.sourcePath);const readingLayout=usesReadingLayout(page);const originalReveal=shouldUseTranslationOriginalReveal(reading,page);const renderText=text&&!originalReveal?normalizeWrappedMarkdownForRender(text,reading,page):text;const content=isBlockedReading(reading)?pendingReadingHtml(reading,page.label):isReleaseLockedReading(reading)?pendingReleaseHtml(reading,page.label):canRenderPageContent(reading,page)?(text?(originalReveal?buildTranslationOriginalRevealHtml(reading,page,outputPath,text):markdownToHtml(renderText,{outputPath,reading,sourcePath:page.sourcePath,skipFirstTitleHeading:readingLayout,collectFrontmatter:readingLayout,suppressFigureCaptions:readingLayout&&page.key==="translation"})):placeholderArticleHtml(reading,page,page.sourcePath)):pendingUploadHtml(reading,page.label);const tocHtml=readingLayout?renderReaderToc(content):"";const body=`
+function buildArticle(siteMeta,reading,page){
+  const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);
+  const text=loadMarkdown(page.sourcePath);
+  const readingLayout=usesReadingLayout(page);
+  const originalReveal=shouldUseTranslationOriginalReveal(reading,page);
+  const renderText=text&&!originalReveal?normalizeWrappedMarkdownForRender(text,reading,page):text;
+  const content=isBlockedReading(reading)?pendingReadingHtml(reading,page.label):isReleaseLockedReading(reading)?pendingReleaseHtml(reading,page.label):canRenderPageContent(reading,page)?(text?(originalReveal?buildTranslationOriginalRevealHtml(reading,page,outputPath,text):markdownToHtml(renderText,{outputPath,reading,sourcePath:page.sourcePath,skipFirstTitleHeading:readingLayout,collectFrontmatter:readingLayout,suppressFigureCaptions:readingLayout&&page.key==="translation"})):placeholderArticleHtml(reading,page,page.sourcePath)):pendingUploadHtml(reading,page.label);
+  const tocHtml=readingLayout?renderReaderToc(content):"";
+  const progressHtml=readingLayout?`<div class="reading-progress" aria-hidden="true"><span data-reading-progress-bar></span></div>`:"";
+  const body=`
 ${siteHeader(siteMeta,outputPath)}
 <main class="reading-shell reading-detail-shell">
   ${renderReadingDetailHeader(outputPath,reading,{activeKey:page.key,currentLabel:page.label})}
+  ${progressHtml}
   <div class="rpanel">
     <section class="rpanel-main">
-      <section class="panel detail-block detail-content-block">
-        <section class="article-body detail-article-body${readingLayout?" article-body-pilot":""}">${content}</section>
+      <section class="panel detail-block detail-content-block section-block">
+        <section class="article-body detail-article-body${readingLayout?" article-body-pilot":""}" data-reading-article-body>${content}</section>
       </section>
     </section>
     ${readingLayout?renderReadingContentAside(outputPath,reading,page,tocHtml):renderReadingDetailAside(outputPath,reading)}
   </div>
 </main>
-`;const bodyAttrs=`data-page-kind="article" data-reading-slug="${escapeHtml(reading.slug)}" data-reading-page="${escapeHtml(page.key)}"${readingLayout?' data-reading-layout="reader-v2"':''}${originalReveal?' data-original-reveal="enabled"':''}`;writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,bodyAttrs,page.key==="full"&&reading.language==="en"?"en":"ko"));}
+`;
+  const bodyAttrs=`data-page-kind="article" data-reading-slug="${escapeHtml(reading.slug)}" data-reading-page="${escapeHtml(page.key)}"${readingLayout?' data-reading-layout="reader-v2"':''}${originalReveal?' data-original-reveal="enabled"':''}`;
+  writeText(outputPath,renderDocument(siteMeta,outputPath,`${reading.title} - ${page.label}`,body,reading.description,bodyAttrs,page.key==="full"&&reading.language==="en"?"en":"ko"));
+}
 function writePublicPdf(reading){if(reading.pdf_visibility!=="public"||!reading.public_pdf)return false;const sourcePath=path.join(rootDir,reading.source_pdf);if(!fs.existsSync(sourcePath))return false;const targetPath=publicPdfTargetPath(reading);fs.mkdirSync(path.dirname(targetPath),{recursive:true});fs.copyFileSync(sourcePath,targetPath);return true;}
-function renderStandardQuizCard(item,index){const optionsHtml=item.options&&item.options.length?`<ol class="choices">${item.options.map((option)=>`<li>${renderInline(option)}</li>`).join("")}</ol>`:"";const sourceHtml=item.source?`<p><strong>출처:</strong> ${renderInline(item.source)}</p>`:"";return `
-<article class="quiz-card">
-  <h3>${index+1}. ${renderInline(item.prompt)}</h3>
+function renderQuizEvidence(item){const evidence=item.evidence_segment_id?`<span class="quiz-evidence-segment">${escapeHtml(item.evidence_segment_id)}</span>`:"";const source=item.source?`<span>${renderInline(item.source)}</span>`:"";const difficulty=item.difficulty?`<span>${escapeHtml(item.difficulty)}</span>`:"";const misconception=item.misconception_targeted?`<span>${renderInline(item.misconception_targeted)}</span>`:"";const bits=[evidence,source,difficulty,misconception].filter(Boolean);return bits.length?`<p class="quiz-evidence"><strong>근거:</strong> ${bits.join(" · ")}</p>`:"";}
+function renderStandardQuizCard(item,index){const optionsHtml=item.options&&item.options.length?`<ol class="choices">${item.options.map((option)=>`<li>${renderInline(option)}</li>`).join("")}</ol>`:"";const evidenceHtml=renderQuizEvidence(item);return `
+<article class="quiz-card quiz-entry-card">
+  <div class="quiz-card-head"><span class="quiz-number">${String(index+1).padStart(2,"0")}</span><h3>${renderInline(item.prompt)}</h3></div>
   ${optionsHtml}
   <details class="answer">
     <summary>정답 보기</summary>
     <p><strong>정답:</strong> ${renderInline(item.answer)}</p>
     <p><strong>해설:</strong> ${renderInline(item.explanation)}</p>
-    ${sourceHtml}
+    ${evidenceHtml}
   </details>
 </article>
 `;}
-function renderShortAnswerQuizCard(item,index){const answers=item.accepted_answers.map((answer)=>renderInline(answer)).join(" / ");const sourceHtml=item.source?`<p><strong>출처:</strong> ${renderInline(item.source)}</p>`:"";return `
-<article class="quiz-card short-answer-card">
-  <h3>${index+1}. ${renderInline(item.question)}</h3>
+function renderShortAnswerQuizCard(item,index){const answers=item.accepted_answers.map((answer)=>renderInline(answer)).join(" / ");const evidenceHtml=renderQuizEvidence(item);return `
+<article class="quiz-card quiz-entry-card short-answer-card">
+  <div class="quiz-card-head"><span class="quiz-number">${String(index+1).padStart(2,"0")}</span><h3>${renderInline(item.question)}</h3></div>
   <details class="answer">
     <summary>정답 보기</summary>
     <p><strong>허용 정답:</strong> ${answers}</p>
     <p><strong>답 유형:</strong> ${escapeHtml(SHORT_ANSWER_TYPE_LABELS[item.answer_type]||item.answer_type)}</p>
     <p><strong>해설:</strong> ${renderInline(item.explanation)}</p>
-    ${sourceHtml}
+    ${evidenceHtml}
   </details>
 </article>
 `;}
 function buildQuiz(siteMeta,reading,page){const outputPath=path.join(siteDir,"readings",reading.slug,page.filename);const quiz=loadQuiz(page,page.sourcePath);let content="";if(isBlockedReading(reading)){content=pendingReadingHtml(reading,page.label);}else if(isReleaseLockedReading(reading)){content=pendingReleaseHtml(reading,page.label);}else if(!canRenderPageContent(reading,page)){content=pendingUploadHtml(reading,page.label);}else if(!quiz){content=placeholderQuizHtml(page,page.sourcePath);}else{const intro=`<section class="quiz-intro">${quiz.title?`<h2>${renderInline(quiz.title)}</h2>`:""}${quiz.instructions?`<p>${renderInline(quiz.instructions)}</p>`:""}</section>`;const cards=quiz.items.map((item,index)=>page.key==="quiz-short"?renderShortAnswerQuizCard(item,index):renderStandardQuizCard(item,index)).join("");content=`${intro}<section class="quiz-list">${cards}</section>`;}const body=`
 ${siteHeader(siteMeta,outputPath)}
 <main class="reading-shell reading-detail-shell">
-  ${renderReadingDetailHeader(outputPath,reading,{activeKey:page.key,currentLabel:"교수님 답변 대비"})}
+  ${renderReadingDetailHeader(outputPath,reading,{activeKey:page.key,currentLabel:page.label})}
   <div class="rpanel">
     <section class="rpanel-main">
       <section class="panel detail-block detail-content-block">
@@ -1025,7 +1107,7 @@ function copyNotebooklmVideo(reading){if(!reading.notebooklm_video_source||!read
 function writeAssets(){writeText(path.join(siteDir,"assets","styles.css"),readText(styleSource));writeText(path.join(siteDir,"assets","app.js"),readText(appSource));writeText(path.join(siteDir,"assets","chatbot-config.js"),readText(chatbotConfigSource));if(fs.existsSync(brandLogoSource)){const target=path.join(siteDir,"assets","branding","snu.png");fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(brandLogoSource,target);}}
 function refreshReadings(manifest,siteMeta={},slugFilter=null){ensureContentPlaceholders(manifest,siteMeta,slugFilter);return prepareReadings(manifest,siteMeta);}
 function buildSlugOutputs(siteMeta,manifest,readings,slug){const target=readings.find((reading)=>reading.slug===slug);if(!target)throw new Error(`Unknown slug: ${slug}`);fs.mkdirSync(siteDir,{recursive:true});const thumbnails=buildThumbnails(manifest,target.slug);writeAssets();writeChatbotCorpusAsset(readings);buildIndex(siteMeta,readings,thumbnails);writePublicPdf(target);copyNotebooklmVideo(target);const readingDir=path.join(siteDir,"readings",target.slug);const readingAssetDir=path.join(siteDir,"assets","readings",target.slug);if(fs.existsSync(readingDir))fs.rmSync(readingDir,{recursive:true,force:true});if(fs.existsSync(readingAssetDir))fs.rmSync(readingAssetDir,{recursive:true,force:true});copyReadingAssets(target);buildLanding(siteMeta,target);for(const page of target.pages){buildPage(siteMeta,target,page);}return target;}
-function buildFullOutputs(siteMeta,manifest,readings){if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();writeChatbotCorpusAsset(readings);buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){writePublicPdf(reading);copyNotebooklmVideo(reading);copyReadingAssets(reading);buildLanding(siteMeta,reading);for(const page of reading.pages){buildPage(siteMeta,reading,page);}}}
+function buildFullOutputs(siteMeta,manifest,readings){const preservedMarkdown=snapshotPreservedDocMarkdown();if(fs.existsSync(siteDir))fs.rmSync(siteDir,{recursive:true,force:true});const thumbnails=buildThumbnails(manifest);writeAssets();writeChatbotCorpusAsset(readings);buildIndex(siteMeta,readings,thumbnails);for(const reading of readings){writePublicPdf(reading);copyNotebooklmVideo(reading);copyReadingAssets(reading);buildLanding(siteMeta,reading);for(const page of reading.pages){buildPage(siteMeta,reading,page);}}restorePreservedDocMarkdown(preservedMarkdown);}
 function parseArgs(){const slugIndex=process.argv.indexOf("--slug");return{slug:slugIndex!==-1?process.argv[slugIndex+1]:null};}
 function buildPage(siteMeta,reading,page){if(page.type==="article"){buildArticle(siteMeta,reading,page);return;}if(page.type==="professor-prep"){buildProfessorPrep(siteMeta,reading,page);return;}buildQuiz(siteMeta,reading,page);}
 function buildSite(options={}){const manifest=loadManifest();const siteMeta=manifest.site;let readings=refreshReadings(manifest,siteMeta,options.slug||null);if(options.slug){buildSlugOutputs(siteMeta,manifest,readings,options.slug);readings=refreshReadings(manifest,siteMeta,options.slug);buildSlugOutputs(siteMeta,manifest,readings,options.slug);writeApprovalStatusReport(rootDir);return{siteMeta,readings};}buildFullOutputs(siteMeta,manifest,readings);readings=refreshReadings(manifest,siteMeta);buildFullOutputs(siteMeta,manifest,readings);writeApprovalStatusReport(rootDir);return{siteMeta,readings};}

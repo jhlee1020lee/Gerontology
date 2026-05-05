@@ -854,6 +854,61 @@ function initProfessorPrep(){
   renderDifficult();
 }
 
+function initReadingProgressAndToc(){
+  const article=document.querySelector("[data-reading-article-body]");
+  if(!article)return;
+  const progressBar=document.querySelector("[data-reading-progress-bar]");
+  const tocLinks=Array.from(document.querySelectorAll("[data-reader-toc-link]"));
+  const headings=Array.from(article.querySelectorAll("h2[id],h3[id],h4[id]"));
+
+  const setActiveToc=(id)=>{
+    tocLinks.forEach((link)=>{
+      const active=link.getAttribute("href")===`#${id}`;
+      link.classList.toggle("is-active",active);
+      if(active)link.setAttribute("aria-current","true");
+      else link.removeAttribute("aria-current");
+    });
+  };
+
+  const syncProgress=()=>{
+    if(!progressBar)return;
+    const rect=article.getBoundingClientRect();
+    const start=window.scrollY+rect.top;
+    const height=Math.max(1,article.scrollHeight-window.innerHeight*.72);
+    const progress=Math.min(1,Math.max(0,(window.scrollY-start)/height));
+    progressBar.style.width=`${Math.round(progress*100)}%`;
+  };
+
+  let ticking=false;
+  const onScroll=()=>{
+    if(ticking)return;
+    ticking=true;
+    window.requestAnimationFrame(()=>{
+      syncProgress();
+      if(headings.length&&!("IntersectionObserver" in window)){
+        const active=headings.reduce((current,heading)=>heading.getBoundingClientRect().top<160?heading:current,headings[0]);
+        setActiveToc(active.id);
+      }
+      ticking=false;
+    });
+  };
+
+  if(headings.length&&"IntersectionObserver" in window){
+    const visible=new Map();
+    const observer=new IntersectionObserver((entries)=>{
+      entries.forEach((entry)=>visible.set(entry.target.id,entry.isIntersecting));
+      const active=headings.find((heading)=>visible.get(heading.id))||headings.find((heading)=>heading.getBoundingClientRect().top>0)||headings[headings.length-1];
+      if(active)setActiveToc(active.id);
+    },{rootMargin:"-18% 0px -70% 0px",threshold:[0,1]});
+    headings.forEach((heading)=>observer.observe(heading));
+    setActiveToc(headings[0].id);
+  }
+
+  window.addEventListener("scroll",onScroll,{passive:true});
+  window.addEventListener("resize",onScroll);
+  syncProgress();
+}
+
 document.addEventListener("DOMContentLoaded",()=>{
   initTheme();
   initGatedLinks();
@@ -863,4 +918,5 @@ document.addEventListener("DOMContentLoaded",()=>{
   initTabMenus();
   initReader();
   initProfessorPrep();
+  initReadingProgressAndToc();
 });

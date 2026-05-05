@@ -8,7 +8,7 @@
         "환경노년학"
       ],
       "answer_type": "term",
-      "explanation": "환경노년학은(는) 장의 이론적 출발점이다.",
+      "explanation": "환경노년학은 장의 이론적 출발점이다.",
       "source": "환경노년학"
     },
     {
@@ -17,7 +17,7 @@
         "장이론"
       ],
       "answer_type": "term",
-      "explanation": "장이론은(는) 환경의 중요성을 설명하는 기본 틀이다.",
+      "explanation": "장이론은 환경의 중요성을 설명하는 기본 틀이다.",
       "source": "장이론"
     },
     {
@@ -27,7 +27,7 @@
         "press-competence model"
       ],
       "answer_type": "term",
-      "explanation": "환경압박-역량 모델은(는) 노인과 환경 상호작용을 구체적으로 읽게 한다.",
+      "explanation": "환경압박-역량 모델은 노인과 환경 상호작용을 구체적으로 읽게 한다.",
       "source": "환경압박이론"
     },
     {
@@ -36,7 +36,7 @@
         "지역사회 환경"
       ],
       "answer_type": "term",
-      "explanation": "지역사회 환경은(는) 장 전체에서 다루는 핵심 대상이다.",
+      "explanation": "지역사회 환경은 장 전체에서 다루는 핵심 대상이다.",
       "source": "지역사회 환경"
     },
     {
@@ -45,7 +45,7 @@
         "장소애착"
       ],
       "answer_type": "term",
-      "explanation": "장소애착은(는) 왜 익숙한 지역에 계속 살고 싶어 하는지 설명한다.",
+      "explanation": "장소애착은 왜 익숙한 지역에 계속 살고 싶어 하는지 설명한다.",
       "source": "지역사회 환경"
     },
     {
@@ -54,7 +54,7 @@
         "물리적 환경"
       ],
       "answer_type": "term",
-      "explanation": "물리적 환경은(는) 건강과 이동 가능성을 직접 좌우한다.",
+      "explanation": "물리적 환경은 건강과 이동 가능성을 직접 좌우한다.",
       "source": "지역사회 환경"
     },
     {
@@ -63,16 +63,18 @@
         "사회적 환경"
       ],
       "answer_type": "term",
-      "explanation": "사회적 환경은(는) 고립과 참여, 안전감에 영향을 준다.",
+      "explanation": "사회적 환경은 고립과 참여, 안전감에 영향을 준다.",
       "source": "지역사회 환경"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 나이 들어도 익숙한 집과 지역사회에서 계속 살아가는 것을 뜻한다.",
       "accepted_answers": [
-        "aging in place"
+        "aging in place",
+        "살던 곳에서 나이 들어가기",
+        "살던 곳에서 계속 살기"
       ],
       "answer_type": "term",
-      "explanation": "aging in place은(는) 정책과 실천에서 가장 중요한 목표 개념 중 하나다.",
+      "explanation": "살던 곳에서 나이 들어가기(aging in place)는 정책과 실천에서 가장 중요한 목표 개념 중 하나다.",
       "source": "Aging in Place"
     },
     {
@@ -109,7 +111,9 @@
     {
       "question": "익숙한 집과 동네에 계속 머무르는 노년기 거주 원칙은 무엇이라 하는가?",
       "accepted_answers": [
-        "aging in place"
+        "aging in place",
+        "살던 곳에서 나이 들어가기",
+        "살던 곳에서 계속 살기"
       ],
       "answer_type": "term",
       "explanation": "노인과 지역사회 논의의 핵심 목표다.",

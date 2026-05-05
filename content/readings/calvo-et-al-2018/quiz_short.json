@@ -4,75 +4,83 @@
   "items": [
     {
       "question": "다음 설명에 해당하는 용어는? 시간에 따라 배열된 노동상태와 전환의 연속을 뜻한다.",
-      "accepted_answers": [
-        "retirement sequence"
-      ],
+    "accepted_answers": [
+      "retirement sequence",
+      "은퇴 시퀀스"
+    ],
       "answer_type": "term",
-      "explanation": "retirement sequence은(는) 은퇴를 단일 사건이 아니라 과정으로 읽게 한다.",
+    "explanation": "은퇴 시퀀스(retirement sequence)는 은퇴를 단일 사건이 아니라 과정으로 읽게 한다.",
       "source": "연구방법"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 상태와 전환의 순서 전체를 분석하는 방법이다.",
-      "accepted_answers": [
-        "sequence analysis"
-      ],
+    "accepted_answers": [
+      "sequence analysis",
+      "시퀀스 분석"
+    ],
       "answer_type": "term",
-      "explanation": "sequence analysis은(는) 논문의 핵심 방법론이다.",
+    "explanation": "시퀀스 분석(sequence analysis)은 논문의 핵심 방법론이다.",
       "source": "연구방법"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 전통적이고 규범적인 생애 경로가 약해지고 경로 다양성이 커지는 현상을 뜻한다.",
-      "accepted_answers": [
-        "destandardization"
-      ],
+    "accepted_answers": [
+      "destandardization",
+      "탈표준화"
+    ],
       "answer_type": "term",
-      "explanation": "destandardization은(는) 은퇴 변화의 핵심 논쟁점이다.",
+    "explanation": "탈표준화(destandardization)는 은퇴 변화의 핵심 논쟁점이다.",
       "source": "문제의식"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 은퇴 이후 다시 일로 복귀하거나 상태가 역전되는 경로를 뜻한다.",
-      "accepted_answers": [
-        "reversible order"
-      ],
+    "accepted_answers": [
+      "reversible order",
+      "역전 가능한 순서"
+    ],
       "answer_type": "term",
-      "explanation": "reversible order은(는) 탈표준화의 한 기준이다.",
+    "explanation": "역전 가능한 순서(reversible order)는 탈표준화의 한 기준이다.",
       "source": "이론적 배경"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 특정 전환이 특정 연령대에 규범적으로 배치되는 현상을 뜻한다.",
-      "accepted_answers": [
-        "age-grading"
-      ],
+    "accepted_answers": [
+      "age-grading",
+      "연령등급화"
+    ],
       "answer_type": "term",
-      "explanation": "age-grading은(는) 완전한 탈표준화가 아니라는 증거로 사용된다.",
+    "explanation": "연령등급화(age-grading)는 완전한 탈표준화가 아니라는 증거로 사용된다.",
       "source": "결과"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 한 번 은퇴한 뒤 다시 노동시장으로 복귀하는 현상이다.",
-      "accepted_answers": [
-        "unretirement"
-      ],
+    "accepted_answers": [
+      "unretirement",
+      "은퇴 후 복귀"
+    ],
       "answer_type": "term",
-      "explanation": "unretirement은(는) 역전 가능한 경로의 대표 사례다.",
+    "explanation": "은퇴 후 복귀(unretirement)는 역전 가능한 경로의 대표 사례다.",
       "source": "이론적 배경"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 경로 차이가 사회집단별로 불평등하게 분배되는 현상을 뜻한다.",
-      "accepted_answers": [
-        "stratification"
-      ],
+    "accepted_answers": [
+      "stratification",
+      "사회적 층화"
+    ],
       "answer_type": "term",
-      "explanation": "stratification은(는) 이 논문의 두 번째 핵심 축이다.",
+    "explanation": "사회적 층화(stratification)는 이 논문의 두 번째 핵심 축이다.",
       "source": "층화 결과"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? Health and Retirement Study의 약자로 미국 중·노년층 종단자료다.",
+    "question": "다음 설명에 해당하는 용어는? 이 논문이 사용한 미국 중·노년층 대표 종단자료의 약자다.",
       "accepted_answers": [
         "HRS",
-        "Health and Retirement Study"
+      "Health and Retirement Study",
+      "건강과 은퇴 연구"
       ],
       "answer_type": "term",
-      "explanation": "HRS은(는) 논문이 사용하는 대표 데이터셋이다.",
+    "explanation": "건강과 은퇴 연구(HRS)는 논문이 사용하는 대표 데이터셋이다.",
       "source": "연구방법"
     },
     {

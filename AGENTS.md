@@ -8,6 +8,21 @@ Maintain a static study website for gerontology course readings that is previewe
 - `AGENTS.md` is the collaborator-facing checklist.
 - `README.md` is onboarding only.
 - If they conflict, follow `CONTENT_RULES.md` first and then update the summary docs.
+- `docs/guides/` contains focused execution guides for extraction, segmentation, translation QA, quizzes, professor-prep, and reading UI.
+- `docs/references/EXTERNAL_REFERENCES.md` records external standards consulted for pipeline/UI work.
+
+## Quality Guide Map
+- Reading workflow: `docs/guides/READING_WORKFLOW.md`
+- Paper extraction: `docs/guides/PAPER_EXTRACTION_RULES.md`
+- Source segmentation: `docs/guides/SOURCE_SEGMENTATION_RULES.md`
+- Translation style: `docs/guides/TRANSLATION_RULES.md`
+- Segment alignment QA: `docs/guides/TRANSLATION_ALIGNMENT_QA.md`
+- Coverage report template: `docs/guides/EXTRACTION_COVERAGE_REPORT.md`
+- Quiz evidence rules: `docs/guides/QUIZ_RULES.md`
+- Professor-prep answer rules: `docs/guides/PROFESSOR_PREP_RULES.md`
+- Reading UI rules: `docs/guides/READING_UI_RULES.md`
+- Rendering component rules: `docs/guides/ARTICLE_RENDERING_RULES.md`
+- Readability checklist: `docs/guides/READABILITY_CHECKLIST.md`
 
 ## Non-Negotiables
 - Static HTML, CSS, and vanilla JavaScript only.
@@ -15,7 +30,7 @@ Maintain a static study website for gerontology course readings that is previewe
 - `docs/` is the only final build target.
 - Keep links relative so local preview and static hosting both work.
 - Homepage stays a YouTube-style card grid with one card per reading.
-- Homepage top featured reading follows the current publish window: use `min(today, publish_cutoff_date)` and show the most recent reading on or before that date.
+- Homepage top featured reading follows the closest upcoming published class date: choose the earliest reading on or after today, respecting `publish_cutoff_date`; if no later published date exists, fall back to the latest reading on or before `min(today, publish_cutoff_date)`.
 - `manifest/readings.json` remains the reading inventory/build source of truth.
 - Work from `content/readings/<slug>/`; do not collapse the repo to a sample subset.
 
@@ -117,6 +132,8 @@ Maintain a static study website for gerontology course readings that is previewe
 - Prefer single-reading work:
   - `node scripts/build_site.js --slug <slug>`
   - `node scripts/validate_content.js --slug <slug>`
+- For segment-aligned English translation QA:
+  - `node scripts/check-alignment.js --slug <slug> --strict --write-report`
 - Use `--source-only` only for in-progress source QA before publish review.
 - Full-site build is for repo-wide refreshes, not the default for a small reading edit.
 

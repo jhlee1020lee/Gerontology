@@ -1,142 +1,163 @@
 {
   "title": "인구고령화와 노년기 발달 단답형 퀴즈",
-  "instructions": "한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답한다.",
+  "instructions": "각 문항은 한 용어, 한 짧은 구, 한 이름, 한 숫자처럼 짧게 답하세요.",
   "items": [
     {
-      "question": "인구고령화와 노년기 발달에서 핵심적으로 붙잡아야 하는 용어는? 인구고령화과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "전체 인구에서 노인층이 차지하는 비율이 증가하는 인구구조 변화는 무엇인가?",
       "accepted_answers": [
-        "인구고령화"
+        "인구고령화",
+        "population aging"
       ],
       "answer_type": "term",
-      "explanation": "인구고령화은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "인구고령화는 노인 수만이 아니라 전체 인구 안에서 노년층 비중이 커지는 구조 변화를 뜻한다.",
+      "source": "인구고령화"
     },
     {
-      "question": "인구고령화와 노년기 발달에서 핵심적으로 붙잡아야 하는 용어는? 인구변천과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "고출산·고사망 구조가 산업화와 사회경제적 변화 속에서 저출산·저사망 구조로 바뀌는 과정은 무엇인가?",
       "accepted_answers": [
-        "인구변천"
+        "인구변천",
+        "demographic transition"
       ],
       "answer_type": "term",
-      "explanation": "인구변천은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "인구변천은 사망률 저하와 출산율 저하의 순서와 격차가 인구성장과 고령화를 만드는 과정을 설명한다.",
+      "source": "인구변천"
     },
     {
-      "question": "인구고령화와 노년기 발달에서 핵심적으로 붙잡아야 하는 용어는? 합계출산율과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "한 여성이 평생 낳을 것으로 예상되는 평균 자녀 수를 나타내는 출산력 지표는 무엇인가?",
       "accepted_answers": [
-        "합계출산율"
+        "합계출산율",
+        "total fertility rate",
+        "TFR"
       ],
       "answer_type": "term",
-      "explanation": "합계출산율은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "합계출산율의 급격한 하락은 한국 고령화 속도를 빠르게 만든 핵심 요인이다.",
+      "source": "합계출산율"
     },
     {
-      "question": "인구고령화와 노년기 발달에서 핵심적으로 붙잡아야 하는 용어는? 기대수명과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "한 인구집단에서 죽음이 발생하는 수준을 가리키는 인구학 지표는 무엇인가?",
       "accepted_answers": [
-        "기대수명"
+        "사망률",
+        "mortality"
       ],
       "answer_type": "term",
-      "explanation": "기대수명은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "사망률 감소는 더 많은 사람이 노년기까지 생존하게 하며 인구변천의 앞단을 형성한다.",
+      "source": "사망률과 기대수명"
     },
     {
-      "question": "인구고령화와 노년기 발달에서 핵심적으로 붙잡아야 하는 용어는? 연령구조과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "특정 연령의 사람이 앞으로 평균적으로 더 살 것으로 예상되는 기간은 무엇인가?",
       "accepted_answers": [
-        "연령구조"
+        "기대수명",
+        "life expectancy"
       ],
       "answer_type": "term",
-      "explanation": "연령구조은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "기대수명 증가는 장수 자체를 보여 주지만, 늘어난 시간이 모두 건강한 시간인지는 별도 질문이다.",
+      "source": "사망률과 기대수명"
     },
     {
-      "question": "인구고령화와 노년기 발달에서 핵심적으로 붙잡아야 하는 용어는? 중위연령과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "한 사회의 인구가 나이대별로 어떻게 분포되어 있는지를 보여 주는 구조 또는 그림은 무엇인가?",
       "accepted_answers": [
-        "중위연령"
+        "연령구조",
+        "인구피라미드",
+        "age structure",
+        "population pyramid"
       ],
       "answer_type": "term",
-      "explanation": "중위연령은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "연령구조는 출산율과 사망률의 누적 결과가 피라미드 모양을 어떻게 바꾸는지 보여 준다.",
+      "source": "연령구조"
     },
     {
-      "question": "인구고령화와 노년기 발달에서 핵심적으로 붙잡아야 하는 용어는? 노년부양비과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "생산가능인구 100명이 부양해야 하는 65세 이상 인구의 수를 나타내는 지표는 무엇인가?",
       "accepted_answers": [
-        "노년부양비"
+        "노년부양비",
+        "old-age dependency ratio"
       ],
       "answer_type": "term",
-      "explanation": "노년부양비은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "노년부양비는 노인 수만이 아니라 일할 나이 인구와 노년층의 상대적 부담구조를 보여 준다.",
+      "source": "노년부양비"
     },
     {
-      "question": "인구고령화와 노년기 발달에서 핵심적으로 붙잡아야 하는 용어는? 코호트과(와) 직접 연결된 설명을 떠올려 답하시오.",
+      "question": "이 장이 제시한 2018년 한국의 노년부양비는 얼마인가?",
       "accepted_answers": [
-        "코호트"
+        "19.6",
+        "19.6명"
+      ],
+      "answer_type": "number",
+      "explanation": "원문은 2018년 한국의 노년부양비를 19.6명으로 제시해 이후 급증 전망과 대비한다.",
+      "source": "노년부양비"
+    },
+    {
+      "question": "이 장은 한국의 노년부양비가 2036년에 어떤 기준선을 넘을 것으로 설명하는가?",
+      "accepted_answers": [
+        "50",
+        "50명"
+      ],
+      "answer_type": "number",
+      "explanation": "2036년 50명을 넘는다는 전망은 연금, 의료, 장기요양, 노동시장 부담구조의 변화를 시사한다.",
+      "source": "노년부양비"
+    },
+    {
+      "question": "고령화 내부에서 특히 빠르게 늘어나는 85세 이상 노인층을 무엇이라 하는가?",
+      "accepted_answers": [
+        "초고령노인",
+        "oldest-old",
+        "oldest old"
       ],
       "answer_type": "term",
-      "explanation": "코호트은(는) 이 읽기에서 핵심 용어다.",
-      "source": "핵심 개념"
+      "explanation": "초고령노인의 증가는 건강문제, 배우자·동년배 사망, 돌봄 필요를 더 크게 만든다.",
+      "source": "초고령노인과 백세인 현상"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "100세 이상 장수자를 가리키는 용어는 무엇인가?",
       "accepted_answers": [
-        "인구변동"
+        "백세인",
+        "centenarian"
+      ],
+      "answer_type": "term",
+      "explanation": "백세인 증가는 장수의 상징이지만 의료, 돌봄, 고립 대응 과제도 함께 제기한다.",
+      "source": "초고령노인과 백세인 현상"
+    },
+    {
+      "question": "수명연장이 아픈 기간의 연장으로 이어질 수 있다는 시나리오는 무엇인가?",
+      "accepted_answers": [
+        "이환율 확대",
+        "extension of morbidity",
+        "morbidity extension"
+      ],
+      "answer_type": "term",
+      "explanation": "이환율 확대는 오래 살수록 질병이나 장애를 겪는 기간도 길어질 수 있다는 관점이다.",
+      "source": "이환율 확대와 압축"
+    },
+    {
+      "question": "질병과 장애가 생애 말기로 늦춰져 아픈 기간이 짧아질 수 있다는 시나리오는 무엇인가?",
+      "accepted_answers": [
+        "이환율 압축",
+        "compression of morbidity",
+        "morbidity compression"
+      ],
+      "answer_type": "term",
+      "explanation": "이환율 압축은 수명연장과 함께 건강수명도 늘어나 질병 기간이 생애 말기로 몰릴 수 있다는 관점이다.",
+      "source": "이환율 확대와 압축"
+    },
+    {
+      "question": "House가 강조한, 단순한 생존기간 증가보다 길어진 삶의 질을 더해야 한다는 표현은 무엇인가?",
+      "accepted_answers": [
+        "add life into the added life",
+        "늘어난 생애에 삶을 더하기"
       ],
       "answer_type": "short_phrase",
-      "explanation": "인구변동은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
+      "explanation": "이 표현은 고령화 논의가 수명 길이만이 아니라 건강과 삶의 질을 함께 물어야 함을 보여 준다.",
+      "source": "이환율 확대와 압축"
     },
     {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
+      "question": "젊은 인구 비중을 줄여 장기적으로 노인인구 비율, 노년부양비, 중위연령을 높이는 핵심 인구 요인은 무엇인가?",
       "accepted_answers": [
-        "한국의 속도"
+        "출산율 감소",
+        "저출산",
+        "fertility decline"
       ],
       "answer_type": "short_phrase",
-      "explanation": "한국의 속도은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "부양구조"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "부양구조은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "지역격차"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "지역격차은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 전개 축 가운데 하나로 바로 답할 수 있는 표현은 무엇인가?",
-      "accepted_answers": [
-        "긴 노년기"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "긴 노년기은(는) 읽기 구조를 잡는 핵심 축이다.",
-      "source": "핵심 요약"
-    },
-    {
-      "question": "이 읽기의 장 번호를 짧게 답하시오.",
-      "accepted_answers": [
-        "CH2"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "교재 장 번호는 기본 구조 확인용이다.",
-      "source": "메타데이터"
-    },
-    {
-      "question": "이 읽기 자료 유형을 한 단어로 답하시오.",
-      "accepted_answers": [
-        "교재",
-        "chapter"
-      ],
-      "answer_type": "short_phrase",
-      "explanation": "국문 장 자료는 교재 chapter다.",
-      "source": "메타데이터"
+      "explanation": "출산율 감소는 노인 수를 곧바로 늘리지는 않지만 연령구조를 바꾸어 고령화 지표를 높인다.",
+      "source": "합계출산율"
     }
   ]
 }

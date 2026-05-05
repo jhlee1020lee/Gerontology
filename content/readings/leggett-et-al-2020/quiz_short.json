@@ -4,74 +4,82 @@
   "items": [
     {
       "question": "다음 설명에 해당하는 용어는? 치매가 있는 배우자를 돌보는 역할 수행을 뜻한다.",
-      "accepted_answers": [
-        "dementia caregiving"
-      ],
+    "accepted_answers": [
+      "dementia caregiving",
+      "배우자 치매돌봄"
+    ],
       "answer_type": "term",
-      "explanation": "dementia caregiving은(는) 논문의 핵심 노출 변수다.",
+    "explanation": "배우자 치매돌봄(dementia caregiving)은 논문의 핵심 노출 변수다.",
       "source": "연구 질문"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 개인이 스스로 평가한 건강 수준이다.",
-      "accepted_answers": [
-        "self-rated health"
-      ],
+    "accepted_answers": [
+      "self-rated health",
+      "자기평가 건강"
+    ],
       "answer_type": "term",
-      "explanation": "self-rated health은(는) 논문에서 효과 수정자 역할을 하는 핵심 변수다.",
+    "explanation": "자기평가 건강(self-rated health)은 논문에서 효과 수정자 역할을 하는 핵심 변수다.",
       "source": "방법"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 특정 역할이나 상태가 더 낮은 사망위험과 연결되는 현상이다.",
-      "accepted_answers": [
-        "mortality benefit"
-      ],
+    "accepted_answers": [
+      "mortality benefit",
+      "돌봄의 사망위험 감소 효과"
+    ],
       "answer_type": "term",
-      "explanation": "mortality benefit은(는) caregiving survival advantage를 설명하는 표현이다.",
+    "explanation": "돌봄의 사망위험 감소 효과(mortality benefit)는 caregiving survival advantage를 설명하는 표현이다.",
       "source": "결과"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 원래 건강한 사람이 돌봄 역할에 진입하거나 돌봄이 건강 유지를 촉진할 수 있다는 가설이다.",
-      "accepted_answers": [
-        "Healthy Caregiver Hypothesis"
-      ],
+    "accepted_answers": [
+      "Healthy Caregiver Hypothesis",
+      "건강한 돌봄자 가설"
+    ],
       "answer_type": "term",
-      "explanation": "Healthy Caregiver Hypothesis은(는) 논문이 직접 검토하려는 핵심 설명틀이다.",
+    "explanation": "건강한 돌봄자 가설(Healthy Caregiver Hypothesis)은 논문이 직접 검토하려는 핵심 설명틀이다.",
       "source": "문제의식"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 시간에 따른 사망위험을 분석하는 생존모형이다.",
-      "accepted_answers": [
-        "Cox survival model"
-      ],
+    "accepted_answers": [
+      "Cox survival model",
+      "Cox 생존모형"
+    ],
       "answer_type": "term",
-      "explanation": "Cox survival model은(는) 논문의 핵심 분석방법이다.",
+    "explanation": "Cox 생존모형(Cox survival model)은 논문의 핵심 분석방법이다.",
       "source": "방법"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? 특정 원인을 구분하지 않은 전체 사망을 뜻한다.",
-      "accepted_answers": [
-        "all-cause mortality"
-      ],
+      "question": "다음 설명에 해당하는 용어는? 특정 사망원인을 나누지 않고 모든 사망 사건을 한 결과로 묶어 보는 지표다.",
+    "accepted_answers": [
+      "all-cause mortality",
+      "전체 사망"
+    ],
       "answer_type": "term",
-      "explanation": "all-cause mortality은(는) 논문의 첫 번째 결과 변수다.",
+    "explanation": "전체 사망(all-cause mortality)은 논문의 첫 번째 결과 변수다.",
       "source": "방법"
     },
     {
-      "question": "다음 설명에 해당하는 용어는? 특정 원인별 사망을 따로 구분한 결과 변수다.",
-      "accepted_answers": [
-        "cause-specific mortality"
-      ],
+      "question": "다음 설명에 해당하는 용어는? 심장질환, 암, 뇌혈관질환처럼 사망원인을 나누어 따로 분석하는 결과 변수다.",
+    "accepted_answers": [
+      "cause-specific mortality",
+      "원인별 사망"
+    ],
       "answer_type": "term",
-      "explanation": "cause-specific mortality은(는) 심장질환, 암, 뇌혈관질환 사망을 따로 본 이유를 설명한다.",
+    "explanation": "원인별 사망(cause-specific mortality)은 심장질환, 암, 뇌혈관질환 사망을 따로 본 이유를 설명한다.",
       "source": "방법"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 한 변수의 효과가 다른 변수 수준에 따라 달라지는 현상이다.",
-      "accepted_answers": [
-        "interaction"
-      ],
+    "accepted_answers": [
+      "interaction",
+      "상호작용"
+    ],
       "answer_type": "term",
-      "explanation": "interaction은(는) 치매돌봄과 자기평가 건강의 교차효과를 읽는 핵심 개념이다.",
+    "explanation": "상호작용(interaction)은 치매돌봄과 자기평가 건강의 교차효과를 읽는 핵심 개념이다.",
       "source": "결과"
     },
     {
@@ -118,10 +126,12 @@
       "mcq_prompt": "시간에 따른 사망위험 분석에 사용한 방법은?"
     },
     {
-      "question": "치매돌봄의 보호효과는 자기평가 건강이 높을수록 강했는가, 낮을수록 강했는가?",
+    "question": "치매돌봄의 보호효과가 더 강했던 자기평가 건강 집단은 어떤 집단인가?",
       "accepted_answers": [
-        "낮을수록",
-        "lower health"
+      "자기평가 건강이 낮은 집단",
+      "낮은 건강",
+      "낮을수록",
+      "lower health"
       ],
       "answer_type": "short_phrase",
       "explanation": "건강이 낮다고 평가한 집단에서 보호효과가 더 강했다.",
@@ -141,9 +151,10 @@
     },
     {
       "question": "돌봄효과가 원래 건강한 사람의 선택효과인지, 돌봄 자체의 유지효과인지 묻는 가설은 무엇인가?",
-      "accepted_answers": [
-        "Healthy Caregiver Hypothesis"
-      ],
+    "accepted_answers": [
+      "Healthy Caregiver Hypothesis",
+      "건강한 돌봄자 가설"
+    ],
       "answer_type": "term",
       "explanation": "논문의 핵심 설명틀이다.",
       "source": "문제의식",

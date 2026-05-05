@@ -1,1000 +1,1016 @@
-﻿{
-    "site":  {
-                 "title":  "성인발달과노화 읽기 사이트",
-                 "tagline":  "수업 날짜 순서대로 읽고, 정리와 퀴즈까지 한 흐름으로 이어 보는 성인발달과노화 학습 사이트.",
-                 "description":  "수업 날짜 순서대로 읽기 자료를 모아 두고, 설명 영상부터 본문·개념·퀴즈·교수님 질문 대비까지 이어서 볼 수 있게 정리했습니다.",
-                 "publish_cutoff_date":  "2026-04-28",
-                 "publish_cutoff_note":  "2026년 4월 28일 수업분까지 공개합니다. 이후 reading은 다시 점검한 뒤 업로드합니다."
-             },
-    "readings":  [
-                     {
-                         "slug":  "ch01-gerontology",
-                         "title":  "노년학의 발달과 학문적 성격",
-                         "subtitle":  "노년학의 성립, 학문적 성격, 연령과 노인 개념을 정리하는 입문 장.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH1]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH1]Gerontology.pdf",
-                         "content_dir":  "content/readings/ch01-gerontology",
-                         "tags":  [
-                                      "노년학",
-                                      "연령 개념",
-                                      "교재"
-                                  ],
-                         "description":  "노년학의 성립, 학문적 성격, 연령과 노인 개념을 정리하는 입문 장.",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/ch01-gerontology.pdf",
-                         "landing_video_policy":  "optional",
-                         "overview_hook":  "이 장은 노년학이 단순히 노인의학이 아니라 노화과정과 노인 집단을 함께 다루는 다학제적 학문이며, 65세 기준도 자연법칙이 아니라 사회적으로 만들어진 구분임을 먼저 잡게 만든다.",
-                         "classroom_points":  [
-                                                  "Gerontology는 노인의학만을 뜻하는 말이 아니라 노화과정과 노인 집단을 함께 연구하는 넓은 학문이라는 점부터 구분해야 한다.",
-                                                  "노년학은 생각보다 오래된 학문이 아니고, 서구도 1940년대 이후 연구소와 학회, 학술지가 생기며 본격화되었다.",
-                                                  "한국에서는 1970년대 이후 노인문제 대응과 고령화의 가시화 속에서 노년학이 학문 분야로 자리 잡기 시작했다.",
-                                                  "이 장의 핵심은 노년학이 생물학, 심리학, 사회학, 가족학, 정책연구가 함께 들어오는 다학제적·응용학문이라는 점이다.",
-                                                  "65세를 노인의 기준으로 삼는 이유는 과학적으로 딱 정해진 경계라기보다 비스마르크 연금 제도와 사회보장 제도의 역사적 관행에 가깝다.",
-                                                  "같은 65세라도 생물학적 연령, 사회적 연령, 심리적 연령, 기능적 연령이 다를 수 있으므로 노인을 하나의 동질적 집단처럼 보면 중요한 차이를 놓치게 된다."
-                                              ],
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-03-05",
-                         "reading_date":  null,
-                         "sort_date":  "2026-03-05",
-                         "display_date_label":  "3/05"
-                     },
-                     {
-                         "slug":  "ch02-gerontology",
-                         "title":  "인구고령화와 노년기 발달",
-                         "subtitle":  "인구변천, 한국의 고령화 속도, 고령화의 사회적 결과를 연결하는 장.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH2]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH2]Gerontology.pdf",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/ch08-gerontology.pdf",
-                         "content_dir":  "content/readings/ch02-gerontology",
-                         "landing_video_policy":  "optional",
-                         "tags":  [
-                                      "인구고령화",
-                                      "한국사회",
-                                      "교재"
-                                  ],
-                         "description":  "인구변천, 한국의 고령화 속도, 고령화의 사회적 결과를 연결하는 장.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-03-10",
-                         "reading_date":  null,
-                         "sort_date":  "2026-03-10",
-                         "display_date_label":  "3/10"
-                     },
-                     {
-                         "slug":  "ch03-gerontology",
-                         "title":  "노년학의 주요이론 및 관점",
-                         "subtitle":  "메타이론, 전생애발달, 생애과정, 사회노년학 이론을 정리하는 이론 장.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH3]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH3]Gerontology.pdf",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/ch08-gerontology.pdf",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch03-gerontology",
-                         "tags":  [
-                                      "이론",
-                                      "전생애발달",
-                                      "교재"
-                                  ],
-                         "description":  "메타이론, 전생애발달, 생애과정, 사회노년학 이론을 정리하는 이론 장.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-03-17",
-                         "reading_date":  null,
-                         "sort_date":  "2026-03-17",
-                         "display_date_label":  "3/17"
-                     },
-                     {
-                         "slug":  "ch04-gerontology",
-                         "title":  "노년학 연구방법",
-                         "subtitle":  "연령차이 해석, 양적 연구, 질적 연구를 비교하는 방법론 장.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH4]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH4]Gerontology.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch04-gerontology",
-                         "tags":  [
-                                      "연구방법",
-                                      "연령효과",
-                                      "교재"
-                                  ],
-                         "description":  "연령차이 해석, 양적 연구, 질적 연구를 비교하는 방법론 장.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-03-19",
-                         "reading_date":  null,
-                         "sort_date":  "2026-03-19",
-                         "display_date_label":  "3/19"
-                     },
-                     {
-                         "slug":  "ch05-gerontology",
-                         "title":  "신체적 노화",
-                         "subtitle":  "생물학적 노화 설명과 노년기 신체 변화, 질병과의 구분을 다루는 장.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH5]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH5]Gerontology.pdf",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/ch05-gerontology.pdf",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch05-gerontology",
-                         "tags":  [
-                                      "신체적 노화",
-                                      "생물학",
-                                      "교재"
-                                  ],
-                         "description":  "생물학적 노화 설명과 노년기 신체 변화, 질병과의 구분을 다루는 장.",
-                         "overview_hook":  "이 장은 인간의 최대수명이 어디까지 갈 수 있는지라는 질문에서 출발해, 정상노화와 병리, 불가피한 변화와 개입 가능한 변화를 구분하게 만든다.",
-                         "classroom_points":  [
-                                                  "평균수명이 늘어나는 것과 최대수명이 늘어나는 것은 같은 말이 아니라는 점을 먼저 구분해야 한다.",
-                                                  "일차적 노화는 보편적이고 불가피하지만, 이차적 노화는 질병, 불용, 남용과 얽혀 있어 지연하거나 줄일 여지가 있다.",
-                                                  "프로그램 이론과 손상·오류 이론은 서로 배타적 정답이라기보다 노화를 설명하는 서로 다른 축으로 읽는 편이 안전하다.",
-                                                  "외형 변화만이 아니라 심혈관계, 호흡계, 신경계, 감각기관 변화까지 함께 봐야 노년기 신체 변화를 제대로 설명할 수 있다.",
-                                                  "이 장의 실천적 메시지는 정상노화와 질병을 구분하고, 운동, 식이, 금연, 환경 관리 같은 개입 가능성을 놓치지 않는 데 있다."
-                                              ],
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-03-26",
-                         "reading_date":  null,
-                         "sort_date":  "2026-03-26",
-                         "display_date_label":  "3/26"
-                     },
-                     {
-                         "slug":  "ch06-gerontology",
-                         "title":  "심리적 노화 I : 인지적 변화",
-                         "subtitle":  "지능, 기억, 지혜와 창의력을 중심으로 인지적 노화를 정리하는 장.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH6]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH6]Gerontology.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch06-gerontology",
-                         "tags":  [
-                                      "인지적 노화",
-                                      "지능",
-                                      "기억"
-                                  ],
-                         "description":  "지능, 기억, 지혜와 창의력을 중심으로 인지적 노화를 정리하는 장.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-04-02",
-                         "reading_date":  null,
-                         "sort_date":  "2026-04-02",
-                         "display_date_label":  "4/02"
-                     },
-                     {
-                         "slug":  "ch07-gerontology",
-                         "title":  "심리적 노화 II : 성격 및 정서",
-                         "subtitle":  "성격의 안정성과 변화, 자아발달, 정서 변화와 적응을 다루는 장.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH7]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH7]Gerontology.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch07-gerontology",
-                         "tags":  [
-                                      "성격",
-                                      "정서",
-                                      "적응"
-                                  ],
-                         "description":  "성격의 안정성과 변화, 자아발달, 정서 변화와 적응을 다루는 장.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-04-09",
-                         "reading_date":  null,
-                         "sort_date":  "2026-04-09",
-                         "display_date_label":  "4/09"
-                     },
-                     {
-                         "slug":  "ch08-gerontology",
-                         "title":  "사회적 노화 I: 중노년기 세대관계 및 친족관계",
-                         "subtitle":  "노부모-성인자녀, 조부모-손자녀, 노년기 형제관계를 다세대 맥락에서 읽는 장이다.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH8]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH8]Gerontology.pdf",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/ch08-gerontology.pdf",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch08-gerontology",
-                         "tags":  [
-                                      "세대관계",
-                                      "친족관계",
-                                      "중노년기"
-                                  ],
-                         "description":  "수명 연장과 저출산이 결합할 때 세대 간 지원과 긴장이 어떻게 재구성되는지 정리한다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-04-21",
-                         "reading_date":  null,
-                         "sort_date":  "2026-04-21",
-                         "display_date_label":  "4/21"
-                     },
-                     {
-                         "slug":  "ch09-gerontology",
-                         "title":  "사회적 노화 II: 중노년기 부부관계",
-                         "subtitle":  "결혼의 의미, 길어진 부부기간, 노년기 이혼과 사별을 함께 다루는 장이다.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH9]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH9]Gerontology.pdf",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/ch09-gerontology.pdf",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch09-gerontology",
-                         "tags":  [
-                                      "부부관계",
-                                      "결혼",
-                                      "사별"
-                                  ],
-                         "description":  "중·노년기 부부관계를 건강, 복지, 가족생활주기, 결혼 해체의 맥락에서 정리한다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-04-28",
-                         "reading_date":  null,
-                         "sort_date":  "2026-04-28",
-                         "display_date_label":  "4/28"
-                     },
-                     {
-                         "slug":  "ch10-gerontology",
-                         "title":  "사회적 노화 III: 친구 및 이웃관계, 사회 관계망",
-                         "subtitle":  "가족 밖 비공식 관계와 사회 관계망이 노년기 건강·복지와 어떻게 연결되는지 다룬다.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH10]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH10]Gerontology.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch10-gerontology",
-                         "tags":  [
-                                      "친구",
-                                      "이웃",
-                                      "사회관계망"
-                                  ],
-                         "description":  "친구와 이웃이라는 비공식 관계, 사회관계망의 구조와 기능, 건강 연계를 함께 정리한다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-04-30",
-                         "reading_date":  null,
-                         "sort_date":  "2026-04-30",
-                         "display_date_label":  "4/30"
-                     },
-                     {
-                         "slug":  "ch11-gerontology",
-                         "title":  "노년기 일과 은퇴",
-                         "subtitle":  "노년기 노동의 의미, 은퇴 적응, 은퇴준비교육을 함께 다루는 장이다.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH11]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH11]Gerontology.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch11-gerontology",
-                         "tags":  [
-                                      "일",
-                                      "은퇴",
-                                      "노년기 노동"
-                                  ],
-                         "description":  "일이 가진 소득, 정체성, 관계의 의미와 은퇴 적응, 준비교육의 필요성을 정리한다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-05-12",
-                         "reading_date":  null,
-                         "sort_date":  "2026-05-12",
-                         "display_date_label":  "5/12"
-                     },
-                     {
-                         "slug":  "ch12-gerontology",
-                         "title":  "노년기 건강",
-                         "subtitle":  "신체건강, 정신건강, 치매를 중심으로 노년기 건강을 다차원적으로 읽는 장이다.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH12]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH12]Gerontology.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch12-gerontology",
-                         "tags":  [
-                                      "건강",
-                                      "정신건강",
-                                      "치매"
-                                  ],
-                         "description":  "건강을 질병 부재 이상으로 보고, 노년기 건강문제를 기능, 진단, 치매의 맥락에서 정리한다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-05-19",
-                         "reading_date":  null,
-                         "sort_date":  "2026-05-19",
-                         "display_date_label":  "5/19"
-                     },
-                     {
-                         "slug":  "ch13-gerontology",
-                         "title":  "노년기 사회참여",
-                         "subtitle":  "활동적 노화와 성공적 노화 논의를 바탕으로 노년기 참여의 의미를 다루는 장이다.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH13]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH13]Gerontology.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch13-gerontology",
-                         "tags":  [
-                                      "사회참여",
-                                      "활동적 노화",
-                                      "성공적 노화"
-                                  ],
-                         "description":  "노년기 사회참여가 삶의 질과 어떻게 연결되는지, 그리고 활동적·성공적 노화 담론이 무엇을 요구하는지 정리한다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-05-26",
-                         "reading_date":  null,
-                         "sort_date":  "2026-05-26",
-                         "display_date_label":  "5/26"
-                     },
-                     {
-                         "slug":  "ch14-gerontology",
-                         "title":  "노인정책",
-                         "subtitle":  "노인정책의 필요성과 소득·건강·주거 보장이라는 세 축을 정리하는 장이다.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH14]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH14]Gerontology.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch14-gerontology",
-                         "tags":  [
-                                      "노인정책",
-                                      "소득보장",
-                                      "주거보장"
-                                  ],
-                         "description":  "노년기 삶이 왜 정책의 영향을 크게 받는지, 그리고 소득·건강·주거 보장 정책이 어떻게 연결되는지 설명한다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-06-02",
-                         "reading_date":  null,
-                         "sort_date":  "2026-06-02",
-                         "display_date_label":  "6/02"
-                     },
-                     {
-                         "slug":  "ch15-gerontology",
-                         "title":  "노인과 지역사회",
-                         "subtitle":  "환경노년학과 지역사회 환경, aging in place를 중심으로 노인과 장소의 관계를 다루는 장이다.",
-                         "authors":  [
-                                         "한경혜",
-                                         "최혜경",
-                                         "안정신",
-                                         "김주현"
-                                     ],
-                         "year":  2019,
-                         "language":  "ko",
-                         "kind":  "chapter pdf",
-                         "source_filename":  "[CH15]Gerontology.pdf",
-                         "source_pdf":  "source_pdfs/[CH15]Gerontology.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/ch15-gerontology",
-                         "tags":  [
-                                      "지역사회",
-                                      "환경노년학",
-                                      "aging in place"
-                                  ],
-                         "description":  "노인의 삶의 질이 개인특성뿐 아니라 물리적·사회적·심리적 지역사회 환경과 어떻게 연결되는지 설명한다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "chapter",
-                         "class_date":  "2026-06-09",
-                         "reading_date":  null,
-                         "sort_date":  "2026-06-09",
-                         "display_date_label":  "6/09"
-                     },
-                     {
-                         "slug":  "beck-2016",
-                        "title":  "When Are You Really an Adult?",
-                        "subtitle":  "성인 이행을 법, 생물학, 사회 역할, 책임의 관점에서 다시 묻는 The Atlantic 기사.",
-                         "authors":  [
-                                         "Julie Beck"
-                                     ],
-                         "year":  2016,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Beck, 2016.pdf",
-                         "source_pdf":  "source_pdfs/Beck, 2016.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/beck-2016",
-                         "tags":  [
-                                      "성인 이행",
-                                      "Emerging Adulthood",
-                                      "기사"
-                                  ],
-                        "description":  "성인 이행을 법, 생물학, 사회 역할, 책임의 관점에서 다시 묻는 The Atlantic 기사.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                               "기존 Beck reading의 study content를 비우고 full/translation 중심으로 다시 정리했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-03-12",
-                         "reading_date":  null,
-                         "sort_date":  "2026-03-12",
-                         "display_date_label":  "3/12"
-                     },
-                     {
-                         "slug":  "blieszner-2014",
-                         "title":  "The Worth of Friendship: Can Friends Keep Us Happy and Healthy?",
-                         "subtitle":  "노년기 친구관계의 정의, 기능, 건강효과, 실천적 활용을 정리한 리뷰 성격의 글이다.",
-                         "authors":  [
-                                         "Rosemary Blieszner"
-                                     ],
-                         "year":  2014,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Blieszner, 2014.pdf",
-                         "source_pdf":  "source_pdfs/Blieszner, 2014.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/blieszner-2014",
-                         "tags":  [
-                                      "friendship",
-                                      "well-being",
-                                      "later life"
-                                  ],
-                         "description":  "우정이 행복과 건강, 외로움 완화, 실천 개입에 어떤 의미를 갖는지 노년기 관점에서 정리한다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-05-07",
-                         "reading_date":  null,
-                         "sort_date":  "2026-05-07",
-                         "display_date_label":  "5/07"
-                     },
-                     {
-                         "slug":  "calvo-et-al-2018",
-                         "title":  "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-                         "subtitle":  "은퇴를 단일 사건이 아니라 시퀀스로 보고 탈표준화와 층화를 동시에 분석한 논문이다.",
-                         "authors":  [
-                                         "Esteban Calvo",
-                                         "Ignacio Madero-Cabib",
-                                         "Ursula M. Staudinger"
-                                     ],
-                         "year":  2018,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Calvo et al., 2018.pdf",
-                         "source_pdf":  "source_pdfs/Calvo et al., 2018.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/calvo-et-al-2018",
-                         "tags":  [
-                                      "retirement",
-                                      "sequence analysis",
-                                      "stratification"
-                                  ],
-                         "description":  "미국 노년층의 은퇴 경로가 얼마나 탈표준화되었는지, 그리고 그 차이가 젠더·계급·인종에 따라 어떻게 층화되는지 보여 준다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-05-14",
-                         "reading_date":  null,
-                         "sort_date":  "2026-05-14",
-                         "display_date_label":  "5/14"
-                     },
-                     {
-                         "slug":  "carr-fang-2021",
-                         "title":  "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
-                         "subtitle":  "은퇴촌에서 독립과 의존의 욕구가 충돌하며 \u0027우리\u0027와 \u0027그들\u0027을 만드는 과정을 질적으로 탐색한 연구다.",
-                         "authors":  [
-                                         "Sam Carr",
-                                         "Chao Fang"
-                                     ],
-                         "year":  2021,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Carr \u0026 Fang, 2021.pdf",
-                         "source_pdf":  "source_pdfs/Carr \u0026 Fang, 2021.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/carr-fang-2021",
-                         "tags":  [
-                                      "retirement village",
-                                      "independence",
-                                      "qualitative"
-                                  ],
-                         "description":  "독립생활 공동체라는 이상이 왜 취약한 거주자를 배제하는 긴장을 낳는지 보여 주는 질적 연구다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-06-09",
-                         "reading_date":  null,
-                         "sort_date":  "2026-06-09",
-                         "display_date_label":  "6/09"
-                     },
-                     {
-                         "slug":  "hulur-et-al-2019",
-                         "title":  "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
-                         "subtitle":  "교육만이 아니라 성인기 노동환경이 코호트별 인지노화 차이에 어떻게 연결되는지 다루는 논문.",
-                         "authors":  [
-                                         "Gizem Hülür",
-                                         "Nilam Ram",
-                                         "Sherry L. Willis",
-                                         "K. Warner Schaie",
-                                         "Denis Gerstorf"
-                                     ],
-                         "year":  2019,
-                         "language":  "en",
-                         "kind":  "paper pdf",
-                         "source_filename":  "Hülür et al., 2019.pdf",
-                         "source_pdf":  "source_pdfs/Hülür et al., 2019.pdf",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/hulur-et-al-2019.pdf",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/hulur-et-al-2019",
-                         "tags":  [
-                                      "인지노화",
-                                      "코호트",
-                                      "노동환경"
-                                  ],
-                         "description":  "교육만이 아니라 성인기 노동환경이 코호트별 인지노화 차이에 어떻게 연결되는지 다루는 논문.",
-                         "overview_hook":  "이 논문은 교육 수준만으로 설명해 온 코호트별 인지 차이가 실제로는 성인기 노동환경의 변화와도 연결되는지 묻는다.",
-                         "classroom_points":  [
-                                                  "후기 코호트가 더 높은 인지 수행을 보였다고 해서 모든 능력에서 더 나았던 것은 아니며, number ability는 오히려 낮았다.",
-                                                  "저자들은 교육 효과를 통제한 뒤에도 work control과 work innovation이 인지 수행과 연결된다고 본다.",
-                                                  "코호트 비교는 출생연도 자체보다 age와 retest를 맞춘 관측치 단위 매칭으로 설계되었다.",
-                                                  "노동환경 변수는 직업 복잡도 일반척도가 아니라 work control, work autonomy, work innovation으로 나누어 다뤄진다.",
-                                                  "이 연구는 관찰연구이기 때문에 더 좋은 노동환경이 인지를 높였는지, 원래 인지가 높은 사람이 그런 일을 택했는지는 분리하지 못한다."
-                                              ],
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "paper",
-                         "class_date":  "2026-03-24",
-                         "reading_date":  null,
-                         "sort_date":  "2026-03-24",
-                         "display_date_label":  "3/24"
-                     },
-                     {
-                         "slug":  "kerrigan-2018",
-                         "title":  "12 Innovations That Could Make Reverse Aging a Reality",
-                         "subtitle":  "역노화를 둘러싼 12개 기술을 대중적으로 소개하는 웹 기사.",
-                         "authors":  [
-                                         "Saoirse Kerrigan"
-                                     ],
-                         "year":  2018,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Kerrigan, 2018.pdf",
-                         "source_pdf":  "source_pdfs/Kerrigan, 2018.pdf",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/kerrigan-2018.pdf",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/kerrigan-2018",
-                         "shared_page_bundle":  "2026-03-31-longevity-pair",
-                         "shared_page_keys":  [
-                                                  "quiz-ox",
-                                                  "quiz-short",
-                                                  "professor-prep",
-                                                  "quiz-mcq"
-                                              ],
-                         "tags":  [
-                                      "reverse aging",
-                                      "popular science",
-                                      "기사"
-                                  ],
-                         "description":  "역노화를 둘러싼 12개 기술을 대중적으로 소개하는 웹 기사.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-03-31",
-                         "reading_date":  null,
-                         "sort_date":  "2026-03-31",
-                         "display_date_label":  "3/31"
-                     },
-                     {
-                         "slug":  "konrath-et-al-2012",
-                         "title":  "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
-                         "subtitle":  "자원봉사의 효과보다 왜 봉사하는지가 더 중요할 수 있음을 보여 주는 논문이다.",
-                         "authors":  [
-                                         "Sara Konrath",
-                                         "Andrea Fuhrel-Forbis",
-                                         "Alina Lou",
-                                         "Stephanie Brown"
-                                     ],
-                         "year":  2012,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Konrath et al., 2012.pdf",
-                         "source_pdf":  "source_pdfs/Konrath et al., 2012.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/konrath-et-al-2012",
-                         "tags":  [
-                                      "volunteering",
-                                      "motives",
-                                      "mortality"
-                                  ],
-                         "description":  "자원봉사 자체보다 타인 지향적 동기가 있을 때 사망위험 감소효과가 나타난다는 점을 보여 준다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-05-28",
-                         "reading_date":  null,
-                         "sort_date":  "2026-05-28",
-                         "display_date_label":  "5/28"
-                     },
-                     {
-                         "slug":  "leggett-et-al-2020",
-                         "title":  "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
-                         "subtitle":  "배우자 치매돌봄과 자기건강 상태가 사망위험과 어떻게 교차하는지 분석한 논문이다.",
-                         "authors":  [
-                                         "Amanda N. Leggett",
-                                         "Amanda J. Sonnega",
-                                         "Matthew C. Lohman"
-                                     ],
-                         "year":  2020,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Leggett et al., 2020.pdf",
-                         "source_pdf":  "source_pdfs/Leggett et al., 2020.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/leggett-et-al-2020",
-                         "tags":  [
-                                      "dementia caregiving",
-                                      "mortality",
-                                      "self-rated health"
-                                  ],
-                         "description":  "치매 배우자 돌봄이 반드시 사망위험을 높이는 것은 아니며, 자기평가 건강과의 상호작용이 중요하다는 점을 보여 준다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-05-21",
-                         "reading_date":  null,
-                         "sort_date":  "2026-05-21",
-                         "display_date_label":  "5/21"
-                     },
-                     {
-                         "slug":  "olshansky-carnes-2019",
-                         "title":  "Inconvenient Truths About Human Longevity",
-                         "subtitle":  "급진적 수명연장보다 건강수명 연장에 초점을 옮겨야 한다는 리뷰 논문.",
-                         "authors":  [
-                                         "S. Jay Olshansky",
-                                         "Bruce A. Carnes"
-                                     ],
-                         "year":  2019,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Olshansky \u0026 Carnes, 2019.pdf",
-                         "source_pdf":  "source_pdfs/Olshansky \u0026 Carnes, 2019.pdf",
-                         "pdf_visibility":  "public",
-                         "content_dir":  "content/readings/olshansky-carnes-2019",
-                         "shared_page_bundle":  "2026-03-31-longevity-pair",
-                         "shared_page_keys":  [
-                                                  "quiz-ox",
-                                                  "quiz-short",
-                                                  "professor-prep",
-                                                  "quiz-mcq"
-                                              ],
-                         "tags":  [
-                                      "longevity",
-                                      "healthspan",
-                                      "review"
-                                  ],
-                         "description":  "급진적 수명연장보다 건강수명 연장에 초점을 옮겨야 한다는 리뷰 논문.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-03-31",
-                         "reading_date":  null,
-                         "sort_date":  "2026-03-31",
-                         "display_date_label":  "3/31",
-                         "public_pdf":  "pdfs/olshansky-carnes-2019.pdf",
-                         "landing_video_policy":  "optional"
-                     },
-                     {
-                         "slug":  "park-mcdonough-2013",
-                         "title":  "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
-                         "subtitle":  "기능적 뇌영상 연구가 인지노화 이론을 어떻게 바꾸었는지 정리하는 리뷰.",
-                         "authors":  [
-                                         "Denise C. Park",
-                                         "Ian M. McDonough"
-                                     ],
-                         "year":  2013,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Park \u0026 McDonough, 2013.pdf",
-                         "source_pdf":  "source_pdfs/Park \u0026 McDonough, 2013.pdf",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/park-mcdonough-2013.pdf",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/park-mcdonough-2013",
-                         "tags":  [
-                                      "functional neuroimaging",
-                                      "cognitive aging",
-                                      "review"
-                                  ],
-                         "description":  "기능적 뇌영상 연구가 인지노화 이론을 어떻게 바꾸었는지 정리하는 리뷰.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-04-07",
-                         "reading_date":  null,
-                         "sort_date":  "2026-04-07",
-                         "display_date_label":  "4/07"
-                     },
-                     {
-                         "slug":  "suitor-et-al-2014",
-                         "title":  "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
-                         "subtitle":  "어머니 돌봄 상황에서 돌봄 수행과 편애 인식이 형제 긴장을 어떻게 높이는지 분석한 논문이다.",
-                         "authors":  [
-                                         "J. Jill Suitor",
-                                         "Megan Gilligan",
-                                         "Kaitlin Johnson",
-                                         "Karl Pillemer"
-                                     ],
-                         "year":  2014,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Suitor et al., 2014.pdf",
-                         "source_pdf":  "source_pdfs/Suitor et al., 2014.pdf",
-                         "pdf_visibility":  "public",
-                         "public_pdf":  "pdfs/suitor-et-al-2014.pdf",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/suitor-et-al-2014",
-                         "tags":  [
-                                      "caregiving",
-                                      "sibling tension",
-                                      "favoritism"
-                                  ],
-                         "description":  "노부모 돌봄이 형제 갈등을 낳는 메커니즘을 편애 인식과 결합해 보여 주는 later-life family 연구다.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
-                                                "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-04-23",
-                         "reading_date":  null,
-                         "sort_date":  "2026-04-23",
-                         "display_date_label":  "4/23"
-                     },
-                     {
-                         "slug":  "wagner-et-al-2016",
-                         "title":  "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
-                         "subtitle":  "삶의 말기 성격 특성 변화와 건강·인지·통제감·사회관계의 관련성을 분석한 논문.",
-                         "authors":  [
-                                         "Jenny Wagner",
-                                         "Nilam Ram",
-                                         "Jacqui Smith",
-                                         "Denis Gerstorf"
-                                     ],
-                         "year":  2016,
-                         "language":  "en",
-                         "kind":  "article pdf",
-                         "source_filename":  "Wagner et al., 2016.pdf",
-                         "source_pdf":  "source_pdfs/Wagner et al., 2016.pdf",
-                         "pdf_visibility":  "none",
-                         "landing_video_policy":  "optional",
-                         "content_dir":  "content/readings/wagner-et-al-2016",
-                         "tags":  [
-                                      "personality development",
-                                      "end of life",
-                                      "longitudinal"
-                                  ],
-                         "description":  "삶의 말기 성격 특성 변화와 건강·인지·통제감·사회관계의 관련성을 분석한 논문.",
-                         "metadata_status":  "complete",
-                         "metadata_notes":  [
-                                                "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
-                                            ],
-                         "type":  "article",
-                         "class_date":  "2026-04-14",
-                         "reading_date":  null,
-                         "sort_date":  "2026-04-14",
-                         "display_date_label":  "4/14"
-                     }
-                 ],
-    "schema":  {
-                   "version":  2,
-                   "organization":  "date-based",
-                   "source_of_truth":  "manifest/readings.json",
-                   "optional_reading_fields":  [
-                                                   "class_date",
-                                                   "reading_date",
-                                                   "sort_date",
-                                                   "display_date_label"
-                                               ],
-                   "page_outputs":  [
-                                        "full.html",
-                                        "summary.html",
-                                        "translation.html",
-                                        "concepts.html",
-                                        "pitfalls.html",
-                                        "quiz-ox.html",
-                                        "quiz-short.html",
-                                        "quiz-mcq.html",
-                                        "review-sheet.html",
-                                        "professor-prep.html"
-                                    ]
-               }
+{
+  "site": {
+    "title": "성인발달과노화 읽기 사이트",
+    "tagline": "수업 날짜 순서대로 읽고, 정리와 퀴즈까지 한 흐름으로 이어 보는 성인발달과노화 학습 사이트.",
+    "description": "수업 날짜 순서대로 읽기 자료를 모아 두고, 설명 영상부터 본문·개념·퀴즈·교수님 질문 대비까지 이어서 볼 수 있게 정리했습니다.",
+    "publish_cutoff_date": "2026-06-09",
+    "publish_cutoff_note": "2026년 6월 9일 수업분까지 공개합니다. 이후 reading은 다시 점검한 뒤 업로드합니다."
+  },
+  "readings": [
+    {
+      "slug": "ch01-gerontology",
+      "title": "노년학의 발달과 학문적 성격",
+      "subtitle": "노년학의 성립, 학문적 성격, 연령과 노인 개념을 정리하는 입문 장.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH1]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH1]Gerontology.pdf",
+      "content_dir": "content/readings/ch01-gerontology",
+      "tags": [
+        "노년학",
+        "연령 개념",
+        "교재"
+      ],
+      "description": "노년학의 성립, 학문적 성격, 연령과 노인 개념을 정리하는 입문 장.",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/ch01-gerontology.pdf",
+      "landing_video_policy": "optional",
+      "overview_hook": "이 장은 노년학이 단순히 노인의학이 아니라 노화과정과 노인 집단을 함께 다루는 다학제적 학문이며, 65세 기준도 자연법칙이 아니라 사회적으로 만들어진 구분임을 먼저 잡게 만든다.",
+      "classroom_points": [
+        "Gerontology는 노인의학만을 뜻하는 말이 아니라 노화과정과 노인 집단을 함께 연구하는 넓은 학문이라는 점부터 구분해야 한다.",
+        "노년학은 생각보다 오래된 학문이 아니고, 서구도 1940년대 이후 연구소와 학회, 학술지가 생기며 본격화되었다.",
+        "한국에서는 1970년대 이후 노인문제 대응과 고령화의 가시화 속에서 노년학이 학문 분야로 자리 잡기 시작했다.",
+        "이 장의 핵심은 노년학이 생물학, 심리학, 사회학, 가족학, 정책연구가 함께 들어오는 다학제적·응용학문이라는 점이다.",
+        "65세를 노인의 기준으로 삼는 이유는 과학적으로 딱 정해진 경계라기보다 비스마르크 연금 제도와 사회보장 제도의 역사적 관행에 가깝다.",
+        "같은 65세라도 생물학적 연령, 사회적 연령, 심리적 연령, 기능적 연령이 다를 수 있으므로 노인을 하나의 동질적 집단처럼 보면 중요한 차이를 놓치게 된다."
+      ],
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-03-05",
+      "reading_date": null,
+      "sort_date": "2026-03-05",
+      "display_date_label": "3/05"
+    },
+    {
+      "slug": "ch02-gerontology",
+      "title": "인구고령화와 노년기 발달",
+      "subtitle": "인구변천, 한국의 고령화 속도, 고령화의 사회적 결과를 연결하는 장.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH2]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH2]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/ch02-gerontology.pdf",
+      "content_dir": "content/readings/ch02-gerontology",
+      "landing_video_policy": "optional",
+      "tags": [
+        "인구고령화",
+        "한국사회",
+        "교재"
+      ],
+      "description": "인구변천, 한국의 고령화 속도, 고령화의 사회적 결과를 연결하는 장.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-03-10",
+      "reading_date": null,
+      "sort_date": "2026-03-10",
+      "display_date_label": "3/10"
+    },
+    {
+      "slug": "ch03-gerontology",
+      "title": "노년학의 주요이론 및 관점",
+      "subtitle": "메타이론, 전생애발달, 생애과정, 사회노년학 이론을 정리하는 이론 장.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH3]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH3]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/ch03-gerontology.pdf",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch03-gerontology",
+      "tags": [
+        "이론",
+        "전생애발달",
+        "교재"
+      ],
+      "description": "메타이론, 전생애발달, 생애과정, 사회노년학 이론을 정리하는 이론 장.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-03-17",
+      "reading_date": null,
+      "sort_date": "2026-03-17",
+      "display_date_label": "3/17"
+    },
+    {
+      "slug": "ch04-gerontology",
+      "title": "노년학 연구방법",
+      "subtitle": "연령차이 해석, 양적 연구, 질적 연구를 비교하는 방법론 장.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH4]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH4]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch04-gerontology",
+      "tags": [
+        "연구방법",
+        "연령효과",
+        "교재"
+      ],
+      "description": "연령차이 해석, 양적 연구, 질적 연구를 비교하는 방법론 장.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-03-19",
+      "reading_date": null,
+      "sort_date": "2026-03-19",
+      "display_date_label": "3/19",
+      "public_pdf": "pdfs/ch04-gerontology.pdf"
+    },
+    {
+      "slug": "ch05-gerontology",
+      "title": "신체적 노화",
+      "subtitle": "생물학적 노화 설명과 노년기 신체 변화, 질병과의 구분을 다루는 장.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH5]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH5]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/ch05-gerontology.pdf",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch05-gerontology",
+      "tags": [
+        "신체적 노화",
+        "생물학",
+        "교재"
+      ],
+      "description": "생물학적 노화 설명과 노년기 신체 변화, 질병과의 구분을 다루는 장.",
+      "overview_hook": "이 장은 인간의 최대수명이 어디까지 갈 수 있는지라는 질문에서 출발해, 정상노화와 병리, 불가피한 변화와 개입 가능한 변화를 구분하게 만든다.",
+      "classroom_points": [
+        "평균수명이 늘어나는 것과 최대수명이 늘어나는 것은 같은 말이 아니라는 점을 먼저 구분해야 한다.",
+        "일차적 노화는 보편적이고 불가피하지만, 이차적 노화는 질병, 불용, 남용과 얽혀 있어 지연하거나 줄일 여지가 있다.",
+        "프로그램 이론과 손상·오류 이론은 서로 배타적 정답이라기보다 노화를 설명하는 서로 다른 축으로 읽는 편이 안전하다.",
+        "외형 변화만이 아니라 심혈관계, 호흡계, 신경계, 감각기관 변화까지 함께 봐야 노년기 신체 변화를 제대로 설명할 수 있다.",
+        "이 장의 실천적 메시지는 정상노화와 질병을 구분하고, 운동, 식이, 금연, 환경 관리 같은 개입 가능성을 놓치지 않는 데 있다."
+      ],
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-03-26",
+      "reading_date": null,
+      "sort_date": "2026-03-26",
+      "display_date_label": "3/26"
+    },
+    {
+      "slug": "ch06-gerontology",
+      "title": "심리적 노화 I : 인지적 변화",
+      "subtitle": "지능, 기억, 지혜와 창의력을 중심으로 인지적 노화를 정리하는 장.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH6]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH6]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch06-gerontology",
+      "tags": [
+        "인지적 노화",
+        "지능",
+        "기억"
+      ],
+      "description": "지능, 기억, 지혜와 창의력을 중심으로 인지적 노화를 정리하는 장.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-04-02",
+      "reading_date": null,
+      "sort_date": "2026-04-02",
+      "display_date_label": "4/02",
+      "public_pdf": "pdfs/ch06-gerontology.pdf"
+    },
+    {
+      "slug": "ch07-gerontology",
+      "title": "심리적 노화 II : 성격 및 정서",
+      "subtitle": "성격의 안정성과 변화, 자아발달, 정서 변화와 적응을 다루는 장.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH7]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH7]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch07-gerontology",
+      "tags": [
+        "성격",
+        "정서",
+        "적응"
+      ],
+      "description": "성격의 안정성과 변화, 자아발달, 정서 변화와 적응을 다루는 장.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-04-09",
+      "reading_date": null,
+      "sort_date": "2026-04-09",
+      "display_date_label": "4/09",
+      "public_pdf": "pdfs/ch07-gerontology.pdf"
+    },
+    {
+      "slug": "ch08-gerontology",
+      "title": "사회적 노화 I: 중노년기 세대관계 및 친족관계",
+      "subtitle": "노부모-성인자녀, 조부모-손자녀, 노년기 형제관계를 다세대 맥락에서 읽는 장이다.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH8]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH8]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/ch08-gerontology.pdf",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch08-gerontology",
+      "tags": [
+        "세대관계",
+        "친족관계",
+        "중노년기"
+      ],
+      "description": "수명 연장과 저출산이 결합할 때 세대 간 지원과 긴장이 어떻게 재구성되는지 정리한다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-04-21",
+      "reading_date": null,
+      "sort_date": "2026-04-21",
+      "display_date_label": "4/21"
+    },
+    {
+      "slug": "ch09-gerontology",
+      "title": "사회적 노화 II: 중노년기 부부관계",
+      "subtitle": "결혼의 의미, 길어진 부부기간, 노년기 이혼과 사별을 함께 다루는 장이다.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH9]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH9]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/ch09-gerontology.pdf",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch09-gerontology",
+      "tags": [
+        "부부관계",
+        "결혼",
+        "사별"
+      ],
+      "description": "중·노년기 부부관계를 건강, 복지, 가족생활주기, 결혼 해체의 맥락에서 정리한다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-04-28",
+      "reading_date": null,
+      "sort_date": "2026-04-28",
+      "display_date_label": "4/28"
+    },
+    {
+      "slug": "ch10-gerontology",
+      "title": "사회적 노화 III: 친구 및 이웃관계, 사회 관계망",
+      "subtitle": "가족 밖 비공식 관계와 사회 관계망이 노년기 건강·복지와 어떻게 연결되는지 다룬다.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH10]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH10]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch10-gerontology",
+      "tags": [
+        "친구",
+        "이웃",
+        "사회관계망"
+      ],
+      "description": "친구와 이웃이라는 비공식 관계, 사회관계망의 구조와 기능, 건강 연계를 함께 정리한다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-04-30",
+      "reading_date": null,
+      "sort_date": "2026-04-30",
+      "display_date_label": "4/30",
+      "public_pdf": "pdfs/ch10-gerontology.pdf"
+    },
+    {
+      "slug": "ch11-gerontology",
+      "title": "노년기 일과 은퇴",
+      "subtitle": "노년기 노동의 의미, 은퇴 적응, 은퇴준비교육을 함께 다루는 장이다.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH11]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH11]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch11-gerontology",
+      "tags": [
+        "일",
+        "은퇴",
+        "노년기 노동"
+      ],
+      "description": "일이 가진 소득, 정체성, 관계의 의미와 은퇴 적응, 준비교육의 필요성을 정리한다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-05-12",
+      "reading_date": null,
+      "sort_date": "2026-05-12",
+      "display_date_label": "5/12",
+      "public_pdf": "pdfs/ch11-gerontology.pdf"
+    },
+    {
+      "slug": "ch12-gerontology",
+      "title": "노년기 건강",
+      "subtitle": "신체건강, 정신건강, 치매를 중심으로 노년기 건강을 다차원적으로 읽는 장이다.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH12]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH12]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch12-gerontology",
+      "tags": [
+        "건강",
+        "정신건강",
+        "치매"
+      ],
+      "description": "건강을 질병 부재 이상으로 보고, 노년기 건강문제를 기능, 진단, 치매의 맥락에서 정리한다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-05-19",
+      "reading_date": null,
+      "sort_date": "2026-05-19",
+      "display_date_label": "5/19",
+      "public_pdf": "pdfs/ch12-gerontology.pdf"
+    },
+    {
+      "slug": "ch13-gerontology",
+      "title": "노년기 사회참여",
+      "subtitle": "활동적 노화와 성공적 노화 논의를 바탕으로 노년기 참여의 의미를 다루는 장이다.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH13]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH13]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch13-gerontology",
+      "tags": [
+        "사회참여",
+        "활동적 노화",
+        "성공적 노화"
+      ],
+      "description": "노년기 사회참여가 삶의 질과 어떻게 연결되는지, 그리고 활동적·성공적 노화 담론이 무엇을 요구하는지 정리한다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-05-26",
+      "reading_date": null,
+      "sort_date": "2026-05-26",
+      "display_date_label": "5/26",
+      "public_pdf": "pdfs/ch13-gerontology.pdf"
+    },
+    {
+      "slug": "ch14-gerontology",
+      "title": "노인정책",
+      "subtitle": "노인정책의 필요성과 소득·건강·주거 보장이라는 세 축을 정리하는 장이다.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH14]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH14]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch14-gerontology",
+      "tags": [
+        "노인정책",
+        "소득보장",
+        "주거보장"
+      ],
+      "description": "노년기 삶이 왜 정책의 영향을 크게 받는지, 그리고 소득·건강·주거 보장 정책이 어떻게 연결되는지 설명한다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-06-02",
+      "reading_date": null,
+      "sort_date": "2026-06-02",
+      "display_date_label": "6/02",
+      "public_pdf": "pdfs/ch14-gerontology.pdf"
+    },
+    {
+      "slug": "ch15-gerontology",
+      "title": "노인과 지역사회",
+      "subtitle": "환경노년학과 지역사회 환경, aging in place를 중심으로 노인과 장소의 관계를 다루는 장이다.",
+      "authors": [
+        "한경혜",
+        "최혜경",
+        "안정신",
+        "김주현"
+      ],
+      "year": 2019,
+      "language": "ko",
+      "kind": "chapter pdf",
+      "source_filename": "[CH15]Gerontology.pdf",
+      "source_pdf": "source_pdfs/[CH15]Gerontology.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/ch15-gerontology",
+      "tags": [
+        "지역사회",
+        "환경노년학",
+        "aging in place"
+      ],
+      "description": "노인의 삶의 질이 개인특성뿐 아니라 물리적·사회적·심리적 지역사회 환경과 어떻게 연결되는지 설명한다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "chapter",
+      "class_date": "2026-06-09",
+      "reading_date": null,
+      "sort_date": "2026-06-09",
+      "display_date_label": "6/09",
+      "public_pdf": "pdfs/ch15-gerontology.pdf"
+    },
+    {
+      "slug": "beck-2016",
+      "title": "When Are You Really an Adult?",
+      "subtitle": "성인 이행을 법, 생물학, 사회 역할, 책임의 관점에서 다시 묻는 The Atlantic 기사.",
+      "authors": [
+        "Julie Beck"
+      ],
+      "year": 2016,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Beck, 2016.pdf",
+      "source_pdf": "source_pdfs/Beck, 2016.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/beck-2016",
+      "tags": [
+        "성인 이행",
+        "Emerging Adulthood",
+        "기사"
+      ],
+      "description": "성인 이행을 법, 생물학, 사회 역할, 책임의 관점에서 다시 묻는 The Atlantic 기사.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "기존 Beck reading의 study content를 비우고 full/translation 중심으로 다시 정리했다."
+      ],
+      "type": "article",
+      "class_date": "2026-03-12",
+      "reading_date": null,
+      "sort_date": "2026-03-12",
+      "display_date_label": "3/12",
+      "public_pdf": "pdfs/beck-2016.pdf"
+    },
+    {
+      "slug": "blieszner-2014",
+      "title": "The Worth of Friendship: Can Friends Keep Us Happy and Healthy?",
+      "subtitle": "노년기 친구관계의 정의, 기능, 건강효과, 실천적 활용을 정리한 리뷰 성격의 글이다.",
+      "authors": [
+        "Rosemary Blieszner"
+      ],
+      "year": 2014,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Blieszner, 2014.pdf",
+      "source_pdf": "source_pdfs/Blieszner, 2014.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/blieszner-2014",
+      "tags": [
+        "friendship",
+        "well-being",
+        "later life"
+      ],
+      "description": "우정이 행복과 건강, 외로움 완화, 실천 개입에 어떤 의미를 갖는지 노년기 관점에서 정리한다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "article",
+      "class_date": "2026-05-07",
+      "reading_date": null,
+      "sort_date": "2026-05-07",
+      "display_date_label": "5/07",
+      "public_pdf": "pdfs/blieszner-2014.pdf"
+    },
+    {
+      "slug": "calvo-et-al-2018",
+      "title": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
+      "subtitle": "은퇴를 단일 사건이 아니라 시퀀스로 보고 탈표준화와 층화를 동시에 분석한 논문이다.",
+      "authors": [
+        "Esteban Calvo",
+        "Ignacio Madero-Cabib",
+        "Ursula M. Staudinger"
+      ],
+      "year": 2018,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Calvo et al., 2018.pdf",
+      "source_pdf": "source_pdfs/Calvo et al., 2018.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/calvo-et-al-2018",
+      "tags": [
+        "retirement",
+        "sequence analysis",
+        "stratification"
+      ],
+      "description": "미국 노년층의 은퇴 경로가 얼마나 탈표준화되었는지, 그리고 그 차이가 젠더·계급·인종에 따라 어떻게 층화되는지 보여 준다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "article",
+      "class_date": "2026-05-14",
+      "reading_date": null,
+      "sort_date": "2026-05-14",
+      "display_date_label": "5/14",
+      "public_pdf": "pdfs/calvo-et-al-2018.pdf"
+    },
+    {
+      "slug": "carr-fang-2021",
+      "title": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
+      "subtitle": "은퇴촌에서 독립과 의존의 욕구가 충돌하며 '우리'와 '그들'을 만드는 과정을 질적으로 탐색한 연구다.",
+      "authors": [
+        "Sam Carr",
+        "Chao Fang"
+      ],
+      "year": 2021,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Carr & Fang, 2021.pdf",
+      "source_pdf": "source_pdfs/Carr & Fang, 2021.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/carr-fang-2021",
+      "tags": [
+        "retirement village",
+        "independence",
+        "qualitative"
+      ],
+      "description": "독립생활 공동체라는 이상이 왜 취약한 거주자를 배제하는 긴장을 낳는지 보여 주는 질적 연구다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "article",
+      "class_date": "2026-06-09",
+      "reading_date": null,
+      "sort_date": "2026-06-09",
+      "display_date_label": "6/09",
+      "public_pdf": "pdfs/carr-fang-2021.pdf"
+    },
+    {
+      "slug": "hulur-et-al-2019",
+      "title": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
+      "subtitle": "교육만이 아니라 성인기 노동환경이 코호트별 인지노화 차이에 어떻게 연결되는지 다루는 논문.",
+      "authors": [
+        "Gizem Hülür",
+        "Nilam Ram",
+        "Sherry L. Willis",
+        "K. Warner Schaie",
+        "Denis Gerstorf"
+      ],
+      "year": 2019,
+      "language": "en",
+      "kind": "paper pdf",
+      "source_filename": "Hülür et al., 2019.pdf",
+      "source_pdf": "source_pdfs/Hülür et al., 2019.pdf",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/hulur-et-al-2019.pdf",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/hulur-et-al-2019",
+      "tags": [
+        "인지노화",
+        "코호트",
+        "노동환경"
+      ],
+      "description": "교육만이 아니라 성인기 노동환경이 코호트별 인지노화 차이에 어떻게 연결되는지 다루는 논문.",
+      "overview_hook": "이 논문은 교육 수준만으로 설명해 온 코호트별 인지 차이가 실제로는 성인기 노동환경의 변화와도 연결되는지 묻는다.",
+      "classroom_points": [
+        "후기 코호트가 더 높은 인지 수행을 보였다고 해서 모든 능력에서 더 나았던 것은 아니며, number ability는 오히려 낮았다.",
+        "저자들은 교육 효과를 통제한 뒤에도 work control과 work innovation이 인지 수행과 연결된다고 본다.",
+        "코호트 비교는 출생연도 자체보다 age와 retest를 맞춘 관측치 단위 매칭으로 설계되었다.",
+        "노동환경 변수는 직업 복잡도 일반척도가 아니라 work control, work autonomy, work innovation으로 나누어 다뤄진다.",
+        "이 연구는 관찰연구이기 때문에 더 좋은 노동환경이 인지를 높였는지, 원래 인지가 높은 사람이 그런 일을 택했는지는 분리하지 못한다."
+      ],
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "paper",
+      "class_date": "2026-03-24",
+      "reading_date": null,
+      "sort_date": "2026-03-24",
+      "display_date_label": "3/24"
+    },
+    {
+      "slug": "kerrigan-2018",
+      "title": "12 Innovations That Could Make Reverse Aging a Reality",
+      "subtitle": "역노화를 둘러싼 12개 기술을 대중적으로 소개하는 웹 기사.",
+      "authors": [
+        "Saoirse Kerrigan"
+      ],
+      "year": 2018,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Kerrigan, 2018.pdf",
+      "source_pdf": "source_pdfs/Kerrigan, 2018.pdf",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/kerrigan-2018.pdf",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/kerrigan-2018",
+      "shared_page_bundle": "2026-03-31-longevity-pair",
+      "shared_page_keys": [
+        "quiz-ox",
+        "quiz-short",
+        "professor-prep",
+        "quiz-mcq"
+      ],
+      "tags": [
+        "reverse aging",
+        "popular science",
+        "기사"
+      ],
+      "description": "역노화를 둘러싼 12개 기술을 대중적으로 소개하는 웹 기사.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "article",
+      "class_date": "2026-03-31",
+      "reading_date": null,
+      "sort_date": "2026-03-31",
+      "display_date_label": "3/31"
+    },
+    {
+      "slug": "konrath-et-al-2012",
+      "title": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
+      "subtitle": "자원봉사의 효과보다 왜 봉사하는지가 더 중요할 수 있음을 보여 주는 논문이다.",
+      "authors": [
+        "Sara Konrath",
+        "Andrea Fuhrel-Forbis",
+        "Alina Lou",
+        "Stephanie Brown"
+      ],
+      "year": 2012,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Konrath et al., 2012.pdf",
+      "source_pdf": "source_pdfs/Konrath et al., 2012.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/konrath-et-al-2012",
+      "tags": [
+        "volunteering",
+        "motives",
+        "mortality"
+      ],
+      "description": "자원봉사 자체보다 타인 지향적 동기가 있을 때 사망위험 감소효과가 나타난다는 점을 보여 준다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "article",
+      "class_date": "2026-05-28",
+      "reading_date": null,
+      "sort_date": "2026-05-28",
+      "display_date_label": "5/28",
+      "public_pdf": "pdfs/konrath-et-al-2012.pdf"
+    },
+    {
+      "slug": "leggett-et-al-2020",
+      "title": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
+      "subtitle": "배우자 치매돌봄과 자기건강 상태가 사망위험과 어떻게 교차하는지 분석한 논문이다.",
+      "authors": [
+        "Amanda N. Leggett",
+        "Amanda J. Sonnega",
+        "Matthew C. Lohman"
+      ],
+      "year": 2020,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Leggett et al., 2020.pdf",
+      "source_pdf": "source_pdfs/Leggett et al., 2020.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/leggett-et-al-2020",
+      "tags": [
+        "dementia caregiving",
+        "mortality",
+        "self-rated health"
+      ],
+      "description": "치매 배우자 돌봄이 반드시 사망위험을 높이는 것은 아니며, 자기평가 건강과의 상호작용이 중요하다는 점을 보여 준다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "article",
+      "class_date": "2026-05-21",
+      "reading_date": null,
+      "sort_date": "2026-05-21",
+      "display_date_label": "5/21",
+      "public_pdf": "pdfs/leggett-et-al-2020.pdf"
+    },
+    {
+      "slug": "olshansky-carnes-2019",
+      "title": "Inconvenient Truths About Human Longevity",
+      "subtitle": "급진적 수명연장보다 건강수명 연장에 초점을 옮겨야 한다는 리뷰 논문.",
+      "authors": [
+        "S. Jay Olshansky",
+        "Bruce A. Carnes"
+      ],
+      "year": 2019,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Olshansky & Carnes, 2019.pdf",
+      "source_pdf": "source_pdfs/Olshansky & Carnes, 2019.pdf",
+      "pdf_visibility": "public",
+      "content_dir": "content/readings/olshansky-carnes-2019",
+      "shared_page_bundle": "2026-03-31-longevity-pair",
+      "shared_page_keys": [
+        "quiz-ox",
+        "quiz-short",
+        "professor-prep",
+        "quiz-mcq"
+      ],
+      "tags": [
+        "longevity",
+        "healthspan",
+        "review"
+      ],
+      "description": "급진적 수명연장보다 건강수명 연장에 초점을 옮겨야 한다는 리뷰 논문.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "article",
+      "class_date": "2026-03-31",
+      "reading_date": null,
+      "sort_date": "2026-03-31",
+      "display_date_label": "3/31",
+      "public_pdf": "pdfs/olshansky-carnes-2019.pdf",
+      "landing_video_policy": "optional"
+    },
+    {
+      "slug": "park-mcdonough-2013",
+      "title": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
+      "subtitle": "기능적 뇌영상 연구가 인지노화 이론을 어떻게 바꾸었는지 정리하는 리뷰.",
+      "authors": [
+        "Denise C. Park",
+        "Ian M. McDonough"
+      ],
+      "year": 2013,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Park & McDonough, 2013.pdf",
+      "source_pdf": "source_pdfs/Park & McDonough, 2013.pdf",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/park-mcdonough-2013.pdf",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/park-mcdonough-2013",
+      "tags": [
+        "functional neuroimaging",
+        "cognitive aging",
+        "review"
+      ],
+      "description": "기능적 뇌영상 연구가 인지노화 이론을 어떻게 바꾸었는지 정리하는 리뷰.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "article",
+      "class_date": "2026-04-07",
+      "reading_date": null,
+      "sort_date": "2026-04-07",
+      "display_date_label": "4/07"
+    },
+    {
+      "slug": "suitor-et-al-2014",
+      "title": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
+      "subtitle": "어머니 돌봄 상황에서 돌봄 수행과 편애 인식이 형제 긴장을 어떻게 높이는지 분석한 논문이다.",
+      "authors": [
+        "J. Jill Suitor",
+        "Megan Gilligan",
+        "Kaitlin Johnson",
+        "Karl Pillemer"
+      ],
+      "year": 2014,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Suitor et al., 2014.pdf",
+      "source_pdf": "source_pdfs/Suitor et al., 2014.pdf",
+      "pdf_visibility": "public",
+      "public_pdf": "pdfs/suitor-et-al-2014.pdf",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/suitor-et-al-2014",
+      "tags": [
+        "caregiving",
+        "sibling tension",
+        "favoritism"
+      ],
+      "description": "노부모 돌봄이 형제 갈등을 낳는 메커니즘을 편애 인식과 결합해 보여 주는 later-life family 연구다.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "제목과 저자 정보는 현재 로컬 PDF 1페이지 기준으로 보정했다.",
+        "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
+      ],
+      "type": "article",
+      "class_date": "2026-04-23",
+      "reading_date": null,
+      "sort_date": "2026-04-23",
+      "display_date_label": "4/23"
+    },
+    {
+      "slug": "wagner-et-al-2016",
+      "title": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
+      "subtitle": "삶의 말기 성격 특성 변화와 건강·인지·통제감·사회관계의 관련성을 분석한 논문.",
+      "authors": [
+        "Jenny Wagner",
+        "Nilam Ram",
+        "Jacqui Smith",
+        "Denis Gerstorf"
+      ],
+      "year": 2016,
+      "language": "en",
+      "kind": "article pdf",
+      "source_filename": "Wagner et al., 2016.pdf",
+      "source_pdf": "source_pdfs/Wagner et al., 2016.pdf",
+      "pdf_visibility": "public",
+      "landing_video_policy": "optional",
+      "content_dir": "content/readings/wagner-et-al-2016",
+      "tags": [
+        "personality development",
+        "end of life",
+        "longitudinal"
+      ],
+      "description": "삶의 말기 성격 특성 변화와 건강·인지·통제감·사회관계의 관련성을 분석한 논문.",
+      "metadata_status": "complete",
+      "metadata_notes": [
+        "배치 실행에서 대상 읽기 메타데이터를 보수적으로 보정했다."
+      ],
+      "type": "article",
+      "class_date": "2026-04-14",
+      "reading_date": null,
+      "sort_date": "2026-04-14",
+      "display_date_label": "4/14",
+      "public_pdf": "pdfs/wagner-et-al-2016.pdf"
+    }
+  ],
+  "schema": {
+    "version": 2,
+    "organization": "date-based",
+    "source_of_truth": "manifest/readings.json",
+    "optional_reading_fields": [
+      "class_date",
+      "reading_date",
+      "sort_date",
+      "display_date_label"
+    ],
+    "page_outputs": [
+      "full.html",
+      "summary.html",
+      "translation.html",
+      "concepts.html",
+      "pitfalls.html",
+      "quiz-ox.html",
+      "quiz-short.html",
+      "quiz-mcq.html",
+      "review-sheet.html",
+      "professor-prep.html"
+    ]
+  }
 }

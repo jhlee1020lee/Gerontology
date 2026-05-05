@@ -3,94 +3,139 @@
   "instructions": "문장이 맞으면 O, 틀리면 X를 고른 뒤 바로 아래 설명으로 이유를 확인하세요.",
   "items": [
     {
-      "prompt": "friendship은(는) 애정, 동반성, 신뢰, 호혜성을 포함하는 자발적 관계다.",
+      "prompt": "우정은 애정, 함께함, 신뢰, 호혜성을 포함하는 자발적 유대다.",
       "answer": "O",
-      "explanation": "글 전체의 중심 개념이다.",
-      "source": "What Is Friendship?"
+      "explanation": "저자는 사람들이 우정을 정의할 때 affection, companionship, trust, reciprocity를 포함하는 voluntary tie라고 설명한다고 제시한다.",
+      "source": "What Is Friendship?",
+      "evidence_segment_id": "THEORY-001",
+      "difficulty": "basic",
+      "misconception_targeted": "우정을 막연한 친밀감으로만 정의하는 오해"
     },
     {
-      "prompt": "voluntary tie은(는) 가족처럼 주어진 것이 아니라 선택하고 유지하는 관계를 뜻한다.",
-      "answer": "O",
-      "explanation": "친구관계의 독특성을 가장 잘 보여 준다.",
-      "source": "Unique Features of Friend Ties"
-    },
-    {
-      "prompt": "reciprocity은(는) 서로 주고받는 호혜성이 유지되는 관계 특성이다.",
-      "answer": "O",
-      "explanation": "우정을 건강한 관계로 유지하는 핵심 원리다.",
-      "source": "What Is Friendship?"
-    },
-    {
-      "prompt": "companionship은(는) 함께 시간을 보내며 즐거움과 소속감을 주는 친구의 기능이다.",
-      "answer": "O",
-      "explanation": "친구가 행복에 기여하는 직접 경로다.",
-      "source": "Worth of Friendship"
-    },
-    {
-      "prompt": "emotional support은(는) 위로, 공감, 경청처럼 정서적 안정을 제공하는 도움이다.",
-      "answer": "O",
-      "explanation": "친구가 외로움과 우울을 줄이는 핵심 기능이다.",
-      "source": "Relationships, Health, and Well-being"
-    },
-    {
-      "prompt": "instrumental help은(는) 장보기, 이동 지원, 식사 나눔처럼 실질적으로 제공되는 도움이다.",
-      "answer": "O",
-      "explanation": "친구가 단순 정서 관계가 아니라 실용 자원임을 보여 준다.",
-      "source": "Relationships, Health, and Well-being"
-    },
-    {
-      "prompt": "loneliness intervention은(는) 외로움을 줄이기 위해 친구형성과 유지 기술을 강화하는 개입을 뜻한다.",
-      "answer": "O",
-      "explanation": "우정을 실천적으로 활용할 수 있다는 점을 보여 준다.",
-      "source": "Implications for Professional Practice"
-    },
-    {
-      "prompt": "friendship maintenance은(는) 친구관계를 지속하기 위한 의도적 노력과 기술을 뜻한다.",
-      "answer": "O",
-      "explanation": "우정은 자연발생적 관계가 아니라 관리되는 관계임을 드러낸다.",
-      "source": "Implications for Professional Practice"
-    },
-    {
-      "prompt": "친구는 자발성과 호혜성을 가진 관계로 정의된다.",
-      "answer": "O",
-      "explanation": "friendship의 기본 정의다.",
-      "source": "핵심 개념"
-    },
-    {
-      "prompt": "친구는 노년기에 정서적 위로뿐 아니라 실질적 도움도 제공할 수 있다.",
-      "answer": "O",
-      "explanation": "instrumental help가 대표 사례다.",
-      "source": "핵심 요약"
-    },
-    {
-      "prompt": "친구는 있으면 좋은 정도지 노년기 건강과는 큰 관련이 없다.",
+      "prompt": "우정은 자발적 관계이므로 사회 규범이나 만남의 기회와는 거의 관련이 없다.",
       "answer": "X",
-      "explanation": "친구는 행복, 외로움 완화, 건강행동, 실질 도움과 연결된다.",
-      "source": "헷갈리는 포인트"
+      "explanation": "글은 우정이 자발적이어도 실제로 만난 사람과만 친구가 될 수 있고, 자기노출·연락·존중·신뢰 규범의 영향을 받는다고 설명한다.",
+      "source": "What Is Friendship?",
+      "evidence_segment_id": "THEORY-002",
+      "difficulty": "medium",
+      "misconception_targeted": "voluntary tie를 무제약 관계로 이해하는 오해"
     },
     {
-      "prompt": "친구는 자연스럽게 유지되므로 따로 노력이 필요 없다.",
-      "answer": "X",
-      "explanation": "친구형성과 유지에는 의도적 노력과 관계 기술이 필요하다.",
-      "source": "헷갈리는 포인트"
+      "prompt": "가족 역할과 달리 우정은 생애 전반에 걸쳐 새로 만들어지거나 유지될 수 있는 관계로 제시된다.",
+      "answer": "O",
+      "explanation": "저자는 부모, 조부모, 배우자 역할과 달리 우정은 일찍 시작되어 평생 지속될 수 있다고 대비한다.",
+      "source": "Unique Features of Friend Ties",
+      "evidence_segment_id": "THEORY-004",
+      "difficulty": "basic",
+      "misconception_targeted": "친구관계를 가족관계와 같은 역할 구조로 보는 오해"
     },
     {
-      "prompt": "친구는 정서적 위로만 주지 실질적 도움은 거의 못 준다.",
+      "prompt": "저자는 노년기에는 새 친구를 만들기보다 오래된 친구만 유지된다고 본다.",
       "answer": "X",
-      "explanation": "장보기, 이동, 식사 공유 같은 instrumental help도 제공할 수 있다.",
-      "source": "헷갈리는 포인트"
+      "explanation": "글은 오래된 우정 유지와 새 친구 만들기가 모두 가능하며, 사람마다 친구를 만드는 스타일도 다르다고 설명한다.",
+      "source": "Unique Features of Friend Ties",
+      "evidence_segment_id": "THEORY-005",
+      "difficulty": "medium",
+      "misconception_targeted": "노년기 우정을 고정된 옛 관계로만 보는 오해"
     },
     {
-      "prompt": "가족은 늘 부담이고 친구는 늘 건강에 좋다.",
-      "answer": "X",
-      "explanation": "친구도 배신, 비호혜, 무리한 조언으로 스트레스 원천이 될 수 있다.",
-      "source": "헷갈리는 포인트"
+      "prompt": "친구는 대체로 또래라서 태도, 가치, 관심사를 공유할 가능성이 높고, 이런 공통성이 우정 지속을 강화할 수 있다.",
+      "answer": "O",
+      "explanation": "저자는 친구가 age peers인 경우가 많고 지각된 공통성이 우정의 발달과 지속을 강화한다고 설명한다.",
+      "source": "Unique Features of Friend Ties",
+      "evidence_segment_id": "THEORY-006",
+      "difficulty": "basic",
+      "misconception_targeted": "우정 지속을 우연이나 감정만으로 설명하는 오해"
     },
     {
-      "prompt": "전문가 개입은 가족 중심이면 충분하고 친구는 고려할 필요가 없다.",
+      "prompt": "우정의 핵심 요소는 생애 단계가 달라져도 함께함, 상호 지지, 호혜성, 애정으로 안정적으로 중요하게 남는다.",
+      "answer": "O",
+      "explanation": "생애 단계별 친구 상호작용은 변하지만, 저자는 companionship, mutual support, reciprocity, affection이 계속 중요하다고 정리한다.",
+      "source": "Friendship Over the Lifespan",
+      "evidence_segment_id": "THEORY-011",
+      "difficulty": "medium",
+      "misconception_targeted": "생애 변화가 우정의 핵심을 모두 바꾼다고 보는 오해"
+    },
+    {
+      "prompt": "친구는 친척보다 행복감과 긍정적 전망에 더 큰 영향을 미칠 수 있다고 제시된다.",
+      "answer": "O",
+      "explanation": "저자는 Cable et al.과 Huxhold et al. 연구를 들어 친구가 행복감과 긍정적 전망에 더 큰 영향을 보일 수 있다고 설명한다.",
+      "source": "Contributions of Friendship to Health and Well-Being",
+      "evidence_segment_id": "DISCUSSION-001",
+      "difficulty": "basic",
+      "misconception_targeted": "친구 효과를 단순한 여가 만족으로 축소하는 오해"
+    },
+    {
+      "prompt": "친구의 도움은 주로 위로와 경청이며, 장보기나 병원 이동 같은 실제 도움과는 거리가 멀다.",
       "answer": "X",
-      "explanation": "친구를 돌봄계획과 사회통합 개입에 포함할 수 있다.",
-      "source": "헷갈리는 포인트"
+      "explanation": "글은 친구가 장보기, 의료 이동, 식사 공유, 건강정보 제공, 약물·건강관리 준수를 도울 수 있다고 말한다.",
+      "source": "Contributions of Friendship to Health and Well-Being",
+      "evidence_segment_id": "DISCUSSION-002",
+      "difficulty": "basic",
+      "misconception_targeted": "emotional support만 기억하고 instrumental help를 놓치는 오해"
+    },
+    {
+      "prompt": "친구가 '그저 곁에 있음'만으로도 외로움과 우울을 완화할 수 있다는 점이 제시된다.",
+      "answer": "O",
+      "explanation": "저자는 친구가 서로의 삶에 관여하고 care를 보여 주며 just being there로 loneliness와 depression을 완화할 수 있다고 본다.",
+      "source": "Contributions of Friendship to Health and Well-Being",
+      "evidence_segment_id": "DISCUSSION-003",
+      "difficulty": "basic",
+      "misconception_targeted": "친구의 동반성을 사소한 친목으로 보는 오해"
+    },
+    {
+      "prompt": "친구는 건강과 안녕에 항상 긍정적이므로 문제적 우정은 이 글의 관심사가 아니다.",
+      "answer": "X",
+      "explanation": "저자는 친구가 건강 권고를 방해하거나 신뢰를 배신하거나 호혜적 지지를 주지 못하면 심리적 고통과 건강 악화를 키울 수 있다고 경고한다.",
+      "source": "Contributions of Friendship to Health and Well-Being",
+      "evidence_segment_id": "DISCUSSION-004",
+      "difficulty": "medium",
+      "misconception_targeted": "우정을 무조건 긍정적 자원으로 낭만화하는 오해"
+    },
+    {
+      "prompt": "저자는 친구가 임종기 신체 돌봄과 장기 고강도 돌봄까지 가족을 완전히 대체할 수 있다고 주장한다.",
+      "answer": "X",
+      "explanation": "글은 친구가 사회적·정서적 지지와 respite를 제공할 수 있지만, 매우 개인적인 신체 돌봄과 집중적 지속 도움에는 한계가 있다고 둔다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-005",
+      "difficulty": "hard",
+      "misconception_targeted": "친구를 가족 돌봄의 완전 대체물로 보는 오해"
+    },
+    {
+      "prompt": "돌봄계획에 친구를 포함시키는 일이 자연스러워질 때 친구 지원이 더 잘 일어날 수 있다.",
+      "answer": "O",
+      "explanation": "저자는 친구가 방문, 전화, 이동 등을 도울 수 있으며 care plan에 친구를 포함시키는 정상화가 중요하다고 설명한다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-006",
+      "difficulty": "medium",
+      "misconception_targeted": "친구 도움을 즉흥적 호의로만 보는 오해"
+    },
+    {
+      "prompt": "인터넷과 소셜 미디어는 거동이 제한되거나 멀리 사는 친구와의 상호작용을 돕는 통로가 될 수 있다.",
+      "answer": "O",
+      "explanation": "글은 physical restrictions나 geographic distance가 있어도 인터넷과 소셜 미디어가 homebound elders와 친구의 상호작용 기회를 넓힌다고 본다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-007",
+      "difficulty": "medium",
+      "misconception_targeted": "노년기 우정 유지에서 기술 활용을 배제하는 오해"
+    },
+    {
+      "prompt": "12주 우정 강화 프로그램은 단순한 친목 모임이 아니라 자존감, 관계 역량, 우정 형성·유지, 사회적 기술을 다루었다.",
+      "answer": "O",
+      "explanation": "Stevens, Martina, and Westerhof(2006)의 프로그램은 12 weekly lessons로 self-esteem, relational competence, friendship formation and maintenance, social skills를 다루었다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-008",
+      "difficulty": "medium",
+      "misconception_targeted": "우정 개입을 단순히 사람들을 모으는 프로그램으로 보는 오해"
+    },
+    {
+      "prompt": "우정 형성과 유지 지도를 받은 여성들은 새 친구 만들기와 기존 우정 개선에서 더 나은 결과를 보였고, 일부는 외로움도 덜 보고했다.",
+      "answer": "O",
+      "explanation": "결과는 intervention group에서 새 친구 만들기와 기존 우정 개선이 더 많았고, 새 친구와 기존 우정 개선을 모두 경험한 여성들이 외로움을 덜 보고했다고 제시한다.",
+      "source": "Implications for Professional Practice",
+      "evidence_segment_id": "DISCUSSION-009",
+      "difficulty": "medium",
+      "misconception_targeted": "개입 결과를 막연한 만족감 정도로만 기억하는 오해"
     }
   ]
 }

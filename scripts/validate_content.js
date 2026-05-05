@@ -728,7 +728,7 @@ function validateQuizPayload(pageKey, payload) {
   const items = Array.isArray(payload.items) ? payload.items : [];
   const errors = [];
   const warnings = [];
-  const metrics = { item_count: items.length };
+  const metrics = { item_count: items.length, evidence_segment_count: 0 };
   if (items.length !== 15) {
     errors.push(`${pageKey} must contain exactly 15 items`);
   }
@@ -737,9 +737,15 @@ function validateQuizPayload(pageKey, payload) {
     items.forEach((item, index) => {
       const question = toText(item.question);
       const explanation = toText(item.explanation);
+      const evidenceSegmentId = toText(item.evidence_segment_id);
       const acceptedAnswers = Array.isArray(item.accepted_answers)
         ? item.accepted_answers.map((answer) => toText(answer)).filter(Boolean)
         : [];
+      if (evidenceSegmentId) {
+        metrics.evidence_segment_count += 1;
+      } else {
+        warnings.push(`quiz-short item ${index + 1} is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work`);
+      }
       questions.push(question);
       if (!question) {
         errors.push(`quiz-short item ${index + 1} is missing question`);
@@ -782,7 +788,13 @@ function validateQuizPayload(pageKey, payload) {
       const prompt = toText(item.prompt);
       const answer = toText(item.answer);
       const explanation = toText(item.explanation);
+      const evidenceSegmentId = toText(item.evidence_segment_id);
       prompts.push(prompt);
+      if (evidenceSegmentId) {
+        metrics.evidence_segment_count += 1;
+      } else {
+        warnings.push(`${pageKey} item ${index + 1} is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work`);
+      }
       if (!prompt) {
         errors.push(`${pageKey} item ${index + 1} is missing prompt`);
       }

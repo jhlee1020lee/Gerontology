@@ -8,7 +8,7 @@
         "노년기 노동"
       ],
       "answer_type": "term",
-      "explanation": "노년기 노동은(는) 노년기 일을 주변 현상이 아니라 주요 생활영역으로 보게 한다.",
+    "explanation": "노년기 노동은 노년기 일을 주변 현상이 아니라 주요 생활영역으로 보게 한다.",
       "source": "노년기 일에 대한 사회적 인식"
     },
     {
@@ -17,7 +17,7 @@
         "은퇴"
       ],
       "answer_type": "term",
-      "explanation": "은퇴은(는) 이 장의 핵심 전환점이다.",
+    "explanation": "은퇴는 이 장의 핵심 전환점이다.",
       "source": "일로부터의 은퇴"
     },
     {
@@ -26,16 +26,17 @@
         "유효은퇴연령"
       ],
       "answer_type": "term",
-      "explanation": "유효은퇴연령은(는) 형식적 퇴직연령과 실제 노동시장 이탈을 구분하게 한다.",
+    "explanation": "유효은퇴연령은 형식적 퇴직연령과 실제 노동시장 이탈을 구분하게 한다.",
       "source": "노년기 노동시장 참여"
     },
     {
       "question": "다음 설명에 해당하는 용어는? 노년기에도 활동성과 참여를 유지하는 것이 바람직하다는 관점이다.",
-      "accepted_answers": [
-        "active aging"
-      ],
+    "accepted_answers": [
+      "active aging",
+      "활기찬 노후"
+    ],
       "answer_type": "term",
-      "explanation": "active aging은(는) 노년기 일의 의미를 긍정적으로 재구성하는 담론이다.",
+    "explanation": "활기찬 노후(active aging)는 노년기 일의 의미를 긍정적으로 재구성하는 담론이다.",
       "source": "노년기 일에 대한 사회적 인식"
     },
     {
@@ -44,7 +45,7 @@
         "자아정체감"
       ],
       "answer_type": "term",
-      "explanation": "자아정체감은(는) 일이 왜 노년기에도 중요하게 남는지 설명한다.",
+    "explanation": "자아정체감은 일이 왜 노년기에도 중요하게 남는지 설명한다.",
       "source": "일의 의미"
     },
     {
@@ -53,7 +54,7 @@
         "은퇴적응"
       ],
       "answer_type": "term",
-      "explanation": "은퇴적응은(는) 은퇴를 단순 종료가 아니라 과정으로 보게 한다.",
+    "explanation": "은퇴적응은 은퇴를 단순 종료가 아니라 과정으로 보게 한다.",
       "source": "은퇴와 적응"
     },
     {
@@ -62,7 +63,7 @@
         "은퇴준비교육"
       ],
       "answer_type": "term",
-      "explanation": "은퇴준비교육은(는) 경제, 시간, 건강, 관계를 함께 준비하게 한다.",
+    "explanation": "은퇴준비교육은 경제, 시간, 건강, 관계를 함께 준비하게 한다.",
       "source": "은퇴준비교육"
     },
     {
@@ -71,7 +72,7 @@
         "일상 구조화"
       ],
       "answer_type": "term",
-      "explanation": "일상 구조화은(는) 은퇴가 왜 공허감과 혼란을 만들 수 있는지 설명한다.",
+    "explanation": "일상 구조화는 은퇴가 왜 공허감과 혼란을 만들 수 있는지 설명한다.",
       "source": "일의 의미"
     },
     {
@@ -116,9 +117,10 @@
     },
     {
       "question": "노년기에도 활동성과 참여를 유지하는 것이 바람직하다는 담론은?",
-      "accepted_answers": [
-        "active aging"
-      ],
+    "accepted_answers": [
+      "active aging",
+      "활기찬 노후"
+    ],
       "answer_type": "term",
       "explanation": "노년기 노동을 긍정적으로 보는 배경이다.",
       "source": "노년기 일에 대한 사회적 인식",

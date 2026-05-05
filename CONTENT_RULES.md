@@ -447,7 +447,7 @@ Additional QA expectations:
 
 ## 6. Date / order rules
 - Homepage reading order and displayed dates must follow syllabus class-date order.
-- Homepage top featured reading should use the current publish window: compute the reference date as `min(today, publish_cutoff_date)` and then pick the most recent reading on or before that date.
+- Homepage top featured reading should show the closest upcoming published class reading: pick the earliest reading whose class date is today or later, while respecting `publish_cutoff_date`. For example, on `2026-05-07` show the `5/07` reading; on `2026-05-08` show the `5/12` reading. If there is no later published class date, fall back to the most recent reading on or before `min(today, publish_cutoff_date)`.
 - Weekly class schedule is the primary truth source for dates.
 - If the reading appendix conflicts with the weekly schedule, prefer the weekly schedule.
 - Preserve the local source filename when a syllabus citation label differs from the local filename.
@@ -904,3 +904,55 @@ Repository compatibility note:
   - `answer_30s`
 - Legacy aliases such as `answer` or `model_answer` may be read during migration, but validation and new content should use `answer_30s`.
 - If extra fields still exist in older readings, treat them as legacy support material rather than the default published contract.
+
+## 11. Segment-aligned pipeline quality upgrade
+
+The focused guide files in `docs/guides/` are standing policy extensions to this appendix. If a guide conflicts with this file, follow this file first and update the guide. If a guide adds stricter workflow detail without conflict, follow the guide.
+
+### 11.1 Guide index
+
+- `docs/guides/READING_WORKFLOW.md`: date-based reading addition and rebuild order.
+- `docs/guides/PAPER_EXTRACTION_RULES.md`: full original extraction requirements by paper type.
+- `docs/guides/SOURCE_SEGMENTATION_RULES.md`: `source_segments.json` schema and segment_id conventions.
+- `docs/guides/TRANSLATION_RULES.md`: Korean translation style and non-abridgement rules.
+- `docs/guides/TRANSLATION_ALIGNMENT_QA.md`: segment-level translation QA and failure conditions.
+- `docs/guides/EXTRACTION_COVERAGE_REPORT.md`: coverage report template.
+- `docs/guides/QUIZ_RULES.md`: quiz evidence and distractor rules.
+- `docs/guides/PROFESSOR_PREP_RULES.md`: `교수님 구술 대비` answer shape.
+- `docs/guides/READING_UI_RULES.md`: long-form reading UI rules.
+- `docs/guides/ARTICLE_RENDERING_RULES.md`: rendering component contracts.
+- `docs/guides/READABILITY_CHECKLIST.md`: post-build manual UI checklist.
+- `docs/references/EXTERNAL_REFERENCES.md`: external sources consulted and application notes.
+
+### 11.2 Source and translation segment files
+
+For new or substantially rebuilt English readings, create these files before claiming translation approval readiness:
+
+- `content/readings/<slug>/source_segments.json`
+- `content/readings/<slug>/translation_segments.json`
+
+`source_segments.json` preserves the original text by section/paragraph segment. `translation_segments.json` uses the same `segment_id` values in the same order. If a split or merge is unavoidable, the translation segment must record `split_from` or `merged_from` and a reason.
+
+### 11.3 Alignment command
+
+Run this command for segment-aligned translation QA:
+
+```powershell
+node scripts/check-alignment.js --slug <slug> --strict --write-report
+```
+
+The command writes `alignment_report.md` and `translation_qa_checklist.md` for the reading when `--write-report` is used. A FAIL report means the translation remains `partial` until missing, merged, shortened, or altered segments are fixed.
+
+### 11.4 Quiz evidence
+
+New or refreshed quiz items should include:
+
+- `evidence_segment_id`
+- `difficulty`
+- `misconception_targeted` when the item targets a predictable confusion
+
+Legacy `source` fields may still render for older readings, but missing `evidence_segment_id` is not approval-ready for new segment-aligned work.
+
+### 11.5 Reading UI
+
+`full.html` and `translation.html` must use the long-form reader shell: narrow reading measure, increased line-height, paragraph spacing, build-time TOC, active TOC state, reading progress, and segment-level original reveal only on English `translation.html`.

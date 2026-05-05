@@ -3,7 +3,7 @@
   "instructions": "보기 4개 중 가장 맞는 답을 고르고, 설명으로 왜 맞는지 확인하세요.",
   "items": [
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 고령자를 위해 설계된 독립생활 중심 주거공동체를 뜻한다.",
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 은퇴한 고령자가 같은 경계 안에서 살며 공유 시설, 활동, 안전감, 일정한 자율성을 갖도록 설계된 주거공동체다.",
       "options": [
         "retirement village",
         "independence",
@@ -11,175 +11,175 @@
         "othering"
       ],
       "answer": "retirement village",
-      "explanation": "retirement village: 연구의 현장이다.",
+      "explanation": "정답은 은퇴촌(retirement village)이다. independence와 dependence는 그 공간 안에서 충돌하는 가치와 욕구다.",
       "source": "연구 질문"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 타인에게 크게 의존하지 않고 스스로 생활을 유지하려는 상태와 가치다.",
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 생활과 선택을 스스로 유지하고 도움 여부와 사적 공간을 자신의 방식으로 조절하려는 상태와 가치다.",
       "options": [
-        "independence",
         "dependence",
+        "independence",
         "othering",
         "prolonged midlife"
       ],
       "answer": "independence",
-      "explanation": "independence: 연구의 핵심 주제 중 하나다.",
+      "explanation": "정답은 독립(independence)이다. dependence는 더 많은 도움과 지원이 필요한 상태이며, 둘의 충돌이 논문의 핵심이다.",
       "source": "문제의식"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 도움과 돌봄을 더 많이 필요로 하는 상태를 뜻한다.",
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 신체적, 인지적, 사회적, 정서적 어려움 때문에 더 많은 도움과 지원이 필요한 상태다.",
       "options": [
-        "dependence",
         "othering",
         "prolonged midlife",
-        "independent living community"
+        "dependence",
+        "dependency groups"
       ],
       "answer": "dependence",
-      "explanation": "dependence: independence와 충돌하는 두 번째 축이다.",
+      "explanation": "정답은 의존(dependence)이다. 이 논문은 의존 욕구가 실패가 아니라 노년기 공동체 안에서 인정되어야 할 현실임을 보여 준다.",
       "source": "문제의식"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 특정 집단을 '우리'와 다른 타자로 구분하고 거리 두는 과정이다.",
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 특정 집단을 '우리'와 다른 '그들'로 구분하고 거리 두거나 배제하는 과정이다.",
       "options": [
-        "othering",
         "prolonged midlife",
-        "independent living community",
-        "qualitative interview"
+        "dependency groups",
+        "qualitative interview",
+        "othering"
       ],
       "answer": "othering",
-      "explanation": "othering: 논문의 핵심 결과를 설명하는 개념이다.",
+      "explanation": "정답은 타자화(othering)다. prolonged midlife는 더 젊고 독립적인 정체성을 유지하려는 지향으로, 타자화가 생기는 한 배경이다.",
       "source": "결과"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 보다 젊고 독립적인 중년성을 오래 유지하려는 지향을 뜻한다.",
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 노년기를 의존과 허약의 시기로 인정하기보다 활동적이고 독립적인 중년적 정체성을 계속 유지하려는 지향이다.",
       "options": [
         "prolonged midlife",
-        "independent living community",
+        "dependency groups",
         "qualitative interview",
         "heterogeneity"
       ],
       "answer": "prolonged midlife",
-      "explanation": "prolonged midlife: 왜 일부 주민이 취약한 이웃을 부담으로 보는지 설명한다.",
+      "explanation": "정답은 연장된 중년성(prolonged midlife)이다. 이 지향은 더 의존적인 주민을 공동체에 맞지 않는 사람으로 보는 규범을 만들 수 있다.",
       "source": "결과"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 돌봄시설이 아니라 독립적 생활을 전제로 운영되는 공동체를 뜻한다.",
+      "prompt": "사전의존 집단, 의존에 의해 이주한 집단, 입주 후 더 의존적이 된 집단처럼 은퇴촌 거주자를 의존 욕구와 이주 동기로 나눈 범주는 무엇인가?",
       "options": [
-        "independent living community",
-        "qualitative interview",
+        "prolonged midlife",
+        "dependency groups",
         "heterogeneity",
         "retirement village"
       ],
-      "answer": "independent living community",
-      "explanation": "independent living community: 공동체 규범이 어떻게 배제를 낳는지 보여 준다.",
-      "source": "방법"
+      "answer": "dependency groups",
+      "explanation": "정답은 의존 욕구 집단(dependency groups)이다. 이 구분은 같은 은퇴촌 안에서도 주민 기대와 지원 욕구가 다르다는 점을 보여 준다.",
+      "source": "의존 욕구 집단"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 참여자의 경험과 의미를 깊게 탐색하는 질적 면담 방법이다.",
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 참여자의 lived experience와 의미를 깊게 탐색하고 반복되는 주제를 분석하는 질적 연구방법이다.",
       "options": [
-        "qualitative interview",
         "heterogeneity",
         "retirement village",
+        "qualitative interview",
         "independence"
       ],
       "answer": "qualitative interview",
-      "explanation": "qualitative interview: 논문의 연구방법을 설명한다.",
+      "explanation": "정답은 질적 반구조화 면담(qualitative interview)이다. 이 방법 덕분에 'us/them'과 'We are not carers' 같은 경험 언어가 드러난다.",
       "source": "방법"
     },
     {
-      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 집단 내부가 동질적이지 않고 다양하다는 특성을 뜻한다.",
+      "prompt": "다음 설명에 해당하는 용어는 무엇인가? 같은 노년 집단이나 같은 은퇴촌 안에도 나이, 건강, 돌봄 욕구, 이주 동기가 서로 크게 다르다는 특성이다.",
       "options": [
-        "heterogeneity",
         "retirement village",
         "independence",
-        "dependence"
+        "dependence",
+        "heterogeneity"
       ],
       "answer": "heterogeneity",
-      "explanation": "heterogeneity: 노년 공동체를 하나의 유형으로 보는 시각을 깨뜨린다.",
+      "explanation": "정답은 이질성(heterogeneity)이다. 논문은 retirement village residents를 동질적인 노년 집단으로 보면 안 된다고 결론낸다.",
       "source": "의미"
     },
     {
-      "prompt": "이 연구가 자료를 수집한 retirement village 수는?",
+      "prompt": "이 연구가 자료를 수집한 은퇴촌 수는?",
       "options": [
         "8",
         "80",
-        "othering",
-        "prolonged midlife"
+        "15%",
+        "35%"
       ],
       "answer": "8",
-      "explanation": "영국과 호주 8개 마을을 포함했다.",
+      "explanation": "정답은 8개다. 80은 인터뷰 참여자 수이고, 15%와 35%는 의존 욕구 집단 비율과 관련된 수치다.",
       "source": "방법"
     },
     {
       "prompt": "총 인터뷰 참여자 수는?",
       "options": [
+        "8",
+        "15%",
         "80",
-        "othering",
-        "prolonged midlife",
-        "qualitative interview"
+        "50%"
       ],
       "answer": "80",
-      "explanation": "총 80명의 주민을 인터뷰했다.",
+      "explanation": "정답은 80명이다. 이 연구는 영국과 호주의 8개 은퇴촌에서 주민 경험을 면담으로 수집했다.",
       "source": "방법"
     },
     {
-      "prompt": "공동체 내부의 타자화 과정을 가리키는 말은?",
-      "options": [
-        "othering",
-        "prolonged midlife",
-        "qualitative interview",
-        "independent living community"
-      ],
-      "answer": "othering",
-      "explanation": "배제와 타자화 과정을 설명한다.",
-      "source": "결과"
-    },
-    {
-      "prompt": "독립적 중년성을 오래 유지하려는 지향을 부르는 말은?",
+      "prompt": "“We are good neighbors, but we are not carers”라는 표현이 가장 잘 보여 주는 과정은?",
       "options": [
         "prolonged midlife",
+        "dependency groups",
         "qualitative interview",
-        "independent living community",
-        "heterogeneity"
-      ],
-      "answer": "prolonged midlife",
-      "explanation": "취약한 주민을 거리 두게 만드는 한 맥락이다.",
-      "source": "결과"
-    },
-    {
-      "prompt": "이 연구의 핵심 연구방법은?",
-      "options": [
-        "qualitative interview",
-        "independent living community",
-        "heterogeneity",
-        "8"
-      ],
-      "answer": "qualitative interview",
-      "explanation": "반구조화 면담을 사용했다.",
-      "source": "방법"
-    },
-    {
-      "prompt": "독립생활을 전제로 운영되는 공동체를 가리키는 표현은?",
-      "options": [
-        "independent living community",
-        "heterogeneity",
-        "8",
-        "80"
-      ],
-      "answer": "independent living community",
-      "explanation": "공동체 규범의 핵심 표현이다.",
-      "source": "방법"
-    },
-    {
-      "prompt": "이 논문이 강조하는 주민 집단의 특성은?",
-      "options": [
-        "heterogeneity",
-        "8",
-        "80",
         "othering"
       ],
+      "answer": "othering",
+      "explanation": "정답은 othering이다. 이 표현은 좋은 이웃과 돌봄 제공자의 경계를 긋고, 더 의존적인 주민을 '우리'와 다른 집단으로 밀어내는 장면을 보여 준다.",
+      "source": "결과"
+    },
+    {
+      "prompt": "연구에서 아직 심각한 의존을 경험하기 전, 미래 대비나 독립 유지 기대 속에서 은퇴촌에 들어온 집단은?",
+      "options": [
+        "predependency group",
+        "prompted-by-dependency group",
+        "became-more-dependent-in-place group",
+        "heterogeneity"
+      ],
+      "answer": "predependency group",
+      "explanation": "정답은 predependency group이다. prompted-by-dependency group은 이미 의존 욕구가 이주를 촉발한 집단이다.",
+      "source": "의존 욕구 집단"
+    },
+    {
+      "prompt": "연구에서 배우자 상실이나 건강 악화 같은 의존 욕구 때문에 은퇴촌으로 이주한 집단 비율에 가장 가까운 것은?",
+      "options": [
+        "50%",
+        "15%",
+        "35%",
+        "80%"
+      ],
+      "answer": "15%",
+      "explanation": "정답은 약 15%다. 약 50%는 predependency group, 약 35%는 입주 후 더 의존적이 된 집단이다.",
+      "source": "의존 욕구 집단"
+    },
+    {
+      "prompt": "입주한 뒤 더 의존적이 된 주민 집단 비율에 가장 가까운 것은?",
+      "options": [
+        "50%",
+        "80%",
+        "15%",
+        "35%"
+      ],
+      "answer": "35%",
+      "explanation": "정답은 약 35%다. 이 수치는 은퇴촌이 단순히 활기찬 독립생활 공간만이 아니라 시간이 지나며 의존 욕구가 증가하는 장소임을 보여 준다.",
+      "source": "의존 욕구 집단"
+    },
+    {
+      "prompt": "논문의 결론처럼 은퇴촌 주민을 하나의 동일한 노인 집단으로 보면 안 된다는 점을 가리키는 핵심 개념은?",
+      "options": [
+        "independence",
+        "heterogeneity",
+        "qualitative interview",
+        "retirement village"
+      ],
       "answer": "heterogeneity",
-      "explanation": "주민은 동질적 집단이 아니다.",
+      "explanation": "정답은 heterogeneity다. 이질성은 단순 다양성 칭찬이 아니라 서로 다른 욕구가 배제와 타자화를 낳을 수 있다는 정책·운영 문제다.",
       "source": "의미"
     }
   ]

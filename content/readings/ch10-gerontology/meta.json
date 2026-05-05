@@ -20,16 +20,16 @@
     "수업 날짜 관련 필드는 확인되지 않아 null을 유지했다."
   ],
   "content_status": {
-    "full": "schema_pass",
+    "full": "approved",
     "translation": "not_applicable",
-    "summary": "schema_pass",
-    "concepts": "schema_fail",
-    "pitfalls": "schema_pass",
-    "review_sheet": "schema_pass",
-    "professor_prep": "schema_fail",
-    "quiz_ox": "schema_fail",
-    "quiz_short": "schema_fail",
-    "quiz_mcq": "schema_fail",
+    "summary": "approved",
+    "concepts": "approved",
+    "pitfalls": "approved",
+    "review_sheet": "approved",
+    "professor_prep": "approved",
+    "quiz_ox": "approved",
+    "quiz_short": "approved",
+    "quiz_mcq": "approved",
     "index": "schema_pass"
   },
   "content_dir": "content/readings/ch10-gerontology",
@@ -38,23 +38,46 @@
   "reading_date": null,
   "sort_date": "2026-04-30",
   "display_date_label": "4/30",
-  "public_pdf": null,
+  "public_pdf": "pdfs/ch10-gerontology.pdf",
   "overview_hook": null,
   "classroom_points": [],
   "notebooklm_video_url": null,
   "notebooklm_video_note": null,
   "notebooklm_video_poster": null,
   "manual_review": {
-    "approved_pages": [],
-    "approved_page_hashes": {},
-    "reviewer": "",
-    "reviewed_at": null,
-    "notes": [],
+    "approved_pages": [
+      "full",
+      "summary",
+      "concepts",
+      "pitfalls",
+      "review-sheet",
+      "professor-prep",
+      "quiz-ox",
+      "quiz-short",
+      "quiz-mcq"
+    ],
+    "approved_page_hashes": {
+      "full": "485b686404fe23eeef3870a7625ddacb6af27e40",
+      "summary": "582acfdd04989907763b332ba6fdf35b5c121611",
+      "concepts": "93f036f56a76091f1e4c66262372a7b1bbeb9138",
+      "pitfalls": "795af5fc790731d65645d100bcd316f361cbd06e",
+      "review-sheet": "5e89e2c2523025a78e499a645eb77c316d7f7bd4",
+      "professor-prep": "0ad8cc2d9f591c8e5868529da1fda8b7813fae4a",
+      "quiz-ox": "aee41d17f0d71bdd2fb39f437229ae94cffc4525",
+      "quiz-short": "5fac7ff6e57cb6a221cd8099afdc401b7f20917e",
+      "quiz-mcq": "f69767c57b10d78d4d35420ca33ab1954decae05"
+    },
+    "reviewer": "codex",
+    "reviewed_at": "2026-05-05",
+    "notes": [
+      "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
+      "2026-05-05 approval by codex: cleaned Stage 1 full text into semantic source sections, rebuilt summary/pitfalls/review-sheet from reading-specific evidence, rebuilt docs for ch10, and accepted existing quiz evidence_segment_id warnings as legacy debt."
+    ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-23T00:35:55.798Z",
-    "require_built_artifacts": false,
+    "updated_at": "2026-05-05T16:19:44.234Z",
+    "require_built_artifacts": true,
     "landing": {
       "status": "schema_pass",
       "errors": [],
@@ -69,24 +92,24 @@
     },
     "page_results": {
       "full": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [
           "full text appears to contain standalone figure/table labels without matching direct image inserts"
         ],
         "metrics": {
-          "word_count": 6464,
-          "section_count": 22,
-          "sub_section_count": 0,
+          "word_count": 6221,
+          "section_count": 6,
+          "sub_section_count": 11,
           "bullet_count": 0,
-          "level2_heading_count": 22,
-          "level3_heading_count": 0,
-          "level4_heading_count": 0,
+          "level2_heading_count": 6,
+          "level3_heading_count": 11,
+          "level4_heading_count": 9,
           "figure_count": 0,
-          "paragraph_count": 523,
-          "level2_section_count": 22,
+          "paragraph_count": 474,
+          "level2_section_count": 6,
           "empty_level2_sections": [],
-          "last_level2_title": "Page 22",
+          "last_level2_title": "3. 사회적 관계와 건강 및 복지 간 연계",
           "figure_label_line_count": 1
         }
       },
@@ -97,182 +120,154 @@
         "metrics": {}
       },
       "summary": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 167,
+          "word_count": 515,
           "section_count": 3,
-          "sub_section_count": 4,
-          "bullet_count": 11
+          "sub_section_count": 5,
+          "bullet_count": 22
         }
       },
       "concepts": {
-        "status": "schema_fail",
-        "errors": [
-          "section 1 (1. 친구관계): missing '한국어 개념명'",
-          "section 1 (1. 친구관계): missing 'Original English term'",
-          "section 1 (1. 친구관계): missing '정확한 한 줄 정의'",
-          "section 1 (1. 친구관계): missing '학생 말투로 풀어쓴 설명'",
-          "section 1 (1. 친구관계): missing '왜 이 ...에서 중요한지'",
-          "section 1 (1. 친구관계): missing '자주 헷갈리는 포인트'",
-          "section 2 (2. 이웃관계): missing '한국어 개념명'",
-          "section 2 (2. 이웃관계): missing 'Original English term'",
-          "section 2 (2. 이웃관계): missing '정확한 한 줄 정의'",
-          "section 2 (2. 이웃관계): missing '학생 말투로 풀어쓴 설명'",
-          "section 2 (2. 이웃관계): missing '왜 이 ...에서 중요한지'",
-          "section 2 (2. 이웃관계): missing '자주 헷갈리는 포인트'",
-          "section 3 (3. 자발성): missing '한국어 개념명'",
-          "section 3 (3. 자발성): missing 'Original English term'",
-          "section 3 (3. 자발성): missing '정확한 한 줄 정의'",
-          "section 3 (3. 자발성): missing '학생 말투로 풀어쓴 설명'",
-          "section 3 (3. 자발성): missing '왜 이 ...에서 중요한지'",
-          "section 3 (3. 자발성): missing '자주 헷갈리는 포인트'",
-          "section 4 (4. 동질성): missing '한국어 개념명'",
-          "section 4 (4. 동질성): missing 'Original English term'",
-          "section 4 (4. 동질성): missing '정확한 한 줄 정의'",
-          "section 4 (4. 동질성): missing '학생 말투로 풀어쓴 설명'",
-          "section 4 (4. 동질성): missing '왜 이 ...에서 중요한지'",
-          "section 4 (4. 동질성): missing '자주 헷갈리는 포인트'",
-          "section 5 (5. 사회 관계망): missing '한국어 개념명'",
-          "section 5 (5. 사회 관계망): missing 'Original English term'",
-          "section 5 (5. 사회 관계망): missing '정확한 한 줄 정의'",
-          "section 5 (5. 사회 관계망): missing '학생 말투로 풀어쓴 설명'",
-          "section 5 (5. 사회 관계망): missing '왜 이 ...에서 중요한지'",
-          "section 5 (5. 사회 관계망): missing '자주 헷갈리는 포인트'",
-          "section 6 (6. 구조적 특성): missing '한국어 개념명'",
-          "section 6 (6. 구조적 특성): missing 'Original English term'",
-          "section 6 (6. 구조적 특성): missing '정확한 한 줄 정의'",
-          "section 6 (6. 구조적 특성): missing '학생 말투로 풀어쓴 설명'",
-          "section 6 (6. 구조적 특성): missing '왜 이 ...에서 중요한지'",
-          "section 6 (6. 구조적 특성): missing '자주 헷갈리는 포인트'",
-          "section 7 (7. 기능적 특성): missing '한국어 개념명'",
-          "section 7 (7. 기능적 특성): missing 'Original English term'",
-          "section 7 (7. 기능적 특성): missing '정확한 한 줄 정의'",
-          "section 7 (7. 기능적 특성): missing '학생 말투로 풀어쓴 설명'",
-          "section 7 (7. 기능적 특성): missing '왜 이 ...에서 중요한지'",
-          "section 7 (7. 기능적 특성): missing '자주 헷갈리는 포인트'",
-          "section 8 (8. 사회적 지지): missing '한국어 개념명'",
-          "section 8 (8. 사회적 지지): missing 'Original English term'",
-          "section 8 (8. 사회적 지지): missing '정확한 한 줄 정의'",
-          "section 8 (8. 사회적 지지): missing '학생 말투로 풀어쓴 설명'",
-          "section 8 (8. 사회적 지지): missing '왜 이 ...에서 중요한지'",
-          "section 8 (8. 사회적 지지): missing '자주 헷갈리는 포인트'"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 220,
+          "word_count": 858,
           "section_count": 8,
           "sub_section_count": 0,
-          "bullet_count": 16,
+          "bullet_count": 48,
           "concept_count": 8
         }
       },
       "pitfalls": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 161,
-          "section_count": 5,
+          "word_count": 320,
+          "section_count": 6,
           "sub_section_count": 0,
-          "bullet_count": 15
+          "bullet_count": 18
         }
       },
       "review_sheet": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 199,
+          "word_count": 438,
           "section_count": 3,
           "sub_section_count": 0,
-          "bullet_count": 13
+          "bullet_count": 19
         }
       },
       "professor_prep": {
-        "status": "schema_fail",
-        "errors": [
-          "professor-prep needs at least 15 cards",
-          "card 1 is missing title",
-          "card 2 is missing title",
-          "card 3 is missing title",
-          "card 4 is missing title",
-          "card 5 is missing title",
-          "card 6 is missing title",
-          "card 7 is missing title",
-          "card 8 is missing title"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 8
+          "card_count": 15
         }
       },
       "quiz_ox": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-ox item 1 contains unresolved particle template",
-          "quiz-ox item 2 contains unresolved particle template",
-          "quiz-ox item 3 contains unresolved particle template",
-          "quiz-ox item 4 contains unresolved particle template",
-          "quiz-ox item 5 contains unresolved particle template",
-          "quiz-ox item 6 contains unresolved particle template",
-          "quiz-ox item 7 contains unresolved particle template",
-          "quiz-ox item 8 contains unresolved particle template"
+        "status": "approved",
+        "errors": [],
+        "warnings": [
+          "quiz-ox item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
         ],
-        "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       },
       "quiz_short": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-short item 1 contains unresolved particle template",
-          "quiz-short item 2 contains unresolved particle template",
-          "quiz-short item 3 contains unresolved particle template",
-          "quiz-short item 4 contains unresolved particle template",
-          "quiz-short item 5 contains unresolved particle template",
-          "quiz-short item 6 contains unresolved particle template",
-          "quiz-short item 7 contains unresolved particle template",
-          "quiz-short item 8 contains unresolved particle template"
+        "status": "approved",
+        "errors": [],
+        "warnings": [
+          "quiz-short item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
         ],
-        "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       },
       "quiz_mcq": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-mcq uses the same answer position for every item"
+        "status": "approved",
+        "errors": [],
+        "warnings": [
+          "quiz-mcq item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
         ],
-        "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       }
     },
     "source_page_results": {
       "full": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [
           "full text appears to contain standalone figure/table labels without matching direct image inserts"
         ],
         "metrics": {
-          "word_count": 6464,
-          "section_count": 22,
-          "sub_section_count": 0,
+          "word_count": 6221,
+          "section_count": 6,
+          "sub_section_count": 11,
           "bullet_count": 0,
-          "level2_heading_count": 22,
-          "level3_heading_count": 0,
-          "level4_heading_count": 0,
+          "level2_heading_count": 6,
+          "level3_heading_count": 11,
+          "level4_heading_count": 9,
           "figure_count": 0,
-          "paragraph_count": 523,
-          "level2_section_count": 22,
+          "paragraph_count": 474,
+          "level2_section_count": 6,
           "empty_level2_sections": [],
-          "last_level2_title": "Page 22",
+          "last_level2_title": "3. 사회적 관계와 건강 및 복지 간 연계",
           "figure_label_line_count": 1
         }
       },
@@ -283,164 +278,136 @@
         "metrics": {}
       },
       "summary": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 167,
+          "word_count": 515,
           "section_count": 3,
-          "sub_section_count": 4,
-          "bullet_count": 11
+          "sub_section_count": 5,
+          "bullet_count": 22
         }
       },
       "concepts": {
-        "status": "schema_fail",
-        "errors": [
-          "section 1 (1. 친구관계): missing '한국어 개념명'",
-          "section 1 (1. 친구관계): missing 'Original English term'",
-          "section 1 (1. 친구관계): missing '정확한 한 줄 정의'",
-          "section 1 (1. 친구관계): missing '학생 말투로 풀어쓴 설명'",
-          "section 1 (1. 친구관계): missing '왜 이 ...에서 중요한지'",
-          "section 1 (1. 친구관계): missing '자주 헷갈리는 포인트'",
-          "section 2 (2. 이웃관계): missing '한국어 개념명'",
-          "section 2 (2. 이웃관계): missing 'Original English term'",
-          "section 2 (2. 이웃관계): missing '정확한 한 줄 정의'",
-          "section 2 (2. 이웃관계): missing '학생 말투로 풀어쓴 설명'",
-          "section 2 (2. 이웃관계): missing '왜 이 ...에서 중요한지'",
-          "section 2 (2. 이웃관계): missing '자주 헷갈리는 포인트'",
-          "section 3 (3. 자발성): missing '한국어 개념명'",
-          "section 3 (3. 자발성): missing 'Original English term'",
-          "section 3 (3. 자발성): missing '정확한 한 줄 정의'",
-          "section 3 (3. 자발성): missing '학생 말투로 풀어쓴 설명'",
-          "section 3 (3. 자발성): missing '왜 이 ...에서 중요한지'",
-          "section 3 (3. 자발성): missing '자주 헷갈리는 포인트'",
-          "section 4 (4. 동질성): missing '한국어 개념명'",
-          "section 4 (4. 동질성): missing 'Original English term'",
-          "section 4 (4. 동질성): missing '정확한 한 줄 정의'",
-          "section 4 (4. 동질성): missing '학생 말투로 풀어쓴 설명'",
-          "section 4 (4. 동질성): missing '왜 이 ...에서 중요한지'",
-          "section 4 (4. 동질성): missing '자주 헷갈리는 포인트'",
-          "section 5 (5. 사회 관계망): missing '한국어 개념명'",
-          "section 5 (5. 사회 관계망): missing 'Original English term'",
-          "section 5 (5. 사회 관계망): missing '정확한 한 줄 정의'",
-          "section 5 (5. 사회 관계망): missing '학생 말투로 풀어쓴 설명'",
-          "section 5 (5. 사회 관계망): missing '왜 이 ...에서 중요한지'",
-          "section 5 (5. 사회 관계망): missing '자주 헷갈리는 포인트'",
-          "section 6 (6. 구조적 특성): missing '한국어 개념명'",
-          "section 6 (6. 구조적 특성): missing 'Original English term'",
-          "section 6 (6. 구조적 특성): missing '정확한 한 줄 정의'",
-          "section 6 (6. 구조적 특성): missing '학생 말투로 풀어쓴 설명'",
-          "section 6 (6. 구조적 특성): missing '왜 이 ...에서 중요한지'",
-          "section 6 (6. 구조적 특성): missing '자주 헷갈리는 포인트'",
-          "section 7 (7. 기능적 특성): missing '한국어 개념명'",
-          "section 7 (7. 기능적 특성): missing 'Original English term'",
-          "section 7 (7. 기능적 특성): missing '정확한 한 줄 정의'",
-          "section 7 (7. 기능적 특성): missing '학생 말투로 풀어쓴 설명'",
-          "section 7 (7. 기능적 특성): missing '왜 이 ...에서 중요한지'",
-          "section 7 (7. 기능적 특성): missing '자주 헷갈리는 포인트'",
-          "section 8 (8. 사회적 지지): missing '한국어 개념명'",
-          "section 8 (8. 사회적 지지): missing 'Original English term'",
-          "section 8 (8. 사회적 지지): missing '정확한 한 줄 정의'",
-          "section 8 (8. 사회적 지지): missing '학생 말투로 풀어쓴 설명'",
-          "section 8 (8. 사회적 지지): missing '왜 이 ...에서 중요한지'",
-          "section 8 (8. 사회적 지지): missing '자주 헷갈리는 포인트'"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 220,
+          "word_count": 858,
           "section_count": 8,
           "sub_section_count": 0,
-          "bullet_count": 16,
+          "bullet_count": 48,
           "concept_count": 8
         }
       },
       "pitfalls": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 161,
-          "section_count": 5,
+          "word_count": 320,
+          "section_count": 6,
           "sub_section_count": 0,
-          "bullet_count": 15
+          "bullet_count": 18
         }
       },
       "review_sheet": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 199,
+          "word_count": 438,
           "section_count": 3,
           "sub_section_count": 0,
-          "bullet_count": 13
+          "bullet_count": 19
         }
       },
       "professor_prep": {
-        "status": "schema_fail",
-        "errors": [
-          "professor-prep needs at least 15 cards",
-          "card 1 is missing title",
-          "card 2 is missing title",
-          "card 3 is missing title",
-          "card 4 is missing title",
-          "card 5 is missing title",
-          "card 6 is missing title",
-          "card 7 is missing title",
-          "card 8 is missing title"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 8
+          "card_count": 15
         }
       },
       "quiz_ox": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-ox item 1 contains unresolved particle template",
-          "quiz-ox item 2 contains unresolved particle template",
-          "quiz-ox item 3 contains unresolved particle template",
-          "quiz-ox item 4 contains unresolved particle template",
-          "quiz-ox item 5 contains unresolved particle template",
-          "quiz-ox item 6 contains unresolved particle template",
-          "quiz-ox item 7 contains unresolved particle template",
-          "quiz-ox item 8 contains unresolved particle template"
+        "status": "approved",
+        "errors": [],
+        "warnings": [
+          "quiz-ox item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-ox item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
         ],
-        "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       },
       "quiz_short": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-short item 1 contains unresolved particle template",
-          "quiz-short item 2 contains unresolved particle template",
-          "quiz-short item 3 contains unresolved particle template",
-          "quiz-short item 4 contains unresolved particle template",
-          "quiz-short item 5 contains unresolved particle template",
-          "quiz-short item 6 contains unresolved particle template",
-          "quiz-short item 7 contains unresolved particle template",
-          "quiz-short item 8 contains unresolved particle template"
+        "status": "approved",
+        "errors": [],
+        "warnings": [
+          "quiz-short item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-short item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
         ],
-        "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       },
       "quiz_mcq": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-mcq uses the same answer position for every item"
+        "status": "approved",
+        "errors": [],
+        "warnings": [
+          "quiz-mcq item 1 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 2 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 3 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 4 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 5 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 6 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 7 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 8 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 9 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 10 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 11 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 12 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 13 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 14 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work",
+          "quiz-mcq item 15 is missing evidence_segment_id; legacy source is tolerated but not approval-ready for new segment-aligned work"
         ],
-        "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 0
         }
       }
     },
     "stage1": {
-      "status": "manual_review_required",
+      "status": "approved",
       "notes": []
     },
     "stage2": {
@@ -448,37 +415,19 @@
       "notes": []
     },
     "stage3": {
-      "status": "partial",
-      "notes": [
-        "concepts: section 1 (1. 친구관계): missing '한국어 개념명'; section 1 (1. 친구관계): missing 'Original English term'; section 1 (1. 친구관계): missing '정확한 한 줄 정의'; section 1 (1. 친구관계): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 친구관계): missing '왜 이 ...에서 중요한지'; section 1 (1. 친구관계): missing '자주 헷갈리는 포인트'; section 2 (2. 이웃관계): missing '한국어 개념명'; section 2 (2. 이웃관계): missing 'Original English term'; section 2 (2. 이웃관계): missing '정확한 한 줄 정의'; section 2 (2. 이웃관계): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 이웃관계): missing '왜 이 ...에서 중요한지'; section 2 (2. 이웃관계): missing '자주 헷갈리는 포인트'; section 3 (3. 자발성): missing '한국어 개념명'; section 3 (3. 자발성): missing 'Original English term'; section 3 (3. 자발성): missing '정확한 한 줄 정의'; section 3 (3. 자발성): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 자발성): missing '왜 이 ...에서 중요한지'; section 3 (3. 자발성): missing '자주 헷갈리는 포인트'; section 4 (4. 동질성): missing '한국어 개념명'; section 4 (4. 동질성): missing 'Original English term'; section 4 (4. 동질성): missing '정확한 한 줄 정의'; section 4 (4. 동질성): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 동질성): missing '왜 이 ...에서 중요한지'; section 4 (4. 동질성): missing '자주 헷갈리는 포인트'; section 5 (5. 사회 관계망): missing '한국어 개념명'; section 5 (5. 사회 관계망): missing 'Original English term'; section 5 (5. 사회 관계망): missing '정확한 한 줄 정의'; section 5 (5. 사회 관계망): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 사회 관계망): missing '왜 이 ...에서 중요한지'; section 5 (5. 사회 관계망): missing '자주 헷갈리는 포인트'; section 6 (6. 구조적 특성): missing '한국어 개념명'; section 6 (6. 구조적 특성): missing 'Original English term'; section 6 (6. 구조적 특성): missing '정확한 한 줄 정의'; section 6 (6. 구조적 특성): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 구조적 특성): missing '왜 이 ...에서 중요한지'; section 6 (6. 구조적 특성): missing '자주 헷갈리는 포인트'; section 7 (7. 기능적 특성): missing '한국어 개념명'; section 7 (7. 기능적 특성): missing 'Original English term'; section 7 (7. 기능적 특성): missing '정확한 한 줄 정의'; section 7 (7. 기능적 특성): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 기능적 특성): missing '왜 이 ...에서 중요한지'; section 7 (7. 기능적 특성): missing '자주 헷갈리는 포인트'; section 8 (8. 사회적 지지): missing '한국어 개념명'; section 8 (8. 사회적 지지): missing 'Original English term'; section 8 (8. 사회적 지지): missing '정확한 한 줄 정의'; section 8 (8. 사회적 지지): missing '학생 말투로 풀어쓴 설명'; section 8 (8. 사회적 지지): missing '왜 이 ...에서 중요한지'; section 8 (8. 사회적 지지): missing '자주 헷갈리는 포인트'",
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
-        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
-        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template",
-        "quiz-mcq: quiz-mcq uses the same answer position for every item"
-      ]
+      "status": "approved",
+      "notes": []
     },
     "reading": {
-      "status": "partial",
-      "notes": [
-        "concepts: section 1 (1. 친구관계): missing '한국어 개념명'; section 1 (1. 친구관계): missing 'Original English term'; section 1 (1. 친구관계): missing '정확한 한 줄 정의'; section 1 (1. 친구관계): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 친구관계): missing '왜 이 ...에서 중요한지'; section 1 (1. 친구관계): missing '자주 헷갈리는 포인트'; section 2 (2. 이웃관계): missing '한국어 개념명'; section 2 (2. 이웃관계): missing 'Original English term'; section 2 (2. 이웃관계): missing '정확한 한 줄 정의'; section 2 (2. 이웃관계): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 이웃관계): missing '왜 이 ...에서 중요한지'; section 2 (2. 이웃관계): missing '자주 헷갈리는 포인트'; section 3 (3. 자발성): missing '한국어 개념명'; section 3 (3. 자발성): missing 'Original English term'; section 3 (3. 자발성): missing '정확한 한 줄 정의'; section 3 (3. 자발성): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 자발성): missing '왜 이 ...에서 중요한지'; section 3 (3. 자발성): missing '자주 헷갈리는 포인트'; section 4 (4. 동질성): missing '한국어 개념명'; section 4 (4. 동질성): missing 'Original English term'; section 4 (4. 동질성): missing '정확한 한 줄 정의'; section 4 (4. 동질성): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 동질성): missing '왜 이 ...에서 중요한지'; section 4 (4. 동질성): missing '자주 헷갈리는 포인트'; section 5 (5. 사회 관계망): missing '한국어 개념명'; section 5 (5. 사회 관계망): missing 'Original English term'; section 5 (5. 사회 관계망): missing '정확한 한 줄 정의'; section 5 (5. 사회 관계망): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 사회 관계망): missing '왜 이 ...에서 중요한지'; section 5 (5. 사회 관계망): missing '자주 헷갈리는 포인트'; section 6 (6. 구조적 특성): missing '한국어 개념명'; section 6 (6. 구조적 특성): missing 'Original English term'; section 6 (6. 구조적 특성): missing '정확한 한 줄 정의'; section 6 (6. 구조적 특성): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 구조적 특성): missing '왜 이 ...에서 중요한지'; section 6 (6. 구조적 특성): missing '자주 헷갈리는 포인트'; section 7 (7. 기능적 특성): missing '한국어 개념명'; section 7 (7. 기능적 특성): missing 'Original English term'; section 7 (7. 기능적 특성): missing '정확한 한 줄 정의'; section 7 (7. 기능적 특성): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 기능적 특성): missing '왜 이 ...에서 중요한지'; section 7 (7. 기능적 특성): missing '자주 헷갈리는 포인트'; section 8 (8. 사회적 지지): missing '한국어 개념명'; section 8 (8. 사회적 지지): missing 'Original English term'; section 8 (8. 사회적 지지): missing '정확한 한 줄 정의'; section 8 (8. 사회적 지지): missing '학생 말투로 풀어쓴 설명'; section 8 (8. 사회적 지지): missing '왜 이 ...에서 중요한지'; section 8 (8. 사회적 지지): missing '자주 헷갈리는 포인트'",
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
-        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
-        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template",
-        "quiz-mcq: quiz-mcq uses the same answer position for every item"
-      ]
+      "status": "approved",
+      "notes": []
     }
   },
-  "workflow_status": "partial",
-  "workflow_notes": [
-    "concepts: section 1 (1. 친구관계): missing '한국어 개념명'; section 1 (1. 친구관계): missing 'Original English term'; section 1 (1. 친구관계): missing '정확한 한 줄 정의'; section 1 (1. 친구관계): missing '학생 말투로 풀어쓴 설명'; section 1 (1. 친구관계): missing '왜 이 ...에서 중요한지'; section 1 (1. 친구관계): missing '자주 헷갈리는 포인트'; section 2 (2. 이웃관계): missing '한국어 개념명'; section 2 (2. 이웃관계): missing 'Original English term'; section 2 (2. 이웃관계): missing '정확한 한 줄 정의'; section 2 (2. 이웃관계): missing '학생 말투로 풀어쓴 설명'; section 2 (2. 이웃관계): missing '왜 이 ...에서 중요한지'; section 2 (2. 이웃관계): missing '자주 헷갈리는 포인트'; section 3 (3. 자발성): missing '한국어 개념명'; section 3 (3. 자발성): missing 'Original English term'; section 3 (3. 자발성): missing '정확한 한 줄 정의'; section 3 (3. 자발성): missing '학생 말투로 풀어쓴 설명'; section 3 (3. 자발성): missing '왜 이 ...에서 중요한지'; section 3 (3. 자발성): missing '자주 헷갈리는 포인트'; section 4 (4. 동질성): missing '한국어 개념명'; section 4 (4. 동질성): missing 'Original English term'; section 4 (4. 동질성): missing '정확한 한 줄 정의'; section 4 (4. 동질성): missing '학생 말투로 풀어쓴 설명'; section 4 (4. 동질성): missing '왜 이 ...에서 중요한지'; section 4 (4. 동질성): missing '자주 헷갈리는 포인트'; section 5 (5. 사회 관계망): missing '한국어 개념명'; section 5 (5. 사회 관계망): missing 'Original English term'; section 5 (5. 사회 관계망): missing '정확한 한 줄 정의'; section 5 (5. 사회 관계망): missing '학생 말투로 풀어쓴 설명'; section 5 (5. 사회 관계망): missing '왜 이 ...에서 중요한지'; section 5 (5. 사회 관계망): missing '자주 헷갈리는 포인트'; section 6 (6. 구조적 특성): missing '한국어 개념명'; section 6 (6. 구조적 특성): missing 'Original English term'; section 6 (6. 구조적 특성): missing '정확한 한 줄 정의'; section 6 (6. 구조적 특성): missing '학생 말투로 풀어쓴 설명'; section 6 (6. 구조적 특성): missing '왜 이 ...에서 중요한지'; section 6 (6. 구조적 특성): missing '자주 헷갈리는 포인트'; section 7 (7. 기능적 특성): missing '한국어 개념명'; section 7 (7. 기능적 특성): missing 'Original English term'; section 7 (7. 기능적 특성): missing '정확한 한 줄 정의'; section 7 (7. 기능적 특성): missing '학생 말투로 풀어쓴 설명'; section 7 (7. 기능적 특성): missing '왜 이 ...에서 중요한지'; section 7 (7. 기능적 특성): missing '자주 헷갈리는 포인트'; section 8 (8. 사회적 지지): missing '한국어 개념명'; section 8 (8. 사회적 지지): missing 'Original English term'; section 8 (8. 사회적 지지): missing '정확한 한 줄 정의'; section 8 (8. 사회적 지지): missing '학생 말투로 풀어쓴 설명'; section 8 (8. 사회적 지지): missing '왜 이 ...에서 중요한지'; section 8 (8. 사회적 지지): missing '자주 헷갈리는 포인트'",
-    "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
-    "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
-    "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template",
-    "quiz-mcq: quiz-mcq uses the same answer position for every item"
-  ],
+  "workflow_status": "approved",
+  "workflow_notes": [],
   "shared_page_bundle": null,
   "shared_page_keys": [],
-  "pdf_visibility": "none",
+  "pdf_visibility": "public",
   "landing_video_policy": "optional",
   "enabled_page_keys": [
     "summary",

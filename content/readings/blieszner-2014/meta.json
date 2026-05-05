@@ -19,14 +19,14 @@
   "content_status": {
     "full": "approved",
     "translation": "approved",
-    "summary": "schema_pass",
-    "concepts": "schema_fail",
-    "pitfalls": "schema_pass",
-    "review_sheet": "schema_pass",
-    "professor_prep": "schema_fail",
-    "quiz_ox": "schema_fail",
-    "quiz_short": "schema_fail",
-    "quiz_mcq": "schema_fail",
+    "summary": "approved",
+    "concepts": "approved",
+    "pitfalls": "approved",
+    "review_sheet": "approved",
+    "professor_prep": "approved",
+    "quiz_ox": "approved",
+    "quiz_short": "approved",
+    "quiz_mcq": "approved",
     "index": "schema_pass"
   },
   "content_dir": "content/readings/blieszner-2014",
@@ -35,7 +35,7 @@
   "reading_date": null,
   "sort_date": "2026-05-07",
   "display_date_label": "5/07",
-  "public_pdf": null,
+  "public_pdf": "pdfs/blieszner-2014.pdf",
   "overview_hook": null,
   "classroom_points": [],
   "notebooklm_video_url": null,
@@ -44,22 +44,39 @@
   "manual_review": {
     "approved_pages": [
       "full",
-      "translation"
+      "translation",
+      "summary",
+      "concepts",
+      "pitfalls",
+      "review-sheet",
+      "quiz-ox",
+      "quiz-short",
+      "quiz-mcq",
+      "professor-prep"
     ],
     "approved_page_hashes": {
-      "full": "ed11a67c357c77f69df7fa1d8b07f77823e82b49",
-      "translation": "7d694dd3edeef12eba0b3755bf6193d993879af9"
+      "full": "b5df6ca46670211d1ee8f7b1158d20729593d38c",
+      "translation": "b75c5c21b4c983971fc67e91d9fc06d77003b43d",
+      "summary": "54ecc03411ddff9a759f06342172b6ae799d3994",
+      "concepts": "08bd79208e0c542bad494c75d2cabcecf6f59f04",
+      "pitfalls": "e80c27efadc37c9d460aed2939b4134204c1e66c",
+      "review-sheet": "92d542a097dc2d2548cccc8508cf308afe849194",
+      "quiz-ox": "78eedbaded7d02d3f63bb17aa685f17604bb28b3",
+      "quiz-short": "9bd9e2eafe671211a690e58c2f4f4b9e5ae773f6",
+      "quiz-mcq": "65baa50fa14e5e8f62d4689b274d95dbfa2f7031",
+      "professor-prep": "1b2a96bb99088ea90a081a93b91df82deca72fae"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-09",
+    "reviewed_at": "2026-05-05",
     "notes": [
-      "Reviewed and approved the source full page as the Stage 1 prerequisite for later translation work.",
-      "Reviewed and approved the source translation page after completing the full Korean translation."
+      "2026-05-05 Stage 1 cleanup pass: rebuilt full.md into readable article order, removed repeated page furniture, restored OCR-broken words/paragraphs, and created source_segments.json with 71 paragraph-level source segments.",
+      "2026-05-05 Stage 2 alignment pass: rebuilt translation.md and created translation_segments.json with 71 matching Korean translation segments. Alignment is PASS with reviewed heuristic warnings.",
+      "2026-05-05 Stage 3 approved: summary, concepts, pitfalls, review-sheet, quiz-ox, quiz-short, quiz-mcq, and professor-prep were rebuilt or rechecked against source_segments.json and translation_segments.json."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-04-23T00:35:55.921Z",
+    "updated_at": "2026-05-05T16:19:44.485Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -79,18 +96,18 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 4039,
-          "section_count": 8,
+          "word_count": 3416,
+          "section_count": 9,
           "sub_section_count": 0,
           "bullet_count": 0,
-          "level2_heading_count": 8,
+          "level2_heading_count": 9,
           "level3_heading_count": 0,
           "level4_heading_count": 0,
           "figure_count": 0,
-          "paragraph_count": 97,
-          "level2_section_count": 8,
+          "paragraph_count": 71,
+          "level2_section_count": 9,
           "empty_level2_sections": [],
-          "last_level2_title": "Page 8",
+          "last_level2_title": "Copyright Notice",
           "figure_label_line_count": 0
         }
       },
@@ -99,183 +116,110 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 3030,
-          "section_count": 8,
-          "sub_section_count": 10,
+          "word_count": 2867,
+          "section_count": 9,
+          "sub_section_count": 0,
           "bullet_count": 45,
-          "full_word_count": 4039,
-          "translation_ratio": 0.75,
-          "level2_heading_count": 8,
-          "level3_heading_count": 10,
+          "full_word_count": 3416,
+          "translation_ratio": 0.839,
+          "level2_heading_count": 9,
+          "level3_heading_count": 0,
           "level4_heading_count": 0,
           "figure_count": 0,
-          "paragraph_count": 25,
-          "level2_section_count": 8,
+          "paragraph_count": 26,
+          "level2_section_count": 9,
           "empty_level2_sections": [],
-          "last_level2_title": "Page 8",
+          "last_level2_title": "저작권 고지",
           "figure_label_line_count": 0,
-          "full_level2_heading_count": 8,
+          "full_level2_heading_count": 9,
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,
           "full_figure_count": 0,
+          "full_reference_word_count": 909,
+          "translation_reference_word_count": 944,
+          "translation_reference_ratio": 1.039,
           "original_reveal_enabled": false,
           "reveal_entry_count": 0
         }
       },
       "summary": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 162,
+          "word_count": 375,
           "section_count": 3,
-          "sub_section_count": 4,
-          "bullet_count": 11
+          "sub_section_count": 5,
+          "bullet_count": 18
         }
       },
       "concepts": {
-        "status": "schema_fail",
-        "errors": [
-          "section 1 (1. friendship): missing '한국어 개념명'",
-          "section 1 (1. friendship): missing 'Original English term'",
-          "section 1 (1. friendship): missing '정확한 한 줄 정의'",
-          "section 1 (1. friendship): missing '학생 말투로 풀어쓴 설명'",
-          "section 1 (1. friendship): missing '왜 이 ...에서 중요한지'",
-          "section 1 (1. friendship): missing '자주 헷갈리는 포인트'",
-          "section 2 (2. voluntary tie): missing '한국어 개념명'",
-          "section 2 (2. voluntary tie): missing 'Original English term'",
-          "section 2 (2. voluntary tie): missing '정확한 한 줄 정의'",
-          "section 2 (2. voluntary tie): missing '학생 말투로 풀어쓴 설명'",
-          "section 2 (2. voluntary tie): missing '왜 이 ...에서 중요한지'",
-          "section 2 (2. voluntary tie): missing '자주 헷갈리는 포인트'",
-          "section 3 (3. reciprocity): missing '한국어 개념명'",
-          "section 3 (3. reciprocity): missing 'Original English term'",
-          "section 3 (3. reciprocity): missing '정확한 한 줄 정의'",
-          "section 3 (3. reciprocity): missing '학생 말투로 풀어쓴 설명'",
-          "section 3 (3. reciprocity): missing '왜 이 ...에서 중요한지'",
-          "section 3 (3. reciprocity): missing '자주 헷갈리는 포인트'",
-          "section 4 (4. companionship): missing '한국어 개념명'",
-          "section 4 (4. companionship): missing 'Original English term'",
-          "section 4 (4. companionship): missing '정확한 한 줄 정의'",
-          "section 4 (4. companionship): missing '학생 말투로 풀어쓴 설명'",
-          "section 4 (4. companionship): missing '왜 이 ...에서 중요한지'",
-          "section 4 (4. companionship): missing '자주 헷갈리는 포인트'",
-          "section 5 (5. emotional support): missing '한국어 개념명'",
-          "section 5 (5. emotional support): missing 'Original English term'",
-          "section 5 (5. emotional support): missing '정확한 한 줄 정의'",
-          "section 5 (5. emotional support): missing '학생 말투로 풀어쓴 설명'",
-          "section 5 (5. emotional support): missing '왜 이 ...에서 중요한지'",
-          "section 5 (5. emotional support): missing '자주 헷갈리는 포인트'",
-          "section 6 (6. instrumental help): missing '한국어 개념명'",
-          "section 6 (6. instrumental help): missing 'Original English term'",
-          "section 6 (6. instrumental help): missing '정확한 한 줄 정의'",
-          "section 6 (6. instrumental help): missing '학생 말투로 풀어쓴 설명'",
-          "section 6 (6. instrumental help): missing '왜 이 ...에서 중요한지'",
-          "section 6 (6. instrumental help): missing '자주 헷갈리는 포인트'",
-          "section 7 (7. loneliness intervention): missing '한국어 개념명'",
-          "section 7 (7. loneliness intervention): missing 'Original English term'",
-          "section 7 (7. loneliness intervention): missing '정확한 한 줄 정의'",
-          "section 7 (7. loneliness intervention): missing '학생 말투로 풀어쓴 설명'",
-          "section 7 (7. loneliness intervention): missing '왜 이 ...에서 중요한지'",
-          "section 7 (7. loneliness intervention): missing '자주 헷갈리는 포인트'",
-          "section 8 (8. friendship maintenance): missing '한국어 개념명'",
-          "section 8 (8. friendship maintenance): missing 'Original English term'",
-          "section 8 (8. friendship maintenance): missing '정확한 한 줄 정의'",
-          "section 8 (8. friendship maintenance): missing '학생 말투로 풀어쓴 설명'",
-          "section 8 (8. friendship maintenance): missing '왜 이 ...에서 중요한지'",
-          "section 8 (8. friendship maintenance): missing '자주 헷갈리는 포인트'"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 223,
+          "word_count": 848,
           "section_count": 8,
           "sub_section_count": 0,
-          "bullet_count": 16,
+          "bullet_count": 48,
           "concept_count": 8
         }
       },
       "pitfalls": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 172,
+          "word_count": 287,
           "section_count": 5,
           "sub_section_count": 0,
           "bullet_count": 15
         }
       },
       "review_sheet": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 191,
+          "word_count": 319,
           "section_count": 3,
           "sub_section_count": 0,
-          "bullet_count": 13
+          "bullet_count": 20
         }
       },
       "professor_prep": {
-        "status": "schema_fail",
-        "errors": [
-          "professor-prep needs at least 15 cards",
-          "card 1 is missing title",
-          "card 2 is missing title",
-          "card 3 is missing title",
-          "card 4 is missing title",
-          "card 5 is missing title",
-          "card 6 is missing title",
-          "card 7 is missing title",
-          "card 8 is missing title"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 8
+          "card_count": 15
         }
       },
       "quiz_ox": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-ox item 1 contains unresolved particle template",
-          "quiz-ox item 2 contains unresolved particle template",
-          "quiz-ox item 3 contains unresolved particle template",
-          "quiz-ox item 4 contains unresolved particle template",
-          "quiz-ox item 5 contains unresolved particle template",
-          "quiz-ox item 6 contains unresolved particle template",
-          "quiz-ox item 7 contains unresolved particle template",
-          "quiz-ox item 8 contains unresolved particle template"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 15
         }
       },
       "quiz_short": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-short item 1 contains unresolved particle template",
-          "quiz-short item 2 contains unresolved particle template",
-          "quiz-short item 3 contains unresolved particle template",
-          "quiz-short item 4 contains unresolved particle template",
-          "quiz-short item 5 contains unresolved particle template",
-          "quiz-short item 6 contains unresolved particle template",
-          "quiz-short item 7 contains unresolved particle template",
-          "quiz-short item 8 contains unresolved particle template"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 15
         }
       },
       "quiz_mcq": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-mcq uses the same answer position for every item"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 15
         }
       }
     },
@@ -285,18 +229,18 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 4039,
-          "section_count": 8,
+          "word_count": 3416,
+          "section_count": 9,
           "sub_section_count": 0,
           "bullet_count": 0,
-          "level2_heading_count": 8,
+          "level2_heading_count": 9,
           "level3_heading_count": 0,
           "level4_heading_count": 0,
           "figure_count": 0,
-          "paragraph_count": 97,
-          "level2_section_count": 8,
+          "paragraph_count": 71,
+          "level2_section_count": 9,
           "empty_level2_sections": [],
-          "last_level2_title": "Page 8",
+          "last_level2_title": "Copyright Notice",
           "figure_label_line_count": 0
         }
       },
@@ -305,183 +249,110 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 3030,
-          "section_count": 8,
-          "sub_section_count": 10,
+          "word_count": 2867,
+          "section_count": 9,
+          "sub_section_count": 0,
           "bullet_count": 45,
-          "full_word_count": 4039,
-          "translation_ratio": 0.75,
-          "level2_heading_count": 8,
-          "level3_heading_count": 10,
+          "full_word_count": 3416,
+          "translation_ratio": 0.839,
+          "level2_heading_count": 9,
+          "level3_heading_count": 0,
           "level4_heading_count": 0,
           "figure_count": 0,
-          "paragraph_count": 25,
-          "level2_section_count": 8,
+          "paragraph_count": 26,
+          "level2_section_count": 9,
           "empty_level2_sections": [],
-          "last_level2_title": "Page 8",
+          "last_level2_title": "저작권 고지",
           "figure_label_line_count": 0,
-          "full_level2_heading_count": 8,
+          "full_level2_heading_count": 9,
           "full_level3_heading_count": 0,
           "full_level4_heading_count": 0,
           "full_figure_count": 0,
+          "full_reference_word_count": 909,
+          "translation_reference_word_count": 944,
+          "translation_reference_ratio": 1.039,
           "original_reveal_enabled": false,
           "reveal_entry_count": 0
         }
       },
       "summary": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 162,
+          "word_count": 375,
           "section_count": 3,
-          "sub_section_count": 4,
-          "bullet_count": 11
+          "sub_section_count": 5,
+          "bullet_count": 18
         }
       },
       "concepts": {
-        "status": "schema_fail",
-        "errors": [
-          "section 1 (1. friendship): missing '한국어 개념명'",
-          "section 1 (1. friendship): missing 'Original English term'",
-          "section 1 (1. friendship): missing '정확한 한 줄 정의'",
-          "section 1 (1. friendship): missing '학생 말투로 풀어쓴 설명'",
-          "section 1 (1. friendship): missing '왜 이 ...에서 중요한지'",
-          "section 1 (1. friendship): missing '자주 헷갈리는 포인트'",
-          "section 2 (2. voluntary tie): missing '한국어 개념명'",
-          "section 2 (2. voluntary tie): missing 'Original English term'",
-          "section 2 (2. voluntary tie): missing '정확한 한 줄 정의'",
-          "section 2 (2. voluntary tie): missing '학생 말투로 풀어쓴 설명'",
-          "section 2 (2. voluntary tie): missing '왜 이 ...에서 중요한지'",
-          "section 2 (2. voluntary tie): missing '자주 헷갈리는 포인트'",
-          "section 3 (3. reciprocity): missing '한국어 개념명'",
-          "section 3 (3. reciprocity): missing 'Original English term'",
-          "section 3 (3. reciprocity): missing '정확한 한 줄 정의'",
-          "section 3 (3. reciprocity): missing '학생 말투로 풀어쓴 설명'",
-          "section 3 (3. reciprocity): missing '왜 이 ...에서 중요한지'",
-          "section 3 (3. reciprocity): missing '자주 헷갈리는 포인트'",
-          "section 4 (4. companionship): missing '한국어 개념명'",
-          "section 4 (4. companionship): missing 'Original English term'",
-          "section 4 (4. companionship): missing '정확한 한 줄 정의'",
-          "section 4 (4. companionship): missing '학생 말투로 풀어쓴 설명'",
-          "section 4 (4. companionship): missing '왜 이 ...에서 중요한지'",
-          "section 4 (4. companionship): missing '자주 헷갈리는 포인트'",
-          "section 5 (5. emotional support): missing '한국어 개념명'",
-          "section 5 (5. emotional support): missing 'Original English term'",
-          "section 5 (5. emotional support): missing '정확한 한 줄 정의'",
-          "section 5 (5. emotional support): missing '학생 말투로 풀어쓴 설명'",
-          "section 5 (5. emotional support): missing '왜 이 ...에서 중요한지'",
-          "section 5 (5. emotional support): missing '자주 헷갈리는 포인트'",
-          "section 6 (6. instrumental help): missing '한국어 개념명'",
-          "section 6 (6. instrumental help): missing 'Original English term'",
-          "section 6 (6. instrumental help): missing '정확한 한 줄 정의'",
-          "section 6 (6. instrumental help): missing '학생 말투로 풀어쓴 설명'",
-          "section 6 (6. instrumental help): missing '왜 이 ...에서 중요한지'",
-          "section 6 (6. instrumental help): missing '자주 헷갈리는 포인트'",
-          "section 7 (7. loneliness intervention): missing '한국어 개념명'",
-          "section 7 (7. loneliness intervention): missing 'Original English term'",
-          "section 7 (7. loneliness intervention): missing '정확한 한 줄 정의'",
-          "section 7 (7. loneliness intervention): missing '학생 말투로 풀어쓴 설명'",
-          "section 7 (7. loneliness intervention): missing '왜 이 ...에서 중요한지'",
-          "section 7 (7. loneliness intervention): missing '자주 헷갈리는 포인트'",
-          "section 8 (8. friendship maintenance): missing '한국어 개념명'",
-          "section 8 (8. friendship maintenance): missing 'Original English term'",
-          "section 8 (8. friendship maintenance): missing '정확한 한 줄 정의'",
-          "section 8 (8. friendship maintenance): missing '학생 말투로 풀어쓴 설명'",
-          "section 8 (8. friendship maintenance): missing '왜 이 ...에서 중요한지'",
-          "section 8 (8. friendship maintenance): missing '자주 헷갈리는 포인트'"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 223,
+          "word_count": 848,
           "section_count": 8,
           "sub_section_count": 0,
-          "bullet_count": 16,
+          "bullet_count": 48,
           "concept_count": 8
         }
       },
       "pitfalls": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 172,
+          "word_count": 287,
           "section_count": 5,
           "sub_section_count": 0,
           "bullet_count": 15
         }
       },
       "review_sheet": {
-        "status": "schema_pass",
+        "status": "approved",
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 191,
+          "word_count": 319,
           "section_count": 3,
           "sub_section_count": 0,
-          "bullet_count": 13
+          "bullet_count": 20
         }
       },
       "professor_prep": {
-        "status": "schema_fail",
-        "errors": [
-          "professor-prep needs at least 15 cards",
-          "card 1 is missing title",
-          "card 2 is missing title",
-          "card 3 is missing title",
-          "card 4 is missing title",
-          "card 5 is missing title",
-          "card 6 is missing title",
-          "card 7 is missing title",
-          "card 8 is missing title"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "card_count": 8
+          "card_count": 15
         }
       },
       "quiz_ox": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-ox item 1 contains unresolved particle template",
-          "quiz-ox item 2 contains unresolved particle template",
-          "quiz-ox item 3 contains unresolved particle template",
-          "quiz-ox item 4 contains unresolved particle template",
-          "quiz-ox item 5 contains unresolved particle template",
-          "quiz-ox item 6 contains unresolved particle template",
-          "quiz-ox item 7 contains unresolved particle template",
-          "quiz-ox item 8 contains unresolved particle template"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 15
         }
       },
       "quiz_short": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-short item 1 contains unresolved particle template",
-          "quiz-short item 2 contains unresolved particle template",
-          "quiz-short item 3 contains unresolved particle template",
-          "quiz-short item 4 contains unresolved particle template",
-          "quiz-short item 5 contains unresolved particle template",
-          "quiz-short item 6 contains unresolved particle template",
-          "quiz-short item 7 contains unresolved particle template",
-          "quiz-short item 8 contains unresolved particle template"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 15
         }
       },
       "quiz_mcq": {
-        "status": "schema_fail",
-        "errors": [
-          "quiz-mcq uses the same answer position for every item"
-        ],
+        "status": "approved",
+        "errors": [],
         "warnings": [],
         "metrics": {
-          "item_count": 15
+          "item_count": 15,
+          "evidence_segment_count": 15
         }
       }
     },
@@ -494,37 +365,19 @@
       "notes": []
     },
     "stage3": {
-      "status": "partial",
-      "notes": [
-        "concepts: section 1 (1. friendship): missing '한국어 개념명'; section 1 (1. friendship): missing 'Original English term'; section 1 (1. friendship): missing '정확한 한 줄 정의'; section 1 (1. friendship): missing '학생 말투로 풀어쓴 설명'; section 1 (1. friendship): missing '왜 이 ...에서 중요한지'; section 1 (1. friendship): missing '자주 헷갈리는 포인트'; section 2 (2. voluntary tie): missing '한국어 개념명'; section 2 (2. voluntary tie): missing 'Original English term'; section 2 (2. voluntary tie): missing '정확한 한 줄 정의'; section 2 (2. voluntary tie): missing '학생 말투로 풀어쓴 설명'; section 2 (2. voluntary tie): missing '왜 이 ...에서 중요한지'; section 2 (2. voluntary tie): missing '자주 헷갈리는 포인트'; section 3 (3. reciprocity): missing '한국어 개념명'; section 3 (3. reciprocity): missing 'Original English term'; section 3 (3. reciprocity): missing '정확한 한 줄 정의'; section 3 (3. reciprocity): missing '학생 말투로 풀어쓴 설명'; section 3 (3. reciprocity): missing '왜 이 ...에서 중요한지'; section 3 (3. reciprocity): missing '자주 헷갈리는 포인트'; section 4 (4. companionship): missing '한국어 개념명'; section 4 (4. companionship): missing 'Original English term'; section 4 (4. companionship): missing '정확한 한 줄 정의'; section 4 (4. companionship): missing '학생 말투로 풀어쓴 설명'; section 4 (4. companionship): missing '왜 이 ...에서 중요한지'; section 4 (4. companionship): missing '자주 헷갈리는 포인트'; section 5 (5. emotional support): missing '한국어 개념명'; section 5 (5. emotional support): missing 'Original English term'; section 5 (5. emotional support): missing '정확한 한 줄 정의'; section 5 (5. emotional support): missing '학생 말투로 풀어쓴 설명'; section 5 (5. emotional support): missing '왜 이 ...에서 중요한지'; section 5 (5. emotional support): missing '자주 헷갈리는 포인트'; section 6 (6. instrumental help): missing '한국어 개념명'; section 6 (6. instrumental help): missing 'Original English term'; section 6 (6. instrumental help): missing '정확한 한 줄 정의'; section 6 (6. instrumental help): missing '학생 말투로 풀어쓴 설명'; section 6 (6. instrumental help): missing '왜 이 ...에서 중요한지'; section 6 (6. instrumental help): missing '자주 헷갈리는 포인트'; section 7 (7. loneliness intervention): missing '한국어 개념명'; section 7 (7. loneliness intervention): missing 'Original English term'; section 7 (7. loneliness intervention): missing '정확한 한 줄 정의'; section 7 (7. loneliness intervention): missing '학생 말투로 풀어쓴 설명'; section 7 (7. loneliness intervention): missing '왜 이 ...에서 중요한지'; section 7 (7. loneliness intervention): missing '자주 헷갈리는 포인트'; section 8 (8. friendship maintenance): missing '한국어 개념명'; section 8 (8. friendship maintenance): missing 'Original English term'; section 8 (8. friendship maintenance): missing '정확한 한 줄 정의'; section 8 (8. friendship maintenance): missing '학생 말투로 풀어쓴 설명'; section 8 (8. friendship maintenance): missing '왜 이 ...에서 중요한지'; section 8 (8. friendship maintenance): missing '자주 헷갈리는 포인트'",
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
-        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
-        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template",
-        "quiz-mcq: quiz-mcq uses the same answer position for every item"
-      ]
+      "status": "approved",
+      "notes": []
     },
     "reading": {
-      "status": "partial",
-      "notes": [
-        "concepts: section 1 (1. friendship): missing '한국어 개념명'; section 1 (1. friendship): missing 'Original English term'; section 1 (1. friendship): missing '정확한 한 줄 정의'; section 1 (1. friendship): missing '학생 말투로 풀어쓴 설명'; section 1 (1. friendship): missing '왜 이 ...에서 중요한지'; section 1 (1. friendship): missing '자주 헷갈리는 포인트'; section 2 (2. voluntary tie): missing '한국어 개념명'; section 2 (2. voluntary tie): missing 'Original English term'; section 2 (2. voluntary tie): missing '정확한 한 줄 정의'; section 2 (2. voluntary tie): missing '학생 말투로 풀어쓴 설명'; section 2 (2. voluntary tie): missing '왜 이 ...에서 중요한지'; section 2 (2. voluntary tie): missing '자주 헷갈리는 포인트'; section 3 (3. reciprocity): missing '한국어 개념명'; section 3 (3. reciprocity): missing 'Original English term'; section 3 (3. reciprocity): missing '정확한 한 줄 정의'; section 3 (3. reciprocity): missing '학생 말투로 풀어쓴 설명'; section 3 (3. reciprocity): missing '왜 이 ...에서 중요한지'; section 3 (3. reciprocity): missing '자주 헷갈리는 포인트'; section 4 (4. companionship): missing '한국어 개념명'; section 4 (4. companionship): missing 'Original English term'; section 4 (4. companionship): missing '정확한 한 줄 정의'; section 4 (4. companionship): missing '학생 말투로 풀어쓴 설명'; section 4 (4. companionship): missing '왜 이 ...에서 중요한지'; section 4 (4. companionship): missing '자주 헷갈리는 포인트'; section 5 (5. emotional support): missing '한국어 개념명'; section 5 (5. emotional support): missing 'Original English term'; section 5 (5. emotional support): missing '정확한 한 줄 정의'; section 5 (5. emotional support): missing '학생 말투로 풀어쓴 설명'; section 5 (5. emotional support): missing '왜 이 ...에서 중요한지'; section 5 (5. emotional support): missing '자주 헷갈리는 포인트'; section 6 (6. instrumental help): missing '한국어 개념명'; section 6 (6. instrumental help): missing 'Original English term'; section 6 (6. instrumental help): missing '정확한 한 줄 정의'; section 6 (6. instrumental help): missing '학생 말투로 풀어쓴 설명'; section 6 (6. instrumental help): missing '왜 이 ...에서 중요한지'; section 6 (6. instrumental help): missing '자주 헷갈리는 포인트'; section 7 (7. loneliness intervention): missing '한국어 개념명'; section 7 (7. loneliness intervention): missing 'Original English term'; section 7 (7. loneliness intervention): missing '정확한 한 줄 정의'; section 7 (7. loneliness intervention): missing '학생 말투로 풀어쓴 설명'; section 7 (7. loneliness intervention): missing '왜 이 ...에서 중요한지'; section 7 (7. loneliness intervention): missing '자주 헷갈리는 포인트'; section 8 (8. friendship maintenance): missing '한국어 개념명'; section 8 (8. friendship maintenance): missing 'Original English term'; section 8 (8. friendship maintenance): missing '정확한 한 줄 정의'; section 8 (8. friendship maintenance): missing '학생 말투로 풀어쓴 설명'; section 8 (8. friendship maintenance): missing '왜 이 ...에서 중요한지'; section 8 (8. friendship maintenance): missing '자주 헷갈리는 포인트'",
-        "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
-        "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
-        "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template",
-        "quiz-mcq: quiz-mcq uses the same answer position for every item"
-      ]
+      "status": "approved",
+      "notes": []
     }
   },
-  "workflow_status": "partial",
-  "workflow_notes": [
-    "concepts: section 1 (1. friendship): missing '한국어 개념명'; section 1 (1. friendship): missing 'Original English term'; section 1 (1. friendship): missing '정확한 한 줄 정의'; section 1 (1. friendship): missing '학생 말투로 풀어쓴 설명'; section 1 (1. friendship): missing '왜 이 ...에서 중요한지'; section 1 (1. friendship): missing '자주 헷갈리는 포인트'; section 2 (2. voluntary tie): missing '한국어 개념명'; section 2 (2. voluntary tie): missing 'Original English term'; section 2 (2. voluntary tie): missing '정확한 한 줄 정의'; section 2 (2. voluntary tie): missing '학생 말투로 풀어쓴 설명'; section 2 (2. voluntary tie): missing '왜 이 ...에서 중요한지'; section 2 (2. voluntary tie): missing '자주 헷갈리는 포인트'; section 3 (3. reciprocity): missing '한국어 개념명'; section 3 (3. reciprocity): missing 'Original English term'; section 3 (3. reciprocity): missing '정확한 한 줄 정의'; section 3 (3. reciprocity): missing '학생 말투로 풀어쓴 설명'; section 3 (3. reciprocity): missing '왜 이 ...에서 중요한지'; section 3 (3. reciprocity): missing '자주 헷갈리는 포인트'; section 4 (4. companionship): missing '한국어 개념명'; section 4 (4. companionship): missing 'Original English term'; section 4 (4. companionship): missing '정확한 한 줄 정의'; section 4 (4. companionship): missing '학생 말투로 풀어쓴 설명'; section 4 (4. companionship): missing '왜 이 ...에서 중요한지'; section 4 (4. companionship): missing '자주 헷갈리는 포인트'; section 5 (5. emotional support): missing '한국어 개념명'; section 5 (5. emotional support): missing 'Original English term'; section 5 (5. emotional support): missing '정확한 한 줄 정의'; section 5 (5. emotional support): missing '학생 말투로 풀어쓴 설명'; section 5 (5. emotional support): missing '왜 이 ...에서 중요한지'; section 5 (5. emotional support): missing '자주 헷갈리는 포인트'; section 6 (6. instrumental help): missing '한국어 개념명'; section 6 (6. instrumental help): missing 'Original English term'; section 6 (6. instrumental help): missing '정확한 한 줄 정의'; section 6 (6. instrumental help): missing '학생 말투로 풀어쓴 설명'; section 6 (6. instrumental help): missing '왜 이 ...에서 중요한지'; section 6 (6. instrumental help): missing '자주 헷갈리는 포인트'; section 7 (7. loneliness intervention): missing '한국어 개념명'; section 7 (7. loneliness intervention): missing 'Original English term'; section 7 (7. loneliness intervention): missing '정확한 한 줄 정의'; section 7 (7. loneliness intervention): missing '학생 말투로 풀어쓴 설명'; section 7 (7. loneliness intervention): missing '왜 이 ...에서 중요한지'; section 7 (7. loneliness intervention): missing '자주 헷갈리는 포인트'; section 8 (8. friendship maintenance): missing '한국어 개념명'; section 8 (8. friendship maintenance): missing 'Original English term'; section 8 (8. friendship maintenance): missing '정확한 한 줄 정의'; section 8 (8. friendship maintenance): missing '학생 말투로 풀어쓴 설명'; section 8 (8. friendship maintenance): missing '왜 이 ...에서 중요한지'; section 8 (8. friendship maintenance): missing '자주 헷갈리는 포인트'",
-    "professor-prep: professor-prep needs at least 15 cards; card 1 is missing title; card 2 is missing title; card 3 is missing title; card 4 is missing title; card 5 is missing title; card 6 is missing title; card 7 is missing title; card 8 is missing title",
-    "quiz-ox: quiz-ox item 1 contains unresolved particle template; quiz-ox item 2 contains unresolved particle template; quiz-ox item 3 contains unresolved particle template; quiz-ox item 4 contains unresolved particle template; quiz-ox item 5 contains unresolved particle template; quiz-ox item 6 contains unresolved particle template; quiz-ox item 7 contains unresolved particle template; quiz-ox item 8 contains unresolved particle template",
-    "quiz-short: quiz-short item 1 contains unresolved particle template; quiz-short item 2 contains unresolved particle template; quiz-short item 3 contains unresolved particle template; quiz-short item 4 contains unresolved particle template; quiz-short item 5 contains unresolved particle template; quiz-short item 6 contains unresolved particle template; quiz-short item 7 contains unresolved particle template; quiz-short item 8 contains unresolved particle template",
-    "quiz-mcq: quiz-mcq uses the same answer position for every item"
-  ],
+  "workflow_status": "approved",
+  "workflow_notes": [],
   "shared_page_bundle": null,
   "shared_page_keys": [],
-  "pdf_visibility": "none",
+  "pdf_visibility": "public",
   "landing_video_policy": "optional",
   "enabled_page_keys": [
     "summary",

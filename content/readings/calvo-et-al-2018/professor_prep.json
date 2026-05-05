@@ -1,384 +1,66 @@
 {
-  "title": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race 교수님 구술 대비",
-  "instructions": "질문에 먼저 직답한 뒤, 10초·30초·60초 답변과 꼬리질문 대응을 비교하세요. 추상적인 감상보다 개념, 근거, 한계, 한국 맥락을 붙이는 연습에 맞춰져 있습니다.",
-  "followup_bank": [
-    "그게 뭐야?",
-    "왜 그렇게 보는데?",
-    "뭐가 새로웠는데?",
-    "다시 말해봐.",
-    "그게 왜 중요한데?",
-    "연구에서는 뭐라고 하는데?",
-    "한국에서는 어떻게 보이는데?",
-    "그 설명의 한계는 뭐야?"
-  ],
+  "title": "Retirement Sequences of Older Americans 교수님 구술 대비",
+  "instructions": "이 논문을 어떻게 읽었는지 30초 안에 말하는 연습용이다. 답변은 읽은 각도, 바뀐 이해, 구체 근거, 조심할 오해를 함께 담는다.",
   "cards": [
     {
-      "question": "이 논문의 핵심 주장을 한 문장으로 말해보라면?",
-      "answer_10s": "은퇴는 완전히 탈표준화된 것이 아니라 여전히 규범성과 비가역성이 남아 있으면서 집단별로 강하게 층화되어 있다고 말할 수 있습니다.",
-      "answer_30s": "은퇴는 완전히 탈표준화된 것이 아니라 여전히 규범성과 비가역성이 남아 있으면서 집단별로 강하게 층화되어 있다고 말할 수 있습니다. 비전형 경로는 늘었지만 누구나 똑같이 자유로운 것은 아니었습니다.",
-      "answer_60s": "은퇴는 완전히 탈표준화된 것이 아니라 여전히 규범성과 비가역성이 남아 있으면서 집단별로 강하게 층화되어 있다고 말할 수 있습니다. 비전형 경로는 늘었지만 누구나 똑같이 자유로운 것은 아니었습니다. 따라서 은퇴 다양성은 불평등과 함께 읽어야 합니다. 한계는 이 논문은 미국 자료이므로 제도 차이가 큰 사회로 그대로 일반화하면 안 됩니다.",
-      "must_include_keywords": [
-        "destandardization",
-        "stratification",
-        "retirement sequence"
-      ],
-      "evidence_from_reading": [
-        "논문 제목 자체가 moderately destandardized와 highly stratified를 함께 제시한다.",
-        "결과에서 age-grading과 group difference를 동시에 보고한다."
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "은퇴는 완전히 탈표준화된 것이 아니라 여전히 규범성과 비가역성이 남아 있으면서 집단별로 강하게 층화되어 있다고 말할 수 있습니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "논문 제목 자체가 moderately destandardized와 highly stratified를 함께 제시한다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 은퇴 경로 다양성이 계층과 성별에 따라 다르게 나타나는지 묻는 방식으로 연결할 수 있습니다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "이 논문은 미국 자료이므로 제도 차이가 큰 사회로 그대로 일반화하면 안 됩니다."
-        }
-      ],
-      "korean_context_link": "한국에서도 은퇴 경로 다양성이 계층과 성별에 따라 다르게 나타나는지 묻는 방식으로 연결할 수 있습니다.",
-      "personal_connection_hint": "주변에서 은퇴 후 경로가 모두 다르지만 그 차이가 자원 차이와 연결되는지 떠올려 보세요.",
-      "avoid_bad_answers": [
-        "질문보다 넓은 일반론으로 흐리지 않기",
-        "키워드 destandardization만 던지고 설명을 멈추지 않기",
-        "한계를 말하지 않은 채 단정적으로 끝내지 않기"
-      ]
+      "title": "논문 제목을 결론으로 읽은 이유",
+      "answer_30s": "저는 이 논문의 핵심을 제목 그대로 은퇴 시퀀스는 moderately destandardized이지만 highly stratified하다는 말로 읽었습니다. 전일제에서 65세 전후 완전은퇴로 가는 전통 경로만 있는 것은 아니지만, 순서의 비가역성과 연령등급화가 여전히 남아 있습니다. 더 중요한 것은 그 다양성이 젠더, 계급, 인종에 따라 불평등하게 분배된다는 점입니다."
     },
     {
-      "question": "왜 sequence approach가 필요한가?",
-      "answer_10s": "은퇴는 한 시점 사건이 아니라 상태와 전환의 배열이기 때문입니다.",
-      "answer_30s": "은퇴는 한 시점 사건이 아니라 상태와 전환의 배열이기 때문입니다. 풀타임, 파트타임, 실업, 완전은퇴, 재취업이 어떤 순서로 이어지는지 봐야 경로가 보입니다.",
-      "answer_60s": "은퇴는 한 시점 사건이 아니라 상태와 전환의 배열이기 때문입니다. 풀타임, 파트타임, 실업, 완전은퇴, 재취업이 어떤 순서로 이어지는지 봐야 경로가 보입니다. 상태 하나만 보면 은퇴의 실제 복잡성을 놓칩니다. 한계는 sequence 접근이 강해도 개인의 의미 경험까지 모두 설명하는 것은 아닙니다.",
-      "must_include_keywords": [
-        "sequence",
-        "배열",
-        "전환"
-      ],
-      "evidence_from_reading": [
-        "저자들은 status나 transition 접근의 한계를 비판한다.",
-        "chronologically ordered set으로 sequence를 정의한다."
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "은퇴는 한 시점 사건이 아니라 상태와 전환의 배열이기 때문입니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "저자들은 status나 transition 접근의 한계를 비판한다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 조기퇴직 후 재취업, 자영업, 비공식 노동 경로를 생각하면 sequence 접근이 왜 필요한지 바로 보입니다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "sequence 접근이 강해도 개인의 의미 경험까지 모두 설명하는 것은 아닙니다."
-        }
-      ],
-      "korean_context_link": "한국의 조기퇴직 후 재취업, 자영업, 비공식 노동 경로를 생각하면 sequence 접근이 왜 필요한지 바로 보입니다.",
-      "personal_connection_hint": "퇴직 후 다시 일한 사례를 떠올리면 sequence라는 말이 살아납니다.",
-      "avoid_bad_answers": [
-        "질문보다 넓은 일반론으로 흐리지 않기",
-        "키워드 sequence만 던지고 설명을 멈추지 않기",
-        "한계를 말하지 않은 채 단정적으로 끝내지 않기"
-      ]
+      "title": "status나 transition보다 sequence를 본 이유",
+      "answer_30s": "저자들은 은퇴를 한 시점의 상태나 단일 전환으로 보면 전체 패턴이 사라진다고 봅니다. sequence는 60대 동안 전일제, 시간제, 실업, 부분은퇴, 완전은퇴 같은 상태와 전환이 어떤 순서로 배열되는지 보는 접근입니다. 그래서 은퇴는 언제 그만뒀는가가 아니라 어떤 경로를 지나갔는가로 읽어야 합니다."
     },
     {
-      "question": "moderately destandardized라는 표현을 어떻게 설명할까?",
-      "answer_10s": "비전형 경로가 늘었지만 전통적 질서와 연령 규범이 완전히 사라지지 않았다는 뜻입니다.",
-      "answer_30s": "비전형 경로가 늘었지만 전통적 질서와 연령 규범이 완전히 사라지지 않았다는 뜻입니다. 즉 다양성은 커졌지만 아무 경로나 똑같이 흔한 것은 아닙니다.",
-      "answer_60s": "비전형 경로가 늘었지만 전통적 질서와 연령 규범이 완전히 사라지지 않았다는 뜻입니다. 즉 다양성은 커졌지만 아무 경로나 똑같이 흔한 것은 아닙니다. 탈표준화와 표준화의 잔존이 동시에 존재한다고 답하면 됩니다. 한계는 중간 수준 탈표준화를 말한다고 해서 변화 자체를 과소평가하면 안 됩니다.",
-      "must_include_keywords": [
-        "moderately destandardized",
-        "연령 규범",
-        "잔존 질서"
-      ],
-      "evidence_from_reading": [
-        "논문은 irreversibility와 age-grading이 persisted 했다고 적는다.",
-        "기존 전통 경로도 여전히 남아 있다고 본다."
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "비전형 경로가 늘었지만 전통적 질서와 연령 규범이 완전히 사라지지 않았다는 뜻입니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "논문은 irreversibility와 age-grading이 persisted 했다고 적는다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 정년과 국민연금 시기 같은 연령 규범이 남아 있다는 점을 붙일 수 있습니다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "중간 수준 탈표준화를 말한다고 해서 변화 자체를 과소평가하면 안 됩니다."
-        }
-      ],
-      "korean_context_link": "한국에서도 정년과 국민연금 시기 같은 연령 규범이 남아 있다는 점을 붙일 수 있습니다.",
-      "personal_connection_hint": "다양해졌지만 완전히 자유롭진 않다는 느낌이 드는 사례를 떠올려 보세요.",
-      "avoid_bad_answers": [
-        "질문보다 넓은 일반론으로 흐리지 않기",
-        "키워드 moderately destandardized만 던지고 설명을 멈추지 않기",
-        "한계를 말하지 않은 채 단정적으로 끝내지 않기"
-      ]
+      "title": "탈표준화 기준을 세 개로 나눈 이유",
+      "answer_30s": "이 논문은 destandardization을 막연히 다양해졌다는 말로 쓰지 않습니다. 세 기준은 전통적 완전은퇴와 다른 unconventional type, 은퇴 후 다시 일하는 reversible order, 같은 전환이 다양한 나이에 일어나는 flexible timing입니다. 세 기준을 분리했기 때문에 은퇴가 어느 면에서는 달라졌고 어느 면에서는 여전히 표준적인지 말할 수 있습니다."
     },
     {
-      "question": "stratification을 왜 같이 봐야 하나?",
-      "answer_10s": "경로 다양성이 누구에게나 같은 방식으로 주어지지 않기 때문입니다.",
-      "answer_30s": "경로 다양성이 누구에게나 같은 방식으로 주어지지 않기 때문입니다. 여성, 저학력층, 흑인 집단은 더 불안정하고 덜 규범적인 경로를 더 자주 경험했습니다.",
-      "answer_60s": "경로 다양성이 누구에게나 같은 방식으로 주어지지 않기 때문입니다. 여성, 저학력층, 흑인 집단은 더 불안정하고 덜 규범적인 경로를 더 자주 경험했습니다. 은퇴 연구는 선택 자유만이 아니라 불평등 분배를 같이 봐야 합니다. 한계는 집단 차이를 본다고 해서 개인 선택과 선호를 완전히 지우면 안 됩니다.",
-      "must_include_keywords": [
-        "stratification",
-        "젠더",
-        "계급"
-      ],
-      "evidence_from_reading": [
-        "논문은 gender, class, race differences를 체계적으로 제시한다.",
-        "여성과 저학력층에서 part-time과 unemployment가 더 많았다."
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "경로 다양성이 누구에게나 같은 방식으로 주어지지 않기 때문입니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "논문은 gender, class, race differences를 체계적으로 제시한다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국에서도 성별·학력·직종에 따라 은퇴 경로 격차가 큰지 질문을 확장할 수 있습니다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "집단 차이를 본다고 해서 개인 선택과 선호를 완전히 지우면 안 됩니다."
-        }
-      ],
-      "korean_context_link": "한국에서도 성별·학력·직종에 따라 은퇴 경로 격차가 큰지 질문을 확장할 수 있습니다.",
-      "personal_connection_hint": "은퇴 이후 누군가는 쉬고 누군가는 불안정 노동을 하는 차이가 왜 생기는지 생각해 보세요.",
-      "avoid_bad_answers": [
-        "질문보다 넓은 일반론으로 흐리지 않기",
-        "키워드 stratification만 던지고 설명을 멈추지 않기",
-        "한계를 말하지 않은 채 단정적으로 끝내지 않기"
-      ]
+      "title": "자료와 방법을 꼭 붙여야 하는 이유",
+      "answer_30s": "이 논문은 Health and Retirement Study, 즉 HRS 자료를 사용했습니다. 초기 HRS 코호트에서 7,881명을 골라 60-61세부터 70-71세까지 6회 연속 관찰했고, sequence analysis로 각자의 노동상태 배열을 비교했습니다. 이 방법 덕분에 한 시점 스냅샷이 아니라 10년짜리 은퇴 경로의 모양을 볼 수 있었습니다."
     },
     {
-      "question": "unretirement가 왜 중요한가?",
-      "answer_10s": "은퇴가 비가역적인 종결만은 아니라는 점을 보여 주기 때문입니다.",
-      "answer_30s": "은퇴가 비가역적인 종결만은 아니라는 점을 보여 주기 때문입니다. 다시 일로 복귀하는 경로가 존재하면 전통적 은퇴서사를 수정해야 합니다.",
-      "answer_60s": "은퇴가 비가역적인 종결만은 아니라는 점을 보여 주기 때문입니다. 다시 일로 복귀하는 경로가 존재하면 전통적 은퇴서사를 수정해야 합니다. 하지만 그 복귀가 자유로운 선택인지 생계 압박인지도 함께 봐야 합니다. 한계는 복귀가 있다고 해서 모두에게 열린 기회라고 말하면 과장입니다.",
-      "must_include_keywords": [
-        "unretirement",
-        "reversible order",
-        "복귀"
-      ],
-      "evidence_from_reading": [
-        "논문은 reverse-order transitions를 탈표준화의 중요한 기준으로 제시한다.",
-        "재고용과 노동시장 재진입 연구를 인용한다."
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "은퇴가 비가역적인 종결만은 아니라는 점을 보여 주기 때문입니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "논문은 reverse-order transitions를 탈표준화의 중요한 기준으로 제시한다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "한국의 노년 재취업과 자영업 재진입을 설명할 때 바로 활용할 수 있습니다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "복귀가 있다고 해서 모두에게 열린 기회라고 말하면 과장입니다."
-        }
-      ],
-      "korean_context_link": "한국의 노년 재취업과 자영업 재진입을 설명할 때 바로 활용할 수 있습니다.",
-      "personal_connection_hint": "은퇴 후 다시 일한 사람이 행복해서 그랬는지 필요해서 그랬는지 떠올려 보세요.",
-      "avoid_bad_answers": [
-        "질문보다 넓은 일반론으로 흐리지 않기",
-        "키워드 unretirement만 던지고 설명을 멈추지 않기",
-        "한계를 말하지 않은 채 단정적으로 끝내지 않기"
-      ]
+      "title": "전통적 완전은퇴가 대표 경로가 아니었다는 점",
+      "answer_30s": "unconventional type 가설은 강하게 지지되었습니다. 전일제 근무 뒤 완전은퇴하는 conventional model은 가장 흔한 유형이 아니라 여섯 가지 sequence type 중 하나였습니다. 가장 흔한 것은 early retirement sequence였고 2,889명, 전체의 36.66%를 차지했으며 대부분 62세 또는 그 이전에 완전히 은퇴했습니다."
     },
     {
-      "question": "연구방법을 짧게 설명해보라면?",
-      "answer_10s": "HRS 종단자료 7,881명을 60-61세부터 70-71세까지 여섯 차례 추적해 sequence analysis를 했다고 설명하면 됩니다.",
-      "answer_30s": "HRS 종단자료 7,881명을 60-61세부터 70-71세까지 여섯 차례 추적해 sequence analysis를 했다고 설명하면 됩니다. 즉 단면이 아니라 시간 흐름 속 경로를 본 연구입니다.",
-      "answer_60s": "HRS 종단자료 7,881명을 60-61세부터 70-71세까지 여섯 차례 추적해 sequence analysis를 했다고 설명하면 됩니다. 즉 단면이 아니라 시간 흐름 속 경로를 본 연구입니다. 방법을 말하면 왜 이 논문이 기존 연구보다 강한지 바로 보입니다. 한계는 방법을 읊는 데 그치고 결과를 안 붙이면 설명이 빈약해집니다.",
-      "must_include_keywords": [
-        "HRS",
-        "종단자료",
-        "sequence analysis"
-      ],
-      "evidence_from_reading": [
-        "표본 수와 추적 구간이 초록에 명시되어 있다.",
-        "sequence analysis가 핵심 방법으로 제시된다."
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "HRS 종단자료 7,881명을 60-61세부터 70-71세까지 여섯 차례 추적해 sequence analysis를 했다고 설명하면 됩니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "표본 수와 추적 구간이 초록에 명시되어 있다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "교수님이 연구에서는 뭐라 하냐고 물으면 표본과 방법을 한 문장 넣는 게 좋습니다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "방법을 읊는 데 그치고 결과를 안 붙이면 설명이 빈약해집니다."
-        }
-      ],
-      "korean_context_link": "교수님이 연구에서는 뭐라 하냐고 물으면 표본과 방법을 한 문장 넣는 게 좋습니다.",
-      "personal_connection_hint": "숫자 하나와 방법 하나를 같이 외워 두면 구술에서 훨씬 안정적입니다.",
-      "avoid_bad_answers": [
-        "질문보다 넓은 일반론으로 흐리지 않기",
-        "키워드 HRS만 던지고 설명을 멈추지 않기",
-        "한계를 말하지 않은 채 단정적으로 끝내지 않기"
-      ]
+      "title": "여섯 가지 sequence type을 기억하는 이유",
+      "answer_30s": "논문은 retirement sequence를 early, complete, partial, late, ambiguous, compact의 여섯 유형으로 묶었습니다. complete는 전일제에서 66세쯤 완전은퇴하는 전통적 경로이고, partial은 전일제에서 부분은퇴로 가며, late는 66세 이후까지 전일제를 유지합니다. 이 유형 구분이 있어야 은퇴 다양성을 단순한 예외가 아니라 구조적 패턴으로 볼 수 있습니다."
     },
     {
-      "question": "한국 맥락으로 연결하면 어떤 질문이 나올까?",
-      "answer_10s": "한국의 은퇴 다양성도 계층과 성별에 따라 불평등하게 분배되는지 묻는 질문으로 연결할 수 있습니다.",
-      "answer_30s": "한국의 은퇴 다양성도 계층과 성별에 따라 불평등하게 분배되는지 묻는 질문으로 연결할 수 있습니다. 정년퇴직, 재취업, 자영업, 비정규노동 경로가 누구에게 집중되는지를 봐야 합니다.",
-      "answer_60s": "한국의 은퇴 다양성도 계층과 성별에 따라 불평등하게 분배되는지 묻는 질문으로 연결할 수 있습니다. 정년퇴직, 재취업, 자영업, 비정규노동 경로가 누구에게 집중되는지를 봐야 합니다. 은퇴 다양성을 자유의 증가로만 읽으면 한국 현실을 놓칩니다. 한계는 한국 연결을 하더라도 미국 자료 논문이라는 점은 인정해야 합니다.",
-      "must_include_keywords": [
-        "한국 맥락",
-        "불평등",
-        "은퇴 경로"
-      ],
-      "evidence_from_reading": [
-        "논문은 다양성과 층화를 함께 보라고 요구한다.",
-        "집단 차이를 은퇴 분석의 핵심으로 둔다."
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "한국의 은퇴 다양성도 계층과 성별에 따라 불평등하게 분배되는지 묻는 질문으로 연결할 수 있습니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "논문은 다양성과 층화를 함께 보라고 요구한다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "국민연금 수급 전 소득공백, 여성 경력단절, 영세자영업 재진입 같은 사례를 붙일 수 있습니다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "한국 연결을 하더라도 미국 자료 논문이라는 점은 인정해야 합니다."
-        }
-      ],
-      "korean_context_link": "국민연금 수급 전 소득공백, 여성 경력단절, 영세자영업 재진입 같은 사례를 붙일 수 있습니다.",
-      "personal_connection_hint": "부모 세대와 본인 세대의 은퇴 경로가 얼마나 다른지 생각해 보세요.",
-      "avoid_bad_answers": [
-        "질문보다 넓은 일반론으로 흐리지 않기",
-        "키워드 한국 맥락만 던지고 설명을 멈추지 않기",
-        "한계를 말하지 않은 채 단정적으로 끝내지 않기"
-      ]
+      "title": "ambiguous와 compact를 비전형 경로로 읽은 이유",
+      "answer_30s": "ambiguous sequence는 노동력 밖 상태에서 retirement로 이동하는 사람이 많고, compact sequence는 part-time job에서 partial retirement로 가는 특징이 있습니다. 이런 유형은 전일제 노동 뒤 완전은퇴라는 표준 서사와 다릅니다. 그래서 은퇴 과정에는 노동시장 주변성, 시간제 일자리, 부분은퇴가 섞인 복합 경로가 있다는 점을 보여 줍니다."
     },
     {
-      "question": "이 논문을 다시 한 문장으로 요약하면?",
-      "answer_10s": "은퇴의 다양성은 사실이지만 그 다양성은 여전히 규범과 불평등의 틀 안에서 분배된다고 요약하면 됩니다.",
-      "answer_30s": "은퇴의 다양성은 사실이지만 그 다양성은 여전히 규범과 불평등의 틀 안에서 분배된다고 요약하면 됩니다. 즉 자유로운 선택의 시대라는 말만으로는 부족합니다.",
-      "answer_60s": "은퇴의 다양성은 사실이지만 그 다양성은 여전히 규범과 불평등의 틀 안에서 분배된다고 요약하면 됩니다. 즉 자유로운 선택의 시대라는 말만으로는 부족합니다. sequence와 stratification을 같이 말해야 논문의 핵심이 살아납니다. 한계는 짧게 요약할수록 sequence와 집단 차이를 빼먹기 쉽습니다.",
-      "must_include_keywords": [
-        "다양성",
-        "규범",
-        "불평등"
-      ],
-      "evidence_from_reading": [
-        "moderately destandardized와 highly stratified라는 결론이 논문 전체를 요약한다.",
-        "결과는 age-grading 잔존과 group difference를 동시에 보여 준다."
-      ],
-      "likely_followups": [
-        "그게 뭐야?",
-        "왜 그렇게 보는데?",
-        "뭐가 새로웠는데?",
-        "다시 말해봐."
-      ],
-      "followup_answers": [
-        {
-          "question": "그게 뭐야?",
-          "answer": "은퇴의 다양성은 사실이지만 그 다양성은 여전히 규범과 불평등의 틀 안에서 분배된다고 요약하면 됩니다."
-        },
-        {
-          "question": "왜 그렇게 보는데?",
-          "answer": "moderately destandardized와 highly stratified라는 결론이 논문 전체를 요약한다."
-        },
-        {
-          "question": "한국에서는 어떻게 보이는데?",
-          "answer": "교수님께는 '다양해졌지만 평등해진 건 아니다'라는 말로 시작하면 좋습니다."
-        },
-        {
-          "question": "그 설명의 한계는 뭐야?",
-          "answer": "짧게 요약할수록 sequence와 집단 차이를 빼먹기 쉽습니다."
-        }
-      ],
-      "korean_context_link": "교수님께는 '다양해졌지만 평등해진 건 아니다'라는 말로 시작하면 좋습니다.",
-      "personal_connection_hint": "내가 본 은퇴 사례의 차이가 선택인지 자원 차이인지 다시 생각해 보세요.",
-      "avoid_bad_answers": [
-        "질문보다 넓은 일반론으로 흐리지 않기",
-        "키워드 다양성만 던지고 설명을 멈추지 않기",
-        "한계를 말하지 않은 채 단정적으로 끝내지 않기"
-      ]
+      "title": "reversible order가 약하게만 지지된 이유",
+      "answer_30s": "은퇴 후 다시 일하는 unretirement나 reemployment가 전혀 없는 것은 아니지만, 전체 sequence type은 대체로 irreversible했습니다. 논문은 전체 기간 동안 retirement에서 partial retirement로 한 번 이상 전환한 응답자가 15.71%였다고 제시합니다. 하지만 이런 역전 전환은 별도 sequence type을 만들 만큼 크고 일관되지는 않았습니다."
+    },
+    {
+      "title": "flexible timing을 절반만 인정한 이유",
+      "answer_30s": "flexible timing 가설도 부분적으로만 지지되었습니다. 같은 전환이 여러 나이에 일어나는 사례는 있지만, 대부분 sequence에는 age-grading이 어느 정도 남아 있었습니다. 특히 법적 은퇴연령 주변에서 연령등급화가 강해지는 양상이 있어, 은퇴 시점이 완전히 개인 마음대로 흩어진 것은 아니라고 읽었습니다."
+    },
+    {
+      "title": "moderate라는 단어를 정확히 읽은 이유",
+      "answer_30s": "moderately destandardized는 은퇴가 거의 변하지 않았다는 뜻도 아니고 완전히 개인화됐다는 뜻도 아닙니다. unconventional type은 분명하지만, reversible order는 제한적이고 age-grading도 남아 있습니다. 그래서 이 논문은 변화와 잔존 규범성을 동시에 붙잡는 중간 결론을 내립니다."
+    },
+    {
+      "title": "사회적 층화를 핵심 결과로 본 이유",
+      "answer_30s": "논문은 retirement sequence의 탈표준화가 젠더, 계급, 인종에 따라 다르게 나타난다고 봅니다. 여성과 저학력자는 unemployment와 part-time jobs가 더 많고, 덜 age-graded된 경로를 보였습니다. 이것은 다양성이 자유로운 선택의 결과라기보다 노동시장 기회와 생애 누적 자원의 차이에 의해 분배된다는 뜻입니다."
+    },
+    {
+      "title": "Black, middle education 결과를 조심해서 읽은 이유",
+      "answer_30s": "초록은 unconventional sequences가 middle-level educated individuals와 Blacks에게 archetypal했다고 말합니다. 또 stratified model에서는 ambiguous와 compact type이 저학력 또는 중간학력 여성과 일부 남성 집단에서 강하게 나타났습니다. 저는 이 결과를 비전형 경로가 새 선택권이라기보다 장애, 노동력 이탈, 불안정 노동과 얽힌 경로일 수 있다는 신호로 읽었습니다."
+    },
+    {
+      "title": "남성·고학력·백인의 이점을 연결한 이유",
+      "answer_30s": "논문은 남성, 고학력자, 백인이 생애과정 여러 영역에서 누려 온 advantage가 은퇴 과정에서도 재생산된다고 해석합니다. 이 집단은 unemployment나 part-time job episodes가 적고 더 안정적인 sequence를 따르는 경향이 있습니다. 그래서 은퇴 연구는 노년기 한 시점이 아니라 이전 생애의 노동시장 지위가 누적된 결과로 봐야 합니다."
+    },
+    {
+      "title": "스냅샷 연구가 탈표준화를 과장할 수 있는 이유",
+      "answer_30s": "저자들은 은퇴를 개별 status나 transition으로 보면 전체 sequence pattern이 사라지고 더 탈표준화된 것처럼 보일 수 있다고 말합니다. 예를 들어 한 번의 재취업 전환만 보면 reversible해 보이지만, 10년 경로 전체는 여전히 work to retirement progression일 수 있습니다. 그래서 sequence analysis는 은퇴 질서가 얼마나 남아 있는지 더 정확히 보여 줍니다."
+    },
+    {
+      "title": "한국 맥락 답변을 어떻게 붙일지",
+      "answer_30s": "이 논문을 한국에 연결하면, 조기퇴직 후 재취업, 자영업, 시간제 일, 국민연금 수급 전 소득공백이 누구에게 집중되는지를 묻는 질문이 됩니다. 은퇴 경로가 다양해졌다는 말만으로는 부족하고, 성별, 학력, 직종, 연금권이 그 다양성을 어떻게 층화하는지 봐야 합니다. 그래서 교수님께는 다양해졌지만 평등해진 것은 아니라고 답하겠습니다."
     }
   ]
 }

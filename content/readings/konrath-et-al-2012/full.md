@@ -2,7 +2,7 @@
 
 > source: `source_pdfs/Konrath et al., 2012.pdf`
 
-## Page 1
+## Abstract
 
 Motives for Volunteering Are Associated With Mortality Risk in
 Older Adults
@@ -32,6 +32,8 @@ to the existing literature on the powerful effects of social interactions on hea
 our knowledge to examine the effect of motives on volunteers’ subsequent mortality. Volunteers live
 longer than nonvolunteers, but this is only true if they volunteer for other-oriented reasons.
 Keywords: volunteering, mortality risk, motives, altruism, social interaction, health, older adults
+
+## Introduction: Volunteering, Health, and Mortality
 
 The average life expectancy in the United States has recently
 
@@ -80,27 +82,7 @@ literature on volunteering in older adults have concluded that
 volunteering is a predictor of decreased mortality (Grimm, Spring,
 & Dietz, 2007; Harris & Thoresen, 2005; Oman, 2007). In addi-
 tion, a recent meta-analysis of studies examining the impact of
-volunteering on mortality in older adults also concludes that vol-
-This article was published Online First August 15, 2011.
-
-Sara Konrath, Institute for Social Research, University of Michigan, and
-University of Rochester Medical Center; Andrea Fuhrel-Forbis, Center for
-Bioethics and Social Sciences in Medicine, Department of Internal Medi-
-cine, University of Michigan; Alina Lou, Institute for Social Research,
-University of Michigan; Stephanie Brown, Institute for Social Research,
-University of Michigan, and Stony Brook University Medical Center.
-Correspondence concerning this article should be addressed to Sara
-Konrath, Research Center for Group Dynamics, Institute for Social Re-
-search, University of Michigan, 426 Thompson Street, Ann Arbor, MI
-48106. E-mail: skonrath@umich.edu
-Health Psychology © 2011 American Psychological Association
-
-2012, Vol. 31, No. 1, 87–96 0278-6133/11/$12.00 DOI: 10.1037/a0025226
-87
-
-## Page 2
-
-unteering is consistently associated with decreased mortality
+volunteering on mortality in older adults also concludes that volunteering is consistently associated with decreased mortality
 (Okun & Brown, in preparation).
 Why should volunteering have such positive effects? To date,
 the mechanisms of the volunteering-health relationship have been
@@ -117,7 +99,7 @@ nic well-being; see Piliavin & Siegl, 2007). Other researchers have
 suggested that volunteering behavior might prevent feelings of
 meaninglessness (i.e., anomie), with resulting health implications
 (Musick et al., 1999).
-Do Motives for Volunteering Matter?
+## Do Motives for Volunteering Matter?
 
 There is a long history of intellectual discourse on what are
 
@@ -211,10 +193,6 @@ I can explore my own strengths.
 Note. Respondents were asked “How important or accurate, for you , is the following reason for why people engage in volunteer activities” (1  not at
 
 all important/accurate ; 7  extremely important/accurate ).
-88 KONRATH, FUHREL-FORBIS, LOU, AND BROWN
-
-## Page 3
-
 time), but also might be directly caused by the volunteering situ-
 ation itself. In many cases, volunteers interact with individuals
 who are needy, ill, or less fortunate, and these interactions can be
@@ -273,12 +251,13 @@ tant outcomes among volunteers, and (2) extending prior work by
 examining these questions among (a) a large longitudinal cohort
 sample, (b) with a number of potential confounds addressed, and
 (c) on an important new health outcome measure (i.e., mortality).
-Research Questions and Hypotheses
+## Research Questions and Hypotheses
 
 We will address three main research questions in this article.
 
-Part A: Replicating past research on health benefits of
-volunteering. Using data from the Wisconsin Longitudinal
+### Part A: Replicating Past Research on Health Benefits of Volunteering
+
+Using data from the Wisconsin Longitudinal
 Study (WLS), we will first attempt to replicate prior research
 demonstrating that volunteering behavior is associated with a
 reduced mortality risk at later time points. We hypothesize that
@@ -289,8 +268,9 @@ given past research demonstrating mortality benefits associated
 with volunteering, we include it to demonstrate the validity of the
 current data set, and also in the interest of supplementing prior
 research.
-Part B: The health benefits of volunteering depend on the
-motives. We hypothesize that health outcomes are driven by
+### Part B: The Health Benefits of Volunteering Depend on the Motives
+
+We hypothesize that health outcomes are driven by
 one’s motives for volunteering, above and beyond volunteering
 behavior itself. Thus, our second research question examines the
 role of motives for volunteering on mortality risk. We specifically
@@ -316,37 +296,34 @@ self-rated health, as prior work has done (Piliavin & Siegl, 2007).
 Finally, given these past health and well-being outcomes (Piliavin
 & Siegl, 2007), in the current study we control for any possible
 effects of psychological well-being and self-rated health.
-Part C: Is it better to volunteer for self-oriented reasons or
-not to volunteer at all? In our final analysis, we examine
+### Part C: Is It Better to Volunteer for Self-Oriented Reasons or to Not Volunteer at All?
+
+In our final analysis, we examine
 whether it is better to volunteer for self-oriented reasons, or not to
 volunteer at all, in terms of one’s mortality risk. We hypothesize
 that those who volunteer for self-oriented reasons will have a
 similar mortality as nonvolunteers. In other words, we expect that
 only respondents who volunteer for other-oriented reasons will
 reap the associated mortality benefits.
-Method
+## Method
 
-Sample
+### Sample
 
 We used data from the 1992, 2004, and 2008 time points of the
 
 WLS, a study that has followed a random sample of 10,317 male
 and female Wisconsin high school graduates since their graduation
 in 1957 until the present. The WLS primarily includes Caucasian,
-89 VOLUNTEERING MOTIVES AND MORTALITY RISK
-
-## Page 4
-
 non-Hispanic respondents, thus ethnic minorities are not well-
 represented. The sample is 51.6% female, and the mean age of all
 respondents was 69.16 years ( SD  0.51) in 2008 (range 
 68 –71).
-Mortality Status
+### Mortality Status
 
 Mortality status in 2008 was indicated with a dichotomous
 
 variable (0  alive , 1  deceased ).
-Baseline Measures
+### Baseline Measures
 
 Volunteering behavior and motives. In 2004, respondents
 
@@ -436,11 +413,10 @@ work, provide help with transportation and errands, and give
 physical care if they needed it. Each question was scored 0  no
 and 1  yes , and the five questions were summed to create a total
 social support variable.
-Results
+## Results
 
-Part A: Replicating Past Research on Health Benefits
+### Part A: Replicating Past Research on Health Benefits of Volunteering
 
-of Volunteering
 In Part A, Binary logistic regressions were used to predict
 
 mortality status (0  alive , 1  deceased ) in 2008 from
@@ -456,10 +432,6 @@ later,    0.66, p  .001, odds ratio  0.52, 95% confidence
 interval (CI)  [.38, .71]. In addition, the regularity of volunteer-
 ing had an effect on mortality risk. The more regularly respondents
 had volunteered within the past decade of being questioned, the
-90 KONRATH, FUHREL-FORBIS, LOU, AND BROWN
-
-## Page 5
-
 lower their risk of mortality 4 years later,    0.30, p  .001,
 odds ratio  0.74, 95% CI  [.64, .86]. Finally, the number of
 hours per month that respondents had volunteered within the past
@@ -483,9 +455,8 @@ significance with the inclusion of the covariates,    0.35, p 
 volunteering was no longer significantly associated with mortality
 after all covariates were included in the model,    0.12, p 
 .23, odds ratio  0.88, 95% CI  [.72, 1.08].
-Part B: The Health Benefits of Volunteering Depend
+### Part B: The Health Benefits of Volunteering Depend on the Motives
 
-on the Motives
 Descriptive statistics. A repeated measures analysis of vari-
 
 ance (ANOVA) found that respondents were most likely to vol-
@@ -564,10 +535,6 @@ model in Step 5.
 Figure 1. Examining overall effects of volunteering on mortality status in
 
 Part A. Note: All models were run separately.
-91 VOLUNTEERING MOTIVES AND MORTALITY RISK
-
-## Page 6
-
  0.28, p  .02, odds ratio  0.76, 95% CI  [.60, .95]. In
 addition, married respondents had a lower mortality risk than
 unmarried ones,    0.50, p  .03, odds ratio  0.61, 95% CI 
@@ -598,9 +565,8 @@ other-oriented motives. In addition, volunteering behavior had a
 marginal effect such that respondents who had volunteered over
 the past 10 years had a lower mortality risk,    0.40, p  .08,
 odds ratio  0.67, 95% CI  [.42, 1.05].
-Part C: Is It Better to Volunteer for Self-Oriented
+### Part C: Is It Better to Volunteer for Self-Oriented Reasons or to Not Volunteer at All?
 
-Reasons or to Not Volunteer at All?
 For our final analysis, we considered whether there would be
 
 any benefit to volunteering for self-oriented motives compared
@@ -700,10 +666,6 @@ Note. N  3,376.
 p  .05.
 
 p  .01.
-92 KONRATH, FUHREL-FORBIS, LOU, AND BROWN
-
-## Page 7
-
 low zero represented more self-oriented motives. On the basis of
 this information, respondents were then classified into three
 groups: (a) Nonvolunteers: those who had not volunteered in the
@@ -776,10 +738,6 @@ their predominant motives were just as likely as nonvolunteers to
 Figure 2. Percentage of respondents who were deceased in 2008, categorized by highest motive for volun-
 
 teering, compared with nonvolunteers (Part C). Note: Capped bars denote SE s.
-93 VOLUNTEERING MOTIVES AND MORTALITY RISK
-
-## Page 8
-
 be deceased ( p s  .25). In addition, respondents with predomi-
 nantly social connection motives were marginally less likely to be
 deceased compared with those with self-protection motives ( p 
@@ -799,7 +757,7 @@ from this analysis.) In addition, respondents with predominant
 social connection motives were marginally less likely to be de-
 ceased compared with those with self-enhancement motives, p 
 .07. No other significant differences emerged ( p s  .14).
-Discussion
+## Discussion
 
 In this study, we replicated past research by finding that volun-
 
@@ -846,7 +804,7 @@ purely speculative, and our data cannot allow for an examination
 of respondents’ volunteering behavior in such fine-grained detail,
 but our results suggest that future researchers should attend to the
 motives for volunteering behavior.
-Implications
+## Implications
 
 One important theoretical implication of this article is that it
 
@@ -877,7 +835,7 @@ might attempt to create interventions that steer people toward more
 other-oriented motives for volunteering in order to examine
 whether such motives are malleable, and if so, whether manipu-
 lated motives have parallel health implications.
-Limitations
+## Limitations
 
 The current study is not without its limitations in that it relies on
 
@@ -899,10 +857,6 @@ future research extend these findings to more diverse groups of
 participants. Our study was also limited by the relatively short time
 period (4 years) between the collection of baseline measures about
 volunteering and mortality status. Although theoretically that short
-94 KONRATH, FUHREL-FORBIS, LOU, AND BROWN
-
-## Page 9
-
 time period would have made it even less probable that we would
 find the predicted results, we still recommend follow up analyses
 as WLS updates become available in the future. Finally, the
@@ -911,7 +865,7 @@ However, given that these are generally considered to be socially
 desirable behaviors or traits, we would expect that self-report items
 may make it less likely to find significant effects because of people
 overstating whether they volunteer.
-Concluding Thoughts
+## Concluding Thoughts
 
 Volunteering is increasingly being encouraged in schools and
 
@@ -933,7 +887,7 @@ volunteers to volunteer in part because of benefits to the self,
 however, our research implies that, ironically, should these bene-
 fits to the self become the predominant motive for volunteering,
 potential health benefits of volunteering may be attenuated.
-References
+## References
 
 Bakan, D. (1966). The duality of human existence: Isolation and commu-
 
@@ -1028,10 +982,6 @@ Effects of volunteering on the well-being of older adults. The Journals
 of Gerontology, Series B, 58, S137–145. doi:10.1093/geronb/58.3.S137
 Musick, M., Herzog, A. R., & House, J. S. (1999). Volunteering and
 mortality among older adults: Findings from a national sample. Journals
-95 VOLUNTEERING MOTIVES AND MORTALITY RISK
-
-## Page 10
-
 of Gerontology Series B: Psychological Sciences and Social Sciences,
 54, S173–S180. doi:10.1093/geronb/54B.3.S173
 Okun, M. & Brown, S. (in preparation). Do older volunteers live longer?
@@ -1080,4 +1030,3 @@ Wisconsin Longitudinal Study (WLS) [graduates, siblings, and spouses].
 (1957–2005). Version 12.23. Madison, WI: University of Wisconsin–
 Madison, WLS. Retrieved from http://www.ssc.wisc.edu/wlsresearch/
 documentation/
-96 KONRATH, FUHREL-FORBIS, LOU, AND BROWN

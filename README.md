@@ -4,6 +4,8 @@ Static gerontology reading site built from manifest-driven source content and pu
 - [README.md](README.md): onboarding and common commands
 - [AGENTS.md](AGENTS.md): collaborator-facing checklist
 - [CONTENT_RULES.md](CONTENT_RULES.md): detailed workflow, validation, homepage order, and page rules
+- [docs/guides/](docs/guides/): focused extraction, translation alignment, quiz, professor-prep, and reading UI guides
+- [docs/references/EXTERNAL_REFERENCES.md](docs/references/EXTERNAL_REFERENCES.md): external standards consulted for pipeline/UI quality work
 
 When docs conflict on detailed policy, follow [CONTENT_RULES.md](CONTENT_RULES.md).
 
@@ -31,6 +33,8 @@ Common authored files in a reading folder include:
 - `stage1_work_log.md` when Stage 1 spans multiple sessions or contributors
 - `summary.md`
 - `translation.md` for English readings
+- `source_segments.json` for segment-based original extraction on new/rebuilt English readings
+- `translation_segments.json` for 1:1 segment-based Korean translation on new/rebuilt English readings
 - `translation_alignment.json` for approved reveal-enabled English translations
 - `translation_work_log.md` when Stage 2 spans multiple sessions or contributors
 - `stage3_work_log.md` when Stage 3 spans multiple sessions or contributors
@@ -92,6 +96,12 @@ Run publish-candidate validation:
 
 ```powershell
 node scripts/validate_content.js --slug hulur-et-al-2019
+```
+
+Run segment-alignment QA for new/rebuilt English translations:
+
+```powershell
+node scripts/check-alignment.js --slug hulur-et-al-2019 --strict --write-report
 ```
 
 `--require-built-artifacts` is already the default behavior. Use it for explicitness if you want, but the real opt-out is `--source-only`.
