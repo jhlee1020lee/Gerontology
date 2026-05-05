@@ -64,19 +64,21 @@
       "quiz-ox": "78eedbaded7d02d3f63bb17aa685f17604bb28b3",
       "quiz-short": "9bd9e2eafe671211a690e58c2f4f4b9e5ae773f6",
       "quiz-mcq": "65baa50fa14e5e8f62d4689b274d95dbfa2f7031",
-      "professor-prep": "1b2a96bb99088ea90a081a93b91df82deca72fae"
+      "professor-prep": "48c02386e2f846be00600db6cb2438a5722f0da4"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "2026-05-05 Stage 1 cleanup pass: rebuilt full.md into readable article order, removed repeated page furniture, restored OCR-broken words/paragraphs, and created source_segments.json with 71 paragraph-level source segments.",
       "2026-05-05 Stage 2 alignment pass: rebuilt translation.md and created translation_segments.json with 71 matching Korean translation segments. Alignment is PASS with reviewed heuristic warnings.",
-      "2026-05-05 Stage 3 approved: summary, concepts, pitfalls, review-sheet, quiz-ox, quiz-short, quiz-mcq, and professor-prep were rebuilt or rechecked against source_segments.json and translation_segments.json."
+      "2026-05-05 Stage 3 approved: summary, concepts, pitfalls, review-sheet, quiz-ox, quiz-short, quiz-mcq, and professor-prep were rebuilt or rechecked against source_segments.json and translation_segments.json.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.485Z",
+    "updated_at": "2026-05-05T16:49:58.085Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",

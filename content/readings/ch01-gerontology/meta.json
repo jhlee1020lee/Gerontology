@@ -66,7 +66,7 @@
       "concepts": "848f53d3fda9560484d765d67f644da4a6fe9577",
       "full": "6507184e94d8c7532bff1c9176c4f9f659f8dd2e",
       "pitfalls": "e72aff20f8c7d918ff4fda3db18c0b57557a8aa9",
-      "professor-prep": "eff7c209a905c8351ba3a0cf213d3f1c392995ac",
+      "professor-prep": "6300b39c93eb9b483a98d5e152193798d6e38fe5",
       "quiz-mcq": "6dc09e6116e036a7bcefa0e879f5762bba8fcec2",
       "quiz-ox": "daf59b3fdd10c78208a715542f806a219e459289",
       "quiz-short": "1d2587165620f0e7e47f5985b7a84c38b56fb775",
@@ -74,16 +74,18 @@
       "summary": "7fe3e5e0fdc4953a3c3b47c4f1b010b450d0948a"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-04",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "Stage 1 full-text page reviewed for section order and readable main-body coverage.",
-      "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval."
+      "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:43.890Z",
-    "require_built_artifacts": true,
+    "updated_at": "2026-05-05T16:49:57.950Z",
+    "require_built_artifacts": false,
     "landing": {
       "status": "approved",
       "errors": [],

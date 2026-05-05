@@ -64,7 +64,7 @@
       "translation": "67301327a6682b820737834dc3a6ff4bda1ecc76",
       "summary": "6cf7ba10b40b0d380b9698919d96e01f5549041b",
       "concepts": "2fccef29ae95ccfe412dba2a4398404aca32718c",
-      "professor-prep": "5ebee08ff0eaa490ea3a6814f5b3cd0a429eb302",
+      "professor-prep": "ea286add113749bde484e7834c55984efe57f19d",
       "pitfalls": "49125a60d4f633b7fd14c7f6bda7c3155c97fb60",
       "review-sheet": "4eb384afb4095e0b5552a158b1ca53c21627cfd6",
       "quiz-ox": "ef4abd3ac3611165679a7458dc5cea90a623a8c4",
@@ -72,16 +72,18 @@
       "quiz-mcq": "a9a322b340f1dc7f516df0143c5e86ab318741da"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "Validated against schema and built artifacts.",
       "설명 영상은 추후 업로드 예정으로 별도 보강한다.",
-      "2026-05-05 summary heading policy sync: renamed the implication section to the validator-recognized conclusion heading without changing the approved article-grounded summary content."
+      "2026-05-05 summary heading policy sync: renamed the implication section to the validator-recognized conclusion heading without changing the approved article-grounded summary content.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.939Z",
+    "updated_at": "2026-05-05T16:49:58.226Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",

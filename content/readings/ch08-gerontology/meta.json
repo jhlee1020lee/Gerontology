@@ -61,26 +61,28 @@
       "concepts": "58ae5db7d4bb892bfc15d50e75e5a96aba9adfc0",
       "pitfalls": "6f2eeb7c53ba07aaeed9be16a754ec2a204a8f35",
       "review-sheet": "983153e3f7de5e10342c0993910f065bf2ba0351",
-      "professor-prep": "d9468bde1a48e0aac50415066bdd6bd277839781",
+      "professor-prep": "ada8114570c39791e3a094622a08c2d074e4e102",
       "quiz-ox": "2979d0a1035864262d7b921fe0134886c02269ce",
       "quiz-short": "ff7a0970de2fab33c10f09461f3961b6c7a688f9",
       "quiz-mcq": "675fc331a4b155221f8727d9b46b15c73136e1c2",
       "full": "f97f257f043e713ed727b845226927601a70b21e"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-21",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "Removed the remaining OCR marker line and cleaned obvious broken terms such as 성인자 녀, 징기적, 시회, 니타날, and modified extended family 표기 오류 in the Chapter 8 full text.",
       "Restored the Chapter 8 full text figures and photo from the source PDF so the body-reading page now includes the chapter visuals inline.",
       "Reworked the Chapter 8 full text so the public page follows topic-based sections instead of raw page-number sectioning.",
       "Rebuilt the concepts page, professor-prep cards, and all three quiz families with reading-specific content and schema-compliant fields.",
       "Rebuilt professor-prep into student-answer frames that foreground reading angles, changed interpretation, and concrete anchors such as relationship life expectancy, beanpole family, 2017 support/contact data, and sibling statistics.",
-      "NotebookLM landing video is still optional and not uploaded, so approval covers the study pages rather than a required video landing page."
+      "NotebookLM landing video is still optional and not uploaded, so approval covers the study pages rather than a required video landing page.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.160Z",
+    "updated_at": "2026-05-05T16:49:58.007Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",

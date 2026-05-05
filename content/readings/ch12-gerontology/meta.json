@@ -62,24 +62,26 @@
       "concepts": "39fb78014a8de27750b1701b4e2b5da7d2c52f20",
       "pitfalls": "b1c2233692292e6b2cd5a95297e74b082e0a115f",
       "review-sheet": "5eaaf0315f62b80bc1ddf70a9664738538e6b633",
-      "professor-prep": "1fb86111fa6138925db6de8825967463aa1f7ebf",
+      "professor-prep": "27252b0e504eae933d44c70654e587d20a232947",
       "quiz-mcq": "630e16e28ad9c3d472bdedbd8fd2e4fb7a1e4743",
       "quiz-ox": "e3bbce7feca6d30217510cce93b184a48fcfd5f1",
       "quiz-short": "40333c3628ea8016fd5b216d6b6994e2e79ce7b0"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 1 cleanup pass: rebuilt full.md from 31 page-number sections into semantic sections for introduction, physical health, mental health, dementia, and socioeconomic health inequality; removed repeated page furniture and corrected high-confidence OCR artifacts while preserving table/figure text.",
       "2026-05-05 Stage 3 summary rebuild: replaced the generic summary with a reading-grounded version covering ADL/IADL, chronic disease and polypharmacy, subjective health, depression measurement, suicide, dementia prevalence/types/care costs, and socioeconomic health inequality.",
       "2026-05-05 Stage 3 pitfalls rebuild: replaced generic pitfalls with reading-specific contrast pairs for health vs disease absence, ADL vs IADL, MDD vs depressive symptoms, forgetfulness vs dementia, dementia types, and social context of health behavior.",
-      "2026-05-05 Stage 3 review-sheet rebuild: replaced the generic last-minute sheet with compact definitions, core numbers, contrast pairs, quiz traps, and English terms from the cleaned chapter."
+      "2026-05-05 Stage 3 review-sheet rebuild: replaced the generic last-minute sheet with compact definitions, core numbers, contrast pairs, quiz traps, and English terms from the cleaned chapter.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.297Z",
+    "updated_at": "2026-05-05T16:49:58.043Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",

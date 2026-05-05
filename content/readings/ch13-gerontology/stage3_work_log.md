@@ -82,3 +82,15 @@
 - Scope: expanded `review-sheet.md` with whole-chapter axes, fast term review, and professor-answer sentences covering active aging, successful aging, productive activity, older-adult education, well-dying education, volunteering, religious participation, political participation, and structural limits.
 - Evidence basis: current approved `full.md`, plus the refreshed `summary.md` and `pitfalls.md` for coverage cross-check.
 - QA status: `node scripts/validate_content.js --slug ch13-gerontology --source-only --json` reports `review_sheet` as `schema_pass` with 404 words, 3 sections, and 25 bullets.
+
+## 2026-05-06 - professor-prep reading-lens refresh
+- Target page family: `professor-prep`
+- Reason: user corrected the answer shape; oral answers should foreground how the student read the text and what they focused on, not neutral concept summary.
+- Working unit: repository-wide policy-sync refresh requested by the user; this reading's page family was updated and re-approved.
+- Scope: revised 14 card opening(s) to foreground reading lens, changed expectation, distinction, or study focus while preserving existing concrete reading anchors.
+- QA status: source schema, build, and artifact-inclusive validation pending after this rewrite.
+
+## 2026-05-06 - professor-prep opening variety refinement
+- Target page family: `professor-prep`
+- Scope: replaced 14 repeated generic reading-lens opening(s) with card-title-specific openings.
+- QA status: source schema, build, and artifact-inclusive validation pending after refinement.

@@ -57,7 +57,7 @@
     ],
     "approved_page_hashes": {
       "concepts": "b98a74f9422124e9096042c5e9c88de5fd5d14e4",
-      "professor-prep": "183b0bbd9a6f8a9c0025e189f110466878462a59",
+      "professor-prep": "b2e4531f355e56213386161d521df3fe85de04e7",
       "quiz-mcq": "0c6b3c6ff8383c4a2846351b098d53cc22a9a277",
       "quiz-ox": "4b90171b0e659ee0afd6380bea19eb99f5a92e44",
       "quiz-short": "efa1fcec4ce99146438f82241c8002ce51558975",
@@ -68,20 +68,22 @@
       "review-sheet": "128f06a67d022d961b672e2586fcaa428473d79d"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 1 approval by codex: reviewed full.md as a full article extraction, removed PDF running journal/page headers, preserved article metadata, abstract, methods, findings, discussion, backmatter and references, regenerated source segments, and passed source-only plus artifact-inclusive validation with only tolerated text-only figure-label warnings.",
       "2026-05-05 Stage 2 approval by codex: reviewed full Korean translation, generated source_segments.json and translation_segments.json, ran strict alignment QA with PASS for 22 segment pairs, recorded abstract/method/result/discussion/backmatter spot-checks in translation_qa_checklist.md, and passed artifact-inclusive validation with only tolerated text-only figure-label and legacy quiz evidence warnings.",
       "2026-05-05 Stage 3 summary approval by codex: rewrote summary to cover study design, 80 interviews across 8 retirement villages, dependency-group split, prolonged midlife, internal othering and ageism, the 'good neighbors/not carers' conflict, and operational implications; source-only and artifact-inclusive validation passed with tolerated figure-label and legacy quiz evidence warnings.",
       "2026-05-05 Stage 3 pitfalls approval by codex: rewrote pitfalls into seven paper-specific traps covering independent-living retirement village scope, multidimensional independence, dependency as a normal aging process, predependency/prolonged-midlife expectations, the 'not carers' boundary, internal othering/ageism, and nonautomatic community formation; source-only and artifact-inclusive validation passed.",
-      "2026-05-05 Stage 3 review-sheet approval by codex: rewrote review sheet into an exam-ready synthesis covering research design, dependency-group proportions, independence/dependence/othering distinctions, professor-answer sentences, named resident examples, and Korean silver-town transfer traps; source-only and artifact-inclusive validation passed."
+      "2026-05-05 Stage 3 review-sheet approval by codex: rewrote review sheet into an exam-ready synthesis covering research design, dependency-group proportions, independence/dependence/othering distinctions, professor-answer sentences, named resident examples, and Korean silver-town transfer traps; source-only and artifact-inclusive validation passed.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.569Z",
-    "require_built_artifacts": true,
+    "updated_at": "2026-05-05T16:49:58.107Z",
+    "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
       "errors": [],

@@ -61,24 +61,26 @@
       "concepts": "f8021839796bfa9a9be24e42a346b4fbf6f70fbd",
       "pitfalls": "7677f40717ad87d429f5aea8a05526e9a29bd6c7",
       "review-sheet": "07c5c226c4dbe9d2398760905611de6a07174683",
-      "professor-prep": "c1b5687a96dc2082ed6fecd6ee1de71ab3f267df",
+      "professor-prep": "5baa566942927938a7a4ae56fee98cdac7622105",
       "quiz-ox": "dc85f97f2f61943a70e90ce950c387af3eba2b9a",
       "quiz-short": "7a3618ac016de965a1b986cda5748f92b3d7c146",
       "quiz-mcq": "1b17e22ac1893dcf5d3f4d9df73e32e0b4630eb7"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "Verified full text against the source PDF, corrected the confirmed transcription typo, and inserted figure/table assets.",
       "Rewrote the summary page to remove template residue and reflect the actual argument structure of Chapter 6.",
       "Rebuilt the concepts page around the chapter's actual intelligence, memory, wisdom, and creativity arguments.",
       "Rewrote the pitfalls, review sheet, quizzes, and professor-prep pages to remove generic template material and align them with Chapter 6.",
-      "2026-05-05 summary heading policy sync: renamed the implication section to the validator-recognized conclusion heading without changing the approved chapter-grounded summary content."
+      "2026-05-05 summary heading policy sync: renamed the implication section to the validator-recognized conclusion heading without changing the approved chapter-grounded summary content.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.110Z",
+    "updated_at": "2026-05-05T16:49:57.991Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "approved",

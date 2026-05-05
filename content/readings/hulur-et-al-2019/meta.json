@@ -75,20 +75,22 @@
       "concepts": "48ec42acca2c782fb827013602a65f0281b7ccc9",
       "pitfalls": "29620047a89ace0b76501f8433c3df8d06322460",
       "review-sheet": "8a140c591c357b55fa1ce9c4f6baee8f2379a99d",
-      "professor-prep": "01abb1fd89fc753993f672eac31cae51bf12c3fc",
+      "professor-prep": "69c1a175b2f1e8fe72beed098952ed515b870b2f",
       "quiz-ox": "7e71e342d99805378e41b78f0e4662a9d9e68207",
       "quiz-short": "75ac41cfd0840e15b535a01cebf0a43274d47252",
       "quiz-mcq": "855dc5094b66e500c961ba302f979ae13240e17e"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-03-22",
+    "reviewed_at": "2026-05-06",
     "notes": [
-      "Validated against schema and built artifacts."
+      "Validated against schema and built artifacts.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.660Z",
+    "updated_at": "2026-05-05T16:49:58.134Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",

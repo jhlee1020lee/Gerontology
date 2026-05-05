@@ -76,3 +76,15 @@
 - Evidence basis: family life cycle table values, marital status versus marital quality, suicide and mortality statistics, the three health-effect mechanisms, gendered spousal care, retirement, U-shaped satisfaction critique, split pension, gray divorce stigma, bereavement and anticipatory socialization, remarriage rates, and the 4/21 to 4/30 course sequence.
 - QA status: `schema_pass` after `node scripts/build_site.js --slug ch09-gerontology`; default validation remains `partial` due to unrelated quiz-family failures and Stage 1 manual review status.
 - Reopen reasons: reopen if a lecture bundle gives a different oral-question frame or if user review asks for shorter, more conversational versions.
+
+## 2026-05-06 - professor-prep reading-lens refresh
+- Target page family: `professor-prep`
+- Reason: user corrected the answer shape; oral answers should foreground how the student read the text and what they focused on, not neutral concept summary.
+- Working unit: repository-wide policy-sync refresh requested by the user; this reading's page family was updated and re-approved.
+- Scope: revised 5 card opening(s) to foreground reading lens, changed expectation, distinction, or study focus while preserving existing concrete reading anchors.
+- QA status: source schema, build, and artifact-inclusive validation pending after this rewrite.
+
+## 2026-05-06 - professor-prep opening variety refinement
+- Target page family: `professor-prep`
+- Scope: replaced 3 repeated generic reading-lens opening(s) with card-title-specific openings.
+- QA status: source schema, build, and artifact-inclusive validation pending after refinement.

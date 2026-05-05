@@ -69,13 +69,13 @@
       "concepts": "28fe17e0eb82191d4d1db69403a4cb9ec226203e",
       "pitfalls": "33d38b150af508892b6613731e86382001756c63",
       "review-sheet": "4f140cec78b0ee4fcadbd88293a48bbbdeb04201",
-      "professor-prep": "9d0399fe56150a5231f288ef4ad4d3791d72b892",
+      "professor-prep": "f2ddcd544470e6f373231958caa365b8f0bbccc8",
       "quiz-ox": "9498b82299ab52e704bdbb779834b37dccb8c93f",
       "quiz-short": "11bf946beb633dc7857cf91ed08054232be4909f",
       "quiz-mcq": "1d733659b45f450f1e36f9d38df28cee58b2ed30"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-23",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "Reworked the original-text page so it follows topic-based section headings instead of raw page-number breaks.",
       "Replaced the compressed Korean translation with a full long-form translation and restored the full reference list.",
@@ -86,12 +86,14 @@
       "2026-04-21 Stage 1 approval refresh: tightened paragraph boundaries in full.md so translation reveal anchors match actual source paragraphs, then re-pinned the full hash.",
       "2026-04-21 Stage 2 manual review: approved translation after restoring reveal coverage across all 37 translated paragraphs.",
       "2026-04-23 Stage 3 professor-prep manual review: approved revised oral-prep cards aligned with the 4/21 answer style.",
-      "2026-04-23 Stage 2 reveal exactness refresh: split two translated paragraphs to match source order and pinned 39 sentence-group original reveal entries with no context-block fallbacks."
+      "2026-04-23 Stage 2 reveal exactness refresh: split two translated paragraphs to match source order and pinned 39 sentence-group original reveal entries with no context-block fallbacks.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:45.003Z",
+    "updated_at": "2026-05-05T16:49:58.247Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "schema_pass",

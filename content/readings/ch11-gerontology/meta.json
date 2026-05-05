@@ -62,25 +62,27 @@
       "concepts": "6ab57e9593c489a921e20ad7e1a20e9892844a05",
       "pitfalls": "85f1a377c5528689eff43231e933aa0b8fd0e973",
       "review-sheet": "f1d4f74fff5c8ff200efa1491871d40a65a3803a",
-      "professor-prep": "7b43199e0083426b1391d21086820876f5629fd6",
+      "professor-prep": "6143025218ce76aa6b575303f37301ee1930ad27",
       "quiz-mcq": "53b1f8fe5651346e39f31ebe41d6297489bcb655",
       "quiz-ox": "e1489c22122f7a876be42d960a9f91483b81f95d",
       "quiz-short": "8af22b8f6e263219a7165100c1a4c1c806018ab3"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 1 cleanup pass: rebuilt full.md from page-number sections into semantic chapter sections, removed repeated page furniture, corrected high-confidence OCR/line-wrap artifacts, and preserved extracted figure/table captions as source text.",
       "2026-05-05 Stage 3 summary pass: rebuilt summary.md to cover later-life work meanings, poverty/active-aging tension, job-productivity and labor-lump debates, retirement as process, retirement-adjustment theories, and retirement-preparation education limits.",
       "2026-05-05 Stage 3 concepts pass: expanded concepts.md from 8 to 12 concepts by adding older-worker productivity debate, labor-lump assumption, age management, and life-course perspective.",
       "2026-05-05 Stage 3 pitfalls pass: rebuilt pitfalls.md around seven chapter-specific traps: active-aging overread, poverty-only work, productivity decline, labor-lump/youth-job claim, retirement as one-time event, bridge-job optimism, and finance-only retirement education.",
-      "2026-05-05 Stage 3 review-sheet pass: rebuilt review-sheet.md as six exam-prep blocks covering later-life work, older-worker job debates, retirement as process, adjustment theories, retirement-preparation education, and oral-answer skeletons."
+      "2026-05-05 Stage 3 review-sheet pass: rebuilt review-sheet.md as six exam-prep blocks covering later-life work, older-worker job debates, retirement as process, adjustment theories, retirement-preparation education, and oral-answer skeletons.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.266Z",
+    "updated_at": "2026-05-05T16:49:58.034Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",

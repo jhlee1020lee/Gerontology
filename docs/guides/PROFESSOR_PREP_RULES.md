@@ -1,5 +1,11 @@
 # Professor Prep Rules
 
+## 2026-05-06 reading-lens rule
+
+- Start each `answer_30s` with how the student read the text, what they focused on, or what expectation changed.
+- Do not start with a neutral definition, paper summary, or chapter-summary sentence unless a reading-lens sentence comes first.
+- After that opening, tie the answer to one concrete reading anchor: term, statistic, method, finding, comparison pair, role/type distinction, or Korean-context implication.
+
 `교수님 구술 대비`는 “이 글을 어떻게 읽었는지”를 20~40초로 말하는 답변을 만든다.
 
 ## 기본 답변 구조

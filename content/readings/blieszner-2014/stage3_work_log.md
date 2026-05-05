@@ -129,3 +129,15 @@
 - Scope: preserved the 15-card student-answer voice, added `evidence_segment_id` values, and checked that cards foreground reading angles rather than concept definitions.
 - Evidence basis: `INTRO-002`, `THEORY-001` to `THEORY-011`, and `DISCUSSION-001` to `DISCUSSION-008`.
 - QA status: source-only validation reports `professor_prep` as `schema_pass` with 15 cards; card answers are 163 to 279 characters and remain within the intended oral-answer shape.
+
+## 2026-05-06 - professor-prep reading-lens refresh
+- Target page family: `professor-prep`
+- Reason: user corrected the answer shape; oral answers should foreground how the student read the text and what they focused on, not neutral concept summary.
+- Working unit: repository-wide policy-sync refresh requested by the user; this reading's page family was updated and re-approved.
+- Scope: revised 14 card opening(s) to foreground reading lens, changed expectation, distinction, or study focus while preserving existing concrete reading anchors.
+- QA status: source schema, build, and artifact-inclusive validation pending after this rewrite.
+
+## 2026-05-06 - professor-prep opening variety refinement
+- Target page family: `professor-prep`
+- Scope: replaced 14 repeated generic reading-lens opening(s) with card-title-specific openings.
+- QA status: source schema, build, and artifact-inclusive validation pending after refinement.

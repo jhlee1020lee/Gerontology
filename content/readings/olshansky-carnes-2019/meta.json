@@ -54,10 +54,10 @@
       "concepts",
       "pitfalls",
       "review-sheet",
-      "professor-prep",
       "quiz-ox",
       "quiz-short",
-      "quiz-mcq"
+      "quiz-mcq",
+      "professor-prep"
     ],
     "approved_page_hashes": {
       "full": "da659744c6bfc878d41f3a6e12456c117670fe77",
@@ -66,20 +66,23 @@
       "concepts": "66151aa7eb669a6106ad1cc05835ce1304d501fd",
       "pitfalls": "796e449a8e3dd3262982e2c494cb957f9b910b06",
       "review-sheet": "58a693b1fdefa6aca88519ec1d7b4488f028b90e",
-      "professor-prep": "5d5e0243b47b42a4b0acc5594a660f11dab0cddf",
       "quiz-ox": "fc17e3f695c55791252c33cfaea4812d48d03e5c",
       "quiz-short": "64c07ca9dab175c0b88c22be8ccb0b12c996a28f",
-      "quiz-mcq": "f33695e0806a045d4e145bb952e4db7e3172bde4"
+      "quiz-mcq": "f33695e0806a045d4e145bb952e4db7e3172bde4",
+      "professor-prep": "ab31593c530476f17e6e9be6ebf0e053d45c25ee"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-09",
+    "reviewed_at": "2026-05-06",
     "notes": [
-      "Validated against schema and built artifacts."
+      "Validated against schema and built artifacts.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses.",
+      "2026-05-06 professor-prep shared-bundle refresh: updated the 2026-03-31 longevity pair shared oral answers so openings foreground how the student read the paired texts."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.879Z",
+    "updated_at": "2026-05-05T16:49:58.205Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "approved",

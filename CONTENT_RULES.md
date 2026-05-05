@@ -1,5 +1,11 @@
 # Content Rule Appendix
 
+## 2026-05-06 Professor-Prep Reading-Lens Correction
+- `교수님 구술 대비` is primarily an oral answer about how the student read the text and what they focused on, not a neutral concept explanation.
+- Each `answer_30s` should open with the student's reading lens, changed expectation, or key distinction before definitions, paper-summary facts, or chapter-summary prose.
+- Avoid opening cards with only `X is Y`, `this article says X`, or `the key concept is X` unless the answer first explains why that point became the student's reading focus.
+- After the reading-lens opening, anchor the answer in at least one concrete term, statistic, method, finding, comparison pair, role/type distinction, or Korean-context implication from the actual reading.
+
 ## 1. Repository / build / PDF rules
 - `docs/` is the only final generated site output folder.
 - `site/` must not exist as a parallel build target.

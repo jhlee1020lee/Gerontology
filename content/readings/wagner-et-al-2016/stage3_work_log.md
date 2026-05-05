@@ -276,3 +276,10 @@
 - expected validation state:
   - rebuild the reading and rerun artifact-inclusive validation
   - treat `review-sheet` as reopened until the new source hash is reviewed and reapproved
+
+## 2026-05-06 - professor-prep reading-lens refresh
+- Target page family: `professor-prep`
+- Reason: user corrected the answer shape; oral answers should foreground how the student read the text and what they focused on, not neutral concept summary.
+- Working unit: repository-wide policy-sync refresh requested by the user; this reading's page family was updated and re-approved.
+- Scope: revised 0 card opening(s) to foreground reading lens, changed expectation, distinction, or study focus while preserving existing concrete reading anchors.
+- QA status: source schema, build, and artifact-inclusive validation pending after this rewrite.

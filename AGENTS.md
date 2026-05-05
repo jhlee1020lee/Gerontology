@@ -98,6 +98,7 @@ Maintain a static study website for gerontology course readings that is previewe
 - `concepts` must cover the paper's main comparison frame rather than one convenient subset.
 - `pitfalls` and `review-sheet` must name paper-specific traps and effect patterns; generic study-guide prose is not approval-ready.
 - `professor-prep` must stay in `학생이 이 글을 어떻게 읽었는지` voice; if it reads like `핵심 개념`을 문장으로 늘인 설명문 or chapter-summary prose, reopen it.
+- Each `professor-prep` `answer_30s` should open with how the student read the text or what they focused on before it names definitions, facts, or summary points.
 - Strong `professor-prep` cards foreground a distinction, changed expectation, or reading angle first, then anchor it with at least one concrete reading detail such as a term, statistic, role/type distinction, or Korean-context implication.
 - If most `professor-prep` cards could be pasted into `concepts.md` with little change, the page family is not approval-ready even when card count and validator checks pass.
 - Quiz families should complement each other instead of largely repeating the same fact set across OX, short-answer, and MCQ forms.

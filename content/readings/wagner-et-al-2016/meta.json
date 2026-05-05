@@ -63,7 +63,7 @@
     ],
     "approved_page_hashes": {
       "full": "57e222a8c863379ec0ec7a571ba5ad3278ef51b2",
-      "professor-prep": "beb1d7f60af0315a01fd160d1a5ecf5cd8f61f36",
+      "professor-prep": "362166489f5906f91a33db896bc0ecb649bbe37b",
       "translation": "74532678a931620e2beb29ccf9262e0c7a8e13bc",
       "summary": "7eaf2635ea7d64fe5a5810e4bf0348e850896982",
       "concepts": "656c33c2d31711a72580fc331644f192b8052d4d",
@@ -74,7 +74,7 @@
       "quiz-mcq": "2970d231389705dd7fbf20c7bcc72d70f23843ce"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-04-13",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "Validated source files and built artifacts for the reading pages.",
       "Reworked the original-text page into topic-based sections and removed the translation progress-note carryover.",
@@ -93,12 +93,13 @@
       "2026-04-13 재검증에서 translation.md 본문 누락과 translation.html 원문 펼침 매핑 오류가 추가 확인되어 translation 페이지 승인을 해제하고 재작업 대상으로 다시 열었다.",
       "2026-04-13에 서론·논의·한계 파트의 누락 번역을 복구하고 표/그림 캡션·주 설명을 보강했으며, 원문 펼침은 초록 말미·서론 중반·결과·논의·부록 표 구간을 문단 대응 기준으로 다시 고정했다.",
       "2026-04-13에 번역 페이지의 5단계 제목을 publish-safe 구조로 정리하고 정렬 파일에서 제목용 reveal 엔트리를 비활성화한 뒤 재검증 및 재승인을 진행했다.",
-      "2026-04-13에 사용자가 2026-04-14 reading의 summary, concepts, pitfalls, review-sheet, quiz-ox, quiz-short, quiz-mcq 재작성본을 승인해 수동 승인 목록에 반영했다."
+      "2026-04-13에 사용자가 2026-04-14 reading의 summary, concepts, pitfalls, review-sheet, quiz-ox, quiz-short, quiz-mcq 재작성본을 승인해 수동 승인 목록에 반영했다.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:45.128Z",
+    "updated_at": "2026-05-05T16:49:58.293Z",
     "require_built_artifacts": true,
     "landing": {
       "status": "schema_pass",

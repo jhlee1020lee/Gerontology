@@ -1,66 +1,66 @@
-﻿{
-    "title":  "3/31 장수 논쟁 합본 교수님 구술 대비",
-    "instructions":  "질문에 먼저 바로 답하고, 영어 핵심 용어를 정확히 붙인 뒤, 근거와 한계를 함께 설명하는 답변을 기준으로 정리했습니다.",
-    "cards":  [
-                  {
-                      "title":  "3월 31일 두 읽기를 함께 어떻게 읽었는지",
-                      "answer_30s":  "저는 Kerrigan, 2018은 reverse aging 후보들을 넓게 보여 주는 기사로, Olshansky와 Carnes, 2019는 그런 장수 담론을 어떤 기준으로 비판적으로 읽어야 하는지 정리해 주는 review로 묶어 읽었습니다. 그래서 핵심은 기술 이름을 많이 아는 것보다, 각 주장마다 mechanism, evidence level, 그리고 human application까지 남은 거리를 구분하는 데 있다고 정리했습니다."
-                  },
-                  {
-                      "title":  "왜 두 글을 같이 읽는 게 더 의미 있다고 봤는지",
-                      "answer_30s":  "같이 읽으니까 Kerrigan, 2018이 제시한 흥미로운 사례들이 Olshansky와 Carnes, 2019의 개념 틀 안에서 다시 정리됐습니다. Kerrigan, 2018만 보면 12개 기술이 모두 곧 인간 수명 혁명을 만들 것처럼 보일 수 있는데, Olshansky와 Carnes, 2019를 같이 읽으면 life expectancy와 maximum life span을 구분하고 과장된 longevity forecast를 경계해야 한다는 기준이 생깁니다."
-                  },
-                  {
-                      "title":  "Kerrigan 글을 어떻게 읽어야 안전하다고 봤는지",
-                      "answer_30s":  "저는 Kerrigan, 2018 기사를 역노화가 이미 입증됐다는 보고서가 아니라, 줄기세포 재프로그래밍부터 senolytics, rapamycin, young blood까지 서로 다른 12개 intervention을 한데 묶은 기사로 읽었습니다. 그래서 답할 때도 기적의 치료라고 말하기보다, 어떤 표적을 건드렸는지와 전임상인지 초기 human signal인지부터 나눠 설명하는 게 맞다고 봤습니다."
-                  },
-                  {
-                      "title":  "두 글을 함께 읽을 때 가장 중요한 판단 기준이 무엇이었는지",
-                      "answer_30s":  "가장 중요한 기준은 evidence level이라고 봤습니다. Kerrigan, 2018 기사에는 mouse, fly, yeast, dog, human fibroblasts, 초기 trial이 섞여 있는데, Olshansky와 Carnes, 2019 리뷰 논문은 바로 그런 서로 다른 근거 층위를 한 문장으로 뭉쳐서 radical life extension처럼 말하는 태도를 비판합니다. 그래서 저는 가능성의 신호와 검증된 인간 적용을 분리해서 읽었다고 답하겠습니다."
-                  },
-                  {
-                      "title":  "가장 눈여겨본 개입 후보가 무엇이었는지",
-                      "answer_30s":  "저는 senolytic drugs가 상대적으로 가장 설득력 있는 후보 중 하나라고 봤습니다. 이유는 dasatinib과 quercetin처럼 이미 존재하는 물질 조합으로 senescent cells를 줄인다는 기전이 비교적 분명했고, 자연노화 마우스에서 기능과 수명 신호도 제시됐기 때문입니다. 다만 이것도 아직 mouse data라서 사람에게 바로 적용 가능한 치료라고 말하면 과장이라고 생각했습니다."
-                  },
-                  {
-                      "title":  "가장 조심해서 읽어야 할 사례가 무엇이었는지",
-                      "answer_30s":  "저는 young blood와 Rejuvenate Bio를 가장 조심해서 봤습니다. young blood는 16세에서 24세 혈장 같은 자극적인 숫자가 들어가고, Rejuvenate Bio는 secretive start-up이라는 요소가 있어서 대중적으로는 강하게 들리지만, 그만큼 검증 강도와 공개 수준을 따로 따져야 합니다. 그래서 흥미롭다는 말은 할 수 있어도 확정적 치료처럼 말하면 안 된다고 봤습니다."
-                  },
-                  {
-                      "title":  "reverse aging과 health extension을 어떻게 구분했는지",
-                      "answer_30s":  "저는 reverse aging은 시간을 되돌리는 강한 표현이고, health extension은 기능 저하를 늦추고 건강한 기간을 늘리는 더 현실적인 목표라고 구분했습니다. Kerrigan 글의 제목은 reverse aging이지만 실제 사례 상당수는 완전한 젊음 회복보다 손상 완화나 기능 유지에 가깝고, Olshansky와 Carnes는 바로 그 지점에서 life extension보다 health extension을 우선 목표로 두자고 말합니다."
-                  },
-                  {
-                      "title":  "life expectancy와 maximum life span을 왜 정확히 구분해야 하는지",
-                      "answer_30s":  "life expectancy는 population average에 가까운 지표이고, maximum life span은 인간이 도달할 수 있는 최상단의 생물학적 한계에 더 가깝습니다. 이 둘을 섞으면 평균수명 상승을 곧 인간 한계 돌파처럼 오해하게 되기 때문에, Kerrigan, 2018의 개입 후보를 볼 때도 그것이 평균 건강수명을 겨냥한 건지, 종 전체의 upper bound를 바꾸는 이야기인지 분리해서 봐야 한다고 생각했습니다."
-                  },
-                  {
-                      "title":  "period life expectancy와 cohort life expectancy를 왜 중요하게 봤는지",
-                      "answer_30s":  "이 구분이 중요했던 이유는 \u0027요즘 태어난 아이 대부분이 100세를 넘는다\u0027 같은 문장이 사실은 cohort life expectancy에 대한 아주 강한 가정을 깔고 있기 때문입니다. period life expectancy는 한 시점의 사망률표를 고정한 값이고, cohort life expectancy는 실제 출생 코호트가 살아 낸 수명이라서, 둘을 섞어 말하면 장수 예측이 훨씬 더 그럴듯해 보이는 착시가 생깁니다."
-                  },
-                  {
-                      "title":  "Zeno의 역설 비유가 왜 인상적이었는지",
-                      "answer_30s":  "저는 Zeno\u0027s Paradox 비유가 가장 효과적인 경고라고 느꼈습니다. 과거 death rate decline 선을 미래로 계속 연장하면 수학적으로는 끝없는 life extension이 가능해 보이지만, 실제 인간 수명은 biology와 body design의 제약을 받기 때문에 단순 외삽만으로 설명할 수 없다는 점을 아주 직관적으로 보여 주기 때문입니다."
-                  },
-                  {
-                      "title":  "85세 상한 주장을 어떻게 이해했는지",
-                      "answer_30s":  "저자들이 말하는 85는 개인의 절대 최대수명이 아니라 national population level life expectancy가 접근하는 상한으로 이해했습니다. 그래서 이 숫자는 \u0027아무도 100세를 못 산다\u0027는 뜻이 아니라, 평균 기대수명을 그 이상 더 크게 올리려면 질병 하나씩 치료하는 접근만으로는 부족하고 aging biology 자체를 바꿔야 한다는 주장으로 읽었습니다."
-                  },
-                  {
-                      "title":  "Olshansky와 Carnes, 2019가 노화생물학 연구를 반대하는 글인지",
-                      "answer_30s":  "아니라고 봤습니다. 오히려 Olshansky와 Carnes, 2019는 aging biology research를 적극적으로 밀어야 한다고 말하지만, 그 효과를 곧바로 immortality나 radical life extension으로 과장하지 말자는 입장입니다. 저는 이 점이 중요했다고 봤는데, 연구 지지와 hype 수용을 같은 것으로 보면 논문 핵심을 놓치기 때문입니다."
-                  },
-                  {
-                      "title":  "두 글을 함께 읽고 무엇이 가장 바뀌었는지",
-                      "answer_30s":  "읽기 전에는 역노화 기술이 많아질수록 인간 수명 한계도 바로 밀릴 수 있다고 막연히 생각했는데, 읽고 나서는 질문 자체가 달라졌습니다. 이제는 \u0027무엇이 가장 화려한가\u0027보다 \u0027어떤 개입이 어떤 level의 evidence를 가졌고, 그것이 health extension인지 life extension인지, 또 population metric에 어떤 의미가 있는가\u0027를 먼저 보게 됐습니다."
-                  },
-                  {
-                      "title":  "교수님이 물으면 이 수업의 핵심 메시지를 어떻게 답할지",
-                      "answer_30s":  "저는 이 수업의 핵심을 \u0027노화 개입 연구는 중요하지만, Kerrigan, 2018 기사에서 나온 가능성의 언어를 곧바로 인간 장수 예측으로 번역하면 안 된다\u0027로 답하겠습니다. Kerrigan, 2018은 intervention map을 주고, Olshansky와 Carnes, 2019는 concept map을 주기 때문에, 둘을 같이 읽어야 reverse aging 담론을 덜 과장되게 이해할 수 있다고 봤습니다."
-                  },
-                  {
-                      "title":  "한국 사회와 연결해서 말한다면",
-                      "answer_30s":  "한국에서는 항노화 산업과 영양제 마케팅이 강하고, 동시에 초고령사회라서 이 두 글이 더 현실적으로 느껴졌습니다. 저는 한국 맥락에서는 \u0027몇 살까지 살 수 있나\u0027보다 frailty, disability, multimorbidity를 늦추면서 health span을 늘릴 수 있느냐가 더 중요한 질문이라고 말하고 싶고, 그래서 hype보다 evidence와 public health implication을 먼저 보는 태도가 필요하다고 생각합니다."
-                  }
-              ]
+{
+  "title": "3/31 장수 논쟁 합본 교수님 구술 대비",
+  "instructions": "각 답변은 먼저 두 글을 어떻게 읽었는지, 무엇에 초점을 맞췄는지, 어떤 기대가 바뀌었는지를 말하고, 바로 구체적인 읽기 근거를 붙이는 20~40초 구술 연습 답변입니다.",
+  "cards": [
+    {
+      "title": "3월 31일 두 읽기를 함께 어떻게 읽었는지",
+      "answer_30s": "저는 Kerrigan, 2018은 reverse aging 후보들을 넓게 보여 주는 기사로, Olshansky와 Carnes, 2019는 그런 장수 담론을 어떤 기준으로 비판적으로 읽어야 하는지 정리해 주는 review로 묶어 읽었습니다. 그래서 핵심은 기술 이름을 많이 아는 것보다, 각 주장마다 mechanism, evidence level, 그리고 human application까지 남은 거리를 구분하는 데 있다고 정리했습니다."
+    },
+    {
+      "title": "왜 두 글을 같이 읽는 게 더 의미 있다고 봤는지",
+      "answer_30s": "저는 \"왜 두 글을 같이 읽는 게 더 의미 있다고 봤는지\"를 두 읽기가 서로 어떤 기준을 보완하는지 보는 초점으로 잡았습니다. 같이 읽으니까 Kerrigan, 2018이 제시한 흥미로운 사례들이 Olshansky와 Carnes, 2019의 개념 틀 안에서 다시 정리됐습니다. Kerrigan, 2018만 보면 12개 기술이 모두 곧 인간 수명 혁명을 만들 것처럼 보일 수 있는데, Olshansky와 Carnes, 2019를 같이 읽으면 life expectancy와 maximum life span을 구분하고 과장된 longevity forecast를 경계해야 한다는 기준이 생깁니다."
+    },
+    {
+      "title": "Kerrigan 글을 어떻게 읽어야 안전하다고 봤는지",
+      "answer_30s": "저는 Kerrigan, 2018 기사를 역노화가 이미 입증됐다는 보고서가 아니라, 줄기세포 재프로그래밍부터 senolytics, rapamycin, young blood까지 서로 다른 12개 intervention을 한데 묶은 기사로 읽었습니다. 그래서 답할 때도 기적의 치료라고 말하기보다, 어떤 표적을 건드렸는지와 전임상인지 초기 human signal인지부터 나눠 설명하는 게 맞다고 봤습니다."
+    },
+    {
+      "title": "두 글을 함께 읽을 때 가장 중요한 판단 기준이 무엇이었는지",
+      "answer_30s": "저는 \"두 글을 함께 읽을 때 가장 중요한 판단 기준이 무엇이었는지\"를 두 읽기가 서로 어떤 기준을 보완하는지 보는 초점으로 잡았습니다. 가장 중요한 기준은 evidence level이라고 봤습니다. Kerrigan, 2018 기사에는 mouse, fly, yeast, dog, human fibroblasts, 초기 trial이 섞여 있는데, Olshansky와 Carnes, 2019 리뷰 논문은 바로 그런 서로 다른 근거 층위를 한 문장으로 뭉쳐서 radical life extension처럼 말하는 태도를 비판합니다. 그래서 저는 가능성의 신호와 검증된 인간 적용을 분리해서 읽었다고 답하겠습니다."
+    },
+    {
+      "title": "가장 눈여겨본 개입 후보가 무엇이었는지",
+      "answer_30s": "저는 senolytic drugs가 상대적으로 가장 설득력 있는 후보 중 하나라고 봤습니다. 이유는 dasatinib과 quercetin처럼 이미 존재하는 물질 조합으로 senescent cells를 줄인다는 기전이 비교적 분명했고, 자연노화 마우스에서 기능과 수명 신호도 제시됐기 때문입니다. 다만 이것도 아직 mouse data라서 사람에게 바로 적용 가능한 치료라고 말하면 과장이라고 생각했습니다."
+    },
+    {
+      "title": "가장 조심해서 읽어야 할 사례가 무엇이었는지",
+      "answer_30s": "저는 young blood와 Rejuvenate Bio를 가장 조심해서 봤습니다. young blood는 16세에서 24세 혈장 같은 자극적인 숫자가 들어가고, Rejuvenate Bio는 secretive start-up이라는 요소가 있어서 대중적으로는 강하게 들리지만, 그만큼 검증 강도와 공개 수준을 따로 따져야 합니다. 그래서 흥미롭다는 말은 할 수 있어도 확정적 치료처럼 말하면 안 된다고 봤습니다."
+    },
+    {
+      "title": "reverse aging과 health extension을 어떻게 구분했는지",
+      "answer_30s": "저는 reverse aging은 시간을 되돌리는 강한 표현이고, health extension은 기능 저하를 늦추고 건강한 기간을 늘리는 더 현실적인 목표라고 구분했습니다. Kerrigan 글의 제목은 reverse aging이지만 실제 사례 상당수는 완전한 젊음 회복보다 손상 완화나 기능 유지에 가깝고, Olshansky와 Carnes는 바로 그 지점에서 life extension보다 health extension을 우선 목표로 두자고 말합니다."
+    },
+    {
+      "title": "life expectancy와 maximum life span을 왜 정확히 구분해야 하는지",
+      "answer_30s": "저는 \"life expectancy와 maximum life span을 왜 정확히 구분해야 하는지\"를 장수 담론을 어떻게 조심해서 읽을지 정하는 초점으로 봤습니다. life expectancy는 population average에 가까운 지표이고, maximum life span은 인간이 도달할 수 있는 최상단의 생물학적 한계에 더 가깝습니다. 이 둘을 섞으면 평균수명 상승을 곧 인간 한계 돌파처럼 오해하게 되기 때문에, Kerrigan, 2018의 개입 후보를 볼 때도 그것이 평균 건강수명을 겨냥한 건지, 종 전체의 upper bound를 바꾸는 이야기인지 분리해서 봐야 한다고 생각했습니다."
+    },
+    {
+      "title": "period life expectancy와 cohort life expectancy를 왜 중요하게 봤는지",
+      "answer_30s": "저는 \"period life expectancy와 cohort life expectancy를 왜 중요하게 봤는지\"를 장수 담론을 어떻게 조심해서 읽을지 정하는 초점으로 봤습니다. 이 구분이 중요했던 이유는 '요즘 태어난 아이 대부분이 100세를 넘는다' 같은 문장이 사실은 cohort life expectancy에 대한 아주 강한 가정을 깔고 있기 때문입니다. period life expectancy는 한 시점의 사망률표를 고정한 값이고, cohort life expectancy는 실제 출생 코호트가 살아 낸 수명이라서, 둘을 섞어 말하면 장수 예측이 훨씬 더 그럴듯해 보이는 착시가 생깁니다."
+    },
+    {
+      "title": "Zeno의 역설 비유가 왜 인상적이었는지",
+      "answer_30s": "저는 \"Zeno의 역설 비유가 왜 인상적이었는지\"를 장수 담론을 어떻게 조심해서 읽을지 정하는 초점으로 봤습니다. 저는 Zeno's Paradox 비유가 가장 효과적인 경고라고 느꼈습니다. 과거 death rate decline 선을 미래로 계속 연장하면 수학적으로는 끝없는 life extension이 가능해 보이지만, 실제 인간 수명은 biology와 body design의 제약을 받기 때문에 단순 외삽만으로 설명할 수 없다는 점을 아주 직관적으로 보여 주기 때문입니다."
+    },
+    {
+      "title": "85세 상한 주장을 어떻게 이해했는지",
+      "answer_30s": "저는 \"85세 상한 주장을 어떻게 이해했는지\"를 두 글을 과장 없이 읽기 위한 초점으로 잡았습니다. 저자들이 말하는 85는 개인의 절대 최대수명이 아니라 national population level life expectancy가 접근하는 상한으로 이해했습니다. 그래서 이 숫자는 '아무도 100세를 못 산다'는 뜻이 아니라, 평균 기대수명을 그 이상 더 크게 올리려면 질병 하나씩 치료하는 접근만으로는 부족하고 aging biology 자체를 바꿔야 한다는 주장으로 읽었습니다."
+    },
+    {
+      "title": "Olshansky와 Carnes, 2019가 노화생물학 연구를 반대하는 글인지",
+      "answer_30s": "저는 \"Olshansky와 Carnes, 2019가 노화생물학 연구를 반대하는 글인지\"를 두 글을 과장 없이 읽기 위한 초점으로 잡았습니다. 아니라고 봤습니다. 오히려 Olshansky와 Carnes, 2019는 aging biology research를 적극적으로 밀어야 한다고 말하지만, 그 효과를 곧바로 immortality나 radical life extension으로 과장하지 말자는 입장입니다. 저는 이 점이 중요했다고 봤는데, 연구 지지와 hype 수용을 같은 것으로 보면 논문 핵심을 놓치기 때문입니다."
+    },
+    {
+      "title": "두 글을 함께 읽고 무엇이 가장 바뀌었는지",
+      "answer_30s": "저는 \"두 글을 함께 읽고 무엇이 가장 바뀌었는지\"를 두 읽기가 서로 어떤 기준을 보완하는지 보는 초점으로 잡았습니다. 읽기 전에는 역노화 기술이 많아질수록 인간 수명 한계도 바로 밀릴 수 있다고 막연히 생각했는데, 읽고 나서는 질문 자체가 달라졌습니다. 이제는 '무엇이 가장 화려한가'보다 '어떤 개입이 어떤 level의 evidence를 가졌고, 그것이 health extension인지 life extension인지, 또 population metric에 어떤 의미가 있는가'를 먼저 보게 됐습니다."
+    },
+    {
+      "title": "교수님이 물으면 이 수업의 핵심 메시지를 어떻게 답할지",
+      "answer_30s": "저는 \"교수님이 물으면 이 수업의 핵심 메시지를 어떻게 답할지\"를 수업과 한국 사회 맥락에서 어떤 태도가 필요한지 묻는 부분으로 읽었습니다. 저는 이 수업의 핵심을 '노화 개입 연구는 중요하지만, Kerrigan, 2018 기사에서 나온 가능성의 언어를 곧바로 인간 장수 예측으로 번역하면 안 된다'로 답하겠습니다. Kerrigan, 2018은 intervention map을 주고, Olshansky와 Carnes, 2019는 concept map을 주기 때문에, 둘을 같이 읽어야 reverse aging 담론을 덜 과장되게 이해할 수 있다고 봤습니다."
+    },
+    {
+      "title": "한국 사회와 연결해서 말한다면",
+      "answer_30s": "저는 \"한국 사회와 연결해서 말한다면\"를 수업과 한국 사회 맥락에서 어떤 태도가 필요한지 묻는 부분으로 읽었습니다. 한국에서는 항노화 산업과 영양제 마케팅이 강하고, 동시에 초고령사회라서 이 두 글이 더 현실적으로 느껴졌습니다. 저는 한국 맥락에서는 '몇 살까지 살 수 있나'보다 frailty, disability, multimorbidity를 늦추면서 health span을 늘릴 수 있느냐가 더 중요한 질문이라고 말하고 싶고, 그래서 hype보다 evidence와 public health implication을 먼저 보는 태도가 필요하다고 생각합니다."
+    }
+  ]
 }

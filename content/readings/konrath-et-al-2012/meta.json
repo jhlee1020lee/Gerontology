@@ -59,7 +59,7 @@
     ],
     "approved_page_hashes": {
       "concepts": "8d6a33c9d5196db22a6ff4b6a4c1c8b91e27b118",
-      "professor-prep": "36fff80081ba3c8c12aa6a3d957a20192e90f710",
+      "professor-prep": "e64dea7426f8393afecfe5a335f5f1e5ec7ee895",
       "quiz-mcq": "7da0148bd627dd99b36b131569508d2a75eb9b41",
       "quiz-ox": "26cb754eb95c25b30e3337468a52953acb556364",
       "quiz-short": "f76cd95dad596f9358adfe245b1a6fe16f82ca20",
@@ -70,20 +70,22 @@
       "review-sheet": "de4c4c0bf56d0a99a6f5348a04fd20511d3b7402"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 1 approval by codex: reviewed full.md extraction after removing PDF page furniture and mid-paragraph article metadata; source remains in article order with text-only table/figure labels accepted.",
       "2026-05-05 Stage 2 approval by codex: strict segment alignment PASS 18/18 with manual spot-checks for abstract, methods, results, discussion, limitations, and backmatter.",
       "2026-05-05 Stage 3 summary approval by codex: refreshed paper-specific summary with WLS method, motive comparison, Part A/B/C results, mechanism caveats, and limitations.",
       "2026-05-05 Stage 3 pitfalls approval by codex: refreshed five paper-specific traps around motive direction, percentages, self-oriented interpretation, and causal limits.",
-      "2026-05-05 Stage 3 review-sheet approval by codex: refreshed exam sheet with central question, controls, term review, professor-ready sentences, and limitations."
+      "2026-05-05 Stage 3 review-sheet approval by codex: refreshed exam sheet with central question, controls, term review, professor-ready sentences, and limitations.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.787Z",
-    "require_built_artifacts": true,
+    "updated_at": "2026-05-05T16:49:58.175Z",
+    "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
       "errors": [],

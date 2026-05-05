@@ -62,13 +62,13 @@
       "summary": "aaa15c366d104fabe8d66818cb9a74263200c6bd",
       "pitfalls": "68b614a33710d2368a681043b314c696219f2c9b",
       "review-sheet": "39cc62c08de1aca1a1c03f2e57069657b042a3ad",
-      "professor-prep": "c5d43f13963fa6d770ae54d64b3a725f5f4fe901",
+      "professor-prep": "bbafcc7a977ca83680e7770295be08809ad1ef6f",
       "quiz-ox": "8675663af5c43ac6914248cfb6c351c812777d22",
       "quiz-short": "abddbb51688927283ea60de6255a8bbc803baf8c",
       "quiz-mcq": "4e41613139ef107ab3e82624554a39dbede5031e"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "Approved full.md for publication after spot-checking beginning, middle, and ending page spans against the chapter structure; validator still warns about figure/table labels without direct image inserts.",
       "Rebuilt and approved the concepts page with chapter-specific concept cards.",
@@ -79,12 +79,14 @@
       "2026-05-05 Stage 1 approval: regenerated full.md from raw.txt with semantic headings, removed page furniture, spot-checked opening, marriage-health, later-life marital-change, divorce, widowhood, and remarriage spans; retained known figure/table-label warning.",
       "2026-05-05 Stage 3 quiz-ox approval: reviewed existing 15-item OX set for chapter-specific coverage and complementarity with repaired short-answer and MCQ families.",
       "2026-05-05 Stage 3 quiz-short approval: replaced term-repeat set with 15 chapter-grounded short-answer items including key numbers and English-term variants.",
-      "2026-05-05 Stage 3 quiz-mcq approval: replaced term-repeat set with 15 interpretation-focused MCQs and plausible distractors."
+      "2026-05-05 Stage 3 quiz-mcq approval: replaced term-repeat set with 15 interpretation-focused MCQs and plausible distractors.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.195Z",
+    "updated_at": "2026-05-05T16:49:58.015Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",

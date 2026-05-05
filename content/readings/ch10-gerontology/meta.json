@@ -62,22 +62,24 @@
       "concepts": "93f036f56a76091f1e4c66262372a7b1bbeb9138",
       "pitfalls": "795af5fc790731d65645d100bcd316f361cbd06e",
       "review-sheet": "5e89e2c2523025a78e499a645eb77c316d7f7bd4",
-      "professor-prep": "0ad8cc2d9f591c8e5868529da1fda8b7813fae4a",
+      "professor-prep": "ef9408a1fdff70ee19d13383888a93b841857636",
       "quiz-ox": "aee41d17f0d71bdd2fb39f437229ae94cffc4525",
       "quiz-short": "5fac7ff6e57cb6a221cd8099afdc401b7f20917e",
       "quiz-mcq": "f69767c57b10d78d4d35420ca33ab1954decae05"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
-      "2026-05-05 approval by codex: cleaned Stage 1 full text into semantic source sections, rebuilt summary/pitfalls/review-sheet from reading-specific evidence, rebuilt docs for ch10, and accepted existing quiz evidence_segment_id warnings as legacy debt."
+      "2026-05-05 approval by codex: cleaned Stage 1 full text into semantic source sections, rebuilt summary/pitfalls/review-sheet from reading-specific evidence, rebuilt docs for ch10, and accepted existing quiz evidence_segment_id warnings as legacy debt.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.234Z",
-    "require_built_artifacts": true,
+    "updated_at": "2026-05-05T16:49:58.025Z",
+    "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
       "errors": [],

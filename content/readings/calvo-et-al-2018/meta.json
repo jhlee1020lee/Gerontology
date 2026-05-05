@@ -63,13 +63,13 @@
       "concepts": "b4b14eaead362605bf60826d6e09e975c5b94b2b",
       "pitfalls": "00fbc76cb05a1efb42a694e536b1a2a2f674ae53",
       "review-sheet": "2c9d36629ed9ad314ecd5fe7dccd86a7a134e614",
-      "professor-prep": "11f94ca7385f80509e7546d650e254eddc81bd73",
+      "professor-prep": "79f0597812c0aba8756df86d7ed8a17ac4c8770f",
       "quiz-mcq": "25bc71c9f6d564af1688e2996dd5c40d52b37e2c",
       "quiz-ox": "20fcb7f23b3565531aa2af833bf2e9ca09dfdeff",
       "quiz-short": "60204b696e702ab8f32b0a30c3959c0131574a23"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "Reviewed and approved the source full page for Stage 1.",
       "Reviewed and approved the source translation page after completing the full Korean translation.",
@@ -78,12 +78,14 @@
       "2026-05-05 Stage 2 translation pass: checked the full Korean translation against the cleaned source structure, removed publish-blocking level-5 headings, accepted preserved table/figure text warnings, and approved translation.md with the current source hash.",
       "2026-05-05 Stage 3 summary pass: rebuilt summary.md around the sequence approach, three destandardization criteria, mixed diversity/regularity result, stratified group differences, and the non-causal caveat.",
       "2026-05-05 Stage 3 pitfalls pass: rebuilt pitfalls.md around seven paper-specific traps: overindividualization, snapshot reading, loose destandardization, overreading unretirement, choice-only diversity, averaged-away advantage, and causal overclaiming.",
-      "2026-05-05 Stage 3 review-sheet pass: rebuilt review-sheet.md as seven exam-prep blocks covering thesis, method/data, three destandardization criteria, balanced results, stratification, oral-answer lines, and final checks."
+      "2026-05-05 Stage 3 review-sheet pass: rebuilt review-sheet.md as seven exam-prep blocks covering thesis, method/data, three destandardization criteria, balanced results, stratification, oral-answer lines, and final checks.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.520Z",
+    "updated_at": "2026-05-05T16:49:58.096Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",

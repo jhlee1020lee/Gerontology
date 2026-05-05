@@ -60,7 +60,7 @@
       "concepts": "24b859edba2c8f9549b7b5db42c3127d578c3388",
       "full": "9446be643fbc5d9a49a60936c344b1bb55f58549",
       "pitfalls": "2bd591d1771c4cc66189238931de248d75952af4",
-      "professor-prep": "b5774932c637c710831caafe3a8e335d8605a92c",
+      "professor-prep": "12523762d0a720f2cd1f3997924686b502b072b4",
       "quiz-mcq": "ad5c0ac1fc785a5757b9c4b8720ac3ec2eb2e6be",
       "quiz-ox": "13956d2cb2b9267877f532073b0f19cd5c6f085b",
       "quiz-short": "f88bda66386e310a46359c75a291ca16c3cd74ae",
@@ -69,7 +69,7 @@
       "translation": "5f4810122208c9eac3ea42a5a6054e4775b5ad03"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "Reworked full.md from page-based headings into article sections and manually spot-checked section order.",
       "Stage 2 restart uses chunked full-translation passes from full.md; the prior short translation is not approved.",
@@ -77,12 +77,14 @@
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 3 summary rebuild: replaced the thin schema-pass summary with a reading-grounded version covering HRS sample definitions, hypotheses, Cox and competing-risk analyses, self-rated-health interaction, cause-specific results, and observational limits.",
       "2026-05-05 Stage 3 pitfalls rebuild: replaced generic pitfalls with reading-specific contrast pairs covering burden versus mortality benefit, comparison groups, Healthy Caregiver Hypothesis, interaction, cause-specific mortality, self-rated health, and causal limits.",
-      "2026-05-05 Stage 3 review-sheet rebuild: replaced the generic last-minute sheet with compact framing, required numbers, contrast pairs, quiz traps, English terms, and causal cautions."
+      "2026-05-05 Stage 3 review-sheet rebuild: replaced the generic last-minute sheet with compact framing, required numbers, contrast pairs, quiz traps, English terms, and causal cautions.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.828Z",
+    "updated_at": "2026-05-05T16:49:58.187Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",

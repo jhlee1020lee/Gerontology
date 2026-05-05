@@ -58,7 +58,7 @@
     ],
     "approved_page_hashes": {
       "concepts": "af5b4dd70ae498d3a91b0e5620ef8432c5067abe",
-      "professor-prep": "771772c3794dc9ffaddb8282cb2e3c05424cc2dd",
+      "professor-prep": "0b3c8b7646e4d8b698431ac82a48372d60afe08d",
       "quiz-mcq": "9ceebef3c23abd1b22aa384ae81384b5187dc6c2",
       "quiz-ox": "a32d2a746c492cd5b329603b8e68ae650ae32741",
       "quiz-short": "fa2400601dc9025a0495a8ad43457c7f6bcda384",
@@ -68,19 +68,21 @@
       "review-sheet": "eb793cbf8a6ba12efbd022d901629fd961d2f888"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 1 approval by codex: rebuilt full.md from a fresh 25-page pypdf extraction, removed page-based OCR structure and figure/form debris, restored semantic social-participation headings, and passed source-only plus artifact-inclusive validation with only tolerated legacy quiz evidence warnings.",
       "2026-05-05 Stage 3 summary approval by codex: expanded summary.md to cover the whole chapter, including active/successful aging, baby boomer participation, older-adult education, volunteering, community/religious/political participation, and participation-condition caveats.",
       "2026-05-05 Stage 3 pitfalls approval by codex: expanded pitfalls.md to cover whole-chapter traps around active/successful aging, productive activity, older-adult education, well-dying education, volunteering, participation intensity, religion, and structural participation limits.",
-      "2026-05-05 Stage 3 review-sheet approval by codex: expanded review-sheet.md into a whole-chapter exam sheet covering active/successful aging, productive activity, older-adult education, well-dying education, volunteering, religious/political participation, and participation-condition caveats."
+      "2026-05-05 Stage 3 review-sheet approval by codex: expanded review-sheet.md into a whole-chapter exam sheet covering active/successful aging, productive activity, older-adult education, well-dying education, volunteering, religious/political participation, and participation-condition caveats.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:44.336Z",
-    "require_built_artifacts": true,
+    "updated_at": "2026-05-05T16:49:58.052Z",
+    "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
       "errors": [],

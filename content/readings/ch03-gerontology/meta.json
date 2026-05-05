@@ -58,7 +58,7 @@
     "approved_page_hashes": {
       "concepts": "865568b71dd666a1371195dccfb83bf94d48240b",
       "pitfalls": "adda1887d472a1969a9eed331fdd3dc02b2d81a5",
-      "professor-prep": "037a4cc1a97e76376ba9f587e7a27d64eca9a564",
+      "professor-prep": "9dda16b8cafded93fe8cd4a18b6a847b750d27c8",
       "quiz-mcq": "56447ec505390134d8974b1be661b74baebb7ddf",
       "quiz-ox": "6cdaad3417082e337e6056a4ba55d68fd75d6bd6",
       "quiz-short": "3081c547b9c25378480d5c15c239f9f283dee1bd",
@@ -67,16 +67,18 @@
       "full": "157a806be10d26dceac48d12473f10b44cb1d009"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-05",
+    "reviewed_at": "2026-05-06",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
-      "2026-05-05 Stage 1 approval by codex: rebuilt full.md from a fresh 22-page pypdf extraction, removed page-based OCR structure and running headers, restored semantic theory headings, and passed source-only plus artifact-inclusive validation with only tolerated legacy quiz evidence warnings."
+      "2026-05-05 Stage 1 approval by codex: rebuilt full.md from a fresh 22-page pypdf extraction, removed page-based OCR structure and running headers, restored semantic theory headings, and passed source-only plus artifact-inclusive validation with only tolerated legacy quiz evidence warnings.",
+      "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-05T16:19:43.972Z",
-    "require_built_artifacts": true,
+    "updated_at": "2026-05-05T16:49:57.968Z",
+    "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
       "errors": [],
