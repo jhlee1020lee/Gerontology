@@ -82,7 +82,7 @@
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-07T04:02:25.122Z",
+    "updated_at": "2026-05-07T04:43:20.212Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
