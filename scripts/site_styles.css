@@ -3690,6 +3690,135 @@ body{
   }
 }
 
+/* Mobile containment: keep redesigned hero/header surfaces inside the viewport. */
+@media (max-width:1080px){
+  .home-dashboard{
+    grid-template-columns:minmax(0,1fr);
+  }
+
+  .home-dashboard .rail{
+    position:static;
+    max-height:none;
+    overflow:visible;
+  }
+
+  .home-dashboard .rail-panel{
+    display:none;
+  }
+
+  .home-dashboard .rail[open] .rail-panel{
+    display:block;
+  }
+
+  .home-dashboard .hero-layout,
+  .reading-detail-shell .rpanel{
+    grid-template-columns:minmax(0,1fr);
+  }
+}
+
+@media (max-width:780px){
+  html,
+  body{
+    max-width:100%;
+    overflow-x:hidden;
+  }
+
+  .home-shell.home-dashboard,
+  .reading-detail-shell{
+    width:100%;
+    max-width:100%;
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+
+  .home-dashboard,
+  .home-dashboard .home-main,
+  .home-dashboard .hero,
+  .home-dashboard .hero-body,
+  .reading-detail-top,
+  .reading-detail-shell .tab-row{
+    min-width:0;
+    max-width:100%;
+  }
+
+  .home-dashboard .hero{
+    overflow:hidden;
+  }
+
+  .home-dashboard .hero::after{
+    display:none;
+  }
+
+  .home-dashboard .hero h2,
+  .home-dashboard .hook,
+  .rdp-title,
+  .rdp-hook,
+  .breadcrumbs,
+  .chip,
+  .btn-primary,
+  .btn-ghost,
+  .tab,
+  .tab-more-toggle{
+    min-width:0;
+    max-width:100%;
+    overflow-wrap:anywhere;
+  }
+
+  .hero-cta-row{
+    width:100%;
+  }
+
+  .home-chatbot{
+    right:.75rem;
+    bottom:.75rem;
+    max-width:calc(100vw - 1.5rem);
+  }
+
+  .home-chatbot.is-collapsed .home-chatbot-toggle{
+    width:3.25rem;
+    height:3.25rem;
+    min-width:0;
+    padding:.5rem;
+  }
+
+  .home-chatbot.is-collapsed .home-chatbot-toggle-label{
+    display:none;
+  }
+}
+
+@media (max-width:560px){
+  .topbar{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .topbar-actions,
+  .topbar-actions .ghost-btn{
+    width:100%;
+  }
+
+  .home-dashboard .hero{
+    padding:2.25rem 1rem 1.2rem;
+  }
+
+  .home-dashboard .hero h2{
+    font-size:clamp(1.9rem,10vw,2.25rem);
+  }
+
+  .reading-detail-top{
+    padding:1.15rem;
+  }
+
+  .rdp-title{
+    font-size:clamp(1.65rem,8vw,1.9rem);
+  }
+
+  .hero-cta-row{
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+  }
+}
+
 /* Pipeline quality upgrade: long-form reading shell and segment evidence UI */
 body[data-reading-layout="reader-v2"] .reading-detail-shell{
   background:linear-gradient(180deg,#f8f6f1 0%,var(--bg) 18rem);
