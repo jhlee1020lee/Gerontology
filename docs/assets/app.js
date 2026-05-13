@@ -239,6 +239,140 @@ function showGateToast(message){
   },1800);
 }
 
+function parseHomeReadingData(){
+  const script=document.getElementById("home-reading-data");
+  if(!script)return null;
+  try{
+    const payload=JSON.parse(script.textContent||"{}");
+    return Array.isArray(payload.readings)?payload:null;
+  }catch(error){
+    return null;
+  }
+}
+
+function todayIsoDateForZone(timeZone){
+  const now=new Date();
+  try{
+    const parts=Object.fromEntries(
+      new Intl.DateTimeFormat("en-US",{
+        timeZone,
+        year:"numeric",
+        month:"2-digit",
+        day:"2-digit"
+      }).formatToParts(now).map((part)=>[part.type,part.value])
+    );
+    if(parts.year&&parts.month&&parts.day)return `${parts.year}-${parts.month}-${parts.day}`;
+  }catch(error){}
+
+  const month=String(now.getMonth()+1).padStart(2,"0");
+  const day=String(now.getDate()).padStart(2,"0");
+  return `${now.getFullYear()}-${month}-${day}`;
+}
+
+function selectHomeCurrentReading(readings,today,publishCutoffDate){
+  const published=(Array.isArray(readings)?readings:[])
+    .filter((reading)=>reading?.classDate&&(!publishCutoffDate||reading.classDate<=publishCutoffDate));
+  const byDateThenSequence=(a,b)=>String(a.classDate).localeCompare(String(b.classDate))||(Number(a.sequence)||0)-(Number(b.sequence)||0);
+  const upcoming=published
+    .filter((reading)=>reading.classDate>=today)
+    .sort(byDateThenSequence);
+  if(upcoming.length)return upcoming[0];
+  const referenceDate=publishCutoffDate&&publishCutoffDate<today?publishCutoffDate:today;
+  return published
+    .filter((reading)=>reading.classDate<=referenceDate)
+    .sort((a,b)=>String(b.classDate).localeCompare(String(a.classDate))||(Number(b.sequence)||0)-(Number(a.sequence)||0))[0]||null;
+}
+
+function homeReadingState(reading,currentSlug){
+  if(!reading||reading.baseState==="locked")return"locked";
+  return reading.slug===currentSlug?"current":"ready";
+}
+
+function renderHomeHeroAction(label,href,className,message,download=false){
+  if(href){
+    return `<a class="${escapeHtmlText(className)}" href="${escapeHtmlText(href)}"${download?" download":""}>${escapeHtmlText(label)}</a>`;
+  }
+  return `<button class="${escapeHtmlText(`${className} is-disabled`)}" type="button" data-gated-link data-gated-message="${escapeHtmlText(message||"준비중입니다.")}">${escapeHtmlText(label)}</button>`;
+}
+
+function renderHomeWorkspaceMockup(reading){
+  const accents=["purple","orange","teal","pink"];
+  const tasks=(Array.isArray(reading?.progressItems)?reading.progressItems:[]).map((item,index)=>{
+    const value=Number(item.value)||0;
+    const state=value>=1?"ready":value>0?"partial":"pending";
+    const accent=accents[index%accents.length];
+    return `<article class="workspace-task is-${escapeHtmlText(state)} accent-${escapeHtmlText(accent)}"><span>${escapeHtmlText(item.label)}</span><strong>${escapeHtmlText(item.detail)}</strong></article>`;
+  }).join("");
+  if(!tasks)return"";
+  return `<div class="workspace-mockup-card" aria-hidden="true">
+    <div class="workspace-mockup-top"><span></span><span></span><span></span><strong>Gerontology HQ</strong></div>
+    <div class="workspace-mockup-body">
+      <div class="workspace-page-title"><span class="workspace-icon">N</span><div><p>이번 주 스터디 보드</p><strong>${escapeHtmlText(reading.title)}</strong></div></div>
+      <div class="workspace-board">${tasks}</div>
+    </div>
+  </div>`;
+}
+
+function renderDynamicHomeHero(reading){
+  if(!reading){
+    return `<div class="hero-body"><p class="hero-kicker">이번 주</p><h2>표시할 읽기가 아직 없습니다.</h2><p class="hook">수업 날짜가 지난 읽기가 생기면 이 영역에 자동으로 반영됩니다.</p></div>`;
+  }
+  const tags=(Array.isArray(reading.tags)?reading.tags:[])
+    .slice(0,2)
+    .map((tag)=>`<span class="chip brand"># ${escapeHtmlText(tag)}</span>`)
+    .join("");
+  return `<div class="hero-body"><span class="hero-kicker"><span class="pulse"></span>이번 주 · ${escapeHtmlText(reading.displayDateLabel||reading.classDate||"날짜 미정")}</span><h2>${escapeHtmlText(reading.title)}</h2><p class="hook">${escapeHtmlText(reading.hook||reading.subtitle||"")}</p><div class="hero-meta"><span class="chip strong">${escapeHtmlText(reading.typeLabel||"읽기")}</span><span class="chip">${escapeHtmlText(reading.languageLabel||"")}</span><span class="chip">${escapeHtmlText(reading.authorsDisplay||"")}</span>${tags}</div><div class="hero-cta-row">${renderHomeHeroAction("읽기",reading.overviewHref,"btn-primary",reading.gateMessage)} ${renderHomeHeroAction("교수님 답변 대비",reading.prepHref,"btn-ghost",reading.prepGateMessage)} ${renderHomeHeroAction("PDF 다운로드",reading.pdfHref,"btn-ghost",reading.pdfGateMessage,true)}</div></div>${renderHomeWorkspaceMockup(reading)}`;
+}
+
+function syncHomeCardState(card,state){
+  const link=card.querySelector(".card-link.rcard");
+  const status=card.querySelector(".rcard-status");
+  const stateLabel=state==="current"?"이번 주":state==="ready"?"공개됨":"잠금";
+  card.dataset.cardState=state;
+  if(link){
+    link.classList.toggle("is-current",state==="current");
+    link.classList.toggle("is-locked",state==="locked");
+  }
+  if(status){
+    status.classList.remove("ready","current","locked");
+    status.classList.add(state);
+    status.textContent=stateLabel;
+  }
+}
+
+function syncHomeRailState(item,state,isScheduleCurrent=false){
+  item.classList.toggle("is-current",Boolean(isScheduleCurrent));
+  item.classList.toggle("is-done",state==="ready");
+  const reading=item.querySelector(".rail-reading");
+  if(reading){
+    reading.classList.remove("ready","current","locked");
+    reading.classList.add(state);
+  }
+}
+
+function initDynamicHomeCurrentReading(){
+  const payload=parseHomeReadingData();
+  if(!payload)return;
+  const today=todayIsoDateForZone(payload.dateTimeZone||"Asia/Seoul");
+  const current=selectHomeCurrentReading(payload.readings,today,String(payload.publishCutoffDate||"").trim());
+  const currentSlug=current?.slug||"";
+  const hero=document.querySelector("[data-home-hero]");
+  if(hero)hero.innerHTML=renderDynamicHomeHero(current);
+
+  document.querySelectorAll("[data-reading-card]").forEach((card)=>{
+    const reading=payload.readings.find((item)=>item.slug===card.dataset.readingSlug);
+    syncHomeCardState(card,homeReadingState(reading,currentSlug));
+  });
+
+  document.querySelectorAll("[data-home-rail-item]").forEach((item)=>{
+    const reading=payload.readings.find((entry)=>entry.slug===item.dataset.readingSlug);
+    syncHomeRailState(item,homeReadingState(reading,currentSlug),reading?.slug===currentSlug);
+  });
+
+  const railMeta=document.querySelector(".home-dashboard .rail-toggle-meta");
+  if(railMeta&&current)railMeta.textContent=`${current.displayDateLabel||current.classDate} · ${current.title}`;
+}
+
 function initGatedLinks(){
   document.querySelectorAll("[data-gated-link]").forEach((element)=>{
     element.addEventListener("click",(event)=>{
@@ -911,6 +1045,7 @@ function initReadingProgressAndToc(){
 
 document.addEventListener("DOMContentLoaded",()=>{
   initTheme();
+  initDynamicHomeCurrentReading();
   initGatedLinks();
   initHomeRail();
   initHomeFilters();
