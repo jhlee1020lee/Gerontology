@@ -1,0 +1,27 @@
+{
+    "meta":  {
+                 "run_id":  "2026-05-14-003",
+                 "slug":  "konrath-et-al-2012",
+                 "original_length":  24701,
+                 "rewritten_length":  24608,
+                 "approximate_change_rate_percent":  0.88
+             },
+    "verdict":  "full_pass",
+    "decision":  "accept_with_note",
+    "protected_items":  "numbers, dates, names, citations, formulas, markdown image links and direct English terms were not targeted by rewrite rules",
+    "checked_dimensions":  [
+                               "names",
+                               "numbers",
+                               "dates",
+                               "citations",
+                               "claim_direction",
+                               "causality",
+                               "negation",
+                               "markdown_structure"
+                           ],
+    "notes":  [
+                  "All edits are local style contractions or Korean rhythm adjustments.",
+                  "No sentence-level deletion, addition of claims, or reordering was performed.",
+                  "Change rate is intentionally low because this is a scholarly translation and fidelity outranks aggressive rewriting."
+              ]
+}

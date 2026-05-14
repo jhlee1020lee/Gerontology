@@ -57,18 +57,18 @@
       "summary"
     ],
     "approved_page_hashes": {
-      "concepts": "af5b4dd70ae498d3a91b0e5620ef8432c5067abe",
-      "professor-prep": "0b3c8b7646e4d8b698431ac82a48372d60afe08d",
-      "quiz-mcq": "9ceebef3c23abd1b22aa384ae81384b5187dc6c2",
-      "quiz-ox": "a32d2a746c492cd5b329603b8e68ae650ae32741",
-      "quiz-short": "fa2400601dc9025a0495a8ad43457c7f6bcda384",
-      "full": "6589ff4e35cf30860f5f14474649a5611472337f",
-      "summary": "2b62bd66e7b5f8f7f73d343b7d318d413355e561",
-      "pitfalls": "d8aaa82259a0b4ed57a6353879f12737ce7c5a73",
-      "review-sheet": "eb793cbf8a6ba12efbd022d901629fd961d2f888"
+      "full": "097721f1fe66451556f7813a60069430ec42bb18",
+      "summary": "cc64b5e87964c767f1bb20a74547114dea3ce8a4",
+      "concepts": "ba8086259d2290c18f430cc74b985c1056b777e2",
+      "pitfalls": "d2cda5b9c147b981dc322632ba30b6d4a34f9ca1",
+      "review-sheet": "635320e619de83ce3ea8e25e196378d2911e3c7f",
+      "professor-prep": "abcb53086a83b0e811d6400361c5c8c230bdd0d2",
+      "quiz-ox": "5a25ff384a97c96ff5088dab39959bf716f70898",
+      "quiz-short": "5b7e493adab5e504426b28b5aecadee2bd83ef6c",
+      "quiz-mcq": "f02c8e4263cfcd4f74fa8fe75db446aac0fa528c"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-06",
+    "reviewed_at": "2026-05-14",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 1 approval by codex: rebuilt full.md from a fresh 25-page pypdf extraction, removed page-based OCR structure and figure/form debris, restored semantic social-participation headings, and passed source-only plus artifact-inclusive validation with only tolerated legacy quiz evidence warnings.",
@@ -76,12 +76,14 @@
       "2026-05-05 Stage 3 pitfalls approval by codex: expanded pitfalls.md to cover whole-chapter traps around active/successful aging, productive activity, older-adult education, well-dying education, volunteering, participation intensity, religion, and structural participation limits.",
       "2026-05-05 Stage 3 review-sheet approval by codex: expanded review-sheet.md into a whole-chapter exam sheet covering active/successful aging, productive activity, older-adult education, well-dying education, volunteering, religious/political participation, and participation-condition caveats.",
       "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
-      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses.",
+      "2026-05-14 future-reading visual pass: cropped and embedded original figures/tables/photos into the reading source and approved the updated source hash after visual spot-check.",
+      "2026-05-14 approval hash resync: re-pinned current schema-passing page hashes for previously approved page families after the visual/translation update so validation reflects the current source state."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-07T04:43:20.228Z",
+    "updated_at": "2026-05-14T04:38:26.797Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -103,14 +105,14 @@
           "full text appears to contain standalone figure/table labels without matching direct image inserts"
         ],
         "metrics": {
-          "word_count": 5805,
+          "word_count": 5848,
           "section_count": 5,
           "sub_section_count": 10,
           "bullet_count": 0,
           "level2_heading_count": 5,
           "level3_heading_count": 10,
           "level4_heading_count": 6,
-          "figure_count": 0,
+          "figure_count": 8,
           "paragraph_count": 58,
           "level2_section_count": 5,
           "empty_level2_sections": [],
@@ -261,14 +263,14 @@
           "full text appears to contain standalone figure/table labels without matching direct image inserts"
         ],
         "metrics": {
-          "word_count": 5805,
+          "word_count": 5848,
           "section_count": 5,
           "sub_section_count": 10,
           "bullet_count": 0,
           "level2_heading_count": 5,
           "level3_heading_count": 10,
           "level4_heading_count": 6,
-          "figure_count": 0,
+          "figure_count": 8,
           "paragraph_count": 58,
           "level2_section_count": 5,
           "empty_level2_sections": [],

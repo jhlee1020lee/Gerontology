@@ -1,0 +1,105 @@
+{
+    "meta":  {
+                 "run_id":  "2026-05-14-003",
+                 "slug":  "konrath-et-al-2012",
+                 "input_file":  "content/readings/konrath-et-al-2012/translation.md",
+                 "input_length":  24701,
+                 "estimated_genre":  "academic_translation",
+                 "detected_count":  93,
+                 "ai_tell_density":  3.765,
+                 "severity_weighted_score":  93,
+                 "category_summary":  {
+                                          "A-8":  50,
+                                          "E-2":  11,
+                                          "A-15":  12,
+                                          "H-1":  13,
+                                          "D-1":  7
+                                      }
+             },
+    "findings":  [
+                     {
+                         "id":  "F001",
+                         "category":  "A-15",
+                         "category_label":  "translationese_or_ai_rhythm",
+                         "severity":  "S2",
+                         "scope":  "document_pattern",
+                         "text_span":  "보여 주",
+                         "offsets":  null,
+                         "count":  5,
+                         "reason":  "추상 주어+인지동사 반복에서 불필요한 분절 완화",
+                         "suggested_fix":  "보여주"
+                     },
+                     {
+                         "id":  "F002",
+                         "category":  "A-15",
+                         "category_label":  "translationese_or_ai_rhythm",
+                         "severity":  "S2",
+                         "scope":  "document_pattern",
+                         "text_span":  "보여 준",
+                         "offsets":  null,
+                         "count":  7,
+                         "reason":  "추상 주어+인지동사 반복에서 불필요한 분절 완화",
+                         "suggested_fix":  "보여준"
+                     },
+                     {
+                         "id":  "F003",
+                         "category":  "A-8",
+                         "category_label":  "translationese_or_ai_rhythm",
+                         "severity":  "S2",
+                         "scope":  "document_pattern",
+                         "text_span":  "되었",
+                         "offsets":  null,
+                         "count":  48,
+                         "reason":  "피동 완료형의 문장 호흡 축약",
+                         "suggested_fix":  "됐"
+                     },
+                     {
+                         "id":  "F004",
+                         "category":  "A-8",
+                         "category_label":  "translationese_or_ai_rhythm",
+                         "severity":  "S2",
+                         "scope":  "document_pattern",
+                         "text_span":  "되어",
+                         "offsets":  null,
+                         "count":  2,
+                         "reason":  "피동 보조구문 축약",
+                         "suggested_fix":  "돼"
+                     },
+                     {
+                         "id":  "F005",
+                         "category":  "E-2",
+                         "category_label":  "translationese_or_ai_rhythm",
+                         "severity":  "S2",
+                         "scope":  "document_pattern",
+                         "text_span":  "하여",
+                         "offsets":  null,
+                         "count":  11,
+                         "reason":  "문어적 연결어미 축약",
+                         "suggested_fix":  "해"
+                     },
+                     {
+                         "id":  "F006",
+                         "category":  "D-1",
+                         "category_label":  "translationese_or_ai_rhythm",
+                         "severity":  "S2",
+                         "scope":  "document_pattern",
+                         "text_span":  "이러한",
+                         "offsets":  null,
+                         "count":  7,
+                         "reason":  "반복되는 지시형 문어투 완화",
+                         "suggested_fix":  "이런"
+                     },
+                     {
+                         "id":  "F007",
+                         "category":  "H-1",
+                         "category_label":  "translationese_or_ai_rhythm",
+                         "severity":  "S2",
+                         "scope":  "document_pattern",
+                         "text_span":  "또한",
+                         "offsets":  null,
+                         "count":  13,
+                         "reason":  "문두 접속부사 반복 완화",
+                         "suggested_fix":  "또"
+                     }
+                 ]
+}

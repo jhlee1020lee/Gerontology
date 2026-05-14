@@ -1,0 +1,26 @@
+[
+  {
+    "source": "page-05.png",
+    "output": "figure-15-1.png",
+    "x": 150,
+    "y": 135,
+    "width": 540,
+    "height": 460
+  },
+  {
+    "source": "page-09.png",
+    "output": "table-15-1.png",
+    "x": 145,
+    "y": 220,
+    "width": 610,
+    "height": 600
+  },
+  {
+    "source": "page-19.png",
+    "output": "photo-de-port-care-farm.png",
+    "x": 145,
+    "y": 145,
+    "width": 610,
+    "height": 310
+  }
+]

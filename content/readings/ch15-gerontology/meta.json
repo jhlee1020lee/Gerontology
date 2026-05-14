@@ -57,18 +57,18 @@
       "summary"
     ],
     "approved_page_hashes": {
-      "concepts": "b91f349e33dd4860380b0ddcd66f308b77c3d083",
-      "professor-prep": "8ae1cd7771ad277033116799c3a441da3a927ba4",
-      "quiz-mcq": "ef65bf1f20ed52cb9fcca26371cb8fc5a3486673",
-      "quiz-ox": "a1b947ee8a0c81c01ff531bd350cfc6f33627068",
-      "quiz-short": "287f43ee43f29e5b1591fa45eeef5c12f3020f4f",
-      "full": "088a788155fe647acf3cf5e5d8c459a49ffe7410",
-      "summary": "1f75151d1ed2d86bf14648588a8e00b07e631dcf",
-      "pitfalls": "2427a6b092c443ea2656764b191e796cf2d0a43c",
-      "review-sheet": "c609f00b2cad1544db48f707796ff8d5753ed646"
+      "full": "180326f3f074f832d5bd7eaf26cd51c71e92ecf2",
+      "summary": "380d5dc63667e2bade4da286d2624d1b5e903d04",
+      "concepts": "070af90f53664a7697ceced301961116a1e901a1",
+      "pitfalls": "1549279bd35d483c94bf47af4eafb9aa87a427bc",
+      "review-sheet": "89956c5e89b98f0a171497dfcd68a585220ae990",
+      "professor-prep": "bcd7961aaefb79a4f1e2fc640f524044df281908",
+      "quiz-ox": "4363aeb9cdb74c88ea5df6d44650cc451512ab1d",
+      "quiz-short": "7ca7635e1a70045134f13a91b67a169ce05626ff",
+      "quiz-mcq": "0228e158802d6af593ff14dcd0f7ec50d302a2c8"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-06",
+    "reviewed_at": "2026-05-14",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 1 approval by codex: rebuilt full.md from a fresh 19-page pypdf extraction, removed page-based mojibake/OCR structure and running headers, restored semantic environment/community/AIP headings, preserved reading boxes, table and figure evidence as text, and passed source-only plus artifact-inclusive validation with only tolerated caption/table-without-image and legacy quiz evidence warnings.",
@@ -76,12 +76,14 @@
       "2026-05-05 Stage 3 pitfalls approval by codex: rewrote mojibake-corrupted pitfalls into seven chapter-specific traps covering environment scope, environmental press-competence fit, pedestrian safety, neighborhood effects, community social capital, place attachment, and AIP versus relocation; source-only and artifact-inclusive validation passed with only tolerated legacy quiz evidence warnings.",
       "2026-05-05 Stage 3 review-sheet approval by codex: rewrote mojibake-corrupted review sheet into an exam-ready page with core axes, statistics and cases, professor-answer sentences, and final self-check traps grounded in environmental gerontology, person-environment fit, community capital, place attachment, AIP, age-friendly city, universal design, and relocation; source-only and artifact-inclusive validation passed with only tolerated legacy quiz evidence warnings.",
       "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
-      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses.",
+      "2026-05-14 future-reading visual pass: cropped and embedded original figures/tables/photos into the reading source and approved the updated source hash after visual spot-check.",
+      "2026-05-14 approval hash resync: re-pinned current schema-passing page hashes for previously approved page families after the visual/translation update so validation reflects the current source state."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-07T04:43:20.243Z",
+    "updated_at": "2026-05-14T04:38:26.854Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -99,18 +101,16 @@
       "full": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "full text appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 4483,
+          "word_count": 4500,
           "section_count": 5,
           "sub_section_count": 16,
           "bullet_count": 0,
           "level2_heading_count": 5,
           "level3_heading_count": 16,
           "level4_heading_count": 2,
-          "figure_count": 0,
+          "figure_count": 3,
           "paragraph_count": 22,
           "level2_section_count": 5,
           "empty_level2_sections": [],
@@ -257,18 +257,16 @@
       "full": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "full text appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 4483,
+          "word_count": 4500,
           "section_count": 5,
           "sub_section_count": 16,
           "bullet_count": 0,
           "level2_heading_count": 5,
           "level3_heading_count": 16,
           "level4_heading_count": 2,
-          "figure_count": 0,
+          "figure_count": 3,
           "paragraph_count": 22,
           "level2_section_count": 5,
           "empty_level2_sections": [],

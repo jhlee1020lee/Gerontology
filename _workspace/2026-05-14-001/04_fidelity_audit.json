@@ -1,0 +1,27 @@
+{
+    "meta":  {
+                 "run_id":  "2026-05-14-001",
+                 "slug":  "calvo-et-al-2018",
+                 "original_length":  27794,
+                 "rewritten_length":  27730,
+                 "approximate_change_rate_percent":  0.63
+             },
+    "verdict":  "full_pass",
+    "decision":  "accept_with_note",
+    "protected_items":  "numbers, dates, names, citations, formulas, markdown image links and direct English terms were not targeted by rewrite rules",
+    "checked_dimensions":  [
+                               "names",
+                               "numbers",
+                               "dates",
+                               "citations",
+                               "claim_direction",
+                               "causality",
+                               "negation",
+                               "markdown_structure"
+                           ],
+    "notes":  [
+                  "All edits are local style contractions or Korean rhythm adjustments.",
+                  "No sentence-level deletion, addition of claims, or reordering was performed.",
+                  "Change rate is intentionally low because this is a scholarly translation and fidelity outranks aggressive rewriting."
+              ]
+}

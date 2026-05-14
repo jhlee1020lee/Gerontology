@@ -1,0 +1,21 @@
+{
+    "meta":  {
+                 "run_id":  "2026-05-14-004",
+                 "slug":  "carr-fang-2021",
+                 "checked_after_rewrite":  true
+             },
+    "verdict":  "full_pass",
+    "quality_grade":  "A-",
+    "residual_patterns":  [
+                              "Academic terms such as HR, CI, sequence, model, and named scales are intentionally preserved.",
+                              "Some formal connectors remain where needed for scholarly argument structure.",
+                              "Low-risk rewrite scope kept change rate below the generic 5 percent guideline to preserve content fidelity."
+                          ],
+    "key_changes":  [
+                        "보여 주다/보여 준 계열 분절 완화",
+                        "하였다/되었다/하여 계열 문어 리듬 축약",
+                        "이러한/그러한 반복 완화",
+                        "또한 반복 완화",
+                        "based on/through 직역 일부 완화"
+                    ]
+}

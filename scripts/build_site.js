@@ -635,7 +635,12 @@ function readingOverviewTarget(reading){return isAccessibleReading(reading)?"ind
 function approvedPageTarget(reading,pageKey){return hasApprovedSourcePage(reading,pageKey)?pageByKey(reading,pageKey)?.filename||"":"";}
 function reviewReadyProfessorPrepTarget(reading){const page=pageByKey(reading,"professor-prep");return page&&page.available&&isReadyStatus(page.source_validation_status)?page.filename||"":"";}
 function firstApprovedPageTarget(reading,pageKeys){for(const pageKey of pageKeys){const target=approvedPageTarget(reading,pageKey);if(target)return target;}return"";}
-function readingStartTarget(reading){return firstApprovedPageTarget(reading,["full","translation","summary","concepts","pitfalls","review-sheet"])||readingOverviewTarget(reading);}
+function readingStartTarget(reading){
+  const orderedKeys=reading.language==="en"
+    ?["translation","full","summary","concepts","pitfalls","review-sheet"]
+    :["full","translation","summary","concepts","pitfalls","review-sheet"];
+  return firstApprovedPageTarget(reading,orderedKeys)||readingOverviewTarget(reading);
+}
 function quizOverviewTarget(reading){return firstApprovedPageTarget(reading,["quiz-ox","quiz-short","quiz-mcq"]);}
 function prepTarget(reading){return approvedPageTarget(reading,"professor-prep")||reviewReadyProfessorPrepTarget(reading);}
 function readingGateMessage(reading){if(isReleaseLockedReading(reading))return toText(reading.publish_cutoff_note)||"다시 점검한 뒤 공개합니다.";if(reading.metadata_status!=="complete")return"메타데이터 확인 후 공개합니다.";if(isBlockedReading(reading))return"이 읽기는 전체 승인 전이라 아직 공개되지 않습니다.";if(!isAccessibleReading(reading))return"준비중입니다.";return"준비중입니다.";}

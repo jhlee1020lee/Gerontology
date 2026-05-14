@@ -157,6 +157,9 @@ stressors may include having fewer resources for the self (e.g., less
 Table 1
 
 Other-Oriented Versus Self-Oriented Motives for Volunteering and Subscale Intercorrelations
+
+![Table 1. Other-oriented versus self-oriented motives for volunteering and subscale intercorrelations](figures/table-1.png)
+
 Motive M ( SD ) Motive Index Questionnaire items
 
 Correlation with
@@ -535,6 +538,9 @@ model in Step 5.
 Figure 1. Examining overall effects of volunteering on mortality status in
 
 Part A. Note: All models were run separately.
+
+![Figure 1. Examining overall effects of volunteering on mortality status](figures/figure-1.png)
+
  0.28, p  .02, odds ratio  0.76, 95% CI  [.60, .95]. In
 addition, married respondents had a lower mortality risk than
 unmarried ones,    0.50, p  .03, odds ratio  0.61, 95% CI 
@@ -584,6 +590,9 @@ zero represented more other-oriented motives, and numbers be-
 Table 2
 
 Hierarchical Logistic Regression Model Used to Predict Mortality Risk in Part B
+
+![Table 2. Hierarchical logistic regression model used to predict mortality risk](figures/table-2.png)
+
 Step 1 Step 2 Step 3 Step 4 Step 5
 
  Odds ratio  Odds ratio  Odds ratio  Odds ratio  Odds ratio
@@ -738,6 +747,9 @@ their predominant motives were just as likely as nonvolunteers to
 Figure 2. Percentage of respondents who were deceased in 2008, categorized by highest motive for volun-
 
 teering, compared with nonvolunteers (Part C). Note: Capped bars denote SE s.
+
+![Figure 2. Percentage deceased by highest motive for volunteering](figures/figure-2.png)
+
 be deceased ( p s  .25). In addition, respondents with predomi-
 nantly social connection motives were marginally less likely to be
 deceased compared with those with self-protection motives ( p 

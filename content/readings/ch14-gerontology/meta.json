@@ -57,18 +57,18 @@
       "summary"
     ],
     "approved_page_hashes": {
-      "concepts": "80ca04928c237c7bdb83efb0eea817a3d68180a6",
-      "professor-prep": "f6b7a2473098c541ef5ffb6f411c99d85b3cca5a",
-      "quiz-mcq": "1dd182f8c571defee7e647feb14bf4d10c7599ec",
-      "quiz-ox": "22759f63f57904d6e199a94ccaf7bd88f7f42314",
-      "quiz-short": "a9dd08dcaa978da035755ef9f78a906d797a52de",
-      "full": "8018442963d0763259003c7c6d7d869438458511",
-      "summary": "031194115f434f6ec3584f7e996ebef5b2d07524",
-      "pitfalls": "56873091465e640d669948459b4488e579caf50a",
-      "review-sheet": "c2259a7c377f06272f2cbf9145b85f37d415da46"
+      "full": "f3a622846c986d29e045f4842ec050111ff46dc5",
+      "summary": "7ab66501f54f2b6e0499001066d0d29d428b2a09",
+      "concepts": "e6acbfc85c5d9caf7973d081dfa553f24583423e",
+      "pitfalls": "62572cdf10a3fd3528591536df2e1043b82348e8",
+      "review-sheet": "4dd61af64ba3fd08568d837d2054e00b383a6856",
+      "professor-prep": "a5fe3958d0b3c151a97afe264eb07fcf8f693341",
+      "quiz-ox": "5e167e8ddf52601e08d6137868b31217db329c2f",
+      "quiz-short": "34ea126ec1bc7f36bc9c7e0c437df1e7816b3e4f",
+      "quiz-mcq": "be05b9756e235f9ed8caa0608ada65869632d77f"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-06",
+    "reviewed_at": "2026-05-14",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 1 approval by codex: rebuilt full.md from a fresh 27-page pypdf extraction, removed page-based OCR structure and running headers, restored semantic policy headings, preserved tables/figures as text evidence, and passed source-only plus artifact-inclusive validation with only tolerated caption-without-image and legacy quiz evidence warnings.",
@@ -76,12 +76,14 @@
       "2026-05-05 Stage 3 pitfalls approval by codex: rewrote pitfalls.md to name chapter-specific traps around pension reductionism, absolute versus relative poverty, public assistance versus social insurance, basic pension versus National Pension, health security scope, long-term care eligibility procedure, and housing security; validation passes with only tolerated legacy warnings outside this page family.",
       "2026-05-05 Stage 3 review-sheet approval by codex: rewrote review-sheet.md into an exam-ready sheet with policy axes, public-assistance/social-insurance distinctions, professor-ready sentences, and final self-check traps; source-only and artifact-inclusive validation pass with only tolerated legacy warnings outside this page family.",
       "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
-      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses.",
+      "2026-05-14 future-reading visual pass: cropped and embedded original figures/tables/photos into the reading source and approved the updated source hash after visual spot-check.",
+      "2026-05-14 approval hash resync: re-pinned current schema-passing page hashes for previously approved page families after the visual/translation update so validation reflects the current source state."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-07T04:43:20.235Z",
+    "updated_at": "2026-05-14T04:38:26.827Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -99,18 +101,16 @@
       "full": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "full text appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 5549,
+          "word_count": 5594,
           "section_count": 7,
           "sub_section_count": 12,
           "bullet_count": 19,
           "level2_heading_count": 7,
           "level3_heading_count": 12,
           "level4_heading_count": 13,
-          "figure_count": 0,
+          "figure_count": 9,
           "paragraph_count": 63,
           "level2_section_count": 7,
           "empty_level2_sections": [],
@@ -257,18 +257,16 @@
       "full": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "full text appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 5549,
+          "word_count": 5594,
           "section_count": 7,
           "sub_section_count": 12,
           "bullet_count": 19,
           "level2_heading_count": 7,
           "level3_heading_count": 12,
           "level4_heading_count": 13,
-          "figure_count": 0,
+          "figure_count": 9,
           "paragraph_count": 63,
           "level2_section_count": 7,
           "empty_level2_sections": [],

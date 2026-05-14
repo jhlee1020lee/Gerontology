@@ -376,6 +376,8 @@ Figure 1. An illustration of an early iteration in our coding process. Shaded bo
 
 search questions for this study. Codes we initially identified as interconnected are joined by arrows.
 
+![Figure 1. Early iteration in the coding process](figures/figure-1.png)
+
 themes: (a) remaining “independent and active,” (b)
 
 coping with increasing dependency needs, (c) conflicting
@@ -457,6 +459,8 @@ got something going on every day, all day long [laughs]!
 Figure 2. An illustration of a later iteration of our coding process that reflects refinement and elaboration of the initial codes identified in Figure 1 .
 
 Here, we refine our codes related to independence/dependence/autonomy.
+
+![Figure 2. Later iteration in the coding process](figures/figure-2.png)
 
 Roger had moved to the village with his wife, Margaret,
 

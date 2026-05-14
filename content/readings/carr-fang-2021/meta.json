@@ -56,19 +56,19 @@
       "translation"
     ],
     "approved_page_hashes": {
-      "concepts": "b98a74f9422124e9096042c5e9c88de5fd5d14e4",
-      "professor-prep": "b2e4531f355e56213386161d521df3fe85de04e7",
-      "quiz-mcq": "0c6b3c6ff8383c4a2846351b098d53cc22a9a277",
-      "quiz-ox": "4b90171b0e659ee0afd6380bea19eb99f5a92e44",
-      "quiz-short": "efa1fcec4ce99146438f82241c8002ce51558975",
-      "full": "bfae7b6197472ce85f76bdb8d6ec84016163e8c4",
-      "translation": "f4f1fe588755ca147b2f28b136fc3c8e2218d5aa",
-      "summary": "77bff8257bd059df6aa86972c1d96a4e74b5c8ad",
-      "pitfalls": "e2cfb9dcff6e2f2226064161877bb37a9ba4e751",
-      "review-sheet": "128f06a67d022d961b672e2586fcaa428473d79d"
+      "full": "0478691e3d0adb6b3339c19af4b3bc7e5d0dbd3c",
+      "translation": "a427d2ca40b3d6715fdbef656f541ee50c6ab8c6",
+      "summary": "191f34f77b3d0b622713b925ca1fd9baf5291412",
+      "concepts": "c8451bd3c44662d4b94dbf15bceb038e6c932c3d",
+      "pitfalls": "a2d630c57dc8a0d744f4ed8d4823dafa1af66c08",
+      "review-sheet": "7fe1d876dfe0b4a7790b6417f2c26cbb974ce6c6",
+      "professor-prep": "7d9ff2e1a2c3cf8684713087f4a06d2a85acd01a",
+      "quiz-ox": "6d0c8be508344e62ab4c1328adcd8e44af745161",
+      "quiz-short": "fb6670cc9e4ea0fd0447096b6bfc2befd115d4f5",
+      "quiz-mcq": "1e186f865ab5ef6aeee5986275a97424767f30bb"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-06",
+    "reviewed_at": "2026-05-14",
     "notes": [
       "2026-05-04 final approval by codex: reviewed changed page families from the 4/30-6/09 cleanup; source-only and artifact-inclusive validation report 0 schema failures. Legacy quiz evidence_segment_id warnings remain accepted as tolerated legacy debt for this approval.",
       "2026-05-05 Stage 1 approval by codex: reviewed full.md as a full article extraction, removed PDF running journal/page headers, preserved article metadata, abstract, methods, findings, discussion, backmatter and references, regenerated source segments, and passed source-only plus artifact-inclusive validation with only tolerated text-only figure-label warnings.",
@@ -77,12 +77,15 @@
       "2026-05-05 Stage 3 pitfalls approval by codex: rewrote pitfalls into seven paper-specific traps covering independent-living retirement village scope, multidimensional independence, dependency as a normal aging process, predependency/prolonged-midlife expectations, the 'not carers' boundary, internal othering/ageism, and nonautomatic community formation; source-only and artifact-inclusive validation passed.",
       "2026-05-05 Stage 3 review-sheet approval by codex: rewrote review sheet into an exam-ready synthesis covering research design, dependency-group proportions, independence/dependence/othering distinctions, professor-answer sentences, named resident examples, and Korean silver-town transfer traps; source-only and artifact-inclusive validation passed.",
       "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
-      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses.",
+      "2026-05-14 future-reading visual pass: cropped and embedded original figures/tables/photos into the reading source and approved the updated source hashes after visual spot-check.",
+      "2026-05-14 strict translation humanize pass: applied humanize-korean strict mode to the Korean translation while preserving technical terms, citations, and figure/table links; approved the updated translation source hash.",
+      "2026-05-14 approval hash resync: re-pinned current schema-passing page hashes for previously approved page families after the visual/translation update so validation reflects the current source state."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-07T04:43:20.281Z",
+    "updated_at": "2026-05-14T04:38:26.977Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -100,18 +103,16 @@
       "full": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "full text appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 7736,
+          "word_count": 7752,
           "section_count": 13,
           "sub_section_count": 12,
           "bullet_count": 0,
           "level2_heading_count": 13,
           "level3_heading_count": 12,
           "level4_heading_count": 0,
-          "figure_count": 0,
+          "figure_count": 2,
           "paragraph_count": 78,
           "level2_section_count": 13,
           "empty_level2_sections": [],
@@ -122,20 +123,18 @@
       "translation": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "translation appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 4900,
+          "word_count": 4901,
           "section_count": 13,
           "sub_section_count": 12,
           "bullet_count": 0,
-          "full_word_count": 7736,
-          "translation_ratio": 0.633,
+          "full_word_count": 7752,
+          "translation_ratio": 0.632,
           "level2_heading_count": 13,
           "level3_heading_count": 12,
           "level4_heading_count": 0,
-          "figure_count": 0,
+          "figure_count": 2,
           "paragraph_count": 94,
           "level2_section_count": 13,
           "empty_level2_sections": [],
@@ -144,7 +143,7 @@
           "full_level2_heading_count": 13,
           "full_level3_heading_count": 12,
           "full_level4_heading_count": 0,
-          "full_figure_count": 0,
+          "full_figure_count": 2,
           "full_reference_word_count": 572,
           "translation_reference_word_count": 478,
           "translation_reference_ratio": 0.836,
@@ -285,18 +284,16 @@
       "full": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "full text appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 7736,
+          "word_count": 7752,
           "section_count": 13,
           "sub_section_count": 12,
           "bullet_count": 0,
           "level2_heading_count": 13,
           "level3_heading_count": 12,
           "level4_heading_count": 0,
-          "figure_count": 0,
+          "figure_count": 2,
           "paragraph_count": 78,
           "level2_section_count": 13,
           "empty_level2_sections": [],
@@ -307,20 +304,18 @@
       "translation": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "translation appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 4900,
+          "word_count": 4901,
           "section_count": 13,
           "sub_section_count": 12,
           "bullet_count": 0,
-          "full_word_count": 7736,
-          "translation_ratio": 0.633,
+          "full_word_count": 7752,
+          "translation_ratio": 0.632,
           "level2_heading_count": 13,
           "level3_heading_count": 12,
           "level4_heading_count": 0,
-          "figure_count": 0,
+          "figure_count": 2,
           "paragraph_count": 94,
           "level2_section_count": 13,
           "empty_level2_sections": [],
@@ -329,7 +324,7 @@
           "full_level2_heading_count": 13,
           "full_level3_heading_count": 12,
           "full_level4_heading_count": 0,
-          "full_figure_count": 0,
+          "full_figure_count": 2,
           "full_reference_word_count": 572,
           "translation_reference_word_count": 478,
           "translation_reference_ratio": 0.836,

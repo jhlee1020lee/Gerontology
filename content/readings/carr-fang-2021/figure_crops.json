@@ -1,0 +1,18 @@
+[
+  {
+    "source": "page-04.png",
+    "output": "figure-1.png",
+    "x": 85,
+    "y": 755,
+    "width": 800,
+    "height": 430
+  },
+  {
+    "source": "page-05.png",
+    "output": "figure-2.png",
+    "x": 85,
+    "y": 85,
+    "width": 800,
+    "height": 320
+  }
+]

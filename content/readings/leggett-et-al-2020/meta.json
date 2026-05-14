@@ -57,19 +57,19 @@
       "translation"
     ],
     "approved_page_hashes": {
-      "concepts": "24b859edba2c8f9549b7b5db42c3127d578c3388",
-      "full": "9446be643fbc5d9a49a60936c344b1bb55f58549",
-      "pitfalls": "2bd591d1771c4cc66189238931de248d75952af4",
-      "professor-prep": "12523762d0a720f2cd1f3997924686b502b072b4",
-      "quiz-mcq": "ad5c0ac1fc785a5757b9c4b8720ac3ec2eb2e6be",
-      "quiz-ox": "13956d2cb2b9267877f532073b0f19cd5c6f085b",
-      "quiz-short": "f88bda66386e310a46359c75a291ca16c3cd74ae",
-      "review-sheet": "b985a05cb0441ea1ead2ead00fc52ce982466cb8",
-      "summary": "59a4d86fcb63dcc0b8430917f5578d8864ac460a",
-      "translation": "5f4810122208c9eac3ea42a5a6054e4775b5ad03"
+      "full": "a01df9e3867690f8998edf1a3c5b7b16d00ca536",
+      "translation": "107efbc2ef6bec3c4863cbec69b6a2cec252ef2c",
+      "summary": "4c4728bc3a5ca72e673d9207ca6e56c7db9d8421",
+      "concepts": "33cf436da21fd7c7c93c9657b6231bb63d586e99",
+      "pitfalls": "573e3e5c562b6c7116cda5b8d8dc4050e097eabf",
+      "review-sheet": "6f01916cf8e0c9a1ca40114ab791d0e02b90e921",
+      "professor-prep": "01442d3c414310837a060b4b1384fb0ad798811e",
+      "quiz-ox": "3081c391bb233caa1fee00ac9da10670dbccee7b",
+      "quiz-short": "d18f6c50cc72dd8bd68fc2dfde2332758d6efc18",
+      "quiz-mcq": "60667a68c53c45aa82183d83ecf9ea676bf2ef45"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-06",
+    "reviewed_at": "2026-05-14",
     "notes": [
       "Reworked full.md from page-based headings into article sections and manually spot-checked section order.",
       "Stage 2 restart uses chunked full-translation passes from full.md; the prior short translation is not approved.",
@@ -79,12 +79,15 @@
       "2026-05-05 Stage 3 pitfalls rebuild: replaced generic pitfalls with reading-specific contrast pairs covering burden versus mortality benefit, comparison groups, Healthy Caregiver Hypothesis, interaction, cause-specific mortality, self-rated health, and causal limits.",
       "2026-05-05 Stage 3 review-sheet rebuild: replaced the generic last-minute sheet with compact framing, required numbers, contrast pairs, quiz traps, English terms, and causal cautions.",
       "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
-      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses.",
+      "2026-05-14 future-reading visual pass: cropped and embedded original figures/tables/photos into the reading source and approved the updated source hashes after visual spot-check.",
+      "2026-05-14 strict translation humanize pass: applied humanize-korean strict mode to the Korean translation while preserving technical terms, citations, and figure/table links; approved the updated translation source hash.",
+      "2026-05-14 approval hash resync: re-pinned current schema-passing page hashes for previously approved page families after the visual/translation update so validation reflects the current source state."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-07T04:43:20.372Z",
+    "updated_at": "2026-05-14T04:38:27.164Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -106,14 +109,14 @@
           "full text appears to contain standalone figure/table labels without matching direct image inserts"
         ],
         "metrics": {
-          "word_count": 6240,
+          "word_count": 6265,
           "section_count": 9,
           "sub_section_count": 10,
           "bullet_count": 0,
           "level2_heading_count": 9,
           "level3_heading_count": 7,
           "level4_heading_count": 4,
-          "figure_count": 0,
+          "figure_count": 3,
           "paragraph_count": 52,
           "level2_section_count": 9,
           "empty_level2_sections": [],
@@ -124,20 +127,18 @@
       "translation": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "translation appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 4884,
+          "word_count": 4901,
           "section_count": 9,
           "sub_section_count": 10,
           "bullet_count": 0,
-          "full_word_count": 6240,
-          "translation_ratio": 0.783,
+          "full_word_count": 6265,
+          "translation_ratio": 0.782,
           "level2_heading_count": 9,
           "level3_heading_count": 7,
           "level4_heading_count": 4,
-          "figure_count": 0,
+          "figure_count": 3,
           "paragraph_count": 114,
           "level2_section_count": 9,
           "empty_level2_sections": [],
@@ -146,7 +147,7 @@
           "full_level2_heading_count": 9,
           "full_level3_heading_count": 7,
           "full_level4_heading_count": 4,
-          "full_figure_count": 0,
+          "full_figure_count": 3,
           "full_reference_word_count": 1618,
           "translation_reference_word_count": 1449,
           "translation_reference_ratio": 0.896,
@@ -291,14 +292,14 @@
           "full text appears to contain standalone figure/table labels without matching direct image inserts"
         ],
         "metrics": {
-          "word_count": 6240,
+          "word_count": 6265,
           "section_count": 9,
           "sub_section_count": 10,
           "bullet_count": 0,
           "level2_heading_count": 9,
           "level3_heading_count": 7,
           "level4_heading_count": 4,
-          "figure_count": 0,
+          "figure_count": 3,
           "paragraph_count": 52,
           "level2_section_count": 9,
           "empty_level2_sections": [],
@@ -309,20 +310,18 @@
       "translation": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "translation appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 4884,
+          "word_count": 4901,
           "section_count": 9,
           "sub_section_count": 10,
           "bullet_count": 0,
-          "full_word_count": 6240,
-          "translation_ratio": 0.783,
+          "full_word_count": 6265,
+          "translation_ratio": 0.782,
           "level2_heading_count": 9,
           "level3_heading_count": 7,
           "level4_heading_count": 4,
-          "figure_count": 0,
+          "figure_count": 3,
           "paragraph_count": 114,
           "level2_section_count": 9,
           "empty_level2_sections": [],
@@ -331,7 +330,7 @@
           "full_level2_heading_count": 9,
           "full_level3_heading_count": 7,
           "full_level4_heading_count": 4,
-          "full_figure_count": 0,
+          "full_figure_count": 3,
           "full_reference_word_count": 1618,
           "translation_reference_word_count": 1449,
           "translation_reference_ratio": 0.896,

@@ -367,6 +367,8 @@ health it was 1.51).
 
 ### Table 1. Sample Characteristics (N = 10,650)
 
+![Table 1. Sample Characteristics](figures/table-1.png)
+
 Total sample Noncaregiver Nondementia caregiver Dementia caregiver
 
 N = 10,650 n = 7,841 n = 1,892 n = 917
@@ -409,6 +411,8 @@ care was consistent for heart disease (HR = 0.77, CI = [0.59,
 vascular disease (HR = 0.69; CI = [0.36, 1.30]) mortality.
 
 ### Table 2. Hazard Ratios for the Interaction Between Provision of Dementia Care and Levels of Self-Rated Health Predicting All-Cause Mortality
+
+![Table 2. Hazard ratios for the interaction between dementia care and self-rated health](figures/table-2.png)
 
 ## Discussion
 
@@ -529,6 +533,8 @@ proxy for actual health, there was good variability in the
 sample using this item and our controlling for ADLs accounts
 
 ### Figure 1. Model estimated hazard ratio of death comparing dementia caregivers and noncaregivers, strati fi ed by self-rated health
+
+![Figure 1. Model estimated hazard ratio of death](figures/figure-1.png)
 
 Note. Reference category is noncaregivers with the same level of self-reported health.
 

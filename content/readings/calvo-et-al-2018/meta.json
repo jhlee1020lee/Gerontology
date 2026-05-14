@@ -45,28 +45,28 @@
   "notebooklm_video_poster": null,
   "manual_review": {
     "approved_pages": [
-      "full",
-      "translation",
-      "summary",
       "concepts",
+      "full",
       "pitfalls",
-      "review-sheet",
       "professor-prep",
       "quiz-mcq",
       "quiz-ox",
-      "quiz-short"
+      "quiz-short",
+      "review-sheet",
+      "summary",
+      "translation"
     ],
     "approved_page_hashes": {
-      "full": "5c6447ae783b641b45b466e5dfd28804abb66f20",
-      "translation": "0ef3b428944f016d9f6b71abfe61bdf688fc86a4",
-      "summary": "1638406525aaf968f14a2673a32a43e8a0d22e7c",
-      "concepts": "b4b14eaead362605bf60826d6e09e975c5b94b2b",
-      "pitfalls": "00fbc76cb05a1efb42a694e536b1a2a2f674ae53",
-      "review-sheet": "2c9d36629ed9ad314ecd5fe7dccd86a7a134e614",
-      "professor-prep": "79f0597812c0aba8756df86d7ed8a17ac4c8770f",
-      "quiz-mcq": "25bc71c9f6d564af1688e2996dd5c40d52b37e2c",
-      "quiz-ox": "20fcb7f23b3565531aa2af833bf2e9ca09dfdeff",
-      "quiz-short": "60204b696e702ab8f32b0a30c3959c0131574a23"
+      "full": "e88f91f45f6218d2082756bf99574dc95d1c0e63",
+      "translation": "9ef1ea7e123dff19782063cd94f9d8aa84dd2101",
+      "summary": "6f3e3aa168b36c3348975a0b031f1cded5dc8239",
+      "concepts": "afad522fa61a47036d749e93e737aad696076b4d",
+      "pitfalls": "ceb24bc2e2ac4d0a0e488958ebebc83c0a926f2c",
+      "review-sheet": "313496d23be7e7dbd538c62455c5b53f5b765ffd",
+      "professor-prep": "1e9f0098c92d069a8067872f22e3d26270c29c37",
+      "quiz-ox": "54b0a466c49c87393303c3dc6d24b4a45fefbe42",
+      "quiz-short": "99e2f8bbbfb44204632e3240f0cb453f32682062",
+      "quiz-mcq": "c1fd19de6640c5fd100b2116fa96a9c926d7aaae"
     },
     "reviewer": "codex",
     "reviewed_at": "2026-05-14",
@@ -81,12 +81,14 @@
       "2026-05-05 Stage 3 review-sheet pass: rebuilt review-sheet.md as seven exam-prep blocks covering thesis, method/data, three destandardization criteria, balanced results, stratification, oral-answer lines, and final checks.",
       "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
       "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses.",
-      "2026-05-14 Stage 1/2 figure-table pass: cropped and embedded original Table 1, Figure 1, Table 2, Table 3, and Figure 2 into full.md and translation.md; removed placeholder/table-summary stand-ins; approved the updated source hashes after visual and schema review."
+      "2026-05-14 Stage 1/2 figure-table pass: cropped and embedded original Table 1, Figure 1, Table 2, Table 3, and Figure 2 into full.md and translation.md; removed placeholder/table-summary stand-ins; approved the updated source hashes after visual and schema review.",
+      "2026-05-14 strict translation humanize pass: applied humanize-korean strict mode to the Korean translation while preserving technical terms, citations, and figure/table links; approved the updated translation source hash.",
+      "2026-05-14 approval hash resync: re-pinned current schema-passing page hashes for previously approved page families after the visual/translation update so validation reflects the current source state."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-14T02:40:26.425Z",
+    "updated_at": "2026-05-14T04:38:26.942Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -126,12 +128,12 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 5539,
+          "word_count": 5528,
           "section_count": 13,
           "sub_section_count": 14,
           "bullet_count": 44,
           "full_word_count": 7063,
-          "translation_ratio": 0.784,
+          "translation_ratio": 0.783,
           "level2_heading_count": 13,
           "level3_heading_count": 14,
           "level4_heading_count": 2,
@@ -307,12 +309,12 @@
         "errors": [],
         "warnings": [],
         "metrics": {
-          "word_count": 5539,
+          "word_count": 5528,
           "section_count": 13,
           "sub_section_count": 14,
           "bullet_count": 44,
           "full_word_count": 7063,
-          "translation_ratio": 0.784,
+          "translation_ratio": 0.783,
           "level2_heading_count": 13,
           "level3_heading_count": 14,
           "level4_heading_count": 2,
