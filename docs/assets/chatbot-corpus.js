@@ -1,6 +1,6 @@
 window.AA_CHATBOT_CORPUS={
-  "generated_at": "2026-05-14T02:12:04.740Z",
-  "chunk_count": 2468,
+  "generated_at": "2026-05-14T02:40:26.786Z",
+  "chunk_count": 2462,
   "chunks": [
     {
       "id": "chatbot-00001",
@@ -12813,8 +12813,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "47,286 observations).\n\nMeasures\n\nLabor-Force Status\n\nTo construct retirement sequences we used labor-force status as coded by RAND (Chien et al., 2015): working full-time, working part-time, partly retired, completely retired, unemployed, disabled, or not in the labor force.\n\nSocial Stratification\n\nWe used measures of gender, class, and race. Gender is a dummy variable indicating females with 1 and males with 0. Class is based on years of education recoded into three levels: low (less than 12 years of education), middle (12 years of education, which is typically high school), and high (more than 12 years). Finally, race is measured with three categories, indicating: White, Black, and Hispanic. Table 1 presents descriptive statistics on the variables described earlier (for more details see Supplementary Appendix B).\n\nTable 1. Descriptive Statistics",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 47,286 observations).\n\nmeasures\n\nlabor-force status\n\nto construct retirement sequences we used labor-force status as coded by rand (chien et al., 2015): working full-time, working part-time, partly retired, completely retired, unemployed, disabled, or not in the labor force.\n\nsocial stratification\n\nwe used measures of gender, class, and race. gender is a dummy variable indicating females with 1 and males with 0. class is based on years of education recoded into three levels: low (less than 12 years of education), middle (12 years of education, which is typically high school), and high (more than 12 years). finally, race is measured with three categories, indicating: white, black, and hispanic. table 1 presents descriptive statistics on the variables described earlier (for more details see supplementary appendix b).\n\ntable 1. descriptive statistics",
+      "text": "47,286 observations).\n\nMeasures\n\nLabor-Force Status\n\nTo construct retirement sequences we used labor-force status as coded by RAND (Chien et al., 2015): working full-time, working part-time, partly retired, completely retired, unemployed, disabled, or not in the labor force.\n\nSocial Stratification\n\nWe used measures of gender, class, and race. Gender is a dummy variable indicating females with 1 and males with 0. Class is based on years of education recoded into three levels: low (less than 12 years of education), middle (12 years of education, which is typically high school), and high (more than 12 years). Finally, race is measured with three categories, indicating: White, Black, and Hispanic. Table 1 presents descriptive statistics on the variables described earlier (for more details see Supplementary Appendix B).\n\nTable 1. Descriptive Statistics\n\nAnalytic Strategy",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 47,286 observations).\n\nmeasures\n\nlabor-force status\n\nto construct retirement sequences we used labor-force status as coded by rand (chien et al., 2015): working full-time, working part-time, partly retired, completely retired, unemployed, disabled, or not in the labor force.\n\nsocial stratification\n\nwe used measures of gender, class, and race. gender is a dummy variable indicating females with 1 and males with 0. class is based on years of education recoded into three levels: low (less than 12 years of education), middle (12 years of education, which is typically high school), and high (more than 12 years). finally, race is measured with three categories, indicating: white, black, and hispanic. table 1 presents descriptive statistics on the variables described earlier (for more details see supplementary appendix b).\n\ntable 1. descriptive statistics\n\nanalytic strategy",
       "order": 29
     },
     {
@@ -12824,8 +12824,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Variable (%) All waves Age 60–61 Age 70–71\n\nLabor-force status\n\nFull-time work 26.52 44.23 8.81\n\nPart-time work 6.19 9.16 3.22\n\nPartly retired 10.32 6.93 13.70\n\nCompletely retired 44.12 23.47 64.76\n\nUnemployed 1.46 1.98 0.93\n\nDisabled 2.84 4.09 1.59\n\nNot in the labor force 8.56 10.14 6.99\n\nGender\n\nMen 44.87 — —\n\nWomen 55.13 — —\n\nClass\n\nLow education 26.32 — —\n\nMiddle education 36.37 — —\n\nHigh education 37.32 — —\n\nRace\n\nWhite non-Hispanic 73.18 — —\n\nBlack non-Hispanic 15.30 — —\n\nHispanic 9.45 — —\n\nOther non-Hispanic 2.07 — —\n\nAnalytic Strategy",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 variable (%) all waves age 60–61 age 70–71\n\nlabor-force status\n\nfull-time work 26.52 44.23 8.81\n\npart-time work 6.19 9.16 3.22\n\npartly retired 10.32 6.93 13.70\n\ncompletely retired 44.12 23.47 64.76\n\nunemployed 1.46 1.98 0.93\n\ndisabled 2.84 4.09 1.59\n\nnot in the labor force 8.56 10.14 6.99\n\ngender\n\nmen 44.87 — —\n\nwomen 55.13 — —\n\nclass\n\nlow education 26.32 — —\n\nmiddle education 36.37 — —\n\nhigh education 37.32 — —\n\nrace\n\nwhite non-hispanic 73.18 — —\n\nblack non-hispanic 15.30 — —\n\nhispanic 9.45 — —\n\nother non-hispanic 2.07 — —\n\nanalytic strategy",
+      "text": "We used sequence analysis to identify retirement sequences, creating sequence data for each individual and then comparing their similarities (MacIndoe & Abbott, 2004). Two individual sequences are considered similar if they are composed of similar statuses occurring in a similar order and at similar time-points. The similarity comparison results in a matrix summarizing the distance between all possible sequence pairs. “Distance” refers to the number of modifications (substitution and/or insertion/deletion) in statuses needed in one sequence to turn it into other sequence (Gabadinho, Ritschard, Müller, & Studer, 2011).",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 we used sequence analysis to identify retirement sequences, creating sequence data for each individual and then comparing their similarities (macindoe & abbott, 2004). two individual sequences are considered similar if they are composed of similar statuses occurring in a similar order and at similar time-points. the similarity comparison results in a matrix summarizing the distance between all possible sequence pairs. “distance” refers to the number of modifications (substitution and/or insertion/deletion) in statuses needed in one sequence to turn it into other sequence (gabadinho, ritschard, müller, & studer, 2011).",
       "order": 30
     },
     {
@@ -12835,8 +12835,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "We used sequence analysis to identify retirement sequences, creating sequence data for each individual and then comparing their similarities (MacIndoe & Abbott, 2004). Two individual sequences are considered similar if they are composed of similar statuses occurring in a similar order and at similar time-points. The similarity comparison results in a matrix summarizing the distance between all possible sequence pairs. “Distance” refers to the number of modifications (substitution and/or insertion/deletion) in statuses needed in one sequence to turn it into other sequence (Gabadinho, Ritschard, Müller, & Studer, 2011).",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 we used sequence analysis to identify retirement sequences, creating sequence data for each individual and then comparing their similarities (macindoe & abbott, 2004). two individual sequences are considered similar if they are composed of similar statuses occurring in a similar order and at similar time-points. the similarity comparison results in a matrix summarizing the distance between all possible sequence pairs. “distance” refers to the number of modifications (substitution and/or insertion/deletion) in statuses needed in one sequence to turn it into other sequence (gabadinho, ritschard, müller, & studer, 2011).",
+      "text": "We calculated distance using optimal matching analysis (OMA), which considers both substitution and insertions/ deletion costs (Elzinga, 2014; Gabadinho et al., 2011). Because using a theoretically derived cost matrix would have been highly arbitrary, we gave all statuses equal costs. We obtained similar results using dynamic hamming distances (DHD) and generalized hamming (HAM) methods, which focus exclusively on substitution costs (Supplementary Appendix C).",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 we calculated distance using optimal matching analysis (oma), which considers both substitution and insertions/ deletion costs (elzinga, 2014; gabadinho et al., 2011). because using a theoretically derived cost matrix would have been highly arbitrary, we gave all statuses equal costs. we obtained similar results using dynamic hamming distances (dhd) and generalized hamming (ham) methods, which focus exclusively on substitution costs (supplementary appendix c).",
       "order": 31
     },
     {
@@ -12846,8 +12846,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "We calculated distance using optimal matching analysis (OMA), which considers both substitution and insertions/ deletion costs (Elzinga, 2014; Gabadinho et al., 2011). Because using a theoretically derived cost matrix would have been highly arbitrary, we gave all statuses equal costs. We obtained similar results using dynamic hamming distances (DHD) and generalized hamming (HAM) methods, which focus exclusively on substitution costs (Supplementary Appendix C).",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 we calculated distance using optimal matching analysis (oma), which considers both substitution and insertions/ deletion costs (elzinga, 2014; gabadinho et al., 2011). because using a theoretically derived cost matrix would have been highly arbitrary, we gave all statuses equal costs. we obtained similar results using dynamic hamming distances (dhd) and generalized hamming (ham) methods, which focus exclusively on substitution costs (supplementary appendix c).",
+      "text": "Drawing on the pairwise distance matrix, we performed a cluster analysis to classify individual sequences into homogeneous types. We used the Ward hierarchical clustering method to agglomerate individual sequences and create sequence types or groups of individual sequences. To determine the most discriminant number of sequence types, we applied average silhouette width cluster cutoff criteria (Gabadinho et al., 2011; Supplementary Appendix D). We obtained similar results using the Dendrogramme cluster cutoff criteria (results available from the authors upon request).",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 drawing on the pairwise distance matrix, we performed a cluster analysis to classify individual sequences into homogeneous types. we used the ward hierarchical clustering method to agglomerate individual sequences and create sequence types or groups of individual sequences. to determine the most discriminant number of sequence types, we applied average silhouette width cluster cutoff criteria (gabadinho et al., 2011; supplementary appendix d). we obtained similar results using the dendrogramme cluster cutoff criteria (results available from the authors upon request).",
       "order": 32
     },
     {
@@ -12857,8 +12857,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Drawing on the pairwise distance matrix, we performed a cluster analysis to classify individual sequences into homogeneous types. We used the Ward hierarchical clustering method to agglomerate individual sequences and create sequence types or groups of individual sequences. To determine the most discriminant number of sequence types, we applied average silhouette width cluster cutoff criteria (Gabadinho et al., 2011; Supplementary Appendix D). We obtained similar results using the Dendrogramme cluster cutoff criteria (results available from the authors upon request).",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 drawing on the pairwise distance matrix, we performed a cluster analysis to classify individual sequences into homogeneous types. we used the ward hierarchical clustering method to agglomerate individual sequences and create sequence types or groups of individual sequences. to determine the most discriminant number of sequence types, we applied average silhouette width cluster cutoff criteria (gabadinho et al., 2011; supplementary appendix d). we obtained similar results using the dendrogramme cluster cutoff criteria (results available from the authors upon request).",
+      "text": "Next, we created graphs illustrating individual sequences and sequence types. Individual sequences portray the sequences of each individual composing a sequence type, while sequence types gather individual sequences into a more holistic and abstract cluster. We then obtained descriptive statistics on the most frequent transitions within sequences types and explored three indexes of their internal dynamism: entropy, complexity, and turbulence (Elzinga, 2014; Gabadinho et al., 2011). Next, we conducted simple and multifactor discrepancy analyses to test whether there were significant differences in sequences across gender, class, and race (Studer, Ritschard, Gabadinho, & Müller, 2011). Finally, we conducted additional analyses suggesting that our results were robust to including deceased individuals (Supplementary Appendix E), stratifying by period and cohort (Supplementary Appendix F),",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 next, we created graphs illustrating individual sequences and sequence types. individual sequences portray the sequences of each individual composing a sequence type, while sequence types gather individual sequences into a more holistic and abstract cluster. we then obtained descriptive statistics on the most frequent transitions within sequences types and explored three indexes of their internal dynamism: entropy, complexity, and turbulence (elzinga, 2014; gabadinho et al., 2011). next, we conducted simple and multifactor discrepancy analyses to test whether there were significant differences in sequences across gender, class, and race (studer, ritschard, gabadinho, & müller, 2011). finally, we conducted additional analyses suggesting that our results were robust to including deceased individuals (supplementary appendix e), stratifying by period and cohort (supplementary appendix f),",
       "order": 33
     },
     {
@@ -12868,8 +12868,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Next, we created graphs illustrating individual sequences and sequence types. Individual sequences portray the sequences of each individual composing a sequence type, while sequence types gather individual sequences into a more holistic and abstract cluster. We then obtained descriptive statistics on the most frequent transitions within sequences types and explored three indexes of their internal dynamism: entropy, complexity, and turbulence (Elzinga, 2014; Gabadinho et al., 2011). Next, we conducted simple and multifactor discrepancy analyses to test whether there were significant differences in sequences across gender, class, and race (Studer, Ritschard, Gabadinho, & Müller, 2011). Finally, we conducted additional analyses suggesting that our results were robust to including deceased individuals (Supplementary Appendix E), stratifying by period and cohort (Supplementary Appendix F),",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 next, we created graphs illustrating individual sequences and sequence types. individual sequences portray the sequences of each individual composing a sequence type, while sequence types gather individual sequences into a more holistic and abstract cluster. we then obtained descriptive statistics on the most frequent transitions within sequences types and explored three indexes of their internal dynamism: entropy, complexity, and turbulence (elzinga, 2014; gabadinho et al., 2011). next, we conducted simple and multifactor discrepancy analyses to test whether there were significant differences in sequences across gender, class, and race (studer, ritschard, gabadinho, & müller, 2011). finally, we conducted additional analyses suggesting that our results were robust to including deceased individuals (supplementary appendix e), stratifying by period and cohort (supplementary appendix f),",
+      "text": "and using weights (Supplementary Appendix G).\n\nGiven that sequence analysis is a relatively novel technique, we provide full details for our procedure to test our assumptions. First, we first ran analyses on the whole sample to test the destandardization hypothesis . Moderate destandardization would be supported if there is evidence for at least one, but not all conditions indicating high destandardization, which are: unconventional type, reversible order, and flexible timing. The unconventional type hypothesis would be supported if the average silhouette width cluster cutoff criteria suggested a number of sequence types greater than one and with the most prevalent type being different from the conventional retirement model.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 and using weights (supplementary appendix g).\n\ngiven that sequence analysis is a relatively novel technique, we provide full details for our procedure to test our assumptions. first, we first ran analyses on the whole sample to test the destandardization hypothesis . moderate destandardization would be supported if there is evidence for at least one, but not all conditions indicating high destandardization, which are: unconventional type, reversible order, and flexible timing. the unconventional type hypothesis would be supported if the average silhouette width cluster cutoff criteria suggested a number of sequence types greater than one and with the most prevalent type being different from the conventional retirement model.",
       "order": 34
     },
     {
@@ -12879,8 +12879,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "and using weights (Supplementary Appendix G).\n\nGiven that sequence analysis is a relatively novel technique, we provide full details for our procedure to test our assumptions. First, we first ran analyses on the whole sample to test the destandardization hypothesis . Moderate destandardization would be supported if there is evidence for at least one, but not all conditions indicating high destandardization, which are: unconventional type, reversible order, and flexible timing. The unconventional type hypothesis would be supported if the average silhouette width cluster cutoff criteria suggested a number of sequence types greater than one and with the most prevalent type being different from the conventional retirement model.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 and using weights (supplementary appendix g).\n\ngiven that sequence analysis is a relatively novel technique, we provide full details for our procedure to test our assumptions. first, we first ran analyses on the whole sample to test the destandardization hypothesis . moderate destandardization would be supported if there is evidence for at least one, but not all conditions indicating high destandardization, which are: unconventional type, reversible order, and flexible timing. the unconventional type hypothesis would be supported if the average silhouette width cluster cutoff criteria suggested a number of sequence types greater than one and with the most prevalent type being different from the conventional retirement model.",
+      "text": "The reversible order hypothesis would be supported if there was evidence, for more than half of the cases, of reversible transitions in the graphs of individual sequences, graphs of sequences types, and descriptive statistics on the most frequent transitions within sequences. The flexible timing hypothesis would be supported if we found evidence of the same transition occurring at varied ages in the graphs of individual sequences and sequence types, as well as in three indexes of internal dynamism: entropy, complexity, and turbulence. These indexes allow for a formal examination of flexible timing in retirement sequences. At any point, the entropy index is 0 when all respondents are in the same status and 1 when distributed evenly across all possible statuses. A complexity index of 0 indicates complete similarity of statuses across individuals and that no transitions occurred between",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 the reversible order hypothesis would be supported if there was evidence, for more than half of the cases, of reversible transitions in the graphs of individual sequences, graphs of sequences types, and descriptive statistics on the most frequent transitions within sequences. the flexible timing hypothesis would be supported if we found evidence of the same transition occurring at varied ages in the graphs of individual sequences and sequence types, as well as in three indexes of internal dynamism: entropy, complexity, and turbulence. these indexes allow for a formal examination of flexible timing in retirement sequences. at any point, the entropy index is 0 when all respondents are in the same status and 1 when distributed evenly across all possible statuses. a complexity index of 0 indicates complete similarity of statuses across individuals and that no transitions occurred between",
       "order": 35
     },
     {
@@ -12890,8 +12890,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "The reversible order hypothesis would be supported if there was evidence, for more than half of the cases, of reversible transitions in the graphs of individual sequences, graphs of sequences types, and descriptive statistics on the most frequent transitions within sequences. The flexible timing hypothesis would be supported if we found evidence of the same transition occurring at varied ages in the graphs of individual sequences and sequence types, as well as in three indexes of internal dynamism: entropy, complexity, and turbulence. These indexes allow for a formal examination of flexible timing in retirement sequences. At any point, the entropy index is 0 when all respondents are in the same status and 1 when distributed evenly across all possible statuses. A complexity index of 0 indicates complete similarity of statuses across individuals and that no transitions occurred between",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 the reversible order hypothesis would be supported if there was evidence, for more than half of the cases, of reversible transitions in the graphs of individual sequences, graphs of sequences types, and descriptive statistics on the most frequent transitions within sequences. the flexible timing hypothesis would be supported if we found evidence of the same transition occurring at varied ages in the graphs of individual sequences and sequence types, as well as in three indexes of internal dynamism: entropy, complexity, and turbulence. these indexes allow for a formal examination of flexible timing in retirement sequences. at any point, the entropy index is 0 when all respondents are in the same status and 1 when distributed evenly across all possible statuses. a complexity index of 0 indicates complete similarity of statuses across individuals and that no transitions occurred between",
+      "text": "statuses, while a value of 1 indicates the opposite. The turbulence index accounts for the number of distinct subsequences that can be constructed from one sequence type, which arises from the analysis of all transitions in a sequence and the time elapsed in each status. A high turbulence index therefore reflects a large number of distinct subsequences in one sequence, which in turn indicates that statuses and transitions are highly time-varying. Next, we proceeded to test the social stratification hypothesis , which would be supported if we identified variations in the level of destandardization across gender, class, and race. Specifically, we expected women, lowereducated individuals, and Blacks to follow retirement sequences that are more destandardized than those of their respective counterparts. We began by testing whether there were significant differences in sequences across",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 statuses, while a value of 1 indicates the opposite. the turbulence index accounts for the number of distinct subsequences that can be constructed from one sequence type, which arises from the analysis of all transitions in a sequence and the time elapsed in each status. a high turbulence index therefore reflects a large number of distinct subsequences in one sequence, which in turn indicates that statuses and transitions are highly time-varying. next, we proceeded to test the social stratification hypothesis , which would be supported if we identified variations in the level of destandardization across gender, class, and race. specifically, we expected women, lowereducated individuals, and blacks to follow retirement sequences that are more destandardized than those of their respective counterparts. we began by testing whether there were significant differences in sequences across",
       "order": 36
     },
     {
@@ -12901,8 +12901,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "statuses, while a value of 1 indicates the opposite. The turbulence index accounts for the number of distinct subsequences that can be constructed from one sequence type, which arises from the analysis of all transitions in a sequence and the time elapsed in each status. A high turbulence index therefore reflects a large number of distinct subsequences in one sequence, which in turn indicates that statuses and transitions are highly time-varying. Next, we proceeded to test the social stratification hypothesis , which would be supported if we identified variations in the level of destandardization across gender, class, and race. Specifically, we expected women, lowereducated individuals, and Blacks to follow retirement sequences that are more destandardized than those of their respective counterparts. We began by testing whether there were significant differences in sequences across",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 statuses, while a value of 1 indicates the opposite. the turbulence index accounts for the number of distinct subsequences that can be constructed from one sequence type, which arises from the analysis of all transitions in a sequence and the time elapsed in each status. a high turbulence index therefore reflects a large number of distinct subsequences in one sequence, which in turn indicates that statuses and transitions are highly time-varying. next, we proceeded to test the social stratification hypothesis , which would be supported if we identified variations in the level of destandardization across gender, class, and race. specifically, we expected women, lowereducated individuals, and blacks to follow retirement sequences that are more destandardized than those of their respective counterparts. we began by testing whether there were significant differences in sequences across",
+      "text": "gender, class, and race by conducting simple and multifactor discrepancy analyses (Supplementary Appendix H). Based on these results, we next repeated all the analyses for destandardization in separate stratified samples, which allows for each group to have different types of sequences, with more or less dynamic order and flexible. All analyses were carried out in R (R Core Team, 2014), using the TraMineR package for sequence analysis (Gabadinho et al., 2011).\n\nResults\n\nDestandardization in Type, Order, and Timing of Retirement Sequences",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 gender, class, and race by conducting simple and multifactor discrepancy analyses (supplementary appendix h). based on these results, we next repeated all the analyses for destandardization in separate stratified samples, which allows for each group to have different types of sequences, with more or less dynamic order and flexible. all analyses were carried out in r (r core team, 2014), using the traminer package for sequence analysis (gabadinho et al., 2011).\n\nresults\n\ndestandardization in type, order, and timing of retirement sequences",
       "order": 37
     },
     {
@@ -12912,8 +12912,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "gender, class, and race by conducting simple and multifactor discrepancy analyses (Supplementary Appendix H). Based on these results, we next repeated all the analyses for destandardization in separate stratified samples, which allows for each group to have different types of sequences, with more or less dynamic order and flexible. All analyses were carried out in R (R Core Team, 2014), using the TraMineR package for sequence analysis (Gabadinho et al., 2011).\n\nResults\n\nDestandardization in Type, Order, and Timing of Retirement Sequences",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 gender, class, and race by conducting simple and multifactor discrepancy analyses (supplementary appendix h). based on these results, we next repeated all the analyses for destandardization in separate stratified samples, which allows for each group to have different types of sequences, with more or less dynamic order and flexible. all analyses were carried out in r (r core team, 2014), using the traminer package for sequence analysis (gabadinho et al., 2011).\n\nresults\n\ndestandardization in type, order, and timing of retirement sequences",
+      "text": "Fully supporting the unconventional type hypothesis, we found that the conventional model of complete retirement after working full-time was not the most prevalent type, but rather one among six types of retirement sequences (Supplementary Appendix D). Figure 1 depicts sequences for each individual within each sequences type, and aggregates individual sequences, depicting them holistically as a sequence type. The labels depicted in Figure 1 emphasize the distinctiveness of these retirement sequences: early, complete, partial, late, ambiguous, and compact. The early retirement sequence was the most prevalent, comprising 2,889 individuals representing 36.66% of the sample. In this sequence most individuals are completely retired by or before age 62.\n\nFigure 1. Retirement sequences in the United States",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 fully supporting the unconventional type hypothesis, we found that the conventional model of complete retirement after working full-time was not the most prevalent type, but rather one among six types of retirement sequences (supplementary appendix d). figure 1 depicts sequences for each individual within each sequences type, and aggregates individual sequences, depicting them holistically as a sequence type. the labels depicted in figure 1 emphasize the distinctiveness of these retirement sequences: early, complete, partial, late, ambiguous, and compact. the early retirement sequence was the most prevalent, comprising 2,889 individuals representing 36.66% of the sample. in this sequence most individuals are completely retired by or before age 62.\n\nfigure 1. retirement sequences in the united states",
       "order": 38
     },
     {
@@ -12923,8 +12923,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Fully supporting the unconventional type hypothesis, we found that the conventional model of complete retirement after working full-time was not the most prevalent type, but rather one among six types of retirement sequences (Supplementary Appendix D). Figure 1 depicts sequences for each individual within each sequences type, and aggregates individual sequences, depicting them holistically as a sequence type. The labels depicted in Figure 1 emphasize the distinctiveness of these retirement sequences: early, complete, partial, late, ambiguous, and compact. The early retirement sequence was the most prevalent, comprising 2,889 individuals representing 36.66% of the sample. In this sequence most individuals are completely retired by or before age 62.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 fully supporting the unconventional type hypothesis, we found that the conventional model of complete retirement after working full-time was not the most prevalent type, but rather one among six types of retirement sequences (supplementary appendix d). figure 1 depicts sequences for each individual within each sequences type, and aggregates individual sequences, depicting them holistically as a sequence type. the labels depicted in figure 1 emphasize the distinctiveness of these retirement sequences: early, complete, partial, late, ambiguous, and compact. the early retirement sequence was the most prevalent, comprising 2,889 individuals representing 36.66% of the sample. in this sequence most individuals are completely retired by or before age 62.",
+      "text": "Other retirement sequences were less prevalent, as presented in Figure 1. The complete retirement sequence is characterized by the conventional model of complete retirement from a full-time job, with most individuals beginning with a full-time job and being fully retired by age 66. The partial retirement sequence is characterized by partial retirement from a full-time job, with most individuals beginning with a full-time job and the largest group partly being retired at age 66. In the late retirement sequence most individuals begin working in a full-time job and remain doing so until age 66 and beyond. The ambiguous retirement sequence is characterized by most individuals moving from out of the labor force to retirement. Finally, the compact retirement sequence is characterized by partial retirement from a part-time job, with most individuals beginning with a part-time job and several",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 other retirement sequences were less prevalent, as presented in figure 1. the complete retirement sequence is characterized by the conventional model of complete retirement from a full-time job, with most individuals beginning with a full-time job and being fully retired by age 66. the partial retirement sequence is characterized by partial retirement from a full-time job, with most individuals beginning with a full-time job and the largest group partly being retired at age 66. in the late retirement sequence most individuals begin working in a full-time job and remain doing so until age 66 and beyond. the ambiguous retirement sequence is characterized by most individuals moving from out of the labor force to retirement. finally, the compact retirement sequence is characterized by partial retirement from a part-time job, with most individuals beginning with a part-time job and several",
       "order": 39
     },
     {
@@ -12934,8 +12934,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Other retirement sequences were less prevalent, as presented in Figure 1. The complete retirement sequence is characterized by the conventional model of complete retirement from a full-time job, with most individuals beginning with a full-time job and being fully retired by age 66. The partial retirement sequence is characterized by partial retirement from a full-time job, with most individuals beginning with a full-time job and the largest group partly being retired at age 66. In the late retirement sequence most individuals begin working in a full-time job and remain doing so until age 66 and beyond. The ambiguous retirement sequence is characterized by most individuals moving from out of the labor force to retirement. Finally, the compact retirement sequence is characterized by partial retirement from a part-time job, with most individuals beginning with a part-time job and several",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 other retirement sequences were less prevalent, as presented in figure 1. the complete retirement sequence is characterized by the conventional model of complete retirement from a full-time job, with most individuals beginning with a full-time job and being fully retired by age 66. the partial retirement sequence is characterized by partial retirement from a full-time job, with most individuals beginning with a full-time job and the largest group partly being retired at age 66. in the late retirement sequence most individuals begin working in a full-time job and remain doing so until age 66 and beyond. the ambiguous retirement sequence is characterized by most individuals moving from out of the labor force to retirement. finally, the compact retirement sequence is characterized by partial retirement from a part-time job, with most individuals beginning with a part-time job and several",
+      "text": "finishing with partial retirement. The reversible-order hypothesis postulated that retirement sequences include more than half individuals that unretire, become reemployed, or transition several times in and out of a given labor-force status. Our results provided only modest support for this hypothesis.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 finishing with partial retirement. the reversible-order hypothesis postulated that retirement sequences include more than half individuals that unretire, become reemployed, or transition several times in and out of a given labor-force status. our results provided only modest support for this hypothesis.",
       "order": 40
     },
     {
@@ -12945,8 +12945,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "finishing with partial retirement. The reversible-order hypothesis postulated that retirement sequences include more than half individuals that unretire, become reemployed, or transition several times in and out of a given labor-force status. Our results provided only modest support for this hypothesis.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 finishing with partial retirement. the reversible-order hypothesis postulated that retirement sequences include more than half individuals that unretire, become reemployed, or transition several times in and out of a given labor-force status. our results provided only modest support for this hypothesis.",
+      "text": "Sequence types presented in Figure 1 are largely irreversible, though postretirement full-time work was observed for a small group in the ambiguous sequence. However, when exploring individual sequences, we found some evidence of reemployment and unretirement processes, as well as back and forth transitions into disability and out of the labor force. When considering the five most frequent transitions within sequences for the whole sample (top-left in Table 2), we observed that four imply a progression from work to retirement, while the fifth shows that 15.71% respondents made a transition from retirement to partial retirement at least once over the entire sequences span. In sum, it appears that most people followed a progression from degrees of work to degrees of retirement and that the few reversed order transitions that we observed were not similar enough to each other to create a",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 sequence types presented in figure 1 are largely irreversible, though postretirement full-time work was observed for a small group in the ambiguous sequence. however, when exploring individual sequences, we found some evidence of reemployment and unretirement processes, as well as back and forth transitions into disability and out of the labor force. when considering the five most frequent transitions within sequences for the whole sample (top-left in table 2), we observed that four imply a progression from work to retirement, while the fifth shows that 15.71% respondents made a transition from retirement to partial retirement at least once over the entire sequences span. in sum, it appears that most people followed a progression from degrees of work to degrees of retirement and that the few reversed order transitions that we observed were not similar enough to each other to create a",
       "order": 41
     },
     {
@@ -12956,8 +12956,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Sequence types presented in Figure 1 are largely irreversible, though postretirement full-time work was observed for a small group in the ambiguous sequence. However, when exploring individual sequences, we found some evidence of reemployment and unretirement processes, as well as back and forth transitions into disability and out of the labor force. When considering the five most frequent transitions within sequences for the whole sample (top-left in Table 2), we observed that four imply a progression from work to retirement, while the fifth shows that 15.71% respondents made a transition from retirement to partial retirement at least once over the entire sequences span. In sum, it appears that most people followed a progression from degrees of work to degrees of retirement and that the few reversed order transitions that we observed were not similar enough to each other to create a",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 sequence types presented in figure 1 are largely irreversible, though postretirement full-time work was observed for a small group in the ambiguous sequence. however, when exploring individual sequences, we found some evidence of reemployment and unretirement processes, as well as back and forth transitions into disability and out of the labor force. when considering the five most frequent transitions within sequences for the whole sample (top-left in table 2), we observed that four imply a progression from work to retirement, while the fifth shows that 15.71% respondents made a transition from retirement to partial retirement at least once over the entire sequences span. in sum, it appears that most people followed a progression from degrees of work to degrees of retirement and that the few reversed order transitions that we observed were not similar enough to each other to create a",
+      "text": "separate sequence type.\n\nTable 2. Most Frequent Transitions Within Sequences and Indexes of Internal Homogeneity of Retirement Sequences",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 separate sequence type.\n\ntable 2. most frequent transitions within sequences and indexes of internal homogeneity of retirement sequences",
       "order": 42
     },
     {
@@ -12967,8 +12967,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "separate sequence type.\n\nOur flexible timing hypothesis, which posited that the same labor-force transitions happen at varied ages, is only partly supported by our results. Although most sequences depicted in Figure 1 were to some extent age-graded, we also observed labor-force transitions taking place at different ages. The most evident example is the presence of both early and late retirement sequence types. Also, within most sequences changes from retirement to full-time job, part-time job, and unemployment can occur at many different points, though they tend to concentrate at specific ages, as indicated by the indexes of internal dynamism (Table 2). The entropy, complexity, and turbulence indexes for the overall sample indicated that partial, ambiguous,\n\nFigure 1. Retirement sequences in the United States.\n\nand compact sequences were the most flexible in the sense",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 separate sequence type.\n\nour flexible timing hypothesis, which posited that the same labor-force transitions happen at varied ages, is only partly supported by our results. although most sequences depicted in figure 1 were to some extent age-graded, we also observed labor-force transitions taking place at different ages. the most evident example is the presence of both early and late retirement sequence types. also, within most sequences changes from retirement to full-time job, part-time job, and unemployment can occur at many different points, though they tend to concentrate at specific ages, as indicated by the indexes of internal dynamism (table 2). the entropy, complexity, and turbulence indexes for the overall sample indicated that partial, ambiguous,\n\nfigure 1. retirement sequences in the united states.\n\nand compact sequences were the most flexible in the sense",
+      "text": "Our flexible timing hypothesis, which posited that the same labor-force transitions happen at varied ages, is only partly supported by our results. Although most sequences depicted in Figure 1 were to some extent age-graded, we also observed labor-force transitions taking place at different ages. The most evident example is the presence of both early and late retirement sequence types. Also, within most sequences changes from retirement to full-time job, part-time job, and unemployment can occur at many different points, though they tend to concentrate at specific ages, as indicated by the indexes of internal dynamism (Table 2). The entropy, complexity, and turbulence indexes for the overall sample indicated that partial, ambiguous, and compact sequences were the most flexible in the sense that the statuses and transitions that compose them are relatively time-varying and may happen at",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 our flexible timing hypothesis, which posited that the same labor-force transitions happen at varied ages, is only partly supported by our results. although most sequences depicted in figure 1 were to some extent age-graded, we also observed labor-force transitions taking place at different ages. the most evident example is the presence of both early and late retirement sequence types. also, within most sequences changes from retirement to full-time job, part-time job, and unemployment can occur at many different points, though they tend to concentrate at specific ages, as indicated by the indexes of internal dynamism (table 2). the entropy, complexity, and turbulence indexes for the overall sample indicated that partial, ambiguous, and compact sequences were the most flexible in the sense that the statuses and transitions that compose them are relatively time-varying and may happen at",
       "order": 43
     },
     {
@@ -12978,8 +12978,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "that the statuses and transitions that compose them are\n\nrelatively time-varying and may happen at different ages.\n\nAnalyzing the longitudinal version of the entropy index\n\nsuggests that the degree to which retirement sequences are\n\nage-graded changes around the legal retirement ages in\n\ncomplex ways (Supplementary Appendix I).\n\nOverall, these results support the moderate destandardization hypothesis , as we find strong evidence for unconventional types of retirement sequences, but some irreversibility\n\nand age-grading persisted.\n\nGender, Class, and Race Stratification of Retirement Sequences",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 that the statuses and transitions that compose them are\n\nrelatively time-varying and may happen at different ages.\n\nanalyzing the longitudinal version of the entropy index\n\nsuggests that the degree to which retirement sequences are\n\nage-graded changes around the legal retirement ages in\n\ncomplex ways (supplementary appendix i).\n\noverall, these results support the moderate destandardization hypothesis , as we find strong evidence for unconventional types of retirement sequences, but some irreversibility\n\nand age-grading persisted.\n\ngender, class, and race stratification of retirement sequences",
+      "text": "different ages. Analyzing the longitudinal version of the entropy index suggests that the degree to which retirement sequences are age-graded changes around the legal retirement ages in complex ways (Supplementary Appendix I).\n\nOverall, these results support the moderate destandardization hypothesis, as we find strong evidence for unconventional types of retirement sequences, but some irreversibility and age-grading persisted.\n\nGender, Class, and Race Stratification of Retirement Sequences",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 different ages. analyzing the longitudinal version of the entropy index suggests that the degree to which retirement sequences are age-graded changes around the legal retirement ages in complex ways (supplementary appendix i).\n\noverall, these results support the moderate destandardization hypothesis, as we find strong evidence for unconventional types of retirement sequences, but some irreversibility and age-grading persisted.\n\ngender, class, and race stratification of retirement sequences",
       "order": 44
     },
     {
@@ -13000,8 +13000,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "the retirement sequences that emerged in the overall sample and other groups. Overall, we found more types of unconventional retirement sequences for women than men, middle-educated individuals than lower- and higher-educated individuals, and White and Black nonHispanics than Hispanics.\n\nFigure 2 also suggests that retirement sequences were more reversible for some groups than others (stratified graphs of individual sequences are consistent and\n\nTable 2. Most Frequent Transitions Within Sequences and Indexes of Internal Homogeneity of Retirement Sequences\n\nGender Education Race\n\nAll Men Women Low Mid High White Black Hispanic\n\nFive most frequent transitions\n\n1st wft → ret\n\n(35.07%)\n\nwft → ret\n\n(43.75%)\n\nwft → ret\n\n(28.01%)\n\nwft → ret\n\n(32.74%)\n\nwft → ret\n\n(34.82%)\n\nwft → ret\n\n(36.96%)\n\nwft → ret\n\n(35.10%)\n\nwft → ret\n\n(35.90%)\n\nwft → ret\n\n(34.09%)\n\n2nd pret → ret\n\n(22.46%)\n\nwft → pret",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 the retirement sequences that emerged in the overall sample and other groups. overall, we found more types of unconventional retirement sequences for women than men, middle-educated individuals than lower- and higher-educated individuals, and white and black nonhispanics than hispanics.\n\nfigure 2 also suggests that retirement sequences were more reversible for some groups than others (stratified graphs of individual sequences are consistent and\n\ntable 2. most frequent transitions within sequences and indexes of internal homogeneity of retirement sequences\n\ngender education race\n\nall men women low mid high white black hispanic\n\nfive most frequent transitions\n\n1st wft → ret\n\n(35.07%)\n\nwft → ret\n\n(43.75%)\n\nwft → ret\n\n(28.01%)\n\nwft → ret\n\n(32.74%)\n\nwft → ret\n\n(34.82%)\n\nwft → ret\n\n(36.96%)\n\nwft → ret\n\n(35.10%)\n\nwft → ret\n\n(35.90%)\n\nwft → ret\n\n(34.09%)\n\n2nd pret → ret\n\n(22.46%)\n\nwft → pret",
+      "text": "the retirement sequences that emerged in the overall sample and other groups. Overall, we found more types of unconventional retirement sequences for women than men, middle-educated individuals than lower- and higher-educated individuals, and White and Black nonHispanics than Hispanics.\n\nTable 3. Descriptive Statistics of Retirement Sequences by Stratification Groups\n\nFigure 2. Retirement sequences in the United States by stratification groups",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 the retirement sequences that emerged in the overall sample and other groups. overall, we found more types of unconventional retirement sequences for women than men, middle-educated individuals than lower- and higher-educated individuals, and white and black nonhispanics than hispanics.\n\ntable 3. descriptive statistics of retirement sequences by stratification groups\n\nfigure 2. retirement sequences in the united states by stratification groups",
       "order": 46
     },
     {
@@ -13011,8 +13011,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "(28.14%)\n\nnlbf → ret\n\n(23.71%)\n\nret → ret\n\n(22.13%)\n\npret → ret\n\n(22.78%)\n\npret → ret\n\n(26.56%)\n\npret → ret\n\n(23.62%)\n\nret → ret\n\n(23.55%)\n\nnlbf → ret\n\n(24.70%)\n\n3rd wft → pret\n\n(21.15%)\n\npret → ret\n\n(25.08%)\n\nret → ret\n\n(21.68%)\n\nnlbf → ret\n\n(20.30%)\n\nwft → pret\n\n(20.41%)\n\nwft → pret\n\n(25.60%)\n\nwft → pret\n\n(22.42%)\n\npret → ret\n\n(22.72%)\n\nret → ret\n\n(20.67%)\n\n4th ret → ret\n\n(19.00%)\n\nret → pret\n\n(18.41%)\n\npret → ret\n\n(20.32%)\n\npret → ret\n\n(16.20%)\n\nret → ret\n\n(19.43%)\n\nret → pret\n\n(17.48%)\n\nret → ret\n\n(17.79%)\n\nwft → pret\n\n(19.57%)\n\nret → nlbf\n\n(18.12%)\n\n5th ret → pret\n\n(15.71%)\n\nret → ret\n\n(15.70%)\n\nret → nlbf\n\n(18.02%)\n\ndis → ret\n\n(16.01%)\n\nret → pret\n\n(16.19%)\n\nret → ret\n\n(16.35%)\n\nret → pret\n\n(16.39%)\n\nret → pret\n\n(16.09%)\n\nwft → pret\n\n(14.23%)\n\nIndexes of internal homogeneity\n\nEarly Entropy 0.34 0.37 0.56 0.54 0.41 0.56 0.38 0.34 0.59",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 (28.14%)\n\nnlbf → ret\n\n(23.71%)\n\nret → ret\n\n(22.13%)\n\npret → ret\n\n(22.78%)\n\npret → ret\n\n(26.56%)\n\npret → ret\n\n(23.62%)\n\nret → ret\n\n(23.55%)\n\nnlbf → ret\n\n(24.70%)\n\n3rd wft → pret\n\n(21.15%)\n\npret → ret\n\n(25.08%)\n\nret → ret\n\n(21.68%)\n\nnlbf → ret\n\n(20.30%)\n\nwft → pret\n\n(20.41%)\n\nwft → pret\n\n(25.60%)\n\nwft → pret\n\n(22.42%)\n\npret → ret\n\n(22.72%)\n\nret → ret\n\n(20.67%)\n\n4th ret → ret\n\n(19.00%)\n\nret → pret\n\n(18.41%)\n\npret → ret\n\n(20.32%)\n\npret → ret\n\n(16.20%)\n\nret → ret\n\n(19.43%)\n\nret → pret\n\n(17.48%)\n\nret → ret\n\n(17.79%)\n\nwft → pret\n\n(19.57%)\n\nret → nlbf\n\n(18.12%)\n\n5th ret → pret\n\n(15.71%)\n\nret → ret\n\n(15.70%)\n\nret → nlbf\n\n(18.02%)\n\ndis → ret\n\n(16.01%)\n\nret → pret\n\n(16.19%)\n\nret → ret\n\n(16.35%)\n\nret → pret\n\n(16.39%)\n\nret → pret\n\n(16.09%)\n\nwft → pret\n\n(14.23%)\n\nindexes of internal homogeneity\n\nearly entropy 0.34 0.37 0.56 0.54 0.41 0.56 0.38 0.34 0.59",
+      "text": "Figure 2 also suggests that retirement sequences were more reversible for some groups than others (stratified graphs of individual sequences are consistent and available from the authors upon request). For example, women and Hispanics experience unretirement during the first half of the ambiguous sequence. However, additional information presented in the top panel in Table 2 suggests that the percentage of respondents that experienced at least one reversible transition was relatively similar across groups, but the type of reverse transition may have been different. The transition from retirement to partial retirement was experienced by 18.41% of men, 16.19% of middle-level educated individuals, 17.48% of higher-educated individuals, and 16.39% of White non-Hispanics, while the transition from retirement to out of the labor force was experienced by 18.02% of women and 18.12% of Hispanics.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 figure 2 also suggests that retirement sequences were more reversible for some groups than others (stratified graphs of individual sequences are consistent and available from the authors upon request). for example, women and hispanics experience unretirement during the first half of the ambiguous sequence. however, additional information presented in the top panel in table 2 suggests that the percentage of respondents that experienced at least one reversible transition was relatively similar across groups, but the type of reverse transition may have been different. the transition from retirement to partial retirement was experienced by 18.41% of men, 16.19% of middle-level educated individuals, 17.48% of higher-educated individuals, and 16.39% of white non-hispanics, while the transition from retirement to out of the labor force was experienced by 18.02% of women and 18.12% of hispanics.",
       "order": 47
     },
     {
@@ -13022,8 +13022,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Complexity 0.22 0.24 0.33 0.33 0.26 0.30 0.24 0.25 0.36\n\nTurbulence 2.26 2.43 3.09 3.04 2.56 2.90 2.52 2.40 3.21\n\nComplete Entropy 0.46 — — — — — — 0.60 —\n\nComplexity 0.43 — — — — — — 0.45 —\n\nTurbulence 3.89 — — — — — — 3.98 —\n\nPartial Entropy 0.58 0.56 — — 0.59 0.58 0.69 0.46 —\n\nComplexity 0.45 0.44 — — 0.46 0.46 0.47 0.38 —\n\nTurbulence 3.78 3.77 — — 3.84 3.78 3.90 3.28 —\n\nLate Entropy 0.36 0.50 0.53 0.63 0.45 0.38 0.32 0.49 0.60\n\nComplexity 0.24 0.34 0.39 0.38 0.34 0.25 0.22 0.36 0.40\n\nTurbulence 2.39 3.19 3.32 3.25 3.24 2.46 2.26 3.17 3.40\n\nAmbiguous Entropy 0.53 — 0.29 0.50 0.40 — 0.44 0.62 0.40\n\nComplexity 0.34 — 0.22 0.36 0.30 — 0.33 0.41 0.30\n\nTurbulence 3.18 — 2.35 3.30 2.98 — 3.16 3.64 2.84\n\nCompact Entropy 0.71 — 0.69 — 0.66 — — — —\n\nComplexity 0.52 — 0.45 — 0.47 — — — —\n\nTurbulence 4.11 — 3.68 — 3.94 — — — —",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 complexity 0.22 0.24 0.33 0.33 0.26 0.30 0.24 0.25 0.36\n\nturbulence 2.26 2.43 3.09 3.04 2.56 2.90 2.52 2.40 3.21\n\ncomplete entropy 0.46 — — — — — — 0.60 —\n\ncomplexity 0.43 — — — — — — 0.45 —\n\nturbulence 3.89 — — — — — — 3.98 —\n\npartial entropy 0.58 0.56 — — 0.59 0.58 0.69 0.46 —\n\ncomplexity 0.45 0.44 — — 0.46 0.46 0.47 0.38 —\n\nturbulence 3.78 3.77 — — 3.84 3.78 3.90 3.28 —\n\nlate entropy 0.36 0.50 0.53 0.63 0.45 0.38 0.32 0.49 0.60\n\ncomplexity 0.24 0.34 0.39 0.38 0.34 0.25 0.22 0.36 0.40\n\nturbulence 2.39 3.19 3.32 3.25 3.24 2.46 2.26 3.17 3.40\n\nambiguous entropy 0.53 — 0.29 0.50 0.40 — 0.44 0.62 0.40\n\ncomplexity 0.34 — 0.22 0.36 0.30 — 0.33 0.41 0.30\n\nturbulence 3.18 — 2.35 3.30 2.98 — 3.16 3.64 2.84\n\ncompact entropy 0.71 — 0.69 — 0.66 — — — —\n\ncomplexity 0.52 — 0.45 — 0.47 — — — —\n\nturbulence 4.11 — 3.68 — 3.94 — — — —",
+      "text": "Graphs of sequence types and individual sequences did not provide clear evidence of retirement sequences being more flexible and having more time-varying statuses and transitions for some groups rather than others. However, results presented in the bottom panel of Table 2 suggested that the early and late retirement sequences, the only two retirement sequences that both men and women display simultaneously, were more flexible in timing for women and more age-graded for men. Similarly, the late and ambiguous sequences were more flexible for lower-educated, while more age-graded for middle- and higher-educated individuals. However, the entropy, complexity, and turbulence indexes for the early retirement sequence suggested more flexible timing for both lower- and higher-than middle-educated individuals. Hispanics also showed more flexible timing or less age-grading than Whites in the early",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 graphs of sequence types and individual sequences did not provide clear evidence of retirement sequences being more flexible and having more time-varying statuses and transitions for some groups rather than others. however, results presented in the bottom panel of table 2 suggested that the early and late retirement sequences, the only two retirement sequences that both men and women display simultaneously, were more flexible in timing for women and more age-graded for men. similarly, the late and ambiguous sequences were more flexible for lower-educated, while more age-graded for middle- and higher-educated individuals. however, the entropy, complexity, and turbulence indexes for the early retirement sequence suggested more flexible timing for both lower- and higher-than middle-educated individuals. hispanics also showed more flexible timing or less age-grading than whites in the early",
       "order": 48
     },
     {
@@ -13033,8 +13033,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Note : wft = working full-time; wpt = working part-time; pret = partly retired; ret = retired; dis = disabled; nlbf = not in the labor force.\n\navailable from the authors upon request). For example,\n\nwomen and Hispanics experience unretirement during the\n\nfirst half of the ambiguous sequence. However, additional\n\ninformation presented in the top panel in Table 2 suggests\n\nthat the percentage of respondents that experienced at\n\nleast one reversible transition was relatively similar across\n\ngroups, but the type of reverse transition may have been\n\ndifferent. The transition from retirement to partial retire-\n\nment was experienced by 18.41% of men, 16.19% of\n\nmiddle-level educated individuals, 17.48% of higher-educated individuals, and 16.39% of White non-Hispanics,\n\nwhile the transition from retirement to out of the labor\n\nforce was experienced by 18.02% of women and 18.12%\n\nof Hispanics.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 note : wft = working full-time; wpt = working part-time; pret = partly retired; ret = retired; dis = disabled; nlbf = not in the labor force.\n\navailable from the authors upon request). for example,\n\nwomen and hispanics experience unretirement during the\n\nfirst half of the ambiguous sequence. however, additional\n\ninformation presented in the top panel in table 2 suggests\n\nthat the percentage of respondents that experienced at\n\nleast one reversible transition was relatively similar across\n\ngroups, but the type of reverse transition may have been\n\ndifferent. the transition from retirement to partial retire-\n\nment was experienced by 18.41% of men, 16.19% of\n\nmiddle-level educated individuals, 17.48% of higher-educated individuals, and 16.39% of white non-hispanics,\n\nwhile the transition from retirement to out of the labor\n\nforce was experienced by 18.02% of women and 18.12%\n\nof hispanics.",
+      "text": "retirement sequence, Blacks more flexible timing than Whites in the ambiguous retirement sequence, and Blacks and Hispanics more flexible timing than Whites in the late retirement sequence. (Supplementary Appendix I shows consistent results, but using a longitudinal approach to internal homogeneity of sequences.)\n\nDiscussion\n\nIn this study, we aimed to analyze the destandardization of labor-force experienced by Americans in their 60s (born between 1931 and 1941) using a sequence-analytic approach. We tested the degree of destandardization in type, order, and timing of retirement sequences, as well as variations in the degree of destandardization in retirement sequences stratified by gender, class, and race. By and large, the results confirmed our assumptions.\n\nFrom a Snapshot to a Movie",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 retirement sequence, blacks more flexible timing than whites in the ambiguous retirement sequence, and blacks and hispanics more flexible timing than whites in the late retirement sequence. (supplementary appendix i shows consistent results, but using a longitudinal approach to internal homogeneity of sequences.)\n\ndiscussion\n\nin this study, we aimed to analyze the destandardization of labor-force experienced by americans in their 60s (born between 1931 and 1941) using a sequence-analytic approach. we tested the degree of destandardization in type, order, and timing of retirement sequences, as well as variations in the degree of destandardization in retirement sequences stratified by gender, class, and race. by and large, the results confirmed our assumptions.\n\nfrom a snapshot to a movie",
       "order": 49
     },
     {
@@ -13044,8 +13044,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Graphs of sequence types and individual sequences did\n\nnot provide clear evidence of retirement sequences being\n\nmore flexible and having more time-varying statuses and\n\ntransitions for some groups rather than others. However,\n\nresults presented in the bottom panel of Table 2 suggested\n\nthat the early and late retirement sequences—the only two\n\nretirement sequences that both men and women display sim-\n\nultaneously—were more flexible in timing for women and\n\nmore age-graded for men. Similarly, the late and ambiguous sequences were more flexible for lower-educated, while\n\nFigure 2. Retirement sequences in the United States by stratification groups.\n\nTable 3. Descriptive Statistics of Retirement Sequences by Stratification Groups\n\nSequence type\n\nGender Education Race\n\nAll Men Women Low Mid High White Black Hispanic\n\nEarly N 2,889 1,673 2,790 1,250 1,417 1,876 2,748 433 383",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 graphs of sequence types and individual sequences did\n\nnot provide clear evidence of retirement sequences being\n\nmore flexible and having more time-varying statuses and\n\ntransitions for some groups rather than others. however,\n\nresults presented in the bottom panel of table 2 suggested\n\nthat the early and late retirement sequences—the only two\n\nretirement sequences that both men and women display sim-\n\nultaneously—were more flexible in timing for women and\n\nmore age-graded for men. similarly, the late and ambiguous sequences were more flexible for lower-educated, while\n\nfigure 2. retirement sequences in the united states by stratification groups.\n\ntable 3. descriptive statistics of retirement sequences by stratification groups\n\nsequence type\n\ngender education race\n\nall men women low mid high white black hispanic\n\nearly n 2,889 1,673 2,790 1,250 1,417 1,876 2,748 433 383",
+      "text": "Our findings showed that the conventional type (complete retirement at age 65 from a full-time employment) is only one type, and not the most prevalent one, among six types of retirement sequences. The early-retirement sequence was the most prevalent type across social groups, even though previous research has documented a reversal in the trend towards early retirement (Fisher et al., 2016). We also found a late-retirement sequence type across all social groups, though it was not as prevalent as the earlyretirement sequence in the birth cohorts that we analyzed.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 our findings showed that the conventional type (complete retirement at age 65 from a full-time employment) is only one type, and not the most prevalent one, among six types of retirement sequences. the early-retirement sequence was the most prevalent type across social groups, even though previous research has documented a reversal in the trend towards early retirement (fisher et al., 2016). we also found a late-retirement sequence type across all social groups, though it was not as prevalent as the earlyretirement sequence in the birth cohorts that we analyzed.",
       "order": 50
     },
     {
@@ -13055,8 +13055,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "% 36.66 47.31 64.21 60.27 49.44 63.79 47.65 35.90 51.41\n\nComplete N 1,446 545 — — — — — 306 —\n\n% 18.35 15.41 — — — — — 25.37 —\n\nPartial N 1,224 648 — — 399 596 1,800 71 —\n\n% 15.53 18.33 — — 13.92 20.27 31.21 5.89 —\n\nLate N 920 670 635 484 593 469 654 222 244\n\n% 11.67 18.95 14.61 23.34 20.69 15.95 11.34 18.41 32.75\n\nAmbiguous N 866 — 423 340 281 — 565 174 118\n\n% 10.99 — 9.74 16.39 9.80 — 9.80 14.43 15.84\n\nCompact N 536 — 497 — 176 — — — —\n\n% 6.80 — 11.44 — 6.14 — — — —\n\nTotal N 7,881 3,536 4,345 2,074 2,866 2,941 5,767 1,206 745\n\n% 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00\n\nmore age-graded for middle- and higher-educated individuals. However, the entropy, complexity, and turbulence\n\nindexes for the early retirement sequence suggested more\n\nflexible timing for both lower- and higher-than middle-edu-",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 % 36.66 47.31 64.21 60.27 49.44 63.79 47.65 35.90 51.41\n\ncomplete n 1,446 545 — — — — — 306 —\n\n% 18.35 15.41 — — — — — 25.37 —\n\npartial n 1,224 648 — — 399 596 1,800 71 —\n\n% 15.53 18.33 — — 13.92 20.27 31.21 5.89 —\n\nlate n 920 670 635 484 593 469 654 222 244\n\n% 11.67 18.95 14.61 23.34 20.69 15.95 11.34 18.41 32.75\n\nambiguous n 866 — 423 340 281 — 565 174 118\n\n% 10.99 — 9.74 16.39 9.80 — 9.80 14.43 15.84\n\ncompact n 536 — 497 — 176 — — — —\n\n% 6.80 — 11.44 — 6.14 — — — —\n\ntotal n 7,881 3,536 4,345 2,074 2,866 2,941 5,767 1,206 745\n\n% 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00\n\nmore age-graded for middle- and higher-educated individuals. however, the entropy, complexity, and turbulence\n\nindexes for the early retirement sequence suggested more\n\nflexible timing for both lower- and higher-than middle-edu-",
+      "text": "Other unconventional retirement sequences were less frequent and more stratified. In contrast to what is suggested by previous literature, all retirement sequences consisted of a progression of changes with largely irreversible order . This finding is consistent with the interpretation that individuals do indeed follow personal and social scripts about the order of events during their retirement sequences (Szinovacz, 2013; Szinovacz et al., 2014). It has been suggested that these scripts are reinforced by a combination of choice (e.g., preferences and expectations) and both individual (e.g., money and health) and social constraints (e.g., labor market and social institutions; Fasang, 2012; Han & Moen, 1999; Szinovacz, 2013).",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 other unconventional retirement sequences were less frequent and more stratified. in contrast to what is suggested by previous literature, all retirement sequences consisted of a progression of changes with largely irreversible order . this finding is consistent with the interpretation that individuals do indeed follow personal and social scripts about the order of events during their retirement sequences (szinovacz, 2013; szinovacz et al., 2014). it has been suggested that these scripts are reinforced by a combination of choice (e.g., preferences and expectations) and both individual (e.g., money and health) and social constraints (e.g., labor market and social institutions; fasang, 2012; han & moen, 1999; szinovacz, 2013).",
       "order": 51
     },
     {
@@ -13066,8 +13066,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "cated individuals. Hispanics also showed more flexible timing or less age-grading than Whites in the early retirement\n\nsequence, Blacks more flexible timing than Whites in the\n\nambiguous retirement sequence, and Blacks and Hispanics\n\nmore flexible timing than Whites in the late retirement\n\nsequence. (Supplementary Appendix I shows consistent results, but using a longitudinal approach to internal\n\nhomogeneity of sequences.)\n\nDiscussion\n\nIn this study, we aimed to analyze the destandardization of labor-force experienced by Americans in their 60s (born between 1931 and 1941) using a sequence-analytic approach. We tested the degree of destandardization in type, order, and timing of retirement sequences, as well as variations in the degree of destandardization in retirement sequences stratified by gender, class, and race. By and large, the results confirmed our assumptions.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 cated individuals. hispanics also showed more flexible timing or less age-grading than whites in the early retirement\n\nsequence, blacks more flexible timing than whites in the\n\nambiguous retirement sequence, and blacks and hispanics\n\nmore flexible timing than whites in the late retirement\n\nsequence. (supplementary appendix i shows consistent results, but using a longitudinal approach to internal\n\nhomogeneity of sequences.)\n\ndiscussion\n\nin this study, we aimed to analyze the destandardization of labor-force experienced by americans in their 60s (born between 1931 and 1941) using a sequence-analytic approach. we tested the degree of destandardization in type, order, and timing of retirement sequences, as well as variations in the degree of destandardization in retirement sequences stratified by gender, class, and race. by and large, the results confirmed our assumptions.",
+      "text": "As part of high destandardization, it is expected that retirement sequences consisted of fewer age-graded changes targeting legal retirement ages that enable individuals to receive Social Security benefits. However, both early (62) and full (65–67) retirement ages seem to still operate as institutional markers for what is normatively expected within each retirement sequence (Supplementary Appendix I). Age norms seem to be looser (or individuals seem to exert more agency) at ages where the progression through a specific retirement sequence type is consistent with institutional markers about when to work or retire. For example, individuals in the early retirement sequence seem to undergo looser age guidelines before early retirement age (62), while greater pressures to completely retire after this age. In contrast, individuals in the late retirement sequence followed stricter guidelines to",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 as part of high destandardization, it is expected that retirement sequences consisted of fewer age-graded changes targeting legal retirement ages that enable individuals to receive social security benefits. however, both early (62) and full (65–67) retirement ages seem to still operate as institutional markers for what is normatively expected within each retirement sequence (supplementary appendix i). age norms seem to be looser (or individuals seem to exert more agency) at ages where the progression through a specific retirement sequence type is consistent with institutional markers about when to work or retire. for example, individuals in the early retirement sequence seem to undergo looser age guidelines before early retirement age (62), while greater pressures to completely retire after this age. in contrast, individuals in the late retirement sequence followed stricter guidelines to",
       "order": 52
     },
     {
@@ -13077,8 +13077,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "From a Snapshot to a Movie\n\nOur findings showed that the conventional type (complete retirement at age 65 from a full-time employment) is only one type, and not the most prevalent one, among six types of retirement sequences. The early-retirement sequence was the most prevalent type across social groups, even though previous research has documented a reversal in the trend towards early retirement (Fisher et al., 2016). We also found a late-retirement sequence type across all social groups, though it was not as prevalent as the earlyretirement sequence in the birth cohorts that we analyzed.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 from a snapshot to a movie\n\nour findings showed that the conventional type (complete retirement at age 65 from a full-time employment) is only one type, and not the most prevalent one, among six types of retirement sequences. the early-retirement sequence was the most prevalent type across social groups, even though previous research has documented a reversal in the trend towards early retirement (fisher et al., 2016). we also found a late-retirement sequence type across all social groups, though it was not as prevalent as the earlyretirement sequence in the birth cohorts that we analyzed.",
+      "text": "work full-time before the full retirement age (65–67), while looser age guidelines after this age. Individuals in the complete retirement sequence seem to have experienced tighter pressures to engage both in full-time work before early retirement age and in complete retirement after full retirement age, but looser age guidelines between these ages. The overall pattern suggests that the strength of age guidelines varies with age and depends on the specific retirement sequence type that individuals are navigating.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 work full-time before the full retirement age (65–67), while looser age guidelines after this age. individuals in the complete retirement sequence seem to have experienced tighter pressures to engage both in full-time work before early retirement age and in complete retirement after full retirement age, but looser age guidelines between these ages. the overall pattern suggests that the strength of age guidelines varies with age and depends on the specific retirement sequence type that individuals are navigating.",
       "order": 53
     },
     {
@@ -13088,8 +13088,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Other unconventional retirement sequences were less frequent and more stratified. In contrast to what is suggested by previous literature, all retirement sequences consisted of a progression of changes with largely irreversible order . This finding is consistent with the interpretation that individuals do indeed follow personal and social scripts about the order of events during their retirement sequences (Szinovacz, 2013; Szinovacz et al., 2014). It has been suggested that these scripts are reinforced by a combination of choice (e.g., preferences and expectations) and both individual (e.g., money and health) and social constraints (e.g., labor market and social institutions; Fasang, 2012; Han & Moen, 1999; Szinovacz, 2013).",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 other unconventional retirement sequences were less frequent and more stratified. in contrast to what is suggested by previous literature, all retirement sequences consisted of a progression of changes with largely irreversible order . this finding is consistent with the interpretation that individuals do indeed follow personal and social scripts about the order of events during their retirement sequences (szinovacz, 2013; szinovacz et al., 2014). it has been suggested that these scripts are reinforced by a combination of choice (e.g., preferences and expectations) and both individual (e.g., money and health) and social constraints (e.g., labor market and social institutions; fasang, 2012; han & moen, 1999; szinovacz, 2013).",
+      "text": "Overall, we were found moderate destandardization of the retirement sequences for the cohorts under investigation. Research on later-life labor-force patterns may have overstated the degree of destandardization. Based on this result, we are suggesting that investigating retirement sequences rather than individual statuses or transitions, allows identifying standardized patterns that remain obscured when event history analysis, latent transition models, or similar methods are used. When a continuous motion is represented as a series of snapshots, the pattern of retirement sequences gets lost and appears less standardized than suggested by previous literature analyzing the same cohorts with different methods.\n\nFrom Averages to Group Differences",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 overall, we were found moderate destandardization of the retirement sequences for the cohorts under investigation. research on later-life labor-force patterns may have overstated the degree of destandardization. based on this result, we are suggesting that investigating retirement sequences rather than individual statuses or transitions, allows identifying standardized patterns that remain obscured when event history analysis, latent transition models, or similar methods are used. when a continuous motion is represented as a series of snapshots, the pattern of retirement sequences gets lost and appears less standardized than suggested by previous literature analyzing the same cohorts with different methods.\n\nfrom averages to group differences",
       "order": 54
     },
     {
@@ -13099,8 +13099,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "As part of high destandardization, it is expected that retirement sequences consisted of fewer age-graded changes targeting legal retirement ages that enable individuals to receive Social Security benefits. However, both early (62) and full (65–67) retirement ages seem to still operate as institutional markers for what is normatively expected within each retirement sequence (Supplementary Appendix I). Age norms seem to be looser (or individuals seem to exert more agency) at ages where the progression through a specific retirement sequence type is consistent with institutional markers about when to work or retire. For example, individuals in the early retirement sequence seem to undergo looser age guidelines before early retirement age (62), while greater pressures to completely retire after this age. In contrast, individuals in the late retirement sequence followed stricter guidelines to",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 as part of high destandardization, it is expected that retirement sequences consisted of fewer age-graded changes targeting legal retirement ages that enable individuals to receive social security benefits. however, both early (62) and full (65–67) retirement ages seem to still operate as institutional markers for what is normatively expected within each retirement sequence (supplementary appendix i). age norms seem to be looser (or individuals seem to exert more agency) at ages where the progression through a specific retirement sequence type is consistent with institutional markers about when to work or retire. for example, individuals in the early retirement sequence seem to undergo looser age guidelines before early retirement age (62), while greater pressures to completely retire after this age. in contrast, individuals in the late retirement sequence followed stricter guidelines to",
+      "text": "Besides analyzing sequences to increase precision, there is a need to consider potential differences between social groups, such as gender, class, and race that are exposed to very different opportunities and constraints on the labor market across time. We were indeed able to document substantial stratification of retirement sequences. This is in line with earlier work that has shown that later-life labor-force patterns are not uniform across the population (Loretto & Vickerstaff, 2015; Tang & Burr, 2015). But our findings move beyond most extant studies as we established differences for sequences rather than snapshots of life.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 besides analyzing sequences to increase precision, there is a need to consider potential differences between social groups, such as gender, class, and race that are exposed to very different opportunities and constraints on the labor market across time. we were indeed able to document substantial stratification of retirement sequences. this is in line with earlier work that has shown that later-life labor-force patterns are not uniform across the population (loretto & vickerstaff, 2015; tang & burr, 2015). but our findings move beyond most extant studies as we established differences for sequences rather than snapshots of life.",
       "order": 55
     },
     {
@@ -13110,8 +13110,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "work full-time before the full retirement age (65–67), while looser age guidelines after this age. Individuals in the complete retirement sequence seem to have experienced tighter pressures to engage both in full-time work before early retirement age and in complete retirement after full retirement age, but looser age guidelines between these ages. The overall pattern suggests that the strength of age guidelines varies with age and depends on the specific retirement sequence type that individuals are navigating.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 work full-time before the full retirement age (65–67), while looser age guidelines after this age. individuals in the complete retirement sequence seem to have experienced tighter pressures to engage both in full-time work before early retirement age and in complete retirement after full retirement age, but looser age guidelines between these ages. the overall pattern suggests that the strength of age guidelines varies with age and depends on the specific retirement sequence type that individuals are navigating.",
+      "text": "Specifically, our results provide novel evidence suggesting that the degree of standardization of retirement sequences in the United States (for the cohort born between 1931 and 1941) is strongly shaped by gender, class, and race. It may be helpful for policymakers to learn that the stratification of destandardization of retirement sequences reinforces advantages that men, higher educated individuals, and Whites enjoy in numerous areas over the life course. In line with our hypothesis, we found that throughout their 60s, women, middle-level educated individuals, and Blacks follow more unconventional retirement sequences than their respective counterparts (i.e., men, highly educated, and Whites or Hispanics). Furthermore, men and more highly educated individuals followed retirement sequences with few episodes of unemployment or part-time job. In contrast, women and low- or middle-level",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 specifically, our results provide novel evidence suggesting that the degree of standardization of retirement sequences in the united states (for the cohort born between 1931 and 1941) is strongly shaped by gender, class, and race. it may be helpful for policymakers to learn that the stratification of destandardization of retirement sequences reinforces advantages that men, higher educated individuals, and whites enjoy in numerous areas over the life course. in line with our hypothesis, we found that throughout their 60s, women, middle-level educated individuals, and blacks follow more unconventional retirement sequences than their respective counterparts (i.e., men, highly educated, and whites or hispanics). furthermore, men and more highly educated individuals followed retirement sequences with few episodes of unemployment or part-time job. in contrast, women and low- or middle-level",
       "order": 56
     },
     {
@@ -13121,8 +13121,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Overall, we were found moderate destandardization of the retirement sequences for the cohorts under investigation. Research on later-life labor-force patterns may have overstated the degree of destandardization. Based on this result, we are suggesting that investigating retirement sequences rather than individual statuses or transitions, allows identifying standardized patterns that remain obscured when event history analysis, latent transition models, or similar methods are used. When a continuous motion is represented as a series of snapshots, the pattern of retirement sequences gets lost and appears less standardized than suggested by previous literature analyzing the same cohorts with different methods.\n\nFrom Averages to Group Differences",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 overall, we were found moderate destandardization of the retirement sequences for the cohorts under investigation. research on later-life labor-force patterns may have overstated the degree of destandardization. based on this result, we are suggesting that investigating retirement sequences rather than individual statuses or transitions, allows identifying standardized patterns that remain obscured when event history analysis, latent transition models, or similar methods are used. when a continuous motion is represented as a series of snapshots, the pattern of retirement sequences gets lost and appears less standardized than suggested by previous literature analyzing the same cohorts with different methods.\n\nfrom averages to group differences",
+      "text": "educated individuals experienced ambiguous and compact retirement sequences, where unemployment and part-time jobs are highly prevalent. These differences in their retirement sequences are possibly linked with worse health trajectories and financial costs (Azar, Madero-Cabib, Slachevsky, Staudinger, & Calvo, 2017). Thus, there seems to be a need for social policy to develop instruments that buffer such risks.\n\nLimitations and Future Research",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 educated individuals experienced ambiguous and compact retirement sequences, where unemployment and part-time jobs are highly prevalent. these differences in their retirement sequences are possibly linked with worse health trajectories and financial costs (azar, madero-cabib, slachevsky, staudinger, & calvo, 2017). thus, there seems to be a need for social policy to develop instruments that buffer such risks.\n\nlimitations and future research",
       "order": 57
     },
     {
@@ -13132,8 +13132,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Besides analyzing sequences to increase precision, there is a need to consider potential differences between social groups, such as gender, class, and race that are exposed to very different opportunities and constraints on the labor market across time. We were indeed able to document substantial stratification of retirement sequences. This is in line with earlier work that has shown that later-life labor-force patterns are not uniform across the population (Loretto & Vickerstaff, 2015; Tang & Burr, 2015). But our findings move beyond most extant studies as we established differences for sequences rather than snapshots of life.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 besides analyzing sequences to increase precision, there is a need to consider potential differences between social groups, such as gender, class, and race that are exposed to very different opportunities and constraints on the labor market across time. we were indeed able to document substantial stratification of retirement sequences. this is in line with earlier work that has shown that later-life labor-force patterns are not uniform across the population (loretto & vickerstaff, 2015; tang & burr, 2015). but our findings move beyond most extant studies as we established differences for sequences rather than snapshots of life.",
+      "text": "As novel as our results are, we would like to acknowledge a number of limitations. One limitation is that the data were collected biannually and we model them without accounting for changes in employers or occupations, which may result in some unobserved short-term labor-force changes and bridge jobs. Another limitation is that our results are age-, cohort-, and period-specific. As more birth cohorts and data collection points become available, it will be possible to better address age-period-cohort issues. For instance, future research may follow up individuals into their 70s, cover a longer historical period, and include younger cohorts in the sample. Future research could also use retrospective life-history data to analyze parallel sequences in family roles, or explore both the determinants and consequences of retirement sequences by comparing sequences across countries which differ",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 as novel as our results are, we would like to acknowledge a number of limitations. one limitation is that the data were collected biannually and we model them without accounting for changes in employers or occupations, which may result in some unobserved short-term labor-force changes and bridge jobs. another limitation is that our results are age-, cohort-, and period-specific. as more birth cohorts and data collection points become available, it will be possible to better address age-period-cohort issues. for instance, future research may follow up individuals into their 70s, cover a longer historical period, and include younger cohorts in the sample. future research could also use retrospective life-history data to analyze parallel sequences in family roles, or explore both the determinants and consequences of retirement sequences by comparing sequences across countries which differ",
       "order": 58
     },
     {
@@ -13143,8 +13143,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Specifically, our results provide novel evidence suggesting that the degree of standardization of retirement sequences in the United States (for the cohort born between 1931 and 1941) is strongly shaped by gender, class, and race. It may be helpful for policymakers to learn that the stratification of destandardization of retirement sequences reinforces advantages that men, higher educated individuals, and Whites enjoy in numerous areas over the life course. In line with our hypothesis, we found that throughout their 60s, women, middle-level educated individuals, and Blacks follow more unconventional retirement sequences than their respective counterparts (i.e., men, highly educated, and Whites or Hispanics). Furthermore, men and more highly educated individuals followed retirement sequences with few episodes of unemployment or part-time job. In contrast, women and low- or middle-level",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 specifically, our results provide novel evidence suggesting that the degree of standardization of retirement sequences in the united states (for the cohort born between 1931 and 1941) is strongly shaped by gender, class, and race. it may be helpful for policymakers to learn that the stratification of destandardization of retirement sequences reinforces advantages that men, higher educated individuals, and whites enjoy in numerous areas over the life course. in line with our hypothesis, we found that throughout their 60s, women, middle-level educated individuals, and blacks follow more unconventional retirement sequences than their respective counterparts (i.e., men, highly educated, and whites or hispanics). furthermore, men and more highly educated individuals followed retirement sequences with few episodes of unemployment or part-time job. in contrast, women and low- or middle-level",
+      "text": "in their labor-market and social-security regulations.\n\nConclusion\n\nPast decades have seen a stark increase in theoretical and empirical explorations of life-course destandardization and stratification (Mayer, 2009). Although substantial progress has been achieved, studies focusing on labor-force patterns in later life have eluded an integrative model, tend to either focus on statuses or transitions, and frequently overlook social stratification. While statuses and transitions are both crucial in understanding the life course, bringing to bear the advantages of analyzing sequences is still in its infancy.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 in their labor-market and social-security regulations.\n\nconclusion\n\npast decades have seen a stark increase in theoretical and empirical explorations of life-course destandardization and stratification (mayer, 2009). although substantial progress has been achieved, studies focusing on labor-force patterns in later life have eluded an integrative model, tend to either focus on statuses or transitions, and frequently overlook social stratification. while statuses and transitions are both crucial in understanding the life course, bringing to bear the advantages of analyzing sequences is still in its infancy.",
       "order": 59
     },
     {
@@ -13154,8 +13154,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "educated individuals experienced ambiguous and compact retirement sequences, where unemployment and part-time jobs are highly prevalent. These differences in their retirement sequences are possibly linked with worse health trajectories and financial costs (Azar, Madero-Cabib, Slachevsky, Staudinger, & Calvo, 2017). Thus, there seems to be a need for social policy to develop instruments that buffer such risks.\n\nLimitations and Future Research",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 educated individuals experienced ambiguous and compact retirement sequences, where unemployment and part-time jobs are highly prevalent. these differences in their retirement sequences are possibly linked with worse health trajectories and financial costs (azar, madero-cabib, slachevsky, staudinger, & calvo, 2017). thus, there seems to be a need for social policy to develop instruments that buffer such risks.\n\nlimitations and future research",
+      "text": "We proposed a sequence-analytic approach and presented a conceptual model of retirement sequences that defines and takes into account multiple components of destandardization (unconventional type, reversible order, and flexible timing). Furthermore, we found evidence that the stratification of retirement sequences by gender, class, and race must not be overlooked. To our knowledge, this is the first article to combine a sequence-analytic approach to labor-force patterns in later life using nationally representative data of older adults in the United States. This is an important contribution to policy and extant literature because there is increasing awareness of the risks of generalizing results obtained from studies focusing on snapshot statuses and transitions to whole sequences, ignoring heterogeneity in how life courses play out, and generalizing results from other countries or age",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 we proposed a sequence-analytic approach and presented a conceptual model of retirement sequences that defines and takes into account multiple components of destandardization (unconventional type, reversible order, and flexible timing). furthermore, we found evidence that the stratification of retirement sequences by gender, class, and race must not be overlooked. to our knowledge, this is the first article to combine a sequence-analytic approach to labor-force patterns in later life using nationally representative data of older adults in the united states. this is an important contribution to policy and extant literature because there is increasing awareness of the risks of generalizing results obtained from studies focusing on snapshot statuses and transitions to whole sequences, ignoring heterogeneity in how life courses play out, and generalizing results from other countries or age",
       "order": 60
     },
     {
@@ -13165,8 +13165,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "As novel as our results are, we would like to acknowledge a number of limitations. One limitation is that the data were collected biannually and we model them without accounting for changes in employers or occupations, which may result in some unobserved short-term labor-force changes and bridge jobs. Another limitation is that our results are age-, cohort-, and period-specific. As more birth cohorts and data collection points become available, it will be possible to better address age-period-cohort issues. For instance, future research may follow up individuals into their 70s, cover a longer historical period, and include younger cohorts in the sample. Future research could also use retrospective life-history data to analyze parallel sequences in family roles, or explore both the determinants and consequences of retirement sequences by comparing sequences across countries which differ",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 as novel as our results are, we would like to acknowledge a number of limitations. one limitation is that the data were collected biannually and we model them without accounting for changes in employers or occupations, which may result in some unobserved short-term labor-force changes and bridge jobs. another limitation is that our results are age-, cohort-, and period-specific. as more birth cohorts and data collection points become available, it will be possible to better address age-period-cohort issues. for instance, future research may follow up individuals into their 70s, cover a longer historical period, and include younger cohorts in the sample. future research could also use retrospective life-history data to analyze parallel sequences in family roles, or explore both the determinants and consequences of retirement sequences by comparing sequences across countries which differ",
+      "text": "groups.\n\nWe concluded that there are multiple types of retirement sequences among the aging population in the United States. More specifically, the conventional model of complete retirement from a full-time job around age 65 was not the most prevalent one for the 1931–1941 birth cohorts. However, we also found that these retirement sequences were only moderately destandardized, as they remained to some extent irreversible and age graded. Furthermore, as to be expected in a country characterized by strong disparities, we found that the destandardization of retirement sequences varied along gender, class, and racial lines.\n\nSupplementary Material\n\nSupplementary data is available at The Gerontologist\n\nonline.\n\nFunding\n\nThis work was supported by the Columbia University President’s\n\nGlobal Innovation Fund, CONICYT/FONDECYT/REGULAR/\n\nN°1140107, CONICYT/FONDECYT/POSTDOCTORADO/",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 groups.\n\nwe concluded that there are multiple types of retirement sequences among the aging population in the united states. more specifically, the conventional model of complete retirement from a full-time job around age 65 was not the most prevalent one for the 1931–1941 birth cohorts. however, we also found that these retirement sequences were only moderately destandardized, as they remained to some extent irreversible and age graded. furthermore, as to be expected in a country characterized by strong disparities, we found that the destandardization of retirement sequences varied along gender, class, and racial lines.\n\nsupplementary material\n\nsupplementary data is available at the gerontologist\n\nonline.\n\nfunding\n\nthis work was supported by the columbia university president’s\n\nglobal innovation fund, conicyt/fondecyt/regular/\n\nn°1140107, conicyt/fondecyt/postdoctorado/",
       "order": 61
     },
     {
@@ -13176,8 +13176,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "in their labor-market and social-security regulations.\n\nConclusion\n\nPast decades have seen a stark increase in theoretical and empirical explorations of life-course destandardization and stratification (Mayer, 2009). Although substantial progress has been achieved, studies focusing on labor-force patterns in later life have eluded an integrative model, tend to either focus on statuses or transitions, and frequently overlook social stratification. While statuses and transitions are both crucial in understanding the life course, bringing to bear the advantages of analyzing sequences is still in its infancy.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 in their labor-market and social-security regulations.\n\nconclusion\n\npast decades have seen a stark increase in theoretical and empirical explorations of life-course destandardization and stratification (mayer, 2009). although substantial progress has been achieved, studies focusing on labor-force patterns in later life have eluded an integrative model, tend to either focus on statuses or transitions, and frequently overlook social stratification. while statuses and transitions are both crucial in understanding the life course, bringing to bear the advantages of analyzing sequences is still in its infancy.",
+      "text": "N°3160522, and CONICYT/FONDAP/Nº15130009.\n\nAcknowledgments\n\nThe authors thank Katherine B. Indvik and two anonymous reviewers for their valuable comments on an earlier version of this article.\n\nHowever, the authors should be held responsible for any remaining\n\nerrors or inaccuracies.\n\nReferences\n\nAllison, P. (2002). Missing data . Thousand Oaks, CA: Sage.\n\nAzar, A., Madero-Cabib, I., Slachevsky, A., Staudinger, U., & Calvo,\n\nE. (2017). From snapshots to movies: The association between\n\nretirement sequences and aging trajectories in motor and cognitive functioning . Manuscript submitted for publication.\n\nCahill, K. E., Giandrea, M. D., & Quinn, J. F. (2015). Retirement\n\npatterns and the macroeconomy, 1992–2010: The prevalence and determinants of bridge jobs, phased retirement, and\n\nreentry among three recent cohorts of older Americans. The",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 n°3160522, and conicyt/fondap/nº15130009.\n\nacknowledgments\n\nthe authors thank katherine b. indvik and two anonymous reviewers for their valuable comments on an earlier version of this article.\n\nhowever, the authors should be held responsible for any remaining\n\nerrors or inaccuracies.\n\nreferences\n\nallison, p. (2002). missing data . thousand oaks, ca: sage.\n\nazar, a., madero-cabib, i., slachevsky, a., staudinger, u., & calvo,\n\ne. (2017). from snapshots to movies: the association between\n\nretirement sequences and aging trajectories in motor and cognitive functioning . manuscript submitted for publication.\n\ncahill, k. e., giandrea, m. d., & quinn, j. f. (2015). retirement\n\npatterns and the macroeconomy, 1992–2010: the prevalence and determinants of bridge jobs, phased retirement, and\n\nreentry among three recent cohorts of older americans. the",
       "order": 62
     },
     {
@@ -13187,8 +13187,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "We proposed a sequence-analytic approach and presented a conceptual model of retirement sequences that defines and takes into account multiple components of destandardization (unconventional type, reversible order, and flexible timing). Furthermore, we found evidence that the stratification of retirement sequences by gender, class, and race must not be overlooked. To our knowledge, this is the first article to combine a sequence-analytic approach to labor-force patterns in later life using nationally representative data of older adults in the United States. This is an important contribution to policy and extant literature because there is increasing awareness of the risks of generalizing results obtained from studies focusing on snapshot statuses and transitions to whole sequences, ignoring heterogeneity in how life courses play out, and generalizing results from other countries or age",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 we proposed a sequence-analytic approach and presented a conceptual model of retirement sequences that defines and takes into account multiple components of destandardization (unconventional type, reversible order, and flexible timing). furthermore, we found evidence that the stratification of retirement sequences by gender, class, and race must not be overlooked. to our knowledge, this is the first article to combine a sequence-analytic approach to labor-force patterns in later life using nationally representative data of older adults in the united states. this is an important contribution to policy and extant literature because there is increasing awareness of the risks of generalizing results obtained from studies focusing on snapshot statuses and transitions to whole sequences, ignoring heterogeneity in how life courses play out, and generalizing results from other countries or age",
+      "text": "Gerontologist , 55 , 384–403. doi:10.1093/geront/gnt146\n\nCalvo, E., Haverstick, K., & Sass, S. (2009). Gradual retirement,\n\nsense of control, and retirees’ happiness. Research on Aging , 31 ,\n\n112–135. doi:10.1177/0164027508324704\n\nCalvo, E., Sarkisian, N., & Tamborini, C. R. (2013). Causal effects of\n\nretirement timing on subjective physical and emotional health.\n\nThe Journal of Gerontology, Series B: Psychological Sciences\n\nand Social Sciences , 68 , 73–84. doi:10.1093/geronb/gbs097\n\nChien, S., Campbell, N., Chan, C., Hayden, O., Hurd, M., Main, R.,\n\n… St.Clair, P. (2015). RAND HRS data documentation version\n\nO . Santa Monica, CA: RAND.\n\nEllis, C., Munnell, A., & Eschtruth, A. (2014). Falling short: The\n\ncoming retirement crisis and what to do about it . New York:\n\nOxford University Press.\n\nElzinga, C. (2014). Distance, similarity and sequence comparison.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 gerontologist , 55 , 384–403. doi:10.1093/geront/gnt146\n\ncalvo, e., haverstick, k., & sass, s. (2009). gradual retirement,\n\nsense of control, and retirees’ happiness. research on aging , 31 ,\n\n112–135. doi:10.1177/0164027508324704\n\ncalvo, e., sarkisian, n., & tamborini, c. r. (2013). causal effects of\n\nretirement timing on subjective physical and emotional health.\n\nthe journal of gerontology, series b: psychological sciences\n\nand social sciences , 68 , 73–84. doi:10.1093/geronb/gbs097\n\nchien, s., campbell, n., chan, c., hayden, o., hurd, m., main, r.,\n\n… st.clair, p. (2015). rand hrs data documentation version\n\no . santa monica, ca: rand.\n\nellis, c., munnell, a., & eschtruth, a. (2014). falling short: the\n\ncoming retirement crisis and what to do about it . new york:\n\noxford university press.\n\nelzinga, c. (2014). distance, similarity and sequence comparison.",
       "order": 63
     },
     {
@@ -13198,8 +13198,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "groups.\n\nWe concluded that there are multiple types of retirement sequences among the aging population in the United States. More specifically, the conventional model of complete retirement from a full-time job around age 65 was not the most prevalent one for the 1931–1941 birth cohorts. However, we also found that these retirement sequences were only moderately destandardized, as they remained to some extent irreversible and age graded. Furthermore, as to be expected in a country characterized by strong disparities, we found that the destandardization of retirement sequences varied along gender, class, and racial lines.\n\nSupplementary Material\n\nSupplementary data is available at The Gerontologist\n\nonline.\n\nFunding\n\nThis work was supported by the Columbia University President’s\n\nGlobal Innovation Fund, CONICYT/FONDECYT/REGULAR/\n\nN°1140107, CONICYT/FONDECYT/POSTDOCTORADO/",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 groups.\n\nwe concluded that there are multiple types of retirement sequences among the aging population in the united states. more specifically, the conventional model of complete retirement from a full-time job around age 65 was not the most prevalent one for the 1931–1941 birth cohorts. however, we also found that these retirement sequences were only moderately destandardized, as they remained to some extent irreversible and age graded. furthermore, as to be expected in a country characterized by strong disparities, we found that the destandardization of retirement sequences varied along gender, class, and racial lines.\n\nsupplementary material\n\nsupplementary data is available at the gerontologist\n\nonline.\n\nfunding\n\nthis work was supported by the columbia university president’s\n\nglobal innovation fund, conicyt/fondecyt/regular/\n\nn°1140107, conicyt/fondecyt/postdoctorado/",
+      "text": "In P. Blanchard, F. Bühlmann, & J.-A. Gauthier (Eds.), Advances\n\nin sequence analysis: Theory, method, applications (pp. 51–73).\n\nNew York: Springer.\n\nFasang, A. (2010). Retirement: Institutional pathways and individual trajectories in Britain and Germany. Sociological Research\n\nOnline , 15 . doi:10.5153/sro.2110\n\nFasang, A. (2012). Retirement patterns and income inequality. Social\n\nForces , 90 , 685–711. doi:10.1093/sf/sor015\n\nFisher, G., Chaffee, D., & Sonnega, A. (2016). Retirement timing:\n\nA review and recommendations for future research. Work, Aging\n\nand Retirement , 2 , 230–261. doi:10.1093/workar/waw001\n\nGabadinho, A., Ritschard, G., Müller, N., & Studer, M. (2011).\n\nAnalyzing and visualizing state sequences in R with TraMineR.\n\nJournal of Statistical Software , 40 , 1–37. doi:10.18637/jss.v040.i04\n\nGiele, J., & Elder, G. (1998). Methods of life course research:",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 in p. blanchard, f. bühlmann, & j.-a. gauthier (eds.), advances\n\nin sequence analysis: theory, method, applications (pp. 51–73).\n\nnew york: springer.\n\nfasang, a. (2010). retirement: institutional pathways and individual trajectories in britain and germany. sociological research\n\nonline , 15 . doi:10.5153/sro.2110\n\nfasang, a. (2012). retirement patterns and income inequality. social\n\nforces , 90 , 685–711. doi:10.1093/sf/sor015\n\nfisher, g., chaffee, d., & sonnega, a. (2016). retirement timing:\n\na review and recommendations for future research. work, aging\n\nand retirement , 2 , 230–261. doi:10.1093/workar/waw001\n\ngabadinho, a., ritschard, g., müller, n., & studer, m. (2011).\n\nanalyzing and visualizing state sequences in r with traminer.\n\njournal of statistical software , 40 , 1–37. doi:10.18637/jss.v040.i04\n\ngiele, j., & elder, g. (1998). methods of life course research:",
       "order": 64
     },
     {
@@ -13209,8 +13209,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "N°3160522, and CONICYT/FONDAP/Nº15130009.\n\nAcknowledgments\n\nThe authors thank Katherine B. Indvik and two anonymous reviewers for their valuable comments on an earlier version of this article.\n\nHowever, the authors should be held responsible for any remaining\n\nerrors or inaccuracies.\n\nReferences\n\nAllison, P. (2002). Missing data . Thousand Oaks, CA: Sage.\n\nAzar, A., Madero-Cabib, I., Slachevsky, A., Staudinger, U., & Calvo,\n\nE. (2017). From snapshots to movies: The association between\n\nretirement sequences and aging trajectories in motor and cognitive functioning . Manuscript submitted for publication.\n\nCahill, K. E., Giandrea, M. D., & Quinn, J. F. (2015). Retirement\n\npatterns and the macroeconomy, 1992–2010: The prevalence and determinants of bridge jobs, phased retirement, and\n\nreentry among three recent cohorts of older Americans. The",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 n°3160522, and conicyt/fondap/nº15130009.\n\nacknowledgments\n\nthe authors thank katherine b. indvik and two anonymous reviewers for their valuable comments on an earlier version of this article.\n\nhowever, the authors should be held responsible for any remaining\n\nerrors or inaccuracies.\n\nreferences\n\nallison, p. (2002). missing data . thousand oaks, ca: sage.\n\nazar, a., madero-cabib, i., slachevsky, a., staudinger, u., & calvo,\n\ne. (2017). from snapshots to movies: the association between\n\nretirement sequences and aging trajectories in motor and cognitive functioning . manuscript submitted for publication.\n\ncahill, k. e., giandrea, m. d., & quinn, j. f. (2015). retirement\n\npatterns and the macroeconomy, 1992–2010: the prevalence and determinants of bridge jobs, phased retirement, and\n\nreentry among three recent cohorts of older americans. the",
+      "text": "Qualitative and quantitative approaches . Thousand Oaks, CA:\n\nSage.\n\nHan, S.-K., & Moen, P. (1999). Clocking out: Temporal patterning\n\nof retirement. American Journal of Sociology , 105 , 191–236.\n\ndoi:10.1086/210271\n\nHarris, K., Krygsman, S., Waschenko, J., & Rudman, D. (2017) Ageism\n\nand the older worker: A scoping review. The Gerontologist .\n\nAdvanced online publication. doi:10.1093/geront/gnw194\n\nKim, Y.-M. (2013). Diverging top and converging bottom:\n\nLabour flexibilization and changes in career mobility in\n\nthe USA. Work, Employment & Society , 27 , 860–879.\n\ndoi:10.1177/0950017012464418\n\nKohli, M. (2007). The institutionalization of the life course: Looking\n\nback to look ahead. Research in Human Development , 4 , 253–\n\n271. doi:10.1080/15427600701663122\n\nLain, D. (2012). Working past 65 in the UK and the USA: Segregation",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 qualitative and quantitative approaches . thousand oaks, ca:\n\nsage.\n\nhan, s.-k., & moen, p. (1999). clocking out: temporal patterning\n\nof retirement. american journal of sociology , 105 , 191–236.\n\ndoi:10.1086/210271\n\nharris, k., krygsman, s., waschenko, j., & rudman, d. (2017) ageism\n\nand the older worker: a scoping review. the gerontologist .\n\nadvanced online publication. doi:10.1093/geront/gnw194\n\nkim, y.-m. (2013). diverging top and converging bottom:\n\nlabour flexibilization and changes in career mobility in\n\nthe usa. work, employment & society , 27 , 860–879.\n\ndoi:10.1177/0950017012464418\n\nkohli, m. (2007). the institutionalization of the life course: looking\n\nback to look ahead. research in human development , 4 , 253–\n\n271. doi:10.1080/15427600701663122\n\nlain, d. (2012). working past 65 in the uk and the usa: segregation",
       "order": 65
     },
     {
@@ -13220,8 +13220,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Gerontologist , 55 , 384–403. doi:10.1093/geront/gnt146\n\nCalvo, E., Haverstick, K., & Sass, S. (2009). Gradual retirement,\n\nsense of control, and retirees’ happiness. Research on Aging , 31 ,\n\n112–135. doi:10.1177/0164027508324704\n\nCalvo, E., Sarkisian, N., & Tamborini, C. R. (2013). Causal effects of\n\nretirement timing on subjective physical and emotional health.\n\nThe Journal of Gerontology, Series B: Psychological Sciences\n\nand Social Sciences , 68 , 73–84. doi:10.1093/geronb/gbs097\n\nChien, S., Campbell, N., Chan, C., Hayden, O., Hurd, M., Main, R.,\n\n… St.Clair, P. (2015). RAND HRS data documentation version\n\nO . Santa Monica, CA: RAND.\n\nEllis, C., Munnell, A., & Eschtruth, A. (2014). Falling short: The\n\ncoming retirement crisis and what to do about it . New York:\n\nOxford University Press.\n\nElzinga, C. (2014). Distance, similarity and sequence comparison.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 gerontologist , 55 , 384–403. doi:10.1093/geront/gnt146\n\ncalvo, e., haverstick, k., & sass, s. (2009). gradual retirement,\n\nsense of control, and retirees’ happiness. research on aging , 31 ,\n\n112–135. doi:10.1177/0164027508324704\n\ncalvo, e., sarkisian, n., & tamborini, c. r. (2013). causal effects of\n\nretirement timing on subjective physical and emotional health.\n\nthe journal of gerontology, series b: psychological sciences\n\nand social sciences , 68 , 73–84. doi:10.1093/geronb/gbs097\n\nchien, s., campbell, n., chan, c., hayden, o., hurd, m., main, r.,\n\n… st.clair, p. (2015). rand hrs data documentation version\n\no . santa monica, ca: rand.\n\nellis, c., munnell, a., & eschtruth, a. (2014). falling short: the\n\ncoming retirement crisis and what to do about it . new york:\n\noxford university press.\n\nelzinga, c. (2014). distance, similarity and sequence comparison.",
+      "text": "into ‘lopaq’ occupations? Work, Employment & Society , 26 , 78–\n\n94. doi:10.1177/0950017011426312\n\nLevy, R., & Widmer, E. (2013). Gendered life courses between indi-\n\nvidualization and standardization . Vienna, Austria: LIT Verlag.\n\nLoretto, W., & Vickerstaff, S. (2015). Gender, age and flexible work-\n\ning in later life. Work, Employment & Society , 29 , 233–249.\n\ndoi:10.1177/0950017014545267\n\nLynch, S. M., & Brown, J. S. (2011). Stratification and inequality\n\nover the life course. In R. H. Binstock & L. K. George (Eds.),\n\nHandbook of aging and the social sciences (7th ed., pp. 105–\n\n117). San Diego, CA: Elsevier.\n\nMacIndoe, H., & Abbott, A. (2004). Sequence analysis and opti-\n\nmal matching techniques for social science data. In M. Hardy\n\n& A. Bryman (Eds.), Handbook of data analysis (pp. 387–406).\n\nLondon, UK: Sage.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 into ‘lopaq’ occupations? work, employment & society , 26 , 78–\n\n94. doi:10.1177/0950017011426312\n\nlevy, r., & widmer, e. (2013). gendered life courses between indi-\n\nvidualization and standardization . vienna, austria: lit verlag.\n\nloretto, w., & vickerstaff, s. (2015). gender, age and flexible work-\n\ning in later life. work, employment & society , 29 , 233–249.\n\ndoi:10.1177/0950017014545267\n\nlynch, s. m., & brown, j. s. (2011). stratification and inequality\n\nover the life course. in r. h. binstock & l. k. george (eds.),\n\nhandbook of aging and the social sciences (7th ed., pp. 105–\n\n117). san diego, ca: elsevier.\n\nmacindoe, h., & abbott, a. (2004). sequence analysis and opti-\n\nmal matching techniques for social science data. in m. hardy\n\n& a. bryman (eds.), handbook of data analysis (pp. 387–406).\n\nlondon, uk: sage.",
       "order": 66
     },
     {
@@ -13231,8 +13231,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "In P. Blanchard, F. Bühlmann, & J.-A. Gauthier (Eds.), Advances\n\nin sequence analysis: Theory, method, applications (pp. 51–73).\n\nNew York: Springer.\n\nFasang, A. (2010). Retirement: Institutional pathways and individual trajectories in Britain and Germany. Sociological Research\n\nOnline , 15 . doi:10.5153/sro.2110\n\nFasang, A. (2012). Retirement patterns and income inequality. Social\n\nForces , 90 , 685–711. doi:10.1093/sf/sor015\n\nFisher, G., Chaffee, D., & Sonnega, A. (2016). Retirement timing:\n\nA review and recommendations for future research. Work, Aging\n\nand Retirement , 2 , 230–261. doi:10.1093/workar/waw001\n\nGabadinho, A., Ritschard, G., Müller, N., & Studer, M. (2011).\n\nAnalyzing and visualizing state sequences in R with TraMineR.\n\nJournal of Statistical Software , 40 , 1–37. doi:10.18637/jss.v040.i04\n\nGiele, J., & Elder, G. (1998). Methods of life course research:",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 in p. blanchard, f. bühlmann, & j.-a. gauthier (eds.), advances\n\nin sequence analysis: theory, method, applications (pp. 51–73).\n\nnew york: springer.\n\nfasang, a. (2010). retirement: institutional pathways and individual trajectories in britain and germany. sociological research\n\nonline , 15 . doi:10.5153/sro.2110\n\nfasang, a. (2012). retirement patterns and income inequality. social\n\nforces , 90 , 685–711. doi:10.1093/sf/sor015\n\nfisher, g., chaffee, d., & sonnega, a. (2016). retirement timing:\n\na review and recommendations for future research. work, aging\n\nand retirement , 2 , 230–261. doi:10.1093/workar/waw001\n\ngabadinho, a., ritschard, g., müller, n., & studer, m. (2011).\n\nanalyzing and visualizing state sequences in r with traminer.\n\njournal of statistical software , 40 , 1–37. doi:10.18637/jss.v040.i04\n\ngiele, j., & elder, g. (1998). methods of life course research:",
+      "text": "Madero-Cabib, I. (2015). The life course determinants of vulnerability in late careers. Longitudinal and Life Course Studies , 6 ,\n\n88–106. doi:10.14301/llcs.v6i1.299\n\nMadero-Cabib, I., & Fasang, A. (2016). Gendered work–family life courses and financial well-being in retirement.\n\nAdvances in Life Course Research , 27 , 43–60. doi:10.1016/j.\n\nalcr.2015.11.003\n\nMadero-Cabib, I., Gauthier, J.-A., & Le Goff, J.-M. (2016). The\n\ninfluence of interlocked employment–family trajectories on\n\nretirement timing. Work, Aging and Retirement , 2 , 38–53.\n\ndoi:10.1093/workar/wav023\n\nMaestas, N. (2010). Back to work: Expectations and realizations\n\nof work after retirement. The Journal of Human Resources , 45 ,\n\n718–748. doi:10.1353/jhr.2010.0011\n\nMayer, K. (2009). New trends in life course research. Annual\n\nReview of Sociology , 35 , 413–433. doi:10.1146/annurev.\n\nsoc.34.040507.134619",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 madero-cabib, i. (2015). the life course determinants of vulnerability in late careers. longitudinal and life course studies , 6 ,\n\n88–106. doi:10.14301/llcs.v6i1.299\n\nmadero-cabib, i., & fasang, a. (2016). gendered work–family life courses and financial well-being in retirement.\n\nadvances in life course research , 27 , 43–60. doi:10.1016/j.\n\nalcr.2015.11.003\n\nmadero-cabib, i., gauthier, j.-a., & le goff, j.-m. (2016). the\n\ninfluence of interlocked employment–family trajectories on\n\nretirement timing. work, aging and retirement , 2 , 38–53.\n\ndoi:10.1093/workar/wav023\n\nmaestas, n. (2010). back to work: expectations and realizations\n\nof work after retirement. the journal of human resources , 45 ,\n\n718–748. doi:10.1353/jhr.2010.0011\n\nmayer, k. (2009). new trends in life course research. annual\n\nreview of sociology , 35 , 413–433. doi:10.1146/annurev.\n\nsoc.34.040507.134619",
       "order": 67
     },
     {
@@ -13242,8 +13242,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Qualitative and quantitative approaches . Thousand Oaks, CA:\n\nSage.\n\nHan, S.-K., & Moen, P. (1999). Clocking out: Temporal patterning\n\nof retirement. American Journal of Sociology , 105 , 191–236.\n\ndoi:10.1086/210271\n\nHarris, K., Krygsman, S., Waschenko, J., & Rudman, D. (2017) Ageism\n\nand the older worker: A scoping review. The Gerontologist .\n\nAdvanced online publication. doi:10.1093/geront/gnw194\n\nKim, Y.-M. (2013). Diverging top and converging bottom:\n\nLabour flexibilization and changes in career mobility in\n\nthe USA. Work, Employment & Society , 27 , 860–879.\n\ndoi:10.1177/0950017012464418\n\nKohli, M. (2007). The institutionalization of the life course: Looking\n\nback to look ahead. Research in Human Development , 4 , 253–\n\n271. doi:10.1080/15427600701663122\n\nLain, D. (2012). Working past 65 in the UK and the USA: Segregation",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 qualitative and quantitative approaches . thousand oaks, ca:\n\nsage.\n\nhan, s.-k., & moen, p. (1999). clocking out: temporal patterning\n\nof retirement. american journal of sociology , 105 , 191–236.\n\ndoi:10.1086/210271\n\nharris, k., krygsman, s., waschenko, j., & rudman, d. (2017) ageism\n\nand the older worker: a scoping review. the gerontologist .\n\nadvanced online publication. doi:10.1093/geront/gnw194\n\nkim, y.-m. (2013). diverging top and converging bottom:\n\nlabour flexibilization and changes in career mobility in\n\nthe usa. work, employment & society , 27 , 860–879.\n\ndoi:10.1177/0950017012464418\n\nkohli, m. (2007). the institutionalization of the life course: looking\n\nback to look ahead. research in human development , 4 , 253–\n\n271. doi:10.1080/15427600701663122\n\nlain, d. (2012). working past 65 in the uk and the usa: segregation",
+      "text": "McNamara, T. K., & Williamson, J. B. (2004). Race, gender, and\n\nthe retirement decisions of people ages 60 to 80: Prospects\n\nfor age integration in employment. International Journal of\n\nAging & Human Development , 59 , 255–286. doi:10.2190/\n\nGE24-03MX-U34P-AMNH\n\nR Core Team. (2014). R: A language and environment for statistical computing . Vienna, Austria: R Foundation for Statistical\n\nComputing.\n\nSettersten, R. (2006). Age structuring and the rhythm of the life\n\ncourse. In J. Mortimer & M. Shanahan (Eds.), Handbook of the\n\nlife course (pp. 81–98). New York: Springer.\n\nStaudinger, U. M., Finkelstein, R., Calvo, E., & Sivaramakrishnan,\n\nK. (2016). A global view on the effects of work on health in later\n\nlife. The Gerontologist , 56(Suppl. 2) : S281–S292. doi:10.1093/\n\ngeront/gnw032\n\nStuder, M., Ritschard, G., Gabadinho, A., Müller, N. S. (2011).",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 mcnamara, t. k., & williamson, j. b. (2004). race, gender, and\n\nthe retirement decisions of people ages 60 to 80: prospects\n\nfor age integration in employment. international journal of\n\naging & human development , 59 , 255–286. doi:10.2190/\n\nge24-03mx-u34p-amnh\n\nr core team. (2014). r: a language and environment for statistical computing . vienna, austria: r foundation for statistical\n\ncomputing.\n\nsettersten, r. (2006). age structuring and the rhythm of the life\n\ncourse. in j. mortimer & m. shanahan (eds.), handbook of the\n\nlife course (pp. 81–98). new york: springer.\n\nstaudinger, u. m., finkelstein, r., calvo, e., & sivaramakrishnan,\n\nk. (2016). a global view on the effects of work on health in later\n\nlife. the gerontologist , 56(suppl. 2) : s281–s292. doi:10.1093/\n\ngeront/gnw032\n\nstuder, m., ritschard, g., gabadinho, a., müller, n. s. (2011).",
       "order": 68
     },
     {
@@ -13253,8 +13253,8 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "into ‘lopaq’ occupations? Work, Employment & Society , 26 , 78–\n\n94. doi:10.1177/0950017011426312\n\nLevy, R., & Widmer, E. (2013). Gendered life courses between indi-\n\nvidualization and standardization . Vienna, Austria: LIT Verlag.\n\nLoretto, W., & Vickerstaff, S. (2015). Gender, age and flexible work-\n\ning in later life. Work, Employment & Society , 29 , 233–249.\n\ndoi:10.1177/0950017014545267\n\nLynch, S. M., & Brown, J. S. (2011). Stratification and inequality\n\nover the life course. In R. H. Binstock & L. K. George (Eds.),\n\nHandbook of aging and the social sciences (7th ed., pp. 105–\n\n117). San Diego, CA: Elsevier.\n\nMacIndoe, H., & Abbott, A. (2004). Sequence analysis and opti-\n\nmal matching techniques for social science data. In M. Hardy\n\n& A. Bryman (Eds.), Handbook of data analysis (pp. 387–406).\n\nLondon, UK: Sage.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 into ‘lopaq’ occupations? work, employment & society , 26 , 78–\n\n94. doi:10.1177/0950017011426312\n\nlevy, r., & widmer, e. (2013). gendered life courses between indi-\n\nvidualization and standardization . vienna, austria: lit verlag.\n\nloretto, w., & vickerstaff, s. (2015). gender, age and flexible work-\n\ning in later life. work, employment & society , 29 , 233–249.\n\ndoi:10.1177/0950017014545267\n\nlynch, s. m., & brown, j. s. (2011). stratification and inequality\n\nover the life course. in r. h. binstock & l. k. george (eds.),\n\nhandbook of aging and the social sciences (7th ed., pp. 105–\n\n117). san diego, ca: elsevier.\n\nmacindoe, h., & abbott, a. (2004). sequence analysis and opti-\n\nmal matching techniques for social science data. in m. hardy\n\n& a. bryman (eds.), handbook of data analysis (pp. 387–406).\n\nlondon, uk: sage.",
+      "text": "Discrepancy analysis of state sequences. Sociological Methods\n\nand Research , 40 , 471–510. doi:10.1177/0049124111415372\n\nSzinovacz, M. (2013). A multilevel perspective for retirement\n\nresearch. In M. Wang (Ed.), The Oxford handbook of retirement\n\n(pp. 152–173). New York: Oxford University Press.\n\nSzinovacz, M. E., Martin, L., & Davey, A. (2014). Recession and\n\nexpected retirement age: Another look at the evidence. The\n\nGerontologist , 54 , 245–257. doi:10.1093/geront/gnt010\n\nTang, F., & Burr, J. (2015). Revisiting the pathways to retirement:\n\nA latent structure model of the dynamics of transition from work\n\nto retirement. Ageing and Society , 35 , 1739–1770. doi:10.1017/\n\nS0144686X14000634\n\nvan der Horst, M., Vickerstaff, S., Lain, D., Clark, C., & Geiger, B.\n\n(2016). Pathways of paid work, care provision, and volunteering",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 discrepancy analysis of state sequences. sociological methods\n\nand research , 40 , 471–510. doi:10.1177/0049124111415372\n\nszinovacz, m. (2013). a multilevel perspective for retirement\n\nresearch. in m. wang (ed.), the oxford handbook of retirement\n\n(pp. 152–173). new york: oxford university press.\n\nszinovacz, m. e., martin, l., & davey, a. (2014). recession and\n\nexpected retirement age: another look at the evidence. the\n\ngerontologist , 54 , 245–257. doi:10.1093/geront/gnt010\n\ntang, f., & burr, j. (2015). revisiting the pathways to retirement:\n\na latent structure model of the dynamics of transition from work\n\nto retirement. ageing and society , 35 , 1739–1770. doi:10.1017/\n\ns0144686x14000634\n\nvan der horst, m., vickerstaff, s., lain, d., clark, c., & geiger, b.\n\n(2016). pathways of paid work, care provision, and volunteering",
       "order": 69
     },
     {
@@ -13264,45 +13264,12 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "full",
       "pageLabel": "원문 읽기",
       "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Madero-Cabib, I. (2015). The life course determinants of vulnerability in late careers. Longitudinal and Life Course Studies , 6 ,\n\n88–106. doi:10.14301/llcs.v6i1.299\n\nMadero-Cabib, I., & Fasang, A. (2016). Gendered work–family life courses and financial well-being in retirement.\n\nAdvances in Life Course Research , 27 , 43–60. doi:10.1016/j.\n\nalcr.2015.11.003\n\nMadero-Cabib, I., Gauthier, J.-A., & Le Goff, J.-M. (2016). The\n\ninfluence of interlocked employment–family trajectories on\n\nretirement timing. Work, Aging and Retirement , 2 , 38–53.\n\ndoi:10.1093/workar/wav023\n\nMaestas, N. (2010). Back to work: Expectations and realizations\n\nof work after retirement. The Journal of Human Resources , 45 ,\n\n718–748. doi:10.1353/jhr.2010.0011\n\nMayer, K. (2009). New trends in life course research. Annual\n\nReview of Sociology , 35 , 413–433. doi:10.1146/annurev.\n\nsoc.34.040507.134619",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 madero-cabib, i. (2015). the life course determinants of vulnerability in late careers. longitudinal and life course studies , 6 ,\n\n88–106. doi:10.14301/llcs.v6i1.299\n\nmadero-cabib, i., & fasang, a. (2016). gendered work–family life courses and financial well-being in retirement.\n\nadvances in life course research , 27 , 43–60. doi:10.1016/j.\n\nalcr.2015.11.003\n\nmadero-cabib, i., gauthier, j.-a., & le goff, j.-m. (2016). the\n\ninfluence of interlocked employment–family trajectories on\n\nretirement timing. work, aging and retirement , 2 , 38–53.\n\ndoi:10.1093/workar/wav023\n\nmaestas, n. (2010). back to work: expectations and realizations\n\nof work after retirement. the journal of human resources , 45 ,\n\n718–748. doi:10.1353/jhr.2010.0011\n\nmayer, k. (2009). new trends in life course research. annual\n\nreview of sociology , 35 , 413–433. doi:10.1146/annurev.\n\nsoc.34.040507.134619",
+      "text": "in later careers: Activity substitution or extension? Work, Aging\n\nand Retirement . Advanced online publication. doi:10.1093/\n\nworkar/waw028\n\nWidmer, E., & Ritschard, G. (2009). The de-standardization of the\n\nlife course: Are men and women equal? Advances in Life Course\n\nResearch , 14 , 28–39. doi:10.1016/j.alcr.2009.04.001",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 in later careers: activity substitution or extension? work, aging\n\nand retirement . advanced online publication. doi:10.1093/\n\nworkar/waw028\n\nwidmer, e., & ritschard, g. (2009). the de-standardization of the\n\nlife course: are men and women equal? advances in life course\n\nresearch , 14 , 28–39. doi:10.1016/j.alcr.2009.04.001",
       "order": 70
     },
     {
       "id": "chatbot-01207",
-      "slug": "calvo-et-al-2018",
-      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-      "pageKey": "full",
-      "pageLabel": "원문 읽기",
-      "href": "readings/calvo-et-al-2018/full.html",
-      "text": "McNamara, T. K., & Williamson, J. B. (2004). Race, gender, and\n\nthe retirement decisions of people ages 60 to 80: Prospects\n\nfor age integration in employment. International Journal of\n\nAging & Human Development , 59 , 255–286. doi:10.2190/\n\nGE24-03MX-U34P-AMNH\n\nR Core Team. (2014). R: A language and environment for statistical computing . Vienna, Austria: R Foundation for Statistical\n\nComputing.\n\nSettersten, R. (2006). Age structuring and the rhythm of the life\n\ncourse. In J. Mortimer & M. Shanahan (Eds.), Handbook of the\n\nlife course (pp. 81–98). New York: Springer.\n\nStaudinger, U. M., Finkelstein, R., Calvo, E., & Sivaramakrishnan,\n\nK. (2016). A global view on the effects of work on health in later\n\nlife. The Gerontologist , 56(Suppl. 2) : S281–S292. doi:10.1093/\n\ngeront/gnw032\n\nStuder, M., Ritschard, G., Gabadinho, A., Müller, N. S. (2011).",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 mcnamara, t. k., & williamson, j. b. (2004). race, gender, and\n\nthe retirement decisions of people ages 60 to 80: prospects\n\nfor age integration in employment. international journal of\n\naging & human development , 59 , 255–286. doi:10.2190/\n\nge24-03mx-u34p-amnh\n\nr core team. (2014). r: a language and environment for statistical computing . vienna, austria: r foundation for statistical\n\ncomputing.\n\nsettersten, r. (2006). age structuring and the rhythm of the life\n\ncourse. in j. mortimer & m. shanahan (eds.), handbook of the\n\nlife course (pp. 81–98). new york: springer.\n\nstaudinger, u. m., finkelstein, r., calvo, e., & sivaramakrishnan,\n\nk. (2016). a global view on the effects of work on health in later\n\nlife. the gerontologist , 56(suppl. 2) : s281–s292. doi:10.1093/\n\ngeront/gnw032\n\nstuder, m., ritschard, g., gabadinho, a., müller, n. s. (2011).",
-      "order": 71
-    },
-    {
-      "id": "chatbot-01208",
-      "slug": "calvo-et-al-2018",
-      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-      "pageKey": "full",
-      "pageLabel": "원문 읽기",
-      "href": "readings/calvo-et-al-2018/full.html",
-      "text": "Discrepancy analysis of state sequences. Sociological Methods\n\nand Research , 40 , 471–510. doi:10.1177/0049124111415372\n\nSzinovacz, M. (2013). A multilevel perspective for retirement\n\nresearch. In M. Wang (Ed.), The Oxford handbook of retirement\n\n(pp. 152–173). New York: Oxford University Press.\n\nSzinovacz, M. E., Martin, L., & Davey, A. (2014). Recession and\n\nexpected retirement age: Another look at the evidence. The\n\nGerontologist , 54 , 245–257. doi:10.1093/geront/gnt010\n\nTang, F., & Burr, J. (2015). Revisiting the pathways to retirement:\n\nA latent structure model of the dynamics of transition from work\n\nto retirement. Ageing and Society , 35 , 1739–1770. doi:10.1017/\n\nS0144686X14000634\n\nvan der Horst, M., Vickerstaff, S., Lain, D., Clark, C., & Geiger, B.\n\n(2016). Pathways of paid work, care provision, and volunteering",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 discrepancy analysis of state sequences. sociological methods\n\nand research , 40 , 471–510. doi:10.1177/0049124111415372\n\nszinovacz, m. (2013). a multilevel perspective for retirement\n\nresearch. in m. wang (ed.), the oxford handbook of retirement\n\n(pp. 152–173). new york: oxford university press.\n\nszinovacz, m. e., martin, l., & davey, a. (2014). recession and\n\nexpected retirement age: another look at the evidence. the\n\ngerontologist , 54 , 245–257. doi:10.1093/geront/gnt010\n\ntang, f., & burr, j. (2015). revisiting the pathways to retirement:\n\na latent structure model of the dynamics of transition from work\n\nto retirement. ageing and society , 35 , 1739–1770. doi:10.1017/\n\ns0144686x14000634\n\nvan der horst, m., vickerstaff, s., lain, d., clark, c., & geiger, b.\n\n(2016). pathways of paid work, care provision, and volunteering",
-      "order": 72
-    },
-    {
-      "id": "chatbot-01209",
-      "slug": "calvo-et-al-2018",
-      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-      "pageKey": "full",
-      "pageLabel": "원문 읽기",
-      "href": "readings/calvo-et-al-2018/full.html",
-      "text": "in later careers: Activity substitution or extension? Work, Aging\n\nand Retirement . Advanced online publication. doi:10.1093/\n\nworkar/waw028\n\nWidmer, E., & Ritschard, G. (2009). The de-standardization of the\n\nlife course: Are men and women equal? Advances in Life Course\n\nResearch , 14 , 28–39. doi:10.1016/j.alcr.2009.04.001",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 원문 읽기 in later careers: activity substitution or extension? work, aging\n\nand retirement . advanced online publication. doi:10.1093/\n\nworkar/waw028\n\nwidmer, e., & ritschard, g. (2009). the de-standardization of the\n\nlife course: are men and women equal? advances in life course\n\nresearch , 14 , 28–39. doi:10.1016/j.alcr.2009.04.001",
-      "order": 73
-    },
-    {
-      "id": "chatbot-01210",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13313,7 +13280,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01211",
+      "id": "chatbot-01208",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13324,7 +13291,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01212",
+      "id": "chatbot-01209",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13335,7 +13302,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01213",
+      "id": "chatbot-01210",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13346,7 +13313,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01214",
+      "id": "chatbot-01211",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13357,7 +13324,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01215",
+      "id": "chatbot-01212",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13368,7 +13335,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01216",
+      "id": "chatbot-01213",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13379,7 +13346,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01217",
+      "id": "chatbot-01214",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13390,7 +13357,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01218",
+      "id": "chatbot-01215",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13401,7 +13368,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01219",
+      "id": "chatbot-01216",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13412,7 +13379,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01220",
+      "id": "chatbot-01217",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13423,7 +13390,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01221",
+      "id": "chatbot-01218",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
@@ -13434,15 +13401,48 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
+      "id": "chatbot-01219",
+      "slug": "calvo-et-al-2018",
+      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/calvo-et-al-2018/translation.html",
+      "text": "우리는 개인별로 가장 길게 관찰 가능한 구간인 60-61세부터 70-71세까지에 초점을 맞췄고(보충부록 A), 70-71세 이전에 사망한 1,871명은 제외했다. 전체 자료점의 4.23%에서 나타난 결측치는 다음 절에 나오는 변수들과 인구학적·사회경제적·건강 관련 보충변수를 포함한 chained equations 기반 단일 확률적 대치로 처리했다(Allison, 2002). 그 결과 생성된 균형 패널자료는 7,881명을 10년 동안 연속 6회 관찰한 47,286개 관측치로 구성되었다.\n\n측정\n\n노동력 상태\n\n은퇴 시퀀스를 구성하기 위해 RAND에서 부호화한 노동력 상태 변수를 사용했다(Chien et al., 2015). 범주는 다음과 같다.\n\n정규직 근무\n시간제 근무\n부분 은퇴\n완전 은퇴\n실업\n장애\n비경제활동 상태\n\n사회적 층화\n\n사회적 층화를 나타내는 변수로 성별, 계급, 인종을 사용했다. 성별은 여성=1, 남성=0의 더미변수다. 계급은 교육연수를 세 수준으로 재부호화해 측정했다. 저학력은 교육 12년 미만, 중간 학력은 교육 12년, 즉 일반적으로 고등학교 졸업 수준, 고학력은 교육 12년 초과다. 인종은 백인, 흑인, 히스패닉의 세 범주로 측정했다. 표 1은 앞서 설명한 변수들의 기술통계를 제시한다. 자세한 내용은 보충부록 B를 참조하라.\n\n표 1. 기술통계\n\n분석 전략",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 우리는 개인별로 가장 길게 관찰 가능한 구간인 60-61세부터 70-71세까지에 초점을 맞췄고(보충부록 a), 70-71세 이전에 사망한 1,871명은 제외했다. 전체 자료점의 4.23%에서 나타난 결측치는 다음 절에 나오는 변수들과 인구학적·사회경제적·건강 관련 보충변수를 포함한 chained equations 기반 단일 확률적 대치로 처리했다(allison, 2002). 그 결과 생성된 균형 패널자료는 7,881명을 10년 동안 연속 6회 관찰한 47,286개 관측치로 구성되었다.\n\n측정\n\n노동력 상태\n\n은퇴 시퀀스를 구성하기 위해 rand에서 부호화한 노동력 상태 변수를 사용했다(chien et al., 2015). 범주는 다음과 같다.\n\n정규직 근무\n시간제 근무\n부분 은퇴\n완전 은퇴\n실업\n장애\n비경제활동 상태\n\n사회적 층화\n\n사회적 층화를 나타내는 변수로 성별, 계급, 인종을 사용했다. 성별은 여성=1, 남성=0의 더미변수다. 계급은 교육연수를 세 수준으로 재부호화해 측정했다. 저학력은 교육 12년 미만, 중간 학력은 교육 12년, 즉 일반적으로 고등학교 졸업 수준, 고학력은 교육 12년 초과다. 인종은 백인, 흑인, 히스패닉의 세 범주로 측정했다. 표 1은 앞서 설명한 변수들의 기술통계를 제시한다. 자세한 내용은 보충부록 b를 참조하라.\n\n표 1. 기술통계\n\n분석 전략",
+      "order": 13
+    },
+    {
+      "id": "chatbot-01220",
+      "slug": "calvo-et-al-2018",
+      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/calvo-et-al-2018/translation.html",
+      "text": "우리는 시퀀스 분석을 사용해 은퇴 시퀀스를 식별했다. 이를 위해 각 개인의 시퀀스 자료를 만들고, 그 유사성을 서로 비교했다(MacIndoe & Abbott, 2004). 두 개인의 시퀀스는 유사한 상태들이 유사한 순서와 유사한 시점에 나타날 때 서로 비슷한 것으로 간주된다. 이 유사성 비교의 결과는 가능한 모든 시퀀스 쌍 사이의 거리를 요약한 행렬로 나타난다. 여기서 거리(distance)란 한 시퀀스를 다른 시퀀스로 바꾸기 위해 필요한 상태의 수정 횟수, 즉 대체(substitution) 및 삽입/삭제(insertion/deletion)의 수를 뜻한다(Gabadinho, Ritschard, Muller, & Studer, 2011).\n\n우리는 최적 일치 분석(optimal matching analysis, OMA)을 사용해 거리를 계산했다. 이 방법은 대체 비용과 삽입/삭제 비용을 모두 고려한다(Elzinga, 2014; Gabadinho et al., 2011). 이론적으로 도출한 비용행렬을 쓰면 지나치게 자의적일 수 있으므로, 우리는 모든 상태에 동일한 비용을 부여했다. 대체 비용만을 고려하는 dynamic hamming distance(DHD)와 generalized hamming(HAM) 방법을 써도 유사한 결과가 나왔다(보충부록 C).",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 우리는 시퀀스 분석을 사용해 은퇴 시퀀스를 식별했다. 이를 위해 각 개인의 시퀀스 자료를 만들고, 그 유사성을 서로 비교했다(macindoe & abbott, 2004). 두 개인의 시퀀스는 유사한 상태들이 유사한 순서와 유사한 시점에 나타날 때 서로 비슷한 것으로 간주된다. 이 유사성 비교의 결과는 가능한 모든 시퀀스 쌍 사이의 거리를 요약한 행렬로 나타난다. 여기서 거리(distance)란 한 시퀀스를 다른 시퀀스로 바꾸기 위해 필요한 상태의 수정 횟수, 즉 대체(substitution) 및 삽입/삭제(insertion/deletion)의 수를 뜻한다(gabadinho, ritschard, muller, & studer, 2011).\n\n우리는 최적 일치 분석(optimal matching analysis, oma)을 사용해 거리를 계산했다. 이 방법은 대체 비용과 삽입/삭제 비용을 모두 고려한다(elzinga, 2014; gabadinho et al., 2011). 이론적으로 도출한 비용행렬을 쓰면 지나치게 자의적일 수 있으므로, 우리는 모든 상태에 동일한 비용을 부여했다. 대체 비용만을 고려하는 dynamic hamming distance(dhd)와 generalized hamming(ham) 방법을 써도 유사한 결과가 나왔다(보충부록 c).",
+      "order": 14
+    },
+    {
+      "id": "chatbot-01221",
+      "slug": "calvo-et-al-2018",
+      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
+      "pageKey": "translation",
+      "pageLabel": "번역본 읽기",
+      "href": "readings/calvo-et-al-2018/translation.html",
+      "text": "이 쌍대 거리행렬을 바탕으로, 우리는 군집분석을 실시해 개인별 시퀀스를 동질적인 유형으로 분류했다. Ward의 위계적 군집화 방법을 사용해 개인 시퀀스를 묶고, 시퀀스 유형 또는 시퀀스 집단을 만들었다. 가장 변별력이 높은 시퀀스 유형 수를 정하기 위해 평균 silhouette width 군집 절단 기준을 적용했다(Gabadinho et al., 2011; 보충부록 D). Dendrogramme 군집 절단 기준을 사용해도 비슷한 결과가 나왔다(결과는 저자에게 요청 가능).\n\n다음으로 우리는 개별 시퀀스와 시퀀스 유형을 시각화한 그래프를 만들었다. 개별 시퀀스 그래프는 특정 시퀀스 유형을 이루는 각 개인의 시퀀스를 보여 주고, 시퀀스 유형 그래프는 그 개별 시퀀스들을 더 총체적이고 추상적인 하나의 군집으로 묶어 보여 준다. 이어서 각 시퀀스 유형에서 가장 빈번한 전환에 대한 기술통계를 구했고, 내부 역동성의 세 지표, 즉 엔트로피(entropy), 복잡성(complexity), 난류도(turbulence)를 검토했다(Elzinga, 2014; Gabadinho et al., 2011). 그다음 성별, 계급, 인종에 따라 시퀀스 차이가 유의한지 검증하기 위해 단순 및 다요인 discrepancy analysis를 실시했다(Studer, Ritschard, Gabadinho, & Muller, 2011). 마지막으로, 사망자를 포함했을 때도(보충부록 E), 기간과 코호트로 층화했을 때도(보충부록 F), 가중치를 사용했을 때도(보충부록 G) 결과가 견고하다는 추가 분석을 수행했다.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 이 쌍대 거리행렬을 바탕으로, 우리는 군집분석을 실시해 개인별 시퀀스를 동질적인 유형으로 분류했다. ward의 위계적 군집화 방법을 사용해 개인 시퀀스를 묶고, 시퀀스 유형 또는 시퀀스 집단을 만들었다. 가장 변별력이 높은 시퀀스 유형 수를 정하기 위해 평균 silhouette width 군집 절단 기준을 적용했다(gabadinho et al., 2011; 보충부록 d). dendrogramme 군집 절단 기준을 사용해도 비슷한 결과가 나왔다(결과는 저자에게 요청 가능).\n\n다음으로 우리는 개별 시퀀스와 시퀀스 유형을 시각화한 그래프를 만들었다. 개별 시퀀스 그래프는 특정 시퀀스 유형을 이루는 각 개인의 시퀀스를 보여 주고, 시퀀스 유형 그래프는 그 개별 시퀀스들을 더 총체적이고 추상적인 하나의 군집으로 묶어 보여 준다. 이어서 각 시퀀스 유형에서 가장 빈번한 전환에 대한 기술통계를 구했고, 내부 역동성의 세 지표, 즉 엔트로피(entropy), 복잡성(complexity), 난류도(turbulence)를 검토했다(elzinga, 2014; gabadinho et al., 2011). 그다음 성별, 계급, 인종에 따라 시퀀스 차이가 유의한지 검증하기 위해 단순 및 다요인 discrepancy analysis를 실시했다(studer, ritschard, gabadinho, & muller, 2011). 마지막으로, 사망자를 포함했을 때도(보충부록 e), 기간과 코호트로 층화했을 때도(보충부록 f), 가중치를 사용했을 때도(보충부록 g) 결과가 견고하다는 추가 분석을 수행했다.",
+      "order": 15
+    },
+    {
       "id": "chatbot-01222",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "우리는 개인별로 가장 길게 관찰 가능한 구간인 60-61세부터 70-71세까지에 초점을 맞췄고(보충부록 A), 70-71세 이전에 사망한 1,871명은 제외했다. 전체 자료점의 4.23%에서 나타난 결측치는 다음 절에 나오는 변수들과 인구학적·사회경제적·건강 관련 보충변수를 포함한 chained equations 기반 단일 확률적 대치로 처리했다(Allison, 2002). 그 결과 생성된 균형 패널자료는 7,881명을 10년 동안 연속 6회 관찰한 47,286개 관측치로 구성되었다.\n\n측정\n\n노동력 상태\n\n은퇴 시퀀스를 구성하기 위해 RAND에서 부호화한 노동력 상태 변수를 사용했다(Chien et al., 2015). 범주는 다음과 같다.\n\n정규직 근무\n시간제 근무\n부분 은퇴\n완전 은퇴\n실업\n장애\n비경제활동 상태\n\n사회적 층화\n\n사회적 층화를 나타내는 변수로 성별, 계급, 인종을 사용했다. 성별은 여성=1, 남성=0의 더미변수다. 계급은 교육연수를 세 수준으로 재부호화해 측정했다. 저학력은 교육 12년 미만, 중간 학력은 교육 12년, 즉 일반적으로 고등학교 졸업 수준, 고학력은 교육 12년 초과다. 인종은 백인, 흑인, 히스패닉의 세 범주로 측정했다. 표 1은 앞서 설명한 변수들의 기술통계를 제시한다. 자세한 내용은 보충부록 B를 참조하라.\n\n표 1. 기술통계",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 우리는 개인별로 가장 길게 관찰 가능한 구간인 60-61세부터 70-71세까지에 초점을 맞췄고(보충부록 a), 70-71세 이전에 사망한 1,871명은 제외했다. 전체 자료점의 4.23%에서 나타난 결측치는 다음 절에 나오는 변수들과 인구학적·사회경제적·건강 관련 보충변수를 포함한 chained equations 기반 단일 확률적 대치로 처리했다(allison, 2002). 그 결과 생성된 균형 패널자료는 7,881명을 10년 동안 연속 6회 관찰한 47,286개 관측치로 구성되었다.\n\n측정\n\n노동력 상태\n\n은퇴 시퀀스를 구성하기 위해 rand에서 부호화한 노동력 상태 변수를 사용했다(chien et al., 2015). 범주는 다음과 같다.\n\n정규직 근무\n시간제 근무\n부분 은퇴\n완전 은퇴\n실업\n장애\n비경제활동 상태\n\n사회적 층화\n\n사회적 층화를 나타내는 변수로 성별, 계급, 인종을 사용했다. 성별은 여성=1, 남성=0의 더미변수다. 계급은 교육연수를 세 수준으로 재부호화해 측정했다. 저학력은 교육 12년 미만, 중간 학력은 교육 12년, 즉 일반적으로 고등학교 졸업 수준, 고학력은 교육 12년 초과다. 인종은 백인, 흑인, 히스패닉의 세 범주로 측정했다. 표 1은 앞서 설명한 변수들의 기술통계를 제시한다. 자세한 내용은 보충부록 b를 참조하라.\n\n표 1. 기술통계",
-      "order": 13
+      "text": "시퀀스 분석이 비교적 새로운 기법이라는 점을 고려해, 우리는 가설 검증 절차를 상세히 제시한다. 먼저 전체 표본을 대상으로 탈표준화 가설을 검증했다. 중간 정도의 탈표준화는 높은 탈표준화를 나타내는 조건들, 즉 비관습적 유형, 가역적 순서, 유연한 시점 가운데 적어도 하나는 충족하지만 모두를 충족하지는 않을 때 지지되는 것으로 보았다.\n\n비관습적 유형 가설은 평균 silhouette width 절단 기준이 1보다 큰 시퀀스 유형 수를 제시하고, 가장 흔한 유형이 전통적 은퇴 모형과 다를 때 지지된다.\n\n가역적 순서 가설은 사례의 절반 이상에서 개별 시퀀스 그래프, 시퀀스 유형 그래프, 그리고 시퀀스 내 가장 빈번한 전환에 대한 기술통계에 가역적 전환이 나타날 때 지지된다.\n\n유연한 시점 가설은 동일한 전환이 서로 다른 연령에서 일어난다는 증거가 개별 시퀀스 그래프와 시퀀스 유형 그래프, 그리고 내부 역동성의 세 지표인 엔트로피, 복잡성, 난류도에서 확인될 때 지지된다. 이 지표들은 은퇴 시퀀스에서 시점의 유연성을 공식적으로 검토할 수 있게 해 준다. 어떤 시점에서든 엔트로피 지수는 모든 응답자가 같은 상태에 있으면 0이고, 가능한 모든 상태에 고르게 분포하면 1이다. 복잡성 지수 0은 개인들 사이 상태가 완전히 유사하고 상태 간 전환이 전혀 일어나지 않았음을 뜻하고, 1은 그 반대를 뜻한다. 난류도 지수는 하나의 시퀀스 유형에서 만들 수 있는 서로 다른 부분시퀀스(subsequence)의 수를 반영하는데, 이는 한 시퀀스 안의 모든 전환과 각 상태에 머문 시간을 함께 고려해 계산된다. 따라서 난류도 지수가 높을수록 한 시퀀스 안에 서로 다른 부분시퀀스가 많고, 이는 곧 상태와 전환이 시간에 따라 크게 달라진다는 뜻이다.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 시퀀스 분석이 비교적 새로운 기법이라는 점을 고려해, 우리는 가설 검증 절차를 상세히 제시한다. 먼저 전체 표본을 대상으로 탈표준화 가설을 검증했다. 중간 정도의 탈표준화는 높은 탈표준화를 나타내는 조건들, 즉 비관습적 유형, 가역적 순서, 유연한 시점 가운데 적어도 하나는 충족하지만 모두를 충족하지는 않을 때 지지되는 것으로 보았다.\n\n비관습적 유형 가설은 평균 silhouette width 절단 기준이 1보다 큰 시퀀스 유형 수를 제시하고, 가장 흔한 유형이 전통적 은퇴 모형과 다를 때 지지된다.\n\n가역적 순서 가설은 사례의 절반 이상에서 개별 시퀀스 그래프, 시퀀스 유형 그래프, 그리고 시퀀스 내 가장 빈번한 전환에 대한 기술통계에 가역적 전환이 나타날 때 지지된다.\n\n유연한 시점 가설은 동일한 전환이 서로 다른 연령에서 일어난다는 증거가 개별 시퀀스 그래프와 시퀀스 유형 그래프, 그리고 내부 역동성의 세 지표인 엔트로피, 복잡성, 난류도에서 확인될 때 지지된다. 이 지표들은 은퇴 시퀀스에서 시점의 유연성을 공식적으로 검토할 수 있게 해 준다. 어떤 시점에서든 엔트로피 지수는 모든 응답자가 같은 상태에 있으면 0이고, 가능한 모든 상태에 고르게 분포하면 1이다. 복잡성 지수 0은 개인들 사이 상태가 완전히 유사하고 상태 간 전환이 전혀 일어나지 않았음을 뜻하고, 1은 그 반대를 뜻한다. 난류도 지수는 하나의 시퀀스 유형에서 만들 수 있는 서로 다른 부분시퀀스(subsequence)의 수를 반영하는데, 이는 한 시퀀스 안의 모든 전환과 각 상태에 머문 시간을 함께 고려해 계산된다. 따라서 난류도 지수가 높을수록 한 시퀀스 안에 서로 다른 부분시퀀스가 많고, 이는 곧 상태와 전환이 시간에 따라 크게 달라진다는 뜻이다.",
+      "order": 16
     },
     {
       "id": "chatbot-01223",
@@ -13451,9 +13451,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "| 변수(%) | 전체 파동 | 60-61세 | 70-71세 |\n| --- | ---: | ---: | ---: |\n| 노동력 상태 | | | |\n| 정규직 근무 | 26.52 | 44.23 | 8.81 |\n| 시간제 근무 | 6.19 | 9.16 | 3.22 |\n| 부분 은퇴 | 10.32 | 6.93 | 13.70 |\n| 완전 은퇴 | 44.12 | 23.47 | 64.76 |\n| 실업 | 1.46 | 1.98 | 0.93 |\n| 장애 | 2.84 | 4.09 | 1.59 |\n| 비경제활동 | 8.56 | 10.14 | 6.99 |\n| 성별 | | | |\n| 남성 | 44.87 | - | - |\n| 여성 | 55.13 | - | - |\n| 계급 | | | |\n| 저학력 | 26.32 | - | - |\n| 중간 학력 | 36.37 | - | - |\n| 고학력 | 37.32 | - | - |\n| 인종 | | | |\n| 비히스패닉 백인 | 73.18 | - | - |\n| 비히스패닉 흑인 | 15.30 | - | - |\n| 히스패닉 | 9.45 | - | - |\n| 기타 비히스패닉 | 2.07 | - | - |\n\n분석 전략",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 | 변수(%) | 전체 파동 | 60-61세 | 70-71세 |\n| --- | ---: | ---: | ---: |\n| 노동력 상태 | | | |\n| 정규직 근무 | 26.52 | 44.23 | 8.81 |\n| 시간제 근무 | 6.19 | 9.16 | 3.22 |\n| 부분 은퇴 | 10.32 | 6.93 | 13.70 |\n| 완전 은퇴 | 44.12 | 23.47 | 64.76 |\n| 실업 | 1.46 | 1.98 | 0.93 |\n| 장애 | 2.84 | 4.09 | 1.59 |\n| 비경제활동 | 8.56 | 10.14 | 6.99 |\n| 성별 | | | |\n| 남성 | 44.87 | - | - |\n| 여성 | 55.13 | - | - |\n| 계급 | | | |\n| 저학력 | 26.32 | - | - |\n| 중간 학력 | 36.37 | - | - |\n| 고학력 | 37.32 | - | - |\n| 인종 | | | |\n| 비히스패닉 백인 | 73.18 | - | - |\n| 비히스패닉 흑인 | 15.30 | - | - |\n| 히스패닉 | 9.45 | - | - |\n| 기타 비히스패닉 | 2.07 | - | - |\n\n분석 전략",
-      "order": 14
+      "text": "이어서 우리는 사회적 층화 가설을 검증했다. 이 가설은 성별, 계급, 인종에 따라 탈표준화 수준의 차이가 확인될 때 지지된다. 구체적으로 우리는 여성, 저학력자, 흑인이 각 대응 집단보다 더 탈표준화된 은퇴 시퀀스를 보일 것으로 예상했다. 먼저 단순 및 다요인 discrepancy analysis를 통해 성별, 계급, 인종에 따라 시퀀스에 유의한 차이가 있는지 검정했다(보충부록 H). 그 결과를 바탕으로, 각 집단이 서로 다른 시퀀스 유형과 더 크거나 더 작은 역동성, 더 크거나 더 작은 시점 유연성을 가질 수 있도록 층화 표본별로 탈표준화 분석을 반복했다. 모든 분석은 R(R Core Team, 2014)에서, 시퀀스 분석용 TraMineR 패키지(Gabadinho et al., 2011)를 사용해 수행했다.\n\n결과\n\n은퇴 시퀀스의 유형, 순서, 시점에서의 탈표준화\n\n비관습적 유형 가설은 강하게 지지되었다. 우리는 정규직 근무 후 완전 은퇴로 이어지는 전통적 모형이 가장 흔한 유형이 아니라, 여섯 가지 은퇴 시퀀스 중 하나라는 사실을 발견했다.\n\n여섯 가지 은퇴 시퀀스는 조기(early), 완전(complete), 부분(partial), 지연(late), 모호(ambiguous), 압축(compact) 유형으로 나타났다(보충부록 D). 그림 1은 각 시퀀스 유형 내부의 개인별 시퀀스를 보여 주고, 이를 하나의 시퀀스 유형으로 종합해 제시한다. 그림 1의 명칭은 이 은퇴 시퀀스들이 서로 얼마나 구별되는지를 강조한다.\n\n조기 은퇴 시퀀스는 표본의 36.66%에 해당하는 2,889명으로 가장 흔한 유형이었다. 이 시퀀스에서는 대부분의 개인이 62세 이전 또는 62세 무렵까지 완전 은퇴 상태에 들어갔다.\n\n그림 1. 미국의 은퇴 시퀀스",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 이어서 우리는 사회적 층화 가설을 검증했다. 이 가설은 성별, 계급, 인종에 따라 탈표준화 수준의 차이가 확인될 때 지지된다. 구체적으로 우리는 여성, 저학력자, 흑인이 각 대응 집단보다 더 탈표준화된 은퇴 시퀀스를 보일 것으로 예상했다. 먼저 단순 및 다요인 discrepancy analysis를 통해 성별, 계급, 인종에 따라 시퀀스에 유의한 차이가 있는지 검정했다(보충부록 h). 그 결과를 바탕으로, 각 집단이 서로 다른 시퀀스 유형과 더 크거나 더 작은 역동성, 더 크거나 더 작은 시점 유연성을 가질 수 있도록 층화 표본별로 탈표준화 분석을 반복했다. 모든 분석은 r(r core team, 2014)에서, 시퀀스 분석용 traminer 패키지(gabadinho et al., 2011)를 사용해 수행했다.\n\n결과\n\n은퇴 시퀀스의 유형, 순서, 시점에서의 탈표준화\n\n비관습적 유형 가설은 강하게 지지되었다. 우리는 정규직 근무 후 완전 은퇴로 이어지는 전통적 모형이 가장 흔한 유형이 아니라, 여섯 가지 은퇴 시퀀스 중 하나라는 사실을 발견했다.\n\n여섯 가지 은퇴 시퀀스는 조기(early), 완전(complete), 부분(partial), 지연(late), 모호(ambiguous), 압축(compact) 유형으로 나타났다(보충부록 d). 그림 1은 각 시퀀스 유형 내부의 개인별 시퀀스를 보여 주고, 이를 하나의 시퀀스 유형으로 종합해 제시한다. 그림 1의 명칭은 이 은퇴 시퀀스들이 서로 얼마나 구별되는지를 강조한다.\n\n조기 은퇴 시퀀스는 표본의 36.66%에 해당하는 2,889명으로 가장 흔한 유형이었다. 이 시퀀스에서는 대부분의 개인이 62세 이전 또는 62세 무렵까지 완전 은퇴 상태에 들어갔다.\n\n그림 1. 미국의 은퇴 시퀀스",
+      "order": 17
     },
     {
       "id": "chatbot-01224",
@@ -13462,9 +13462,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "우리는 시퀀스 분석을 사용해 은퇴 시퀀스를 식별했다. 이를 위해 각 개인의 시퀀스 자료를 만들고, 그 유사성을 서로 비교했다(MacIndoe & Abbott, 2004). 두 개인의 시퀀스는 유사한 상태들이 유사한 순서와 유사한 시점에 나타날 때 서로 비슷한 것으로 간주된다. 이 유사성 비교의 결과는 가능한 모든 시퀀스 쌍 사이의 거리를 요약한 행렬로 나타난다. 여기서 거리(distance)란 한 시퀀스를 다른 시퀀스로 바꾸기 위해 필요한 상태의 수정 횟수, 즉 대체(substitution) 및 삽입/삭제(insertion/deletion)의 수를 뜻한다(Gabadinho, Ritschard, Muller, & Studer, 2011).\n\n우리는 최적 일치 분석(optimal matching analysis, OMA)을 사용해 거리를 계산했다. 이 방법은 대체 비용과 삽입/삭제 비용을 모두 고려한다(Elzinga, 2014; Gabadinho et al., 2011). 이론적으로 도출한 비용행렬을 쓰면 지나치게 자의적일 수 있으므로, 우리는 모든 상태에 동일한 비용을 부여했다. 대체 비용만을 고려하는 dynamic hamming distance(DHD)와 generalized hamming(HAM) 방법을 써도 유사한 결과가 나왔다(보충부록 C).",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 우리는 시퀀스 분석을 사용해 은퇴 시퀀스를 식별했다. 이를 위해 각 개인의 시퀀스 자료를 만들고, 그 유사성을 서로 비교했다(macindoe & abbott, 2004). 두 개인의 시퀀스는 유사한 상태들이 유사한 순서와 유사한 시점에 나타날 때 서로 비슷한 것으로 간주된다. 이 유사성 비교의 결과는 가능한 모든 시퀀스 쌍 사이의 거리를 요약한 행렬로 나타난다. 여기서 거리(distance)란 한 시퀀스를 다른 시퀀스로 바꾸기 위해 필요한 상태의 수정 횟수, 즉 대체(substitution) 및 삽입/삭제(insertion/deletion)의 수를 뜻한다(gabadinho, ritschard, muller, & studer, 2011).\n\n우리는 최적 일치 분석(optimal matching analysis, oma)을 사용해 거리를 계산했다. 이 방법은 대체 비용과 삽입/삭제 비용을 모두 고려한다(elzinga, 2014; gabadinho et al., 2011). 이론적으로 도출한 비용행렬을 쓰면 지나치게 자의적일 수 있으므로, 우리는 모든 상태에 동일한 비용을 부여했다. 대체 비용만을 고려하는 dynamic hamming distance(dhd)와 generalized hamming(ham) 방법을 써도 유사한 결과가 나왔다(보충부록 c).",
-      "order": 15
+      "text": "다른 은퇴 시퀀스들은 그림 1에 제시된 것처럼 상대적으로 덜 흔했다. 완전 은퇴 시퀀스는 정규직 일자리에서 완전 은퇴로 이동하는 전통적 모형이 특징이며, 대부분이 정규직으로 시작해 66세까지는 완전 은퇴에 도달한다. 부분 은퇴 시퀀스는 정규직에서 부분 은퇴로 넘어가는 것이 특징인데, 대부분이 정규직으로 시작하고 66세 시점에서 가장 큰 집단이 부분 은퇴 상태에 있다. 지연 은퇴 시퀀스에서는 대부분이 정규직으로 일을 시작해 66세 이후까지 계속 일한다. 모호한 은퇴 시퀀스는 비경제활동 상태에서 은퇴로 이동하는 사람이 많다는 점이 특징이다. 마지막으로 압축 은퇴 시퀀스는 시간제 일자리에서 부분 은퇴로 넘어가는 경로가 특징이며, 대부분 시간제 일자리에서 시작하고 일부는 부분 은퇴 상태로 마무리된다.\n\n가역적 순서 가설은 은퇴 시퀀스에 은퇴 후 재진입, 재고용, 또는 특정 노동력 상태 안팎의 반복 이동을 경험한 개인이 절반 이상 포함될 것이라고 예상했다. 그러나 우리의 결과는 이 가설에 대해 제한적인 지지만을 제공했다.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 다른 은퇴 시퀀스들은 그림 1에 제시된 것처럼 상대적으로 덜 흔했다. 완전 은퇴 시퀀스는 정규직 일자리에서 완전 은퇴로 이동하는 전통적 모형이 특징이며, 대부분이 정규직으로 시작해 66세까지는 완전 은퇴에 도달한다. 부분 은퇴 시퀀스는 정규직에서 부분 은퇴로 넘어가는 것이 특징인데, 대부분이 정규직으로 시작하고 66세 시점에서 가장 큰 집단이 부분 은퇴 상태에 있다. 지연 은퇴 시퀀스에서는 대부분이 정규직으로 일을 시작해 66세 이후까지 계속 일한다. 모호한 은퇴 시퀀스는 비경제활동 상태에서 은퇴로 이동하는 사람이 많다는 점이 특징이다. 마지막으로 압축 은퇴 시퀀스는 시간제 일자리에서 부분 은퇴로 넘어가는 경로가 특징이며, 대부분 시간제 일자리에서 시작하고 일부는 부분 은퇴 상태로 마무리된다.\n\n가역적 순서 가설은 은퇴 시퀀스에 은퇴 후 재진입, 재고용, 또는 특정 노동력 상태 안팎의 반복 이동을 경험한 개인이 절반 이상 포함될 것이라고 예상했다. 그러나 우리의 결과는 이 가설에 대해 제한적인 지지만을 제공했다.",
+      "order": 18
     },
     {
       "id": "chatbot-01225",
@@ -13473,9 +13473,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "이 쌍대 거리행렬을 바탕으로, 우리는 군집분석을 실시해 개인별 시퀀스를 동질적인 유형으로 분류했다. Ward의 위계적 군집화 방법을 사용해 개인 시퀀스를 묶고, 시퀀스 유형 또는 시퀀스 집단을 만들었다. 가장 변별력이 높은 시퀀스 유형 수를 정하기 위해 평균 silhouette width 군집 절단 기준을 적용했다(Gabadinho et al., 2011; 보충부록 D). Dendrogramme 군집 절단 기준을 사용해도 비슷한 결과가 나왔다(결과는 저자에게 요청 가능).\n\n다음으로 우리는 개별 시퀀스와 시퀀스 유형을 시각화한 그래프를 만들었다. 개별 시퀀스 그래프는 특정 시퀀스 유형을 이루는 각 개인의 시퀀스를 보여 주고, 시퀀스 유형 그래프는 그 개별 시퀀스들을 더 총체적이고 추상적인 하나의 군집으로 묶어 보여 준다. 이어서 각 시퀀스 유형에서 가장 빈번한 전환에 대한 기술통계를 구했고, 내부 역동성의 세 지표, 즉 엔트로피(entropy), 복잡성(complexity), 난류도(turbulence)를 검토했다(Elzinga, 2014; Gabadinho et al., 2011). 그다음 성별, 계급, 인종에 따라 시퀀스 차이가 유의한지 검증하기 위해 단순 및 다요인 discrepancy analysis를 실시했다(Studer, Ritschard, Gabadinho, & Muller, 2011). 마지막으로, 사망자를 포함했을 때도(보충부록 E), 기간과 코호트로 층화했을 때도(보충부록 F), 가중치를 사용했을 때도(보충부록 G) 결과가 견고하다는 추가 분석을 수행했다.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 이 쌍대 거리행렬을 바탕으로, 우리는 군집분석을 실시해 개인별 시퀀스를 동질적인 유형으로 분류했다. ward의 위계적 군집화 방법을 사용해 개인 시퀀스를 묶고, 시퀀스 유형 또는 시퀀스 집단을 만들었다. 가장 변별력이 높은 시퀀스 유형 수를 정하기 위해 평균 silhouette width 군집 절단 기준을 적용했다(gabadinho et al., 2011; 보충부록 d). dendrogramme 군집 절단 기준을 사용해도 비슷한 결과가 나왔다(결과는 저자에게 요청 가능).\n\n다음으로 우리는 개별 시퀀스와 시퀀스 유형을 시각화한 그래프를 만들었다. 개별 시퀀스 그래프는 특정 시퀀스 유형을 이루는 각 개인의 시퀀스를 보여 주고, 시퀀스 유형 그래프는 그 개별 시퀀스들을 더 총체적이고 추상적인 하나의 군집으로 묶어 보여 준다. 이어서 각 시퀀스 유형에서 가장 빈번한 전환에 대한 기술통계를 구했고, 내부 역동성의 세 지표, 즉 엔트로피(entropy), 복잡성(complexity), 난류도(turbulence)를 검토했다(elzinga, 2014; gabadinho et al., 2011). 그다음 성별, 계급, 인종에 따라 시퀀스 차이가 유의한지 검증하기 위해 단순 및 다요인 discrepancy analysis를 실시했다(studer, ritschard, gabadinho, & muller, 2011). 마지막으로, 사망자를 포함했을 때도(보충부록 e), 기간과 코호트로 층화했을 때도(보충부록 f), 가중치를 사용했을 때도(보충부록 g) 결과가 견고하다는 추가 분석을 수행했다.",
-      "order": 16
+      "text": "그림 1에 나타난 시퀀스 유형은 대체로 비가역적이었다. 다만 모호한 시퀀스의 소수 집단에서는 은퇴 이후 다시 정규직으로 일하는 경우가 관찰되었다. 그러나 개별 시퀀스를 자세히 살펴보면 재고용과 은퇴 후 노동시장 재진입의 흔적, 그리고 장애 상태나 비경제활동 상태 안팎으로 오가는 전환이 일부 확인되었다. 전체 표본에 대해 시퀀스 내 가장 빈번한 다섯 가지 전환을 살펴보면(표 2 왼쪽 위), 네 가지는 일에서 은퇴로 나아가는 진행을 의미했고, 다섯 번째는 응답자의 15.71%가 전체 시퀀스 기간 중 적어도 한 번 은퇴에서 부분 은퇴로 이동했다는 사실을 보여 주었다. 요약하면, 대부분의 사람은 일의 여러 정도에서 은퇴의 여러 정도로 나아가는 흐름을 따랐으며, 우리가 관찰한 소수의 역순 전환은 서로 충분히 비슷하지 않아 별도의 시퀀스 유형을 형성하지 못했다.\n\n표 2. 시퀀스 내 가장 빈번한 전환과 은퇴 시퀀스의 내부 동질성 지수\n\n동일한 노동력 전환이 다양한 연령에서 일어난다는 유연한 시점 가설도 부분적으로만 지지되었다. 그림 1의 대부분 시퀀스는 어느 정도 연령 규정적(age-graded)이었지만, 노동력 전환이 서로 다른 연령에서 일어나는 경우도 관찰되었다. 가장 뚜렷한 예는 조기 은퇴 시퀀스와 지연 은퇴 시퀀스가 동시에 존재한다는 점이다. 또한 대부분의 시퀀스 안에서 은퇴 상태에서 정규직, 시간제 일자리, 실업으로 이동하는 변화는 여러 시점에서 일어날 수 있었지만, 내부 역동성 지표(표 2)가 보여 주듯 특정 연령대에 집중되는 경향도 있었다. 전체 표본의 엔트로피, 복잡성, 난류도 지수는 부분 은퇴, 모호, 압축 시퀀스가 가장 유연하다는 점을 보여 주었다. 즉 이 시퀀스들을 구성하는 상태와 전환은 시간에 따라 더 크게 달라지고, 서로 다른 연령에서 발생할 가능성이 더 컸다.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 그림 1에 나타난 시퀀스 유형은 대체로 비가역적이었다. 다만 모호한 시퀀스의 소수 집단에서는 은퇴 이후 다시 정규직으로 일하는 경우가 관찰되었다. 그러나 개별 시퀀스를 자세히 살펴보면 재고용과 은퇴 후 노동시장 재진입의 흔적, 그리고 장애 상태나 비경제활동 상태 안팎으로 오가는 전환이 일부 확인되었다. 전체 표본에 대해 시퀀스 내 가장 빈번한 다섯 가지 전환을 살펴보면(표 2 왼쪽 위), 네 가지는 일에서 은퇴로 나아가는 진행을 의미했고, 다섯 번째는 응답자의 15.71%가 전체 시퀀스 기간 중 적어도 한 번 은퇴에서 부분 은퇴로 이동했다는 사실을 보여 주었다. 요약하면, 대부분의 사람은 일의 여러 정도에서 은퇴의 여러 정도로 나아가는 흐름을 따랐으며, 우리가 관찰한 소수의 역순 전환은 서로 충분히 비슷하지 않아 별도의 시퀀스 유형을 형성하지 못했다.\n\n표 2. 시퀀스 내 가장 빈번한 전환과 은퇴 시퀀스의 내부 동질성 지수\n\n동일한 노동력 전환이 다양한 연령에서 일어난다는 유연한 시점 가설도 부분적으로만 지지되었다. 그림 1의 대부분 시퀀스는 어느 정도 연령 규정적(age-graded)이었지만, 노동력 전환이 서로 다른 연령에서 일어나는 경우도 관찰되었다. 가장 뚜렷한 예는 조기 은퇴 시퀀스와 지연 은퇴 시퀀스가 동시에 존재한다는 점이다. 또한 대부분의 시퀀스 안에서 은퇴 상태에서 정규직, 시간제 일자리, 실업으로 이동하는 변화는 여러 시점에서 일어날 수 있었지만, 내부 역동성 지표(표 2)가 보여 주듯 특정 연령대에 집중되는 경향도 있었다. 전체 표본의 엔트로피, 복잡성, 난류도 지수는 부분 은퇴, 모호, 압축 시퀀스가 가장 유연하다는 점을 보여 주었다. 즉 이 시퀀스들을 구성하는 상태와 전환은 시간에 따라 더 크게 달라지고, 서로 다른 연령에서 발생할 가능성이 더 컸다.",
+      "order": 19
     },
     {
       "id": "chatbot-01226",
@@ -13484,9 +13484,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "시퀀스 분석이 비교적 새로운 기법이라는 점을 고려해, 우리는 가설 검증 절차를 상세히 제시한다. 먼저 전체 표본을 대상으로 탈표준화 가설을 검증했다. 중간 정도의 탈표준화는 높은 탈표준화를 나타내는 조건들, 즉 비관습적 유형, 가역적 순서, 유연한 시점 가운데 적어도 하나는 충족하지만 모두를 충족하지는 않을 때 지지되는 것으로 보았다.\n\n비관습적 유형 가설은 평균 silhouette width 절단 기준이 1보다 큰 시퀀스 유형 수를 제시하고, 가장 흔한 유형이 전통적 은퇴 모형과 다를 때 지지된다.\n\n가역적 순서 가설은 사례의 절반 이상에서 개별 시퀀스 그래프, 시퀀스 유형 그래프, 그리고 시퀀스 내 가장 빈번한 전환에 대한 기술통계에 가역적 전환이 나타날 때 지지된다.\n\n유연한 시점 가설은 동일한 전환이 서로 다른 연령에서 일어난다는 증거가 개별 시퀀스 그래프와 시퀀스 유형 그래프, 그리고 내부 역동성의 세 지표인 엔트로피, 복잡성, 난류도에서 확인될 때 지지된다. 이 지표들은 은퇴 시퀀스에서 시점의 유연성을 공식적으로 검토할 수 있게 해 준다. 어떤 시점에서든 엔트로피 지수는 모든 응답자가 같은 상태에 있으면 0이고, 가능한 모든 상태에 고르게 분포하면 1이다. 복잡성 지수 0은 개인들 사이 상태가 완전히 유사하고 상태 간 전환이 전혀 일어나지 않았음을 뜻하고, 1은 그 반대를 뜻한다. 난류도 지수는 하나의 시퀀스 유형에서 만들 수 있는 서로 다른 부분시퀀스(subsequence)의 수를 반영하는데, 이는 한 시퀀스 안의 모든 전환과 각 상태에 머문 시간을 함께 고려해 계산된다. 따라서 난류도 지수가 높을수록 한 시퀀스 안에 서로 다른 부분시퀀스가 많고, 이는 곧 상태와 전환이 시간에 따라 크게 달라진다는 뜻이다.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 시퀀스 분석이 비교적 새로운 기법이라는 점을 고려해, 우리는 가설 검증 절차를 상세히 제시한다. 먼저 전체 표본을 대상으로 탈표준화 가설을 검증했다. 중간 정도의 탈표준화는 높은 탈표준화를 나타내는 조건들, 즉 비관습적 유형, 가역적 순서, 유연한 시점 가운데 적어도 하나는 충족하지만 모두를 충족하지는 않을 때 지지되는 것으로 보았다.\n\n비관습적 유형 가설은 평균 silhouette width 절단 기준이 1보다 큰 시퀀스 유형 수를 제시하고, 가장 흔한 유형이 전통적 은퇴 모형과 다를 때 지지된다.\n\n가역적 순서 가설은 사례의 절반 이상에서 개별 시퀀스 그래프, 시퀀스 유형 그래프, 그리고 시퀀스 내 가장 빈번한 전환에 대한 기술통계에 가역적 전환이 나타날 때 지지된다.\n\n유연한 시점 가설은 동일한 전환이 서로 다른 연령에서 일어난다는 증거가 개별 시퀀스 그래프와 시퀀스 유형 그래프, 그리고 내부 역동성의 세 지표인 엔트로피, 복잡성, 난류도에서 확인될 때 지지된다. 이 지표들은 은퇴 시퀀스에서 시점의 유연성을 공식적으로 검토할 수 있게 해 준다. 어떤 시점에서든 엔트로피 지수는 모든 응답자가 같은 상태에 있으면 0이고, 가능한 모든 상태에 고르게 분포하면 1이다. 복잡성 지수 0은 개인들 사이 상태가 완전히 유사하고 상태 간 전환이 전혀 일어나지 않았음을 뜻하고, 1은 그 반대를 뜻한다. 난류도 지수는 하나의 시퀀스 유형에서 만들 수 있는 서로 다른 부분시퀀스(subsequence)의 수를 반영하는데, 이는 한 시퀀스 안의 모든 전환과 각 상태에 머문 시간을 함께 고려해 계산된다. 따라서 난류도 지수가 높을수록 한 시퀀스 안에 서로 다른 부분시퀀스가 많고, 이는 곧 상태와 전환이 시간에 따라 크게 달라진다는 뜻이다.",
-      "order": 17
+      "text": "엔트로피 지수의 종단 버전을 분석한 결과, 은퇴 시퀀스가 얼마나 연령 규정적인지는 법정 은퇴연령 전후에서 복잡한 방식으로 변화하는 것으로 나타났다(보충부록 I).\n\n전체적으로 보면, 이러한 결과는 중간 정도의 탈표준화 가설을 지지한다. 비관습적 은퇴 시퀀스 유형에 대해서는 강한 증거가 발견되었지만, 일부 비가역성과 연령 규정성은 여전히 남아 있었기 때문이다.\n\n성별, 계급, 인종에 따른 은퇴 시퀀스의 층화\n\n추가 결과는 사회적 층화 가설도 지지했다. 이 가설은 은퇴 시퀀스의 탈표준화 정도가 계급, 성별, 인종에 따라 달라진다고 보았다. 먼저 우리는 각 사회집단 사이에 유의미한 차이가 존재해, 집단별로 분리된 층화 시퀀스 모형을 보는 것이 유용하다는 사실을 발견했다(보충부록 H). 이 층화 모형의 결과는 표 3과 그림 2에 제시되어 있는데, 여기서도 완전 은퇴 시퀀스가 가장 흔한 유형이 아님이 드러난다. 이 결과는 주로 남성과 비히스패닉 흑인 집단에 의해 이끌린다. 조기 은퇴와 지연 은퇴 시퀀스는 모든 집단에서 비교적 일관되게 나타났고, 모호형과 압축형은 저학력 또는 중간 학력 여성에게서 두드러졌으며, 비히스패닉 남성 가운데 중간 및 고학력 집단에서도 부분적으로 나타났다. 흑인 집단의 모호형 시퀀스는 장애 상태가 더 많이 집중되어 있었지만, 전체 표본과 다른 집단에서 나타난 은퇴 시퀀스와도 상당히 일치했다. 전반적으로 여성은 남성보다, 중간 학력 집단은 저학력과 고학력 집단보다, 백인 및 흑인 비히스패닉 집단은 히스패닉 집단보다 더 다양한 비관습적 은퇴 시퀀스 유형을 보였다.\n\n표 3. 층화집단별 은퇴 시퀀스의 기술통계\n\n그림 2. 층화집단별 미국의 은퇴 시퀀스",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 엔트로피 지수의 종단 버전을 분석한 결과, 은퇴 시퀀스가 얼마나 연령 규정적인지는 법정 은퇴연령 전후에서 복잡한 방식으로 변화하는 것으로 나타났다(보충부록 i).\n\n전체적으로 보면, 이러한 결과는 중간 정도의 탈표준화 가설을 지지한다. 비관습적 은퇴 시퀀스 유형에 대해서는 강한 증거가 발견되었지만, 일부 비가역성과 연령 규정성은 여전히 남아 있었기 때문이다.\n\n성별, 계급, 인종에 따른 은퇴 시퀀스의 층화\n\n추가 결과는 사회적 층화 가설도 지지했다. 이 가설은 은퇴 시퀀스의 탈표준화 정도가 계급, 성별, 인종에 따라 달라진다고 보았다. 먼저 우리는 각 사회집단 사이에 유의미한 차이가 존재해, 집단별로 분리된 층화 시퀀스 모형을 보는 것이 유용하다는 사실을 발견했다(보충부록 h). 이 층화 모형의 결과는 표 3과 그림 2에 제시되어 있는데, 여기서도 완전 은퇴 시퀀스가 가장 흔한 유형이 아님이 드러난다. 이 결과는 주로 남성과 비히스패닉 흑인 집단에 의해 이끌린다. 조기 은퇴와 지연 은퇴 시퀀스는 모든 집단에서 비교적 일관되게 나타났고, 모호형과 압축형은 저학력 또는 중간 학력 여성에게서 두드러졌으며, 비히스패닉 남성 가운데 중간 및 고학력 집단에서도 부분적으로 나타났다. 흑인 집단의 모호형 시퀀스는 장애 상태가 더 많이 집중되어 있었지만, 전체 표본과 다른 집단에서 나타난 은퇴 시퀀스와도 상당히 일치했다. 전반적으로 여성은 남성보다, 중간 학력 집단은 저학력과 고학력 집단보다, 백인 및 흑인 비히스패닉 집단은 히스패닉 집단보다 더 다양한 비관습적 은퇴 시퀀스 유형을 보였다.\n\n표 3. 층화집단별 은퇴 시퀀스의 기술통계\n\n그림 2. 층화집단별 미국의 은퇴 시퀀스",
+      "order": 20
     },
     {
       "id": "chatbot-01227",
@@ -13495,9 +13495,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "이어서 우리는 사회적 층화 가설을 검증했다. 이 가설은 성별, 계급, 인종에 따라 탈표준화 수준의 차이가 확인될 때 지지된다. 구체적으로 우리는 여성, 저학력자, 흑인이 각 대응 집단보다 더 탈표준화된 은퇴 시퀀스를 보일 것으로 예상했다. 먼저 단순 및 다요인 discrepancy analysis를 통해 성별, 계급, 인종에 따라 시퀀스에 유의한 차이가 있는지 검정했다(보충부록 H). 그 결과를 바탕으로, 각 집단이 서로 다른 시퀀스 유형과 더 크거나 더 작은 역동성, 더 크거나 더 작은 시점 유연성을 가질 수 있도록 층화 표본별로 탈표준화 분석을 반복했다. 모든 분석은 R(R Core Team, 2014)에서, 시퀀스 분석용 TraMineR 패키지(Gabadinho et al., 2011)를 사용해 수행했다.\n\n결과\n\n은퇴 시퀀스의 유형, 순서, 시점에서의 탈표준화\n\n비관습적 유형 가설은 강하게 지지되었다. 우리는 정규직 근무 후 완전 은퇴로 이어지는 전통적 모형이 가장 흔한 유형이 아니라, 여섯 가지 은퇴 시퀀스 중 하나라는 사실을 발견했다.\n\n여섯 가지 은퇴 시퀀스는 조기(early), 완전(complete), 부분(partial), 지연(late), 모호(ambiguous), 압축(compact) 유형으로 나타났다(보충부록 D). 그림 1은 각 시퀀스 유형 내부의 개인별 시퀀스를 보여 주고, 이를 하나의 시퀀스 유형으로 종합해 제시한다. 그림 1의 명칭은 이 은퇴 시퀀스들이 서로 얼마나 구별되는지를 강조한다.\n\n조기 은퇴 시퀀스는 표본의 36.66%에 해당하는 2,889명으로 가장 흔한 유형이었다. 이 시퀀스에서는 대부분의 개인이 62세 이전 또는 62세 무렵까지 완전 은퇴 상태에 들어갔다.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 이어서 우리는 사회적 층화 가설을 검증했다. 이 가설은 성별, 계급, 인종에 따라 탈표준화 수준의 차이가 확인될 때 지지된다. 구체적으로 우리는 여성, 저학력자, 흑인이 각 대응 집단보다 더 탈표준화된 은퇴 시퀀스를 보일 것으로 예상했다. 먼저 단순 및 다요인 discrepancy analysis를 통해 성별, 계급, 인종에 따라 시퀀스에 유의한 차이가 있는지 검정했다(보충부록 h). 그 결과를 바탕으로, 각 집단이 서로 다른 시퀀스 유형과 더 크거나 더 작은 역동성, 더 크거나 더 작은 시점 유연성을 가질 수 있도록 층화 표본별로 탈표준화 분석을 반복했다. 모든 분석은 r(r core team, 2014)에서, 시퀀스 분석용 traminer 패키지(gabadinho et al., 2011)를 사용해 수행했다.\n\n결과\n\n은퇴 시퀀스의 유형, 순서, 시점에서의 탈표준화\n\n비관습적 유형 가설은 강하게 지지되었다. 우리는 정규직 근무 후 완전 은퇴로 이어지는 전통적 모형이 가장 흔한 유형이 아니라, 여섯 가지 은퇴 시퀀스 중 하나라는 사실을 발견했다.\n\n여섯 가지 은퇴 시퀀스는 조기(early), 완전(complete), 부분(partial), 지연(late), 모호(ambiguous), 압축(compact) 유형으로 나타났다(보충부록 d). 그림 1은 각 시퀀스 유형 내부의 개인별 시퀀스를 보여 주고, 이를 하나의 시퀀스 유형으로 종합해 제시한다. 그림 1의 명칭은 이 은퇴 시퀀스들이 서로 얼마나 구별되는지를 강조한다.\n\n조기 은퇴 시퀀스는 표본의 36.66%에 해당하는 2,889명으로 가장 흔한 유형이었다. 이 시퀀스에서는 대부분의 개인이 62세 이전 또는 62세 무렵까지 완전 은퇴 상태에 들어갔다.",
-      "order": 18
+      "text": "그림 2는 일부 집단에서 은퇴 시퀀스가 다른 집단보다 더 가역적이라는 점도 시사한다(층화된 개인 시퀀스 그래프 역시 일관되며, 저자 요청 시 제공 가능하다). 예를 들어 여성과 히스패닉은 모호한 시퀀스의 전반부에서 은퇴 후 노동시장 재진입을 경험한다. 그러나 표 2 상단이 제공하는 추가 정보에 따르면, 적어도 한 번의 가역적 전환을 경험한 응답자의 비율은 집단 간에 비교적 비슷했지만, 역전 전환의 유형은 달랐을 가능성이 있다. 은퇴에서 부분 은퇴로의 전환은 남성의 18.41%, 중간 학력 집단의 16.19%, 고학력 집단의 17.48%, 비히스패닉 백인의 16.39%가 경험했다. 반면 은퇴에서 비경제활동 상태로의 전환은 여성의 18.02%, 히스패닉의 18.12%가 경험했다.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 그림 2는 일부 집단에서 은퇴 시퀀스가 다른 집단보다 더 가역적이라는 점도 시사한다(층화된 개인 시퀀스 그래프 역시 일관되며, 저자 요청 시 제공 가능하다). 예를 들어 여성과 히스패닉은 모호한 시퀀스의 전반부에서 은퇴 후 노동시장 재진입을 경험한다. 그러나 표 2 상단이 제공하는 추가 정보에 따르면, 적어도 한 번의 가역적 전환을 경험한 응답자의 비율은 집단 간에 비교적 비슷했지만, 역전 전환의 유형은 달랐을 가능성이 있다. 은퇴에서 부분 은퇴로의 전환은 남성의 18.41%, 중간 학력 집단의 16.19%, 고학력 집단의 17.48%, 비히스패닉 백인의 16.39%가 경험했다. 반면 은퇴에서 비경제활동 상태로의 전환은 여성의 18.02%, 히스패닉의 18.12%가 경험했다.",
+      "order": 21
     },
     {
       "id": "chatbot-01228",
@@ -13506,9 +13506,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "다른 은퇴 시퀀스들은 그림 1에 제시된 것처럼 상대적으로 덜 흔했다. 완전 은퇴 시퀀스는 정규직 일자리에서 완전 은퇴로 이동하는 전통적 모형이 특징이며, 대부분이 정규직으로 시작해 66세까지는 완전 은퇴에 도달한다. 부분 은퇴 시퀀스는 정규직에서 부분 은퇴로 넘어가는 것이 특징인데, 대부분이 정규직으로 시작하고 66세 시점에서 가장 큰 집단이 부분 은퇴 상태에 있다. 지연 은퇴 시퀀스에서는 대부분이 정규직으로 일을 시작해 66세 이후까지 계속 일한다. 모호한 은퇴 시퀀스는 비경제활동 상태에서 은퇴로 이동하는 사람이 많다는 점이 특징이다. 마지막으로 압축 은퇴 시퀀스는 시간제 일자리에서 부분 은퇴로 넘어가는 경로가 특징이며, 대부분 시간제 일자리에서 시작하고 일부는 부분 은퇴 상태로 마무리된다.\n\n가역적 순서 가설은 은퇴 시퀀스에 은퇴 후 재진입, 재고용, 또는 특정 노동력 상태 안팎의 반복 이동을 경험한 개인이 절반 이상 포함될 것이라고 예상했다. 그러나 우리의 결과는 이 가설에 대해 제한적인 지지만을 제공했다.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 다른 은퇴 시퀀스들은 그림 1에 제시된 것처럼 상대적으로 덜 흔했다. 완전 은퇴 시퀀스는 정규직 일자리에서 완전 은퇴로 이동하는 전통적 모형이 특징이며, 대부분이 정규직으로 시작해 66세까지는 완전 은퇴에 도달한다. 부분 은퇴 시퀀스는 정규직에서 부분 은퇴로 넘어가는 것이 특징인데, 대부분이 정규직으로 시작하고 66세 시점에서 가장 큰 집단이 부분 은퇴 상태에 있다. 지연 은퇴 시퀀스에서는 대부분이 정규직으로 일을 시작해 66세 이후까지 계속 일한다. 모호한 은퇴 시퀀스는 비경제활동 상태에서 은퇴로 이동하는 사람이 많다는 점이 특징이다. 마지막으로 압축 은퇴 시퀀스는 시간제 일자리에서 부분 은퇴로 넘어가는 경로가 특징이며, 대부분 시간제 일자리에서 시작하고 일부는 부분 은퇴 상태로 마무리된다.\n\n가역적 순서 가설은 은퇴 시퀀스에 은퇴 후 재진입, 재고용, 또는 특정 노동력 상태 안팎의 반복 이동을 경험한 개인이 절반 이상 포함될 것이라고 예상했다. 그러나 우리의 결과는 이 가설에 대해 제한적인 지지만을 제공했다.",
-      "order": 19
+      "text": "시퀀스 유형 그래프와 개별 시퀀스 그래프는 어떤 집단이 다른 집단보다 은퇴 시퀀스가 더 유연하고, 시간에 따라 더 크게 변하는 상태와 전환을 가진다는 명확한 증거를 제공하지는 않았다. 그러나 표 2 하단의 결과는, 남성과 여성이 동시에 보여 준 유일한 두 시퀀스인 조기 은퇴 시퀀스와 지연 은퇴 시퀀스의 경우 여성이 시점 면에서 더 유연하고 남성은 더 연령 규정적이라는 점을 시사했다. 마찬가지로 지연 시퀀스와 모호 시퀀스는 저학력 집단에서 더 유연한 반면, 중간 학력자와 고학력자는 더 연령 규정적인 양상을 보였다. 다만 조기 은퇴 시퀀스의 엔트로피, 복잡성, 난류도 지수는 중간 학력 집단보다 낮거나 높은 학력 집단 모두에서 더 유연한 시점을 시사했다. 또한 히스패닉은 조기 은퇴 시퀀스에서 백인보다 더 유연한 시점, 즉 더 약한 연령 규정성을 보였고, 흑인은 모호한 은퇴 시퀀스에서 백인보다 더 유연한 시점을 보였다. 흑인과 히스패닉은 지연 은퇴 시퀀스에서도 백인보다 더 유연한 시점을 보였다. 보충부록 I는 시퀀스의 내부 동질성을 종단적으로 접근해도 일관된 결과가 나온다는 점을 보여 준다.\n\n논의\n\n이 연구에서 우리는 시퀀스 분석 접근을 사용해 60대 미국인(1931-1941년 출생)이 경험한 노동력 패턴의 탈표준화를 분석하고자 했다. 우리는 은퇴 시퀀스의 유형, 순서, 시점 차원에서 탈표준화 정도를 검증했고, 성별, 계급, 인종에 따라 층화된 은퇴 시퀀스에서 탈표준화 정도가 어떻게 달라지는지도 살펴보았다. 대체로 결과는 우리의 가정을 확인해 주었다.\n\n스냅샷에서 영화로",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 시퀀스 유형 그래프와 개별 시퀀스 그래프는 어떤 집단이 다른 집단보다 은퇴 시퀀스가 더 유연하고, 시간에 따라 더 크게 변하는 상태와 전환을 가진다는 명확한 증거를 제공하지는 않았다. 그러나 표 2 하단의 결과는, 남성과 여성이 동시에 보여 준 유일한 두 시퀀스인 조기 은퇴 시퀀스와 지연 은퇴 시퀀스의 경우 여성이 시점 면에서 더 유연하고 남성은 더 연령 규정적이라는 점을 시사했다. 마찬가지로 지연 시퀀스와 모호 시퀀스는 저학력 집단에서 더 유연한 반면, 중간 학력자와 고학력자는 더 연령 규정적인 양상을 보였다. 다만 조기 은퇴 시퀀스의 엔트로피, 복잡성, 난류도 지수는 중간 학력 집단보다 낮거나 높은 학력 집단 모두에서 더 유연한 시점을 시사했다. 또한 히스패닉은 조기 은퇴 시퀀스에서 백인보다 더 유연한 시점, 즉 더 약한 연령 규정성을 보였고, 흑인은 모호한 은퇴 시퀀스에서 백인보다 더 유연한 시점을 보였다. 흑인과 히스패닉은 지연 은퇴 시퀀스에서도 백인보다 더 유연한 시점을 보였다. 보충부록 i는 시퀀스의 내부 동질성을 종단적으로 접근해도 일관된 결과가 나온다는 점을 보여 준다.\n\n논의\n\n이 연구에서 우리는 시퀀스 분석 접근을 사용해 60대 미국인(1931-1941년 출생)이 경험한 노동력 패턴의 탈표준화를 분석하고자 했다. 우리는 은퇴 시퀀스의 유형, 순서, 시점 차원에서 탈표준화 정도를 검증했고, 성별, 계급, 인종에 따라 층화된 은퇴 시퀀스에서 탈표준화 정도가 어떻게 달라지는지도 살펴보았다. 대체로 결과는 우리의 가정을 확인해 주었다.\n\n스냅샷에서 영화로",
+      "order": 22
     },
     {
       "id": "chatbot-01229",
@@ -13517,9 +13517,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "그림 1에 나타난 시퀀스 유형은 대체로 비가역적이었다. 다만 모호한 시퀀스의 소수 집단에서는 은퇴 이후 다시 정규직으로 일하는 경우가 관찰되었다. 그러나 개별 시퀀스를 자세히 살펴보면 재고용과 은퇴 후 노동시장 재진입의 흔적, 그리고 장애 상태나 비경제활동 상태 안팎으로 오가는 전환이 일부 확인되었다. 전체 표본에 대해 시퀀스 내 가장 빈번한 다섯 가지 전환을 살펴보면(표 2 왼쪽 위), 네 가지는 일에서 은퇴로 나아가는 진행을 의미했고, 다섯 번째는 응답자의 15.71%가 전체 시퀀스 기간 중 적어도 한 번 은퇴에서 부분 은퇴로 이동했다는 사실을 보여 주었다. 요약하면, 대부분의 사람은 일의 여러 정도에서 은퇴의 여러 정도로 나아가는 흐름을 따랐으며, 우리가 관찰한 소수의 역순 전환은 서로 충분히 비슷하지 않아 별도의 시퀀스 유형을 형성하지 못했다.\n\n동일한 노동력 전환이 다양한 연령에서 일어난다는 유연한 시점 가설도 부분적으로만 지지되었다. 그림 1의 대부분 시퀀스는 어느 정도 연령 규정적(age-graded)이었지만, 노동력 전환이 서로 다른 연령에서 일어나는 경우도 관찰되었다. 가장 뚜렷한 예는 조기 은퇴 시퀀스와 지연 은퇴 시퀀스가 동시에 존재한다는 점이다. 또한 대부분의 시퀀스 안에서 은퇴 상태에서 정규직, 시간제 일자리, 실업으로 이동하는 변화는 여러 시점에서 일어날 수 있었지만, 내부 역동성 지표(표 2)가 보여 주듯 특정 연령대에 집중되는 경향도 있었다. 전체 표본의 엔트로피, 복잡성, 난류도 지수는 부분 은퇴, 모호, 압축 시퀀스가 가장 유연하다는 점을 보여 주었다. 즉 이 시퀀스들을 구성하는 상태와 전환은 시간에 따라 더 크게 달라지고, 서로 다른 연령에서 발생할 가능성이 더 컸다.\n\n그림 1. 미국의 은퇴 시퀀스",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 그림 1에 나타난 시퀀스 유형은 대체로 비가역적이었다. 다만 모호한 시퀀스의 소수 집단에서는 은퇴 이후 다시 정규직으로 일하는 경우가 관찰되었다. 그러나 개별 시퀀스를 자세히 살펴보면 재고용과 은퇴 후 노동시장 재진입의 흔적, 그리고 장애 상태나 비경제활동 상태 안팎으로 오가는 전환이 일부 확인되었다. 전체 표본에 대해 시퀀스 내 가장 빈번한 다섯 가지 전환을 살펴보면(표 2 왼쪽 위), 네 가지는 일에서 은퇴로 나아가는 진행을 의미했고, 다섯 번째는 응답자의 15.71%가 전체 시퀀스 기간 중 적어도 한 번 은퇴에서 부분 은퇴로 이동했다는 사실을 보여 주었다. 요약하면, 대부분의 사람은 일의 여러 정도에서 은퇴의 여러 정도로 나아가는 흐름을 따랐으며, 우리가 관찰한 소수의 역순 전환은 서로 충분히 비슷하지 않아 별도의 시퀀스 유형을 형성하지 못했다.\n\n동일한 노동력 전환이 다양한 연령에서 일어난다는 유연한 시점 가설도 부분적으로만 지지되었다. 그림 1의 대부분 시퀀스는 어느 정도 연령 규정적(age-graded)이었지만, 노동력 전환이 서로 다른 연령에서 일어나는 경우도 관찰되었다. 가장 뚜렷한 예는 조기 은퇴 시퀀스와 지연 은퇴 시퀀스가 동시에 존재한다는 점이다. 또한 대부분의 시퀀스 안에서 은퇴 상태에서 정규직, 시간제 일자리, 실업으로 이동하는 변화는 여러 시점에서 일어날 수 있었지만, 내부 역동성 지표(표 2)가 보여 주듯 특정 연령대에 집중되는 경향도 있었다. 전체 표본의 엔트로피, 복잡성, 난류도 지수는 부분 은퇴, 모호, 압축 시퀀스가 가장 유연하다는 점을 보여 주었다. 즉 이 시퀀스들을 구성하는 상태와 전환은 시간에 따라 더 크게 달라지고, 서로 다른 연령에서 발생할 가능성이 더 컸다.\n\n그림 1. 미국의 은퇴 시퀀스",
-      "order": 20
+      "text": "우리의 결과는 관습적 유형, 즉 정규직에서 65세 전후 완전 은퇴로 이동하는 경로가 여섯 가지 은퇴 시퀀스 가운데 하나일 뿐이며, 가장 흔한 유형도 아니라는 점을 보여 주었다. 조기 은퇴 시퀀스는 모든 사회집단에서 가장 흔한 유형이었는데, 이는 조기 은퇴 추세가 되돌아섰다고 보고한 선행연구(Fisher et al., 2016)와는 다소 긴장 관계를 보인다. 또한 우리는 모든 사회집단에서 지연 은퇴 시퀀스 유형도 발견했지만, 우리가 분석한 출생 코호트에서는 조기 은퇴 시퀀스만큼 흔하지는 않았다. 다른 비관습적 은퇴 시퀀스들은 빈도가 더 낮았고, 사회적 층화도 더 강했다.\n\n이전 문헌이 시사하는 바와 달리, 모든 은퇴 시퀀스는 대체로 비가역적인 순서를 가진 변화의 진행으로 이루어져 있었다. 이 결과는 개인들이 은퇴 시퀀스 동안 사건의 순서에 관한 개인적·사회적 각본을 실제로 따른다는 해석과 부합한다(Szinovacz, 2013; Szinovacz et al., 2014). 이러한 각본은 선택, 예를 들어 선호와 기대, 그리고 개인적 제약, 예를 들어 돈과 건강, 나아가 노동시장과 사회제도 같은 사회적 제약이 결합되어 강화된다고 여겨져 왔다(Fasang, 2012; Han & Moen, 1999; Szinovacz, 2013).",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 우리의 결과는 관습적 유형, 즉 정규직에서 65세 전후 완전 은퇴로 이동하는 경로가 여섯 가지 은퇴 시퀀스 가운데 하나일 뿐이며, 가장 흔한 유형도 아니라는 점을 보여 주었다. 조기 은퇴 시퀀스는 모든 사회집단에서 가장 흔한 유형이었는데, 이는 조기 은퇴 추세가 되돌아섰다고 보고한 선행연구(fisher et al., 2016)와는 다소 긴장 관계를 보인다. 또한 우리는 모든 사회집단에서 지연 은퇴 시퀀스 유형도 발견했지만, 우리가 분석한 출생 코호트에서는 조기 은퇴 시퀀스만큼 흔하지는 않았다. 다른 비관습적 은퇴 시퀀스들은 빈도가 더 낮았고, 사회적 층화도 더 강했다.\n\n이전 문헌이 시사하는 바와 달리, 모든 은퇴 시퀀스는 대체로 비가역적인 순서를 가진 변화의 진행으로 이루어져 있었다. 이 결과는 개인들이 은퇴 시퀀스 동안 사건의 순서에 관한 개인적·사회적 각본을 실제로 따른다는 해석과 부합한다(szinovacz, 2013; szinovacz et al., 2014). 이러한 각본은 선택, 예를 들어 선호와 기대, 그리고 개인적 제약, 예를 들어 돈과 건강, 나아가 노동시장과 사회제도 같은 사회적 제약이 결합되어 강화된다고 여겨져 왔다(fasang, 2012; han & moen, 1999; szinovacz, 2013).",
+      "order": 23
     },
     {
       "id": "chatbot-01230",
@@ -13528,9 +13528,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "원문 그림은 각 시퀀스 유형별 개인 시퀀스와 집단 시퀀스를 시각화해 보여 준다.\n\n엔트로피 지수의 종단 버전을 분석한 결과, 은퇴 시퀀스가 얼마나 연령 규정적인지는 법정 은퇴연령 전후에서 복잡한 방식으로 변화하는 것으로 나타났다(보충부록 I).\n\n전체적으로 보면, 이러한 결과는 중간 정도의 탈표준화 가설을 지지한다. 비관습적 은퇴 시퀀스 유형에 대해서는 강한 증거가 발견되었지만, 일부 비가역성과 연령 규정성은 여전히 남아 있었기 때문이다.\n\n성별, 계급, 인종에 따른 은퇴 시퀀스의 층화\n\n추가 결과는 사회적 층화 가설도 지지했다. 이 가설은 은퇴 시퀀스의 탈표준화 정도가 계급, 성별, 인종에 따라 달라진다고 보았다. 먼저 우리는 각 사회집단 사이에 유의미한 차이가 존재해, 집단별로 분리된 층화 시퀀스 모형을 보는 것이 유용하다는 사실을 발견했다(보충부록 H). 이 층화 모형의 결과는 표 3과 그림 2에 제시되어 있는데, 여기서도 완전 은퇴 시퀀스가 가장 흔한 유형이 아님이 드러난다. 이 결과는 주로 남성과 비히스패닉 흑인 집단에 의해 이끌린다. 조기 은퇴와 지연 은퇴 시퀀스는 모든 집단에서 비교적 일관되게 나타났고, 모호형과 압축형은 저학력 또는 중간 학력 여성에게서 두드러졌으며, 비히스패닉 남성 가운데 중간 및 고학력 집단에서도 부분적으로 나타났다. 흑인 집단의 모호형 시퀀스는 장애 상태가 더 많이 집중되어 있었지만, 전체 표본과 다른 집단에서 나타난 은퇴 시퀀스와도 상당히 일치했다. 전반적으로 여성은 남성보다, 중간 학력 집단은 저학력과 고학력 집단보다, 백인 및 흑인 비히스패닉 집단은 히스패닉 집단보다 더 다양한 비관습적 은퇴 시퀀스 유형을 보였다.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 원문 그림은 각 시퀀스 유형별 개인 시퀀스와 집단 시퀀스를 시각화해 보여 준다.\n\n엔트로피 지수의 종단 버전을 분석한 결과, 은퇴 시퀀스가 얼마나 연령 규정적인지는 법정 은퇴연령 전후에서 복잡한 방식으로 변화하는 것으로 나타났다(보충부록 i).\n\n전체적으로 보면, 이러한 결과는 중간 정도의 탈표준화 가설을 지지한다. 비관습적 은퇴 시퀀스 유형에 대해서는 강한 증거가 발견되었지만, 일부 비가역성과 연령 규정성은 여전히 남아 있었기 때문이다.\n\n성별, 계급, 인종에 따른 은퇴 시퀀스의 층화\n\n추가 결과는 사회적 층화 가설도 지지했다. 이 가설은 은퇴 시퀀스의 탈표준화 정도가 계급, 성별, 인종에 따라 달라진다고 보았다. 먼저 우리는 각 사회집단 사이에 유의미한 차이가 존재해, 집단별로 분리된 층화 시퀀스 모형을 보는 것이 유용하다는 사실을 발견했다(보충부록 h). 이 층화 모형의 결과는 표 3과 그림 2에 제시되어 있는데, 여기서도 완전 은퇴 시퀀스가 가장 흔한 유형이 아님이 드러난다. 이 결과는 주로 남성과 비히스패닉 흑인 집단에 의해 이끌린다. 조기 은퇴와 지연 은퇴 시퀀스는 모든 집단에서 비교적 일관되게 나타났고, 모호형과 압축형은 저학력 또는 중간 학력 여성에게서 두드러졌으며, 비히스패닉 남성 가운데 중간 및 고학력 집단에서도 부분적으로 나타났다. 흑인 집단의 모호형 시퀀스는 장애 상태가 더 많이 집중되어 있었지만, 전체 표본과 다른 집단에서 나타난 은퇴 시퀀스와도 상당히 일치했다. 전반적으로 여성은 남성보다, 중간 학력 집단은 저학력과 고학력 집단보다, 백인 및 흑인 비히스패닉 집단은 히스패닉 집단보다 더 다양한 비관습적 은퇴 시퀀스 유형을 보였다.",
-      "order": 21
+      "text": "높은 탈표준화의 일부로서, 은퇴 시퀀스는 사회보장 급여 수급이 가능한 법정 은퇴연령을 덜 겨냥하는, 즉 연령 규정성이 더 약한 변화들로 구성될 것이라고 기대할 수 있다. 그러나 조기 은퇴연령(62세)과 완전 은퇴연령(65-67세)은 여전히 각 은퇴 시퀀스 안에서 규범적으로 기대되는 흐름의 제도적 표지로 작동하는 것으로 보인다(보충부록 I). 특정 은퇴 시퀀스 유형을 따라가는 과정이 언제 일하거나 은퇴해야 하는지에 대한 제도적 표지와 일치하는 연령대에서는 연령 규범이 더 느슨해지거나, 개인들이 더 큰 행위성을 발휘하는 것으로 보인다. 예를 들어 조기 은퇴 시퀀스에 있는 개인들은 조기 은퇴연령인 62세 이전에는 더 느슨한 연령 지침을 따르다가, 그 이후에는 완전 은퇴하라는 압력을 더 강하게 받는 것으로 보인다. 반대로 지연 은퇴 시퀀스의 개인들은 완전 은퇴연령(65-67세) 이전에는 정규직으로 계속 일해야 한다는 더 엄격한 지침을 따르지만, 그 이후에는 연령 지침이 더 느슨해진다. 완전 은퇴 시퀀스의 개인들은 조기 은퇴연령 이전에는 정규직 근무를, 완전 은퇴연령 이후에는 완전 은퇴를 하라는 더 강한 압력을 경험하지만, 두 연령 사이에서는 더 느슨한 지침을 경험하는 것으로 보인다. 전체 패턴은 연령 지침의 강도가 연령에 따라 달라지며, 개인이 현재 통과하고 있는 구체적 은퇴 시퀀스 유형에도 의존한다는 점을 시사한다.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 높은 탈표준화의 일부로서, 은퇴 시퀀스는 사회보장 급여 수급이 가능한 법정 은퇴연령을 덜 겨냥하는, 즉 연령 규정성이 더 약한 변화들로 구성될 것이라고 기대할 수 있다. 그러나 조기 은퇴연령(62세)과 완전 은퇴연령(65-67세)은 여전히 각 은퇴 시퀀스 안에서 규범적으로 기대되는 흐름의 제도적 표지로 작동하는 것으로 보인다(보충부록 i). 특정 은퇴 시퀀스 유형을 따라가는 과정이 언제 일하거나 은퇴해야 하는지에 대한 제도적 표지와 일치하는 연령대에서는 연령 규범이 더 느슨해지거나, 개인들이 더 큰 행위성을 발휘하는 것으로 보인다. 예를 들어 조기 은퇴 시퀀스에 있는 개인들은 조기 은퇴연령인 62세 이전에는 더 느슨한 연령 지침을 따르다가, 그 이후에는 완전 은퇴하라는 압력을 더 강하게 받는 것으로 보인다. 반대로 지연 은퇴 시퀀스의 개인들은 완전 은퇴연령(65-67세) 이전에는 정규직으로 계속 일해야 한다는 더 엄격한 지침을 따르지만, 그 이후에는 연령 지침이 더 느슨해진다. 완전 은퇴 시퀀스의 개인들은 조기 은퇴연령 이전에는 정규직 근무를, 완전 은퇴연령 이후에는 완전 은퇴를 하라는 더 강한 압력을 경험하지만, 두 연령 사이에서는 더 느슨한 지침을 경험하는 것으로 보인다. 전체 패턴은 연령 지침의 강도가 연령에 따라 달라지며, 개인이 현재 통과하고 있는 구체적 은퇴 시퀀스 유형에도 의존한다는 점을 시사한다.",
+      "order": 24
     },
     {
       "id": "chatbot-01231",
@@ -13539,9 +13539,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "그림 2는 일부 집단에서 은퇴 시퀀스가 다른 집단보다 더 가역적이라는 점도 시사한다(층화된 개인 시퀀스 그래프 역시 일관되며, 저자 요청 시 제공 가능하다). 예를 들어 여성과 히스패닉은 모호한 시퀀스의 전반부에서 은퇴 후 노동시장 재진입을 경험한다. 그러나 표 2 상단이 제공하는 추가 정보에 따르면, 적어도 한 번의 가역적 전환을 경험한 응답자의 비율은 집단 간에 비교적 비슷했지만, 역전 전환의 유형은 달랐을 가능성이 있다. 은퇴에서 부분 은퇴로의 전환은 남성의 18.41%, 중간 학력 집단의 16.19%, 고학력 집단의 17.48%, 비히스패닉 백인의 16.39%가 경험했다. 반면 은퇴에서 비경제활동 상태로의 전환은 여성의 18.02%, 히스패닉의 18.12%가 경험했다.\n\n표 2. 시퀀스 내 가장 빈번한 전환과 은퇴 시퀀스의 내부 동질성 지수\n\n상위 5개 전환은 다음과 같다.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 그림 2는 일부 집단에서 은퇴 시퀀스가 다른 집단보다 더 가역적이라는 점도 시사한다(층화된 개인 시퀀스 그래프 역시 일관되며, 저자 요청 시 제공 가능하다). 예를 들어 여성과 히스패닉은 모호한 시퀀스의 전반부에서 은퇴 후 노동시장 재진입을 경험한다. 그러나 표 2 상단이 제공하는 추가 정보에 따르면, 적어도 한 번의 가역적 전환을 경험한 응답자의 비율은 집단 간에 비교적 비슷했지만, 역전 전환의 유형은 달랐을 가능성이 있다. 은퇴에서 부분 은퇴로의 전환은 남성의 18.41%, 중간 학력 집단의 16.19%, 고학력 집단의 17.48%, 비히스패닉 백인의 16.39%가 경험했다. 반면 은퇴에서 비경제활동 상태로의 전환은 여성의 18.02%, 히스패닉의 18.12%가 경험했다.\n\n표 2. 시퀀스 내 가장 빈번한 전환과 은퇴 시퀀스의 내부 동질성 지수\n\n상위 5개 전환은 다음과 같다.",
-      "order": 22
+      "text": "종합하면, 우리가 분석한 코호트의 은퇴 시퀀스는 중간 정도로 탈표준화되어 있었다. 노년기 노동력 패턴 연구는 탈표준화의 정도를 과대평가해 왔을 가능성이 있다. 이 결과를 바탕으로 우리는 개별 상태나 전환이 아니라 은퇴 시퀀스를 분석할 때, 사건사 분석이나 잠재전환모형 같은 방법을 사용할 때는 가려져 버리는 표준화된 패턴을 식별할 수 있다고 본다. 연속적인 움직임을 일련의 스냅샷으로 표현하면 은퇴 시퀀스의 전체 패턴이 사라지고, 같은 코호트를 다른 방법으로 분석한 기존 문헌이 시사하는 것보다 덜 표준화된 것처럼 보이게 된다.\n\n평균에서 집단 차이로\n\n시퀀스 분석을 통해 정밀도를 높이는 것과 별개로, 시간 속에서 노동시장에서 매우 다른 기회와 제약에 노출되는 성별, 계급, 인종 같은 사회집단 사이의 잠재적 차이도 고려할 필요가 있다. 우리는 실제로 은퇴 시퀀스의 상당한 층화를 문서화할 수 있었다. 이는 노년기 노동력 패턴이 인구 전체에서 균일하지 않다는 선행연구(Loretto & Vickerstaff, 2015; Tang & Burr, 2015)와 일치한다. 그러나 우리의 발견은 대부분의 기존 연구를 넘어선다. 우리는 삶의 스냅샷이 아니라 시퀀스 수준에서 차이를 확립했기 때문이다. 구체적으로, 우리의 결과는 미국에서 1931-1941년 출생 코호트의 은퇴 시퀀스 표준화 정도가 성별, 계급, 인종에 의해 강하게 형성된다는 새로운 증거를 제공한다.\n\n정책결정자들에게는 은퇴 시퀀스 탈표준화의 층화가 생애과정 전반에서 남성, 고학력자, 백인이 누려 온 이점을 다시 강화한다는 사실을 이해하는 것이 도움이 될 수 있다. 우리의 가설과 일치하게, 60대 전반에 걸쳐 여성, 중간 학력자, 흑인은 각 대응 집단인 남성, 고학력자, 백인 또는 히스패닉보다 더 비관습적인 은퇴 시퀀스를 따랐다.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 종합하면, 우리가 분석한 코호트의 은퇴 시퀀스는 중간 정도로 탈표준화되어 있었다. 노년기 노동력 패턴 연구는 탈표준화의 정도를 과대평가해 왔을 가능성이 있다. 이 결과를 바탕으로 우리는 개별 상태나 전환이 아니라 은퇴 시퀀스를 분석할 때, 사건사 분석이나 잠재전환모형 같은 방법을 사용할 때는 가려져 버리는 표준화된 패턴을 식별할 수 있다고 본다. 연속적인 움직임을 일련의 스냅샷으로 표현하면 은퇴 시퀀스의 전체 패턴이 사라지고, 같은 코호트를 다른 방법으로 분석한 기존 문헌이 시사하는 것보다 덜 표준화된 것처럼 보이게 된다.\n\n평균에서 집단 차이로\n\n시퀀스 분석을 통해 정밀도를 높이는 것과 별개로, 시간 속에서 노동시장에서 매우 다른 기회와 제약에 노출되는 성별, 계급, 인종 같은 사회집단 사이의 잠재적 차이도 고려할 필요가 있다. 우리는 실제로 은퇴 시퀀스의 상당한 층화를 문서화할 수 있었다. 이는 노년기 노동력 패턴이 인구 전체에서 균일하지 않다는 선행연구(loretto & vickerstaff, 2015; tang & burr, 2015)와 일치한다. 그러나 우리의 발견은 대부분의 기존 연구를 넘어선다. 우리는 삶의 스냅샷이 아니라 시퀀스 수준에서 차이를 확립했기 때문이다. 구체적으로, 우리의 결과는 미국에서 1931-1941년 출생 코호트의 은퇴 시퀀스 표준화 정도가 성별, 계급, 인종에 의해 강하게 형성된다는 새로운 증거를 제공한다.\n\n정책결정자들에게는 은퇴 시퀀스 탈표준화의 층화가 생애과정 전반에서 남성, 고학력자, 백인이 누려 온 이점을 다시 강화한다는 사실을 이해하는 것이 도움이 될 수 있다. 우리의 가설과 일치하게, 60대 전반에 걸쳐 여성, 중간 학력자, 흑인은 각 대응 집단인 남성, 고학력자, 백인 또는 히스패닉보다 더 비관습적인 은퇴 시퀀스를 따랐다.",
+      "order": 25
     },
     {
       "id": "chatbot-01232",
@@ -13550,9 +13550,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "전체: 1위 정규직 -> 은퇴(35.07%), 2위 부분 은퇴 -> 은퇴(22.46%), 3위 정규직 -> 부분 은퇴(21.15%), 4위 은퇴 -> 은퇴(19.00%), 5위 은퇴 -> 부분 은퇴(15.71%)\n남성: 1위 정규직 -> 은퇴(43.75%), 2위 정규직 -> 부분 은퇴(28.14%), 3위 부분 은퇴 -> 은퇴(25.08%), 4위 은퇴 -> 부분 은퇴(18.41%), 5위 은퇴 -> 은퇴(15.70%)\n여성: 1위 정규직 -> 은퇴(28.01%), 2위 비경제활동 -> 은퇴(23.71%), 3위 은퇴 -> 은퇴(21.68%), 4위 부분 은퇴 -> 은퇴(20.32%), 5위 은퇴 -> 비경제활동(18.02%)\n저학력: 1위 정규직 -> 은퇴(32.74%), 2위 은퇴 -> 은퇴(22.13%), 3위 비경제활동 -> 은퇴(20.30%), 4위 부분 은퇴 -> 은퇴(16.20%), 5위 장애 -> 은퇴(16.01%)\n중간 학력: 1위 정규직 -> 은퇴(34.82%), 2위 부분 은퇴 -> 은퇴(22.78%), 3위 정규직 -> 부분 은퇴(20.41%), 4위 은퇴 -> 은퇴(19.43%), 5위 은퇴 -> 부분 은퇴(16.19%)\n고학력: 1위 정규직 -> 은퇴(36.96%), 2위 부분 은퇴 -> 은퇴(26.56%), 3위 정규직 -> 부분 은퇴(25.60%), 4위 은퇴 -> 부분 은퇴(17.48%), 5위 은퇴 -> 은퇴(16.35%)\n비히스패닉 백인: 1위 정규직 -> 은퇴(35.10%), 2위 부분 은퇴 -> 은퇴(23.62%), 3위 정규직 -> 부분 은퇴(22.42%), 4위 은퇴 -> 은퇴(17.79%), 5위 은퇴 -> 부분 은퇴(16.39%)\n비히스패닉 흑인: 1위 정규직 -> 은퇴(35.90%), 2위 은퇴 -> 은퇴(23.55%), 3위 부분 은퇴",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 전체: 1위 정규직 -> 은퇴(35.07%), 2위 부분 은퇴 -> 은퇴(22.46%), 3위 정규직 -> 부분 은퇴(21.15%), 4위 은퇴 -> 은퇴(19.00%), 5위 은퇴 -> 부분 은퇴(15.71%)\n남성: 1위 정규직 -> 은퇴(43.75%), 2위 정규직 -> 부분 은퇴(28.14%), 3위 부분 은퇴 -> 은퇴(25.08%), 4위 은퇴 -> 부분 은퇴(18.41%), 5위 은퇴 -> 은퇴(15.70%)\n여성: 1위 정규직 -> 은퇴(28.01%), 2위 비경제활동 -> 은퇴(23.71%), 3위 은퇴 -> 은퇴(21.68%), 4위 부분 은퇴 -> 은퇴(20.32%), 5위 은퇴 -> 비경제활동(18.02%)\n저학력: 1위 정규직 -> 은퇴(32.74%), 2위 은퇴 -> 은퇴(22.13%), 3위 비경제활동 -> 은퇴(20.30%), 4위 부분 은퇴 -> 은퇴(16.20%), 5위 장애 -> 은퇴(16.01%)\n중간 학력: 1위 정규직 -> 은퇴(34.82%), 2위 부분 은퇴 -> 은퇴(22.78%), 3위 정규직 -> 부분 은퇴(20.41%), 4위 은퇴 -> 은퇴(19.43%), 5위 은퇴 -> 부분 은퇴(16.19%)\n고학력: 1위 정규직 -> 은퇴(36.96%), 2위 부분 은퇴 -> 은퇴(26.56%), 3위 정규직 -> 부분 은퇴(25.60%), 4위 은퇴 -> 부분 은퇴(17.48%), 5위 은퇴 -> 은퇴(16.35%)\n비히스패닉 백인: 1위 정규직 -> 은퇴(35.10%), 2위 부분 은퇴 -> 은퇴(23.62%), 3위 정규직 -> 부분 은퇴(22.42%), 4위 은퇴 -> 은퇴(17.79%), 5위 은퇴 -> 부분 은퇴(16.39%)\n비히스패닉 흑인: 1위 정규직 -> 은퇴(35.90%), 2위 은퇴 -> 은퇴(23.55%), 3위 부분 은퇴",
-      "order": 23
+      "text": "또한 남성과 고학력자들은 실업이나 시간제 일자리의 에피소드가 거의 없는 은퇴 시퀀스를 따랐다. 반면 여성과 저학력 또는 중간 학력 집단은 실업과 시간제 일자리가 매우 흔한 모호형 및 압축형 은퇴 시퀀스를 경험했다. 이러한 은퇴 시퀀스 차이는 더 나쁜 건강 궤적과 더 큰 재정적 비용과 연결될 가능성이 있다(Azar, Madero-Cabib, Slachevsky, Staudinger, & Calvo, 2017). 따라서 사회정책은 이러한 위험을 완충할 수 있는 수단을 개발할 필요가 있어 보인다.\n\n한계와 향후 연구\n\n우리의 결과가 새롭기는 하지만, 몇 가지 한계도 인정하고자 한다. 하나의 한계는 자료가 2년 간격으로 수집되었고, 우리는 고용주 변화나 직업 변화는 고려하지 않은 채 이를 모형화했다는 점이다. 그 결과 관측되지 않은 단기 노동력 변화나 교량일자리가 일부 빠졌을 수 있다. 또 다른 한계는 우리의 결과가 연령, 코호트, 시기 특수적이라는 점이다. 더 많은 출생 코호트와 더 많은 조사 시점이 축적되면 연령-시기-코호트 문제를 더 잘 다룰 수 있을 것이다. 예를 들어 미래 연구는 개인들을 70대까지 추적하고, 더 긴 역사적 시기를 포괄하며, 더 젊은 코호트도 표본에 포함할 수 있다. 또한 회고적 생애사 자료를 사용해 가족 역할의 병렬 시퀀스를 분석하거나, 노동시장 및 사회보장 규제가 서로 다른 국가들 사이에서 시퀀스를 비교함으로써 은퇴 시퀀스의 결정요인과 결과를 모두 탐색할 수 있을 것이다.\n\n결론",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 또한 남성과 고학력자들은 실업이나 시간제 일자리의 에피소드가 거의 없는 은퇴 시퀀스를 따랐다. 반면 여성과 저학력 또는 중간 학력 집단은 실업과 시간제 일자리가 매우 흔한 모호형 및 압축형 은퇴 시퀀스를 경험했다. 이러한 은퇴 시퀀스 차이는 더 나쁜 건강 궤적과 더 큰 재정적 비용과 연결될 가능성이 있다(azar, madero-cabib, slachevsky, staudinger, & calvo, 2017). 따라서 사회정책은 이러한 위험을 완충할 수 있는 수단을 개발할 필요가 있어 보인다.\n\n한계와 향후 연구\n\n우리의 결과가 새롭기는 하지만, 몇 가지 한계도 인정하고자 한다. 하나의 한계는 자료가 2년 간격으로 수집되었고, 우리는 고용주 변화나 직업 변화는 고려하지 않은 채 이를 모형화했다는 점이다. 그 결과 관측되지 않은 단기 노동력 변화나 교량일자리가 일부 빠졌을 수 있다. 또 다른 한계는 우리의 결과가 연령, 코호트, 시기 특수적이라는 점이다. 더 많은 출생 코호트와 더 많은 조사 시점이 축적되면 연령-시기-코호트 문제를 더 잘 다룰 수 있을 것이다. 예를 들어 미래 연구는 개인들을 70대까지 추적하고, 더 긴 역사적 시기를 포괄하며, 더 젊은 코호트도 표본에 포함할 수 있다. 또한 회고적 생애사 자료를 사용해 가족 역할의 병렬 시퀀스를 분석하거나, 노동시장 및 사회보장 규제가 서로 다른 국가들 사이에서 시퀀스를 비교함으로써 은퇴 시퀀스의 결정요인과 결과를 모두 탐색할 수 있을 것이다.\n\n결론",
+      "order": 26
     },
     {
       "id": "chatbot-01233",
@@ -13561,9 +13561,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "-> 은퇴(22.72%), 4위 정규직 -> 부분 은퇴(19.57%), 5위 은퇴 -> 부분 은퇴(16.09%)\n히스패닉: 1위 정규직 -> 은퇴(34.09%), 2위 비경제활동 -> 은퇴(24.70%), 3위 은퇴 -> 은퇴(20.67%), 4위 은퇴 -> 비경제활동(18.12%), 5위 정규직 -> 부분 은퇴(14.23%)\n\n내부 동질성 지수의 전체 표본 값은 다음과 같다.\n\n조기 시퀀스: Entropy 0.34, Complexity 0.22, Turbulence 2.26\n완전 시퀀스: Entropy 0.46, Complexity 0.43, Turbulence 3.89\n부분 시퀀스: Entropy 0.58, Complexity 0.45, Turbulence 3.78\n지연 시퀀스: Entropy 0.36, Complexity 0.24, Turbulence 2.39\n모호 시퀀스: Entropy 0.53, Complexity 0.34, Turbulence 3.18\n압축 시퀀스: Entropy 0.71, Complexity 0.52, Turbulence 4.11\n\n주: wft는 정규직 근무, wpt는 시간제 근무, pret는 부분 은퇴, ret는 은퇴, dis는 장애, nlbf는 비경제활동 상태를 뜻한다.\n\n시퀀스 유형 그래프와 개별 시퀀스 그래프는 어떤 집단이 다른 집단보다 은퇴 시퀀스가 더 유연하고, 시간에 따라 더 크게 변하는 상태와 전환을 가진다는 명확한 증거를 제공하지는 않았다. 그러나 표 2 하단의 결과는, 남성과 여성이 동시에 보여 준 유일한 두 시퀀스인 조기 은퇴 시퀀스와 지연 은퇴 시퀀스의 경우 여성이 시점 면에서 더 유연하고 남성은 더 연령 규정적이라는 점을 시사했다. 마찬가지로 지연 시퀀스와 모호 시퀀스는 저학력 집단에서 더 유연한 반면,",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 -> 은퇴(22.72%), 4위 정규직 -> 부분 은퇴(19.57%), 5위 은퇴 -> 부분 은퇴(16.09%)\n히스패닉: 1위 정규직 -> 은퇴(34.09%), 2위 비경제활동 -> 은퇴(24.70%), 3위 은퇴 -> 은퇴(20.67%), 4위 은퇴 -> 비경제활동(18.12%), 5위 정규직 -> 부분 은퇴(14.23%)\n\n내부 동질성 지수의 전체 표본 값은 다음과 같다.\n\n조기 시퀀스: entropy 0.34, complexity 0.22, turbulence 2.26\n완전 시퀀스: entropy 0.46, complexity 0.43, turbulence 3.89\n부분 시퀀스: entropy 0.58, complexity 0.45, turbulence 3.78\n지연 시퀀스: entropy 0.36, complexity 0.24, turbulence 2.39\n모호 시퀀스: entropy 0.53, complexity 0.34, turbulence 3.18\n압축 시퀀스: entropy 0.71, complexity 0.52, turbulence 4.11\n\n주: wft는 정규직 근무, wpt는 시간제 근무, pret는 부분 은퇴, ret는 은퇴, dis는 장애, nlbf는 비경제활동 상태를 뜻한다.\n\n시퀀스 유형 그래프와 개별 시퀀스 그래프는 어떤 집단이 다른 집단보다 은퇴 시퀀스가 더 유연하고, 시간에 따라 더 크게 변하는 상태와 전환을 가진다는 명확한 증거를 제공하지는 않았다. 그러나 표 2 하단의 결과는, 남성과 여성이 동시에 보여 준 유일한 두 시퀀스인 조기 은퇴 시퀀스와 지연 은퇴 시퀀스의 경우 여성이 시점 면에서 더 유연하고 남성은 더 연령 규정적이라는 점을 시사했다. 마찬가지로 지연 시퀀스와 모호 시퀀스는 저학력 집단에서 더 유연한 반면,",
-      "order": 24
+      "text": "지난 수십 년간 생애과정의 탈표준화와 층화에 대한 이론적·실증적 탐구는 크게 증가했다(Mayer, 2009). 상당한 진전이 있었지만, 노년기 노동력 패턴에 초점을 둔 연구는 통합적 모형을 충분히 제시하지 못했고, 상태 또는 전환 중 하나에만 초점을 맞추는 경향이 있으며, 사회적 층화를 자주 간과해 왔다. 상태와 전환은 모두 생애과정을 이해하는 데 핵심적이지만, 시퀀스 분석의 장점을 본격적으로 활용하는 일은 아직 초기 단계에 머물러 있다.\n\n우리는 시퀀스 분석 접근을 제안했고, 탈표준화의 여러 구성요소, 즉 비관습적 유형, 가역적 순서, 유연한 시점을 정의하고 함께 고려하는 은퇴 시퀀스의 개념모형을 제시했다. 또한 은퇴 시퀀스가 성별, 계급, 인종에 따라 층화된다는 점을 결코 간과해서는 안 된다는 증거를 발견했다. 우리가 아는 한, 이 논문은 미국 고령자의 전국대표 자료를 사용해 노년기 노동력 패턴에 대한 시퀀스 분석 접근을 적용한 첫 연구다. 이는 중요한 정책적·학술적 기여다. 왜냐하면 스냅샷 상태나 전환에만 초점을 둔 연구의 결과를 전체 시퀀스로 일반화하거나, 생애과정이 전개되는 방식의 이질성을 무시하거나, 다른 국가나 다른 연령집단의 결과를 그대로 일반화하는 데 따르는 위험에 대한 인식이 커지고 있기 때문이다.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 지난 수십 년간 생애과정의 탈표준화와 층화에 대한 이론적·실증적 탐구는 크게 증가했다(mayer, 2009). 상당한 진전이 있었지만, 노년기 노동력 패턴에 초점을 둔 연구는 통합적 모형을 충분히 제시하지 못했고, 상태 또는 전환 중 하나에만 초점을 맞추는 경향이 있으며, 사회적 층화를 자주 간과해 왔다. 상태와 전환은 모두 생애과정을 이해하는 데 핵심적이지만, 시퀀스 분석의 장점을 본격적으로 활용하는 일은 아직 초기 단계에 머물러 있다.\n\n우리는 시퀀스 분석 접근을 제안했고, 탈표준화의 여러 구성요소, 즉 비관습적 유형, 가역적 순서, 유연한 시점을 정의하고 함께 고려하는 은퇴 시퀀스의 개념모형을 제시했다. 또한 은퇴 시퀀스가 성별, 계급, 인종에 따라 층화된다는 점을 결코 간과해서는 안 된다는 증거를 발견했다. 우리가 아는 한, 이 논문은 미국 고령자의 전국대표 자료를 사용해 노년기 노동력 패턴에 대한 시퀀스 분석 접근을 적용한 첫 연구다. 이는 중요한 정책적·학술적 기여다. 왜냐하면 스냅샷 상태나 전환에만 초점을 둔 연구의 결과를 전체 시퀀스로 일반화하거나, 생애과정이 전개되는 방식의 이질성을 무시하거나, 다른 국가나 다른 연령집단의 결과를 그대로 일반화하는 데 따르는 위험에 대한 인식이 커지고 있기 때문이다.",
+      "order": 27
     },
     {
       "id": "chatbot-01234",
@@ -13572,9 +13572,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "그림 2. 층화집단별 미국의 은퇴 시퀀스\n\n원문 그림은 성별, 교육수준, 인종별로 시퀀스 유형의 분포와 형태를 비교해 보여 준다.\n\n표 3. 층화집단별 은퇴 시퀀스의 기술통계\n\n표 3은 성별, 교육, 인종별로 조기, 완전, 부분, 지연, 모호, 압축 시퀀스의 빈도(N)와 비율(%)을 제시한다.\n\n중간 학력자와 고학력자는 더 연령 규정적인 양상을 보였다. 다만 조기 은퇴 시퀀스의 엔트로피, 복잡성, 난류도 지수는 중간 학력 집단보다 낮거나 높은 학력 집단 모두에서 더 유연한 시점을 시사했다. 또한 히스패닉은 조기 은퇴 시퀀스에서 백인보다 더 유연한 시점, 즉 더 약한 연령 규정성을 보였고, 흑인은 모호한 은퇴 시퀀스에서 백인보다 더 유연한 시점을 보였다. 흑인과 히스패닉은 지연 은퇴 시퀀스에서도 백인보다 더 유연한 시점을 보였다. 보충부록 I는 시퀀스의 내부 동질성을 종단적으로 접근해도 일관된 결과가 나온다는 점을 보여 준다.\n\n논의\n\n이 연구에서 우리는 시퀀스 분석 접근을 사용해 60대 미국인(1931-1941년 출생)이 경험한 노동력 패턴의 탈표준화를 분석하고자 했다. 우리는 은퇴 시퀀스의 유형, 순서, 시점 차원에서 탈표준화 정도를 검증했고, 성별, 계급, 인종에 따라 층화된 은퇴 시퀀스에서 탈표준화 정도가 어떻게 달라지는지도 살펴보았다. 대체로 결과는 우리의 가정을 확인해 주었다.\n\n스냅샷에서 영화로",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 그림 2. 층화집단별 미국의 은퇴 시퀀스\n\n원문 그림은 성별, 교육수준, 인종별로 시퀀스 유형의 분포와 형태를 비교해 보여 준다.\n\n표 3. 층화집단별 은퇴 시퀀스의 기술통계\n\n표 3은 성별, 교육, 인종별로 조기, 완전, 부분, 지연, 모호, 압축 시퀀스의 빈도(n)와 비율(%)을 제시한다.\n\n중간 학력자와 고학력자는 더 연령 규정적인 양상을 보였다. 다만 조기 은퇴 시퀀스의 엔트로피, 복잡성, 난류도 지수는 중간 학력 집단보다 낮거나 높은 학력 집단 모두에서 더 유연한 시점을 시사했다. 또한 히스패닉은 조기 은퇴 시퀀스에서 백인보다 더 유연한 시점, 즉 더 약한 연령 규정성을 보였고, 흑인은 모호한 은퇴 시퀀스에서 백인보다 더 유연한 시점을 보였다. 흑인과 히스패닉은 지연 은퇴 시퀀스에서도 백인보다 더 유연한 시점을 보였다. 보충부록 i는 시퀀스의 내부 동질성을 종단적으로 접근해도 일관된 결과가 나온다는 점을 보여 준다.\n\n논의\n\n이 연구에서 우리는 시퀀스 분석 접근을 사용해 60대 미국인(1931-1941년 출생)이 경험한 노동력 패턴의 탈표준화를 분석하고자 했다. 우리는 은퇴 시퀀스의 유형, 순서, 시점 차원에서 탈표준화 정도를 검증했고, 성별, 계급, 인종에 따라 층화된 은퇴 시퀀스에서 탈표준화 정도가 어떻게 달라지는지도 살펴보았다. 대체로 결과는 우리의 가정을 확인해 주었다.\n\n스냅샷에서 영화로",
-      "order": 25
+      "text": "우리는 미국의 고령 인구 사이에 여러 유형의 은퇴 시퀀스가 존재한다고 결론지었다. 더 구체적으로 말하면, 1931-1941년 출생 코호트에서는 65세 전후 정규직에서 완전 은퇴로 이동하는 전통적 모형이 가장 흔한 유형이 아니었다. 그러나 동시에 이러한 은퇴 시퀀스는 일부 비가역성과 연령 규정성을 유지하고 있었기 때문에, 오직 중간 정도로만 탈표준화되어 있었다. 또한 강한 불평등이 특징인 나라에서 예상할 수 있듯이, 은퇴 시퀀스의 탈표준화는 성별, 계급, 인종에 따라 달라졌다.\n\n보충자료\n\n보충자료는 The Gerontologist 온라인판에서 확인할 수 있다.\n\n연구비 지원\n\n이 연구는 Columbia University President's Global Innovation Fund, CONICYT/FONDECYT/REGULAR/N1140107, CONICYT/FONDECYT/POSTDOCTORADO/N3160522, CONICYT/FONDAP/N15130009의 지원을 받았다.\n\n감사의 말\n\n저자들은 이 논문의 이전 버전에 대해 귀중한 의견을 준 Katherine B. Indvik와 익명의 심사자 두 명에게 감사한다. 다만 남아 있는 오류나 부정확성에 대한 책임은 전적으로 저자들에게 있다.\n\n참고문헌",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 우리는 미국의 고령 인구 사이에 여러 유형의 은퇴 시퀀스가 존재한다고 결론지었다. 더 구체적으로 말하면, 1931-1941년 출생 코호트에서는 65세 전후 정규직에서 완전 은퇴로 이동하는 전통적 모형이 가장 흔한 유형이 아니었다. 그러나 동시에 이러한 은퇴 시퀀스는 일부 비가역성과 연령 규정성을 유지하고 있었기 때문에, 오직 중간 정도로만 탈표준화되어 있었다. 또한 강한 불평등이 특징인 나라에서 예상할 수 있듯이, 은퇴 시퀀스의 탈표준화는 성별, 계급, 인종에 따라 달라졌다.\n\n보충자료\n\n보충자료는 the gerontologist 온라인판에서 확인할 수 있다.\n\n연구비 지원\n\n이 연구는 columbia university president's global innovation fund, conicyt/fondecyt/regular/n1140107, conicyt/fondecyt/postdoctorado/n3160522, conicyt/fondap/n15130009의 지원을 받았다.\n\n감사의 말\n\n저자들은 이 논문의 이전 버전에 대해 귀중한 의견을 준 katherine b. indvik와 익명의 심사자 두 명에게 감사한다. 다만 남아 있는 오류나 부정확성에 대한 책임은 전적으로 저자들에게 있다.\n\n참고문헌",
+      "order": 28
     },
     {
       "id": "chatbot-01235",
@@ -13583,9 +13583,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "우리의 결과는 관습적 유형, 즉 정규직에서 65세 전후 완전 은퇴로 이동하는 경로가 여섯 가지 은퇴 시퀀스 가운데 하나일 뿐이며, 가장 흔한 유형도 아니라는 점을 보여 주었다. 조기 은퇴 시퀀스는 모든 사회집단에서 가장 흔한 유형이었는데, 이는 조기 은퇴 추세가 되돌아섰다고 보고한 선행연구(Fisher et al., 2016)와는 다소 긴장 관계를 보인다. 또한 우리는 모든 사회집단에서 지연 은퇴 시퀀스 유형도 발견했지만, 우리가 분석한 출생 코호트에서는 조기 은퇴 시퀀스만큼 흔하지는 않았다. 다른 비관습적 은퇴 시퀀스들은 빈도가 더 낮았고, 사회적 층화도 더 강했다.\n\n이전 문헌이 시사하는 바와 달리, 모든 은퇴 시퀀스는 대체로 비가역적인 순서를 가진 변화의 진행으로 이루어져 있었다. 이 결과는 개인들이 은퇴 시퀀스 동안 사건의 순서에 관한 개인적·사회적 각본을 실제로 따른다는 해석과 부합한다(Szinovacz, 2013; Szinovacz et al., 2014). 이러한 각본은 선택, 예를 들어 선호와 기대, 그리고 개인적 제약, 예를 들어 돈과 건강, 나아가 노동시장과 사회제도 같은 사회적 제약이 결합되어 강화된다고 여겨져 왔다(Fasang, 2012; Han & Moen, 1999; Szinovacz, 2013).",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 우리의 결과는 관습적 유형, 즉 정규직에서 65세 전후 완전 은퇴로 이동하는 경로가 여섯 가지 은퇴 시퀀스 가운데 하나일 뿐이며, 가장 흔한 유형도 아니라는 점을 보여 주었다. 조기 은퇴 시퀀스는 모든 사회집단에서 가장 흔한 유형이었는데, 이는 조기 은퇴 추세가 되돌아섰다고 보고한 선행연구(fisher et al., 2016)와는 다소 긴장 관계를 보인다. 또한 우리는 모든 사회집단에서 지연 은퇴 시퀀스 유형도 발견했지만, 우리가 분석한 출생 코호트에서는 조기 은퇴 시퀀스만큼 흔하지는 않았다. 다른 비관습적 은퇴 시퀀스들은 빈도가 더 낮았고, 사회적 층화도 더 강했다.\n\n이전 문헌이 시사하는 바와 달리, 모든 은퇴 시퀀스는 대체로 비가역적인 순서를 가진 변화의 진행으로 이루어져 있었다. 이 결과는 개인들이 은퇴 시퀀스 동안 사건의 순서에 관한 개인적·사회적 각본을 실제로 따른다는 해석과 부합한다(szinovacz, 2013; szinovacz et al., 2014). 이러한 각본은 선택, 예를 들어 선호와 기대, 그리고 개인적 제약, 예를 들어 돈과 건강, 나아가 노동시장과 사회제도 같은 사회적 제약이 결합되어 강화된다고 여겨져 왔다(fasang, 2012; han & moen, 1999; szinovacz, 2013).",
-      "order": 26
+      "text": "Allison, P. (2002). Missing data. Thousand Oaks, CA: Sage.\nAzar, A., Madero-Cabib, I., Slachevsky, A., Staudinger, U., & Calvo, E. (2017). From snapshots to movies: The association between retirement sequences and aging trajectories in motor and cognitive functioning. Manuscript submitted for publication.\nCahill, K. E., Giandrea, M. D., & Quinn, J. F. (2015). Retirement patterns and the macroeconomy, 1992-2010: The prevalence and determinants of bridge jobs, phased retirement, and reentry among three recent cohorts of older Americans. The Gerontologist, 55, 384-403. doi:10.1093/geront/gnt146\nCalvo, E., Haverstick, K., & Sass, S. (2009). Gradual retirement, sense of control, and retirees' happiness. Research on Aging, 31, 112-135. doi:10.1177/0164027508324704\nCalvo, E., Sarkisian, N., & Tamborini, C. R. (2013). Causal effects of retirement timing on subjective physical and emotional",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 allison, p. (2002). missing data. thousand oaks, ca: sage.\nazar, a., madero-cabib, i., slachevsky, a., staudinger, u., & calvo, e. (2017). from snapshots to movies: the association between retirement sequences and aging trajectories in motor and cognitive functioning. manuscript submitted for publication.\ncahill, k. e., giandrea, m. d., & quinn, j. f. (2015). retirement patterns and the macroeconomy, 1992-2010: the prevalence and determinants of bridge jobs, phased retirement, and reentry among three recent cohorts of older americans. the gerontologist, 55, 384-403. doi:10.1093/geront/gnt146\ncalvo, e., haverstick, k., & sass, s. (2009). gradual retirement, sense of control, and retirees' happiness. research on aging, 31, 112-135. doi:10.1177/0164027508324704\ncalvo, e., sarkisian, n., & tamborini, c. r. (2013). causal effects of retirement timing on subjective physical and emotional",
+      "order": 29
     },
     {
       "id": "chatbot-01236",
@@ -13594,9 +13594,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "높은 탈표준화의 일부로서, 은퇴 시퀀스는 사회보장 급여 수급이 가능한 법정 은퇴연령을 덜 겨냥하는, 즉 연령 규정성이 더 약한 변화들로 구성될 것이라고 기대할 수 있다. 그러나 조기 은퇴연령(62세)과 완전 은퇴연령(65-67세)은 여전히 각 은퇴 시퀀스 안에서 규범적으로 기대되는 흐름의 제도적 표지로 작동하는 것으로 보인다(보충부록 I). 특정 은퇴 시퀀스 유형을 따라가는 과정이 언제 일하거나 은퇴해야 하는지에 대한 제도적 표지와 일치하는 연령대에서는 연령 규범이 더 느슨해지거나, 개인들이 더 큰 행위성을 발휘하는 것으로 보인다. 예를 들어 조기 은퇴 시퀀스에 있는 개인들은 조기 은퇴연령인 62세 이전에는 더 느슨한 연령 지침을 따르다가, 그 이후에는 완전 은퇴하라는 압력을 더 강하게 받는 것으로 보인다. 반대로 지연 은퇴 시퀀스의 개인들은 완전 은퇴연령(65-67세) 이전에는 정규직으로 계속 일해야 한다는 더 엄격한 지침을 따르지만, 그 이후에는 연령 지침이 더 느슨해진다. 완전 은퇴 시퀀스의 개인들은 조기 은퇴연령 이전에는 정규직 근무를, 완전 은퇴연령 이후에는 완전 은퇴를 하라는 더 강한 압력을 경험하지만, 두 연령 사이에서는 더 느슨한 지침을 경험하는 것으로 보인다. 전체 패턴은 연령 지침의 강도가 연령에 따라 달라지며, 개인이 현재 통과하고 있는 구체적 은퇴 시퀀스 유형에도 의존한다는 점을 시사한다.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 높은 탈표준화의 일부로서, 은퇴 시퀀스는 사회보장 급여 수급이 가능한 법정 은퇴연령을 덜 겨냥하는, 즉 연령 규정성이 더 약한 변화들로 구성될 것이라고 기대할 수 있다. 그러나 조기 은퇴연령(62세)과 완전 은퇴연령(65-67세)은 여전히 각 은퇴 시퀀스 안에서 규범적으로 기대되는 흐름의 제도적 표지로 작동하는 것으로 보인다(보충부록 i). 특정 은퇴 시퀀스 유형을 따라가는 과정이 언제 일하거나 은퇴해야 하는지에 대한 제도적 표지와 일치하는 연령대에서는 연령 규범이 더 느슨해지거나, 개인들이 더 큰 행위성을 발휘하는 것으로 보인다. 예를 들어 조기 은퇴 시퀀스에 있는 개인들은 조기 은퇴연령인 62세 이전에는 더 느슨한 연령 지침을 따르다가, 그 이후에는 완전 은퇴하라는 압력을 더 강하게 받는 것으로 보인다. 반대로 지연 은퇴 시퀀스의 개인들은 완전 은퇴연령(65-67세) 이전에는 정규직으로 계속 일해야 한다는 더 엄격한 지침을 따르지만, 그 이후에는 연령 지침이 더 느슨해진다. 완전 은퇴 시퀀스의 개인들은 조기 은퇴연령 이전에는 정규직 근무를, 완전 은퇴연령 이후에는 완전 은퇴를 하라는 더 강한 압력을 경험하지만, 두 연령 사이에서는 더 느슨한 지침을 경험하는 것으로 보인다. 전체 패턴은 연령 지침의 강도가 연령에 따라 달라지며, 개인이 현재 통과하고 있는 구체적 은퇴 시퀀스 유형에도 의존한다는 점을 시사한다.",
-      "order": 27
+      "text": "health. The Journal of Gerontology, Series B: Psychological Sciences and Social Sciences, 68, 73-84. doi:10.1093/geronb/gbs097",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 health. the journal of gerontology, series b: psychological sciences and social sciences, 68, 73-84. doi:10.1093/geronb/gbs097",
+      "order": 30
     },
     {
       "id": "chatbot-01237",
@@ -13605,9 +13605,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "종합하면, 우리가 분석한 코호트의 은퇴 시퀀스는 중간 정도로 탈표준화되어 있었다. 노년기 노동력 패턴 연구는 탈표준화의 정도를 과대평가해 왔을 가능성이 있다. 이 결과를 바탕으로 우리는 개별 상태나 전환이 아니라 은퇴 시퀀스를 분석할 때, 사건사 분석이나 잠재전환모형 같은 방법을 사용할 때는 가려져 버리는 표준화된 패턴을 식별할 수 있다고 본다. 연속적인 움직임을 일련의 스냅샷으로 표현하면 은퇴 시퀀스의 전체 패턴이 사라지고, 같은 코호트를 다른 방법으로 분석한 기존 문헌이 시사하는 것보다 덜 표준화된 것처럼 보이게 된다.\n\n평균에서 집단 차이로\n\n시퀀스 분석을 통해 정밀도를 높이는 것과 별개로, 시간 속에서 노동시장에서 매우 다른 기회와 제약에 노출되는 성별, 계급, 인종 같은 사회집단 사이의 잠재적 차이도 고려할 필요가 있다. 우리는 실제로 은퇴 시퀀스의 상당한 층화를 문서화할 수 있었다. 이는 노년기 노동력 패턴이 인구 전체에서 균일하지 않다는 선행연구(Loretto & Vickerstaff, 2015; Tang & Burr, 2015)와 일치한다. 그러나 우리의 발견은 대부분의 기존 연구를 넘어선다. 우리는 삶의 스냅샷이 아니라 시퀀스 수준에서 차이를 확립했기 때문이다. 구체적으로, 우리의 결과는 미국에서 1931-1941년 출생 코호트의 은퇴 시퀀스 표준화 정도가 성별, 계급, 인종에 의해 강하게 형성된다는 새로운 증거를 제공한다.\n\n정책결정자들에게는 은퇴 시퀀스 탈표준화의 층화가 생애과정 전반에서 남성, 고학력자, 백인이 누려 온 이점을 다시 강화한다는 사실을 이해하는 것이 도움이 될 수 있다. 우리의 가설과 일치하게, 60대 전반에 걸쳐 여성, 중간 학력자, 흑인은 각 대응 집단인 남성, 고학력자, 백인 또는 히스패닉보다 더 비관습적인 은퇴 시퀀스를 따랐다.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 종합하면, 우리가 분석한 코호트의 은퇴 시퀀스는 중간 정도로 탈표준화되어 있었다. 노년기 노동력 패턴 연구는 탈표준화의 정도를 과대평가해 왔을 가능성이 있다. 이 결과를 바탕으로 우리는 개별 상태나 전환이 아니라 은퇴 시퀀스를 분석할 때, 사건사 분석이나 잠재전환모형 같은 방법을 사용할 때는 가려져 버리는 표준화된 패턴을 식별할 수 있다고 본다. 연속적인 움직임을 일련의 스냅샷으로 표현하면 은퇴 시퀀스의 전체 패턴이 사라지고, 같은 코호트를 다른 방법으로 분석한 기존 문헌이 시사하는 것보다 덜 표준화된 것처럼 보이게 된다.\n\n평균에서 집단 차이로\n\n시퀀스 분석을 통해 정밀도를 높이는 것과 별개로, 시간 속에서 노동시장에서 매우 다른 기회와 제약에 노출되는 성별, 계급, 인종 같은 사회집단 사이의 잠재적 차이도 고려할 필요가 있다. 우리는 실제로 은퇴 시퀀스의 상당한 층화를 문서화할 수 있었다. 이는 노년기 노동력 패턴이 인구 전체에서 균일하지 않다는 선행연구(loretto & vickerstaff, 2015; tang & burr, 2015)와 일치한다. 그러나 우리의 발견은 대부분의 기존 연구를 넘어선다. 우리는 삶의 스냅샷이 아니라 시퀀스 수준에서 차이를 확립했기 때문이다. 구체적으로, 우리의 결과는 미국에서 1931-1941년 출생 코호트의 은퇴 시퀀스 표준화 정도가 성별, 계급, 인종에 의해 강하게 형성된다는 새로운 증거를 제공한다.\n\n정책결정자들에게는 은퇴 시퀀스 탈표준화의 층화가 생애과정 전반에서 남성, 고학력자, 백인이 누려 온 이점을 다시 강화한다는 사실을 이해하는 것이 도움이 될 수 있다. 우리의 가설과 일치하게, 60대 전반에 걸쳐 여성, 중간 학력자, 흑인은 각 대응 집단인 남성, 고학력자, 백인 또는 히스패닉보다 더 비관습적인 은퇴 시퀀스를 따랐다.",
-      "order": 28
+      "text": "Chien, S., Campbell, N., Chan, C., Hayden, O., Hurd, M., Main, R., & St. Clair, P. (2015). RAND HRS data documentation version O. Santa Monica, CA: RAND.\nEllis, C., Munnell, A., & Eschtruth, A. (2014). Falling short: The coming retirement crisis and what to do about it. New York: Oxford University Press.\nElzinga, C. (2014). Distance, similarity and sequence comparison. In P. Blanchard, F. Buhlmann, & J.-A. Gauthier (Eds.), Advances in sequence analysis: Theory, method, applications (pp. 51-83). New York: Springer.\nFasang, A. (2010). Retirement: Institutional pathways and individual trajectories in Britain and Germany. Sociological Research Online, 15. doi:10.5153/sro.2110\nFasang, A. (2012). Retirement patterns and income inequality. Social Forces, 90, 685-711. doi:10.1093/sf/sor015\nFisher, G., Chaffee, D., & Sonnega, A. (2016). Retirement timing: A review and recommendations for future",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 chien, s., campbell, n., chan, c., hayden, o., hurd, m., main, r., & st. clair, p. (2015). rand hrs data documentation version o. santa monica, ca: rand.\nellis, c., munnell, a., & eschtruth, a. (2014). falling short: the coming retirement crisis and what to do about it. new york: oxford university press.\nelzinga, c. (2014). distance, similarity and sequence comparison. in p. blanchard, f. buhlmann, & j.-a. gauthier (eds.), advances in sequence analysis: theory, method, applications (pp. 51-83). new york: springer.\nfasang, a. (2010). retirement: institutional pathways and individual trajectories in britain and germany. sociological research online, 15. doi:10.5153/sro.2110\nfasang, a. (2012). retirement patterns and income inequality. social forces, 90, 685-711. doi:10.1093/sf/sor015\nfisher, g., chaffee, d., & sonnega, a. (2016). retirement timing: a review and recommendations for future",
+      "order": 31
     },
     {
       "id": "chatbot-01238",
@@ -13616,9 +13616,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "또한 남성과 고학력자들은 실업이나 시간제 일자리의 에피소드가 거의 없는 은퇴 시퀀스를 따랐다. 반면 여성과 저학력 또는 중간 학력 집단은 실업과 시간제 일자리가 매우 흔한 모호형 및 압축형 은퇴 시퀀스를 경험했다. 이러한 은퇴 시퀀스 차이는 더 나쁜 건강 궤적과 더 큰 재정적 비용과 연결될 가능성이 있다(Azar, Madero-Cabib, Slachevsky, Staudinger, & Calvo, 2017). 따라서 사회정책은 이러한 위험을 완충할 수 있는 수단을 개발할 필요가 있어 보인다.\n\n한계와 향후 연구\n\n우리의 결과가 새롭기는 하지만, 몇 가지 한계도 인정하고자 한다. 하나의 한계는 자료가 2년 간격으로 수집되었고, 우리는 고용주 변화나 직업 변화는 고려하지 않은 채 이를 모형화했다는 점이다. 그 결과 관측되지 않은 단기 노동력 변화나 교량일자리가 일부 빠졌을 수 있다. 또 다른 한계는 우리의 결과가 연령, 코호트, 시기 특수적이라는 점이다. 더 많은 출생 코호트와 더 많은 조사 시점이 축적되면 연령-시기-코호트 문제를 더 잘 다룰 수 있을 것이다. 예를 들어 미래 연구는 개인들을 70대까지 추적하고, 더 긴 역사적 시기를 포괄하며, 더 젊은 코호트도 표본에 포함할 수 있다. 또한 회고적 생애사 자료를 사용해 가족 역할의 병렬 시퀀스를 분석하거나, 노동시장 및 사회보장 규제가 서로 다른 국가들 사이에서 시퀀스를 비교함으로써 은퇴 시퀀스의 결정요인과 결과를 모두 탐색할 수 있을 것이다.\n\n결론",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 또한 남성과 고학력자들은 실업이나 시간제 일자리의 에피소드가 거의 없는 은퇴 시퀀스를 따랐다. 반면 여성과 저학력 또는 중간 학력 집단은 실업과 시간제 일자리가 매우 흔한 모호형 및 압축형 은퇴 시퀀스를 경험했다. 이러한 은퇴 시퀀스 차이는 더 나쁜 건강 궤적과 더 큰 재정적 비용과 연결될 가능성이 있다(azar, madero-cabib, slachevsky, staudinger, & calvo, 2017). 따라서 사회정책은 이러한 위험을 완충할 수 있는 수단을 개발할 필요가 있어 보인다.\n\n한계와 향후 연구\n\n우리의 결과가 새롭기는 하지만, 몇 가지 한계도 인정하고자 한다. 하나의 한계는 자료가 2년 간격으로 수집되었고, 우리는 고용주 변화나 직업 변화는 고려하지 않은 채 이를 모형화했다는 점이다. 그 결과 관측되지 않은 단기 노동력 변화나 교량일자리가 일부 빠졌을 수 있다. 또 다른 한계는 우리의 결과가 연령, 코호트, 시기 특수적이라는 점이다. 더 많은 출생 코호트와 더 많은 조사 시점이 축적되면 연령-시기-코호트 문제를 더 잘 다룰 수 있을 것이다. 예를 들어 미래 연구는 개인들을 70대까지 추적하고, 더 긴 역사적 시기를 포괄하며, 더 젊은 코호트도 표본에 포함할 수 있다. 또한 회고적 생애사 자료를 사용해 가족 역할의 병렬 시퀀스를 분석하거나, 노동시장 및 사회보장 규제가 서로 다른 국가들 사이에서 시퀀스를 비교함으로써 은퇴 시퀀스의 결정요인과 결과를 모두 탐색할 수 있을 것이다.\n\n결론",
-      "order": 29
+      "text": "research. Work, Aging and Retirement, 2, 230-261. doi:10.1093/workar/waw001\nGabadinho, A., Ritschard, G., Muller, N., & Studer, M. (2011). Analyzing and visualizing state sequences in R with TraMineR. Journal of Statistical Software, 40, 1-37. doi:10.18637/jss.v040.i04\nGiele, J., & Elder, G. (1998). Methods of life course research: Qualitative and quantitative approaches. Thousand Oaks, CA: Sage.\nHan, S.-K., & Moen, P. (1999). Clocking out: Temporal patterning of retirement. American Journal of Sociology, 105, 191-236. doi:10.1086/210271\nHarris, K., Krygsman, S., Waschenko, J., & Rudman, D. (2017). Ageism and the older worker: A scoping review. The Gerontologist. Advanced online publication. doi:10.1093/geront/gnw194\nKim, Y.-M. (2013). Diverging top and converging bottom: Labour flexibilization and changes in career mobility in the USA. Work, Employment & Society, 27, 860-879.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 research. work, aging and retirement, 2, 230-261. doi:10.1093/workar/waw001\ngabadinho, a., ritschard, g., muller, n., & studer, m. (2011). analyzing and visualizing state sequences in r with traminer. journal of statistical software, 40, 1-37. doi:10.18637/jss.v040.i04\ngiele, j., & elder, g. (1998). methods of life course research: qualitative and quantitative approaches. thousand oaks, ca: sage.\nhan, s.-k., & moen, p. (1999). clocking out: temporal patterning of retirement. american journal of sociology, 105, 191-236. doi:10.1086/210271\nharris, k., krygsman, s., waschenko, j., & rudman, d. (2017). ageism and the older worker: a scoping review. the gerontologist. advanced online publication. doi:10.1093/geront/gnw194\nkim, y.-m. (2013). diverging top and converging bottom: labour flexibilization and changes in career mobility in the usa. work, employment & society, 27, 860-879.",
+      "order": 32
     },
     {
       "id": "chatbot-01239",
@@ -13627,9 +13627,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "지난 수십 년간 생애과정의 탈표준화와 층화에 대한 이론적·실증적 탐구는 크게 증가했다(Mayer, 2009). 상당한 진전이 있었지만, 노년기 노동력 패턴에 초점을 둔 연구는 통합적 모형을 충분히 제시하지 못했고, 상태 또는 전환 중 하나에만 초점을 맞추는 경향이 있으며, 사회적 층화를 자주 간과해 왔다. 상태와 전환은 모두 생애과정을 이해하는 데 핵심적이지만, 시퀀스 분석의 장점을 본격적으로 활용하는 일은 아직 초기 단계에 머물러 있다.\n\n우리는 시퀀스 분석 접근을 제안했고, 탈표준화의 여러 구성요소, 즉 비관습적 유형, 가역적 순서, 유연한 시점을 정의하고 함께 고려하는 은퇴 시퀀스의 개념모형을 제시했다. 또한 은퇴 시퀀스가 성별, 계급, 인종에 따라 층화된다는 점을 결코 간과해서는 안 된다는 증거를 발견했다. 우리가 아는 한, 이 논문은 미국 고령자의 전국대표 자료를 사용해 노년기 노동력 패턴에 대한 시퀀스 분석 접근을 적용한 첫 연구다. 이는 중요한 정책적·학술적 기여다. 왜냐하면 스냅샷 상태나 전환에만 초점을 둔 연구의 결과를 전체 시퀀스로 일반화하거나, 생애과정이 전개되는 방식의 이질성을 무시하거나, 다른 국가나 다른 연령집단의 결과를 그대로 일반화하는 데 따르는 위험에 대한 인식이 커지고 있기 때문이다.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 지난 수십 년간 생애과정의 탈표준화와 층화에 대한 이론적·실증적 탐구는 크게 증가했다(mayer, 2009). 상당한 진전이 있었지만, 노년기 노동력 패턴에 초점을 둔 연구는 통합적 모형을 충분히 제시하지 못했고, 상태 또는 전환 중 하나에만 초점을 맞추는 경향이 있으며, 사회적 층화를 자주 간과해 왔다. 상태와 전환은 모두 생애과정을 이해하는 데 핵심적이지만, 시퀀스 분석의 장점을 본격적으로 활용하는 일은 아직 초기 단계에 머물러 있다.\n\n우리는 시퀀스 분석 접근을 제안했고, 탈표준화의 여러 구성요소, 즉 비관습적 유형, 가역적 순서, 유연한 시점을 정의하고 함께 고려하는 은퇴 시퀀스의 개념모형을 제시했다. 또한 은퇴 시퀀스가 성별, 계급, 인종에 따라 층화된다는 점을 결코 간과해서는 안 된다는 증거를 발견했다. 우리가 아는 한, 이 논문은 미국 고령자의 전국대표 자료를 사용해 노년기 노동력 패턴에 대한 시퀀스 분석 접근을 적용한 첫 연구다. 이는 중요한 정책적·학술적 기여다. 왜냐하면 스냅샷 상태나 전환에만 초점을 둔 연구의 결과를 전체 시퀀스로 일반화하거나, 생애과정이 전개되는 방식의 이질성을 무시하거나, 다른 국가나 다른 연령집단의 결과를 그대로 일반화하는 데 따르는 위험에 대한 인식이 커지고 있기 때문이다.",
-      "order": 30
+      "text": "doi:10.1177/0950017012464418\nKohli, M. (2007). The institutionalization of the life course: Looking back to look ahead. Research in Human Development, 4, 253-271. doi:10.1080/15427600701663122\nLain, D. (2012). Working past 65 in the UK and the USA: Segregation into \"opaq\" occupations? Work, Employment & Society, 26, 78-94. doi:10.1177/0950017011426312\nLevy, R., & Widmer, E. (2013). Gendered life courses between individualization and standardization. Vienna, Austria: LIT Verlag.\nLoretto, W., & Vickerstaff, S. (2015). Gender, age and flexible working in later life. Work, Employment & Society, 29, 233-249. doi:10.1177/0950017014545267\nLynch, S. M., & Brown, J. S. (2011). Stratification and inequality over the life course. In R. H. Binstock & L. K. George (Eds.), Handbook of aging and the social sciences (7th ed., pp. 105-117). San Diego, CA: Elsevier.\nMacIndoe, H., & Abbott, A. (2004).",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 doi:10.1177/0950017012464418\nkohli, m. (2007). the institutionalization of the life course: looking back to look ahead. research in human development, 4, 253-271. doi:10.1080/15427600701663122\nlain, d. (2012). working past 65 in the uk and the usa: segregation into \"opaq\" occupations? work, employment & society, 26, 78-94. doi:10.1177/0950017011426312\nlevy, r., & widmer, e. (2013). gendered life courses between individualization and standardization. vienna, austria: lit verlag.\nloretto, w., & vickerstaff, s. (2015). gender, age and flexible working in later life. work, employment & society, 29, 233-249. doi:10.1177/0950017014545267\nlynch, s. m., & brown, j. s. (2011). stratification and inequality over the life course. in r. h. binstock & l. k. george (eds.), handbook of aging and the social sciences (7th ed., pp. 105-117). san diego, ca: elsevier.\nmacindoe, h., & abbott, a. (2004).",
+      "order": 33
     },
     {
       "id": "chatbot-01240",
@@ -13638,9 +13638,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "우리는 미국의 고령 인구 사이에 여러 유형의 은퇴 시퀀스가 존재한다고 결론지었다. 더 구체적으로 말하면, 1931-1941년 출생 코호트에서는 65세 전후 정규직에서 완전 은퇴로 이동하는 전통적 모형이 가장 흔한 유형이 아니었다. 그러나 동시에 이러한 은퇴 시퀀스는 일부 비가역성과 연령 규정성을 유지하고 있었기 때문에, 오직 중간 정도로만 탈표준화되어 있었다. 또한 강한 불평등이 특징인 나라에서 예상할 수 있듯이, 은퇴 시퀀스의 탈표준화는 성별, 계급, 인종에 따라 달라졌다.\n\n보충자료\n\n보충자료는 The Gerontologist 온라인판에서 확인할 수 있다.\n\n연구비 지원\n\n이 연구는 Columbia University President's Global Innovation Fund, CONICYT/FONDECYT/REGULAR/N1140107, CONICYT/FONDECYT/POSTDOCTORADO/N3160522, CONICYT/FONDAP/N15130009의 지원을 받았다.\n\n감사의 말\n\n저자들은 이 논문의 이전 버전에 대해 귀중한 의견을 준 Katherine B. Indvik와 익명의 심사자 두 명에게 감사한다. 다만 남아 있는 오류나 부정확성에 대한 책임은 전적으로 저자들에게 있다.\n\n참고문헌",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 우리는 미국의 고령 인구 사이에 여러 유형의 은퇴 시퀀스가 존재한다고 결론지었다. 더 구체적으로 말하면, 1931-1941년 출생 코호트에서는 65세 전후 정규직에서 완전 은퇴로 이동하는 전통적 모형이 가장 흔한 유형이 아니었다. 그러나 동시에 이러한 은퇴 시퀀스는 일부 비가역성과 연령 규정성을 유지하고 있었기 때문에, 오직 중간 정도로만 탈표준화되어 있었다. 또한 강한 불평등이 특징인 나라에서 예상할 수 있듯이, 은퇴 시퀀스의 탈표준화는 성별, 계급, 인종에 따라 달라졌다.\n\n보충자료\n\n보충자료는 the gerontologist 온라인판에서 확인할 수 있다.\n\n연구비 지원\n\n이 연구는 columbia university president's global innovation fund, conicyt/fondecyt/regular/n1140107, conicyt/fondecyt/postdoctorado/n3160522, conicyt/fondap/n15130009의 지원을 받았다.\n\n감사의 말\n\n저자들은 이 논문의 이전 버전에 대해 귀중한 의견을 준 katherine b. indvik와 익명의 심사자 두 명에게 감사한다. 다만 남아 있는 오류나 부정확성에 대한 책임은 전적으로 저자들에게 있다.\n\n참고문헌",
-      "order": 31
+      "text": "Sequence analysis and optimal matching techniques for social science data. In M. Hardy & A. Bryman (Eds.), Handbook of data analysis (pp. 387-406). London, UK: Sage.\nMadero-Cabib, I. (2015). The life course determinants of vulnerability in late careers. Longitudinal and Life Course Studies, 6, 88-106. doi:10.14301/llcs.v6i1.299\nMadero-Cabib, I., & Fasang, A. (2016). Gendered work-family life courses and financial well-being in retirement. Advances in Life Course Research, 27, 43-60. doi:10.1016/j.alcr.2015.11.003\nMadero-Cabib, I., Gauthier, J.-A., & Le Goff, J.-M. (2016). The influence of interlocked employment-family trajectories on retirement timing. Work, Aging and Retirement, 2, 38-53. doi:10.1093/workar/wav023\nMaestas, N. (2010). Back to work: Expectations and realizations of work after retirement. The Journal of Human Resources, 45, 718-748. doi:10.1353/jhr.2010.0011\nMayer, K.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 sequence analysis and optimal matching techniques for social science data. in m. hardy & a. bryman (eds.), handbook of data analysis (pp. 387-406). london, uk: sage.\nmadero-cabib, i. (2015). the life course determinants of vulnerability in late careers. longitudinal and life course studies, 6, 88-106. doi:10.14301/llcs.v6i1.299\nmadero-cabib, i., & fasang, a. (2016). gendered work-family life courses and financial well-being in retirement. advances in life course research, 27, 43-60. doi:10.1016/j.alcr.2015.11.003\nmadero-cabib, i., gauthier, j.-a., & le goff, j.-m. (2016). the influence of interlocked employment-family trajectories on retirement timing. work, aging and retirement, 2, 38-53. doi:10.1093/workar/wav023\nmaestas, n. (2010). back to work: expectations and realizations of work after retirement. the journal of human resources, 45, 718-748. doi:10.1353/jhr.2010.0011\nmayer, k.",
+      "order": 34
     },
     {
       "id": "chatbot-01241",
@@ -13649,9 +13649,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "Allison, P. (2002). Missing data. Thousand Oaks, CA: Sage.\nAzar, A., Madero-Cabib, I., Slachevsky, A., Staudinger, U., & Calvo, E. (2017). From snapshots to movies: The association between retirement sequences and aging trajectories in motor and cognitive functioning. Manuscript submitted for publication.\nCahill, K. E., Giandrea, M. D., & Quinn, J. F. (2015). Retirement patterns and the macroeconomy, 1992-2010: The prevalence and determinants of bridge jobs, phased retirement, and reentry among three recent cohorts of older Americans. The Gerontologist, 55, 384-403. doi:10.1093/geront/gnt146\nCalvo, E., Haverstick, K., & Sass, S. (2009). Gradual retirement, sense of control, and retirees' happiness. Research on Aging, 31, 112-135. doi:10.1177/0164027508324704\nCalvo, E., Sarkisian, N., & Tamborini, C. R. (2013). Causal effects of retirement timing on subjective physical and emotional",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 allison, p. (2002). missing data. thousand oaks, ca: sage.\nazar, a., madero-cabib, i., slachevsky, a., staudinger, u., & calvo, e. (2017). from snapshots to movies: the association between retirement sequences and aging trajectories in motor and cognitive functioning. manuscript submitted for publication.\ncahill, k. e., giandrea, m. d., & quinn, j. f. (2015). retirement patterns and the macroeconomy, 1992-2010: the prevalence and determinants of bridge jobs, phased retirement, and reentry among three recent cohorts of older americans. the gerontologist, 55, 384-403. doi:10.1093/geront/gnt146\ncalvo, e., haverstick, k., & sass, s. (2009). gradual retirement, sense of control, and retirees' happiness. research on aging, 31, 112-135. doi:10.1177/0164027508324704\ncalvo, e., sarkisian, n., & tamborini, c. r. (2013). causal effects of retirement timing on subjective physical and emotional",
-      "order": 32
+      "text": "(2009). New trends in life course research. Annual Review of Sociology, 35, 413-433. doi:10.1146/annurev.soc.34.040507.134619\nMcNamara, T. K., & Williamson, J. B. (2004). Race, gender, and the retirement decisions of people ages 60 to 80: Prospects for age integration in employment. International Journal of Aging & Human Development, 59, 255-286. doi:10.2190/GE24-03MX-U34P-AMNH\nR Core Team. (2014). R: A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing.\nSettersten, R. (2006). Age structuring and the rhythm of the life course. In J. Mortimer & M. Shanahan (Eds.), Handbook of the life course (pp. 81-98). New York: Springer.\nStaudinger, U. M., Finkelstein, R., Calvo, E., & Sivaramakrishnan, K. (2016). A global view on the effects of work on health in later life. The Gerontologist, 56(Suppl. 2), S281-S292.",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 (2009). new trends in life course research. annual review of sociology, 35, 413-433. doi:10.1146/annurev.soc.34.040507.134619\nmcnamara, t. k., & williamson, j. b. (2004). race, gender, and the retirement decisions of people ages 60 to 80: prospects for age integration in employment. international journal of aging & human development, 59, 255-286. doi:10.2190/ge24-03mx-u34p-amnh\nr core team. (2014). r: a language and environment for statistical computing. vienna, austria: r foundation for statistical computing.\nsettersten, r. (2006). age structuring and the rhythm of the life course. in j. mortimer & m. shanahan (eds.), handbook of the life course (pp. 81-98). new york: springer.\nstaudinger, u. m., finkelstein, r., calvo, e., & sivaramakrishnan, k. (2016). a global view on the effects of work on health in later life. the gerontologist, 56(suppl. 2), s281-s292.",
+      "order": 35
     },
     {
       "id": "chatbot-01242",
@@ -13660,9 +13660,9 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "health. The Journal of Gerontology, Series B: Psychological Sciences and Social Sciences, 68, 73-84. doi:10.1093/geronb/gbs097",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 health. the journal of gerontology, series b: psychological sciences and social sciences, 68, 73-84. doi:10.1093/geronb/gbs097",
-      "order": 33
+      "text": "doi:10.1093/geront/gnw032\nStuder, M., Ritschard, G., Gabadinho, A., & Muller, N. S. (2011). Discrepancy analysis of state sequences. Sociological Methods and Research, 40, 471-510. doi:10.1177/0049124111415372\nSzinovacz, M. (2013). A multilevel perspective for retirement research. In M. Wang (Ed.), The Oxford handbook of retirement (pp. 152-173). New York: Oxford University Press.\nSzinovacz, M. E., Martin, L., & Davey, A. (2014). Recession and expected retirement age: Another look at the evidence. The Gerontologist, 54, 245-257. doi:10.1093/geront/gnt010\nTang, F., & Burr, J. (2015). Revisiting the pathways to retirement: A latent structure model of the dynamics of transition from work to retirement. Ageing and Society, 35, 1739-1770. doi:10.1017/S0144686X14000634\nvan der Horst, M., Vickerstaff, S., Lain, D., Clark, C., & Geiger, B. (2016). Pathways of paid work, care provision, and",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 doi:10.1093/geront/gnw032\nstuder, m., ritschard, g., gabadinho, a., & muller, n. s. (2011). discrepancy analysis of state sequences. sociological methods and research, 40, 471-510. doi:10.1177/0049124111415372\nszinovacz, m. (2013). a multilevel perspective for retirement research. in m. wang (ed.), the oxford handbook of retirement (pp. 152-173). new york: oxford university press.\nszinovacz, m. e., martin, l., & davey, a. (2014). recession and expected retirement age: another look at the evidence. the gerontologist, 54, 245-257. doi:10.1093/geront/gnt010\ntang, f., & burr, j. (2015). revisiting the pathways to retirement: a latent structure model of the dynamics of transition from work to retirement. ageing and society, 35, 1739-1770. doi:10.1017/s0144686x14000634\nvan der horst, m., vickerstaff, s., lain, d., clark, c., & geiger, b. (2016). pathways of paid work, care provision, and",
+      "order": 36
     },
     {
       "id": "chatbot-01243",
@@ -13671,78 +13671,12 @@ window.AA_CHATBOT_CORPUS={
       "pageKey": "translation",
       "pageLabel": "번역본 읽기",
       "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "Chien, S., Campbell, N., Chan, C., Hayden, O., Hurd, M., Main, R., & St. Clair, P. (2015). RAND HRS data documentation version O. Santa Monica, CA: RAND.\nEllis, C., Munnell, A., & Eschtruth, A. (2014). Falling short: The coming retirement crisis and what to do about it. New York: Oxford University Press.\nElzinga, C. (2014). Distance, similarity and sequence comparison. In P. Blanchard, F. Buhlmann, & J.-A. Gauthier (Eds.), Advances in sequence analysis: Theory, method, applications (pp. 51-83). New York: Springer.\nFasang, A. (2010). Retirement: Institutional pathways and individual trajectories in Britain and Germany. Sociological Research Online, 15. doi:10.5153/sro.2110\nFasang, A. (2012). Retirement patterns and income inequality. Social Forces, 90, 685-711. doi:10.1093/sf/sor015\nFisher, G., Chaffee, D., & Sonnega, A. (2016). Retirement timing: A review and recommendations for future",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 chien, s., campbell, n., chan, c., hayden, o., hurd, m., main, r., & st. clair, p. (2015). rand hrs data documentation version o. santa monica, ca: rand.\nellis, c., munnell, a., & eschtruth, a. (2014). falling short: the coming retirement crisis and what to do about it. new york: oxford university press.\nelzinga, c. (2014). distance, similarity and sequence comparison. in p. blanchard, f. buhlmann, & j.-a. gauthier (eds.), advances in sequence analysis: theory, method, applications (pp. 51-83). new york: springer.\nfasang, a. (2010). retirement: institutional pathways and individual trajectories in britain and germany. sociological research online, 15. doi:10.5153/sro.2110\nfasang, a. (2012). retirement patterns and income inequality. social forces, 90, 685-711. doi:10.1093/sf/sor015\nfisher, g., chaffee, d., & sonnega, a. (2016). retirement timing: a review and recommendations for future",
-      "order": 34
-    },
-    {
-      "id": "chatbot-01244",
-      "slug": "calvo-et-al-2018",
-      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-      "pageKey": "translation",
-      "pageLabel": "번역본 읽기",
-      "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "research. Work, Aging and Retirement, 2, 230-261. doi:10.1093/workar/waw001\nGabadinho, A., Ritschard, G., Muller, N., & Studer, M. (2011). Analyzing and visualizing state sequences in R with TraMineR. Journal of Statistical Software, 40, 1-37. doi:10.18637/jss.v040.i04\nGiele, J., & Elder, G. (1998). Methods of life course research: Qualitative and quantitative approaches. Thousand Oaks, CA: Sage.\nHan, S.-K., & Moen, P. (1999). Clocking out: Temporal patterning of retirement. American Journal of Sociology, 105, 191-236. doi:10.1086/210271\nHarris, K., Krygsman, S., Waschenko, J., & Rudman, D. (2017). Ageism and the older worker: A scoping review. The Gerontologist. Advanced online publication. doi:10.1093/geront/gnw194\nKim, Y.-M. (2013). Diverging top and converging bottom: Labour flexibilization and changes in career mobility in the USA. Work, Employment & Society, 27, 860-879.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 research. work, aging and retirement, 2, 230-261. doi:10.1093/workar/waw001\ngabadinho, a., ritschard, g., muller, n., & studer, m. (2011). analyzing and visualizing state sequences in r with traminer. journal of statistical software, 40, 1-37. doi:10.18637/jss.v040.i04\ngiele, j., & elder, g. (1998). methods of life course research: qualitative and quantitative approaches. thousand oaks, ca: sage.\nhan, s.-k., & moen, p. (1999). clocking out: temporal patterning of retirement. american journal of sociology, 105, 191-236. doi:10.1086/210271\nharris, k., krygsman, s., waschenko, j., & rudman, d. (2017). ageism and the older worker: a scoping review. the gerontologist. advanced online publication. doi:10.1093/geront/gnw194\nkim, y.-m. (2013). diverging top and converging bottom: labour flexibilization and changes in career mobility in the usa. work, employment & society, 27, 860-879.",
-      "order": 35
-    },
-    {
-      "id": "chatbot-01245",
-      "slug": "calvo-et-al-2018",
-      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-      "pageKey": "translation",
-      "pageLabel": "번역본 읽기",
-      "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "doi:10.1177/0950017012464418\nKohli, M. (2007). The institutionalization of the life course: Looking back to look ahead. Research in Human Development, 4, 253-271. doi:10.1080/15427600701663122\nLain, D. (2012). Working past 65 in the UK and the USA: Segregation into \"opaq\" occupations? Work, Employment & Society, 26, 78-94. doi:10.1177/0950017011426312\nLevy, R., & Widmer, E. (2013). Gendered life courses between individualization and standardization. Vienna, Austria: LIT Verlag.\nLoretto, W., & Vickerstaff, S. (2015). Gender, age and flexible working in later life. Work, Employment & Society, 29, 233-249. doi:10.1177/0950017014545267\nLynch, S. M., & Brown, J. S. (2011). Stratification and inequality over the life course. In R. H. Binstock & L. K. George (Eds.), Handbook of aging and the social sciences (7th ed., pp. 105-117). San Diego, CA: Elsevier.\nMacIndoe, H., & Abbott, A. (2004).",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 doi:10.1177/0950017012464418\nkohli, m. (2007). the institutionalization of the life course: looking back to look ahead. research in human development, 4, 253-271. doi:10.1080/15427600701663122\nlain, d. (2012). working past 65 in the uk and the usa: segregation into \"opaq\" occupations? work, employment & society, 26, 78-94. doi:10.1177/0950017011426312\nlevy, r., & widmer, e. (2013). gendered life courses between individualization and standardization. vienna, austria: lit verlag.\nloretto, w., & vickerstaff, s. (2015). gender, age and flexible working in later life. work, employment & society, 29, 233-249. doi:10.1177/0950017014545267\nlynch, s. m., & brown, j. s. (2011). stratification and inequality over the life course. in r. h. binstock & l. k. george (eds.), handbook of aging and the social sciences (7th ed., pp. 105-117). san diego, ca: elsevier.\nmacindoe, h., & abbott, a. (2004).",
-      "order": 36
-    },
-    {
-      "id": "chatbot-01246",
-      "slug": "calvo-et-al-2018",
-      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-      "pageKey": "translation",
-      "pageLabel": "번역본 읽기",
-      "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "Sequence analysis and optimal matching techniques for social science data. In M. Hardy & A. Bryman (Eds.), Handbook of data analysis (pp. 387-406). London, UK: Sage.\nMadero-Cabib, I. (2015). The life course determinants of vulnerability in late careers. Longitudinal and Life Course Studies, 6, 88-106. doi:10.14301/llcs.v6i1.299\nMadero-Cabib, I., & Fasang, A. (2016). Gendered work-family life courses and financial well-being in retirement. Advances in Life Course Research, 27, 43-60. doi:10.1016/j.alcr.2015.11.003\nMadero-Cabib, I., Gauthier, J.-A., & Le Goff, J.-M. (2016). The influence of interlocked employment-family trajectories on retirement timing. Work, Aging and Retirement, 2, 38-53. doi:10.1093/workar/wav023\nMaestas, N. (2010). Back to work: Expectations and realizations of work after retirement. The Journal of Human Resources, 45, 718-748. doi:10.1353/jhr.2010.0011\nMayer, K.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 sequence analysis and optimal matching techniques for social science data. in m. hardy & a. bryman (eds.), handbook of data analysis (pp. 387-406). london, uk: sage.\nmadero-cabib, i. (2015). the life course determinants of vulnerability in late careers. longitudinal and life course studies, 6, 88-106. doi:10.14301/llcs.v6i1.299\nmadero-cabib, i., & fasang, a. (2016). gendered work-family life courses and financial well-being in retirement. advances in life course research, 27, 43-60. doi:10.1016/j.alcr.2015.11.003\nmadero-cabib, i., gauthier, j.-a., & le goff, j.-m. (2016). the influence of interlocked employment-family trajectories on retirement timing. work, aging and retirement, 2, 38-53. doi:10.1093/workar/wav023\nmaestas, n. (2010). back to work: expectations and realizations of work after retirement. the journal of human resources, 45, 718-748. doi:10.1353/jhr.2010.0011\nmayer, k.",
+      "text": "volunteering in later careers: Activity substitution or extension? Work, Aging and Retirement. Advanced online publication. doi:10.1093/workar/waw028\nWidmer, E., & Ritschard, G. (2009). The de-standardization of the life course: Are men and women equal? Advances in Life Course Research, 14, 28-39. doi:10.1016/j.alcr.2009.04.001",
+      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 volunteering in later careers: activity substitution or extension? work, aging and retirement. advanced online publication. doi:10.1093/workar/waw028\nwidmer, e., & ritschard, g. (2009). the de-standardization of the life course: are men and women equal? advances in life course research, 14, 28-39. doi:10.1016/j.alcr.2009.04.001",
       "order": 37
     },
     {
-      "id": "chatbot-01247",
-      "slug": "calvo-et-al-2018",
-      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-      "pageKey": "translation",
-      "pageLabel": "번역본 읽기",
-      "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "(2009). New trends in life course research. Annual Review of Sociology, 35, 413-433. doi:10.1146/annurev.soc.34.040507.134619\nMcNamara, T. K., & Williamson, J. B. (2004). Race, gender, and the retirement decisions of people ages 60 to 80: Prospects for age integration in employment. International Journal of Aging & Human Development, 59, 255-286. doi:10.2190/GE24-03MX-U34P-AMNH\nR Core Team. (2014). R: A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing.\nSettersten, R. (2006). Age structuring and the rhythm of the life course. In J. Mortimer & M. Shanahan (Eds.), Handbook of the life course (pp. 81-98). New York: Springer.\nStaudinger, U. M., Finkelstein, R., Calvo, E., & Sivaramakrishnan, K. (2016). A global view on the effects of work on health in later life. The Gerontologist, 56(Suppl. 2), S281-S292.",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 (2009). new trends in life course research. annual review of sociology, 35, 413-433. doi:10.1146/annurev.soc.34.040507.134619\nmcnamara, t. k., & williamson, j. b. (2004). race, gender, and the retirement decisions of people ages 60 to 80: prospects for age integration in employment. international journal of aging & human development, 59, 255-286. doi:10.2190/ge24-03mx-u34p-amnh\nr core team. (2014). r: a language and environment for statistical computing. vienna, austria: r foundation for statistical computing.\nsettersten, r. (2006). age structuring and the rhythm of the life course. in j. mortimer & m. shanahan (eds.), handbook of the life course (pp. 81-98). new york: springer.\nstaudinger, u. m., finkelstein, r., calvo, e., & sivaramakrishnan, k. (2016). a global view on the effects of work on health in later life. the gerontologist, 56(suppl. 2), s281-s292.",
-      "order": 38
-    },
-    {
-      "id": "chatbot-01248",
-      "slug": "calvo-et-al-2018",
-      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-      "pageKey": "translation",
-      "pageLabel": "번역본 읽기",
-      "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "doi:10.1093/geront/gnw032\nStuder, M., Ritschard, G., Gabadinho, A., & Muller, N. S. (2011). Discrepancy analysis of state sequences. Sociological Methods and Research, 40, 471-510. doi:10.1177/0049124111415372\nSzinovacz, M. (2013). A multilevel perspective for retirement research. In M. Wang (Ed.), The Oxford handbook of retirement (pp. 152-173). New York: Oxford University Press.\nSzinovacz, M. E., Martin, L., & Davey, A. (2014). Recession and expected retirement age: Another look at the evidence. The Gerontologist, 54, 245-257. doi:10.1093/geront/gnt010\nTang, F., & Burr, J. (2015). Revisiting the pathways to retirement: A latent structure model of the dynamics of transition from work to retirement. Ageing and Society, 35, 1739-1770. doi:10.1017/S0144686X14000634\nvan der Horst, M., Vickerstaff, S., Lain, D., Clark, C., & Geiger, B. (2016). Pathways of paid work, care provision, and",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 doi:10.1093/geront/gnw032\nstuder, m., ritschard, g., gabadinho, a., & muller, n. s. (2011). discrepancy analysis of state sequences. sociological methods and research, 40, 471-510. doi:10.1177/0049124111415372\nszinovacz, m. (2013). a multilevel perspective for retirement research. in m. wang (ed.), the oxford handbook of retirement (pp. 152-173). new york: oxford university press.\nszinovacz, m. e., martin, l., & davey, a. (2014). recession and expected retirement age: another look at the evidence. the gerontologist, 54, 245-257. doi:10.1093/geront/gnt010\ntang, f., & burr, j. (2015). revisiting the pathways to retirement: a latent structure model of the dynamics of transition from work to retirement. ageing and society, 35, 1739-1770. doi:10.1017/s0144686x14000634\nvan der horst, m., vickerstaff, s., lain, d., clark, c., & geiger, b. (2016). pathways of paid work, care provision, and",
-      "order": 39
-    },
-    {
-      "id": "chatbot-01249",
-      "slug": "calvo-et-al-2018",
-      "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
-      "pageKey": "translation",
-      "pageLabel": "번역본 읽기",
-      "href": "readings/calvo-et-al-2018/translation.html",
-      "text": "volunteering in later careers: Activity substitution or extension? Work, Aging and Retirement. Advanced online publication. doi:10.1093/workar/waw028\nWidmer, E., & Ritschard, G. (2009). The de-standardization of the life course: Are men and women equal? Advances in Life Course Research, 14, 28-39. doi:10.1016/j.alcr.2009.04.001",
-      "searchText": "retirement sequences of older americans: moderately destandardized and highly stratified across gender, class, and race 번역본 읽기 volunteering in later careers: activity substitution or extension? work, aging and retirement. advanced online publication. doi:10.1093/workar/waw028\nwidmer, e., & ritschard, g. (2009). the de-standardization of the life course: are men and women equal? advances in life course research, 14, 28-39. doi:10.1016/j.alcr.2009.04.001",
-      "order": 40
-    },
-    {
-      "id": "chatbot-01250",
+      "id": "chatbot-01244",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "concepts",
@@ -13753,7 +13687,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01251",
+      "id": "chatbot-01245",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "concepts",
@@ -13764,7 +13698,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01252",
+      "id": "chatbot-01246",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "concepts",
@@ -13775,7 +13709,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01253",
+      "id": "chatbot-01247",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "concepts",
@@ -13786,7 +13720,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01254",
+      "id": "chatbot-01248",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "concepts",
@@ -13797,7 +13731,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01255",
+      "id": "chatbot-01249",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "concepts",
@@ -13808,7 +13742,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01256",
+      "id": "chatbot-01250",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "pitfalls",
@@ -13819,7 +13753,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01257",
+      "id": "chatbot-01251",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "pitfalls",
@@ -13830,7 +13764,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01258",
+      "id": "chatbot-01252",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "pitfalls",
@@ -13841,7 +13775,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01259",
+      "id": "chatbot-01253",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "review-sheet",
@@ -13852,7 +13786,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01260",
+      "id": "chatbot-01254",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "review-sheet",
@@ -13863,7 +13797,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01261",
+      "id": "chatbot-01255",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "review-sheet",
@@ -13874,7 +13808,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01262",
+      "id": "chatbot-01256",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13885,7 +13819,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01263",
+      "id": "chatbot-01257",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13896,7 +13830,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01264",
+      "id": "chatbot-01258",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13907,7 +13841,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01265",
+      "id": "chatbot-01259",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13918,7 +13852,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01266",
+      "id": "chatbot-01260",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13929,7 +13863,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01267",
+      "id": "chatbot-01261",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13940,7 +13874,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01268",
+      "id": "chatbot-01262",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13951,7 +13885,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01269",
+      "id": "chatbot-01263",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13962,7 +13896,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01270",
+      "id": "chatbot-01264",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13973,7 +13907,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01271",
+      "id": "chatbot-01265",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13984,7 +13918,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01272",
+      "id": "chatbot-01266",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -13995,7 +13929,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01273",
+      "id": "chatbot-01267",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -14006,7 +13940,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01274",
+      "id": "chatbot-01268",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -14017,7 +13951,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01275",
+      "id": "chatbot-01269",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -14028,7 +13962,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01276",
+      "id": "chatbot-01270",
       "slug": "calvo-et-al-2018",
       "readingTitle": "Retirement Sequences of Older Americans: Moderately Destandardized and Highly Stratified Across Gender, Class, and Race",
       "pageKey": "professor-prep",
@@ -14039,7 +13973,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01277",
+      "id": "chatbot-01271",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "overview",
@@ -14050,7 +13984,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01278",
+      "id": "chatbot-01272",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "summary",
@@ -14061,7 +13995,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01279",
+      "id": "chatbot-01273",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "summary",
@@ -14072,7 +14006,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01280",
+      "id": "chatbot-01274",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "summary",
@@ -14083,7 +14017,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01281",
+      "id": "chatbot-01275",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14094,7 +14028,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01282",
+      "id": "chatbot-01276",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14105,7 +14039,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01283",
+      "id": "chatbot-01277",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14116,7 +14050,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01284",
+      "id": "chatbot-01278",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14127,7 +14061,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01285",
+      "id": "chatbot-01279",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14138,7 +14072,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01286",
+      "id": "chatbot-01280",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14149,7 +14083,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01287",
+      "id": "chatbot-01281",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14160,7 +14094,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01288",
+      "id": "chatbot-01282",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14171,7 +14105,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01289",
+      "id": "chatbot-01283",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14182,7 +14116,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01290",
+      "id": "chatbot-01284",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14193,7 +14127,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01291",
+      "id": "chatbot-01285",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14204,7 +14138,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01292",
+      "id": "chatbot-01286",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14215,7 +14149,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01293",
+      "id": "chatbot-01287",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14226,7 +14160,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01294",
+      "id": "chatbot-01288",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14237,7 +14171,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01295",
+      "id": "chatbot-01289",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14248,7 +14182,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01296",
+      "id": "chatbot-01290",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14259,7 +14193,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01297",
+      "id": "chatbot-01291",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14270,7 +14204,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01298",
+      "id": "chatbot-01292",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14281,7 +14215,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01299",
+      "id": "chatbot-01293",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14292,7 +14226,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01300",
+      "id": "chatbot-01294",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14303,7 +14237,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01301",
+      "id": "chatbot-01295",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14314,7 +14248,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01302",
+      "id": "chatbot-01296",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14325,7 +14259,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01303",
+      "id": "chatbot-01297",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14336,7 +14270,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01304",
+      "id": "chatbot-01298",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14347,7 +14281,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01305",
+      "id": "chatbot-01299",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14358,7 +14292,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01306",
+      "id": "chatbot-01300",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14369,7 +14303,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01307",
+      "id": "chatbot-01301",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14380,7 +14314,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01308",
+      "id": "chatbot-01302",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14391,7 +14325,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01309",
+      "id": "chatbot-01303",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14402,7 +14336,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01310",
+      "id": "chatbot-01304",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14413,7 +14347,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01311",
+      "id": "chatbot-01305",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14424,7 +14358,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-01312",
+      "id": "chatbot-01306",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14435,7 +14369,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-01313",
+      "id": "chatbot-01307",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14446,7 +14380,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-01314",
+      "id": "chatbot-01308",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14457,7 +14391,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-01315",
+      "id": "chatbot-01309",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14468,7 +14402,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-01316",
+      "id": "chatbot-01310",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14479,7 +14413,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-01317",
+      "id": "chatbot-01311",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14490,7 +14424,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-01318",
+      "id": "chatbot-01312",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14501,7 +14435,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-01319",
+      "id": "chatbot-01313",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14512,7 +14446,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-01320",
+      "id": "chatbot-01314",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14523,7 +14457,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-01321",
+      "id": "chatbot-01315",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14534,7 +14468,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-01322",
+      "id": "chatbot-01316",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14545,7 +14479,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-01323",
+      "id": "chatbot-01317",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14556,7 +14490,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-01324",
+      "id": "chatbot-01318",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14567,7 +14501,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-01325",
+      "id": "chatbot-01319",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14578,7 +14512,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-01326",
+      "id": "chatbot-01320",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14589,7 +14523,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-01327",
+      "id": "chatbot-01321",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14600,7 +14534,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-01328",
+      "id": "chatbot-01322",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14611,7 +14545,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-01329",
+      "id": "chatbot-01323",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14622,7 +14556,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-01330",
+      "id": "chatbot-01324",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14633,7 +14567,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-01331",
+      "id": "chatbot-01325",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14644,7 +14578,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-01332",
+      "id": "chatbot-01326",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14655,7 +14589,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-01333",
+      "id": "chatbot-01327",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14666,7 +14600,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-01334",
+      "id": "chatbot-01328",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14677,7 +14611,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-01335",
+      "id": "chatbot-01329",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14688,7 +14622,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-01336",
+      "id": "chatbot-01330",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14699,7 +14633,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-01337",
+      "id": "chatbot-01331",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14710,7 +14644,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-01338",
+      "id": "chatbot-01332",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14721,7 +14655,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-01339",
+      "id": "chatbot-01333",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14732,7 +14666,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-01340",
+      "id": "chatbot-01334",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14743,7 +14677,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-01341",
+      "id": "chatbot-01335",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14754,7 +14688,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-01342",
+      "id": "chatbot-01336",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14765,7 +14699,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-01343",
+      "id": "chatbot-01337",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14776,7 +14710,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-01344",
+      "id": "chatbot-01338",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14787,7 +14721,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-01345",
+      "id": "chatbot-01339",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14798,7 +14732,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-01346",
+      "id": "chatbot-01340",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14809,7 +14743,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-01347",
+      "id": "chatbot-01341",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14820,7 +14754,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-01348",
+      "id": "chatbot-01342",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "full",
@@ -14831,7 +14765,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-01349",
+      "id": "chatbot-01343",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14842,7 +14776,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01350",
+      "id": "chatbot-01344",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14853,7 +14787,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01351",
+      "id": "chatbot-01345",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14864,7 +14798,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01352",
+      "id": "chatbot-01346",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14875,7 +14809,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01353",
+      "id": "chatbot-01347",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14886,7 +14820,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01354",
+      "id": "chatbot-01348",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14897,7 +14831,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01355",
+      "id": "chatbot-01349",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14908,7 +14842,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01356",
+      "id": "chatbot-01350",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14919,7 +14853,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01357",
+      "id": "chatbot-01351",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14930,7 +14864,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01358",
+      "id": "chatbot-01352",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14941,7 +14875,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01359",
+      "id": "chatbot-01353",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14952,7 +14886,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01360",
+      "id": "chatbot-01354",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14963,7 +14897,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01361",
+      "id": "chatbot-01355",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14974,7 +14908,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01362",
+      "id": "chatbot-01356",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14985,7 +14919,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01363",
+      "id": "chatbot-01357",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -14996,7 +14930,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01364",
+      "id": "chatbot-01358",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15007,7 +14941,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01365",
+      "id": "chatbot-01359",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15018,7 +14952,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01366",
+      "id": "chatbot-01360",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15029,7 +14963,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01367",
+      "id": "chatbot-01361",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15040,7 +14974,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01368",
+      "id": "chatbot-01362",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15051,7 +14985,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01369",
+      "id": "chatbot-01363",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15062,7 +14996,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01370",
+      "id": "chatbot-01364",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15073,7 +15007,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01371",
+      "id": "chatbot-01365",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15084,7 +15018,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01372",
+      "id": "chatbot-01366",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15095,7 +15029,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01373",
+      "id": "chatbot-01367",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15106,7 +15040,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01374",
+      "id": "chatbot-01368",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15117,7 +15051,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01375",
+      "id": "chatbot-01369",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15128,7 +15062,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01376",
+      "id": "chatbot-01370",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15139,7 +15073,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01377",
+      "id": "chatbot-01371",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15150,7 +15084,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01378",
+      "id": "chatbot-01372",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "translation",
@@ -15161,7 +15095,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01379",
+      "id": "chatbot-01373",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "concepts",
@@ -15172,7 +15106,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01380",
+      "id": "chatbot-01374",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "concepts",
@@ -15183,7 +15117,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01381",
+      "id": "chatbot-01375",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "concepts",
@@ -15194,7 +15128,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01382",
+      "id": "chatbot-01376",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "concepts",
@@ -15205,7 +15139,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01383",
+      "id": "chatbot-01377",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "concepts",
@@ -15216,7 +15150,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01384",
+      "id": "chatbot-01378",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "concepts",
@@ -15227,7 +15161,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01385",
+      "id": "chatbot-01379",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "concepts",
@@ -15238,7 +15172,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01386",
+      "id": "chatbot-01380",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "concepts",
@@ -15249,7 +15183,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01387",
+      "id": "chatbot-01381",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "pitfalls",
@@ -15260,7 +15194,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01388",
+      "id": "chatbot-01382",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "pitfalls",
@@ -15271,7 +15205,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01389",
+      "id": "chatbot-01383",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "review-sheet",
@@ -15282,7 +15216,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01390",
+      "id": "chatbot-01384",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "review-sheet",
@@ -15293,7 +15227,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01391",
+      "id": "chatbot-01385",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "review-sheet",
@@ -15304,7 +15238,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01392",
+      "id": "chatbot-01386",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15315,7 +15249,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01393",
+      "id": "chatbot-01387",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15326,7 +15260,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01394",
+      "id": "chatbot-01388",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15337,7 +15271,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01395",
+      "id": "chatbot-01389",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15348,7 +15282,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01396",
+      "id": "chatbot-01390",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15359,7 +15293,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01397",
+      "id": "chatbot-01391",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15370,7 +15304,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01398",
+      "id": "chatbot-01392",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15381,7 +15315,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01399",
+      "id": "chatbot-01393",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15392,7 +15326,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01400",
+      "id": "chatbot-01394",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15403,7 +15337,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01401",
+      "id": "chatbot-01395",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15414,7 +15348,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01402",
+      "id": "chatbot-01396",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15425,7 +15359,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01403",
+      "id": "chatbot-01397",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15436,7 +15370,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01404",
+      "id": "chatbot-01398",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15447,7 +15381,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01405",
+      "id": "chatbot-01399",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15458,7 +15392,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01406",
+      "id": "chatbot-01400",
       "slug": "carr-fang-2021",
       "readingTitle": "“We Are Good Neighbors, But We Are Not Carers!”: Lived Experiences of Conflicting (In)dependence Needs in Retirement Villages Across the United Kingdom and Australia",
       "pageKey": "professor-prep",
@@ -15469,7 +15403,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01407",
+      "id": "chatbot-01401",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "overview",
@@ -15480,7 +15414,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01408",
+      "id": "chatbot-01402",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "summary",
@@ -15491,7 +15425,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01409",
+      "id": "chatbot-01403",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "summary",
@@ -15502,7 +15436,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01410",
+      "id": "chatbot-01404",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "summary",
@@ -15513,7 +15447,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01411",
+      "id": "chatbot-01405",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "summary",
@@ -15524,7 +15458,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01412",
+      "id": "chatbot-01406",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15535,7 +15469,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01413",
+      "id": "chatbot-01407",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15546,7 +15480,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01414",
+      "id": "chatbot-01408",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15557,7 +15491,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01415",
+      "id": "chatbot-01409",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15568,7 +15502,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01416",
+      "id": "chatbot-01410",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15579,7 +15513,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01417",
+      "id": "chatbot-01411",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15590,7 +15524,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01418",
+      "id": "chatbot-01412",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15601,7 +15535,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01419",
+      "id": "chatbot-01413",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15612,7 +15546,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01420",
+      "id": "chatbot-01414",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15623,7 +15557,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01421",
+      "id": "chatbot-01415",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15634,7 +15568,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01422",
+      "id": "chatbot-01416",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15645,7 +15579,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01423",
+      "id": "chatbot-01417",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15656,7 +15590,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01424",
+      "id": "chatbot-01418",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15667,7 +15601,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01425",
+      "id": "chatbot-01419",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15678,7 +15612,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01426",
+      "id": "chatbot-01420",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15689,7 +15623,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01427",
+      "id": "chatbot-01421",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15700,7 +15634,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01428",
+      "id": "chatbot-01422",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15711,7 +15645,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01429",
+      "id": "chatbot-01423",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15722,7 +15656,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01430",
+      "id": "chatbot-01424",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15733,7 +15667,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01431",
+      "id": "chatbot-01425",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15744,7 +15678,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01432",
+      "id": "chatbot-01426",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15755,7 +15689,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01433",
+      "id": "chatbot-01427",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15766,7 +15700,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01434",
+      "id": "chatbot-01428",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15777,7 +15711,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01435",
+      "id": "chatbot-01429",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15788,7 +15722,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01436",
+      "id": "chatbot-01430",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15799,7 +15733,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01437",
+      "id": "chatbot-01431",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15810,7 +15744,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01438",
+      "id": "chatbot-01432",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15821,7 +15755,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01439",
+      "id": "chatbot-01433",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15832,7 +15766,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01440",
+      "id": "chatbot-01434",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15843,7 +15777,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01441",
+      "id": "chatbot-01435",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15854,7 +15788,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01442",
+      "id": "chatbot-01436",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15865,7 +15799,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-01443",
+      "id": "chatbot-01437",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15876,7 +15810,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-01444",
+      "id": "chatbot-01438",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15887,7 +15821,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-01445",
+      "id": "chatbot-01439",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15898,7 +15832,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-01446",
+      "id": "chatbot-01440",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15909,7 +15843,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-01447",
+      "id": "chatbot-01441",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15920,7 +15854,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-01448",
+      "id": "chatbot-01442",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15931,7 +15865,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-01449",
+      "id": "chatbot-01443",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15942,7 +15876,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-01450",
+      "id": "chatbot-01444",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15953,7 +15887,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-01451",
+      "id": "chatbot-01445",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15964,7 +15898,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-01452",
+      "id": "chatbot-01446",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15975,7 +15909,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-01453",
+      "id": "chatbot-01447",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15986,7 +15920,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-01454",
+      "id": "chatbot-01448",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -15997,7 +15931,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-01455",
+      "id": "chatbot-01449",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16008,7 +15942,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-01456",
+      "id": "chatbot-01450",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16019,7 +15953,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-01457",
+      "id": "chatbot-01451",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16030,7 +15964,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-01458",
+      "id": "chatbot-01452",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16041,7 +15975,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-01459",
+      "id": "chatbot-01453",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16052,7 +15986,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-01460",
+      "id": "chatbot-01454",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16063,7 +15997,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-01461",
+      "id": "chatbot-01455",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16074,7 +16008,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-01462",
+      "id": "chatbot-01456",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16085,7 +16019,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-01463",
+      "id": "chatbot-01457",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16096,7 +16030,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-01464",
+      "id": "chatbot-01458",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16107,7 +16041,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-01465",
+      "id": "chatbot-01459",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16118,7 +16052,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-01466",
+      "id": "chatbot-01460",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16129,7 +16063,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-01467",
+      "id": "chatbot-01461",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16140,7 +16074,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-01468",
+      "id": "chatbot-01462",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16151,7 +16085,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-01469",
+      "id": "chatbot-01463",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16162,7 +16096,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-01470",
+      "id": "chatbot-01464",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16173,7 +16107,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-01471",
+      "id": "chatbot-01465",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16184,7 +16118,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-01472",
+      "id": "chatbot-01466",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16195,7 +16129,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-01473",
+      "id": "chatbot-01467",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16206,7 +16140,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-01474",
+      "id": "chatbot-01468",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16217,7 +16151,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-01475",
+      "id": "chatbot-01469",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16228,7 +16162,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-01476",
+      "id": "chatbot-01470",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16239,7 +16173,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-01477",
+      "id": "chatbot-01471",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16250,7 +16184,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-01478",
+      "id": "chatbot-01472",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16261,7 +16195,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-01479",
+      "id": "chatbot-01473",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16272,7 +16206,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-01480",
+      "id": "chatbot-01474",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16283,7 +16217,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 69
     },
     {
-      "id": "chatbot-01481",
+      "id": "chatbot-01475",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16294,7 +16228,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 70
     },
     {
-      "id": "chatbot-01482",
+      "id": "chatbot-01476",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16305,7 +16239,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 71
     },
     {
-      "id": "chatbot-01483",
+      "id": "chatbot-01477",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16316,7 +16250,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 72
     },
     {
-      "id": "chatbot-01484",
+      "id": "chatbot-01478",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16327,7 +16261,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 73
     },
     {
-      "id": "chatbot-01485",
+      "id": "chatbot-01479",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16338,7 +16272,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 74
     },
     {
-      "id": "chatbot-01486",
+      "id": "chatbot-01480",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16349,7 +16283,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 75
     },
     {
-      "id": "chatbot-01487",
+      "id": "chatbot-01481",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16360,7 +16294,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 76
     },
     {
-      "id": "chatbot-01488",
+      "id": "chatbot-01482",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16371,7 +16305,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 77
     },
     {
-      "id": "chatbot-01489",
+      "id": "chatbot-01483",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16382,7 +16316,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 78
     },
     {
-      "id": "chatbot-01490",
+      "id": "chatbot-01484",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16393,7 +16327,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 79
     },
     {
-      "id": "chatbot-01491",
+      "id": "chatbot-01485",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16404,7 +16338,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 80
     },
     {
-      "id": "chatbot-01492",
+      "id": "chatbot-01486",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16415,7 +16349,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 81
     },
     {
-      "id": "chatbot-01493",
+      "id": "chatbot-01487",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16426,7 +16360,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 82
     },
     {
-      "id": "chatbot-01494",
+      "id": "chatbot-01488",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16437,7 +16371,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 83
     },
     {
-      "id": "chatbot-01495",
+      "id": "chatbot-01489",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16448,7 +16382,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 84
     },
     {
-      "id": "chatbot-01496",
+      "id": "chatbot-01490",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16459,7 +16393,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 85
     },
     {
-      "id": "chatbot-01497",
+      "id": "chatbot-01491",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16470,7 +16404,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 86
     },
     {
-      "id": "chatbot-01498",
+      "id": "chatbot-01492",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "full",
@@ -16481,7 +16415,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 87
     },
     {
-      "id": "chatbot-01499",
+      "id": "chatbot-01493",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16492,7 +16426,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01500",
+      "id": "chatbot-01494",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16503,7 +16437,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01501",
+      "id": "chatbot-01495",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16514,7 +16448,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01502",
+      "id": "chatbot-01496",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16525,7 +16459,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01503",
+      "id": "chatbot-01497",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16536,7 +16470,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01504",
+      "id": "chatbot-01498",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16547,7 +16481,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01505",
+      "id": "chatbot-01499",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16558,7 +16492,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01506",
+      "id": "chatbot-01500",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16569,7 +16503,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01507",
+      "id": "chatbot-01501",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16580,7 +16514,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01508",
+      "id": "chatbot-01502",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16591,7 +16525,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01509",
+      "id": "chatbot-01503",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16602,7 +16536,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01510",
+      "id": "chatbot-01504",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16613,7 +16547,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01511",
+      "id": "chatbot-01505",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16624,7 +16558,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01512",
+      "id": "chatbot-01506",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16635,7 +16569,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01513",
+      "id": "chatbot-01507",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16646,7 +16580,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01514",
+      "id": "chatbot-01508",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16657,7 +16591,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01515",
+      "id": "chatbot-01509",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16668,7 +16602,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01516",
+      "id": "chatbot-01510",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16679,7 +16613,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01517",
+      "id": "chatbot-01511",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16690,7 +16624,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01518",
+      "id": "chatbot-01512",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16701,7 +16635,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01519",
+      "id": "chatbot-01513",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16712,7 +16646,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01520",
+      "id": "chatbot-01514",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16723,7 +16657,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01521",
+      "id": "chatbot-01515",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16734,7 +16668,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01522",
+      "id": "chatbot-01516",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16745,7 +16679,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01523",
+      "id": "chatbot-01517",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16756,7 +16690,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01524",
+      "id": "chatbot-01518",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16767,7 +16701,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01525",
+      "id": "chatbot-01519",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16778,7 +16712,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01526",
+      "id": "chatbot-01520",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16789,7 +16723,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01527",
+      "id": "chatbot-01521",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16800,7 +16734,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01528",
+      "id": "chatbot-01522",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16811,7 +16745,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01529",
+      "id": "chatbot-01523",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16822,7 +16756,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-01530",
+      "id": "chatbot-01524",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16833,7 +16767,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-01531",
+      "id": "chatbot-01525",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16844,7 +16778,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-01532",
+      "id": "chatbot-01526",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16855,7 +16789,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-01533",
+      "id": "chatbot-01527",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16866,7 +16800,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-01534",
+      "id": "chatbot-01528",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16877,7 +16811,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-01535",
+      "id": "chatbot-01529",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16888,7 +16822,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-01536",
+      "id": "chatbot-01530",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16899,7 +16833,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-01537",
+      "id": "chatbot-01531",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16910,7 +16844,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-01538",
+      "id": "chatbot-01532",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16921,7 +16855,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-01539",
+      "id": "chatbot-01533",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16932,7 +16866,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-01540",
+      "id": "chatbot-01534",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16943,7 +16877,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-01541",
+      "id": "chatbot-01535",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16954,7 +16888,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-01542",
+      "id": "chatbot-01536",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16965,7 +16899,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-01543",
+      "id": "chatbot-01537",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "translation",
@@ -16976,7 +16910,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-01544",
+      "id": "chatbot-01538",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -16987,7 +16921,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01545",
+      "id": "chatbot-01539",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -16998,7 +16932,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01546",
+      "id": "chatbot-01540",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -17009,7 +16943,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01547",
+      "id": "chatbot-01541",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -17020,7 +16954,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01548",
+      "id": "chatbot-01542",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "concepts",
@@ -17031,7 +16965,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01549",
+      "id": "chatbot-01543",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "pitfalls",
@@ -17042,7 +16976,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01550",
+      "id": "chatbot-01544",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "pitfalls",
@@ -17053,7 +16987,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01551",
+      "id": "chatbot-01545",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "pitfalls",
@@ -17064,7 +16998,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01552",
+      "id": "chatbot-01546",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "pitfalls",
@@ -17075,7 +17009,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01553",
+      "id": "chatbot-01547",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "review-sheet",
@@ -17086,7 +17020,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01554",
+      "id": "chatbot-01548",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "review-sheet",
@@ -17097,7 +17031,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01555",
+      "id": "chatbot-01549",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17108,7 +17042,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01556",
+      "id": "chatbot-01550",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17119,7 +17053,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01557",
+      "id": "chatbot-01551",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17130,7 +17064,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01558",
+      "id": "chatbot-01552",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17141,7 +17075,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01559",
+      "id": "chatbot-01553",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17152,7 +17086,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01560",
+      "id": "chatbot-01554",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17163,7 +17097,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01561",
+      "id": "chatbot-01555",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17174,7 +17108,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01562",
+      "id": "chatbot-01556",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17185,7 +17119,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01563",
+      "id": "chatbot-01557",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17196,7 +17130,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01564",
+      "id": "chatbot-01558",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17207,7 +17141,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01565",
+      "id": "chatbot-01559",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17218,7 +17152,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01566",
+      "id": "chatbot-01560",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17229,7 +17163,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01567",
+      "id": "chatbot-01561",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17240,7 +17174,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01568",
+      "id": "chatbot-01562",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17251,7 +17185,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01569",
+      "id": "chatbot-01563",
       "slug": "hulur-et-al-2019",
       "readingTitle": "Cohort Differences in Cognitive Aging: The Role of Perceived Work Environment",
       "pageKey": "professor-prep",
@@ -17262,7 +17196,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01570",
+      "id": "chatbot-01564",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "overview",
@@ -17273,7 +17207,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01571",
+      "id": "chatbot-01565",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "summary",
@@ -17284,7 +17218,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01572",
+      "id": "chatbot-01566",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "summary",
@@ -17295,7 +17229,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01573",
+      "id": "chatbot-01567",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17306,7 +17240,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01574",
+      "id": "chatbot-01568",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17317,7 +17251,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01575",
+      "id": "chatbot-01569",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17328,7 +17262,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01576",
+      "id": "chatbot-01570",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17339,7 +17273,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01577",
+      "id": "chatbot-01571",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17350,7 +17284,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01578",
+      "id": "chatbot-01572",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17361,7 +17295,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01579",
+      "id": "chatbot-01573",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17372,7 +17306,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01580",
+      "id": "chatbot-01574",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17383,7 +17317,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01581",
+      "id": "chatbot-01575",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17394,7 +17328,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01582",
+      "id": "chatbot-01576",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17405,7 +17339,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01583",
+      "id": "chatbot-01577",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17416,7 +17350,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01584",
+      "id": "chatbot-01578",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17427,7 +17361,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01585",
+      "id": "chatbot-01579",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17438,7 +17372,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01586",
+      "id": "chatbot-01580",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17449,7 +17383,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01587",
+      "id": "chatbot-01581",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17460,7 +17394,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01588",
+      "id": "chatbot-01582",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "full",
@@ -17471,7 +17405,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01589",
+      "id": "chatbot-01583",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -17482,7 +17416,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01590",
+      "id": "chatbot-01584",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -17493,7 +17427,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01591",
+      "id": "chatbot-01585",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -17504,7 +17438,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01592",
+      "id": "chatbot-01586",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -17515,7 +17449,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01593",
+      "id": "chatbot-01587",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -17526,7 +17460,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01594",
+      "id": "chatbot-01588",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -17537,7 +17471,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01595",
+      "id": "chatbot-01589",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "translation",
@@ -17548,7 +17482,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01596",
+      "id": "chatbot-01590",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -17559,7 +17493,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01597",
+      "id": "chatbot-01591",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -17570,7 +17504,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01598",
+      "id": "chatbot-01592",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -17581,7 +17515,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01599",
+      "id": "chatbot-01593",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -17592,7 +17526,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01600",
+      "id": "chatbot-01594",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -17603,7 +17537,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01601",
+      "id": "chatbot-01595",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "concepts",
@@ -17614,7 +17548,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01602",
+      "id": "chatbot-01596",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "pitfalls",
@@ -17625,7 +17559,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01603",
+      "id": "chatbot-01597",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "pitfalls",
@@ -17636,7 +17570,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01604",
+      "id": "chatbot-01598",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "review-sheet",
@@ -17647,7 +17581,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01605",
+      "id": "chatbot-01599",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17658,7 +17592,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01606",
+      "id": "chatbot-01600",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17669,7 +17603,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01607",
+      "id": "chatbot-01601",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17680,7 +17614,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01608",
+      "id": "chatbot-01602",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17691,7 +17625,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01609",
+      "id": "chatbot-01603",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17702,7 +17636,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01610",
+      "id": "chatbot-01604",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17713,7 +17647,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01611",
+      "id": "chatbot-01605",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17724,7 +17658,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01612",
+      "id": "chatbot-01606",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17735,7 +17669,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01613",
+      "id": "chatbot-01607",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17746,7 +17680,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01614",
+      "id": "chatbot-01608",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17757,7 +17691,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01615",
+      "id": "chatbot-01609",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17768,7 +17702,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01616",
+      "id": "chatbot-01610",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17779,7 +17713,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01617",
+      "id": "chatbot-01611",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17790,7 +17724,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01618",
+      "id": "chatbot-01612",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17801,7 +17735,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01619",
+      "id": "chatbot-01613",
       "slug": "kerrigan-2018",
       "readingTitle": "12 Innovations That Could Make Reverse Aging a Reality",
       "pageKey": "professor-prep",
@@ -17812,7 +17746,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01620",
+      "id": "chatbot-01614",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "overview",
@@ -17823,7 +17757,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01621",
+      "id": "chatbot-01615",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "summary",
@@ -17834,7 +17768,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01622",
+      "id": "chatbot-01616",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "summary",
@@ -17845,7 +17779,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01623",
+      "id": "chatbot-01617",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17856,7 +17790,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01624",
+      "id": "chatbot-01618",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17867,7 +17801,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01625",
+      "id": "chatbot-01619",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17878,7 +17812,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01626",
+      "id": "chatbot-01620",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17889,7 +17823,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01627",
+      "id": "chatbot-01621",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17900,7 +17834,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01628",
+      "id": "chatbot-01622",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17911,7 +17845,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01629",
+      "id": "chatbot-01623",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17922,7 +17856,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01630",
+      "id": "chatbot-01624",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17933,7 +17867,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01631",
+      "id": "chatbot-01625",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17944,7 +17878,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01632",
+      "id": "chatbot-01626",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17955,7 +17889,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01633",
+      "id": "chatbot-01627",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17966,7 +17900,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01634",
+      "id": "chatbot-01628",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17977,7 +17911,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01635",
+      "id": "chatbot-01629",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17988,7 +17922,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01636",
+      "id": "chatbot-01630",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -17999,7 +17933,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01637",
+      "id": "chatbot-01631",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18010,7 +17944,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01638",
+      "id": "chatbot-01632",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18021,7 +17955,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01639",
+      "id": "chatbot-01633",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18032,7 +17966,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01640",
+      "id": "chatbot-01634",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18043,7 +17977,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01641",
+      "id": "chatbot-01635",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18054,7 +17988,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01642",
+      "id": "chatbot-01636",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18065,7 +17999,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01643",
+      "id": "chatbot-01637",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18076,7 +18010,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01644",
+      "id": "chatbot-01638",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18087,7 +18021,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01645",
+      "id": "chatbot-01639",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18098,7 +18032,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01646",
+      "id": "chatbot-01640",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18109,7 +18043,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01647",
+      "id": "chatbot-01641",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18120,7 +18054,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01648",
+      "id": "chatbot-01642",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18131,7 +18065,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01649",
+      "id": "chatbot-01643",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18142,7 +18076,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01650",
+      "id": "chatbot-01644",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18153,7 +18087,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01651",
+      "id": "chatbot-01645",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18164,7 +18098,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01652",
+      "id": "chatbot-01646",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18175,7 +18109,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01653",
+      "id": "chatbot-01647",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18186,7 +18120,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-01654",
+      "id": "chatbot-01648",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18197,7 +18131,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-01655",
+      "id": "chatbot-01649",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18208,7 +18142,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-01656",
+      "id": "chatbot-01650",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18219,7 +18153,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-01657",
+      "id": "chatbot-01651",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18230,7 +18164,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-01658",
+      "id": "chatbot-01652",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18241,7 +18175,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-01659",
+      "id": "chatbot-01653",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18252,7 +18186,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-01660",
+      "id": "chatbot-01654",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18263,7 +18197,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-01661",
+      "id": "chatbot-01655",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18274,7 +18208,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-01662",
+      "id": "chatbot-01656",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18285,7 +18219,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-01663",
+      "id": "chatbot-01657",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18296,7 +18230,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-01664",
+      "id": "chatbot-01658",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18307,7 +18241,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-01665",
+      "id": "chatbot-01659",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18318,7 +18252,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-01666",
+      "id": "chatbot-01660",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18329,7 +18263,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-01667",
+      "id": "chatbot-01661",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18340,7 +18274,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-01668",
+      "id": "chatbot-01662",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18351,7 +18285,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-01669",
+      "id": "chatbot-01663",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18362,7 +18296,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-01670",
+      "id": "chatbot-01664",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18373,7 +18307,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-01671",
+      "id": "chatbot-01665",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18384,7 +18318,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-01672",
+      "id": "chatbot-01666",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18395,7 +18329,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-01673",
+      "id": "chatbot-01667",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18406,7 +18340,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-01674",
+      "id": "chatbot-01668",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18417,7 +18351,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-01675",
+      "id": "chatbot-01669",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18428,7 +18362,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-01676",
+      "id": "chatbot-01670",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18439,7 +18373,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-01677",
+      "id": "chatbot-01671",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18450,7 +18384,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-01678",
+      "id": "chatbot-01672",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18461,7 +18395,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-01679",
+      "id": "chatbot-01673",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18472,7 +18406,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-01680",
+      "id": "chatbot-01674",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18483,7 +18417,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-01681",
+      "id": "chatbot-01675",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18494,7 +18428,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-01682",
+      "id": "chatbot-01676",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18505,7 +18439,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-01683",
+      "id": "chatbot-01677",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18516,7 +18450,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-01684",
+      "id": "chatbot-01678",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18527,7 +18461,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-01685",
+      "id": "chatbot-01679",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18538,7 +18472,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-01686",
+      "id": "chatbot-01680",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18549,7 +18483,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-01687",
+      "id": "chatbot-01681",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18560,7 +18494,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-01688",
+      "id": "chatbot-01682",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18571,7 +18505,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-01689",
+      "id": "chatbot-01683",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18582,7 +18516,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-01690",
+      "id": "chatbot-01684",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18593,7 +18527,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-01691",
+      "id": "chatbot-01685",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18604,7 +18538,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 69
     },
     {
-      "id": "chatbot-01692",
+      "id": "chatbot-01686",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18615,7 +18549,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 70
     },
     {
-      "id": "chatbot-01693",
+      "id": "chatbot-01687",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18626,7 +18560,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 71
     },
     {
-      "id": "chatbot-01694",
+      "id": "chatbot-01688",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18637,7 +18571,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 72
     },
     {
-      "id": "chatbot-01695",
+      "id": "chatbot-01689",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18648,7 +18582,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 73
     },
     {
-      "id": "chatbot-01696",
+      "id": "chatbot-01690",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18659,7 +18593,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 74
     },
     {
-      "id": "chatbot-01697",
+      "id": "chatbot-01691",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18670,7 +18604,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 75
     },
     {
-      "id": "chatbot-01698",
+      "id": "chatbot-01692",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18681,7 +18615,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 76
     },
     {
-      "id": "chatbot-01699",
+      "id": "chatbot-01693",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "full",
@@ -18692,7 +18626,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 77
     },
     {
-      "id": "chatbot-01700",
+      "id": "chatbot-01694",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18703,7 +18637,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01701",
+      "id": "chatbot-01695",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18714,7 +18648,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01702",
+      "id": "chatbot-01696",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18725,7 +18659,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01703",
+      "id": "chatbot-01697",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18736,7 +18670,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01704",
+      "id": "chatbot-01698",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18747,7 +18681,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01705",
+      "id": "chatbot-01699",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18758,7 +18692,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01706",
+      "id": "chatbot-01700",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18769,7 +18703,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01707",
+      "id": "chatbot-01701",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18780,7 +18714,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01708",
+      "id": "chatbot-01702",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18791,7 +18725,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01709",
+      "id": "chatbot-01703",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18802,7 +18736,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01710",
+      "id": "chatbot-01704",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18813,7 +18747,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01711",
+      "id": "chatbot-01705",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18824,7 +18758,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01712",
+      "id": "chatbot-01706",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18835,7 +18769,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01713",
+      "id": "chatbot-01707",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18846,7 +18780,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01714",
+      "id": "chatbot-01708",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18857,7 +18791,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01715",
+      "id": "chatbot-01709",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18868,7 +18802,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01716",
+      "id": "chatbot-01710",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18879,7 +18813,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01717",
+      "id": "chatbot-01711",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18890,7 +18824,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01718",
+      "id": "chatbot-01712",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18901,7 +18835,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01719",
+      "id": "chatbot-01713",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18912,7 +18846,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01720",
+      "id": "chatbot-01714",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18923,7 +18857,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01721",
+      "id": "chatbot-01715",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18934,7 +18868,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01722",
+      "id": "chatbot-01716",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18945,7 +18879,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01723",
+      "id": "chatbot-01717",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18956,7 +18890,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01724",
+      "id": "chatbot-01718",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18967,7 +18901,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01725",
+      "id": "chatbot-01719",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18978,7 +18912,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01726",
+      "id": "chatbot-01720",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -18989,7 +18923,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01727",
+      "id": "chatbot-01721",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -19000,7 +18934,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01728",
+      "id": "chatbot-01722",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -19011,7 +18945,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01729",
+      "id": "chatbot-01723",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -19022,7 +18956,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01730",
+      "id": "chatbot-01724",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -19033,7 +18967,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-01731",
+      "id": "chatbot-01725",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -19044,7 +18978,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-01732",
+      "id": "chatbot-01726",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -19055,7 +18989,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-01733",
+      "id": "chatbot-01727",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "translation",
@@ -19066,7 +19000,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-01734",
+      "id": "chatbot-01728",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "concepts",
@@ -19077,7 +19011,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01735",
+      "id": "chatbot-01729",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "concepts",
@@ -19088,7 +19022,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01736",
+      "id": "chatbot-01730",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "concepts",
@@ -19099,7 +19033,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01737",
+      "id": "chatbot-01731",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "concepts",
@@ -19110,7 +19044,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01738",
+      "id": "chatbot-01732",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "concepts",
@@ -19121,7 +19055,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01739",
+      "id": "chatbot-01733",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "concepts",
@@ -19132,7 +19066,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01740",
+      "id": "chatbot-01734",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "concepts",
@@ -19143,7 +19077,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01741",
+      "id": "chatbot-01735",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "concepts",
@@ -19154,7 +19088,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01742",
+      "id": "chatbot-01736",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "pitfalls",
@@ -19165,7 +19099,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01743",
+      "id": "chatbot-01737",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "pitfalls",
@@ -19176,7 +19110,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01744",
+      "id": "chatbot-01738",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "review-sheet",
@@ -19187,7 +19121,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01745",
+      "id": "chatbot-01739",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "review-sheet",
@@ -19198,7 +19132,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01746",
+      "id": "chatbot-01740",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19209,7 +19143,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01747",
+      "id": "chatbot-01741",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19220,7 +19154,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01748",
+      "id": "chatbot-01742",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19231,7 +19165,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01749",
+      "id": "chatbot-01743",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19242,7 +19176,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01750",
+      "id": "chatbot-01744",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19253,7 +19187,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01751",
+      "id": "chatbot-01745",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19264,7 +19198,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01752",
+      "id": "chatbot-01746",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19275,7 +19209,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01753",
+      "id": "chatbot-01747",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19286,7 +19220,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01754",
+      "id": "chatbot-01748",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19297,7 +19231,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01755",
+      "id": "chatbot-01749",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19308,7 +19242,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01756",
+      "id": "chatbot-01750",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19319,7 +19253,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01757",
+      "id": "chatbot-01751",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19330,7 +19264,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01758",
+      "id": "chatbot-01752",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19341,7 +19275,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01759",
+      "id": "chatbot-01753",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19352,7 +19286,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01760",
+      "id": "chatbot-01754",
       "slug": "konrath-et-al-2012",
       "readingTitle": "Motives for Volunteering Are Associated With Mortality Risk in Older Adults",
       "pageKey": "professor-prep",
@@ -19363,7 +19297,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01761",
+      "id": "chatbot-01755",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "overview",
@@ -19374,7 +19308,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01762",
+      "id": "chatbot-01756",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "summary",
@@ -19385,7 +19319,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01763",
+      "id": "chatbot-01757",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "summary",
@@ -19396,7 +19330,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01764",
+      "id": "chatbot-01758",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "summary",
@@ -19407,7 +19341,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01765",
+      "id": "chatbot-01759",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "summary",
@@ -19418,7 +19352,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01766",
+      "id": "chatbot-01760",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19429,7 +19363,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01767",
+      "id": "chatbot-01761",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19440,7 +19374,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01768",
+      "id": "chatbot-01762",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19451,7 +19385,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01769",
+      "id": "chatbot-01763",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19462,7 +19396,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01770",
+      "id": "chatbot-01764",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19473,7 +19407,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01771",
+      "id": "chatbot-01765",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19484,7 +19418,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01772",
+      "id": "chatbot-01766",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19495,7 +19429,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01773",
+      "id": "chatbot-01767",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19506,7 +19440,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01774",
+      "id": "chatbot-01768",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19517,7 +19451,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01775",
+      "id": "chatbot-01769",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19528,7 +19462,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01776",
+      "id": "chatbot-01770",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19539,7 +19473,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01777",
+      "id": "chatbot-01771",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19550,7 +19484,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01778",
+      "id": "chatbot-01772",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19561,7 +19495,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01779",
+      "id": "chatbot-01773",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19572,7 +19506,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01780",
+      "id": "chatbot-01774",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19583,7 +19517,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01781",
+      "id": "chatbot-01775",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19594,7 +19528,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01782",
+      "id": "chatbot-01776",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19605,7 +19539,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01783",
+      "id": "chatbot-01777",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19616,7 +19550,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01784",
+      "id": "chatbot-01778",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19627,7 +19561,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01785",
+      "id": "chatbot-01779",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19638,7 +19572,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01786",
+      "id": "chatbot-01780",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19649,7 +19583,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01787",
+      "id": "chatbot-01781",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19660,7 +19594,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01788",
+      "id": "chatbot-01782",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19671,7 +19605,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01789",
+      "id": "chatbot-01783",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19682,7 +19616,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01790",
+      "id": "chatbot-01784",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19693,7 +19627,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01791",
+      "id": "chatbot-01785",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19704,7 +19638,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01792",
+      "id": "chatbot-01786",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19715,7 +19649,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01793",
+      "id": "chatbot-01787",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19726,7 +19660,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01794",
+      "id": "chatbot-01788",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19737,7 +19671,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01795",
+      "id": "chatbot-01789",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19748,7 +19682,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01796",
+      "id": "chatbot-01790",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19759,7 +19693,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-01797",
+      "id": "chatbot-01791",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19770,7 +19704,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-01798",
+      "id": "chatbot-01792",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19781,7 +19715,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-01799",
+      "id": "chatbot-01793",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19792,7 +19726,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-01800",
+      "id": "chatbot-01794",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19803,7 +19737,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-01801",
+      "id": "chatbot-01795",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19814,7 +19748,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-01802",
+      "id": "chatbot-01796",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19825,7 +19759,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-01803",
+      "id": "chatbot-01797",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19836,7 +19770,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-01804",
+      "id": "chatbot-01798",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19847,7 +19781,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-01805",
+      "id": "chatbot-01799",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19858,7 +19792,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-01806",
+      "id": "chatbot-01800",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19869,7 +19803,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-01807",
+      "id": "chatbot-01801",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19880,7 +19814,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-01808",
+      "id": "chatbot-01802",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19891,7 +19825,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-01809",
+      "id": "chatbot-01803",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19902,7 +19836,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-01810",
+      "id": "chatbot-01804",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19913,7 +19847,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-01811",
+      "id": "chatbot-01805",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19924,7 +19858,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-01812",
+      "id": "chatbot-01806",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19935,7 +19869,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-01813",
+      "id": "chatbot-01807",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19946,7 +19880,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-01814",
+      "id": "chatbot-01808",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19957,7 +19891,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-01815",
+      "id": "chatbot-01809",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19968,7 +19902,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-01816",
+      "id": "chatbot-01810",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19979,7 +19913,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-01817",
+      "id": "chatbot-01811",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -19990,7 +19924,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-01818",
+      "id": "chatbot-01812",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -20001,7 +19935,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-01819",
+      "id": "chatbot-01813",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -20012,7 +19946,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-01820",
+      "id": "chatbot-01814",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -20023,7 +19957,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-01821",
+      "id": "chatbot-01815",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -20034,7 +19968,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-01822",
+      "id": "chatbot-01816",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "full",
@@ -20045,7 +19979,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-01823",
+      "id": "chatbot-01817",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20056,7 +19990,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01824",
+      "id": "chatbot-01818",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20067,7 +20001,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01825",
+      "id": "chatbot-01819",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20078,7 +20012,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01826",
+      "id": "chatbot-01820",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20089,7 +20023,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01827",
+      "id": "chatbot-01821",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20100,7 +20034,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01828",
+      "id": "chatbot-01822",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20111,7 +20045,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01829",
+      "id": "chatbot-01823",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20122,7 +20056,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01830",
+      "id": "chatbot-01824",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20133,7 +20067,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01831",
+      "id": "chatbot-01825",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20144,7 +20078,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01832",
+      "id": "chatbot-01826",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20155,7 +20089,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01833",
+      "id": "chatbot-01827",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20166,7 +20100,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01834",
+      "id": "chatbot-01828",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20177,7 +20111,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01835",
+      "id": "chatbot-01829",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20188,7 +20122,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01836",
+      "id": "chatbot-01830",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20199,7 +20133,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01837",
+      "id": "chatbot-01831",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20210,7 +20144,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01838",
+      "id": "chatbot-01832",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20221,7 +20155,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01839",
+      "id": "chatbot-01833",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20232,7 +20166,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01840",
+      "id": "chatbot-01834",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20243,7 +20177,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01841",
+      "id": "chatbot-01835",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20254,7 +20188,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01842",
+      "id": "chatbot-01836",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20265,7 +20199,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01843",
+      "id": "chatbot-01837",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20276,7 +20210,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01844",
+      "id": "chatbot-01838",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20287,7 +20221,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01845",
+      "id": "chatbot-01839",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20298,7 +20232,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01846",
+      "id": "chatbot-01840",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20309,7 +20243,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01847",
+      "id": "chatbot-01841",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20320,7 +20254,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01848",
+      "id": "chatbot-01842",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20331,7 +20265,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01849",
+      "id": "chatbot-01843",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20342,7 +20276,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01850",
+      "id": "chatbot-01844",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20353,7 +20287,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01851",
+      "id": "chatbot-01845",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20364,7 +20298,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01852",
+      "id": "chatbot-01846",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20375,7 +20309,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01853",
+      "id": "chatbot-01847",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20386,7 +20320,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-01854",
+      "id": "chatbot-01848",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20397,7 +20331,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-01855",
+      "id": "chatbot-01849",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20408,7 +20342,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-01856",
+      "id": "chatbot-01850",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20419,7 +20353,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-01857",
+      "id": "chatbot-01851",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20430,7 +20364,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-01858",
+      "id": "chatbot-01852",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20441,7 +20375,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-01859",
+      "id": "chatbot-01853",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20452,7 +20386,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-01860",
+      "id": "chatbot-01854",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "translation",
@@ -20463,7 +20397,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-01861",
+      "id": "chatbot-01855",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "concepts",
@@ -20474,7 +20408,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01862",
+      "id": "chatbot-01856",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "concepts",
@@ -20485,7 +20419,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01863",
+      "id": "chatbot-01857",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "concepts",
@@ -20496,7 +20430,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01864",
+      "id": "chatbot-01858",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "concepts",
@@ -20507,7 +20441,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01865",
+      "id": "chatbot-01859",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "concepts",
@@ -20518,7 +20452,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01866",
+      "id": "chatbot-01860",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "concepts",
@@ -20529,7 +20463,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01867",
+      "id": "chatbot-01861",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "concepts",
@@ -20540,7 +20474,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01868",
+      "id": "chatbot-01862",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "concepts",
@@ -20551,7 +20485,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01869",
+      "id": "chatbot-01863",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "pitfalls",
@@ -20562,7 +20496,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01870",
+      "id": "chatbot-01864",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "pitfalls",
@@ -20573,7 +20507,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01871",
+      "id": "chatbot-01865",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "pitfalls",
@@ -20584,7 +20518,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01872",
+      "id": "chatbot-01866",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "pitfalls",
@@ -20595,7 +20529,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01873",
+      "id": "chatbot-01867",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "review-sheet",
@@ -20606,7 +20540,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01874",
+      "id": "chatbot-01868",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "review-sheet",
@@ -20617,7 +20551,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01875",
+      "id": "chatbot-01869",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "review-sheet",
@@ -20628,7 +20562,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01876",
+      "id": "chatbot-01870",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "review-sheet",
@@ -20639,7 +20573,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01877",
+      "id": "chatbot-01871",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20650,7 +20584,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01878",
+      "id": "chatbot-01872",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20661,7 +20595,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01879",
+      "id": "chatbot-01873",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20672,7 +20606,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01880",
+      "id": "chatbot-01874",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20683,7 +20617,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01881",
+      "id": "chatbot-01875",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20694,7 +20628,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01882",
+      "id": "chatbot-01876",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20705,7 +20639,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01883",
+      "id": "chatbot-01877",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20716,7 +20650,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01884",
+      "id": "chatbot-01878",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20727,7 +20661,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01885",
+      "id": "chatbot-01879",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20738,7 +20672,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01886",
+      "id": "chatbot-01880",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20749,7 +20683,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01887",
+      "id": "chatbot-01881",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20760,7 +20694,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01888",
+      "id": "chatbot-01882",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20771,7 +20705,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01889",
+      "id": "chatbot-01883",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20782,7 +20716,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01890",
+      "id": "chatbot-01884",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20793,7 +20727,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01891",
+      "id": "chatbot-01885",
       "slug": "leggett-et-al-2020",
       "readingTitle": "Till Death Do Us Part: Intersecting Health and Spousal Dementia Caregiving on Caregiver Mortality",
       "pageKey": "professor-prep",
@@ -20804,7 +20738,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01892",
+      "id": "chatbot-01886",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "overview",
@@ -20815,7 +20749,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01893",
+      "id": "chatbot-01887",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "summary",
@@ -20826,7 +20760,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01894",
+      "id": "chatbot-01888",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "summary",
@@ -20837,7 +20771,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01895",
+      "id": "chatbot-01889",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "summary",
@@ -20848,7 +20782,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01896",
+      "id": "chatbot-01890",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "summary",
@@ -20859,7 +20793,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01897",
+      "id": "chatbot-01891",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20870,7 +20804,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01898",
+      "id": "chatbot-01892",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20881,7 +20815,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01899",
+      "id": "chatbot-01893",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20892,7 +20826,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01900",
+      "id": "chatbot-01894",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20903,7 +20837,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01901",
+      "id": "chatbot-01895",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20914,7 +20848,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01902",
+      "id": "chatbot-01896",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20925,7 +20859,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01903",
+      "id": "chatbot-01897",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20936,7 +20870,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01904",
+      "id": "chatbot-01898",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20947,7 +20881,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01905",
+      "id": "chatbot-01899",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20958,7 +20892,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01906",
+      "id": "chatbot-01900",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20969,7 +20903,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01907",
+      "id": "chatbot-01901",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20980,7 +20914,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01908",
+      "id": "chatbot-01902",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -20991,7 +20925,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01909",
+      "id": "chatbot-01903",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21002,7 +20936,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01910",
+      "id": "chatbot-01904",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21013,7 +20947,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01911",
+      "id": "chatbot-01905",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21024,7 +20958,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01912",
+      "id": "chatbot-01906",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21035,7 +20969,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01913",
+      "id": "chatbot-01907",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21046,7 +20980,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01914",
+      "id": "chatbot-01908",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21057,7 +20991,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01915",
+      "id": "chatbot-01909",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21068,7 +21002,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01916",
+      "id": "chatbot-01910",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21079,7 +21013,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01917",
+      "id": "chatbot-01911",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21090,7 +21024,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01918",
+      "id": "chatbot-01912",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21101,7 +21035,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01919",
+      "id": "chatbot-01913",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21112,7 +21046,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01920",
+      "id": "chatbot-01914",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21123,7 +21057,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01921",
+      "id": "chatbot-01915",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21134,7 +21068,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01922",
+      "id": "chatbot-01916",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21145,7 +21079,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01923",
+      "id": "chatbot-01917",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21156,7 +21090,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01924",
+      "id": "chatbot-01918",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21167,7 +21101,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01925",
+      "id": "chatbot-01919",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21178,7 +21112,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01926",
+      "id": "chatbot-01920",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21189,7 +21123,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01927",
+      "id": "chatbot-01921",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21200,7 +21134,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-01928",
+      "id": "chatbot-01922",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21211,7 +21145,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-01929",
+      "id": "chatbot-01923",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21222,7 +21156,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-01930",
+      "id": "chatbot-01924",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21233,7 +21167,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-01931",
+      "id": "chatbot-01925",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21244,7 +21178,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-01932",
+      "id": "chatbot-01926",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21255,7 +21189,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-01933",
+      "id": "chatbot-01927",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21266,7 +21200,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-01934",
+      "id": "chatbot-01928",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21277,7 +21211,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-01935",
+      "id": "chatbot-01929",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21288,7 +21222,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-01936",
+      "id": "chatbot-01930",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21299,7 +21233,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-01937",
+      "id": "chatbot-01931",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21310,7 +21244,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-01938",
+      "id": "chatbot-01932",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21321,7 +21255,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-01939",
+      "id": "chatbot-01933",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21332,7 +21266,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-01940",
+      "id": "chatbot-01934",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21343,7 +21277,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-01941",
+      "id": "chatbot-01935",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21354,7 +21288,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-01942",
+      "id": "chatbot-01936",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21365,7 +21299,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-01943",
+      "id": "chatbot-01937",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21376,7 +21310,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-01944",
+      "id": "chatbot-01938",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21387,7 +21321,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-01945",
+      "id": "chatbot-01939",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21398,7 +21332,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-01946",
+      "id": "chatbot-01940",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21409,7 +21343,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-01947",
+      "id": "chatbot-01941",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21420,7 +21354,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-01948",
+      "id": "chatbot-01942",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21431,7 +21365,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-01949",
+      "id": "chatbot-01943",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21442,7 +21376,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-01950",
+      "id": "chatbot-01944",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21453,7 +21387,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-01951",
+      "id": "chatbot-01945",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21464,7 +21398,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-01952",
+      "id": "chatbot-01946",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "full",
@@ -21475,7 +21409,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-01953",
+      "id": "chatbot-01947",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21486,7 +21420,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01954",
+      "id": "chatbot-01948",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21497,7 +21431,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01955",
+      "id": "chatbot-01949",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21508,7 +21442,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01956",
+      "id": "chatbot-01950",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21519,7 +21453,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01957",
+      "id": "chatbot-01951",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21530,7 +21464,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01958",
+      "id": "chatbot-01952",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21541,7 +21475,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-01959",
+      "id": "chatbot-01953",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21552,7 +21486,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-01960",
+      "id": "chatbot-01954",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21563,7 +21497,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-01961",
+      "id": "chatbot-01955",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21574,7 +21508,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-01962",
+      "id": "chatbot-01956",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21585,7 +21519,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-01963",
+      "id": "chatbot-01957",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21596,7 +21530,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-01964",
+      "id": "chatbot-01958",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21607,7 +21541,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-01965",
+      "id": "chatbot-01959",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21618,7 +21552,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-01966",
+      "id": "chatbot-01960",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21629,7 +21563,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-01967",
+      "id": "chatbot-01961",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21640,7 +21574,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-01968",
+      "id": "chatbot-01962",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21651,7 +21585,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-01969",
+      "id": "chatbot-01963",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21662,7 +21596,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-01970",
+      "id": "chatbot-01964",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21673,7 +21607,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-01971",
+      "id": "chatbot-01965",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21684,7 +21618,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-01972",
+      "id": "chatbot-01966",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21695,7 +21629,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-01973",
+      "id": "chatbot-01967",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21706,7 +21640,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-01974",
+      "id": "chatbot-01968",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21717,7 +21651,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-01975",
+      "id": "chatbot-01969",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21728,7 +21662,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-01976",
+      "id": "chatbot-01970",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21739,7 +21673,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-01977",
+      "id": "chatbot-01971",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21750,7 +21684,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-01978",
+      "id": "chatbot-01972",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21761,7 +21695,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-01979",
+      "id": "chatbot-01973",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21772,7 +21706,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-01980",
+      "id": "chatbot-01974",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21783,7 +21717,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-01981",
+      "id": "chatbot-01975",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21794,7 +21728,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-01982",
+      "id": "chatbot-01976",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21805,7 +21739,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-01983",
+      "id": "chatbot-01977",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "translation",
@@ -21816,7 +21750,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-01984",
+      "id": "chatbot-01978",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -21827,7 +21761,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01985",
+      "id": "chatbot-01979",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -21838,7 +21772,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01986",
+      "id": "chatbot-01980",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -21849,7 +21783,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01987",
+      "id": "chatbot-01981",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -21860,7 +21794,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-01988",
+      "id": "chatbot-01982",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "concepts",
@@ -21871,7 +21805,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-01989",
+      "id": "chatbot-01983",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "pitfalls",
@@ -21882,7 +21816,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01990",
+      "id": "chatbot-01984",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "pitfalls",
@@ -21893,7 +21827,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01991",
+      "id": "chatbot-01985",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "pitfalls",
@@ -21904,7 +21838,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-01992",
+      "id": "chatbot-01986",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "review-sheet",
@@ -21915,7 +21849,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01993",
+      "id": "chatbot-01987",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "review-sheet",
@@ -21926,7 +21860,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-01994",
+      "id": "chatbot-01988",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -21937,7 +21871,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01995",
+      "id": "chatbot-01989",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -21948,7 +21882,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01996",
+      "id": "chatbot-01990",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -21959,7 +21893,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01997",
+      "id": "chatbot-01991",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -21970,7 +21904,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01998",
+      "id": "chatbot-01992",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -21981,7 +21915,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-01999",
+      "id": "chatbot-01993",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -21992,7 +21926,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02000",
+      "id": "chatbot-01994",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -22003,7 +21937,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02001",
+      "id": "chatbot-01995",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -22014,7 +21948,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02002",
+      "id": "chatbot-01996",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -22025,7 +21959,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02003",
+      "id": "chatbot-01997",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -22036,7 +21970,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02004",
+      "id": "chatbot-01998",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -22047,7 +21981,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02005",
+      "id": "chatbot-01999",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -22058,7 +21992,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02006",
+      "id": "chatbot-02000",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -22069,7 +22003,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02007",
+      "id": "chatbot-02001",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -22080,7 +22014,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02008",
+      "id": "chatbot-02002",
       "slug": "olshansky-carnes-2019",
       "readingTitle": "Inconvenient Truths About Human Longevity",
       "pageKey": "professor-prep",
@@ -22091,7 +22025,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02009",
+      "id": "chatbot-02003",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "overview",
@@ -22102,7 +22036,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02010",
+      "id": "chatbot-02004",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "summary",
@@ -22113,7 +22047,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02011",
+      "id": "chatbot-02005",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "summary",
@@ -22124,7 +22058,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02012",
+      "id": "chatbot-02006",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22135,7 +22069,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02013",
+      "id": "chatbot-02007",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22146,7 +22080,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02014",
+      "id": "chatbot-02008",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22157,7 +22091,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02015",
+      "id": "chatbot-02009",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22168,7 +22102,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02016",
+      "id": "chatbot-02010",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22179,7 +22113,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-02017",
+      "id": "chatbot-02011",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22190,7 +22124,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-02018",
+      "id": "chatbot-02012",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22201,7 +22135,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-02019",
+      "id": "chatbot-02013",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22212,7 +22146,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-02020",
+      "id": "chatbot-02014",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22223,7 +22157,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-02021",
+      "id": "chatbot-02015",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22234,7 +22168,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-02022",
+      "id": "chatbot-02016",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22245,7 +22179,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-02023",
+      "id": "chatbot-02017",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22256,7 +22190,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-02024",
+      "id": "chatbot-02018",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22267,7 +22201,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-02025",
+      "id": "chatbot-02019",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22278,7 +22212,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-02026",
+      "id": "chatbot-02020",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22289,7 +22223,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-02027",
+      "id": "chatbot-02021",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22300,7 +22234,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-02028",
+      "id": "chatbot-02022",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22311,7 +22245,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-02029",
+      "id": "chatbot-02023",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22322,7 +22256,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-02030",
+      "id": "chatbot-02024",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22333,7 +22267,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-02031",
+      "id": "chatbot-02025",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22344,7 +22278,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-02032",
+      "id": "chatbot-02026",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22355,7 +22289,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-02033",
+      "id": "chatbot-02027",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22366,7 +22300,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-02034",
+      "id": "chatbot-02028",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22377,7 +22311,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-02035",
+      "id": "chatbot-02029",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22388,7 +22322,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-02036",
+      "id": "chatbot-02030",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22399,7 +22333,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-02037",
+      "id": "chatbot-02031",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22410,7 +22344,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-02038",
+      "id": "chatbot-02032",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22421,7 +22355,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-02039",
+      "id": "chatbot-02033",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22432,7 +22366,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-02040",
+      "id": "chatbot-02034",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22443,7 +22377,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-02041",
+      "id": "chatbot-02035",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22454,7 +22388,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-02042",
+      "id": "chatbot-02036",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22465,7 +22399,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-02043",
+      "id": "chatbot-02037",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22476,7 +22410,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-02044",
+      "id": "chatbot-02038",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22487,7 +22421,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-02045",
+      "id": "chatbot-02039",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22498,7 +22432,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-02046",
+      "id": "chatbot-02040",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22509,7 +22443,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-02047",
+      "id": "chatbot-02041",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22520,7 +22454,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-02048",
+      "id": "chatbot-02042",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22531,7 +22465,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-02049",
+      "id": "chatbot-02043",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22542,7 +22476,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-02050",
+      "id": "chatbot-02044",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22553,7 +22487,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-02051",
+      "id": "chatbot-02045",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22564,7 +22498,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-02052",
+      "id": "chatbot-02046",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22575,7 +22509,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-02053",
+      "id": "chatbot-02047",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22586,7 +22520,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-02054",
+      "id": "chatbot-02048",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22597,7 +22531,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-02055",
+      "id": "chatbot-02049",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22608,7 +22542,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-02056",
+      "id": "chatbot-02050",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "full",
@@ -22619,7 +22553,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-02057",
+      "id": "chatbot-02051",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22630,7 +22564,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02058",
+      "id": "chatbot-02052",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22641,7 +22575,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02059",
+      "id": "chatbot-02053",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22652,7 +22586,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02060",
+      "id": "chatbot-02054",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22663,7 +22597,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02061",
+      "id": "chatbot-02055",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22674,7 +22608,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-02062",
+      "id": "chatbot-02056",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22685,7 +22619,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-02063",
+      "id": "chatbot-02057",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22696,7 +22630,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-02064",
+      "id": "chatbot-02058",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22707,7 +22641,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-02065",
+      "id": "chatbot-02059",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22718,7 +22652,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-02066",
+      "id": "chatbot-02060",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22729,7 +22663,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-02067",
+      "id": "chatbot-02061",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22740,7 +22674,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-02068",
+      "id": "chatbot-02062",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22751,7 +22685,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-02069",
+      "id": "chatbot-02063",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22762,7 +22696,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-02070",
+      "id": "chatbot-02064",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22773,7 +22707,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-02071",
+      "id": "chatbot-02065",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22784,7 +22718,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-02072",
+      "id": "chatbot-02066",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22795,7 +22729,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-02073",
+      "id": "chatbot-02067",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22806,7 +22740,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-02074",
+      "id": "chatbot-02068",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22817,7 +22751,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-02075",
+      "id": "chatbot-02069",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22828,7 +22762,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-02076",
+      "id": "chatbot-02070",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22839,7 +22773,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-02077",
+      "id": "chatbot-02071",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22850,7 +22784,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-02078",
+      "id": "chatbot-02072",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22861,7 +22795,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-02079",
+      "id": "chatbot-02073",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22872,7 +22806,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-02080",
+      "id": "chatbot-02074",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22883,7 +22817,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-02081",
+      "id": "chatbot-02075",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22894,7 +22828,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-02082",
+      "id": "chatbot-02076",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "translation",
@@ -22905,7 +22839,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-02083",
+      "id": "chatbot-02077",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -22916,7 +22850,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02084",
+      "id": "chatbot-02078",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -22927,7 +22861,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02085",
+      "id": "chatbot-02079",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -22938,7 +22872,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02086",
+      "id": "chatbot-02080",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -22949,7 +22883,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02087",
+      "id": "chatbot-02081",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "concepts",
@@ -22960,7 +22894,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-02088",
+      "id": "chatbot-02082",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "pitfalls",
@@ -22971,7 +22905,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02089",
+      "id": "chatbot-02083",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "pitfalls",
@@ -22982,7 +22916,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02090",
+      "id": "chatbot-02084",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "review-sheet",
@@ -22993,7 +22927,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02091",
+      "id": "chatbot-02085",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "review-sheet",
@@ -23004,7 +22938,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02092",
+      "id": "chatbot-02086",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23015,7 +22949,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02093",
+      "id": "chatbot-02087",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23026,7 +22960,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02094",
+      "id": "chatbot-02088",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23037,7 +22971,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02095",
+      "id": "chatbot-02089",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23048,7 +22982,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02096",
+      "id": "chatbot-02090",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23059,7 +22993,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02097",
+      "id": "chatbot-02091",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23070,7 +23004,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02098",
+      "id": "chatbot-02092",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23081,7 +23015,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02099",
+      "id": "chatbot-02093",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23092,7 +23026,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02100",
+      "id": "chatbot-02094",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23103,7 +23037,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02101",
+      "id": "chatbot-02095",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23114,7 +23048,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02102",
+      "id": "chatbot-02096",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23125,7 +23059,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02103",
+      "id": "chatbot-02097",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23136,7 +23070,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02104",
+      "id": "chatbot-02098",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23147,7 +23081,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02105",
+      "id": "chatbot-02099",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23158,7 +23092,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02106",
+      "id": "chatbot-02100",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23169,7 +23103,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02107",
+      "id": "chatbot-02101",
       "slug": "park-mcdonough-2013",
       "readingTitle": "The Dynamic Aging Mind: Revelations From Functional Neuroimaging Research",
       "pageKey": "professor-prep",
@@ -23180,7 +23114,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02108",
+      "id": "chatbot-02102",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "overview",
@@ -23191,7 +23125,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02109",
+      "id": "chatbot-02103",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "summary",
@@ -23202,7 +23136,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02110",
+      "id": "chatbot-02104",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23213,7 +23147,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02111",
+      "id": "chatbot-02105",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23224,7 +23158,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02112",
+      "id": "chatbot-02106",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23235,7 +23169,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02113",
+      "id": "chatbot-02107",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23246,7 +23180,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02114",
+      "id": "chatbot-02108",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23257,7 +23191,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-02115",
+      "id": "chatbot-02109",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23268,7 +23202,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-02116",
+      "id": "chatbot-02110",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23279,7 +23213,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-02117",
+      "id": "chatbot-02111",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23290,7 +23224,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-02118",
+      "id": "chatbot-02112",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23301,7 +23235,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-02119",
+      "id": "chatbot-02113",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23312,7 +23246,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-02120",
+      "id": "chatbot-02114",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23323,7 +23257,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-02121",
+      "id": "chatbot-02115",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23334,7 +23268,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-02122",
+      "id": "chatbot-02116",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23345,7 +23279,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-02123",
+      "id": "chatbot-02117",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23356,7 +23290,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-02124",
+      "id": "chatbot-02118",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23367,7 +23301,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-02125",
+      "id": "chatbot-02119",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23378,7 +23312,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-02126",
+      "id": "chatbot-02120",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23389,7 +23323,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-02127",
+      "id": "chatbot-02121",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23400,7 +23334,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-02128",
+      "id": "chatbot-02122",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23411,7 +23345,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-02129",
+      "id": "chatbot-02123",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23422,7 +23356,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-02130",
+      "id": "chatbot-02124",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23433,7 +23367,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-02131",
+      "id": "chatbot-02125",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23444,7 +23378,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-02132",
+      "id": "chatbot-02126",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23455,7 +23389,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-02133",
+      "id": "chatbot-02127",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23466,7 +23400,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-02134",
+      "id": "chatbot-02128",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23477,7 +23411,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-02135",
+      "id": "chatbot-02129",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23488,7 +23422,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-02136",
+      "id": "chatbot-02130",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23499,7 +23433,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-02137",
+      "id": "chatbot-02131",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23510,7 +23444,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-02138",
+      "id": "chatbot-02132",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23521,7 +23455,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-02139",
+      "id": "chatbot-02133",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23532,7 +23466,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-02140",
+      "id": "chatbot-02134",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23543,7 +23477,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-02141",
+      "id": "chatbot-02135",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23554,7 +23488,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-02142",
+      "id": "chatbot-02136",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23565,7 +23499,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-02143",
+      "id": "chatbot-02137",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23576,7 +23510,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-02144",
+      "id": "chatbot-02138",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23587,7 +23521,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-02145",
+      "id": "chatbot-02139",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23598,7 +23532,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-02146",
+      "id": "chatbot-02140",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23609,7 +23543,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-02147",
+      "id": "chatbot-02141",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23620,7 +23554,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-02148",
+      "id": "chatbot-02142",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23631,7 +23565,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-02149",
+      "id": "chatbot-02143",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23642,7 +23576,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-02150",
+      "id": "chatbot-02144",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23653,7 +23587,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-02151",
+      "id": "chatbot-02145",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23664,7 +23598,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-02152",
+      "id": "chatbot-02146",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23675,7 +23609,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-02153",
+      "id": "chatbot-02147",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23686,7 +23620,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-02154",
+      "id": "chatbot-02148",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23697,7 +23631,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-02155",
+      "id": "chatbot-02149",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23708,7 +23642,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-02156",
+      "id": "chatbot-02150",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23719,7 +23653,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-02157",
+      "id": "chatbot-02151",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23730,7 +23664,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-02158",
+      "id": "chatbot-02152",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23741,7 +23675,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-02159",
+      "id": "chatbot-02153",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23752,7 +23686,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-02160",
+      "id": "chatbot-02154",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23763,7 +23697,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-02161",
+      "id": "chatbot-02155",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23774,7 +23708,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-02162",
+      "id": "chatbot-02156",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "full",
@@ -23785,7 +23719,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-02163",
+      "id": "chatbot-02157",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23796,7 +23730,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02164",
+      "id": "chatbot-02158",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23807,7 +23741,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02165",
+      "id": "chatbot-02159",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23818,7 +23752,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02166",
+      "id": "chatbot-02160",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23829,7 +23763,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02167",
+      "id": "chatbot-02161",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23840,7 +23774,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-02168",
+      "id": "chatbot-02162",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23851,7 +23785,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-02169",
+      "id": "chatbot-02163",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23862,7 +23796,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-02170",
+      "id": "chatbot-02164",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23873,7 +23807,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-02171",
+      "id": "chatbot-02165",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23884,7 +23818,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-02172",
+      "id": "chatbot-02166",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23895,7 +23829,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-02173",
+      "id": "chatbot-02167",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23906,7 +23840,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-02174",
+      "id": "chatbot-02168",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23917,7 +23851,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-02175",
+      "id": "chatbot-02169",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23928,7 +23862,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-02176",
+      "id": "chatbot-02170",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23939,7 +23873,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-02177",
+      "id": "chatbot-02171",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23950,7 +23884,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-02178",
+      "id": "chatbot-02172",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23961,7 +23895,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-02179",
+      "id": "chatbot-02173",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23972,7 +23906,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-02180",
+      "id": "chatbot-02174",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23983,7 +23917,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-02181",
+      "id": "chatbot-02175",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -23994,7 +23928,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-02182",
+      "id": "chatbot-02176",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24005,7 +23939,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-02183",
+      "id": "chatbot-02177",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24016,7 +23950,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-02184",
+      "id": "chatbot-02178",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24027,7 +23961,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-02185",
+      "id": "chatbot-02179",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24038,7 +23972,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-02186",
+      "id": "chatbot-02180",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24049,7 +23983,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-02187",
+      "id": "chatbot-02181",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24060,7 +23994,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-02188",
+      "id": "chatbot-02182",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24071,7 +24005,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-02189",
+      "id": "chatbot-02183",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24082,7 +24016,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-02190",
+      "id": "chatbot-02184",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24093,7 +24027,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-02191",
+      "id": "chatbot-02185",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24104,7 +24038,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-02192",
+      "id": "chatbot-02186",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24115,7 +24049,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-02193",
+      "id": "chatbot-02187",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "translation",
@@ -24126,7 +24060,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-02194",
+      "id": "chatbot-02188",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "concepts",
@@ -24137,7 +24071,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02195",
+      "id": "chatbot-02189",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "concepts",
@@ -24148,7 +24082,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02196",
+      "id": "chatbot-02190",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "concepts",
@@ -24159,7 +24093,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02197",
+      "id": "chatbot-02191",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "concepts",
@@ -24170,7 +24104,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02198",
+      "id": "chatbot-02192",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "pitfalls",
@@ -24181,7 +24115,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02199",
+      "id": "chatbot-02193",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "review-sheet",
@@ -24192,7 +24126,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02200",
+      "id": "chatbot-02194",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24203,7 +24137,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02201",
+      "id": "chatbot-02195",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24214,7 +24148,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02202",
+      "id": "chatbot-02196",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24225,7 +24159,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02203",
+      "id": "chatbot-02197",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24236,7 +24170,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02204",
+      "id": "chatbot-02198",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24247,7 +24181,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02205",
+      "id": "chatbot-02199",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24258,7 +24192,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02206",
+      "id": "chatbot-02200",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24269,7 +24203,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02207",
+      "id": "chatbot-02201",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24280,7 +24214,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02208",
+      "id": "chatbot-02202",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24291,7 +24225,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02209",
+      "id": "chatbot-02203",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24302,7 +24236,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02210",
+      "id": "chatbot-02204",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24313,7 +24247,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02211",
+      "id": "chatbot-02205",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24324,7 +24258,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02212",
+      "id": "chatbot-02206",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24335,7 +24269,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02213",
+      "id": "chatbot-02207",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24346,7 +24280,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02214",
+      "id": "chatbot-02208",
       "slug": "suitor-et-al-2014",
       "readingTitle": "Caregiving, Perceptions of Maternal Favoritism, and Tension Among Siblings",
       "pageKey": "professor-prep",
@@ -24357,7 +24291,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02215",
+      "id": "chatbot-02209",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "overview",
@@ -24368,7 +24302,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02216",
+      "id": "chatbot-02210",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -24379,7 +24313,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02217",
+      "id": "chatbot-02211",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -24390,7 +24324,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02218",
+      "id": "chatbot-02212",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -24401,7 +24335,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02219",
+      "id": "chatbot-02213",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "summary",
@@ -24412,7 +24346,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02220",
+      "id": "chatbot-02214",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24423,7 +24357,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02221",
+      "id": "chatbot-02215",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24434,7 +24368,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02222",
+      "id": "chatbot-02216",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24445,7 +24379,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02223",
+      "id": "chatbot-02217",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24456,7 +24390,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02224",
+      "id": "chatbot-02218",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24467,7 +24401,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-02225",
+      "id": "chatbot-02219",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24478,7 +24412,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-02226",
+      "id": "chatbot-02220",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24489,7 +24423,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-02227",
+      "id": "chatbot-02221",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24500,7 +24434,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-02228",
+      "id": "chatbot-02222",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24511,7 +24445,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-02229",
+      "id": "chatbot-02223",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24522,7 +24456,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-02230",
+      "id": "chatbot-02224",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24533,7 +24467,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-02231",
+      "id": "chatbot-02225",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24544,7 +24478,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-02232",
+      "id": "chatbot-02226",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24555,7 +24489,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-02233",
+      "id": "chatbot-02227",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24566,7 +24500,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-02234",
+      "id": "chatbot-02228",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24577,7 +24511,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-02235",
+      "id": "chatbot-02229",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24588,7 +24522,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-02236",
+      "id": "chatbot-02230",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24599,7 +24533,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-02237",
+      "id": "chatbot-02231",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24610,7 +24544,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-02238",
+      "id": "chatbot-02232",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24621,7 +24555,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-02239",
+      "id": "chatbot-02233",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24632,7 +24566,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-02240",
+      "id": "chatbot-02234",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24643,7 +24577,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-02241",
+      "id": "chatbot-02235",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24654,7 +24588,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-02242",
+      "id": "chatbot-02236",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24665,7 +24599,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-02243",
+      "id": "chatbot-02237",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24676,7 +24610,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-02244",
+      "id": "chatbot-02238",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24687,7 +24621,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-02245",
+      "id": "chatbot-02239",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24698,7 +24632,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-02246",
+      "id": "chatbot-02240",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24709,7 +24643,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-02247",
+      "id": "chatbot-02241",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24720,7 +24654,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-02248",
+      "id": "chatbot-02242",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24731,7 +24665,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-02249",
+      "id": "chatbot-02243",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24742,7 +24676,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-02250",
+      "id": "chatbot-02244",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24753,7 +24687,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-02251",
+      "id": "chatbot-02245",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24764,7 +24698,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-02252",
+      "id": "chatbot-02246",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24775,7 +24709,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-02253",
+      "id": "chatbot-02247",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24786,7 +24720,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-02254",
+      "id": "chatbot-02248",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24797,7 +24731,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-02255",
+      "id": "chatbot-02249",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24808,7 +24742,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-02256",
+      "id": "chatbot-02250",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24819,7 +24753,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-02257",
+      "id": "chatbot-02251",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24830,7 +24764,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-02258",
+      "id": "chatbot-02252",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24841,7 +24775,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-02259",
+      "id": "chatbot-02253",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24852,7 +24786,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-02260",
+      "id": "chatbot-02254",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24863,7 +24797,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-02261",
+      "id": "chatbot-02255",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24874,7 +24808,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-02262",
+      "id": "chatbot-02256",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24885,7 +24819,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-02263",
+      "id": "chatbot-02257",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24896,7 +24830,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-02264",
+      "id": "chatbot-02258",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24907,7 +24841,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-02265",
+      "id": "chatbot-02259",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24918,7 +24852,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-02266",
+      "id": "chatbot-02260",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24929,7 +24863,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-02267",
+      "id": "chatbot-02261",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24940,7 +24874,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-02268",
+      "id": "chatbot-02262",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24951,7 +24885,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-02269",
+      "id": "chatbot-02263",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24962,7 +24896,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-02270",
+      "id": "chatbot-02264",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24973,7 +24907,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-02271",
+      "id": "chatbot-02265",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24984,7 +24918,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-02272",
+      "id": "chatbot-02266",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -24995,7 +24929,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-02273",
+      "id": "chatbot-02267",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25006,7 +24940,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-02274",
+      "id": "chatbot-02268",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25017,7 +24951,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-02275",
+      "id": "chatbot-02269",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25028,7 +24962,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-02276",
+      "id": "chatbot-02270",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25039,7 +24973,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-02277",
+      "id": "chatbot-02271",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25050,7 +24984,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-02278",
+      "id": "chatbot-02272",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25061,7 +24995,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-02279",
+      "id": "chatbot-02273",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25072,7 +25006,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-02280",
+      "id": "chatbot-02274",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25083,7 +25017,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-02281",
+      "id": "chatbot-02275",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25094,7 +25028,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-02282",
+      "id": "chatbot-02276",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25105,7 +25039,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-02283",
+      "id": "chatbot-02277",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25116,7 +25050,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-02284",
+      "id": "chatbot-02278",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25127,7 +25061,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-02285",
+      "id": "chatbot-02279",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25138,7 +25072,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-02286",
+      "id": "chatbot-02280",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25149,7 +25083,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-02287",
+      "id": "chatbot-02281",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25160,7 +25094,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-02288",
+      "id": "chatbot-02282",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25171,7 +25105,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 69
     },
     {
-      "id": "chatbot-02289",
+      "id": "chatbot-02283",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25182,7 +25116,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 70
     },
     {
-      "id": "chatbot-02290",
+      "id": "chatbot-02284",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25193,7 +25127,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 71
     },
     {
-      "id": "chatbot-02291",
+      "id": "chatbot-02285",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25204,7 +25138,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 72
     },
     {
-      "id": "chatbot-02292",
+      "id": "chatbot-02286",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25215,7 +25149,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 73
     },
     {
-      "id": "chatbot-02293",
+      "id": "chatbot-02287",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25226,7 +25160,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 74
     },
     {
-      "id": "chatbot-02294",
+      "id": "chatbot-02288",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25237,7 +25171,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 75
     },
     {
-      "id": "chatbot-02295",
+      "id": "chatbot-02289",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25248,7 +25182,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 76
     },
     {
-      "id": "chatbot-02296",
+      "id": "chatbot-02290",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25259,7 +25193,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 77
     },
     {
-      "id": "chatbot-02297",
+      "id": "chatbot-02291",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25270,7 +25204,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 78
     },
     {
-      "id": "chatbot-02298",
+      "id": "chatbot-02292",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25281,7 +25215,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 79
     },
     {
-      "id": "chatbot-02299",
+      "id": "chatbot-02293",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25292,7 +25226,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 80
     },
     {
-      "id": "chatbot-02300",
+      "id": "chatbot-02294",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25303,7 +25237,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 81
     },
     {
-      "id": "chatbot-02301",
+      "id": "chatbot-02295",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25314,7 +25248,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 82
     },
     {
-      "id": "chatbot-02302",
+      "id": "chatbot-02296",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25325,7 +25259,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 83
     },
     {
-      "id": "chatbot-02303",
+      "id": "chatbot-02297",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25336,7 +25270,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 84
     },
     {
-      "id": "chatbot-02304",
+      "id": "chatbot-02298",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25347,7 +25281,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 85
     },
     {
-      "id": "chatbot-02305",
+      "id": "chatbot-02299",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25358,7 +25292,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 86
     },
     {
-      "id": "chatbot-02306",
+      "id": "chatbot-02300",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25369,7 +25303,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 87
     },
     {
-      "id": "chatbot-02307",
+      "id": "chatbot-02301",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25380,7 +25314,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 88
     },
     {
-      "id": "chatbot-02308",
+      "id": "chatbot-02302",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25391,7 +25325,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 89
     },
     {
-      "id": "chatbot-02309",
+      "id": "chatbot-02303",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25402,7 +25336,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 90
     },
     {
-      "id": "chatbot-02310",
+      "id": "chatbot-02304",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25413,7 +25347,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 91
     },
     {
-      "id": "chatbot-02311",
+      "id": "chatbot-02305",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25424,7 +25358,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 92
     },
     {
-      "id": "chatbot-02312",
+      "id": "chatbot-02306",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25435,7 +25369,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 93
     },
     {
-      "id": "chatbot-02313",
+      "id": "chatbot-02307",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25446,7 +25380,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 94
     },
     {
-      "id": "chatbot-02314",
+      "id": "chatbot-02308",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25457,7 +25391,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 95
     },
     {
-      "id": "chatbot-02315",
+      "id": "chatbot-02309",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25468,7 +25402,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 96
     },
     {
-      "id": "chatbot-02316",
+      "id": "chatbot-02310",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25479,7 +25413,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 97
     },
     {
-      "id": "chatbot-02317",
+      "id": "chatbot-02311",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25490,7 +25424,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 98
     },
     {
-      "id": "chatbot-02318",
+      "id": "chatbot-02312",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25501,7 +25435,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 99
     },
     {
-      "id": "chatbot-02319",
+      "id": "chatbot-02313",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25512,7 +25446,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 100
     },
     {
-      "id": "chatbot-02320",
+      "id": "chatbot-02314",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25523,7 +25457,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 101
     },
     {
-      "id": "chatbot-02321",
+      "id": "chatbot-02315",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25534,7 +25468,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 102
     },
     {
-      "id": "chatbot-02322",
+      "id": "chatbot-02316",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25545,7 +25479,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 103
     },
     {
-      "id": "chatbot-02323",
+      "id": "chatbot-02317",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25556,7 +25490,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 104
     },
     {
-      "id": "chatbot-02324",
+      "id": "chatbot-02318",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25567,7 +25501,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 105
     },
     {
-      "id": "chatbot-02325",
+      "id": "chatbot-02319",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25578,7 +25512,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 106
     },
     {
-      "id": "chatbot-02326",
+      "id": "chatbot-02320",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25589,7 +25523,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 107
     },
     {
-      "id": "chatbot-02327",
+      "id": "chatbot-02321",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25600,7 +25534,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 108
     },
     {
-      "id": "chatbot-02328",
+      "id": "chatbot-02322",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25611,7 +25545,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 109
     },
     {
-      "id": "chatbot-02329",
+      "id": "chatbot-02323",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25622,7 +25556,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 110
     },
     {
-      "id": "chatbot-02330",
+      "id": "chatbot-02324",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25633,7 +25567,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 111
     },
     {
-      "id": "chatbot-02331",
+      "id": "chatbot-02325",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25644,7 +25578,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 112
     },
     {
-      "id": "chatbot-02332",
+      "id": "chatbot-02326",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25655,7 +25589,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 113
     },
     {
-      "id": "chatbot-02333",
+      "id": "chatbot-02327",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25666,7 +25600,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 114
     },
     {
-      "id": "chatbot-02334",
+      "id": "chatbot-02328",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25677,7 +25611,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 115
     },
     {
-      "id": "chatbot-02335",
+      "id": "chatbot-02329",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25688,7 +25622,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 116
     },
     {
-      "id": "chatbot-02336",
+      "id": "chatbot-02330",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25699,7 +25633,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 117
     },
     {
-      "id": "chatbot-02337",
+      "id": "chatbot-02331",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25710,7 +25644,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 118
     },
     {
-      "id": "chatbot-02338",
+      "id": "chatbot-02332",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25721,7 +25655,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 119
     },
     {
-      "id": "chatbot-02339",
+      "id": "chatbot-02333",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25732,7 +25666,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 120
     },
     {
-      "id": "chatbot-02340",
+      "id": "chatbot-02334",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25743,7 +25677,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 121
     },
     {
-      "id": "chatbot-02341",
+      "id": "chatbot-02335",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25754,7 +25688,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 122
     },
     {
-      "id": "chatbot-02342",
+      "id": "chatbot-02336",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25765,7 +25699,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 123
     },
     {
-      "id": "chatbot-02343",
+      "id": "chatbot-02337",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25776,7 +25710,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 124
     },
     {
-      "id": "chatbot-02344",
+      "id": "chatbot-02338",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25787,7 +25721,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 125
     },
     {
-      "id": "chatbot-02345",
+      "id": "chatbot-02339",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25798,7 +25732,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 126
     },
     {
-      "id": "chatbot-02346",
+      "id": "chatbot-02340",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25809,7 +25743,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 127
     },
     {
-      "id": "chatbot-02347",
+      "id": "chatbot-02341",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25820,7 +25754,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 128
     },
     {
-      "id": "chatbot-02348",
+      "id": "chatbot-02342",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25831,7 +25765,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 129
     },
     {
-      "id": "chatbot-02349",
+      "id": "chatbot-02343",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "full",
@@ -25842,7 +25776,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 130
     },
     {
-      "id": "chatbot-02350",
+      "id": "chatbot-02344",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25853,7 +25787,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02351",
+      "id": "chatbot-02345",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25864,7 +25798,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02352",
+      "id": "chatbot-02346",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25875,7 +25809,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02353",
+      "id": "chatbot-02347",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25886,7 +25820,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02354",
+      "id": "chatbot-02348",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25897,7 +25831,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-02355",
+      "id": "chatbot-02349",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25908,7 +25842,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-02356",
+      "id": "chatbot-02350",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25919,7 +25853,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 7
     },
     {
-      "id": "chatbot-02357",
+      "id": "chatbot-02351",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25930,7 +25864,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 8
     },
     {
-      "id": "chatbot-02358",
+      "id": "chatbot-02352",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25941,7 +25875,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 9
     },
     {
-      "id": "chatbot-02359",
+      "id": "chatbot-02353",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25952,7 +25886,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 10
     },
     {
-      "id": "chatbot-02360",
+      "id": "chatbot-02354",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25963,7 +25897,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 11
     },
     {
-      "id": "chatbot-02361",
+      "id": "chatbot-02355",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25974,7 +25908,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 12
     },
     {
-      "id": "chatbot-02362",
+      "id": "chatbot-02356",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25985,7 +25919,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 13
     },
     {
-      "id": "chatbot-02363",
+      "id": "chatbot-02357",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -25996,7 +25930,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 14
     },
     {
-      "id": "chatbot-02364",
+      "id": "chatbot-02358",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26007,7 +25941,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 15
     },
     {
-      "id": "chatbot-02365",
+      "id": "chatbot-02359",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26018,7 +25952,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 16
     },
     {
-      "id": "chatbot-02366",
+      "id": "chatbot-02360",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26029,7 +25963,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 17
     },
     {
-      "id": "chatbot-02367",
+      "id": "chatbot-02361",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26040,7 +25974,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 18
     },
     {
-      "id": "chatbot-02368",
+      "id": "chatbot-02362",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26051,7 +25985,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 19
     },
     {
-      "id": "chatbot-02369",
+      "id": "chatbot-02363",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26062,7 +25996,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 20
     },
     {
-      "id": "chatbot-02370",
+      "id": "chatbot-02364",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26073,7 +26007,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 21
     },
     {
-      "id": "chatbot-02371",
+      "id": "chatbot-02365",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26084,7 +26018,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 22
     },
     {
-      "id": "chatbot-02372",
+      "id": "chatbot-02366",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26095,7 +26029,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 23
     },
     {
-      "id": "chatbot-02373",
+      "id": "chatbot-02367",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26106,7 +26040,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 24
     },
     {
-      "id": "chatbot-02374",
+      "id": "chatbot-02368",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26117,7 +26051,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 25
     },
     {
-      "id": "chatbot-02375",
+      "id": "chatbot-02369",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26128,7 +26062,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 26
     },
     {
-      "id": "chatbot-02376",
+      "id": "chatbot-02370",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26139,7 +26073,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 27
     },
     {
-      "id": "chatbot-02377",
+      "id": "chatbot-02371",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26150,7 +26084,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 28
     },
     {
-      "id": "chatbot-02378",
+      "id": "chatbot-02372",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26161,7 +26095,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 29
     },
     {
-      "id": "chatbot-02379",
+      "id": "chatbot-02373",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26172,7 +26106,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 30
     },
     {
-      "id": "chatbot-02380",
+      "id": "chatbot-02374",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26183,7 +26117,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 31
     },
     {
-      "id": "chatbot-02381",
+      "id": "chatbot-02375",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26194,7 +26128,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 32
     },
     {
-      "id": "chatbot-02382",
+      "id": "chatbot-02376",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26205,7 +26139,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 33
     },
     {
-      "id": "chatbot-02383",
+      "id": "chatbot-02377",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26216,7 +26150,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 34
     },
     {
-      "id": "chatbot-02384",
+      "id": "chatbot-02378",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26227,7 +26161,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 35
     },
     {
-      "id": "chatbot-02385",
+      "id": "chatbot-02379",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26238,7 +26172,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 36
     },
     {
-      "id": "chatbot-02386",
+      "id": "chatbot-02380",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26249,7 +26183,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 37
     },
     {
-      "id": "chatbot-02387",
+      "id": "chatbot-02381",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26260,7 +26194,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 38
     },
     {
-      "id": "chatbot-02388",
+      "id": "chatbot-02382",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26271,7 +26205,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 39
     },
     {
-      "id": "chatbot-02389",
+      "id": "chatbot-02383",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26282,7 +26216,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 40
     },
     {
-      "id": "chatbot-02390",
+      "id": "chatbot-02384",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26293,7 +26227,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 41
     },
     {
-      "id": "chatbot-02391",
+      "id": "chatbot-02385",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26304,7 +26238,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 42
     },
     {
-      "id": "chatbot-02392",
+      "id": "chatbot-02386",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26315,7 +26249,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 43
     },
     {
-      "id": "chatbot-02393",
+      "id": "chatbot-02387",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26326,7 +26260,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 44
     },
     {
-      "id": "chatbot-02394",
+      "id": "chatbot-02388",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26337,7 +26271,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 45
     },
     {
-      "id": "chatbot-02395",
+      "id": "chatbot-02389",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26348,7 +26282,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 46
     },
     {
-      "id": "chatbot-02396",
+      "id": "chatbot-02390",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26359,7 +26293,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 47
     },
     {
-      "id": "chatbot-02397",
+      "id": "chatbot-02391",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26370,7 +26304,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 48
     },
     {
-      "id": "chatbot-02398",
+      "id": "chatbot-02392",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26381,7 +26315,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 49
     },
     {
-      "id": "chatbot-02399",
+      "id": "chatbot-02393",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26392,7 +26326,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 50
     },
     {
-      "id": "chatbot-02400",
+      "id": "chatbot-02394",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26403,7 +26337,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 51
     },
     {
-      "id": "chatbot-02401",
+      "id": "chatbot-02395",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26414,7 +26348,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 52
     },
     {
-      "id": "chatbot-02402",
+      "id": "chatbot-02396",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26425,7 +26359,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 53
     },
     {
-      "id": "chatbot-02403",
+      "id": "chatbot-02397",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26436,7 +26370,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 54
     },
     {
-      "id": "chatbot-02404",
+      "id": "chatbot-02398",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26447,7 +26381,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 55
     },
     {
-      "id": "chatbot-02405",
+      "id": "chatbot-02399",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26458,7 +26392,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 56
     },
     {
-      "id": "chatbot-02406",
+      "id": "chatbot-02400",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26469,7 +26403,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 57
     },
     {
-      "id": "chatbot-02407",
+      "id": "chatbot-02401",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26480,7 +26414,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 58
     },
     {
-      "id": "chatbot-02408",
+      "id": "chatbot-02402",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26491,7 +26425,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 59
     },
     {
-      "id": "chatbot-02409",
+      "id": "chatbot-02403",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26502,7 +26436,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 60
     },
     {
-      "id": "chatbot-02410",
+      "id": "chatbot-02404",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26513,7 +26447,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 61
     },
     {
-      "id": "chatbot-02411",
+      "id": "chatbot-02405",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26524,7 +26458,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 62
     },
     {
-      "id": "chatbot-02412",
+      "id": "chatbot-02406",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26535,7 +26469,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 63
     },
     {
-      "id": "chatbot-02413",
+      "id": "chatbot-02407",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26546,7 +26480,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 64
     },
     {
-      "id": "chatbot-02414",
+      "id": "chatbot-02408",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26557,7 +26491,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 65
     },
     {
-      "id": "chatbot-02415",
+      "id": "chatbot-02409",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26568,7 +26502,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 66
     },
     {
-      "id": "chatbot-02416",
+      "id": "chatbot-02410",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26579,7 +26513,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 67
     },
     {
-      "id": "chatbot-02417",
+      "id": "chatbot-02411",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26590,7 +26524,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 68
     },
     {
-      "id": "chatbot-02418",
+      "id": "chatbot-02412",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26601,7 +26535,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 69
     },
     {
-      "id": "chatbot-02419",
+      "id": "chatbot-02413",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26612,7 +26546,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 70
     },
     {
-      "id": "chatbot-02420",
+      "id": "chatbot-02414",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26623,7 +26557,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 71
     },
     {
-      "id": "chatbot-02421",
+      "id": "chatbot-02415",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26634,7 +26568,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 72
     },
     {
-      "id": "chatbot-02422",
+      "id": "chatbot-02416",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26645,7 +26579,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 73
     },
     {
-      "id": "chatbot-02423",
+      "id": "chatbot-02417",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26656,7 +26590,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 74
     },
     {
-      "id": "chatbot-02424",
+      "id": "chatbot-02418",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26667,7 +26601,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 75
     },
     {
-      "id": "chatbot-02425",
+      "id": "chatbot-02419",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26678,7 +26612,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 76
     },
     {
-      "id": "chatbot-02426",
+      "id": "chatbot-02420",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26689,7 +26623,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 77
     },
     {
-      "id": "chatbot-02427",
+      "id": "chatbot-02421",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26700,7 +26634,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 78
     },
     {
-      "id": "chatbot-02428",
+      "id": "chatbot-02422",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26711,7 +26645,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 79
     },
     {
-      "id": "chatbot-02429",
+      "id": "chatbot-02423",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26722,7 +26656,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 80
     },
     {
-      "id": "chatbot-02430",
+      "id": "chatbot-02424",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26733,7 +26667,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 81
     },
     {
-      "id": "chatbot-02431",
+      "id": "chatbot-02425",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26744,7 +26678,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 82
     },
     {
-      "id": "chatbot-02432",
+      "id": "chatbot-02426",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26755,7 +26689,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 83
     },
     {
-      "id": "chatbot-02433",
+      "id": "chatbot-02427",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26766,7 +26700,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 84
     },
     {
-      "id": "chatbot-02434",
+      "id": "chatbot-02428",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26777,7 +26711,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 85
     },
     {
-      "id": "chatbot-02435",
+      "id": "chatbot-02429",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26788,7 +26722,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 86
     },
     {
-      "id": "chatbot-02436",
+      "id": "chatbot-02430",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26799,7 +26733,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 87
     },
     {
-      "id": "chatbot-02437",
+      "id": "chatbot-02431",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "translation",
@@ -26810,7 +26744,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 88
     },
     {
-      "id": "chatbot-02438",
+      "id": "chatbot-02432",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -26821,7 +26755,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02439",
+      "id": "chatbot-02433",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -26832,7 +26766,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02440",
+      "id": "chatbot-02434",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -26843,7 +26777,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02441",
+      "id": "chatbot-02435",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -26854,7 +26788,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02442",
+      "id": "chatbot-02436",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -26865,7 +26799,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-02443",
+      "id": "chatbot-02437",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "concepts",
@@ -26876,7 +26810,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-02444",
+      "id": "chatbot-02438",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -26887,7 +26821,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02445",
+      "id": "chatbot-02439",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -26898,7 +26832,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02446",
+      "id": "chatbot-02440",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -26909,7 +26843,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02447",
+      "id": "chatbot-02441",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -26920,7 +26854,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02448",
+      "id": "chatbot-02442",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -26931,7 +26865,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 5
     },
     {
-      "id": "chatbot-02449",
+      "id": "chatbot-02443",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "pitfalls",
@@ -26942,7 +26876,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 6
     },
     {
-      "id": "chatbot-02450",
+      "id": "chatbot-02444",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -26953,7 +26887,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02451",
+      "id": "chatbot-02445",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -26964,7 +26898,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 2
     },
     {
-      "id": "chatbot-02452",
+      "id": "chatbot-02446",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -26975,7 +26909,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 3
     },
     {
-      "id": "chatbot-02453",
+      "id": "chatbot-02447",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "review-sheet",
@@ -26986,7 +26920,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 4
     },
     {
-      "id": "chatbot-02454",
+      "id": "chatbot-02448",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -26997,7 +26931,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02455",
+      "id": "chatbot-02449",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27008,7 +26942,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02456",
+      "id": "chatbot-02450",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27019,7 +26953,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02457",
+      "id": "chatbot-02451",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27030,7 +26964,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02458",
+      "id": "chatbot-02452",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27041,7 +26975,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02459",
+      "id": "chatbot-02453",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27052,7 +26986,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02460",
+      "id": "chatbot-02454",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27063,7 +26997,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02461",
+      "id": "chatbot-02455",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27074,7 +27008,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02462",
+      "id": "chatbot-02456",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27085,7 +27019,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02463",
+      "id": "chatbot-02457",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27096,7 +27030,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02464",
+      "id": "chatbot-02458",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27107,7 +27041,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02465",
+      "id": "chatbot-02459",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27118,7 +27052,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02466",
+      "id": "chatbot-02460",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27129,7 +27063,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02467",
+      "id": "chatbot-02461",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",
@@ -27140,7 +27074,7 @@ window.AA_CHATBOT_CORPUS={
       "order": 1
     },
     {
-      "id": "chatbot-02468",
+      "id": "chatbot-02462",
       "slug": "wagner-et-al-2016",
       "readingTitle": "Personality Trait Development at the End of Life: Antecedents and Correlates of Mean-Level Trajectories",
       "pageKey": "professor-prep",

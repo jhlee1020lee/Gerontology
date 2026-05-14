@@ -57,8 +57,8 @@
       "quiz-short"
     ],
     "approved_page_hashes": {
-      "full": "6b346613b3ff6bc869e5512f49ccecf0d437e6e4",
-      "translation": "85c89fff90b7d4519d0ad826b83e747c3de6c83f",
+      "full": "5c6447ae783b641b45b466e5dfd28804abb66f20",
+      "translation": "0ef3b428944f016d9f6b71abfe61bdf688fc86a4",
       "summary": "1638406525aaf968f14a2673a32a43e8a0d22e7c",
       "concepts": "b4b14eaead362605bf60826d6e09e975c5b94b2b",
       "pitfalls": "00fbc76cb05a1efb42a694e536b1a2a2f674ae53",
@@ -69,7 +69,7 @@
       "quiz-short": "60204b696e702ab8f32b0a30c3959c0131574a23"
     },
     "reviewer": "codex",
-    "reviewed_at": "2026-05-06",
+    "reviewed_at": "2026-05-14",
     "notes": [
       "Reviewed and approved the source full page for Stage 1.",
       "Reviewed and approved the source translation page after completing the full Korean translation.",
@@ -80,12 +80,13 @@
       "2026-05-05 Stage 3 pitfalls pass: rebuilt pitfalls.md around seven paper-specific traps: overindividualization, snapshot reading, loose destandardization, overreading unretirement, choice-only diversity, averaged-away advantage, and causal overclaiming.",
       "2026-05-05 Stage 3 review-sheet pass: rebuilt review-sheet.md as seven exam-prep blocks covering thesis, method/data, three destandardization criteria, balanced results, stratification, oral-answer lines, and final checks.",
       "2026-05-06 professor-prep reading-lens refresh: revised answer_30s openings so oral answers begin with how the student read the text or what they focused on, then preserve concrete reading anchors.",
-      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses."
+      "2026-05-06 professor-prep refinement: replaced repeated generic opening frames with card-title-specific reading lenses.",
+      "2026-05-14 Stage 1/2 figure-table pass: cropped and embedded original Table 1, Figure 1, Table 2, Table 3, and Figure 2 into full.md and translation.md; removed placeholder/table-summary stand-ins; approved the updated source hashes after visual and schema review."
     ],
     "blocked_reason": ""
   },
   "validation_status": {
-    "updated_at": "2026-05-14T02:12:04.356Z",
+    "updated_at": "2026-05-14T02:40:26.425Z",
     "require_built_artifacts": false,
     "landing": {
       "status": "schema_pass",
@@ -103,51 +104,47 @@
       "full": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "full text appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 7740,
+          "word_count": 7063,
           "section_count": 11,
-          "sub_section_count": 21,
+          "sub_section_count": 16,
           "bullet_count": 0,
           "level2_heading_count": 11,
           "level3_heading_count": 16,
           "level4_heading_count": 0,
-          "figure_count": 0,
-          "paragraph_count": 366,
+          "figure_count": 5,
+          "paragraph_count": 177,
           "level2_section_count": 11,
           "empty_level2_sections": [],
           "last_level2_title": "References",
-          "figure_label_line_count": 6
+          "figure_label_line_count": 1
         }
       },
       "translation": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "translation appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 6086,
-          "section_count": 18,
+          "word_count": 5539,
+          "section_count": 13,
           "sub_section_count": 14,
-          "bullet_count": 59,
-          "full_word_count": 7740,
-          "translation_ratio": 0.786,
+          "bullet_count": 44,
+          "full_word_count": 7063,
+          "translation_ratio": 0.784,
           "level2_heading_count": 13,
           "level3_heading_count": 14,
           "level4_heading_count": 2,
-          "figure_count": 0,
-          "paragraph_count": 79,
+          "figure_count": 5,
+          "paragraph_count": 71,
           "level2_section_count": 13,
           "empty_level2_sections": [],
           "last_level2_title": "참고문헌",
-          "figure_label_line_count": 9,
+          "figure_label_line_count": 3,
           "full_level2_heading_count": 11,
           "full_level3_heading_count": 16,
           "full_level4_heading_count": 0,
-          "full_figure_count": 0,
+          "full_figure_count": 5,
           "full_reference_word_count": 988,
           "translation_reference_word_count": 960,
           "translation_reference_ratio": 0.972,
@@ -288,51 +285,47 @@
       "full": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "full text appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 7740,
+          "word_count": 7063,
           "section_count": 11,
-          "sub_section_count": 21,
+          "sub_section_count": 16,
           "bullet_count": 0,
           "level2_heading_count": 11,
           "level3_heading_count": 16,
           "level4_heading_count": 0,
-          "figure_count": 0,
-          "paragraph_count": 366,
+          "figure_count": 5,
+          "paragraph_count": 177,
           "level2_section_count": 11,
           "empty_level2_sections": [],
           "last_level2_title": "References",
-          "figure_label_line_count": 6
+          "figure_label_line_count": 1
         }
       },
       "translation": {
         "status": "approved",
         "errors": [],
-        "warnings": [
-          "translation appears to contain standalone figure/table labels without matching direct image inserts"
-        ],
+        "warnings": [],
         "metrics": {
-          "word_count": 6086,
-          "section_count": 18,
+          "word_count": 5539,
+          "section_count": 13,
           "sub_section_count": 14,
-          "bullet_count": 59,
-          "full_word_count": 7740,
-          "translation_ratio": 0.786,
+          "bullet_count": 44,
+          "full_word_count": 7063,
+          "translation_ratio": 0.784,
           "level2_heading_count": 13,
           "level3_heading_count": 14,
           "level4_heading_count": 2,
-          "figure_count": 0,
-          "paragraph_count": 79,
+          "figure_count": 5,
+          "paragraph_count": 71,
           "level2_section_count": 13,
           "empty_level2_sections": [],
           "last_level2_title": "참고문헌",
-          "figure_label_line_count": 9,
+          "figure_label_line_count": 3,
           "full_level2_heading_count": 11,
           "full_level3_heading_count": 16,
           "full_level4_heading_count": 0,
-          "full_figure_count": 0,
+          "full_figure_count": 5,
           "full_reference_word_count": 988,
           "translation_reference_word_count": 960,
           "translation_reference_ratio": 0.972,

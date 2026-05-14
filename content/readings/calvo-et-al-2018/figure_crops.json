@@ -1,0 +1,42 @@
+[
+  {
+    "source": "page-04.png",
+    "output": "table-1.png",
+    "x": 672,
+    "y": 1000,
+    "width": 542,
+    "height": 606
+  },
+  {
+    "source": "page-06.png",
+    "output": "figure-1.png",
+    "x": 250,
+    "y": 114,
+    "width": 825,
+    "height": 590
+  },
+  {
+    "source": "page-07.png",
+    "output": "table-2.png",
+    "x": 120,
+    "y": 120,
+    "width": 1070,
+    "height": 940
+  },
+  {
+    "source": "page-08.png",
+    "output": "table-3.png",
+    "x": 120,
+    "y": 120,
+    "width": 1070,
+    "height": 485
+  },
+  {
+    "source": "page-08.png",
+    "output": "figure-2.png",
+    "x": 252,
+    "y": 630,
+    "width": 800,
+    "height": 595
+  }
+]
